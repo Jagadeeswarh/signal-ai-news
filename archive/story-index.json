@@ -1,0 +1,917 @@
+{
+  "schema_version": 1,
+  "repository": "Jagadeeswarh/signal-ai-news",
+  "branch": "main",
+  "created_at": "2026-10-29T08:33:00+05:30",
+  "last_updated_at": "2026-10-29T08:33:00+05:30",
+  "bootstrap_status": "Historical bootstrap from root homepage and all three dated/source-checked archive HTML files visible in archive/index.html, plus the 2026-10-28 standalone edition delivered in this conversation. Semantic coverage is best-effort; this does not claim that unavailable or unlisted editions elsewhere were checked.",
+  "editions": [
+    {
+      "date": "2026-10-28",
+      "path": "index.html",
+      "kind": "root homepage snapshot at bootstrap"
+    },
+    {
+      "date": "2026-10-28",
+      "path": "archive/2026-10-28.html",
+      "kind": "preserved prototype snapshot"
+    },
+    {
+      "date": "2026-10-28",
+      "path": "archive/2026-10-28-current.html",
+      "kind": "first source-checked build"
+    },
+    {
+      "date": "2026-10-28",
+      "path": "archive/2026-10-28-current-v2.html",
+      "kind": "latest source-checked repository issue at bootstrap"
+    },
+    {
+      "date": "2026-10-28",
+      "path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "kind": "standalone edition delivered in chat; not confirmed in repository archive"
+    }
+  ],
+  "stories": [
+    {
+      "story_id": "event-google-deepmind-wants-ai-to-build-worlds-you-can-step-inside",
+      "normalized_subject": "google deepmind wants ai to build worlds you can step inside",
+      "event_summary": "Google DeepMind wants AI to build worlds you can step inside",
+      "normalized_headline": "Google DeepMind wants AI to build worlds you can step inside",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google DeepMind · Company announcement · 27 Oct",
+        "02 · Google DeepMind · Research announcement · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-gpt-6-1-terra-targets-high-volume-computer-use-work",
+      "normalized_subject": "gpt-6.1 terra targets high-volume computer-use work",
+      "event_summary": "GPT-6.1 Terra targets high-volume computer-use work",
+      "normalized_headline": "GPT-6.1 Terra targets high-volume computer-use work",
+      "canonical_urls": [
+        "https://openai.com/index/introducing-gpt-6-1-terra/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html",
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "01 · OpenAI · Product release · 26 Oct",
+        "OpenAI · Product release · 27 Oct",
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-apple-adds-ai-assistants-and-mcp-support-to-creator-studio-apps",
+      "normalized_subject": "apple adds ai assistants and mcp support to creator studio apps",
+      "event_summary": "Apple adds AI assistants and MCP support to Creator Studio apps",
+      "normalized_headline": "Apple adds AI assistants and MCP support to Creator Studio apps",
+      "canonical_urls": [
+        "https://www.apple.com/ca/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "02 · Apple · Creator tools and developer integrations · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-openai-and-oracle-bring-enterprise-apps-into-chatgpt",
+      "normalized_subject": "openai and oracle bring enterprise apps into chatgpt",
+      "event_summary": "OpenAI and Oracle bring enterprise apps into ChatGPT",
+      "normalized_headline": "OpenAI and Oracle bring enterprise apps into ChatGPT",
+      "canonical_urls": [
+        "https://openai.com/index/oracle-apps-in-chatgpt/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "03 · OpenAI · Enterprise partnership · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-openai-may-buy-more-of-google-s-ai-chips-reuters-reports",
+      "normalized_subject": "openai may buy more of google’s ai chips, reuters reports",
+      "event_summary": "OpenAI may buy more of Google’s AI chips, Reuters reports",
+      "normalized_headline": "OpenAI may buy more of Google’s AI chips, Reuters reports",
+      "canonical_urls": [
+        "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html",
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "04 · Reuters · Report attributed to The Information · 28 Oct",
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-anthropic-files-registration-for-a-proposed-ipo",
+      "normalized_subject": "anthropic files registration for a proposed ipo",
+      "event_summary": "Anthropic files registration for a proposed IPO",
+      "normalized_headline": "Anthropic files registration for a proposed IPO",
+      "canonical_urls": [
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "05 · U.S. SEC · Filing · 26 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-liquid-ai-s-lfm3-family-targets-specialized-multimodal-models",
+      "normalized_subject": "liquid ai’s lfm3 family targets specialized multimodal models",
+      "event_summary": "Liquid AI’s LFM3 family targets specialized multimodal models",
+      "normalized_headline": "Liquid AI’s LFM3 family targets specialized multimodal models",
+      "canonical_urls": [
+        "https://www.liquid.ai/blog/lfm3"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html",
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "06 · Liquid AI · Model release · 27 Oct",
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-opera-s-webai-preview-brings-local-inference-into-the-browser",
+      "normalized_subject": "opera’s webai preview brings local inference into the browser",
+      "event_summary": "Opera’s WebAI preview brings local inference into the browser",
+      "normalized_headline": "Opera’s WebAI preview brings local inference into the browser",
+      "canonical_urls": [
+        "https://blogs.opera.com/news/2026/10/webai-local-ai-for-the-web-now-in-opera/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "07 · Opera · Developer platform preview · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-copilot-adds-more-continuous-agent-sessions-across-clients",
+      "normalized_subject": "copilot adds more continuous agent sessions across clients",
+      "event_summary": "Copilot adds more continuous agent sessions across clients",
+      "normalized_headline": "Copilot adds more continuous agent sessions across clients",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "08 · GitHub · Copilot and VS Code updates · 28 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-copilot-sdk-adds-server-to-server-authentication-for-github-apps",
+      "normalized_subject": "copilot sdk adds server-to-server authentication for github apps",
+      "event_summary": "Copilot SDK adds server-to-server authentication for GitHub Apps",
+      "normalized_headline": "Copilot SDK adds server-to-server authentication for GitHub Apps",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "09 · GitHub · Public preview · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-copilot-assisted-permissions-become-generally-available",
+      "normalized_subject": "copilot assisted permissions become generally available",
+      "event_summary": "Copilot assisted permissions become generally available",
+      "normalized_headline": "Copilot assisted permissions become generally available",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "10 · GitHub · General availability · 26 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-anthropic-outlines-early-work-on-ai-assisted-drug-development",
+      "normalized_subject": "anthropic outlines early work on ai-assisted drug development",
+      "event_summary": "Anthropic outlines early work on AI-assisted drug development",
+      "normalized_headline": "Anthropic outlines early work on AI-assisted drug development",
+      "canonical_urls": [
+        "https://www.anthropic.com/research/early-progress-drug-development"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "11 · Anthropic · Research update · 27 Oct",
+        "Anthropic · Research update · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-anthropic-expands-claude-access-through-the-u-s-gsa",
+      "normalized_subject": "anthropic expands claude access through the u.s. gsa",
+      "event_summary": "Anthropic expands Claude access through the U.S. GSA",
+      "normalized_headline": "Anthropic expands Claude access through the U.S. GSA",
+      "canonical_urls": [
+        "https://www.anthropic.com/news/expanding-partnership-gsa"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "12 · Anthropic · Government partnership · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-openai-publishes-ai-assisted-mathematical-computer-science-and-physics-results",
+      "normalized_subject": "openai publishes ai-assisted mathematical, computer-science and physics results",
+      "event_summary": "OpenAI publishes AI-assisted mathematical, computer-science and physics results",
+      "normalized_headline": "OpenAI publishes AI-assisted mathematical, computer-science and physics results",
+      "canonical_urls": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "13 · OpenAI · Research publication · 26 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-openai-describes-stronger-containment-for-frontier-model-training",
+      "normalized_subject": "openai describes stronger containment for frontier-model training",
+      "event_summary": "OpenAI describes stronger containment for frontier-model training",
+      "normalized_headline": "OpenAI describes stronger containment for frontier-model training",
+      "canonical_urls": [
+        "https://openai.com/index/securing-our-frontier-model-training-environment/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "14 · OpenAI · Security · 23 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-sk-hynix-reports-record-results-as-ai-memory-demand-strains-supply",
+      "normalized_subject": "sk hynix reports record results as ai-memory demand strains supply",
+      "event_summary": "SK Hynix reports record results as AI-memory demand strains supply",
+      "normalized_headline": "SK Hynix reports record results as AI-memory demand strains supply",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/sk-hynix-q3-profit-jumps-more-than-7-fold-beats-forecasts-2026-10-27/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "15 · Reuters · Earnings report · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-apple-launches-m6-macbook-pro-and-imac-with-on-device-ai-messaging",
+      "normalized_subject": "apple launches m6 macbook pro and imac with on-device ai messaging",
+      "event_summary": "Apple launches M6 MacBook Pro and iMac with on-device AI messaging",
+      "normalized_headline": "Apple launches M6 MacBook Pro and iMac with on-device AI messaging",
+      "canonical_urls": [
+        "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+        "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "16 · Apple · Hardware announcements · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-siri-ai-expands-to-more-languages",
+      "normalized_subject": "siri ai expands to more languages",
+      "event_summary": "Siri AI expands to more languages",
+      "normalized_headline": "Siri AI expands to more languages",
+      "canonical_urls": [
+        "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "17 · Apple · Software update · 26 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-bank-of-america-warns-customers-not-to-give-passwords-to-ai-agents",
+      "normalized_subject": "bank of america warns customers not to give passwords to ai agents",
+      "event_summary": "Bank of America warns customers not to give passwords to AI agents",
+      "normalized_headline": "Bank of America warns customers not to give passwords to AI agents",
+      "canonical_urls": [
+        "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "18 · TechCrunch · Security reporting · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-parents-sue-openai-over-alleged-medication-advice-from-chatgpt",
+      "normalized_subject": "parents sue openai over alleged medication advice from chatgpt",
+      "event_summary": "Parents sue OpenAI over alleged medication advice from ChatGPT",
+      "normalized_headline": "Parents sue OpenAI over alleged medication advice from ChatGPT",
+      "canonical_urls": [
+        "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "19 · TechCrunch · Legal reporting · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-chatgpt-ads-expands-to-26-more-countries",
+      "normalized_subject": "chatgpt ads expands to 26 more countries",
+      "event_summary": "ChatGPT Ads expands to 26 more countries",
+      "normalized_headline": "ChatGPT Ads expands to 26 more countries",
+      "canonical_urls": [
+        "https://openai.com/index/chatgpt-ads-expands-26-new-countries/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "index.html",
+      "edition_paths": [
+        "index.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "20 · OpenAI · Product update · 21 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-google-deepmind-wants-ai-to-build-worlds-you-can-step-inside",
+      "normalized_subject": "google deepmind wants ai to build worlds you can step inside",
+      "event_summary": "Google DeepMind wants AI to build worlds you can step inside",
+      "normalized_headline": "Google DeepMind wants AI to build worlds you can step inside",
+      "canonical_urls": [
+        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "archive/2026-10-28.html",
+      "edition_paths": [
+        "archive/2026-10-28.html",
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google DeepMind · Company announcement · 27 Oct",
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-apple-s-m6-launch-puts-on-device-ai-back-in-focus",
+      "normalized_subject": "apple's m6 launch puts on-device ai back in focus",
+      "event_summary": "Apple's M6 launch puts on-device AI back in focus",
+      "normalized_headline": "Apple's M6 launch puts on-device AI back in focus",
+      "canonical_urls": [
+        "https://www.reuters.com/business/retail-consumer/apple-launches-m6-macbook-pro-imac-pitches-faster-on-device-ai-2026-10-27/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "archive/2026-10-28.html",
+      "edition_paths": [
+        "archive/2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Apple · Hardware · 27 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-cadence-unveils-ai-models-built-for-chip-design-workflows",
+      "normalized_subject": "cadence unveils ai models built for chip-design workflows",
+      "event_summary": "Cadence unveils AI models built for chip-design workflows",
+      "normalized_headline": "Cadence unveils AI models built for chip-design workflows",
+      "canonical_urls": [
+        "https://www.reuters.com/business/cadence-unveils-nvidia-backed-ai-models-that-chipmakers-can-run-in-house-2026-10-26/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "archive/2026-10-28.html",
+      "edition_paths": [
+        "archive/2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Cadence · Chip design · 26 Oct"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-openai-shares-ai-assisted-results-in-mathematics-and-physics-for-researchers-to-check",
+      "normalized_subject": "openai shares ai-assisted results in mathematics and physics for researchers to check",
+      "event_summary": "OpenAI shares AI-assisted results in mathematics and physics for researchers to check",
+      "normalized_headline": "OpenAI shares AI-assisted results in mathematics and physics for researchers to check",
+      "canonical_urls": [
+        "https://openai.com/research/index/publication/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "archive/2026-10-28.html",
+      "edition_paths": [
+        "archive/2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI · Research · 26 Oct",
+        "Industry watch · Security"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-nvidia-and-oracle-plan-a-multi-gigawatt-vera-rubin-expansion",
+      "normalized_subject": "nvidia and oracle plan a multi-gigawatt vera rubin expansion",
+      "event_summary": "NVIDIA and Oracle plan a multi-gigawatt Vera Rubin expansion",
+      "normalized_headline": "NVIDIA and Oracle plan a multi-gigawatt Vera Rubin expansion",
+      "canonical_urls": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Oracle-Expand-NVIDIA-Vera-Rubin-to-Multi-Gigawatt-Scale-and-Bring-NVIDIA-Vera-CPU-to-Oracle-Cloud-Infrastructure/default.aspx",
+        "https://www.oracle.com/news/announcement/ai-world-nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-2026-10-27/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-anthropic-s-ipo-disclosures-put-model-testing-security-and-governance-under-scrutiny",
+      "normalized_subject": "anthropic’s ipo disclosures put model-testing security and governance under scrutiny",
+      "event_summary": "Anthropic’s IPO disclosures put model-testing security and governance under scrutiny",
+      "normalized_headline": "Anthropic’s IPO disclosures put model-testing security and governance under scrutiny",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/litigation/anthropic-discloses-month-long-training-pause-ai-security-breaches-ipo-filing-2026-10-26/",
+        "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-independent-tests-find-shutdown-compliance-gaps-in-deepseek-v4-1-flash",
+      "normalized_subject": "independent tests find shutdown-compliance gaps in deepseek v4.1 flash",
+      "event_summary": "Independent tests find shutdown-compliance gaps in DeepSeek V4.1 Flash",
+      "normalized_headline": "Independent tests find shutdown-compliance gaps in DeepSeek V4.1 Flash",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/deepseek-ai-model-shows-safety-gaps-independent-tests-2026-10-27/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-akamai-adds-managed-inference-and-an-isolated-agent-execution-sandbox",
+      "normalized_subject": "akamai adds managed inference and an isolated agent execution sandbox",
+      "event_summary": "Akamai adds managed inference and an isolated agent execution sandbox",
+      "normalized_headline": "Akamai adds managed inference and an isolated agent execution sandbox",
+      "canonical_urls": [
+        "https://www.ir.akamai.com/news-releases/news-release-details/akamai-launches-ai-inference-service-and-agent-execution"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-gemini-robotics-er-2-enters-public-preview-on-google-cloud",
+      "normalized_subject": "gemini robotics er 2 enters public preview on google cloud",
+      "event_summary": "Gemini Robotics ER 2 enters public preview on Google Cloud",
+      "normalized_headline": "Gemini Robotics ER 2 enters public preview on Google Cloud",
+      "canonical_urls": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-nvidia-and-meta-deepen-work-on-muse-reuters-reports-a-3-billion-investment",
+      "normalized_subject": "nvidia and meta deepen work on muse; reuters reports a $3 billion investment",
+      "event_summary": "NVIDIA and Meta deepen work on Muse; Reuters reports a $3 billion investment",
+      "normalized_headline": "NVIDIA and Meta deepen work on Muse; Reuters reports a $3 billion investment",
+      "canonical_urls": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Meta-to-Expand-Collaboration-on-Muse-and-Muse-Family-of-Models-Amid-Robust-Growth/default.aspx",
+        "https://www.reuters.com/technology/nvidia-meta-partner-muse-agent-nvidia-invests-3-billion-2026-10-27/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-cadence-unveils-maestro-models-specialized-for-chip-and-system-design",
+      "normalized_subject": "cadence unveils maestro models specialized for chip and system design",
+      "event_summary": "Cadence unveils Maestro models specialized for chip and system design",
+      "normalized_headline": "Cadence unveils Maestro models specialized for chip and system design",
+      "canonical_urls": [
+        "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html",
+        "https://www.reuters.com/business/cadence-unveils-nvidia-backed-ai-models-that-chipmakers-can-run-in-house-2026-10-26/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-property-finder-finds-its-vision-model-benchmark-was-biased-toward-the-incumbent",
+      "normalized_subject": "property finder finds its vision-model benchmark was biased toward the incumbent",
+      "event_summary": "Property Finder finds its vision-model benchmark was biased toward the incumbent",
+      "normalized_headline": "Property Finder finds its vision-model benchmark was biased toward the incumbent",
+      "canonical_urls": [
+        "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-china-s-cxmt-prepares-limited-hbm3e-production-despite-low-yields",
+      "normalized_subject": "china’s cxmt prepares limited hbm3e production despite low yields",
+      "event_summary": "China’s CXMT prepares limited HBM3E production despite low yields",
+      "normalized_headline": "China’s CXMT prepares limited HBM3E production despite low yields",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/chinas-cxmt-start-advanced-ai-memory-production-despite-poor-yields-sources-say-2026-10-28/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-neocloud-firm-argentum-ai-reportedly-seeks-5-billion-in-chip-financing",
+      "normalized_subject": "neocloud firm argentum ai reportedly seeks $5 billion in chip financing",
+      "event_summary": "Neocloud firm Argentum AI reportedly seeks $5 billion in chip financing",
+      "normalized_headline": "Neocloud firm Argentum AI reportedly seeks $5 billion in chip financing",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/neocloud-firm-argentum-ai-talks-5-billion-ai-chip-financing-sources-say-2026-10-27/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-rime-launches-prism-a-composable-speech-to-speech-model-for-enterprise-voice-agents",
+      "normalized_subject": "rime launches prism, a composable speech-to-speech model for enterprise voice agents",
+      "event_summary": "Rime launches Prism, a composable speech-to-speech model for enterprise voice agents",
+      "normalized_headline": "Rime launches Prism, a composable speech-to-speech model for enterprise voice agents",
+      "canonical_urls": [
+        "https://www.rime.ai/resources/prism-first-speech-to-speech-for-enterprise"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-sagemaker-adds-lazy-loading-for-large-training-and-processing-container-images",
+      "normalized_subject": "sagemaker adds lazy-loading for large training and processing container images",
+      "event_summary": "SageMaker adds lazy-loading for large training and processing container images",
+      "normalized_headline": "SageMaker adds lazy-loading for large training and processing container images",
+      "canonical_urls": [
+        "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-ai-driven-mathematics-is-renewing-debate-about-long-term-cryptography-risk",
+      "normalized_subject": "ai-driven mathematics is renewing debate about long-term cryptography risk",
+      "event_summary": "AI-driven mathematics is renewing debate about long-term cryptography risk",
+      "normalized_headline": "AI-driven mathematics is renewing debate about long-term cryptography risk",
+      "canonical_urls": [
+        "https://www.ft.com/content/694dbd7b-7096-47fe-b134-5275a1fb7b87"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-indian-gpu-infrastructure-providers-report-sharp-growth-as-ai-capacity-demand-rises",
+      "normalized_subject": "indian gpu infrastructure providers report sharp growth as ai capacity demand rises",
+      "event_summary": "Indian GPU infrastructure providers report sharp growth as AI capacity demand rises",
+      "normalized_headline": "Indian GPU infrastructure providers report sharp growth as AI capacity demand rises",
+      "canonical_urls": [
+        "https://www.financialexpress.com/market/stock-insights/rs-1000-cr-ai-deal-334-8-profit-growth-2-stocks-riding-indias-gpu-boom/4370716/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-malaysia-says-it-seized-12-1-million-worth-of-advanced-ai-chips",
+      "normalized_subject": "malaysia says it seized $12.1 million worth of advanced ai chips",
+      "event_summary": "Malaysia says it seized $12.1 million worth of advanced AI chips",
+      "normalized_headline": "Malaysia says it seized $12.1 million worth of advanced AI chips",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/ai-chips-worth-121-million-seized-malaysia-airport-customs-authority-says-2026-10-28/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-munich-taxi-operator-and-tensor-plan-up-to-500-autonomous-taxis",
+      "normalized_subject": "munich taxi operator and tensor plan up to 500 autonomous taxis",
+      "event_summary": "Munich taxi operator and Tensor plan up to 500 autonomous taxis",
+      "normalized_headline": "Munich taxi operator and Tensor plan up to 500 autonomous taxis",
+      "canonical_urls": [
+        "https://www.reuters.com/business/german-taxi-operator-mtz-deploy-up-500-autonomous-taxis-under-tensor-deal-2026-10-27/"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-10-28",
+      "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+      "edition_paths": [
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "2026-10-28 delivered standalone issue"
+      ],
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    }
+  ]
+}
