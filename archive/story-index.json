@@ -4,7 +4,7 @@
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
   "last_updated_at": "2026-10-29T08:33:00+05:30",
-  "bootstrap_status": "Historical bootstrap from root homepage and all three dated/source-checked archive HTML files visible in archive/index.html, plus the 2026-10-28 standalone edition delivered in this conversation. Semantic coverage is best-effort; this does not claim that unavailable or unlisted editions elsewhere were checked.",
+  "bootstrap_status": "Historical bootstrap from root homepage and all three archive HTML files listed in the archive index, plus the 2026-10-28 standalone edition delivered in chat. The 2026-10-29 edition was added only after its dated HTML file was written and verified. Semantic coverage is best-effort; this does not claim unavailable or unlisted editions elsewhere were checked.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -30,6 +30,11 @@
       "date": "2026-10-28",
       "path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
       "kind": "standalone edition delivered in chat; not confirmed in repository archive"
+    },
+    {
+      "date": "2026-10-29",
+      "path": "archive/2026-10-29.html",
+      "kind": "source-checked daily issue; historical registry checked; one explicit follow-up"
     }
   ],
   "stories": [
@@ -912,6 +917,373 @@
         "2026-10-28 delivered standalone issue"
       ],
       "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+    },
+    {
+      "story_id": "event-gemini-4-carbon-targets-long-running-coding-and-cybersecurity-work",
+      "normalized_subject": "gemini 4 carbon targets long-running coding and cybersecurity work",
+      "event_summary": "Gemini 4 Carbon targets long-running coding and cybersecurity work",
+      "normalized_headline": "Gemini 4 Carbon targets long-running coding and cybersecurity work",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2026-10-28/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-microsoft-opens-its-copilot-agent-harness-to-foundry-developers",
+      "normalized_subject": "microsoft opens its copilot agent harness to foundry developers",
+      "event_summary": "Microsoft opens its Copilot agent harness to Foundry developers",
+      "normalized_headline": "Microsoft opens its Copilot agent harness to Foundry developers",
+      "canonical_urls": [
+        "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+        "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-google-cloud-doubles-revenue-as-alphabet-s-ai-build-out-strains-cash-flow",
+      "normalized_subject": "google cloud doubles revenue as alphabet’s ai build-out strains cash flow",
+      "event_summary": "Google Cloud doubles revenue as Alphabet’s AI build-out strains cash flow",
+      "normalized_headline": "Google Cloud doubles revenue as Alphabet’s AI build-out strains cash flow",
+      "canonical_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-microsoft-s-azure-growth-reaches-48-while-cash-flow-beats-expectations",
+      "normalized_subject": "microsoft’s azure growth reaches 48% while cash flow beats expectations",
+      "event_summary": "Microsoft’s Azure growth reaches 48% while cash flow beats expectations",
+      "normalized_headline": "Microsoft’s Azure growth reaches 48% while cash flow beats expectations",
+      "canonical_urls": [
+        "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+        "https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-sap-is-swapping-some-expensive-ai-models-for-cheaper-ones",
+      "normalized_subject": "sap is swapping some expensive ai models for cheaper ones",
+      "event_summary": "SAP is swapping some expensive AI models for cheaper ones",
+      "normalized_headline": "SAP is swapping some expensive AI models for cheaper ones",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/sap-swaps-costly-ai-models-for-cheaper-alternatives-2026-10-28/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-deepseek-and-moonshot-reportedly-used-gpt-6-astra-outputs-to-train-models",
+      "normalized_subject": "deepseek and moonshot reportedly used gpt-6 astra outputs to train models",
+      "event_summary": "DeepSeek and Moonshot reportedly used GPT-6 Astra outputs to train models",
+      "normalized_headline": "DeepSeek and Moonshot reportedly used GPT-6 Astra outputs to train models",
+      "canonical_urls": [
+        "https://www.reuters.com/technology/deepseek-moonshot-used-openais-gpt-6-astra-train-latest-models-information-2026-10-29/"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-new-york-signs-a-law-restricting-unsafe-ai-companion-features-for-minors",
+      "normalized_subject": "new york signs a law restricting unsafe ai companion features for minors",
+      "event_summary": "New York signs a law restricting unsafe AI companion features for minors",
+      "normalized_headline": "New York signs a law restricting unsafe AI companion features for minors",
+      "canonical_urls": [
+        "https://apnews.com/article/chatbots-ai-new-york-legislation-bans-children-03a4e090a7df1532838a5cb6f93a23ba"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-alexa-begins-rolling-out-in-japan-with-locally-tuned-conversational-actions",
+      "normalized_subject": "alexa+ begins rolling out in japan with locally tuned conversational actions",
+      "event_summary": "Alexa+ begins rolling out in Japan with locally tuned conversational actions",
+      "normalized_headline": "Alexa+ begins rolling out in Japan with locally tuned conversational actions",
+      "canonical_urls": [
+        "https://www.aboutamazon.jp/news/devices/amazon-launches-alexa-plus-in-japan"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-marvell-is-in-advanced-talks-to-buy-optics-maker-lumentum",
+      "normalized_subject": "marvell is in advanced talks to buy optics maker lumentum",
+      "event_summary": "Marvell is in advanced talks to buy optics maker Lumentum",
+      "normalized_headline": "Marvell is in advanced talks to buy optics maker Lumentum",
+      "canonical_urls": [
+        "https://www.reuters.com/business/marvell-advanced-talks-buy-lumentum-bloomberg-news-reports-2026-10-28/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-oracle-will-offer-google-tpus-alongside-its-existing-ai-compute-options",
+      "normalized_subject": "oracle will offer google tpus alongside its existing ai compute options",
+      "event_summary": "Oracle will offer Google TPUs alongside its existing AI compute options",
+      "normalized_headline": "Oracle will offer Google TPUs alongside its existing AI compute options",
+      "canonical_urls": [
+        "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/"
+      ],
+      "original_publication_date": "2026-10-27",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-github-agentic-workflows-reaches-general-availability",
+      "normalized_subject": "github agentic workflows reaches general availability",
+      "event_summary": "GitHub Agentic Workflows reaches general availability",
+      "normalized_headline": "GitHub Agentic Workflows reaches general availability",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-copilot-fusion-now-routes-coding-work-across-models-and-can-try-local-models",
+      "normalized_subject": "copilot fusion now routes coding work across models—and can try local models",
+      "event_summary": "Copilot Fusion now routes coding work across models—and can try local models",
+      "normalized_headline": "Copilot Fusion now routes coding work across models—and can try local models",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+        "https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-github-adds-repo-wide-ai-scan-for-vulnerabilities-beyond-codeql-rules",
+      "normalized_subject": "github adds repo-wide ai scan for vulnerabilities beyond codeql rules",
+      "event_summary": "GitHub adds repo-wide AI Scan for vulnerabilities beyond CodeQL rules",
+      "normalized_headline": "GitHub adds repo-wide AI Scan for vulnerabilities beyond CodeQL rules",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-28-ai-scan-for-repositories-in-public-preview/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-copilot-s-new-security-extension-can-explain-and-help-fix-code-scanning-alerts",
+      "normalized_subject": "copilot’s new security extension can explain and help fix code-scanning alerts",
+      "event_summary": "Copilot’s new security extension can explain and help fix code-scanning alerts",
+      "normalized_headline": "Copilot’s new security extension can explain and help fix code-scanning alerts",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-github-begins-rolling-out-shared-copilot-automations-for-teams",
+      "normalized_subject": "github begins rolling out shared copilot automations for teams",
+      "event_summary": "GitHub begins rolling out shared Copilot Automations for teams",
+      "normalized_headline": "GitHub begins rolling out shared Copilot Automations for teams",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-github-is-building-a-memory-and-context-layer-from-code-conventions-and-history",
+      "normalized_subject": "github is building a memory and context layer from code, conventions and history",
+      "event_summary": "GitHub is building a memory and context layer from code, conventions and history",
+      "normalized_headline": "GitHub is building a memory and context layer from code, conventions and history",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-follow-up-copilot-projects-adds-project-level-multi-agent-workspaces",
+      "normalized_subject": "follow-up: copilot projects adds project-level multi-agent workspaces",
+      "event_summary": "FOLLOW-UP: Copilot Projects adds project-level multi-agent workspaces",
+      "normalized_headline": "FOLLOW-UP: Copilot Projects adds project-level multi-agent workspaces",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null,
+      "follow_up_of": "event-copilot-adds-more-continuous-agent-sessions-across-clients",
+      "follow_up_note": "Adds project-level multi-agent coordination across repositories and non-code context to the connected Copilot experience covered in the 28 October edition."
+    },
+    {
+      "story_id": "event-cloudera-adds-neo4j-cartesia-mistral-and-vast-data-to-its-enterprise-ai-ecosystem",
+      "normalized_subject": "cloudera adds neo4j, cartesia, mistral and vast data to its enterprise ai ecosystem",
+      "event_summary": "Cloudera adds Neo4j, Cartesia, Mistral and VAST Data to its enterprise AI ecosystem",
+      "normalized_headline": "Cloudera adds Neo4j, Cartesia, Mistral and VAST Data to its enterprise AI ecosystem",
+      "canonical_urls": [
+        "https://www.cloudera.com/about/news-and-blogs/press-releases/2026-10-27-cloudera-expands-enterprise-ai-ecosystem-to-power-ai-factories-anywhere.html"
+      ],
+      "original_publication_date": "2026-10-27",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-aws-publishes-a-reference-architecture-for-governed-multi-team-agent-platforms",
+      "normalized_subject": "aws publishes a reference architecture for governed, multi-team agent platforms",
+      "event_summary": "AWS publishes a reference architecture for governed, multi-team agent platforms",
+      "normalized_headline": "AWS publishes a reference architecture for governed, multi-team agent platforms",
+      "canonical_urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-aws-packages-ray-train-s-cuda-to-efa-stack-for-multi-node-pytorch-training-on-eks",
+      "normalized_subject": "aws packages ray train’s cuda-to-efa stack for multi-node pytorch training on eks",
+      "event_summary": "AWS packages Ray Train’s CUDA-to-EFA stack for multi-node PyTorch training on EKS",
+      "normalized_headline": "AWS packages Ray Train’s CUDA-to-EFA stack for multi-node PyTorch training on EKS",
+      "canonical_urls": [
+        "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-29",
+      "first_edition_path": "archive/2026-10-29.html",
+      "edition_paths": [
+        "archive/2026-10-29.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [],
+      "delivery_note": null
     }
   ]
 }
