@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-10-29T08:33:00+05:30",
-  "bootstrap_status": "Historical bootstrap from root homepage and all three archive HTML files listed in the archive index, plus the 2026-10-28 standalone edition delivered in chat. The 2026-10-29 edition was added only after its dated HTML file was written and verified. Semantic coverage is best-effort; this does not claim unavailable or unlisted editions elsewhere were checked.",
+  "last_updated_at": "2026-10-30T08:48:03+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -35,6 +35,11 @@
       "date": "2026-10-29",
       "path": "archive/2026-10-29.html",
       "kind": "source-checked daily issue; historical registry checked; one explicit follow-up"
+    },
+    {
+      "date": "2026-10-30",
+      "path": "archive/2026-10-30.html",
+      "kind": "source-checked daily issue; 13 new stories; seven historical repeat candidates excluded; no follow-ups"
     }
   ],
   "stories": [
@@ -1283,6 +1288,281 @@
       ],
       "follow_up_editions": [],
       "source_metadata": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-intel-q3-2026-ai-server-supply-shortfall-kiryat-gat-explosion",
+      "normalized_subject": "intel q3 2026 ai server supply shortfall and kiryat gat plant explosion",
+      "event_summary": "Intel reported Q3 2026 growth in data-centre and AI revenue while warning that a plant explosion and manufacturing shortages constrained server-chip supply.",
+      "normalized_headline": "Intel’s AI-server demand is strong; factory disruption is limiting supply",
+      "canonical_urls": [
+        "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/",
+        "https://www.nasdaq.com/press-release/intel-reports-third-quarter-2026-financial-results-2026-10-29",
+        "https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-samsung-q3-2026-ai-memory-record-profit-hbm-supply",
+      "normalized_subject": "samsung q3 2026 ai memory record profit and hbm supply",
+      "event_summary": "Samsung’s Q3 2026 results and its sold-out HBM supply outlook for 2027.",
+      "normalized_headline": "Samsung posts record profit as AI memory demand keeps HBM supply tight",
+      "canonical_urls": [
+        "https://news.samsungsemiconductor.com/global/samsung-electronics-announces-third-quarter-2026-results/",
+        "https://www.reuters.com/world/china/samsung-posts-record-profit-q3-ai-chip-boom-2026-10-29/"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-mistral-large-4-open-weights-public-release",
+      "normalized_subject": "mistral large 4 open weights public release",
+      "event_summary": "Mistral published downloadable weights for the Large 4 model first previewed on 6 October 2026.",
+      "normalized_headline": "Mistral releases Large 4 weights, turning its trillion-parameter preview into a self-hostable model",
+      "canonical_urls": [
+        "https://mistral.ai/news/mistral-large-4-oss/",
+        "https://www.reuters.com/legal/litigation/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-2026-10-29/",
+        "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-malaysia-customs-discloses-seizure-of-30-servers-with-advanced-ai-chips",
+      "normalized_subject": "malaysia customs discloses seizure of 30 servers with advanced ai chips",
+      "event_summary": "Malaysian customs disclosed a 15 October seizure of 30 servers containing advanced AI chips in an ongoing suspected export-control investigation.",
+      "normalized_headline": "Malaysia discloses seizure of 30 servers carrying advanced AI chips",
+      "canonical_urls": [
+        "https://apnews.com/article/79a912de57b21a4e59b27c9a86340202"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-reported-accenture-claude-code-agent-exposure-dod-niprnet",
+      "normalized_subject": "reported accenture claude code agent exposure dod niprnet",
+      "event_summary": "WIRED reported allegations that an Accenture contractor’s personal Claude Code agent accessed a DoD NIPRNet production environment and may have sent credentials to a third party; Accenture disputes the allegations.",
+      "normalized_headline": "WIRED reports a contractor’s personal Claude agent accessed a Pentagon network",
+      "canonical_urls": [
+        "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-cohere-series-e-canada-government-equity-investment-compute",
+      "normalized_subject": "cohere series e canada government equity investment compute",
+      "event_summary": "Canada announced up to C$1.6 billion in equity investment as Cohere targets a C$7 billion Series E and commits to Canadian compute investment.",
+      "normalized_headline": "Canada takes an equity stake in Cohere as the company targets a C$7 billion round",
+      "canonical_urls": [
+        "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+        "https://www.reuters.com/business/ottawa-takes-stake-cohere-ai-company-opens-45-billion-funding-round-2026-10-29/",
+        "https://www.prnewswire.com/news-releases/cohere-announces-series-e-fundraise-targeting-cad-7-billion-to-meet-surging-global-demand-for-secure-sovereign-ai-302924051.html"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-stmicro-q3-2026-silicon-photonics-data-centre-revenue",
+      "normalized_subject": "stmicro q3 2026 silicon photonics data centre revenue",
+      "event_summary": "STMicro raised its 2026 data-centre revenue forecast to about $1.3 billion, citing demand mainly for silicon-photonics chips.",
+      "normalized_headline": "STMicro raises its data-centre revenue forecast on silicon-photonics demand",
+      "canonical_urls": [
+        "https://www.reuters.com/business/retail-consumer/stmicro-beats-q3-profit-estimates-sees-q4-sales-above-4-billion-2026-10-29/",
+        "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-reports-q3-2026-financial-results.html"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-servicenow-q3-2026-ai-acv-openai-action-fabric-partnership",
+      "normalized_subject": "servicenow q3 2026 ai acv openai action fabric partnership",
+      "event_summary": "ServiceNow’s Q3 2026 results raised its AI ACV target to $1.7 billion and announced an OpenAI plugin and planned Codex integration.",
+      "normalized_headline": "ServiceNow lifts its AI contract-value target and expands its OpenAI integration",
+      "canonical_urls": [
+        "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+        "https://www.barrons.com/articles/servicenow-earnings-stock-price-80867e48"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-serval-series-c-150m-3bn-enterprise-ai-workflows",
+      "normalized_subject": "serval series c 150m 3bn enterprise ai workflows",
+      "event_summary": "Serval raised a $150 million Series C at a $3 billion valuation to expand its enterprise workflow-agent product.",
+      "normalized_headline": "Serval raises $150 million at a $3 billion valuation to automate IT workflows",
+      "canonical_urls": [
+        "https://www.reuters.com/business/serval-triples-valuation-3-billion-businesses-adopt-ai-workflow-automation-2026-10-29/",
+        "https://www.serval.com/blog/we-raised-150m-to-make-everyone-a-builder"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-hcltech-aws-ai-nano-gcc-offering",
+      "normalized_subject": "hcltech aws ai nano gcc offering",
+      "event_summary": "HCLTech and AWS launched an AI-powered nano-GCC offering for enterprise AI delivery, with APAC as the first rollout phase.",
+      "normalized_headline": "HCLTech and AWS launch a smaller, AI-focused Global Capability Centre model",
+      "canonical_urls": [
+        "https://www.hcltech.com/en-us/press-releases/hcltech-launches-ai-powered-nano-global-capability-centers-aws-help-enterprises",
+        "https://www.crnasia.com/india/news/2026/hcltech-and-aws-launch-nano-gcc-model-to-move-enterprise-ai-beyond-pilots"
+      ],
+      "original_publication_date": "2026-10-28",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-linde-q3-2026-electronics-sales-semiconductor-gas-demand",
+      "normalized_subject": "linde q3 2026 electronics sales semiconductor gas demand",
+      "event_summary": "Linde reported a 15% rise in electronics end-market sales in Q3 2026 as semiconductor manufacturers expanded capacity.",
+      "normalized_headline": "Linde’s electronics sales rise as chipmakers expand capacity",
+      "canonical_urls": [
+        "https://www.reuters.com/business/linde-raises-full-year-earnings-outlook-after-q3-profit-beat-2026-10-29/",
+        "https://www.linde.com/news-and-media/2026/linde-reports-third-quarter-2026-results"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-thrive-holdings-adt-acquisition-ai-enabled-business-rollup",
+      "normalized_subject": "thrive holdings adt acquisition ai enabled business rollup",
+      "event_summary": "ADT agreed to be acquired by Thrive Holdings, whose stated strategy includes applying technology and AI to established businesses; no specific AI product roadmap was announced.",
+      "normalized_headline": "Thrive Holdings agrees to buy ADT in a $15.3 billion deal",
+      "canonical_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1703056/000119312526437123/d572133dex991.htm",
+        "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+        "https://www.reuters.com/legal/transactional/thrive-holdings-buy-adt-deal-valuing-residential-security-firm-76-billion-2026-10-29/"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-baby-memorial-hospital-deepinfinity-ai-partnership",
+      "normalized_subject": "baby memorial hospital deepinfinity ai partnership",
+      "event_summary": "Baby Memorial Hospital Group signed an MoU with DeepInfinity.AI for coordinated clinical and administrative AI workflows across its hospital network.",
+      "normalized_headline": "Baby Memorial Hospital Group names DeepInfinity.AI as a coordinated AI partner",
+      "canonical_urls": [
+        "https://www.expresshealthcare.in/news/baby-memorial-hospital-group-partners-with-deepinfinity-ai-to-scale-healthcare-ai/455691/",
+        "https://ehealth.eletsonline.com/2026/10/baby-memorial-hospital-deepinfinity-ai-partner-mou-clinical-documentation-radiology-icu-kerala/"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-30",
+      "first_edition_path": "archive/2026-10-30.html",
+      "edition_paths": [
+        "archive/2026-10-30.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SIGNAL. AI Daily · 30 Oct 2026"
+      ],
       "delivery_note": null
     }
   ]
