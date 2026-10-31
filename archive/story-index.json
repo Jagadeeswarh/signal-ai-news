@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-10-30T08:48:03+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.",
+  "last_updated_at": "2026-10-31T08:11:26+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -40,6 +40,26 @@
       "date": "2026-10-30",
       "path": "archive/2026-10-30.html",
       "kind": "source-checked daily issue; 13 new stories; seven historical repeat candidates excluded; no follow-ups"
+    },
+    {
+      "date": "2026-10-31",
+      "path": "archive/2026-10-31.html",
+      "kind": "source-checked daily issue; 9 distinct new stories; 35 repeat candidates excluded; zero material follow-ups",
+      "story_count": 9,
+      "new_story_ids": [
+        "event-big-tech-ai-capex-market-test-q3-2026",
+        "event-cursor-claude-code-extension-marketplace-supply-chain-compromise",
+        "event-cxmt-q3-2026-results-sixth-generation-dram-validation",
+        "event-amazon-aws-q3-2026-bedrock-agentcore-adoption",
+        "event-nscale-monarch-campus-8gw-ipo-power-financing-permits",
+        "event-uk-cma-meta-commercial-terms-publisher-content-ai-probe",
+        "event-openai-latest-funding-round-reported-11bn-of-30bn-target",
+        "event-rbi-india-banks-ai-era-cyber-readiness-api-scrutiny",
+        "event-fcc-china-testing-lab-certification-ban-countermeasures-2026"
+      ],
+      "repeat_candidates_excluded": 35,
+      "material_followups": 0,
+      "research_window": "2026-10-29T08:11:00+05:30/2026-10-31T08:11:00+05:30"
     }
   ],
   "stories": [
@@ -1564,6 +1584,269 @@
         "SIGNAL. AI Daily · 30 Oct 2026"
       ],
       "delivery_note": null
+    },
+    {
+      "story_id": "event-big-tech-ai-capex-market-test-q3-2026",
+      "normalized_subject": "big tech ai capital expenditure and market repricing",
+      "entities": [
+        "Amazon",
+        "Meta",
+        "Microsoft",
+        "Alphabet",
+        "Financial Times",
+        "Nasdaq 100"
+      ],
+      "event_summary": "Third-quarter hyperscaler capital spending rose sharply and public markets repriced AI infrastructure exposure amid concerns about returns and financing.",
+      "normalized_headline": "Big Tech’s AI bill is now a market test, not just a build-out",
+      "canonical_urls": [
+        "https://www.ft.com/content/c695558e-11e6-494c-aeee-0f9fb5c75afc",
+        "https://www.investing.com/news/stock-market-news/nasdaq-faces-2-trillion-wipeout-in-october-as-ai-spending-fears-deepen-4988211",
+        "https://apnews.com/article/a01d3551e794fed1a0c317c20bc3f0a2"
+      ],
+      "original_publication_date": "2026-10-31",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Financial Times, 31 Oct 2026",
+        "Reuters, 30 Oct 2026",
+        "Associated Press, 30 Oct 2026"
+      ],
+      "delivery_note": "Published in immutable SIGNAL repository issue."
+    },
+    {
+      "story_id": "event-cursor-claude-code-extension-marketplace-supply-chain-compromise",
+      "normalized_subject": "cursor marketplace trojanized claude code extension",
+      "entities": [
+        "Cursor",
+        "Anthropic",
+        "Microsoft Security",
+        "Claude Code"
+      ],
+      "event_summary": "Malicious Claude Code extension versions 2.1.312 and 2.1.313 were served through Cursor's VS Code extension marketplace and attempted host reconnaissance and persistent SSH access.",
+      "normalized_headline": "A trojanized Claude Code extension exposed the trust gap in IDE marketplaces",
+      "canonical_urls": [
+        "https://cursor.com/blog/claude-code-extension-security-notice",
+        "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+        "https://www.reuters.com/business/media-telecom/cursor-says-up-5000-users-affected-by-tampered-claude-code-extension-2026-10-30/",
+        "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Cursor security notice, 29 Oct 2026",
+        "Microsoft Security, 30 Oct 2026",
+        "Reuters, 30 Oct 2026",
+        "Ars Technica, 30 Oct 2026"
+      ],
+      "delivery_note": "Published in immutable SIGNAL repository issue."
+    },
+    {
+      "story_id": "event-cxmt-q3-2026-results-sixth-generation-dram-validation",
+      "normalized_subject": "cxmt q3 2026 earnings and sixth generation dram validation",
+      "entities": [
+        "CXMT",
+        "ChangXin Memory Technologies",
+        "DRAM",
+        "China"
+      ],
+      "event_summary": "CXMT's first post-IPO Q3 results reported revenue and profit growth, increased R&D spending and validation of sixth-generation DRAM samples.",
+      "normalized_headline": "CXMT’s first post-IPO results show the scale of China’s memory boom",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/cxmt-turns-third-quarter-net-profit-544-billion-yuan-2026-10-30/",
+        "https://www.ithome.com/1/020/263.htm",
+        "https://www.marketscreener.com/news/cxmt-corporation-reports-earnings-results-for-the-nine-months-ended-september-30-2026-ce785fdbd18cf32c/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 30 Oct 2026",
+        "IT Home, 30 Oct 2026",
+        "MarketScreener/S&P Capital IQ, 30 Oct 2026"
+      ],
+      "delivery_note": "New quarterly filing and DRAM process milestone; previously covered HBM3E yield plan not repeated."
+    },
+    {
+      "story_id": "event-amazon-aws-q3-2026-bedrock-agentcore-adoption",
+      "normalized_subject": "amazon aws q3 2026 bedrock agentcore and strands",
+      "entities": [
+        "Amazon",
+        "AWS",
+        "Bedrock",
+        "AgentCore",
+        "Strands"
+      ],
+      "event_summary": "Amazon's Q3 results disclosed 39.3% AWS sales growth and company-reported increases in Bedrock usage and AgentCore agent deployments, alongside new Strands tools.",
+      "normalized_headline": "AWS growth accelerates as Bedrock and AgentCore usage jump",
+      "canonical_urls": [
+        "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+        "https://www.crn.com/news/ai/2026/amazon-q3-earnings-ceo-jassy-says-bedrock-could-become-as-big-as-ec2"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Amazon Investor Relations, 29 Oct 2026",
+        "CRN, 30 Oct 2026"
+      ],
+      "delivery_note": "Published in immutable SIGNAL repository issue; adoption and efficiency metrics attributed to Amazon."
+    },
+    {
+      "story_id": "event-nscale-monarch-campus-8gw-ipo-power-financing-permits",
+      "normalized_subject": "nscale monarch compute campus west virginia power permits financing",
+      "entities": [
+        "Nscale",
+        "Monarch Compute Campus",
+        "Anthropic",
+        "West Virginia"
+      ],
+      "event_summary": "Financial Times investigation detailed power-source changes, unresolved permits, construction and financing risks at Nscale's planned Monarch AI campus ahead of its proposed IPO.",
+      "normalized_headline": "Nscale’s 8GW AI campus faces power, permit and financing questions",
+      "canonical_urls": [
+        "https://www.ft.com/content/ee86c4b6-1fe4-467e-8f18-9c08df288aff",
+        "https://signaldata.org/wv/data-centers/projects/monarch-compute-campus-mason/",
+        "https://everydatacenter.com/monarch-compute-campus.html"
+      ],
+      "original_publication_date": "2026-10-31",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Financial Times, 31 Oct 2026",
+        "SignalData project record, accessed 31 Oct 2026",
+        "US AI Data Center Atlas, accessed 31 Oct 2026"
+      ],
+      "delivery_note": "Planned campus capacity is not operational capacity."
+    },
+    {
+      "story_id": "event-uk-cma-meta-commercial-terms-publisher-content-ai-probe",
+      "normalized_subject": "uk cma investigation meta publisher commercial terms ai content use",
+      "entities": [
+        "UK Competition and Markets Authority",
+        "Meta",
+        "publishers",
+        "advertisers"
+      ],
+      "event_summary": "The CMA opened an investigation into whether Meta's commercial terms unfairly require publishers and advertisers to allow website content to be used for Meta products including AI features.",
+      "normalized_headline": "UK regulator opens a competition probe into Meta’s publisher terms for AI use",
+      "canonical_urls": [
+        "https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms",
+        "https://www.reuters.com/world/europe/uks-cma-opens-investigation-into-metas-terms-publishers-advertisers-2026-10-30/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "UK CMA, 30 Oct 2026",
+        "Reuters, 30 Oct 2026"
+      ],
+      "delivery_note": "Investigation opened; no finding of wrongdoing."
+    },
+    {
+      "story_id": "event-openai-latest-funding-round-reported-11bn-of-30bn-target",
+      "normalized_subject": "openai latest funding round reported commitments and valuation",
+      "entities": [
+        "OpenAI",
+        "Wall Street Journal"
+      ],
+      "event_summary": "The Wall Street Journal reported that OpenAI had secured roughly $11 billion in commitments against an initial $30 billion target at a reported $1.25 trillion valuation.",
+      "normalized_headline": "OpenAI’s reported funding round is below half its initial target",
+      "canonical_urls": [
+        "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
+      ],
+      "original_publication_date": "2026-10-31",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Wall Street Journal, 31 Oct 2026; based on people familiar with the financing"
+      ],
+      "delivery_note": "Reported financing figures, not publicly confirmed by OpenAI or described as a completed round."
+    },
+    {
+      "story_id": "event-rbi-india-banks-ai-era-cyber-readiness-api-scrutiny",
+      "normalized_subject": "reserve bank india bank cybersecurity api weaknesses ai risk readiness",
+      "entities": [
+        "Reserve Bank of India",
+        "CERT-In",
+        "State Bank of India",
+        "ICICI Bank"
+      ],
+      "event_summary": "Reuters reported that RBI asked banks in meetings to demonstrate compliance with existing cyber rules, examine API weaknesses and explain readiness for AI-related risks.",
+      "normalized_headline": "RBI presses banks to prove they are ready for AI-era cyber risks",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/litigation/indias-rbi-tightens-cyber-checks-lenders-after-spate-hacks-2026-10-30/",
+        "https://www.cert-in.org.in/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 30 Oct 2026; based on three unnamed sources",
+        "CERT-In advisory index"
+      ],
+      "delivery_note": "Reported supervisory pressure; not a new published RBI AI regulation."
+    },
+    {
+      "story_id": "event-fcc-china-testing-lab-certification-ban-countermeasures-2026",
+      "normalized_subject": "fcc restriction on chinese electronics testing labs and china response",
+      "entities": [
+        "Federal Communications Commission",
+        "China Ministry of Commerce",
+        "United States",
+        "China"
+      ],
+      "event_summary": "The FCC voted to bar testing and certification bodies in China and other non-reciprocal countries from certifying electronics for the US market from December 2028; China said it opposed the move and could retaliate.",
+      "normalized_headline": "US move to bar Chinese testing labs draws Beijing’s threat of countermeasures",
+      "canonical_urls": [
+        "https://www.reuters.com/business/media-telecom/fcc-votes-ban-all-chinese-labs-testing-us-electronics-2026-10-29/",
+        "https://www.reuters.com/world/china/china-opposes-us-fcc-ban-chinese-lab-testing-vows-countermeasures-if-us-presses-2026-10-30/",
+        "https://www.voachinese.com/amp/fcc-bans-all-chinese-labs-from-testing-electronics-for-us-markets-20261030/8216869.html"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31.html",
+      "edition_paths": [
+        "archive/2026-10-31.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 29 Oct 2026",
+        "Reuters, 30 Oct 2026",
+        "Voice of America Chinese, 30 Oct 2026"
+      ],
+      "delivery_note": "Electronics certification policy; not a direct AI accelerator export-control rule."
     }
   ]
 }
