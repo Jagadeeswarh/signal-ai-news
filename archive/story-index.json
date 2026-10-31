@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-10-31T08:11:26+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained.",
+  "last_updated_at": "2026-10-31T09:09:21+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -123,6 +123,40 @@
       "material_followups": 0,
       "same_day_revision_of": "archive/2026-10-31-edition-2.html",
       "research_window": "2026-10-29T08:11:00+05:30/2026-10-31T08:11:00+05:30"
+    },
+    {
+      "date": "2026-10-31",
+      "path": "archive/2026-10-31-edition-4.html",
+      "kind": "same-day addendum; 8 source-checked developments; 7 new events and 1 material financing follow-up; earlier same-day issues retained",
+      "story_count": 8,
+      "new_story_count": 7,
+      "material_followups": 1,
+      "carried_story_count": 0,
+      "repeat_candidates_excluded": 7,
+      "story_ids": [
+        "event-openai-latest-funding-round-reported-11bn-of-30bn-target",
+        "event-ietf-machine-readable-training-preference-signal-2026-10-30",
+        "event-trai-draft-responsible-ai-telecom-guidelines-2026-10-30",
+        "event-alliant-energy-1gw-data-center-load-contract-pipeline-2026-10-30",
+        "event-sec-ai-corporate-disclosure-scrutiny-2026-10-30",
+        "event-huggingface-anyspeechrecognizer-anydecisionmodel-swift-2026-10-29",
+        "event-project-protostar-public-science-ai-ready-2026-10-29",
+        "event-iit-kanpur-up-csoc-ai-assisted-cybersecurity-2026-10-30"
+      ],
+      "research_window": "2026-10-29T09:09:21+05:30/2026-10-31T09:09:21+05:30",
+      "source_domains_queried": 35,
+      "source_domains_with_usable_evidence": [
+        "reuters.com",
+        "ft.com",
+        "theverge.com",
+        "datatracker.ietf.org",
+        "trai.gov.in",
+        "business-standard.com",
+        "huggingface.co",
+        "github.com",
+        "iitk.ac.in",
+        "indianexpress.com"
+      ]
     }
   ],
   "stories": [
@@ -1839,19 +1873,34 @@
       "event_summary": "The Wall Street Journal reported that OpenAI had secured roughly $11 billion in commitments against an initial $30 billion target at a reported $1.25 trillion valuation.",
       "normalized_headline": "OpenAI’s reported funding round is below half its initial target",
       "canonical_urls": [
-        "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
+        "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+        "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/",
+        "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f"
       ],
       "original_publication_date": "2026-10-31",
       "first_edition_date": "2026-10-31",
       "first_edition_path": "archive/2026-10-31.html",
       "edition_paths": [
-        "archive/2026-10-31.html"
+        "archive/2026-10-31.html",
+        "archive/2026-10-31-edition-4.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-10-31",
+          "path": "archive/2026-10-31-edition-4.html",
+          "headline": "FOLLOW-UP: OpenAI cuts latest funding target to about $20bn",
+          "material_change": "Financial Times reporting, independently summarized by Reuters, says the target was reduced from $30bn to about $20bn and the first close is expected to fall short of the revised target.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/",
+            "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f"
+          ]
+        }
+      ],
       "source_metadata": [
-        "The Wall Street Journal, 31 Oct 2026; based on people familiar with the financing"
+        "The Wall Street Journal, 31 Oct 2026; based on people familiar with the financing",
+        "Financial Times, 31 Oct 2026; Reuters, 31 Oct 2026; reported financing update, not company-confirmed."
       ],
-      "delivery_note": "Reported financing figures, not publicly confirmed by OpenAI or described as a completed round."
+      "delivery_note": "Reported financing figures, not publicly confirmed by OpenAI or described as a completed round. Follow-up in archive/2026-10-31-edition-4.html: reported target reduced from $30bn to about $20bn; no completed round confirmed."
     },
     {
       "story_id": "event-rbi-india-banks-ai-era-cyber-readiness-api-scrutiny",
@@ -2052,6 +2101,163 @@
         "OpenAI Model Spec, 29 Oct 2026"
       ],
       "delivery_note": "Behavioural specification and training target; OpenAI says deployed models do not yet fully reflect it."
+    },
+    {
+      "story_id": "event-ietf-machine-readable-training-preference-signal-2026-10-30",
+      "normalized_subject": "ietf machine readable ai training preference signal robots txt policy token",
+      "entities": "IETF; Anthropic; OpenAI; Google; Microsoft; Meta",
+      "event_summary": "An IETF Internet-Draft authored by Anthropic standards lead Kevin Kelley proposes a shared robots.txt policy token, __usage_ai-training, for path-specific AI training preferences. The Verge reports that OpenAI, Google, Microsoft and Anthropic say they will honor the signal on different timelines; Meta expressed support without a firm commitment.",
+      "normalized_headline": "A shared robots.txt token could make AI training opt-outs less fragmented",
+      "canonical_urls": [
+        "https://datatracker.ietf.org/doc/html/draft-kelley-aipref-training-preference-signal-00",
+        "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-4.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "IETF Internet-Draft, 30 Oct 2026",
+        "The Verge, 30 Oct 2026"
+      ],
+      "delivery_note": "Draft only; not an RFC. The token expresses training preferences and does not itself block crawling; legacy parsers may ignore it."
+    },
+    {
+      "story_id": "event-trai-draft-responsible-ai-telecom-guidelines-2026-10-30",
+      "normalized_subject": "trai draft responsible ai telecom networks services",
+      "entities": "TRAI; India; telecom operators",
+      "event_summary": "TRAI released draft guidelines for licensed telecom providers and authorised network operators using AI, proposing board-approved policies, risk classification, system inventories, supplier due diligence, validation, human oversight and reporting of critical/high-severity incidents. Consultation closes 27 November 2026.",
+      "normalized_headline": "TRAI proposes governance rules for AI used in telecom networks",
+      "canonical_urls": [
+        "https://www.trai.gov.in/draft-guidelines-responsible-use-artificial-intelligence-ai-telecommunication-networks-and",
+        "https://www.trai.gov.in/sites/default/files/2026-10/Draft_CP_30102026.pdf",
+        "https://www.business-standard.com/industry/news/trai-proposes-ai-governance-framework-accountability-rules-for-telcos-126103001511_1.html"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-4.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "TRAI draft consultation paper, 30 Oct 2026",
+        "Business Standard, 30 Oct 2026"
+      ],
+      "delivery_note": "Consultation draft, not final binding guidelines; comments close 27 Nov 2026."
+    },
+    {
+      "story_id": "event-alliant-energy-1gw-data-center-load-contract-pipeline-2026-10-30",
+      "normalized_subject": "alliant energy additional one gigawatt data center demand contracts",
+      "entities": "Alliant Energy; Google; Meta; QTS; United States",
+      "event_summary": "Alliant Energy expects to sign contracts for about 1 GW of additional data-centre demand within six months, adding to 3.4 GW already contracted; the prospective load is expected to ramp between 2029 and 2031.",
+      "normalized_headline": "Alliant expects another 1 GW of data-centre demand to enter its pipeline",
+      "canonical_urls": [
+        "https://www.reuters.com/business/energy/alliant-targets-1-gw-new-data-center-contracts-six-months-power-demand-surges-2026-10-30/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-4.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 30 Oct 2026; Alliant CFO forecast"
+      ],
+      "delivery_note": "Prospective contracts and future load forecast, not already connected capacity."
+    },
+    {
+      "story_id": "event-sec-ai-corporate-disclosure-scrutiny-2026-10-30",
+      "normalized_subject": "us sec monitoring ai company corporate disclosures valuations circular deals",
+      "entities": "U.S. Securities and Exchange Commission; AI companies; David Woodcock",
+      "event_summary": "SEC enforcement director David Woodcock told Reuters the agency is examining AI-company disclosures, including material risks, valuations and potential conflicts around circular deals; no new rule or named enforcement action was announced.",
+      "normalized_headline": "SEC says it is scrutinising AI companies’ investor disclosures",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/government/us-secs-top-cop-says-agency-is-monitoring-ai-corporate-disclosures-2026-10-30/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-4.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 30 Oct 2026; interview with SEC Enforcement Director"
+      ],
+      "delivery_note": "Regulatory focus described in an interview, not a formal rule or announced case."
+    },
+    {
+      "story_id": "event-huggingface-anyspeechrecognizer-anydecisionmodel-swift-2026-10-29",
+      "normalized_subject": "hugging face anyspeechrecognizer anydecisionmodel swift apple platforms",
+      "entities": "Hugging Face; AnySpeechRecognizer; AnyDecisionModel; Apple; NVIDIA; Alibaba",
+      "event_summary": "Hugging Face announced Swift packages for selectable speech recognition engines and typed probability-based decisions on Apple platforms, including local Parakeet/Qwen3-ASR Core ML routes and diarization.",
+      "normalized_headline": "Hugging Face adds swappable speech and decision engines for Swift apps",
+      "canonical_urls": [
+        "https://huggingface.co/blog/anydecisionmodel",
+        "https://github.com/mattt/AnySpeechRecognizer",
+        "https://github.com/mattt/AnyDecisionModel"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-4.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Hugging Face blog, 29 Oct 2026"
+      ],
+      "delivery_note": "Package release; performance numbers in the announcement are author-reported on a single M4 Max system."
+    },
+    {
+      "story_id": "event-project-protostar-public-science-ai-ready-2026-10-29",
+      "normalized_subject": "project protostar public funded science datasets models code ai ready",
+      "entities": "Hugging Face; Carnegie Mellon University; Purdue; Georgia Tech; Arizona State; George Washington University; Astera Institute; ORCA",
+      "event_summary": "Project ProtoStar brings universities, research organizations and open-science partners together to make publicly funded research datasets, models and code more discoverable, reusable and machine-actionable; its first CMU-hosted challenge is scheduled for 2 November.",
+      "normalized_headline": "Project ProtoStar aims to make publicly funded science easier for AI to use",
+      "canonical_urls": [
+        "https://huggingface.co/blog/announcing-project-protostar",
+        "https://github.com/huggingface"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-4.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Hugging Face, 29 Oct 2026"
+      ],
+      "delivery_note": "Initiative announcement; actual value depends on partner contributions and reusable data artifacts. Publication time not listed."
+    },
+    {
+      "story_id": "event-iit-kanpur-up-csoc-ai-assisted-cybersecurity-2026-10-30",
+      "normalized_subject": "iit kanpur c3ihub uttar pradesh cyber security operations centre ai assisted",
+      "entities": "IIT Kanpur; C3iHub; Uttar Pradesh government",
+      "event_summary": "IIT Kanpur’s C3iHub will establish and operate Uttar Pradesh’s ₹104.28-crore Cyber Security Operations Centre for an initial three years; AI/ML is one of several technologies in the planned IT/OT monitoring and incident-response stack.",
+      "normalized_headline": "IIT Kanpur’s C3iHub will operate Uttar Pradesh’s ₹104-crore cyber centre",
+      "canonical_urls": [
+        "https://iitk.ac.in/uttar-pradesh-cyber-security-operations-centre",
+        "https://indianexpress.com/article/education/iit-kanpur-c3ihub-uttar-pradesh-cyber-security-operations-centre-yogi-up-cabinet-approval-10943002/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-4.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "IIT Kanpur, 30 Oct 2026",
+        "The Indian Express, 30 Oct 2026"
+      ],
+      "delivery_note": "AI/ML is one component of a broader SOC stack; the announcement does not specify a new model or autonomous security system."
     }
   ]
 }
