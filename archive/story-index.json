@@ -4,7 +4,7 @@
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
   "last_updated_at": "2026-10-31T08:11:26+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -59,6 +59,37 @@
       ],
       "repeat_candidates_excluded": 35,
       "material_followups": 0,
+      "research_window": "2026-10-29T08:11:00+05:30/2026-10-31T08:11:00+05:30"
+    },
+    {
+      "date": "2026-10-31",
+      "path": "archive/2026-10-31-edition-2.html",
+      "kind": "expanded same-day revision; 12 distinct stories; carries nine stories from the first same-day issue and adds three new developments",
+      "story_count": 12,
+      "new_story_count": 3,
+      "carried_story_count": 9,
+      "new_story_ids": [
+        "event-sp-global-meta-broadcom-credit-outlook-ai-capex-customer-concentration",
+        "event-foxconn-openai-collaboration-discussions-ai-server-robot-deployment",
+        "event-spotify-ai-remix-service-q1-2027-launch-pricing-artist-opt-in"
+      ],
+      "story_ids": [
+        "event-big-tech-ai-capex-market-test-q3-2026",
+        "event-cursor-claude-code-extension-marketplace-supply-chain-compromise",
+        "event-cxmt-q3-2026-results-sixth-generation-dram-validation",
+        "event-amazon-aws-q3-2026-bedrock-agentcore-adoption",
+        "event-nscale-monarch-campus-8gw-ipo-power-financing-permits",
+        "event-uk-cma-meta-commercial-terms-publisher-content-ai-probe",
+        "event-openai-latest-funding-round-reported-11bn-of-30bn-target",
+        "event-rbi-india-banks-ai-era-cyber-readiness-api-scrutiny",
+        "event-fcc-china-testing-lab-certification-ban-countermeasures-2026",
+        "event-sp-global-meta-broadcom-credit-outlook-ai-capex-customer-concentration",
+        "event-foxconn-openai-collaboration-discussions-ai-server-robot-deployment",
+        "event-spotify-ai-remix-service-q1-2027-launch-pricing-artist-opt-in"
+      ],
+      "repeat_candidates_excluded": 35,
+      "material_followups": 0,
+      "same_day_revision_of": "archive/2026-10-31.html",
       "research_window": "2026-10-29T08:11:00+05:30/2026-10-31T08:11:00+05:30"
     }
   ],
@@ -1847,6 +1878,92 @@
         "Voice of America Chinese, 30 Oct 2026"
       ],
       "delivery_note": "Electronics certification policy; not a direct AI accelerator export-control rule."
+    },
+    {
+      "story_id": "event-sp-global-meta-broadcom-credit-outlook-ai-capex-customer-concentration",
+      "normalized_subject": "sp global credit outlook meta broadcom ai spending customer concentration",
+      "entities": [
+        "S&P Global Ratings",
+        "Meta",
+        "Broadcom"
+      ],
+      "event_summary": "S&P revised Meta's outlook to negative on AI capex and free-cash-flow concerns and lowered Broadcom's outlook to stable due to growing exposure to a small number of large AI customers.",
+      "normalized_headline": "S&P turns more cautious on Meta and Broadcom as AI concentration risks rise",
+      "canonical_urls": [
+        "https://www.reuters.com/business/sp-global-revises-outlook-meta-negative-cashflow-concerns-2026-10-30/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-2.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 30 Oct 2026",
+        "S&P Global Ratings outlook actions as reported by Reuters"
+      ],
+      "delivery_note": "Outlook revisions, not credit-rating downgrades."
+    },
+    {
+      "story_id": "event-foxconn-openai-collaboration-discussions-ai-server-robot-deployment",
+      "normalized_subject": "foxconn openai collaboration discussions ai server manufacturing humanoid robots",
+      "entities": [
+        "Foxconn",
+        "Hon Hai",
+        "OpenAI",
+        "Nvidia",
+        "Foxconn Industrial Internet",
+        "GR00T"
+      ],
+      "event_summary": "Foxconn chairman said a new OpenAI collaboration was in the works after meeting Sam Altman; Reuters also reported Foxconn's AI-server manufacturing footprint and company-stated humanoid robot deployment in Texas.",
+      "normalized_headline": "Foxconn says a new OpenAI tie-up is in the works as AI-server and robot production expands",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/foxconn-working-new-tie-up-with-openai-says-there-is-no-ai-bubble-2026-10-30/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-2.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 30 Oct 2026; chairman remarks and company deployment figures"
+      ],
+      "delivery_note": "Potential collaboration not yet detailed or announced as a signed agreement."
+    },
+    {
+      "story_id": "event-spotify-ai-remix-service-q1-2027-launch-pricing-artist-opt-in",
+      "normalized_subject": "spotify paid ai remix and cover service launch timeline licensing artist consent",
+      "entities": [
+        "Spotify",
+        "Universal Music Group",
+        "Merlin",
+        "Believe",
+        "Sony Music Group",
+        "Warner Music Group"
+      ],
+      "event_summary": "The Financial Times reported a Q1 2027 target and possible $4-$5 monthly add-on pricing for Spotify's licensed AI remix and cover service; artist opt-in and several label negotiations remain important conditions.",
+      "normalized_headline": "Spotify puts a Q1 2027 window on its paid AI remix service",
+      "canonical_urls": [
+        "https://www.ft.com/content/50286bd0-7158-4347-81d8-011cd164f75b",
+        "https://www.reuters.com/business/media-telecom/spotify-targets-2027-launch-ai-remix-service-ft-reports-2026-10-30/",
+        "https://www.musicbusinessworldwide.com/spotify-plans-q1-2027-launch-for-ai-covers-and-remixes-tool-weighing-4-5-monthly-price-report/"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-2.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Financial Times, 30 Oct 2026",
+        "Reuters, 30 Oct 2026",
+        "Music Business Worldwide, 30 Oct 2026"
+      ],
+      "delivery_note": "Reported launch target and price; Spotify did not confirm details to Reuters."
     }
   ]
 }
