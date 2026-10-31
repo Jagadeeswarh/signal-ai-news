@@ -4,7 +4,7 @@
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
   "last_updated_at": "2026-10-31T08:11:26+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -90,6 +90,38 @@
       "repeat_candidates_excluded": 35,
       "material_followups": 0,
       "same_day_revision_of": "archive/2026-10-31.html",
+      "research_window": "2026-10-29T08:11:00+05:30/2026-10-31T08:11:00+05:30"
+    },
+    {
+      "date": "2026-10-31",
+      "path": "archive/2026-10-31-edition-3.html",
+      "kind": "expanded same-day revision 3; 14 distinct stories; carries 12 stories from earlier same-day editions and adds two OpenAI developments",
+      "story_count": 14,
+      "new_story_count": 2,
+      "carried_story_count": 12,
+      "new_story_ids": [
+        "event-openai-gpt6-rosalind-research-life-sciences-trusted-access",
+        "event-openai-model-spec-five-values-agent-oversight-update-2026-10-29"
+      ],
+      "story_ids": [
+        "event-big-tech-ai-capex-market-test-q3-2026",
+        "event-cursor-claude-code-extension-marketplace-supply-chain-compromise",
+        "event-cxmt-q3-2026-results-sixth-generation-dram-validation",
+        "event-amazon-aws-q3-2026-bedrock-agentcore-adoption",
+        "event-nscale-monarch-campus-8gw-ipo-power-financing-permits",
+        "event-uk-cma-meta-commercial-terms-publisher-content-ai-probe",
+        "event-openai-latest-funding-round-reported-11bn-of-30bn-target",
+        "event-rbi-india-banks-ai-era-cyber-readiness-api-scrutiny",
+        "event-fcc-china-testing-lab-certification-ban-countermeasures-2026",
+        "event-sp-global-meta-broadcom-credit-outlook-ai-capex-customer-concentration",
+        "event-foxconn-openai-collaboration-discussions-ai-server-robot-deployment",
+        "event-spotify-ai-remix-service-q1-2027-launch-pricing-artist-opt-in",
+        "event-openai-gpt6-rosalind-research-life-sciences-trusted-access",
+        "event-openai-model-spec-five-values-agent-oversight-update-2026-10-29"
+      ],
+      "repeat_candidates_excluded": 35,
+      "material_followups": 0,
+      "same_day_revision_of": "archive/2026-10-31-edition-2.html",
       "research_window": "2026-10-29T08:11:00+05:30/2026-10-31T08:11:00+05:30"
     }
   ],
@@ -1964,6 +1996,62 @@
         "Music Business Worldwide, 30 Oct 2026"
       ],
       "delivery_note": "Reported launch target and price; Spotify did not confirm details to Reuters."
+    },
+    {
+      "story_id": "event-openai-gpt6-rosalind-research-life-sciences-trusted-access",
+      "normalized_subject": "openai gpt 6 rosalind research life sciences restricted access biorisk",
+      "entities": [
+        "OpenAI",
+        "GPT-6 Rosalind Research",
+        "GPT-6 Astra",
+        "biology",
+        "drug discovery"
+      ],
+      "event_summary": "OpenAI began limited rollout of GPT-6 Rosalind Research to approved Enterprise customers in Work and Codex; the system card says it uses the same weights as GPT-6 Astra with trusted-access and life-sciences safeguards.",
+      "normalized_headline": "OpenAI rolls out GPT-6 Rosalind Research to approved life-sciences teams",
+      "canonical_urls": [
+        "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-and-edu-release-notes",
+        "https://deploymentsafety.openai.com/gpt-rosalind-6"
+      ],
+      "original_publication_date": "2026-10-30",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-3.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI Enterprise/Edu release notes, 30 Oct 2026",
+        "OpenAI Deployment Safety Hub system card, 30 Oct 2026"
+      ],
+      "delivery_note": "Same model weights as GPT-6 Astra; this is a restricted deployment and safety configuration, not a newly trained checkpoint."
+    },
+    {
+      "story_id": "event-openai-model-spec-five-values-agent-oversight-update-2026-10-29",
+      "normalized_subject": "openai model spec five values human agency context side effects agent oversight",
+      "entities": [
+        "OpenAI",
+        "OpenAI Model Spec",
+        "GPT"
+      ],
+      "event_summary": "OpenAI published a revised Model Spec organized around five values and expanded guidance on human agency, context, oversight, untrusted instructions and communicating side effects.",
+      "normalized_headline": "OpenAI reorganizes its Model Spec around five values and clearer agent oversight",
+      "canonical_urls": [
+        "https://openai.com/index/updated-model-spec/",
+        "https://model-spec.openai.com/"
+      ],
+      "original_publication_date": "2026-10-29",
+      "first_edition_date": "2026-10-31",
+      "first_edition_path": "archive/2026-10-31-edition-3.html",
+      "edition_paths": [
+        "archive/2026-10-31-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI, 29 Oct 2026",
+        "OpenAI Model Spec, 29 Oct 2026"
+      ],
+      "delivery_note": "Behavioural specification and training target; OpenAI says deployed models do not yet fully reflect it."
     }
   ]
 }
