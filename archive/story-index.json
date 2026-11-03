@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-10-31T09:09:21+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.",
+  "last_updated_at": "2026-11-03T08:47:32+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -157,6 +157,112 @@
         "iitk.ac.in",
         "indianexpress.com"
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "path": "archive/2026-11-03.html",
+      "kind": "source-checked daily issue; 10 distinct developments; eight new events and two material follow-ups; 50-domain discovery scan",
+      "story_count": 10,
+      "new_story_count": 8,
+      "material_followups": 2,
+      "carried_story_count": 0,
+      "repeat_candidates_excluded": 5,
+      "story_ids": [
+        "event-anthropic-s1-amendment-compute-commitments-financials-2026-11-02",
+        "event-marvell-definitive-agreement-acquire-lumentum-ai-connectivity-2026-11-02",
+        "event-alphabet-eur6bn-bond-sale-ai-infrastructure-2026-11-02",
+        "event-oracle-20bn-bond-share-raise-ai-infrastructure-2026-11-02",
+        "event-openai-grid-protectors-program-georgia-flexible-demand-response-2026-11-02",
+        "event-adnoc-openai-g42-frontier-ai-deployment-2026-11-02",
+        "event-china-financial-regulator-ai-investment-concentration-warning-2026-11-03",
+        "event-ecb-ai-valuations-bond-stress-financial-stability-warning-2026-11-02",
+        "event-blackstone-ai-infrastructure-fundraising-demand-comments-2026-11-03",
+        "event-openai-dan-driscoll-national-security-counsel-2026-11-02"
+      ],
+      "research_window": "2026-11-01T08:47:32+05:30/2026-11-03T08:47:32+05:30",
+      "source_domains_queried": 50,
+      "source_domains_with_usable_evidence": [
+        "reuters.com",
+        "ft.com",
+        "theverge.com",
+        "openai.com",
+        "apnews.com"
+      ],
+      "source_domains_stale_or_recap": [
+        "blog.google",
+        "business-standard.com"
+      ],
+      "source_domains_blocked": [
+        "cnbc.com",
+        "technologyreview.com"
+      ],
+      "source_domains_no_fresh_hit": [
+        "anthropic.com",
+        "deepmind.google",
+        "microsoft.com",
+        "blogs.microsoft.com",
+        "ai.meta.com",
+        "developer.nvidia.com",
+        "aws.amazon.com",
+        "apple.com",
+        "huggingface.co",
+        "github.blog",
+        "docs.github.com",
+        "arxiv.org",
+        "bloomberg.com",
+        "techcrunch.com",
+        "arstechnica.com",
+        "wired.com",
+        "theregister.com",
+        "venturebeat.com",
+        "spectrum.ieee.org",
+        "economictimes.indiatimes.com",
+        "moneycontrol.com",
+        "yourstory.com",
+        "restofworld.org",
+        "semiconductor-digest.com",
+        "tomshardware.com",
+        "nature.com",
+        "science.org",
+        "acm.org",
+        "bleepingcomputer.com",
+        "therecord.media",
+        "darkreading.com",
+        "cisa.gov",
+        "gov.uk",
+        "europa.eu",
+        "ec.europa.eu",
+        "trai.gov.in",
+        "meity.gov.in",
+        "news.samsung.com",
+        "news.skhynix.com",
+        "tsmc.com",
+        "smic.com"
+      ],
+      "verification_domains_opened": [
+        "sec.gov",
+        "investor.marvell.com",
+        "investor.lumentum.com",
+        "thenationalnews.com"
+      ],
+      "verification_domains_access_limited": [
+        "adnoc.ae"
+      ],
+      "archive_pages_checked": 9,
+      "archive_pages_unavailable": [],
+      "repeat_exclusions": [
+        "OpenAI reported funding-target reduction",
+        "TRAI draft responsible-AI telecom guidelines",
+        "CXMT HBM3E production story",
+        "Gemini 4 Carbon release",
+        "Mistral Large 4 open-weight release"
+      ],
+      "out_of_window_exclusions": [
+        "Google AI October roundup recap",
+        "Iluvatar Tiangai 300 demonstration from 28–29 October",
+        "Huawei Ascend 960 announcement from September"
+      ],
+      "humanize_pass": "Applied using documented humanize-writing principles; external package/linter not installed or run."
     }
   ],
   "stories": [
@@ -290,11 +396,24 @@
       "edition_paths": [
         "index.html",
         "archive/2026-10-28-current.html",
-        "archive/2026-10-28-current-v2.html"
+        "archive/2026-10-28-current-v2.html",
+        "archive/2026-11-03.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-03",
+          "path": "archive/2026-11-03.html",
+          "headline": "FOLLOW-UP: Anthropic’s amended IPO filing puts a $895bn compute bill in view",
+          "material_change": "Amendment No. 1 adds Q3 financials, $895.4bn in aggregate compute and infrastructure commitments, $69.8bn due in the next 12 months, and a warning about financing risks at capacity partners.",
+          "canonical_urls": [
+            "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+            "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/"
+          ]
+        }
+      ],
       "source_metadata": [
-        "05 · U.S. SEC · Filing · 26 Oct"
+        "05 · U.S. SEC · Filing · 26 Oct",
+        "Follow-up: SEC S-1/A and Reuters, 2 Nov 2026."
       ],
       "delivery_note": null
     },
@@ -1200,10 +1319,25 @@
       "first_edition_date": "2026-10-29",
       "first_edition_path": "archive/2026-10-29.html",
       "edition_paths": [
-        "archive/2026-10-29.html"
+        "archive/2026-10-29.html",
+        "archive/2026-11-03.html"
       ],
-      "follow_up_editions": [],
-      "source_metadata": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-03",
+          "path": "archive/2026-11-03.html",
+          "headline": "FOLLOW-UP: Marvell agrees to buy Lumentum in a $115bn AI-connectivity deal",
+          "material_change": "Advanced talks became a definitive all-stock agreement with a 4.5-share exchange ratio, implied $115bn enterprise value and expected H1 2028 close subject to approvals.",
+          "canonical_urls": [
+            "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001193125-26-442714/d81187dex991.htm",
+            "https://investor.lumentum.com/financial-news-releases/news-details/2026/Marvell-and-Lumentum-to-Combine-Creating-a-Category-Leader-in-AI-Connectivity/default.aspx",
+            "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/"
+          ]
+        }
+      ],
+      "source_metadata": [
+        "Follow-up: Marvell/Lumentum definitive agreement and Reuters, 2 Nov 2026."
+      ],
       "delivery_note": null
     },
     {
@@ -2258,6 +2392,278 @@
         "The Indian Express, 30 Oct 2026"
       ],
       "delivery_note": "AI/ML is one component of a broader SOC stack; the announcement does not specify a new model or autonomous security system."
+    },
+    {
+      "story_id": "event-anthropic-s1-amendment-compute-commitments-financials-2026-11-02",
+      "normalized_subject": "anthropic amended s-1 discloses q3 financials and compute infrastructure commitments",
+      "entities": [
+        "Anthropic",
+        "U.S. Securities and Exchange Commission",
+        "Amazon",
+        "Google"
+      ],
+      "event_summary": "Anthropic filed Amendment No. 1 to its S-1 on 2 November 2026, adding Q3 financials and $895.4bn in aggregate compute and infrastructure purchase and lease commitments, including $69.8bn due in the following 12 months; it warns that partner financing could affect contracted capacity.",
+      "normalized_headline": "Anthropic’s amended IPO filing puts a $895bn compute bill in view",
+      "canonical_urls": [
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+        "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/"
+      ],
+      "original_publication_date": "2026-11-02",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SEC EDGAR, 2 Nov 2026, S-1/A Amendment No. 1",
+        "Reuters, 2 Nov 2026, Q3 financials and compute commitments"
+      ],
+      "delivery_note": "Material follow-up to the 28 October IPO registration story; commitments are long-dated purchase and lease obligations, not cash due today.",
+      "follow_up_of": "event-anthropic-files-registration-for-a-proposed-ipo",
+      "material_change": "Amendment No. 1 adds Q3 financials, $895.4bn in aggregate compute and infrastructure commitments, $69.8bn due in the next 12 months, and a warning about financing risks at capacity partners."
+    },
+    {
+      "story_id": "event-marvell-definitive-agreement-acquire-lumentum-ai-connectivity-2026-11-02",
+      "normalized_subject": "marvell signs definitive agreement to acquire lumentum for ai optical connectivity",
+      "entities": [
+        "Marvell",
+        "Lumentum",
+        "NVIDIA",
+        "Broadcom"
+      ],
+      "event_summary": "Marvell and Lumentum entered a definitive all-stock agreement on 2 November 2026; the transaction has an implied $115bn enterprise value, a 4.5-share exchange ratio, about 33% post-close ownership for Lumentum holders and an expected H1 2028 close subject to approvals.",
+      "normalized_headline": "Marvell agrees to buy Lumentum in a $115bn AI-connectivity deal",
+      "canonical_urls": [
+        "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001193125-26-442714/d81187dex991.htm",
+        "https://investor.lumentum.com/financial-news-releases/news-details/2026/Marvell-and-Lumentum-to-Combine-Creating-a-Category-Leader-in-AI-Connectivity/default.aspx",
+        "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/"
+      ],
+      "original_publication_date": "2026-11-02",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Marvell 8-K and transaction exhibit, 2 Nov 2026",
+        "Lumentum announcement, 2 Nov 2026",
+        "Reuters, 2 Nov 2026"
+      ],
+      "delivery_note": "Material follow-up to the 29 October advanced-talks report; company addressable-market and synergy figures are forecasts.",
+      "follow_up_of": "event-marvell-is-in-advanced-talks-to-buy-optics-maker-lumentum",
+      "material_change": "Advanced talks became a definitive all-stock agreement with a 4.5-share exchange ratio, implied $115bn enterprise value and expected H1 2028 close subject to approvals."
+    },
+    {
+      "story_id": "event-alphabet-eur6bn-bond-sale-ai-infrastructure-2026-11-02",
+      "normalized_subject": "alphabet launches six billion euro bond sale amid ai infrastructure financing needs",
+      "entities": [
+        "Alphabet",
+        "Google",
+        "European bond market"
+      ],
+      "event_summary": "Alphabet launched a €6bn euro-denominated bond sale in seven tranches with demand just over €17bn; proceeds are for general corporate purposes and may include debt repayment, while the company expects up to $205bn in capital spending this year and has $130.5bn in future data-centre-heavy lease payments not yet commenced.",
+      "normalized_headline": "Alphabet sells €6bn of bonds as AI infrastructure strains the debt market",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-tech-debt-2026-11-02/"
+      ],
+      "original_publication_date": "2026-11-02",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 2 Nov 2026, citing a bank memo and SEC filing"
+      ],
+      "delivery_note": "Bond proceeds are not earmarked exclusively for AI; Reuters reports general corporate purposes and uses AI/data-centre spending as the market context."
+    },
+    {
+      "story_id": "event-oracle-20bn-bond-share-raise-ai-infrastructure-2026-11-02",
+      "normalized_subject": "oracle plans twenty billion dollar bond and share raise amid ai cloud expansion",
+      "entities": [
+        "Oracle",
+        "OpenAI",
+        "AI cloud infrastructure"
+      ],
+      "event_summary": "Oracle plans to raise $20bn through bond and share sales; the company says proceeds may be used for general corporate purposes including capital spending, debt repayment, acquisitions, dividends and share repurchases.",
+      "normalized_headline": "Oracle seeks $20bn from bond and share sales for its next expansion",
+      "canonical_urls": [
+        "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/"
+      ],
+      "original_publication_date": "2026-11-02",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 2 Nov 2026, based on regulatory filings"
+      ],
+      "delivery_note": "The proceeds are not a ring-fenced AI budget; Reuters reports general corporate uses and notes Oracle’s infrastructure expansion and debt exposure."
+    },
+    {
+      "story_id": "event-openai-grid-protectors-program-georgia-flexible-demand-response-2026-11-02",
+      "normalized_subject": "openai launches grid protectors programme for flexible data centre electricity demand",
+      "entities": [
+        "OpenAI",
+        "Georgia Power",
+        "Effingham County",
+        "United States"
+      ],
+      "event_summary": "OpenAI launched the Grid Protectors programme on 2 November 2026 and said its Georgia Power agreement for the planned Effingham County campus includes up to 1,000 MW of flexible demand response.",
+      "normalized_headline": "OpenAI makes grid flexibility part of the bargain for new compute campuses",
+      "canonical_urls": [
+        "https://openai.com/index/grid-protectors-program/",
+        "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+      ],
+      "original_publication_date": "2026-11-02",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI, 2 Nov 2026, programme announcement and Georgia Power agreement",
+        "The Verge, 2 Nov 2026, independent reporting"
+      ],
+      "delivery_note": "The campus remains in development; 1,000 MW is the stated flexible-demand capacity in the agreement, not a measured operating result."
+    },
+    {
+      "story_id": "event-adnoc-openai-g42-frontier-ai-deployment-2026-11-02",
+      "normalized_subject": "adnoc openai g42 multi year frontier agent deployment in energy operations",
+      "entities": [
+        "ADNOC",
+        "OpenAI",
+        "G42",
+        "United Arab Emirates"
+      ],
+      "event_summary": "ADNOC, OpenAI and G42 announced a multi-year partnership to deploy OpenAI Frontier on UAE-based compute, beginning with field master planning and workflows linking production, refining, logistics, sales and trading.",
+      "normalized_headline": "ADNOC will use OpenAI agents to connect oilfield planning with commercial decisions",
+      "canonical_urls": [
+        "https://www.adnoc.ae/media-center/news/2026/11/ADNOC-Signs-Landmark-Partnership-Agreement-with-OpenAI",
+        "https://www.reuters.com/business/energy/abu-dhabis-adnoc-g42-sign-deal-with-openai-sam-altman-travels-uae-2026-11-02/",
+        "https://www.thenationalnews.com/business/energy/2026/11/02/adnoc-signs-agreement-with-openai-and-g42-to-deploy-frontier-ai/"
+      ],
+      "original_publication_date": "2026-11-02",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "ADNOC, 2 Nov 2026, company announcement",
+        "Reuters, 2 Nov 2026",
+        "The National, 2 Nov 2026"
+      ],
+      "delivery_note": "ADNOC’s claimed planning-time reduction and employee adoption figures are company-reported; no deal value or firm deployment timetable was disclosed."
+    },
+    {
+      "story_id": "event-china-financial-regulator-ai-investment-concentration-warning-2026-11-03",
+      "normalized_subject": "china financial regulator warns ai investment concentration may crowd out traditional sectors",
+      "entities": [
+        "China National Financial Regulatory Administration",
+        "Xiao Yuanqi",
+        "Hong Kong Monetary Authority"
+      ],
+      "event_summary": "A senior Chinese financial regulator official said global AI investment is overly concentrated and can crowd out traditional industries by raising borrowing costs and leverage; the remarks were made at the HKMA Global Financial Leaders’ Summit.",
+      "normalized_headline": "China’s financial regulator says AI investment is becoming too concentrated",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/ai-investment-is-becoming-overly-concentrated-chinese-official-says-2026-11-03/"
+      ],
+      "original_publication_date": "2026-11-03",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 3 Nov 2026, remarks by Xiao Yuanqi"
+      ],
+      "delivery_note": "A policy warning in a public speech, not a new regulation or announced intervention."
+    },
+    {
+      "story_id": "event-ecb-ai-valuations-bond-stress-financial-stability-warning-2026-11-02",
+      "normalized_subject": "ecb warns ai equity valuations and bond stress pose financial stability risks",
+      "entities": [
+        "European Central Bank",
+        "Boris Vujčić",
+        "European financial system"
+      ],
+      "event_summary": "ECB Vice-President Boris Vujčić identified high AI-stock valuations, bond-market stress and possible losses at shadow banks as current financial-stability risks; the ECB’s next Financial Stability Review is due on 18 November 2026.",
+      "normalized_headline": "ECB flags AI valuations and bond stress as financial-stability risks",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/ecb-flags-ai-valuations-bond-stress-fund-losses-main-risks-2026-11-02/"
+      ],
+      "original_publication_date": "2026-11-02",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 2 Nov 2026, remarks by ECB Vice-President Boris Vujčić"
+      ],
+      "delivery_note": "This is a warning about market risks, not an AI-specific regulatory action."
+    },
+    {
+      "story_id": "event-blackstone-ai-infrastructure-fundraising-demand-comments-2026-11-03",
+      "normalized_subject": "blackstone president says ai infrastructure growth will require more equity fundraising",
+      "entities": [
+        "Blackstone",
+        "Jon Gray",
+        "AI infrastructure investors"
+      ],
+      "event_summary": "Blackstone President Jon Gray said technology firms will need more equity fundraising to meet AI-related demand for data centres and energy.",
+      "normalized_headline": "Blackstone expects more equity fundraising to finance AI infrastructure",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/blackstone-president-says-more-tech-sector-fundraising-ahead-keep-up-with-ai-2026-11-03/"
+      ],
+      "original_publication_date": "2026-11-03",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 3 Nov 2026, remarks by Blackstone President Jon Gray"
+      ],
+      "delivery_note": "Investor commentary and market view, not a new Blackstone financing commitment."
+    },
+    {
+      "story_id": "event-openai-dan-driscoll-national-security-counsel-2026-11-02",
+      "normalized_subject": "openai appoints former us army secretary dan driscoll as national security counselor",
+      "entities": [
+        "OpenAI",
+        "Dan Driscoll",
+        "United States Army"
+      ],
+      "event_summary": "OpenAI appointed former U.S. Secretary of the Army Dan Driscoll to a newly created senior counselor role focused on national-security modernization and external partnerships.",
+      "normalized_headline": "OpenAI appoints former US Army secretary Dan Driscoll to a national-security role",
+      "canonical_urls": [
+        "https://www.reuters.com/business/openai-taps-former-us-army-secretary-dan-driscoll-national-security-role-2026-11-03/",
+        "https://www.ft.com/content/e6b8fd40-ef92-46e8-aeaf-f98dade55a67"
+      ],
+      "original_publication_date": "2026-11-03",
+      "first_edition_date": "2026-11-03",
+      "first_edition_path": "archive/2026-11-03.html",
+      "edition_paths": [
+        "archive/2026-11-03.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 3 Nov 2026, announcement made on 2 Nov",
+        "Financial Times, 2 Nov 2026"
+      ],
+      "delivery_note": "OpenAI says the role will advise leadership and work with external partners on AI for national security and cybersecurity."
     }
   ]
 }
