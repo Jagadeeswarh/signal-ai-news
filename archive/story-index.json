@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-03T08:47:32+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.",
+  "last_updated_at": "2026-11-03T03:30:02.911Z",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -262,7 +262,37 @@
         "Iluvatar Tiangai 300 demonstration from 28–29 October",
         "Huawei Ascend 960 announcement from September"
       ],
-      "humanize_pass": "Applied using documented humanize-writing principles; external package/linter not installed or run."
+      "humanize_pass": "Applied using documented humanize-writing principles; external package/linter not installed or run.",
+      "superseded_by": "archive/2026-11-03-edition-2.html",
+      "status": "preserved-original; corrected edition 2 is the latest homepage"
+    },
+    {
+      "date": "2026-11-03",
+      "path": "archive/2026-11-03-edition-2.html",
+      "kind": "corrected same-day edition; same ten stories; added accounting and contractual context to Anthropic lead; no new research events",
+      "story_count": 10,
+      "new_story_count": 0,
+      "material_followups": 2,
+      "carried_story_count": 10,
+      "repeat_candidates_excluded": 0,
+      "story_ids": [
+        "event-anthropic-s1-amendment-compute-commitments-financials-2026-11-02",
+        "event-marvell-definitive-agreement-acquire-lumentum-ai-connectivity-2026-11-02",
+        "event-alphabet-eur6bn-bond-sale-ai-infrastructure-2026-11-02",
+        "event-oracle-20bn-bond-share-raise-ai-infrastructure-2026-11-02",
+        "event-openai-grid-protectors-program-georgia-flexible-demand-response-2026-11-02",
+        "event-adnoc-openai-g42-frontier-ai-deployment-2026-11-02",
+        "event-china-financial-regulator-ai-investment-concentration-warning-2026-11-03",
+        "event-ecb-ai-valuations-bond-stress-financial-stability-warning-2026-11-02",
+        "event-blackstone-ai-infrastructure-fundraising-demand-comments-2026-11-03",
+        "event-openai-dan-driscoll-national-security-counsel-2026-11-02"
+      ],
+      "revision_of": "archive/2026-11-03.html",
+      "correction_note": "Clarifies that $94.3bn of Anthropic’s $104.039bn nine-month net loss reflects fair-value changes in convertible notes, derivative liabilities and SAFEs; identifies $213.8bn of commitments subject to termination rights or conditions; adds $131.845bn cash/short-term investments and $14.8bn credit-facility availability.",
+      "source_domains_queried": 0,
+      "reuses_research_from": "archive/2026-11-03.html",
+      "archive_pages_checked": 0,
+      "archive_pages_unavailable": []
     }
   ],
   "stories": [
@@ -397,7 +427,8 @@
         "index.html",
         "archive/2026-10-28-current.html",
         "archive/2026-10-28-current-v2.html",
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [
         {
@@ -1320,7 +1351,8 @@
       "first_edition_path": "archive/2026-10-29.html",
       "edition_paths": [
         "archive/2026-10-29.html",
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [
         {
@@ -2412,7 +2444,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2443,7 +2476,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2472,7 +2506,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2497,7 +2532,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2524,7 +2560,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2553,7 +2590,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2580,7 +2618,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2605,7 +2644,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2630,7 +2670,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2656,7 +2697,8 @@
       "first_edition_date": "2026-11-03",
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
-        "archive/2026-11-03.html"
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
