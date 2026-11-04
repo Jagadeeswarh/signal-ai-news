@@ -522,6 +522,41 @@
       "source_domains_queried": 0,
       "reuses_research_from": "archive/2026-11-04-edition-3.html",
       "archive_pages_checked": 0,
+      "archive_pages_unavailable": [],
+      "superseded_by": "archive/2026-11-04-edition-5.html",
+      "status": "preserved snapshot; edition 5 is latest homepage"
+    },
+    {
+      "date": "2026-11-04",
+      "path": "archive/2026-11-04-edition-5.html",
+      "kind": "expanded final daily edition; 15 distinct developments; 10 main-desk reports and 5 more signals",
+      "story_count": 15,
+      "new_story_count": 1,
+      "material_followups": 0,
+      "carried_story_count": 14,
+      "repeat_candidates_excluded": 11,
+      "story_ids": [
+        "event-amd-q3-2026-data-centre-revenue-helios-warrants-2026-11-03",
+        "event-nvidia-cloud-partners-51pct-non-china-services-2026-11-03",
+        "event-indiaai-eka1-dhir-models-release-2026-11-03",
+        "event-drax-brookfield-radiant-uk-gw-data-centre-2026-11-03",
+        "event-crowdstrike-fiddler-dreadnode-acquisitions-agent-security-2026-11-03",
+        "event-meta-15bn-bond-ai-infrastructure-2026-11-03",
+        "event-google-k12-ai-search-controls-guided-learning-2026-11-03",
+        "event-apple-memory-cost-margin-warning-q4-2026-11-02",
+        "event-bull-schwarz-digits-sovereign-ai-cloud-mou-2026-11-03",
+        "event-openai-internal-security-warnings-reuters-investigation-2026-11-03",
+        "event-baidu-apollo-world-robotaxi-simulation-model-2026-11-03",
+        "event-palantir-q3-2026-us-commercial-ai-revenue-overtakes-government-2026-11-02",
+        "event-thomson-reuters-q3-genai-acv-cocounsel-2026-11-03",
+        "event-china-qwenwork-ai-token-memberships-singles-day-2026-11-03",
+        "event-nvidia-brev-unauthorized-access-ssh-keys-2026-11-02"
+      ],
+      "revision_of": "archive/2026-11-04-edition-4.html",
+      "correction_note": "Adds the 2 November Nvidia Brev security disclosure as a new distinct development; moves the OpenAI internal-security investigation from the main desk to More Signals. The 53-domain research audit and original 14 story records are retained.",
+      "source_domains_queried": 0,
+      "reuses_research_from": "archive/2026-11-04.html",
+      "archive_pages_checked": 0,
       "archive_pages_unavailable": []
     }
   ],
@@ -2962,7 +2997,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2993,7 +3029,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3028,7 +3065,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3060,7 +3098,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3093,7 +3132,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3123,7 +3163,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3154,7 +3195,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3185,7 +3227,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3216,7 +3259,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3245,7 +3289,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3273,7 +3318,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3301,7 +3347,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3330,7 +3377,8 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3359,13 +3407,41 @@
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
-        "archive/2026-11-04-edition-4.html"
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
         "Reuters, 3 Nov 2026"
       ],
       "delivery_note": "Alibaba-reported token package sales; prepaid usage has expiry and product-obsolescence risk."
+    },
+    {
+      "story_id": "event-nvidia-brev-unauthorized-access-ssh-keys-2026-11-02",
+      "normalized_subject": "nvidia brev developer cloud unauthorized access may have exposed ssh keys",
+      "entities": [
+        "Nvidia",
+        "Brev",
+        "SSH",
+        "Customer virtual machines",
+        "Wiz"
+      ],
+      "event_summary": "Nvidia notified affected Brev customers after unauthorized activity between 4 and 20 October 2026; information stored on the platform, including SSH keys used to access customer VMs, may have been exposed. Nvidia says keys were rotated and instances updated, with no evidence of misuse; entry vector and possible customer data/workload access were not disclosed.",
+      "normalized_headline": "Nvidia’s Brev cloud platform may have exposed SSH keys after a 16-day intrusion",
+      "canonical_urls": [
+        "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse"
+      ],
+      "original_publication_date": "2026-11-02",
+      "first_edition_date": "2026-11-04",
+      "first_edition_path": "archive/2026-11-04-edition-5.html",
+      "edition_paths": [
+        "archive/2026-11-04-edition-5.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Tom’s Hardware, 2 Nov 2026"
+      ],
+      "delivery_note": "Nvidia says affected SSH keys were rotated and customer instances updated; no evidence of misuse was found. The entry vector and any access to customer data or workloads remain undisclosed."
     }
   ]
 }
