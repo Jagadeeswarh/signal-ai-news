@@ -392,7 +392,7 @@
         "investors.palantir.com"
       ],
       "verification_domains_access_limited": [
-        "pib.gov.in: official press-release iframe returned HTTP error; PIB photo album and reproduction accessible"
+        "pib.gov.in: direct press-release iframe returned HTTP error; official text reproduced by Technology For You and the PIB photo album were accessible."
       ],
       "archive_pages_checked": 11,
       "archive_pages_unavailable": [],
@@ -419,7 +419,10 @@
       "humanize_pass": "Applied during drafting using requested newsroom principles; no external package or linter was installed or run.",
       "registry_status_before_write": "105 story records and 13 edition records; all 11 accessible archived HTML issues and current homepage inspected.",
       "status": "preserved-original; corrected edition 2 is latest homepage",
-      "superseded_by": "archive/2026-11-04-edition-2.html"
+      "superseded_by": "archive/2026-11-04-edition-2.html",
+      "secondary_source_mirrors_checked": [
+        "technologyforyou.org"
+      ]
     },
     {
       "date": "2026-11-04",
@@ -3015,7 +3018,8 @@
       "canonical_urls": [
         "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2332315",
         "https://www.moneycontrol.com/artificial-intelligence/meity-releases-2-more-foundational-models-under-indiaai-mission-article-14068073.html",
-        "https://www.livemint.com/technology/meity-unveils-indigenous-ai-models-eka-1-dh-r-2b-and-5b-under-indiaai-mission-11793720433461.html"
+        "https://www.livemint.com/technology/meity-unveils-indigenous-ai-models-eka-1-dh-r-2b-and-5b-under-indiaai-mission-11793720433461.html",
+        "https://www.technologyforyou.org/indiaai-mission-released-indigenous-foundation-models-eka-1-by-soket-and-dhir-2b-dhir-5b-by-zenteiq-under-the-indiaai-innovation-centre-pillar/"
       ],
       "original_publication_date": "2026-11-03",
       "first_edition_date": "2026-11-04",
@@ -3030,7 +3034,8 @@
       "source_metadata": [
         "PIB / MeitY release, 3 Nov 2026",
         "Moneycontrol, 3 Nov 2026",
-        "Mint, 3 Nov 2026"
+        "Mint, 3 Nov 2026",
+        "PIB release reproduced by Technology For You, 3 Nov 2026"
       ],
       "delivery_note": "Parameter counts, training volume, language coverage and intended uses come from the government release and company descriptions. Independent benchmark and adoption data were not found in this window."
     },
