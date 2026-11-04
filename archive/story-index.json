@@ -485,6 +485,40 @@
       "source_domains_queried": 0,
       "reuses_research_from": "archive/2026-11-04-edition-2.html",
       "archive_pages_checked": 0,
+      "archive_pages_unavailable": [],
+      "superseded_by": "archive/2026-11-04-edition-4.html",
+      "status": "preserved snapshot; edition 4 is latest homepage"
+    },
+    {
+      "date": "2026-11-04",
+      "path": "archive/2026-11-04-edition-4.html",
+      "kind": "final source-checked same-day correction; same 14 developments; adds verified AMD Helios and ROCm 10 details and accessible PIB release reproduction",
+      "story_count": 14,
+      "new_story_count": 0,
+      "material_followups": 0,
+      "carried_story_count": 14,
+      "repeat_candidates_excluded": 0,
+      "story_ids": [
+        "event-amd-q3-2026-data-centre-revenue-helios-warrants-2026-11-03",
+        "event-nvidia-cloud-partners-51pct-non-china-services-2026-11-03",
+        "event-indiaai-eka1-dhir-models-release-2026-11-03",
+        "event-drax-brookfield-radiant-uk-gw-data-centre-2026-11-03",
+        "event-crowdstrike-fiddler-dreadnode-acquisitions-agent-security-2026-11-03",
+        "event-meta-15bn-bond-ai-infrastructure-2026-11-03",
+        "event-google-k12-ai-search-controls-guided-learning-2026-11-03",
+        "event-apple-memory-cost-margin-warning-q4-2026-11-02",
+        "event-bull-schwarz-digits-sovereign-ai-cloud-mou-2026-11-03",
+        "event-openai-internal-security-warnings-reuters-investigation-2026-11-03",
+        "event-baidu-apollo-world-robotaxi-simulation-model-2026-11-03",
+        "event-palantir-q3-2026-us-commercial-ai-revenue-overtakes-government-2026-11-02",
+        "event-thomson-reuters-q3-genai-acv-cocounsel-2026-11-03",
+        "event-china-qwenwork-ai-token-memberships-singles-day-2026-11-03"
+      ],
+      "revision_of": "archive/2026-11-04-edition-3.html",
+      "correction_note": "Clarifies AMD's MI450 Series and first Helios customer deployments, adds Helion and ROCm 10, replaces an unverified AMD filing link with the official investor release, corrects CrowdStrike's Dreadnode link and adds an accessible reproduction of the PIB release.",
+      "source_domains_queried": 0,
+      "reuses_research_from": "archive/2026-11-04-edition-3.html",
+      "archive_pages_checked": 0,
       "archive_pages_unavailable": []
     }
   ],
@@ -2914,7 +2948,7 @@
       "event_summary": "AMD reported third-quarter revenue of $13.38bn, up 45% year over year, with data-centre revenue reaching a record $8.55bn, up 97%. It forecast roughly $17bn in fourth-quarter revenue and said its Helios rack-scale system, built around MI455X accelerators and Venice server CPUs, is moving into a larger production ramp. CEO Lisa Su told analysts she expects overall revenue growth above 80% in 2027. These are company results and guidance; market-share implications remain to be measured. A separate Reuters report on 4 November explains a $1.07bn non-cash charge tied to warrants granted to OpenAI and Meta in exchange for chip commitments. The warrants could dilute AMD shareholders if milestones are met. This is an accounting charge, not $1.07bn of operating cash burn. The deals show how chip suppliers are using equity incentives to secure scarce, long-duration demand.",
       "normalized_headline": "AMD’s data-centre business nearly doubles as its AI rack strategy moves into production",
       "canonical_urls": [
-        "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+        "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
         "https://www.reuters.com/business/amd-forecasts-quarterly-revenue-above-estimates-data-center-growth-accelerates-2026-11-03/",
         "https://www.reuters.com/legal/transactional/amds-openai-meta-chip-deals-trigger-1-billion-quarterly-charge-2026-11-04/"
       ],
@@ -2924,15 +2958,16 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
-        "AMD Q3 results — SEC filing, 3 Nov 2026",
-        "Reuters: AMD forecast and data-centre sales, 3 Nov 2026",
-        "Reuters: $1.07bn warrant charge, 4 Nov 2026"
+        "AMD investor release, 3 Nov 2026",
+        "Reuters, 3 Nov 2026",
+        "Reuters, 4 Nov 2026"
       ],
-      "delivery_note": "Financial figures are AMD-reported; Reuters adds independent market context and reports the warrant accounting. AMD’s 2027 outlook is guidance, not a realised result."
+      "delivery_note": "AMD reported Q3 revenue of $13.377bn and data-centre revenue of $8.5bn (+97%); first Helios rack-scale systems are running workloads at five named customers according to AMD; AMD introduced Helion and ROCm 10. The $1.097bn warrant-liability remeasurement is non-cash."
     },
     {
       "story_id": "event-nvidia-cloud-partners-51pct-non-china-services-2026-11-03",
@@ -2954,7 +2989,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2987,7 +3023,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3017,7 +3054,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3049,7 +3087,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3078,7 +3117,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3108,7 +3148,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3138,7 +3179,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3168,7 +3210,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3196,7 +3239,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3223,7 +3267,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3250,7 +3295,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3278,7 +3324,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3306,7 +3353,8 @@
       "edition_paths": [
         "archive/2026-11-04.html",
         "archive/2026-11-04-edition-2.html",
-        "archive/2026-11-04-edition-3.html"
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
