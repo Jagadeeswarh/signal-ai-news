@@ -451,6 +451,40 @@
       "source_domains_queried": 0,
       "reuses_research_from": "archive/2026-11-04.html",
       "archive_pages_checked": 0,
+      "archive_pages_unavailable": [],
+      "superseded_by": "archive/2026-11-04-edition-3.html",
+      "status": "preserved snapshot; edition 3 is latest homepage"
+    },
+    {
+      "date": "2026-11-04",
+      "path": "archive/2026-11-04-edition-3.html",
+      "kind": "final corrected same-day edition; same 14 developments; fixes browser controls and preserves all source links",
+      "story_count": 14,
+      "new_story_count": 0,
+      "material_followups": 0,
+      "carried_story_count": 14,
+      "repeat_candidates_excluded": 0,
+      "story_ids": [
+        "event-amd-q3-2026-data-centre-revenue-helios-warrants-2026-11-03",
+        "event-nvidia-cloud-partners-51pct-non-china-services-2026-11-03",
+        "event-indiaai-eka1-dhir-models-release-2026-11-03",
+        "event-drax-brookfield-radiant-uk-gw-data-centre-2026-11-03",
+        "event-crowdstrike-fiddler-dreadnode-acquisitions-agent-security-2026-11-03",
+        "event-meta-15bn-bond-ai-infrastructure-2026-11-03",
+        "event-google-k12-ai-search-controls-guided-learning-2026-11-03",
+        "event-apple-memory-cost-margin-warning-q4-2026-11-02",
+        "event-bull-schwarz-digits-sovereign-ai-cloud-mou-2026-11-03",
+        "event-openai-internal-security-warnings-reuters-investigation-2026-11-03",
+        "event-baidu-apollo-world-robotaxi-simulation-model-2026-11-03",
+        "event-palantir-q3-2026-us-commercial-ai-revenue-overtakes-government-2026-11-02",
+        "event-thomson-reuters-q3-genai-acv-cocounsel-2026-11-03",
+        "event-china-qwenwork-ai-token-memberships-singles-day-2026-11-03"
+      ],
+      "revision_of": "archive/2026-11-04-edition-2.html",
+      "correction_note": "Fixes a JavaScript syntax issue in search filtering; read-aloud, share fallback and Review selected controls now pass syntax validation. Main-desk direct source links remain complete.",
+      "source_domains_queried": 0,
+      "reuses_research_from": "archive/2026-11-04-edition-2.html",
+      "archive_pages_checked": 0,
       "archive_pages_unavailable": []
     }
   ],
@@ -2889,7 +2923,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2918,7 +2953,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2950,7 +2986,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -2979,7 +3016,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3010,7 +3048,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3038,7 +3077,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3067,7 +3107,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3096,7 +3137,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3125,7 +3167,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3152,7 +3195,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3178,7 +3222,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3204,7 +3249,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3231,7 +3277,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -3258,7 +3305,8 @@
       "first_edition_path": "archive/2026-11-04.html",
       "edition_paths": [
         "archive/2026-11-04.html",
-        "archive/2026-11-04-edition-2.html"
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
