@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-04T08:45:15+05:30",
+  "last_updated_at": "2026-11-05T08:36:00+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2.",
   "editions": [
     {
@@ -558,6 +558,114 @@
       "reuses_research_from": "archive/2026-11-04.html",
       "archive_pages_checked": 0,
       "archive_pages_unavailable": []
+    },
+    {
+      "date": "2026-11-05",
+      "path": "archive/2026-11-05.html",
+      "kind": "source-checked daily edition; 16 distinct developments; 8 main-desk reports and 8 More Signals",
+      "story_count": 16,
+      "new_story_count": 16,
+      "material_followups": 0,
+      "carried_story_count": 0,
+      "repeat_candidates_excluded": 8,
+      "story_ids": [
+        "event-oracle-tencent-7bn-ai-chip-lease-cancelled-us-pressure-2026-11-04",
+        "event-google-15bn-malaysia-data-centres-clean-energy-2026-11-04",
+        "event-tencent-hy4-final-model-release-vision-computer-use-2026-11-04",
+        "event-terawulf-google-credit-backstop-anthropic-401mw-fluor-epc-2026-11-04",
+        "event-openai-enterprise-majority-revenue-brockman-ipo-2027-remarks-2026-11-05",
+        "event-spacex-40bn-ai-chip-equipment-financing-syndication-2026-11-04",
+        "event-india-i4c-ai-agent-assisted-financial-cyberattacks-advisory-2026-11-04",
+        "event-ricursive-ripple-65b-open-weight-coding-model-2026-11-04",
+        "event-confluent-streamhouse-query-lightning-tables-mcp-2026-11-04",
+        "event-mastra-1-82-0-knowledge-v2-durable-agent-continuity-2026-11-04",
+        "event-npci-tech-solutions-ai-blockchain-digital-infrastructure-2026-11-04",
+        "event-agility-robotics-spac-merger-nasdaq-debut-2026-11-05",
+        "event-accenture-ai-report-citation-errors-ft-investigation-2026-11-05",
+        "event-uk-police-facial-recognition-independent-watchdog-bias-testing-2026-11-04",
+        "event-india-meity-indigenous-gpu-24-month-ambition-2026-11-04",
+        "event-us-ai-data-centre-stocks-midterm-policy-repricing-2026-11-04"
+      ],
+      "source_domains_queried": 48,
+      "source_domains_fresh": 9,
+      "source_domains_background": 15,
+      "source_domains_no_result": 20,
+      "source_domains_blocked": 4,
+      "archive_pages_checked": 16,
+      "archive_pages_unavailable": [],
+      "research_window": "2026-11-03T08:36:00+05:30/2026-11-05T08:36:00+05:30",
+      "source_domain_audit": {
+        "fresh": [
+          "reuters.com",
+          "ft.com",
+          "blog.google",
+          "deepmind.google",
+          "huggingface.co",
+          "theverge.com",
+          "gov.uk",
+          "economictimes.indiatimes.com",
+          "livemint.com"
+        ],
+        "background": [
+          "openai.com",
+          "anthropic.com",
+          "microsoft.com",
+          "about.fb.com",
+          "developer.nvidia.com",
+          "aws.amazon.com",
+          "apple.com",
+          "github.blog",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "spectrum.ieee.org",
+          "restofworld.org",
+          "tomshardware.com",
+          "semianalysis.com"
+        ],
+        "no_relevant_result": [
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "venturebeat.com",
+          "theregister.com",
+          "theinformation.com",
+          "bloomberg.com",
+          "apnews.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "bleepingcomputer.com",
+          "thehackernews.com",
+          "krebsonsecurity.com",
+          "darkreading.com",
+          "bis.gov",
+          "commerce.gov",
+          "ec.europa.eu",
+          "scmp.com",
+          "straitstimes.com",
+          "koreatimes.co.kr"
+        ],
+        "blocked": [
+          "cnbc.com",
+          "semafor.com",
+          "technologyreview.com",
+          "asia.nikkei.com"
+        ]
+      },
+      "excluded_candidates": [
+        "AMD Q3/Helios update (prior SIGNAL issue)",
+        "Nvidia 51% cloud customer-mix report (prior SIGNAL issue)",
+        "Anthropic amended filing (prior SIGNAL issue)",
+        "Gemini 4 Carbon recap (older event)",
+        "Google Jules shutdown recap (older event)",
+        "October US–China export-control proposal (out of window)",
+        "February HBM4 shipment recap (out of window)",
+        "Original October SpaceX equipment-lease announcement (only the new syndication phase is reported today)"
+      ],
+      "edge_of_window_not_counted": [
+        "Google DeepMind Antigravity cheminformatics post dated 3 Nov 2026; exact publication time not displayed, so it was not counted as a confirmed fresh item."
+      ],
+      "research_note": "The 48-domain scan was a targeted domain-restricted search, not exhaustive inspection of every page on every domain. Additional primary/specialist sources were checked separately."
     }
   ],
   "stories": [
@@ -3442,6 +3550,341 @@
         "Tom’s Hardware, 2 Nov 2026"
       ],
       "delivery_note": "Nvidia says affected SSH keys were rotated and customer instances updated; no evidence of misuse was found. The entry vector and any access to customer data or workloads remain undisclosed."
+    },
+    {
+      "story_id": "event-oracle-tencent-7bn-ai-chip-lease-cancelled-us-pressure-2026-11-04",
+      "normalized_subject": "oracle tencent advanced ai chip lease cancellation after us pressure",
+      "event_summary": "Oracle reportedly cancels a $7bn Tencent chip lease after US pressure. The FT-reported cancellation of a five-year overseas lease for up to 100,000 advanced AI chips, after US officials raised concerns; Reuters could not independently verify the report.",
+      "normalized_headline": "Oracle reportedly cancels a $7bn Tencent chip lease after US pressure",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/oracle-abandons-7-billion-tencent-ai-deal-under-trump-pressure-ft-reports-2026-11-04/",
+        "https://www.ft.com/content/c5a6a738-cd78-4a8e-a814-57a7473ebb9c"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · reporting, relaying FT account · 4 Nov",
+        "Financial Times · reporting · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-google-15bn-malaysia-data-centres-clean-energy-2026-11-04",
+      "normalized_subject": "google malaysia data centre investment cloud region clean energy",
+      "event_summary": "Google commits $15bn to Malaysian infrastructure and data centres. Google’s 2027–28 plan includes two new campuses, an upcoming Cloud region and more than 1GW of clean-energy capacity for Malaysia’s grid.",
+      "normalized_headline": "Google commits $15bn to Malaysian infrastructure and data centres",
+      "canonical_urls": [
+        "https://blog.google/intl/en-my/company-news/inside-google/google-investment-malaysia-digital-infrastructure-november-2026/",
+        "https://www.wsj.com/tech/google-to-invest-15-billion-in-malaysia-over-two-years-0c7400dd"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google · company announcement · 4 Nov",
+        "Wall Street Journal · reporting · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-tencent-hy4-final-model-release-vision-computer-use-2026-11-04",
+      "normalized_subject": "tencent hunyuan hy4 vision computer use agent model release",
+      "event_summary": "Tencent releases Hy4 with vision and computer-use capabilities. Tencent’s final Hy4 release adds visual understanding and computer use; weights and system cards were promised for a later release.",
+      "normalized_headline": "Tencent releases Hy4 with vision and computer-use capabilities",
+      "canonical_urls": [
+        "https://en.prnasia.com/releases/apac/tencent-launches-hy4-joining-the-ranks-of-the-world-s-leading-open-source-ai-models-554689.shtml",
+        "https://cloud.tencent.com/document/product/1823/132252",
+        "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Tencent · company announcement · 4 Nov",
+        "Tencent Cloud · API documentation · 4 Nov",
+        "Reuters · reporting · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-terawulf-google-credit-backstop-anthropic-401mw-fluor-epc-2026-11-04",
+      "normalized_subject": "terawulf google credit support anthropic 401mw campus fluor epc",
+      "event_summary": "Google backstops financing for Anthropic’s 401MW TeraWulf campus. Google signed conditional credit-support agreements tied to Anthropic’s 20-year leases at TeraWulf’s 401MW Kentucky campus; Fluor signed the definitive EPC agreement.",
+      "normalized_headline": "Google backstops financing for Anthropic’s 401MW TeraWulf campus",
+      "canonical_urls": [
+        "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001628280-26-069810/wulf-20261104.htm",
+        "https://investors.terawulf.com/news-events/press-releases/detail/148/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement",
+        "https://www.reuters.com/technology/terawulf-gets-credit-backstop-google-anthropic-data-center-project-2026-11-04/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "TeraWulf · SEC filing and company release · 4 Nov",
+        "Reuters · reporting · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-openai-enterprise-majority-revenue-brockman-ipo-2027-remarks-2026-11-05",
+      "normalized_subject": "openai enterprise revenue majority greg brockman ipo 2027",
+      "event_summary": "OpenAI says enterprise customers now generate most of its revenue. Greg Brockman said enterprise customers account for a majority of OpenAI revenue and that he thinks the company will be ready for an IPO in 2027; no audited breakdown or filing was disclosed.",
+      "normalized_headline": "OpenAI says enterprise customers now generate most of its revenue",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/transactional/openai-ready-ipo-2027-now-counts-majority-sales-enterprises-brockman-says-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · reporting of Brockman remarks · 5 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-spacex-40bn-ai-chip-equipment-financing-syndication-2026-11-04",
+      "normalized_subject": "spacex ai chip server equipment 40bn financing syndication goldman apollo",
+      "event_summary": "Goldman and Apollo seek investors for SpaceX’s reported $40bn AI-chip financing. Reuters relayed a Bloomberg report that Goldman and Apollo were approaching investors to syndicate portions of the financing for SpaceX’s AI chips and servers; Reuters could not independently verify the approach.",
+      "normalized_headline": "Goldman and Apollo seek investors for SpaceX’s reported $40bn AI-chip financing",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/transactional/goldman-apollo-seek-buyers-40-billion-spacex-ai-chip-deal-bloomberg-news-reports-2026-11-04/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · relaying Bloomberg reporting · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-india-i4c-ai-agent-assisted-financial-cyberattacks-advisory-2026-11-04",
+      "normalized_subject": "india i4c agentic ai cyber attacks financial firms payment apis",
+      "event_summary": "India’s I4C warns banks and fintech firms about AI-agent-assisted attacks. I4C warned financial entities that attackers can use AI agents to accelerate intrusions against weak systems, automated disbursement services and payment APIs.",
+      "normalized_headline": "India’s I4C warns banks and fintech firms about AI-agent-assisted attacks",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
+        "https://www.newindianexpress.com/india/2026/Nov/04/mhas-i4c-warns-banks-fintech-firms-of-ai-powered-cyberattacks-and-machine-speed-fraud"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · reporting on I4C advisory · 4 Nov",
+        "The New Indian Express · reporting · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-ricursive-ripple-65b-open-weight-coding-model-2026-11-04",
+      "normalized_subject": "ricursive ripple 65b open weight agentic coding model",
+      "event_summary": "Ricursive publishes Ripple-65B, an open-weight model aimed at agentic coding. Ricursive released a 65B dense model trained on 12T tokens under Apache 2.0; its Terminal-Bench 2.1 score is company-reported and not independently replicated in this scan.",
+      "normalized_headline": "Ricursive publishes Ripple-65B, an open-weight model aimed at agentic coding",
+      "canonical_urls": [
+        "https://www.ricursive.com/ripple",
+        "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Ricursive · company release · 4 Nov",
+        "Hugging Face · model card and weights · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-confluent-streamhouse-query-lightning-tables-mcp-2026-11-04",
+      "normalized_subject": "confluent streamhouse query lightning tables real time context engine",
+      "event_summary": "Confluent adds a Query layer and Lightning Tables to Streamhouse. Confluent announced a five-pillar Streamhouse architecture, Lightning Tables general availability on AWS and a Real-Time Context Engine intended to serve live business context to agents through MCP.",
+      "normalized_headline": "Confluent adds a Query layer and Lightning Tables to Streamhouse",
+      "canonical_urls": [
+        "https://newsroom.ibm.com/2026-11-04-confluent-introduces-its-streamhouse-architecture-to-power-ai-with-real-time-business-context"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Confluent · company announcement via IBM Newsroom · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-mastra-1-82-0-knowledge-v2-durable-agent-continuity-2026-11-04",
+      "normalized_subject": "mastra typescript agent framework 1.82 knowledge v2 durable continuity mcp",
+      "event_summary": "Mastra 1.82.0 adds Knowledge v2 and durable agent continuity. The TypeScript agent framework’s release adds a page-tree knowledge store, sync APIs, SSE updates, restart-safe durable runs and resumable MCP tasks.",
+      "normalized_headline": "Mastra 1.82.0 adds Knowledge v2 and durable agent continuity",
+      "canonical_urls": [
+        "https://github.com/mastra-ai/mastra/releases"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Mastra · GitHub release notes · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-npci-tech-solutions-ai-blockchain-digital-infrastructure-2026-11-04",
+      "normalized_subject": "npci technology subsidiary ai blockchain digital financial infrastructure",
+      "event_summary": "NPCI creates a technology subsidiary focused partly on AI and digital infrastructure. NPCI Tech Solutions Limited is a wholly owned technology subsidiary intended to work on AI, blockchain and digital financial infrastructure; no detailed AI product roadmap was disclosed.",
+      "normalized_headline": "NPCI creates a technology subsidiary focused partly on AI and digital infrastructure",
+      "canonical_urls": [
+        "https://www.reuters.com/world/india/indias-payments-authority-npci-forms-unit-push-into-ai-blockchain-tech-2026-11-04/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · reporting · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-agility-robotics-spac-merger-nasdaq-debut-2026-11-05",
+      "normalized_subject": "agility robotics spac merger humanoid robot public listing",
+      "event_summary": "Agility Robotics completes its SPAC merger ahead of a Nasdaq debut. Agility completed a SPAC merger that values the humanoid-robotics company at about $2.5bn; filings show low 2025 revenue and a large net loss, while a reported 1,000-robot order remains conditional.",
+      "normalized_headline": "Agility Robotics completes its SPAC merger ahead of a Nasdaq debut",
+      "canonical_urls": [
+        "https://www.businessinsider.com/agility-robotics-heads-to-wall-street-tough-road-to-profit-2026-11"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Business Insider · reporting and SEC filing analysis · 5 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-accenture-ai-report-citation-errors-ft-investigation-2026-11-05",
+      "normalized_subject": "accenture ie university ai report citation errors hallucinated sources investigation",
+      "event_summary": "FT investigation finds serious citation and factual errors in an Accenture AI report. The Financial Times examined errors in a 2025 Accenture/IE University report; Accenture attributed them to human error and said it would correct and republish the work.",
+      "normalized_headline": "FT investigation finds serious citation and factual errors in an Accenture AI report",
+      "canonical_urls": [
+        "https://www.ft.com/content/874e3f05-0be3-4a2d-b2a2-7b5823441794"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Financial Times · investigation · 5 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-uk-police-facial-recognition-independent-watchdog-bias-testing-2026-11-04",
+      "normalized_subject": "uk police facial recognition law independent oversight bias testing",
+      "event_summary": "UK government proposes stronger safeguards for police facial recognition. The Home Office announced plans for independent oversight, bias testing and legal requirements that police use be intelligence-led and proportionate.",
+      "normalized_headline": "UK government proposes stronger safeguards for police facial recognition",
+      "canonical_urls": [
+        "https://www.gov.uk/government/news/stronger-laws-for-police-using-facial-recognition-technology"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "UK Home Office · government announcement · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-india-meity-indigenous-gpu-24-month-ambition-2026-11-04",
+      "normalized_subject": "india meity indigenous gpu chips 24 months ambition",
+      "event_summary": "MeitY secretary says India wants to develop indigenous GPU chips within 24 months. The secretary’s interview signals policy ambition but disclosed no chip architecture, foundry, packaging, HBM, software stack, funding or procurement plan.",
+      "normalized_headline": "MeitY secretary says India wants to develop indigenous GPU chips within 24 months",
+      "canonical_urls": [
+        "https://government.economictimes.indiatimes.com/news/digital-india/india-plans-indigenous-gpu-chips-in-24-months-says-meity-secretary-s-krishnan-on-ai-strategy/135508818"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "ETGovernment · interview · 4 Nov"
+      ],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-us-ai-data-centre-stocks-midterm-policy-repricing-2026-11-04",
+      "normalized_subject": "us ai data center stocks market reaction midterm policy scrutiny",
+      "event_summary": "AI data-centre stocks slide as investors reprice US policy expectations. Reuters reported a market reaction in AI data-centre and power-related shares after the US midterm result; no new regulation had been enacted.",
+      "normalized_headline": "AI data-centre stocks slide as investors reprice US policy expectations",
+      "canonical_urls": [
+        "https://www.reuters.com/business/aerospace-defense/ai-data-center-stocks-dip-renewables-surge-after-democrat-sweep-2026-11-04/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05.html",
+      "edition_paths": [
+        "archive/2026-11-05.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · market reporting · 4 Nov"
+      ],
+      "delivery_note": null
     }
   ]
 }
