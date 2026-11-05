@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-05T08:36:00+05:30",
+  "last_updated_at": "2026-11-05T09:05:00+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2.",
   "editions": [
     {
@@ -666,6 +666,115 @@
         "Google DeepMind Antigravity cheminformatics post dated 3 Nov 2026; exact publication time not displayed, so it was not counted as a confirmed fresh item."
       ],
       "research_note": "The 48-domain scan was a targeted domain-restricted search, not exhaustive inspection of every page on every domain. Additional primary/specialist sources were checked separately."
+    },
+    {
+      "date": "2026-11-05",
+      "path": "archive/2026-11-05-edition-2.html",
+      "kind": "expanded source-checked daily edition; 19 distinct developments; 8 main-desk reports and 11 More Signals; three additional date-matched items verified after the initial edition",
+      "story_count": 19,
+      "new_story_count": 3,
+      "material_followups": 0,
+      "carried_story_count": 16,
+      "repeat_candidates_excluded": 8,
+      "story_ids": [
+        "event-oracle-tencent-7bn-ai-chip-lease-cancelled-us-pressure-2026-11-04",
+        "event-google-15bn-malaysia-data-centres-clean-energy-2026-11-04",
+        "event-tencent-hy4-final-model-release-vision-computer-use-2026-11-04",
+        "event-terawulf-google-credit-backstop-anthropic-401mw-fluor-epc-2026-11-04",
+        "event-openai-enterprise-majority-revenue-brockman-ipo-2027-remarks-2026-11-05",
+        "event-spacex-40bn-ai-chip-equipment-financing-syndication-2026-11-04",
+        "event-india-i4c-ai-agent-assisted-financial-cyberattacks-advisory-2026-11-04",
+        "event-ricursive-ripple-65b-open-weight-coding-model-2026-11-04",
+        "event-confluent-streamhouse-query-lightning-tables-mcp-2026-11-04",
+        "event-mastra-1-82-0-knowledge-v2-durable-agent-continuity-2026-11-04",
+        "event-npci-tech-solutions-ai-blockchain-digital-infrastructure-2026-11-04",
+        "event-agility-robotics-spac-merger-nasdaq-debut-2026-11-05",
+        "event-accenture-ai-report-citation-errors-ft-investigation-2026-11-05",
+        "event-uk-police-facial-recognition-independent-watchdog-bias-testing-2026-11-04",
+        "event-india-meity-indigenous-gpu-24-month-ambition-2026-11-04",
+        "event-us-ai-data-centre-stocks-midterm-policy-repricing-2026-11-04",
+        "event-google-deepmind-antigravity-agentic-cheminformatics-2026-11-03",
+        "event-openai-python-sdk-345-responses-cache-project-service-tier-2026-11-03",
+        "event-helsing-missionosbw-germany-state-software-ownership-2026-11-04"
+      ],
+      "source_domains_queried": 48,
+      "source_domains_fresh": 9,
+      "source_domains_background": 15,
+      "source_domains_no_result": 20,
+      "source_domains_blocked": 4,
+      "archive_pages_checked": 17,
+      "archive_pages_unavailable": [],
+      "research_window": "2026-11-03T08:36:00+05:30/2026-11-05T09:05:00+05:30",
+      "source_domain_audit": {
+        "fresh": [
+          "reuters.com",
+          "ft.com",
+          "blog.google",
+          "deepmind.google",
+          "huggingface.co",
+          "theverge.com",
+          "gov.uk",
+          "economictimes.indiatimes.com",
+          "livemint.com"
+        ],
+        "background": [
+          "openai.com",
+          "anthropic.com",
+          "microsoft.com",
+          "about.fb.com",
+          "developer.nvidia.com",
+          "aws.amazon.com",
+          "apple.com",
+          "github.blog",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "spectrum.ieee.org",
+          "restofworld.org",
+          "tomshardware.com",
+          "semianalysis.com"
+        ],
+        "no_relevant_result": [
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "venturebeat.com",
+          "theregister.com",
+          "theinformation.com",
+          "bloomberg.com",
+          "apnews.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "bleepingcomputer.com",
+          "thehackernews.com",
+          "krebsonsecurity.com",
+          "darkreading.com",
+          "bis.gov",
+          "commerce.gov",
+          "ec.europa.eu",
+          "scmp.com",
+          "straitstimes.com",
+          "koreatimes.co.kr"
+        ],
+        "blocked": [
+          "cnbc.com",
+          "semafor.com",
+          "technologyreview.com",
+          "asia.nikkei.com"
+        ]
+      },
+      "excluded_candidates": [
+        "AMD Q3/Helios update (prior SIGNAL issue)",
+        "Nvidia 51% cloud customer-mix report (prior SIGNAL issue)",
+        "Anthropic amended filing (prior SIGNAL issue)",
+        "Gemini 4 Carbon recap (older event)",
+        "Google Jules shutdown recap (older event)",
+        "October US–China export-control proposal (out of window)",
+        "February HBM4 shipment recap (out of window)",
+        "Original October SpaceX equipment-lease announcement (only the new syndication phase is reported today)"
+      ],
+      "edge_of_window_not_counted": [],
+      "research_note": "The base 48-domain scan was retained. DeepMind's 3 Nov date-only post was initially held out because its primary page displayed no time; a separate digest timestamped it at 22:31 IST on 3 Nov, so it is included with the timestamp caveat. OpenAI's official Python SDK v3.45.0 release notes and Reuters' Helsing report were also verified in this expanded pass. The domain scan is targeted, not exhaustive inspection of every page on every domain."
     }
   ],
   "stories": [
@@ -3885,6 +3994,68 @@
         "Reuters · market reporting · 4 Nov"
       ],
       "delivery_note": null
+    },
+    {
+      "story_id": "event-google-deepmind-antigravity-agentic-cheminformatics-2026-11-03",
+      "normalized_subject": "google deepmind antigravity cheminformatics science agent drug discovery",
+      "event_summary": "Google DeepMind added Cheminformatics Skills to Antigravity. The agent orchestrates literature/data retrieval and scientific workflow steps while RDKit performs deterministic molecular calculations, with connectors to ChEMBL and PubChem. Google says the demonstration curated 568 compounds, trained/validated potency models and proposed macrocycles with synthesis routes in about an hour; outputs remain hypotheses requiring experimental validation.",
+      "normalized_headline": "Google DeepMind adds cheminformatics skills to Antigravity for drug-discovery workflows",
+      "canonical_urls": [
+        "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+        "https://www.dhaneesh.in/briefings/2026-11-04/"
+      ],
+      "original_publication_date": "2026-11-03",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-05-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google DeepMind · primary research/product post · 3 Nov 2026",
+        "Dhaneesh briefing · timestamp corroboration 22:31 IST, 3 Nov 2026"
+      ],
+      "delivery_note": "DeepMind's primary page displays a date but not a publication time; a secondary digest reports 22:31 IST, placing it inside the 48-hour window. Company demonstration; not a clinical result."
+    },
+    {
+      "story_id": "event-openai-python-sdk-345-responses-cache-project-service-tier-2026-11-03",
+      "normalized_subject": "openai python sdk responses api 12 hour caching cache write usage project service tier",
+      "event_summary": "OpenAI's official Python SDK v3.45.0 added 12-hour Responses API caching with cache-write usage reporting and project service-tier settings. The changelog is dated 3 Nov 2026; the GitHub release appeared on 4 Nov. The release notes do not specify defaults or pricing.",
+      "normalized_headline": "OpenAI Python SDK 3.45.0 adds 12-hour Responses caching and project service-tier settings",
+      "canonical_urls": [
+        "https://github.com/openai/openai-python/releases"
+      ],
+      "original_publication_date": "2026-11-03",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-05-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI Python SDK · official GitHub release notes · v3.45.0 changelog dated 3 Nov 2026"
+      ],
+      "delivery_note": "Developer-tool update; verify API docs and linked pull requests for field names, defaults and pricing before production use."
+    },
+    {
+      "story_id": "event-helsing-missionosbw-germany-state-software-ownership-2026-11-04",
+      "normalized_subject": "helsing germany missionosbw government source code ownership combat system autonomy software",
+      "event_summary": "German defence AI company Helsing transferred source code, documentation and a software development kit for MissionOSBw to Germany's military procurement agency BAAINBw, leaving ownership with the German state. The software supports a €580m programme involving experimental uncrewed combat aircraft, ground control stations, autonomy software and a government-owned reference architecture.",
+      "normalized_headline": "Helsing transfers combat-system software ownership to the German state",
+      "canonical_urls": [
+        "https://www.reuters.com/business/aerospace-defense/helsing-hands-germany-ownership-combat-system-software-2026-11-04/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-05",
+      "first_edition_path": "archive/2026-11-05-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-05-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · reporting based on company statement · 4 Nov 2026"
+      ],
+      "delivery_note": "The state-owned, modular software architecture is a defence-sovereignty development; the underlying programme remains in development."
     }
   ]
 }
