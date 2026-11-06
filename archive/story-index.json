@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-05T09:05:00+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2.",
+  "last_updated_at": "2026-11-06T08:53:00+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -775,6 +775,117 @@
       ],
       "edge_of_window_not_counted": [],
       "research_note": "The base 48-domain scan was retained. DeepMind's 3 Nov date-only post was initially held out because its primary page displayed no time; a separate digest timestamped it at 22:31 IST on 3 Nov, so it is included with the timestamp caveat. OpenAI's official Python SDK v3.45.0 release notes and Reuters' Helsing report were also verified in this expanded pass. The domain scan is targeted, not exhaustive inspection of every page on every domain."
+    },
+    {
+      "date": "2026-11-06",
+      "path": "archive/2026-11-06.html",
+      "kind": "source-checked daily edition; 21 distinct developments; 9 main-desk reports and 12 More Signals",
+      "story_count": 21,
+      "new_story_count": 15,
+      "material_followups": 6,
+      "carried_story_count": 0,
+      "repeat_candidates_excluded": 7,
+      "story_ids": [
+        "event-metr-anthropic-ai-rd-acceleration-assessment-2026-11-05",
+        "event-openai-gpt6-cyber-restricted-defender-launch-2026-11-05",
+        "event-cert-in-ai-security-auditing-guidelines-v1-2026-11-04",
+        "event-google-wyoming-17bn-data-centre-investment-2026-11-05",
+        "event-qualcomm-q4-fy2026-amazon-data-centre-collaboration-2026-11-04",
+        "event-arm-q2-fy2027-agi-cpu-data-centre-orders-2026-11-04",
+        "event-iren-microsoft-ai-infrastructure-delivery-delay-capex-2026-11-05",
+        "event-legrand-data-centre-demand-2026-outlook-2026-11-05",
+        "event-aws-bedrock-agentcore-web-answer-ga-2026-11-05",
+        "event-github-copilot-xcode-coding-assistant-preview-2026-11-04",
+        "event-box-nvidia-enterprise-context-retrieval-nemotron-agents-2026-11-05",
+        "event-nvidia-memory-hierarchy-inference-economics-2026-11-05",
+        "event-kalepa-series-b-75m-insurance-ai-underwriting-2026-11-05",
+        "event-openai-acquires-pierre-computer-company-git-tools-2026-11-04",
+        "event-apple-7-5bn-bond-sale-ai-infrastructure-debt-wave-2026-11-05",
+        "event-cert-in-crafty-falcon-ai-assisted-financial-sector-campaign-2026-11-04",
+        "event-us-nasdaq-correction-ai-data-centre-financing-repricing-2026-11-05",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+        "event-crowdstrike-agent-insider-threat-detection-agentic-soc-2026-11-04",
+        "event-openai-community-compact-ai-infrastructure-campuses-2026-11-05",
+        "event-microsoft-nscale-optional-texas-expansion-declined-2026-11-05"
+      ],
+      "research_window": "2026-11-04T08:06:00+05:30/2026-11-06T08:06:00+05:30",
+      "source_domains_queried": 58,
+      "source_domains_with_date_matched_material": 18,
+      "source_domains_background_only": 5,
+      "source_domains_no_relevant_date_match": 32,
+      "source_domains_blocked": 3,
+      "source_domains_opened_and_inspected": 18,
+      "source_domain_audit": {
+        "fresh": [
+          "openai.com",
+          "nvidia.com",
+          "aws.amazon.com",
+          "github.blog",
+          "reuters.com",
+          "ft.com",
+          "wsj.com",
+          "apnews.com",
+          "techcrunch.com",
+          "theverge.com",
+          "datacenterdynamics.com",
+          "indianexpress.com",
+          "economictimes.indiatimes.com",
+          "livemint.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "timesofindia.indiatimes.com",
+          "cert-in.org.in"
+        ],
+        "background": [
+          "anthropic.com",
+          "deepmind.google",
+          "about.fb.com",
+          "arxiv.org",
+          "tomshardware.com"
+        ],
+        "no_relevant_result": [
+          "blog.google",
+          "microsoft.com",
+          "developer.apple.com",
+          "huggingface.co",
+          "nature.com",
+          "science.org",
+          "bloomberg.com",
+          "arstechnica.com",
+          "wired.com",
+          "venturebeat.com",
+          "theregister.com",
+          "theinformation.com",
+          "semianalysis.com",
+          "anandtech.com",
+          "servethehome.com",
+          "blocksandfiles.com",
+          "lightreading.com",
+          "utilitydive.com",
+          "ieee.org",
+          "acm.org",
+          "pubmed.ncbi.nlm.nih.gov",
+          "meity.gov.in",
+          "pib.gov.in",
+          "scmp.com",
+          "caixinglobal.com",
+          "nikkei.com",
+          "thelec.net",
+          "digitimes.com",
+          "trendforce.com",
+          "techwireasia.com",
+          "koreaherald.com",
+          "yonhapnews.co.kr"
+        ],
+        "blocked": [
+          "cnbc.com",
+          "thehindu.com",
+          "asia.nikkei.com"
+        ]
+      },
+      "archive_pages_checked": 18,
+      "archive_pages_unavailable": [],
+      "research_note": "58-domain targeted scan: 18 domains surfaced some date-matched material, five only background/out-of-window, 32 no relevant date-matched result, three blocked. Eighteen publisher domains were opened and inspected directly. Seven repeat candidates excluded. Six material follow-ups; 15 new events. China/Huawei Ascend, SMIC, HBM supply and advanced packaging were scanned but no new independently verified disclosure met the evidence/date bar. Humanising editorial pass applied; no external linter run."
     }
   ],
   "stories": [
@@ -2473,9 +2584,20 @@
       "first_edition_date": "2026-10-31",
       "first_edition_path": "archive/2026-10-31.html",
       "edition_paths": [
-        "archive/2026-10-31.html"
+        "archive/2026-10-31.html",
+        "archive/2026-11-06.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-06",
+          "path": "archive/2026-11-06.html",
+          "headline": "FOLLOW-UP: Microsoft declines an optional Nscale Texas capacity expansion",
+          "material_change": "Adds reporting that Microsoft declined an optional Texas capacity expansion; existing contracted capacity remains unchanged.",
+          "canonical_urls": [
+            "https://www.reuters.com/technology/microsoft-rejects-multibillion-dollar-ai-deal-with-uks-nscale-ft-reports-2026-11-05/"
+          ]
+        }
+      ],
       "source_metadata": [
         "Financial Times, 31 Oct 2026",
         "SignalData project record, accessed 31 Oct 2026",
@@ -2927,9 +3049,20 @@
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
         "archive/2026-11-03.html",
-        "archive/2026-11-03-edition-2.html"
+        "archive/2026-11-03-edition-2.html",
+        "archive/2026-11-06.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-06",
+          "path": "archive/2026-11-06.html",
+          "headline": "FOLLOW-UP: Investor doubts put Anthropic’s IPO timetable under pressure",
+          "material_change": "Adds reported investor resistance to valuation and possible roadshow timing after the amended S-1 disclosure; no delay is confirmed.",
+          "canonical_urls": [
+            "https://www.reuters.com/world/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-2026-11-05/"
+          ]
+        }
+      ],
       "source_metadata": [
         "SEC EDGAR, 2 Nov 2026, S-1/A Amendment No. 1",
         "Reuters, 2 Nov 2026, Q3 financials and compute commitments"
@@ -3043,9 +3176,20 @@
       "first_edition_path": "archive/2026-11-03.html",
       "edition_paths": [
         "archive/2026-11-03.html",
-        "archive/2026-11-03-edition-2.html"
+        "archive/2026-11-03-edition-2.html",
+        "archive/2026-11-06.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-06",
+          "path": "archive/2026-11-06.html",
+          "headline": "FOLLOW-UP: OpenAI publishes a Community Compact for future compute campuses",
+          "material_change": "Expands the prior Grid Protectors power-flexibility announcement into a broader community and transparency commitment.",
+          "canonical_urls": [
+            "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
+          ]
+        }
+      ],
       "source_metadata": [
         "OpenAI, 2 Nov 2026, programme announcement and Georgia Power agreement",
         "The Verge, 2 Nov 2026, independent reporting"
@@ -3350,9 +3494,20 @@
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
         "archive/2026-11-04-edition-4.html",
-        "archive/2026-11-04-edition-5.html"
+        "archive/2026-11-04-edition-5.html",
+        "archive/2026-11-06.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-06",
+          "path": "archive/2026-11-06.html",
+          "headline": "FOLLOW-UP: CrowdStrike extends its agentic SOC with agent-insider detection",
+          "material_change": "Adds agent-behaviour baselining and coordinated investigations beyond the previously covered acquisitions and kill-switch announcement.",
+          "canonical_urls": [
+            "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-extends-agentic-soc-detect-stop-agent-insider-threat/"
+          ]
+        }
+      ],
       "source_metadata": [
         "CrowdStrike: Fiddler, 3 Nov 2026",
         "CrowdStrike: Dreadnode, 3 Nov 2026",
@@ -3804,9 +3959,21 @@
       "first_edition_date": "2026-11-05",
       "first_edition_path": "archive/2026-11-05.html",
       "edition_paths": [
-        "archive/2026-11-05.html"
+        "archive/2026-11-05.html",
+        "archive/2026-11-06.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-06",
+          "path": "archive/2026-11-06.html",
+          "headline": "FOLLOW-UP: CERT-In names Crafty Falcon in an AI-assisted campaign against financial firms",
+          "material_change": "Adds a named active campaign, four tools and concrete payment/disbursement API tactics beyond the earlier general I4C warning.",
+          "canonical_urls": [
+            "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02",
+            "https://www.reuters.com/legal/government/india-flags-chinese-linked-ai-tools-hacking-campaign-against-financial-firms-2026-11-05/"
+          ]
+        }
+      ],
       "source_metadata": [
         "Reuters · reporting on I4C advisory · 4 Nov",
         "The New Indian Express · reporting · 4 Nov"
@@ -3987,9 +4154,21 @@
       "first_edition_date": "2026-11-05",
       "first_edition_path": "archive/2026-11-05.html",
       "edition_paths": [
-        "archive/2026-11-05.html"
+        "archive/2026-11-05.html",
+        "archive/2026-11-06.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-06",
+          "path": "archive/2026-11-06.html",
+          "headline": "FOLLOW-UP: The AI infrastructure trade takes its sharpest hit in 19 months",
+          "material_change": "The earlier post-election repricing became a Nasdaq correction and a much steeper semiconductor selloff.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/",
+            "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/"
+          ]
+        }
+      ],
       "source_metadata": [
         "Reuters · market reporting · 4 Nov"
       ],
@@ -4056,6 +4235,528 @@
         "Reuters · reporting based on company statement · 4 Nov 2026"
       ],
       "delivery_note": "The state-owned, modular software architecture is a defence-sovereignty development; the underlying programme remains in development."
+    },
+    {
+      "story_id": "event-metr-anthropic-ai-rd-acceleration-assessment-2026-11-05",
+      "normalized_subject": "metr anthropic ai r&d acceleration assessment",
+      "entities": [
+        "METR"
+      ],
+      "event_summary": "METR assessed Anthropic internal model capability progress on its AECI benchmark at 1.9x the pre-October-2025 rate, while noting wide uncertainty, extensive redactions and continued human direction.",
+      "normalized_headline": "METR sees Anthropic’s model-development pace running at roughly twice its old rate",
+      "canonical_urls": [
+        "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "METR independent assessment, 5 Nov 2026"
+      ],
+      "delivery_note": "The estimate is benchmark-based and company-data dependent; it is not proof of autonomous AI research."
+    },
+    {
+      "story_id": "event-openai-gpt6-cyber-restricted-defender-launch-2026-11-05",
+      "normalized_subject": "openai gpt-6 cyber restricted defender launch",
+      "entities": [
+        "OpenAI",
+        "Reuters"
+      ],
+      "event_summary": "OpenAI released GPT-6 Cyber to selected approved defenders, reporting higher ExploitGym results and substantial vulnerability reproduction and disclosure counts; figures remain company-reported.",
+      "normalized_headline": "OpenAI puts GPT‑6 Cyber behind a restricted-access gate",
+      "canonical_urls": [
+        "https://openai.com/index/introducing-gpt-6-cyber/",
+        "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI, 5 Nov 2026",
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "Exploit benchmark scores and vulnerability counts have not been independently reproduced in the source scan."
+    },
+    {
+      "story_id": "event-cert-in-ai-security-auditing-guidelines-v1-2026-11-04",
+      "normalized_subject": "cert-in ai security auditing guidelines v1.0",
+      "entities": [
+        "CERT-In",
+        "Mint"
+      ],
+      "event_summary": "CERT-In published a 107-page four-tier AI security auditing framework covering governance, model, prompt, agent, infrastructure, monitoring and incident response; legal enforceability remains unclear.",
+      "normalized_headline": "CERT‑In publishes a 107-page AI security-audit framework",
+      "canonical_urls": [
+        "https://www.cert-in.org.in/s2cMainServlet?pageid=GUIDLNVIEW02&refcode=CISG-2026-04",
+        "https://www.livemint.com/ai/artificial-intelligence/new-delhi-publishes-transparency-safety-guidelines-for-ai-11793801962574.html"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "CERT-In, Version 1.0, 4 Nov 2026",
+        "Mint, 5 Nov 2026"
+      ],
+      "delivery_note": "Treat as an audit baseline and policy signal until a formal legal instrument and enforcement route are clarified."
+    },
+    {
+      "story_id": "event-google-wyoming-17bn-data-centre-investment-2026-11-05",
+      "normalized_subject": "google wyoming $17bn data-centre investment",
+      "entities": [
+        "Google",
+        "Reuters"
+      ],
+      "event_summary": "Google announced a planned $17bn Wyoming data-centre investment with energy and infrastructure partners; a 702MW fuel-cell development is planned capacity, not operating generation.",
+      "normalized_headline": "Google commits $17 billion to its first Wyoming data centre",
+      "canonical_urls": [
+        "https://www.reuters.com/world/us/google-plans-17-billion-wyoming-data-center-amid-rising-threats-curbs-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "Announced investment and power plans are not commissioned data-centre or generation capacity."
+    },
+    {
+      "story_id": "event-qualcomm-q4-fy2026-amazon-data-centre-collaboration-2026-11-04",
+      "normalized_subject": "qualcomm q4 fy2026 results and amazon data-centre collaboration",
+      "entities": [
+        "Qualcomm",
+        "Reuters"
+      ],
+      "event_summary": "Qualcomm reported fiscal Q4 revenue of $10.32bn, handset weakness and a data-centre collaboration with Amazon; management reiterated a $5bn FY2027 data-centre revenue target.",
+      "normalized_headline": "Qualcomm’s data-centre ambition grows while its handset engine weakens",
+      "canonical_urls": [
+        "https://investor.qualcomm.com/financial-information/quarterly-results/default.aspx",
+        "https://www.reuters.com/business/retail-consumer/qualcomm-slumps-weak-smartphone-chip-sales-overshadow-data-center-momentum-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Qualcomm, Q4 FY2026 results, 4 Nov 2026",
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "The $5bn data-centre revenue figure is a management target, not current revenue."
+    },
+    {
+      "story_id": "event-arm-q2-fy2027-agi-cpu-data-centre-orders-2026-11-04",
+      "normalized_subject": "arm q2 fy2027 results and agi cpu orders",
+      "entities": [
+        "Arm",
+        "Reuters"
+      ],
+      "event_summary": "Arm reported record quarterly revenue and said it had purchase orders for its in-house AGI CPU through 2027, with first commercial deliveries expected in Q4 FY27.",
+      "normalized_headline": "Arm’s data-centre royalties double as its own AGI CPU moves toward shipment",
+      "canonical_urls": [
+        "https://newsroom.arm.com/news/arm-q2-fye27-results",
+        "https://www.reuters.com/business/arm-beats-second-quarter-revenue-estimates-ai-data-center-demand-2026-11-04/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Arm, Q2 FYE27 results, 4 Nov 2026",
+        "Reuters, 4 Nov 2026"
+      ],
+      "delivery_note": "First AGI CPU deliveries remain in the future; performance and market-share claims are company-stated or workload-specific."
+    },
+    {
+      "story_id": "event-iren-microsoft-ai-infrastructure-delivery-delay-capex-2026-11-05",
+      "normalized_subject": "iren microsoft ai infrastructure delivery delay and capex",
+      "entities": [
+        "IREN",
+        "Microsoft",
+        "Reuters"
+      ],
+      "event_summary": "IREN reported that customer-requested network redesign and supplier timing delayed part of its Microsoft AI infrastructure delivery schedule while it outlined $15bn capex.",
+      "normalized_headline": "IREN delays some Microsoft AI-infrastructure deliveries and plans $15bn capex",
+      "canonical_urls": [
+        "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "The reported delay does not mean the 200MW Texas build was cancelled; delivery timing and run-rate targets are forecasts."
+    },
+    {
+      "story_id": "event-legrand-data-centre-demand-2026-outlook-2026-11-05",
+      "normalized_subject": "legrand 2026 outlook and data-centre demand",
+      "entities": [
+        "Legrand",
+        "Reuters"
+      ],
+      "event_summary": "Legrand raised its 2026 sales-growth outlook amid strong data-centre demand; data centres represent about a third of sales and grew nearly 40% over nine months.",
+      "normalized_headline": "Legrand raises its 2026 outlook on data-centre demand",
+      "canonical_urls": [
+        "https://www.reuters.com/business/energy/us-data-centre-backlash-could-boost-legrands-energy-efficient-offering-ceo-says-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "A supplier-side demand signal; it does not by itself quantify AI-only infrastructure spending."
+    },
+    {
+      "story_id": "event-aws-bedrock-agentcore-web-answer-ga-2026-11-05",
+      "normalized_subject": "aws bedrock agentcore web answer general availability",
+      "entities": [
+        "AWS"
+      ],
+      "event_summary": "AWS made a managed MCP Web Answer tool generally available in Bedrock AgentCore, with cited web answers, domain/date filters and regional availability/pricing details.",
+      "normalized_headline": "AWS makes Web Answer generally available in Bedrock AgentCore",
+      "canonical_urls": [
+        "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "AWS What's New, 5 Nov 2026"
+      ],
+      "delivery_note": "Initial availability is limited to us-east-1; pricing and region coverage should be checked before deployment."
+    },
+    {
+      "story_id": "event-github-copilot-xcode-coding-assistant-preview-2026-11-04",
+      "normalized_subject": "github copilot in xcode built-in coding assistant",
+      "entities": [
+        "GitHub"
+      ],
+      "event_summary": "GitHub announced public preview of Copilot within Xcode’s built-in coding assistant, distinct from the existing Copilot for Xcode extension.",
+      "normalized_headline": "GitHub Copilot arrives inside Xcode’s built-in coding assistant",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "GitHub Changelog, 4 Nov 2026"
+      ],
+      "delivery_note": "Requires Xcode 27.3 beta and macOS Tahoe 26.6 or later, according to the announcement."
+    },
+    {
+      "story_id": "event-box-nvidia-enterprise-context-retrieval-nemotron-agents-2026-11-05",
+      "normalized_subject": "box nvidia enterprise content retrieval and governed agents",
+      "entities": [
+        "Box",
+        "NVIDIA"
+      ],
+      "event_summary": "Box and NVIDIA announced Context Retrieval, Nemotron model integration and OpenShell-backed agent security; availability and performance claims are a mix of future plans and vendor benchmarks.",
+      "normalized_headline": "Box and NVIDIA bring Nemotron retrieval and governed agent workflows to enterprise content",
+      "canonical_urls": [
+        "https://blog.box.com/box-partners-nvidia-deliver-trusted-content-layer-enterprise-ai"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Box, 5 Nov 2026"
+      ],
+      "delivery_note": "Box’s Recall@5, token-use and response-time comparisons are company claims; Context Retrieval is planned for early 2027."
+    },
+    {
+      "story_id": "event-nvidia-memory-hierarchy-inference-economics-2026-11-05",
+      "normalized_subject": "nvidia full-stack memory hierarchy for inference",
+      "entities": [
+        "NVIDIA"
+      ],
+      "event_summary": "NVIDIA described moving model weights and KV cache across GPU HBM, CPU memory and storage, and presented a vendor-selected throughput-per-dollar comparison.",
+      "normalized_headline": "NVIDIA argues that memory hierarchy, not just more HBM, will set inference economics",
+      "canonical_urls": [
+        "https://blogs.nvidia.com/blog/memory-full-stack-codesign/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "NVIDIA blog, 5 Nov 2026"
+      ],
+      "delivery_note": "Vendor technical framing and selected benchmark; not a new HBM supply disclosure or a general performance guarantee."
+    },
+    {
+      "story_id": "event-kalepa-series-b-75m-insurance-ai-underwriting-2026-11-05",
+      "normalized_subject": "kalepa $75m series b for ai underwriting",
+      "entities": [
+        "Kalepa",
+        "Reuters"
+      ],
+      "event_summary": "Kalepa raised a $75m Series B at a reported $470m valuation to expand its AI-powered insurance underwriting platform; customer outcome metrics are company-reported.",
+      "normalized_headline": "Kalepa raises $75m to expand its AI underwriting platform",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/transactional/ai-powered-insurance-startup-kalepa-valued-470-million-new-funding-round-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "Customer productivity and premium-growth metrics are claims attributed to Kalepa, not independent audited outcomes."
+    },
+    {
+      "story_id": "event-openai-acquires-pierre-computer-company-git-tools-2026-11-04",
+      "normalized_subject": "openai acquisition of pierre computer company git tools",
+      "entities": [
+        "OpenAI",
+        "Pierre Computer Company"
+      ],
+      "event_summary": "OpenAI agreed to acquire Pierre Computer Company, bringing Trees, Diffs, Code Storage and other developer tooling into its Codex ecosystem; financial terms were not disclosed.",
+      "normalized_headline": "OpenAI agrees to acquire Pierre Computer Company’s Git tools",
+      "canonical_urls": [
+        "https://openai.com/index/openai-to-acquire-pierre/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI, 4 Nov 2026"
+      ],
+      "delivery_note": "The acquisition remains subject to regulatory approval; the company says Pierre’s open-source projects will remain open."
+    },
+    {
+      "story_id": "event-apple-7-5bn-bond-sale-ai-infrastructure-debt-wave-2026-11-05",
+      "normalized_subject": "apple $7.5bn seven-part bond sale",
+      "entities": [
+        "Apple",
+        "Reuters"
+      ],
+      "event_summary": "Apple raised about $7.5bn through a seven-part bond sale amid a broader wave of technology debt issuance; Apple did not earmark the proceeds specifically for AI.",
+      "normalized_headline": "Apple raises $7.5bn through a seven-part bond sale",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/apple-seeks-about-7-billion-bond-sale-bloomberg-news-reports-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "Do not assume the proceeds are dedicated to AI infrastructure; Reuters frames it within broader technology debt issuance."
+    },
+    {
+      "story_id": "event-cert-in-crafty-falcon-ai-assisted-financial-sector-campaign-2026-11-04",
+      "normalized_subject": "cert-in crafty falcon ai-assisted financial-sector campaign",
+      "entities": [
+        "CERT-In",
+        "Reuters"
+      ],
+      "event_summary": "CERT-In advisory CIAD-2026-0058 named the Crafty Falcon campaign and four AI-assisted offensive tools, adding a specific campaign and attack profile to the I4C financial-sector warning.",
+      "normalized_headline": "FOLLOW-UP: CERT-In names Crafty Falcon in an AI-assisted campaign against financial firms",
+      "canonical_urls": [
+        "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02",
+        "https://www.reuters.com/legal/government/india-flags-chinese-linked-ai-tools-hacking-campaign-against-financial-firms-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "CERT-In advisory CIAD-2026-0058, 4 Nov 2026",
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "CERT-In did not attribute the campaign to a state or country; Reuters reports researchers’ claims about origins of two tools.",
+      "follow_up_of": "event-india-i4c-ai-agent-assisted-financial-cyberattacks-advisory-2026-11-04",
+      "material_change": "Adds a named active campaign, four tools and concrete payment/disbursement API tactics beyond the earlier general I4C warning."
+    },
+    {
+      "story_id": "event-us-nasdaq-correction-ai-data-centre-financing-repricing-2026-11-05",
+      "normalized_subject": "us nasdaq correction and ai data-centre financing repricing",
+      "entities": [
+        "Reuters"
+      ],
+      "event_summary": "The Nasdaq fell into correction territory and semiconductor shares sold off sharply as investors repriced data-centre construction, financing and policy risks after the US midterm results.",
+      "normalized_headline": "FOLLOW-UP: The AI infrastructure trade takes its sharpest hit in 19 months",
+      "canonical_urls": [
+        "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/",
+        "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters markets, 5 Nov 2026"
+      ],
+      "delivery_note": "The selloff is broad-market news; AI infrastructure and policy were contributing factors, not the sole cause.",
+      "follow_up_of": "event-us-ai-data-centre-stocks-midterm-policy-repricing-2026-11-04",
+      "material_change": "The earlier post-election repricing became a Nasdaq correction and a much steeper semiconductor selloff."
+    },
+    {
+      "story_id": "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+      "normalized_subject": "anthropic ipo investor valuation pushback and roadshow risk",
+      "entities": [
+        "Reuters",
+        "Anthropic"
+      ],
+      "event_summary": "Reuters reported prospective investors questioned Anthropic’s proposed valuation and that its planned roadshow might be at risk; no postponement was confirmed.",
+      "normalized_headline": "FOLLOW-UP: Investor doubts put Anthropic’s IPO timetable under pressure",
+      "canonical_urls": [
+        "https://www.reuters.com/world/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "Investor concerns and possible roadshow delay are reported, not a company-confirmed decision.",
+      "follow_up_of": "event-anthropic-s1-amendment-compute-commitments-financials-2026-11-02",
+      "material_change": "Adds reported investor resistance to valuation and possible roadshow timing after the amended S-1 disclosure; no delay is confirmed."
+    },
+    {
+      "story_id": "event-crowdstrike-agent-insider-threat-detection-agentic-soc-2026-11-04",
+      "normalized_subject": "crowdstrike agent-insider threat detection and agentic soc",
+      "entities": [
+        "CrowdStrike"
+      ],
+      "event_summary": "CrowdStrike expanded Falcon Guardian with agent behaviour baselining and coordinated investigations; some capabilities are generally available while Agent Insider Threat Detection is listed for Q4.",
+      "normalized_headline": "FOLLOW-UP: CrowdStrike extends its agentic SOC with agent-insider detection",
+      "canonical_urls": [
+        "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-extends-agentic-soc-detect-stop-agent-insider-threat/"
+      ],
+      "original_publication_date": "2026-11-04",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "CrowdStrike, 4 Nov 2026"
+      ],
+      "delivery_note": "Availability differs by component; Agent Insider Threat Detection is not described as generally available yet.",
+      "follow_up_of": "event-crowdstrike-fiddler-dreadnode-acquisitions-agent-security-2026-11-03",
+      "material_change": "Adds agent-behaviour baselining and coordinated investigations beyond the previously covered acquisitions and kill-switch announcement."
+    },
+    {
+      "story_id": "event-openai-community-compact-ai-infrastructure-campuses-2026-11-05",
+      "normalized_subject": "openai community compact for ai infrastructure campuses",
+      "entities": [
+        "OpenAI"
+      ],
+      "event_summary": "OpenAI published commitments covering public-official access without NDAs, full-cost power and infrastructure commitments, site-level disclosures and community reporting for campuses it owns and operates.",
+      "normalized_headline": "FOLLOW-UP: OpenAI publishes a Community Compact for future compute campuses",
+      "canonical_urls": [
+        "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI, 5 Nov 2026"
+      ],
+      "delivery_note": "The commitments apply to campuses OpenAI owns and operates; the post is a company policy statement.",
+      "follow_up_of": "event-openai-grid-protectors-program-georgia-flexible-demand-response-2026-11-02",
+      "material_change": "Expands the prior Grid Protectors power-flexibility announcement into a broader community and transparency commitment."
+    },
+    {
+      "story_id": "event-microsoft-nscale-optional-texas-expansion-declined-2026-11-05",
+      "normalized_subject": "microsoft declines optional nscale texas capacity expansion",
+      "entities": [
+        "Microsoft",
+        "Nscale",
+        "Reuters"
+      ],
+      "event_summary": "Reuters reported Microsoft declined an optional expansion that could have more than doubled a Texas agreement; existing contract and Nscale disclosed total contract value remain unchanged.",
+      "normalized_headline": "FOLLOW-UP: Microsoft declines an optional Nscale Texas capacity expansion",
+      "canonical_urls": [
+        "https://www.reuters.com/technology/microsoft-rejects-multibillion-dollar-ai-deal-with-uks-nscale-ft-reports-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "first_edition_date": "2026-11-06",
+      "first_edition_path": "archive/2026-11-06.html",
+      "edition_paths": [
+        "archive/2026-11-06.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, 5 Nov 2026"
+      ],
+      "delivery_note": "The decision was made months earlier; it does not cancel the existing contract or change Nscale's disclosed $103bn total contract value.",
+      "follow_up_of": "event-nscale-monarch-campus-8gw-ipo-power-financing-permits",
+      "material_change": "Adds reporting that Microsoft declined an optional Texas capacity expansion; existing contracted capacity remains unchanged."
     }
   ]
 }
