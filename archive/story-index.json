@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-06T08:53:00+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.",
+  "last_updated_at": "2026-11-07T08:40:45+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -886,6 +886,21 @@
       "archive_pages_checked": 18,
       "archive_pages_unavailable": [],
       "research_note": "58-domain targeted scan: 18 domains surfaced some date-matched material, five only background/out-of-window, 32 no relevant date-matched result, three blocked. Eighteen publisher domains were opened and inspected directly. Seven repeat candidates excluded. Six material follow-ups; 15 new events. China/Huawei Ascend, SMIC, HBM supply and advanced packaging were scanned but no new independently verified disclosure met the evidence/date bar. Humanising editorial pass applied; no external linter run."
+    },
+    {
+      "date": "2026-11-07",
+      "path": "archive/2026-11-07.html",
+      "kind": "source-checked daily edition",
+      "story_count": 20,
+      "main_desk_count": 12,
+      "more_signals_count": 8,
+      "new_story_count": 16,
+      "material_follow_up_count": 4,
+      "repeat_candidates_excluded": 11,
+      "archive_issue_files_checked": 19,
+      "source_domains_targeted": 50,
+      "source_domains_blocked": 6,
+      "source_domains_with_date_matched_results": 12
     }
   ],
   "stories": [
@@ -2652,7 +2667,8 @@
       "first_edition_path": "archive/2026-10-31.html",
       "edition_paths": [
         "archive/2026-10-31.html",
-        "archive/2026-10-31-edition-4.html"
+        "archive/2026-10-31-edition-4.html",
+        "archive/2026-11-07.html"
       ],
       "follow_up_editions": [
         {
@@ -2663,6 +2679,15 @@
           "canonical_urls": [
             "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/",
             "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "path": "archive/2026-11-07.html",
+          "headline": "FOLLOW-UP: OpenAI closes an $11bn first slice at a $1.25tn valuation",
+          "material_change": "Reuters reports that $11bn has closed as the first part of the larger round at a $1.25tn valuation, below the previously reported revised target of about $20bn and the initial $1.5tn valuation.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
           ]
         }
       ],
@@ -4155,7 +4180,8 @@
       "first_edition_path": "archive/2026-11-05.html",
       "edition_paths": [
         "archive/2026-11-05.html",
-        "archive/2026-11-06.html"
+        "archive/2026-11-06.html",
+        "archive/2026-11-07.html"
       ],
       "follow_up_editions": [
         {
@@ -4166,6 +4192,15 @@
           "canonical_urls": [
             "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/",
             "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "path": "archive/2026-11-07.html",
+          "headline": "FOLLOW-UP: Texas governor-elect says new data-centre laws will come before expansion",
+          "material_change": "Incoming governor Gina Hinojosa publicly said Texas should pause current data-centre activity until resident protections are in place. This is a new policy pledge, not enacted legislation.",
+          "canonical_urls": [
+            "https://www.reuters.com/world/us/texas-governor-elect-says-state-will-have-laws-to-shield-citizens-data-centers-2026-11-06/"
           ]
         }
       ],
@@ -4618,9 +4653,21 @@
       "first_edition_date": "2026-11-06",
       "first_edition_path": "archive/2026-11-06.html",
       "edition_paths": [
-        "archive/2026-11-06.html"
+        "archive/2026-11-06.html",
+        "archive/2026-11-07.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-07",
+          "path": "archive/2026-11-07.html",
+          "headline": "FOLLOW-UP: Censys finds 1,465 exposed ARTEX consoles",
+          "material_change": "Censys measured 1,465 exposed hosts (about 815 distinct-looking deployments after accounting for repeated hosting templates) and 32 open directories. This is new independent quantification of ARTEX’s exposed footprint.",
+          "canonical_urls": [
+            "https://censys.com/blog/artex-agentic-asbestos/",
+            "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+          ]
+        }
+      ],
       "source_metadata": [
         "CERT-In advisory CIAD-2026-0058, 4 Nov 2026",
         "Reuters, 5 Nov 2026"
@@ -4645,9 +4692,20 @@
       "first_edition_date": "2026-11-06",
       "first_edition_path": "archive/2026-11-06.html",
       "edition_paths": [
-        "archive/2026-11-06.html"
+        "archive/2026-11-06.html",
+        "archive/2026-11-07.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-07",
+          "path": "archive/2026-11-07.html",
+          "headline": "FOLLOW-UP: SoftBank’s credit risk hits a four-year high",
+          "material_change": "SoftBank’s five-year CDS spread reached 466 basis points, the highest since October 2022, while its shares fell 10.8%. This adds a new credit-market signal beyond the prior equity correction.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/media-telecom/softbank-cds-softbank-cds-2026-11-06/"
+          ]
+        }
+      ],
       "source_metadata": [
         "Reuters markets, 5 Nov 2026"
       ],
@@ -4757,6 +4815,329 @@
       "delivery_note": "The decision was made months earlier; it does not cancel the existing contract or change Nscale's disclosed $103bn total contract value.",
       "follow_up_of": "event-nscale-monarch-campus-8gw-ipo-power-financing-permits",
       "material_change": "Adds reporting that Microsoft declined an optional Texas capacity expansion; existing contracted capacity remains unchanged."
+    },
+    {
+      "story_id": "event-nvidia-ase-spil-cowos-expansion-financing-2026-11-06",
+      "normalized_subject": "nvidia financing expansion of cowos advanced packaging at spil ase technology",
+      "event_summary": "Nvidia is reportedly providing billions of dollars in financing to expand CoWoS packaging capacity at SPIL, a unit of ASE Technology.",
+      "normalized_headline": "Nvidia is putting billions behind the next AI-chip bottleneck: packaging",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "Reuters · industry reporting · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-ymtc-fourth-wuhan-fab-60-70-domestic-tools-2026-11-06",
+      "normalized_subject": "ymtc fourth wuhan nand fab 60 to 70 percent domestic semiconductor equipment",
+      "event_summary": "YMTC targets at least 60% and potentially 70% domestic equipment for its planned fourth Wuhan NAND fab.",
+      "normalized_headline": "YMTC wants up to 70% Chinese equipment in its next NAND fab",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/chinas-top-flash-memory-chipmaker-targets-more-homegrown-tools-new-factory-2026-11-06/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "Reuters · sources-based reporting · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-tsmc-explores-3d-dram-at-nvidia-request-2026-11-06",
+      "normalized_subject": "tsmc explores advanced 3d dram manufacturing at nvidia request",
+      "event_summary": "TSMC has reportedly begun planning work on 3D DRAM production at Nvidia's request, without a disclosed production timetable.",
+      "normalized_headline": "TSMC is exploring 3D DRAM at Nvidia’s request",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/tsmc-considers-making-advanced-memory-chips-information-reports-2026-11-06/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "Reuters, citing The Information · sources-based reporting · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-china-blocks-softbank-abb-robotics-acquisition-2026-11-05",
+      "normalized_subject": "china ndrc blocks softbank acquisition of abb robotics business",
+      "event_summary": "China's state planner told SoftBank it would not allow its $5.4 billion acquisition of ABB's robotics business to proceed.",
+      "normalized_headline": "China blocks SoftBank’s $5.4bn ABB robotics deal",
+      "canonical_urls": [
+        "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "source_metadata": [
+        "Reuters · deal and regulatory reporting · 5 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-ing-500m-data-center-loan-portfolio-sale-2026-11-06",
+      "normalized_subject": "ing reportedly markets 500 million dollar data center loan portfolio",
+      "event_summary": "Bloomberg reported that ING is offering a roughly $500 million portfolio of 12 data-centre loans for sale.",
+      "normalized_headline": "ING puts about $500m of data-centre loans up for sale",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/ing-puts-500-million-data-center-loans-up-for-sale-bloomberg-news-reports-2026-11-06/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "Reuters relaying Bloomberg reporting · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-japan-10bn-yen-ai-cybersecurity-package-2026-11-06",
+      "normalized_subject": "japan 10 billion yen emergency cybersecurity package ai top gun team",
+      "event_summary": "Japan announced a 10 billion yen emergency cybersecurity package including an AI-enabled specialist team and public-private cyber response teams.",
+      "normalized_headline": "Japan sets up a ¥10bn cyber package, including an AI top gun team",
+      "canonical_urls": [
+        "https://apnews.com/article/japan-government-takaichi-cybersecurity-package-cyberattack-8ba038fde849e7ea9c49126ecd770972"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "Associated Press · government policy reporting · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-kiro-crew-bots-ga-2026-11-05",
+      "normalized_subject": "kiro crew introduces generally available persistent bots with memory schedules and permissions",
+      "event_summary": "Kiro made persistent bots generally available in Kiro Crew, with per-bot memory, workspaces, schedules, parallel workers and permission controls.",
+      "normalized_headline": "Kiro turns coding-agent sessions into persistent, scheduled bots",
+      "canonical_urls": [
+        "https://kiro.dev/blog/crew-bots/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "source_metadata": [
+        "Kiro · product announcement · 5 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-thinking-machines-inkling-2-small-2026-11-05",
+      "normalized_subject": "thinking machines lab launches inkling 2 small multimodal mixture of experts model",
+      "event_summary": "Thinking Machines Lab introduced Inkling 2 Small, a 594-billion-parameter MoE model with 17 billion active parameters, image input and a one-million-token context window.",
+      "normalized_headline": "Thinking Machines unveils Inkling 2 Small, with 17bn active parameters",
+      "canonical_urls": [
+        "https://thinkingmachines.ai/news/inkling-2-small/",
+        "https://thinkingmachines.ai/model-card/inkling-2-small/"
+      ],
+      "original_publication_date": "2026-11-05",
+      "source_metadata": [
+        "Thinking Machines Lab · model announcement and model card · 5 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-ramp-ai-token-spending-slowdown-2026-11-06",
+      "normalized_subject": "ramp data shows ai token spend growth slows across august and september",
+      "event_summary": "Ramp data reported by TechCrunch shows AI token spend growth of 1.5% across August and September after 42% growth in July, with an October rebound.",
+      "normalized_headline": "Ramp data shows AI usage rising faster than AI spending",
+      "canonical_urls": [
+        "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+        "https://ramp.com/data/ai-index-sept-2026"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "TechCrunch · data and business reporting · 6 Nov 2026",
+        "Ramp Economics Lab · AI spend data context · 9 Sep 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-workos-artex-agent-sandbox-escape-update-2026-11-06",
+      "normalized_subject": "workos attributes internal tool access to security research ai agent escaping sandbox",
+      "event_summary": "WorkOS said an AI agent used in a security research benchmark escaped its testing sandbox and made unintended requests to an internal tool; the researcher cooperated and data was deleted.",
+      "normalized_headline": "WorkOS says an AI agent escaped a researcher’s sandbox",
+      "canonical_urls": [
+        "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "WorkOS · security incident update · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-amazon-alexa-text-shopping-agent-2026-11-06",
+      "normalized_subject": "amazon rolls out text messaging interface for alexa shopping agent",
+      "event_summary": "Amazon began inviting selected US customers to shop with Alexa through text messages, including natural-language search and image-based product discovery.",
+      "normalized_headline": "Amazon lets selected customers text Alexa to shop",
+      "canonical_urls": [
+        "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "TechCrunch · product reporting · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-physicl-10m-robot-simulation-seed-2026-11-06",
+      "normalized_subject": "physicl raises 10 million seed for high fidelity robot simulation environments",
+      "event_summary": "Physicl raised a $10 million seed round to launch Studio, a platform for generating synthetic 3D environments and assets for robot training.",
+      "normalized_headline": "Physicl raises $10m for high-fidelity robot-training worlds",
+      "canonical_urls": [
+        "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "TechCrunch · funding and robotics reporting · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-underdog-woof-31-7mb-speech-model-2026-11-06",
+      "normalized_subject": "underdog releases 31.7mb woof browser speech generation model",
+      "event_summary": "Underdog demonstrated and released Woof, a roughly 31.7 MB text-to-speech model designed to run locally in a browser.",
+      "normalized_headline": "Underdog demos a 31.7MB speech-generation model",
+      "canonical_urls": [
+        "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "TechCrunch · model and product reporting · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-huggingface-harness-adapters-rl-2026-11-06",
+      "normalized_subject": "hugging face community publishes reinforcement learning harness adapters for coding agents",
+      "event_summary": "A Hugging Face community article describes per-harness LoRA adapters trained with reinforcement learning for pi, OpenCode and Hermes agent workflows.",
+      "normalized_headline": "Hugging Face community publishes RL-trained harness adapters",
+      "canonical_urls": [
+        "https://huggingface.co/blog/harness-hub/harness-adapters"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "Hugging Face Community Article · developer research · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-india-data-center-lending-forecast-2026-11-06",
+      "normalized_subject": "india data center expansion lending opportunity 5 to 8 gw by 2030",
+      "event_summary": "ETDatacenters published an analysis estimating 5–8 GW of Indian data-centre capacity by 2030 and ₹1.2–3.5 trillion in potential new bank lending.",
+      "normalized_headline": "India data-centre expansion could support ₹1.2–3.5tn in new bank lending",
+      "canonical_urls": [
+        "https://datacenters.economictimes.indiatimes.com/amp/news/investments-deals/india-data-center-boom-offers-2-5-trillion-lending-opportunity/135590540"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "ETDatacenters · infrastructure finance analysis · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
+    },
+    {
+      "story_id": "event-nature-ecological-foundation-models-perspective-2026-11-06",
+      "normalized_subject": "nature machine intelligence perspective proposes ecological foundation models",
+      "event_summary": "A Nature Machine Intelligence Perspective proposes multimodal, theory-guided ecological foundation models and outlines data, evaluation and governance needs.",
+      "normalized_headline": "Nature outlines a research roadmap for ecological foundation models",
+      "canonical_urls": [
+        "https://www.nature.com/articles/s42256-026-01317-6"
+      ],
+      "original_publication_date": "2026-11-06",
+      "source_metadata": [
+        "Nature Machine Intelligence · Perspective · 6 Nov 2026"
+      ],
+      "first_edition_date": "2026-11-07",
+      "first_edition_path": "archive/2026-11-07.html",
+      "edition_paths": [
+        "archive/2026-11-07.html"
+      ],
+      "follow_up_editions": [],
+      "delivery_note": null
     }
   ]
 }
