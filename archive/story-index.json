@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-07T08:55:00+05:30",
+  "last_updated_at": "2026-11-08T08:37:31+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.",
   "editions": [
     {
@@ -920,6 +920,140 @@
       "source_domains_with_date_matched_results": 12,
       "corrects_path": "archive/2026-11-07.html",
       "correction_note": "Corrected Censys ARTEX host-count observation date to 4 November and clarified WorkOS incident timeline and data categories; original issue remains immutable."
+    },
+    {
+      "date": "2026-11-08",
+      "path": "archive/2026-11-08.html",
+      "kind": "source-checked daily edition",
+      "story_count": 8,
+      "main_desk_count": 5,
+      "more_signals_count": 3,
+      "new_story_count": 8,
+      "material_follow_up_count": 0,
+      "repeat_candidates_excluded": 5,
+      "archive_issue_files_checked": 21,
+      "source_domains_targeted": 50,
+      "supplemental_domains_targeted": 19,
+      "source_domains_opened_and_inspected": 10,
+      "source_pages_opened_and_inspected": 14,
+      "source_domains_blocked": 8,
+      "archive_pages_unavailable": [],
+      "research_window": "2026-11-06 08:37 IST to 2026-11-08 08:37 IST",
+      "story_ids": [
+        "event-china-mobile-2027-compute-investment-100bn-yuan",
+        "event-microsoft-winds-down-oracle-ai-capacity-rental-2026-11-06",
+        "event-bytedance-considers-second-phase-brazil-data-centre-2026-11-07",
+        "event-european-data-centre-protests-amsterdam-microsoft-site-2026-11-06",
+        "event-conservation-groups-adopt-ai-environmental-footprint-2026-11-07",
+        "event-railway-employee-ai-agent-primcloud-unauthorized-testing-report-2026-11-07",
+        "event-medical-world-foundation-models-clinical-digital-twins-letter-2026-11-06",
+        "event-china-humanoid-robot-data-collection-centres-xiong-youjun-interview-series-2026-11-06"
+      ],
+      "source_domain_audit": {
+        "core_search_targets": [
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "techcrunch.com",
+          "theverge.com",
+          "venturebeat.com",
+          "arstechnica.com",
+          "theregister.com",
+          "bleepingcomputer.com",
+          "technologyreview.com",
+          "restofworld.org",
+          "economictimes.indiatimes.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "openai.com",
+          "anthropic.com",
+          "blog.google",
+          "deepmind.google",
+          "blogs.microsoft.com",
+          "ai.meta.com",
+          "nvidia.com",
+          "aws.amazon.com",
+          "developer.apple.com",
+          "github.blog",
+          "huggingface.co",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "spectrum.ieee.org",
+          "semiconductor-digest.com",
+          "tomshardware.com",
+          "anandtech.com",
+          "trendforce.com",
+          "digitimes.com",
+          "scmp.com",
+          "caixinglobal.com",
+          "36kr.com",
+          "nikkei.com",
+          "asia.nikkei.com",
+          "thehindu.com",
+          "indianexpress.com",
+          "pib.gov.in",
+          "cert-in.org.in",
+          "gov.uk",
+          "europa.eu",
+          "bis.gov",
+          "justice.gov",
+          "cisa.gov",
+          "apnews.com",
+          "github.com"
+        ],
+        "supplemental_search_targets": [
+          "pnnl.gov",
+          "mediatek.com",
+          "chinamobile.com",
+          "chinamobileltd.com",
+          "about.fb.com",
+          "news.airbnb.com",
+          "unityhealth.to",
+          "remedyrobotics.com",
+          "cloudflare.com",
+          "typesafe.ai",
+          "stopdirtydatacentres.eu",
+          "datacenterdynamics.com",
+          "theguardian.com",
+          "euronews.com",
+          "businessinsider.com",
+          "energyconnects.com",
+          "bloomberglinea.com.br",
+          "c114.com.cn",
+          "investnews.com.br"
+        ],
+        "directly_opened_domains": [
+          "reuters.com",
+          "m.c114.com.cn",
+          "companies.caixin.com",
+          "apnews.com",
+          "theguardian.com",
+          "stopdirtydatacentres.eu",
+          "bloomberglinea.com.br",
+          "link.springer.com",
+          "businessinsider.com",
+          "caixinglobal.com"
+        ],
+        "blocked_or_paywalled": [
+          "bloomberg.com",
+          "ft.com",
+          "technologyreview.com",
+          "cnbc.com",
+          "semafor.com",
+          "theinformation.com",
+          "asia.nikkei.com",
+          "thehindu.com"
+        ]
+      },
+      "excluded_repeat_candidates": [
+        "OpenAI GPT-6 Cyber launch and exploit figures",
+        "METR Anthropic R&D assessment",
+        "China–SoftBank–ABB robotics decision",
+        "OpenAI Community Compact / data-centre reaffirmation",
+        "Oracle–Tencent compute lease"
+      ],
+      "editorial_note": "Only eight distinct developments cleared the 48-hour date window, evidence and no-repeat tests; no 20-story quota was forced."
     }
   ],
   "stories": [
@@ -5193,6 +5327,174 @@
       ],
       "follow_up_editions": [],
       "delivery_note": null
+    },
+    {
+      "story_id": "event-china-mobile-2027-compute-investment-100bn-yuan",
+      "normalized_subject": "china mobile 2027 computing infrastructure investment and gigawatt scale data centres",
+      "event_summary": "China Mobile announced plans to invest more than 100 billion yuan in computing power in 2027 and expand to seven gigawatt-class computing parks, alongside a wider 400G optical transport and unified compute network plan.",
+      "normalized_headline": "China Mobile puts more than ¥100bn behind compute and network expansion",
+      "canonical_urls": [
+        "https://m.c114.com.cn/w576-1320649.html",
+        "https://companies.caixin.com/2026-11-06/102501800.html"
+      ],
+      "original_publication_date": "2026-11-06",
+      "first_edition_date": "2026-11-08",
+      "first_edition_path": "archive/2026-11-08.html",
+      "edition_paths": [
+        "archive/2026-11-08.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "C114 · 6 Nov 2026",
+        "Caixin · 6 Nov 2026"
+      ],
+      "delivery_note": "Company plan; accelerator vendor mix not disclosed. Caixin’s summary line conflicts with its body on the annual campus split."
+    },
+    {
+      "story_id": "event-microsoft-winds-down-oracle-ai-capacity-rental-2026-11-06",
+      "normalized_subject": "microsoft non-renewal and wind-down of oracle cloud ai computing rental agreement",
+      "event_summary": "Microsoft is winding down rented AI computing capacity from Oracle after declining to renew a 2023 multi-year agreement; the rented hardware used an older generation of Nvidia GPUs.",
+      "normalized_headline": "Microsoft winds down Oracle AI-compute rental as older Nvidia GPUs no longer fit",
+      "canonical_urls": [
+        "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "first_edition_date": "2026-11-08",
+      "first_edition_path": "archive/2026-11-08.html",
+      "edition_paths": [
+        "archive/2026-11-08.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters, relaying Bloomberg · 6 Nov 2026"
+      ],
+      "delivery_note": "Reported non-renewal; contract value and exact GPU model not disclosed. Oracle says demand for earlier-generation GPUs remains strong."
+    },
+    {
+      "story_id": "event-bytedance-considers-second-phase-brazil-data-centre-2026-11-07",
+      "normalized_subject": "bytedance possible second phase data centre expansion ceara brazil",
+      "event_summary": "ByteDance is considering a larger second phase of its data-centre project in Ceará, Brazil, and is seeking a developer; Bloomberg reports early talks about a separate similarly sized site.",
+      "normalized_headline": "ByteDance weighs a larger second phase for its Brazil data-centre project",
+      "canonical_urls": [
+        "https://www.bloomberglinea.com.br/tech/bytedance-proprietaria-do-tiktok-avalia-expansao-de-data-center-no-brasil/"
+      ],
+      "original_publication_date": "2026-11-07",
+      "first_edition_date": "2026-11-08",
+      "first_edition_path": "archive/2026-11-08.html",
+      "edition_paths": [
+        "archive/2026-11-08.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Bloomberg Línea / Bloomberg News · 7 Nov 2026"
+      ],
+      "delivery_note": "Unnamed-source report; ByteDance did not comment and no final scale or timetable was disclosed."
+    },
+    {
+      "story_id": "event-european-data-centre-protests-amsterdam-microsoft-site-2026-11-06",
+      "normalized_subject": "european anti data centre protests and amsterdam microsoft construction site occupation",
+      "event_summary": "Protesters occupied a Microsoft data-centre construction site in Amsterdam during a wider European campaign against new data-centre developments; Dutch police detained 150–200 people.",
+      "normalized_headline": "European data-centre protests reach a Microsoft construction site",
+      "canonical_urls": [
+        "https://apnews.com/article/b4f3f9f368697bb37416bcb4fabdd67c",
+        "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
+        "https://stopdirtydatacentres.eu/en/"
+      ],
+      "original_publication_date": "2026-11-06",
+      "first_edition_date": "2026-11-08",
+      "first_edition_path": "archive/2026-11-08.html",
+      "edition_paths": [
+        "archive/2026-11-08.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Associated Press · 6 Nov 2026",
+        "The Guardian · 6 Nov 2026",
+        "Stop Dirty Data Centres · campaign statement"
+      ],
+      "delivery_note": "AP reports the police detention figure; Guardian distinguishes the direct action from coalition activity outside the fence."
+    },
+    {
+      "story_id": "event-conservation-groups-adopt-ai-environmental-footprint-2026-11-07",
+      "normalized_subject": "environmental conservation organisations ai use and data centre environmental impact",
+      "event_summary": "Reuters interviewed 15 environmental and conservation organisations using AI for wildfire alerts, wildlife surveys and field-note digitisation while raising concerns about data-centre electricity, water and emissions.",
+      "normalized_headline": "Conservation groups adopt AI while trying to limit its footprint",
+      "canonical_urls": [
+        "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/"
+      ],
+      "original_publication_date": "2026-11-07",
+      "first_edition_date": "2026-11-08",
+      "first_edition_path": "archive/2026-11-08.html",
+      "edition_paths": [
+        "archive/2026-11-08.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 7 Nov 2026"
+      ],
+      "delivery_note": "Organization-reported use cases; IEA energy and water projections are estimates."
+    },
+    {
+      "story_id": "event-railway-employee-ai-agent-primcloud-unauthorized-testing-report-2026-11-07",
+      "normalized_subject": "railway employee agentic ai harness tests primcloud platform without permission",
+      "event_summary": "Business Insider reported that a Railway employee’s AI agent testing harness probed rival platform Primcloud without permission; the underlying incident began on 3 November.",
+      "normalized_headline": "A Railway employee’s AI agent tested a rival cloud platform without permission",
+      "canonical_urls": [
+        "https://www.businessinsider.com/railway-primcloud-ai-agent-drama-legal-question-2026-11"
+      ],
+      "original_publication_date": "2026-11-07",
+      "first_edition_date": "2026-11-08",
+      "first_edition_path": "archive/2026-11-08.html",
+      "edition_paths": [
+        "archive/2026-11-08.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Business Insider · 7 Nov 2026"
+      ],
+      "delivery_note": "Fresh report, incident began 3 Nov; no successful intrusion or lawsuit established."
+    },
+    {
+      "story_id": "event-medical-world-foundation-models-clinical-digital-twins-letter-2026-11-06",
+      "normalized_subject": "world foundation models clinical digital twins physiology identifiability observational records",
+      "event_summary": "A letter in Annals of Biomedical Engineering argues that learned clinical world models trained on observational records may reproduce historical treatment policies rather than underlying physiology.",
+      "normalized_headline": "A medical letter warns that learned world models can inherit clinical practice patterns",
+      "canonical_urls": [
+        "https://link.springer.com/article/10.1007/s10439-026-04445-7"
+      ],
+      "original_publication_date": "2026-11-06",
+      "first_edition_date": "2026-11-08",
+      "first_edition_path": "archive/2026-11-08.html",
+      "edition_paths": [
+        "archive/2026-11-08.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Annals of Biomedical Engineering / Springer Nature · Letter to the Editor · 6 Nov 2026"
+      ],
+      "delivery_note": "Conceptual letter; no new data were generated or analysed."
+    },
+    {
+      "story_id": "event-china-humanoid-robot-data-collection-centres-xiong-youjun-interview-series-2026-11-06",
+      "normalized_subject": "china humanoid robot training data collection centres internet video simulation real robot data",
+      "event_summary": "A three-part Caixin interview series with Beijing Humanoid Robot Innovation Center founder Xiong Youjun discusses the complementary roles of internet video, simulation and real-robot data, the gap between competition demonstrations and industrial utility, and the possibility of specialist robot-data collection centres becoming a standalone service industry.",
+      "normalized_headline": "Humanoid-robot data collection may become its own business, says China lab founder",
+      "canonical_urls": [
+        "https://companies.caixin.com/2026-11-06/102501718.html",
+        "https://companies.caixin.com/m/2026-11-07/102501723.html",
+        "https://companies.caixin.com/m/2026-11-08/102501728.html"
+      ],
+      "original_publication_date": "2026-11-08",
+      "first_edition_date": "2026-11-08",
+      "first_edition_path": "archive/2026-11-08.html",
+      "edition_paths": [
+        "archive/2026-11-08.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Caixin interview series · 6–8 Nov 2026"
+      ],
+      "delivery_note": "Expert interview analysis; not a confirmed market-size estimate or independent benchmark."
     }
   ]
 }
