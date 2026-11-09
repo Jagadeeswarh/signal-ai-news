@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-08T08:37:31+05:30",
+  "last_updated_at": "2026-11-09T08:12:27+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.",
   "editions": [
     {
@@ -1054,6 +1054,133 @@
         "Oracle–Tencent compute lease"
       ],
       "editorial_note": "Only eight distinct developments cleared the 48-hour date window, evidence and no-repeat tests; no 20-story quota was forced."
+    },
+    {
+      "date": "2026-11-09",
+      "path": "archive/2026-11-09.html",
+      "kind": "source-checked daily edition",
+      "story_count": 7,
+      "main_desk_count": 5,
+      "more_signals_count": 2,
+      "new_story_count": 7,
+      "material_follow_up_count": 0,
+      "repeat_candidates_excluded": 7,
+      "archive_issue_files_checked": 22,
+      "source_domains_targeted": 62,
+      "supplemental_domains_targeted": 4,
+      "source_domains_opened_and_inspected": 8,
+      "source_pages_opened_and_inspected": 15,
+      "source_domains_blocked": 5,
+      "archive_pages_unavailable": [],
+      "research_window": "2026-11-07 08:12 IST to 2026-11-09 08:12 IST",
+      "story_ids": [
+        "event-anthropic-onepwr-generator-platform-sale-2026-09-26",
+        "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08",
+        "event-se-asia-datacentre-project-pause-power-water-permits-report-2026-11-07",
+        "event-datavita-lanarkshire-grid-served-power-plan-revision-2026-11-07",
+        "event-caissi-informal-white-house-reporting-independence-2026-11-08",
+        "event-australia-ifpi-copyright-exception-warning-2026-11-08",
+        "event-uk-public-services-ai-clog-correspondence-2026-11-08"
+      ],
+      "source_domain_audit": {
+        "core_search_targets": [
+          "openai.com",
+          "anthropic.com",
+          "blog.google",
+          "deepmind.google",
+          "blogs.microsoft.com",
+          "azure.microsoft.com",
+          "about.fb.com",
+          "nvidia.com",
+          "blogs.nvidia.com",
+          "aws.amazon.com",
+          "developer.apple.com",
+          "github.blog",
+          "huggingface.co",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "technologyreview.com",
+          "spectrum.ieee.org",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "venturebeat.com",
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "cnbc.com",
+          "semafor.com",
+          "restofworld.org",
+          "economictimes.indiatimes.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "theregister.com",
+          "apnews.com",
+          "theguardian.com",
+          "datacenterdynamics.com",
+          "caixinglobal.com",
+          "scmp.com",
+          "36kr.com",
+          "nikkei.com",
+          "asia.nikkei.com",
+          "yna.co.kr",
+          "c114.com.cn",
+          "huawei.com",
+          "chinamobile.com",
+          "pib.gov.in",
+          "cert-in.org.in",
+          "cisa.gov",
+          "bis.gov",
+          "sec.gov",
+          "europa.eu",
+          "gov.uk",
+          "iea.org",
+          "energy.gov",
+          "trendforce.com",
+          "digitimes.com",
+          "tomshardware.com",
+          "anandtech.com",
+          "bleepingcomputer.com",
+          "businessinsider.com",
+          "barrons.com",
+          "investing.com"
+        ],
+        "supplemental_search_targets": [
+          "pipersandler.com",
+          "nvidianews.nvidia.com",
+          "washingtonpost.com",
+          "theaustralian.com.au"
+        ],
+        "directly_opened_domains": [
+          "reuters.com",
+          "apnews.com",
+          "theguardian.com",
+          "ft.com",
+          "pipersandler.com",
+          "nvidianews.nvidia.com",
+          "sec.gov",
+          "gov.uk"
+        ],
+        "blocked_or_paywalled": [
+          "technologyreview.com",
+          "asia.nikkei.com",
+          "yna.co.kr",
+          "ft.com",
+          "theaustralian.com.au"
+        ]
+      },
+      "excluded_repeat_candidates": [
+        "GPT-6 Cyber launch and exploit figures",
+        "China Mobile’s 2027 compute investment plan",
+        "OpenAI’s $11bn funding close",
+        "AI-linked market correction and SoftBank credit repricing",
+        "China–SoftBank–ABB robotics decision",
+        "Microsoft–Oracle capacity wind-down",
+        "ByteDance Brazil second-phase data-centre expansion"
+      ],
+      "editorial_note": "Seven distinct developments cleared the date window, evidence and historical no-repeat tests. The Southeast Asia report was published in the window but describes September project decisions. No 20-story quota was forced."
     }
   ],
   "stories": [
@@ -5495,6 +5622,165 @@
         "Caixin interview series · 6–8 Nov 2026"
       ],
       "delivery_note": "Expert interview analysis; not a confirmed market-size estimate or independent benchmark."
+    },
+    {
+      "story_id": "event-anthropic-onepwr-generator-platform-sale-2026-09-26",
+      "normalized_subject": "anthropic onepwr solutions caterpillar gas generator commitments 1.7gw power generation platform sale",
+      "event_summary": "Piper Sandler lists a $3.4bn sale of OnePWR’s power-generation platform to an unnamed frontier AI lab on 26 September 2026; Financial Times reporting, relayed by Reuters on 8 November, identifies the buyer as Anthropic and reports 1.7GW of Caterpillar gas-generator commitments. Reuters could not independently verify the buyer attribution; Anthropic and OnePWR did not comment.",
+      "normalized_headline": "Anthropic reportedly takes over 1.7GW of gas-generator orders for $3.4bn",
+      "canonical_urls": [
+        "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/",
+        "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+        "https://www.pipersandler.com/investment-banking-transactions/onepwr-solutions-20260901",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+      ],
+      "original_publication_date": "2026-11-08",
+      "first_edition_date": "2026-11-09",
+      "first_edition_path": "archive/2026-11-09.html",
+      "edition_paths": [
+        "archive/2026-11-09.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Financial Times report · 8 Nov 2026",
+        "Reuters follow-up · 8 Nov 2026",
+        "Piper Sandler transaction entry · 26 Sep 2026",
+        "Anthropic S-1/A · 2 Nov 2026"
+      ],
+      "delivery_note": "The buyer attribution and 1.7GW quantity remain based on FT reporting; Piper Sandler corroborates a $3.4bn sale to an unnamed frontier AI lab, not the buyer or generator count."
+    },
+    {
+      "story_id": "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08",
+      "normalized_subject": "nvidia board independent investigation foreign intelligence effort jensen huang singapore megaspeed chip customer export controls",
+      "event_summary": "Nvidia’s board announced an independent investigation on 8 November 2026 after reporting that CEO Jensen Huang may have been targeted by a foreign-intelligence effort. Nvidia says it has no reason to believe company secrets or national security were compromised; the underlying intelligence allegation remains unproven.",
+      "normalized_headline": "Nvidia opens an independent probe into reported foreign-intelligence targeting of Jensen Huang",
+      "canonical_urls": [
+        "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+        "https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/",
+        "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6"
+      ],
+      "original_publication_date": "2026-11-08",
+      "first_edition_date": "2026-11-09",
+      "first_edition_path": "archive/2026-11-09.html",
+      "edition_paths": [
+        "archive/2026-11-09.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "NVIDIA Board statement · 8 Nov 2026",
+        "Reuters · 8 Nov 2026",
+        "Associated Press · 8 Nov 2026"
+      ],
+      "delivery_note": "The formal board investigation is confirmed; the reported foreign-intelligence targeting and any compromise are allegations, not findings."
+    },
+    {
+      "story_id": "event-se-asia-datacentre-project-pause-power-water-permits-report-2026-11-07",
+      "normalized_subject": "southeast asia thailand data centre construction pause approval review water power indonesia west java permits",
+      "event_summary": "A Guardian regional report published 7 November 2026 connects Thailand’s September pause on 49 data-centre construction projects and deferral of 117 approval decisions with Indonesia’s separate September stop-work order on BDx’s planned 640MW West Java AI campus pending permits and environmental review. The article is new to SIGNAL; the underlying government actions occurred in September.",
+      "normalized_headline": "Southeast Asia’s data-centre boom is meeting power, water and permitting limits",
+      "canonical_urls": [
+        "https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia",
+        "https://www.reuters.com/world/asia-pacific/indonesian-governor-orders-halt-data-centre-project-by-singapores-bdx-due-lack-2026-09-30/",
+        "https://digital.cushmanwakefield.com/apacdatacentreupdateh12026-07-2026-apac-regional-en-content-datacentres/"
+      ],
+      "original_publication_date": "2026-11-07",
+      "first_edition_date": "2026-11-09",
+      "first_edition_path": "archive/2026-11-09.html",
+      "edition_paths": [
+        "archive/2026-11-09.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Guardian regional investigation · 7 Nov 2026",
+        "Reuters · 30 Sep 2026",
+        "Cushman & Wakefield APAC Data Centre H1 2026 update"
+      ],
+      "delivery_note": "Publication date is 7 Nov; Thailand and West Java decisions described in the report date to September 2026, not the current weekend."
+    },
+    {
+      "story_id": "event-datavita-lanarkshire-grid-served-power-plan-revision-2026-11-07",
+      "normalized_subject": "datavita lanarkshire chapelhall 500mw ai data centre national grid renewable private wire ppa",
+      "event_summary": "The Guardian reported on 7 November 2026 that DataVita revised its Lanarkshire AI data-centre power description from more than 1GW of renewable generation delivered by private wire to a fully grid-served design, with possible future renewable connections. DataVita says the grid supply will be covered by a renewable PPA.",
+      "normalized_headline": "A 500MW Scottish AI campus is now planned to run from the grid, not private-wire renewables",
+      "canonical_urls": [
+        "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
+        "https://www.gov.uk/government/news/lanarkshire-ai-growth-zone-secures-300-million-investment-as-dell-establishes-scottish-base"
+      ],
+      "original_publication_date": "2026-11-07",
+      "first_edition_date": "2026-11-09",
+      "first_edition_path": "archive/2026-11-09.html",
+      "edition_paths": [
+        "archive/2026-11-09.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Guardian · 7 Nov 2026",
+        "GOV.UK · 18 Aug 2026"
+      ],
+      "delivery_note": "The revised grid-served plan is reported by the Guardian; the earlier £300m financing package and £202m National Wealth Fund guarantee are confirmed in the August government release."
+    },
+    {
+      "story_id": "event-caissi-informal-white-house-reporting-independence-2026-11-08",
+      "normalized_subject": "caissi commerce department ai safety evaluation center informal white house reporting independence director research publication",
+      "event_summary": "AP reported on 8 November 2026 that CAISSI staff had been asked informally to report to a White House office, citing two former officials. The centre lacks a permanent director and has stopped publishing public safety research; the White House did not answer specific questions and no formal transfer was announced.",
+      "normalized_headline": "US AI safety centre faces an independence question as staff are reportedly drawn closer to the White House",
+      "canonical_urls": [
+        "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13",
+        "https://www.washingtonpost.com/business/2026/11/08/ai-safety-trump-white-house/6c563e8a-db4b-11f1-930a-e08f8086f5ac_story/"
+      ],
+      "original_publication_date": "2026-11-08",
+      "first_edition_date": "2026-11-09",
+      "first_edition_path": "archive/2026-11-09.html",
+      "edition_paths": [
+        "archive/2026-11-09.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Associated Press · 8 Nov 2026",
+        "Washington Post AP republication · 8 Nov 2026"
+      ],
+      "delivery_note": "The informal reporting request is attributed to two former officials; it is not an announced formal transfer or new statutory mandate."
+    },
+    {
+      "story_id": "event-australia-ifpi-copyright-exception-warning-2026-11-08",
+      "normalized_subject": "australia copyright law ai training IFPI music recording industry licensing creative rights",
+      "event_summary": "IFPI chief executive Victoria Oakley warned the Albanese government on 8 November 2026 against weakening Australian copyright rules for AI training, arguing that a broad exception could create a route to train on music sourced globally. The government is considering policy changes; no new law has passed.",
+      "normalized_headline": "IFPI warns Australia against weakening copyright rules for AI training",
+      "canonical_urls": [
+        "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia"
+      ],
+      "original_publication_date": "2026-11-08",
+      "first_edition_date": "2026-11-09",
+      "first_edition_path": "archive/2026-11-09.html",
+      "edition_paths": [
+        "archive/2026-11-09.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Guardian / Guardian Australia · 8 Nov 2026"
+      ],
+      "delivery_note": "This is an industry-body warning during policy consideration, not a passed Australian copyright amendment."
+    },
+    {
+      "story_id": "event-uk-public-services-ai-clog-correspondence-2026-11-08",
+      "normalized_subject": "uk public bodies AI generated complaints correspondence agentic flooding local authorities FOI employment tribunals",
+      "event_summary": "The Guardian reported on 8 November 2026 that UK public bodies, MPs’ offices, employers and local authorities are facing longer and more complex AI-generated complaints and requests. The article cites practitioner accounts and ICO observations; it is not a national statistical census.",
+      "normalized_headline": "UK public bodies report an “AI clog” of chatbot-written complaints and requests",
+      "canonical_urls": [
+        "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence"
+      ],
+      "original_publication_date": "2026-11-08",
+      "first_edition_date": "2026-11-09",
+      "first_edition_path": "archive/2026-11-09.html",
+      "edition_paths": [
+        "archive/2026-11-09.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Guardian · 8 Nov 2026",
+        "Information Commissioner’s Office findings cited in the article"
+      ],
+      "delivery_note": "The reported rise is based on named practitioner accounts and public-authority examples; the article does not claim a national census of AI-written complaints."
     }
   ]
 }
