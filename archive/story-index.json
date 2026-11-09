@@ -1181,6 +1181,124 @@
         "ByteDance Brazil second-phase data-centre expansion"
       ],
       "editorial_note": "Seven distinct developments cleared the date window, evidence and historical no-repeat tests. The Southeast Asia report was published in the window but describes September project decisions. No 20-story quota was forced."
+    },
+    {
+      "date": "2026-11-09",
+      "path": "archive/2026-11-09-edition-2.html",
+      "kind": "corrected source-checked daily edition",
+      "story_count": 7,
+      "main_desk_count": 5,
+      "more_signals_count": 2,
+      "new_story_count": 0,
+      "material_follow_up_count": 0,
+      "repeat_candidates_excluded": 0,
+      "archive_issue_files_checked": 23,
+      "source_domains_targeted": 62,
+      "supplemental_domains_targeted": 4,
+      "source_domains_opened_and_inspected": 8,
+      "source_pages_opened_and_inspected": 15,
+      "source_domains_blocked": 5,
+      "archive_pages_unavailable": [],
+      "research_window": "2026-11-07 08:12 IST to 2026-11-09 08:12 IST",
+      "story_ids": [
+        "event-anthropic-onepwr-generator-platform-sale-2026-09-26",
+        "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08",
+        "event-se-asia-datacentre-project-pause-power-water-permits-report-2026-11-07",
+        "event-datavita-lanarkshire-grid-served-power-plan-revision-2026-11-07",
+        "event-caissi-informal-white-house-reporting-independence-2026-11-08",
+        "event-australia-ifpi-copyright-exception-warning-2026-11-08",
+        "event-uk-public-services-ai-clog-correspondence-2026-11-08"
+      ],
+      "source_domain_audit": {
+        "core_search_targets": [
+          "openai.com",
+          "anthropic.com",
+          "blog.google",
+          "deepmind.google",
+          "blogs.microsoft.com",
+          "azure.microsoft.com",
+          "about.fb.com",
+          "nvidia.com",
+          "blogs.nvidia.com",
+          "aws.amazon.com",
+          "developer.apple.com",
+          "github.blog",
+          "huggingface.co",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "technologyreview.com",
+          "spectrum.ieee.org",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "venturebeat.com",
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "cnbc.com",
+          "semafor.com",
+          "restofworld.org",
+          "economictimes.indiatimes.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "theregister.com",
+          "apnews.com",
+          "theguardian.com",
+          "datacenterdynamics.com",
+          "caixinglobal.com",
+          "scmp.com",
+          "36kr.com",
+          "nikkei.com",
+          "asia.nikkei.com",
+          "yna.co.kr",
+          "c114.com.cn",
+          "huawei.com",
+          "chinamobile.com",
+          "pib.gov.in",
+          "cert-in.org.in",
+          "cisa.gov",
+          "bis.gov",
+          "sec.gov",
+          "europa.eu",
+          "gov.uk",
+          "iea.org",
+          "energy.gov",
+          "trendforce.com",
+          "digitimes.com",
+          "tomshardware.com",
+          "anandtech.com",
+          "bleepingcomputer.com",
+          "businessinsider.com",
+          "barrons.com",
+          "investing.com"
+        ],
+        "supplemental_search_targets": [
+          "pipersandler.com",
+          "nvidianews.nvidia.com",
+          "washingtonpost.com",
+          "theaustralian.com.au"
+        ],
+        "directly_opened_domains": [
+          "reuters.com",
+          "apnews.com",
+          "theguardian.com",
+          "ft.com",
+          "pipersandler.com",
+          "nvidianews.nvidia.com",
+          "sec.gov",
+          "gov.uk"
+        ],
+        "blocked_or_paywalled": [
+          "technologyreview.com",
+          "asia.nikkei.com",
+          "yna.co.kr",
+          "ft.com",
+          "theaustralian.com.au"
+        ]
+      },
+      "editorial_note": "Corrected edition snapshot. The seven stories are unchanged; this version fixes the browser search-filter JavaScript. The original 9 November issue is preserved."
     }
   ],
   "stories": [
@@ -5638,7 +5756,8 @@
       "first_edition_date": "2026-11-09",
       "first_edition_path": "archive/2026-11-09.html",
       "edition_paths": [
-        "archive/2026-11-09.html"
+        "archive/2026-11-09.html",
+        "archive/2026-11-09-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -5663,7 +5782,8 @@
       "first_edition_date": "2026-11-09",
       "first_edition_path": "archive/2026-11-09.html",
       "edition_paths": [
-        "archive/2026-11-09.html"
+        "archive/2026-11-09.html",
+        "archive/2026-11-09-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -5687,7 +5807,8 @@
       "first_edition_date": "2026-11-09",
       "first_edition_path": "archive/2026-11-09.html",
       "edition_paths": [
-        "archive/2026-11-09.html"
+        "archive/2026-11-09.html",
+        "archive/2026-11-09-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -5710,7 +5831,8 @@
       "first_edition_date": "2026-11-09",
       "first_edition_path": "archive/2026-11-09.html",
       "edition_paths": [
-        "archive/2026-11-09.html"
+        "archive/2026-11-09.html",
+        "archive/2026-11-09-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -5732,7 +5854,8 @@
       "first_edition_date": "2026-11-09",
       "first_edition_path": "archive/2026-11-09.html",
       "edition_paths": [
-        "archive/2026-11-09.html"
+        "archive/2026-11-09.html",
+        "archive/2026-11-09-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -5753,7 +5876,8 @@
       "first_edition_date": "2026-11-09",
       "first_edition_path": "archive/2026-11-09.html",
       "edition_paths": [
-        "archive/2026-11-09.html"
+        "archive/2026-11-09.html",
+        "archive/2026-11-09-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -5773,7 +5897,8 @@
       "first_edition_date": "2026-11-09",
       "first_edition_path": "archive/2026-11-09.html",
       "edition_paths": [
-        "archive/2026-11-09.html"
+        "archive/2026-11-09.html",
+        "archive/2026-11-09-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
