@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-10T08:55:02+05:30",
+  "last_updated_at": "2026-11-10T09:18:50.682+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.",
   "editions": [
     {
@@ -1513,6 +1513,222 @@
         ]
       },
       "editorial_note": "Corrected edition 2. The original 10 November file is preserved unchanged and marked superseded. Eleven new event records and three material follow-ups were published after verification. Nine repeat candidates were excluded. The 87 search domains are targets, not 87 independently read articles; 23 domains were opened and inspected directly. Humanising editorial pass applied; no external style linter was run."
+    },
+    {
+      "date": "2026-11-10",
+      "path": "archive/2026-11-10-edition-3.html",
+      "kind": "corrected edition 3",
+      "story_count": 14,
+      "main_desk_count": 8,
+      "more_signals_count": 6,
+      "new_story_count": 0,
+      "material_follow_up_count": 0,
+      "repeat_candidates_excluded": 0,
+      "archive_issue_files_checked": 24,
+      "source_domains_targeted": 87,
+      "supplemental_domains_targeted": 14,
+      "source_domains_opened_and_inspected": 23,
+      "source_pages_opened_and_inspected": 25,
+      "source_domains_blocked": 1,
+      "source_domains_with_date_matched_results": 21,
+      "archive_pages_unavailable": [],
+      "research_window": "2026-11-08 08:55 IST to 2026-11-10 08:55 IST",
+      "story_ids": [
+        "event-google-tpu-8tx-8i-max-2026-11-09",
+        "event-anthropic-claude-fable-mythos-5-2-2026-11-09",
+        "event-australia-ai-safety-regulator-mandatory-reporting-2026-11-10",
+        "event-norway-statnett-data-centre-grid-pause-licensing-2026-11-09",
+        "event-softbank-grab-petros-malaysia-ai-infrastructure-2026-11-09",
+        "event-nvidia-rebellions-skt-r200-nvlink-fusion-2026-11-09",
+        "event-paris-call-ai-safety-security-joint-declaration-2026-11-09",
+        "event-disney-adobe-firefly-foundry-custom-models-2026-11-09",
+        "event-envision-galaxy-800v-dc-ai-campus-2026-11-02",
+        "event-india-domestic-ai-models-critical-sectors-policy-report-2026-11-09",
+        "event-noitom-hiphi-hand-physical-ai-dataset-2026-11-09",
+        "event-european-data-centre-protests-amsterdam-microsoft-site-2026-11-06",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+        "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08"
+      ],
+      "supersedes_path": "archive/2026-11-10-edition-2.html",
+      "superseded_paths": [
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10.html"
+      ],
+      "excluded_repeat_candidates": [
+        "Anthropic's OnePWR generator commitments — already covered in the 9 Nov issue.",
+        "Southeast Asia data-centre project pauses and permitting limits — already covered in the 9 Nov issue.",
+        "DataVita's 500MW Scottish campus grid plan — already covered in the 9 Nov issue.",
+        "US AI safety-centre independence concerns — already covered in the 9 Nov issue.",
+        "IFPI's Australian AI-copyright warning — already covered in the 9 Nov issue.",
+        "UK public bodies' AI-generated correspondence backlog — already covered in the 9 Nov issue.",
+        "China Mobile's compute investment plan — already covered in the 8 Nov issue.",
+        "Microsoft–Oracle AI-compute rental wind-down — already covered in the 8 Nov issue.",
+        "ByteDance's possible second phase in Brazil — already covered in the 8 Nov issue."
+      ],
+      "source_domain_audit": {
+        "core_search_targets": [
+          "anthropic.com",
+          "openai.com",
+          "blog.google",
+          "deepmind.google",
+          "microsoft.com",
+          "blogs.microsoft.com",
+          "about.fb.com",
+          "ai.meta.com",
+          "nvidia.com",
+          "developer.nvidia.com",
+          "aws.amazon.com",
+          "huggingface.co",
+          "github.blog",
+          "developer.apple.com",
+          "apple.com",
+          "reuters.com",
+          "ft.com",
+          "bloomberg.com",
+          "wsj.com",
+          "cnbc.com",
+          "apnews.com",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "theregister.com",
+          "tomshardware.com",
+          "anandtech.com",
+          "trendforce.com",
+          "digitimes.com",
+          "datacenterdynamics.com",
+          "lightreading.com",
+          "utilitydive.com",
+          "semianalysis.com",
+          "gov.uk",
+          "gov.au",
+          "industry.gov.au",
+          "ec.europa.eu",
+          "bis.gov",
+          "commerce.gov",
+          "cisa.gov",
+          "cert-in.org.in",
+          "meity.gov.in",
+          "pib.gov.in",
+          "justice.gov",
+          "ftc.gov",
+          "ico.org.uk",
+          "edpb.europa.eu",
+          "bleepingcomputer.com",
+          "krebsonsecurity.com",
+          "darkreading.com",
+          "scmp.com",
+          "caixinglobal.com",
+          "36kr.com",
+          "nikkei.com",
+          "asia.nikkei.com",
+          "thelec.net",
+          "koreaherald.com",
+          "yonhapnews.co.kr",
+          "techwireasia.com",
+          "restofworld.org",
+          "economictimes.indiatimes.com",
+          "livemint.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "thehindu.com",
+          "indianexpress.com",
+          "timesofindia.indiatimes.com",
+          "techradar.com",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "spectrum.ieee.org",
+          "acm.org",
+          "ieee.org",
+          "venturebeat.com",
+          "theinformation.com",
+          "semafor.com",
+          "businessinsider.com",
+          "theguardian.com",
+          "lemonde.fr",
+          "news.com.au",
+          "theconversation.com",
+          "github.com",
+          "stackoverflow.blog",
+          "developer.chrome.com",
+          "cloudflare.com",
+          "databricks.com"
+        ],
+        "supplemental_search_targets": [
+          "cloud.google.com",
+          "pm.gc.ca",
+          "pmc.gov.au",
+          "regjeringen.no",
+          "statnett.no",
+          "group.softbank",
+          "nvidianews.nvidia.com",
+          "news.adobe.com",
+          "news.sktelecom.com",
+          "prnewswire.com",
+          "globenewswire.com",
+          "barrons.com",
+          "business-standard.com",
+          "afp.com"
+        ],
+        "directly_opened_domains": [
+          "anthropic.com",
+          "cloud.google.com",
+          "reuters.com",
+          "theguardian.com",
+          "pm.gc.ca",
+          "regjeringen.no",
+          "tomshardware.com",
+          "lemonde.fr",
+          "barrons.com",
+          "business-standard.com",
+          "theverge.com",
+          "prnewswire.com",
+          "apnews.com",
+          "statnett.no",
+          "pmc.gov.au",
+          "group.softbank",
+          "nvidianews.nvidia.com",
+          "github.com",
+          "news.adobe.com",
+          "news.sktelecom.com",
+          "globenewswire.com",
+          "techradar.com",
+          "afp.com"
+        ],
+        "date_matched_domains": [
+          "anthropic.com",
+          "cloud.google.com",
+          "reuters.com",
+          "theguardian.com",
+          "pm.gc.ca",
+          "regjeringen.no",
+          "tomshardware.com",
+          "lemonde.fr",
+          "barrons.com",
+          "business-standard.com",
+          "theverge.com",
+          "apnews.com",
+          "statnett.no",
+          "pmc.gov.au",
+          "group.softbank",
+          "nvidianews.nvidia.com",
+          "news.adobe.com",
+          "news.sktelecom.com",
+          "globenewswire.com",
+          "techradar.com",
+          "afp.com"
+        ],
+        "background_only_domains": [
+          "github.com",
+          "prnewswire.com"
+        ],
+        "blocked_or_paywalled": [
+          "grab.com (direct press page fetch disabled; the joint terms were taken from SoftBank's primary release)"
+        ]
+      },
+      "editorial_note": "Corrected edition 3. Adds the omitted tenth Paris Call company signatory, Domyn, using the official joint declaration. All 14 stories and rankings are unchanged. Earlier files remain preserved. No new story records or follow-ups were added in this correction.",
+      "correction_note": "Adds Domyn to the Paris Call company signatory list, completing all ten companies named in the official Canadian government declaration. No story selection or ranking changed."
     }
   ],
   "stories": [
@@ -5355,7 +5571,8 @@
       "first_edition_path": "archive/2026-11-06.html",
       "edition_paths": [
         "archive/2026-11-06.html",
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [
         {
@@ -5878,7 +6095,8 @@
       "first_edition_path": "archive/2026-11-08.html",
       "edition_paths": [
         "archive/2026-11-08.html",
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [
         {
@@ -6026,7 +6244,8 @@
       "edition_paths": [
         "archive/2026-11-09.html",
         "archive/2026-11-09-edition-2.html",
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [
         {
@@ -6174,7 +6393,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6196,7 +6416,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6219,7 +6440,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6242,7 +6464,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6263,7 +6486,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6284,7 +6508,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6305,7 +6530,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6325,7 +6551,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6346,7 +6573,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6367,7 +6595,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -6389,7 +6618,8 @@
       "first_edition_date": "2026-11-10",
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-10-edition-2.html"
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
