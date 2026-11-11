@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-10T09:18:50.682+05:30",
+  "last_updated_at": "2026-11-11T08:54:00+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.",
   "editions": [
     {
@@ -1729,6 +1729,189 @@
       },
       "editorial_note": "Corrected edition 3. Adds the omitted tenth Paris Call company signatory, Domyn, using the official joint declaration. All 14 stories and rankings are unchanged. Earlier files remain preserved. No new story records or follow-ups were added in this correction.",
       "correction_note": "Adds Domyn to the Paris Call company signatory list, completing all ten companies named in the official Canadian government declaration. No story selection or ranking changed."
+    },
+    {
+      "date": "2026-11-11",
+      "path": "archive/2026-11-11.html",
+      "kind": "source-checked daily edition",
+      "story_count": 16,
+      "main_desk_count": 10,
+      "more_signals_count": 6,
+      "new_story_count": 13,
+      "material_follow_up_count": 3,
+      "repeat_candidates_excluded": 7,
+      "archive_issue_files_checked": 27,
+      "source_domains_targeted": 57,
+      "supplemental_domains_targeted": 15,
+      "source_domains_opened_and_inspected": 16,
+      "source_pages_opened_and_inspected": 25,
+      "source_domains_blocked": 1,
+      "source_domains_with_date_matched_results": 20,
+      "archive_pages_unavailable": [],
+      "research_window": "2026-11-09 08:54 IST to 2026-11-11 08:54 IST",
+      "story_ids": [
+        "event-google-deepmind-alphaproof-code-signal-formal-verification-2026-11-10",
+        "event-tsmc-board-invests-anthropic-openai-409bn-capital-appropriations-2026-11-10",
+        "event-softbank-q2fy2026-ai-data-center-power-equipment-procurement-loss-2026-11-10",
+        "event-infineon-fy2026-record-quarter-data-center-power-supply-forecast-2026-11-10",
+        "event-coreweave-q3fy2026-backlog-power-capex-forge-2026-11-10",
+        "event-openai-control-room-research-inference-stop-system-2026-11-09",
+        "event-gemini-4-carbon-targets-long-running-coding-and-cybersecurity-work",
+        "event-anthropic-claude-workspace-mcp-apps-sheets-whiteboards-data-2026-11-10",
+        "event-us-china-bilateral-superintelligence-risk-dialogue-bessent-2026-11-10",
+        "event-eia-november-2026-us-electricity-demand-forecast-ai-data-centers-2026-11-10",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+        "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08",
+        "event-oura-acquires-counsel-health-ai-primary-care-2026-11-10",
+        "event-openai-q3-2026-revenue-and-operating-losses-wsj-report-2026-11-10",
+        "event-openai-business-hub-business-agents-chatgpt-merchants-2026-11-10",
+        "event-infineon-300mm-silicon-carbide-power-device-manufacturing-milestone-2026-11-09"
+      ],
+      "excluded_repeat_candidates": [
+        "Anthropic Fable 5.2 and Mythos 5.2 launch — already covered in the 10 Nov edition.",
+        "Norway’s Statnett data-centre grid pause — already covered in the 10 Nov edition.",
+        "SoftBank–Grab–PETROS Malaysia AI-campus plan — already covered in the 10 Nov edition.",
+        "Nvidia–Rebellions–SK Telecom R200 integration — already covered in the 10 Nov edition.",
+        "India’s reported domestic-model priority direction — already covered in the 10 Nov edition; no formal new order was verified.",
+        "Envision’s 800V DC AI-campus deployment — already covered in the 10 Nov edition; no new deployment milestone was verified in this window.",
+        "Anthropic’s OnePWR power-generation commitments — already covered in the 9 Nov edition; no material new change was found."
+      ],
+      "source_domain_audit": {
+        "core_search_targets": [
+          "openai.com",
+          "anthropic.com",
+          "blog.google",
+          "deepmind.google",
+          "blogs.microsoft.com",
+          "about.fb.com",
+          "nvidia.com",
+          "aws.amazon.com",
+          "huggingface.co",
+          "github.blog",
+          "developer.apple.com",
+          "cloudflare.com",
+          "databricks.com",
+          "developer.chrome.com",
+          "stackoverflow.blog",
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "wsj.com",
+          "cnbc.com",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "theregister.com",
+          "trendforce.com",
+          "digitimes.com",
+          "tomshardware.com",
+          "anandtech.com",
+          "semianalysis.com",
+          "scmp.com",
+          "caixinglobal.com",
+          "36kr.com",
+          "nikkei.com",
+          "koreaherald.com",
+          "economictimes.indiatimes.com",
+          "livemint.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "thehindu.com",
+          "indianexpress.com",
+          "sec.gov",
+          "bis.gov",
+          "cisa.gov",
+          "cert-in.org.in",
+          "meity.gov.in",
+          "gov.uk",
+          "europa.eu",
+          "pmc.gov.au",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "spectrum.ieee.org",
+          "ieee.org",
+          "acm.org",
+          "venturebeat.com",
+          "restofworld.org"
+        ],
+        "supplemental_search_targets": [
+          "antigravity.google",
+          "pr.tsmc.com",
+          "group.softbank",
+          "infineon.com",
+          "eia.gov",
+          "counselhealth.com",
+          "timesofindia.indiatimes.com",
+          "channelnewsasia.com",
+          "straitstimes.com",
+          "apnews.com",
+          "theguardian.com",
+          "gadgets360.com",
+          "techradar.com",
+          "business-standard.com",
+          "statnews.com"
+        ],
+        "directly_opened_domains": [
+          "deepmind.google",
+          "antigravity.google",
+          "openai.com",
+          "claude.com",
+          "reuters.com",
+          "sec.gov",
+          "pr.tsmc.com",
+          "group.softbank",
+          "infineon.com",
+          "eia.gov",
+          "counselhealth.com",
+          "straitstimes.com",
+          "apnews.com",
+          "theguardian.com",
+          "channelnewsasia.com",
+          "indianexpress.com"
+        ],
+        "date_matched_domains": [
+          "deepmind.google",
+          "antigravity.google",
+          "openai.com",
+          "claude.com",
+          "reuters.com",
+          "sec.gov",
+          "pr.tsmc.com",
+          "group.softbank",
+          "infineon.com",
+          "eia.gov",
+          "counselhealth.com",
+          "straitstimes.com",
+          "apnews.com",
+          "theguardian.com",
+          "channelnewsasia.com",
+          "indianexpress.com",
+          "gadgets360.com",
+          "techcrunch.com",
+          "theverge.com",
+          "timesofindia.indiatimes.com"
+        ],
+        "background_only_domains": [
+          "nature.com",
+          "science.org",
+          "arxiv.org",
+          "cisa.gov",
+          "cert-in.org.in",
+          "meity.gov.in",
+          "bis.gov",
+          "scmp.com",
+          "caixinglobal.com",
+          "36kr.com",
+          "nikkei.com",
+          "koreaherald.com"
+        ],
+        "blocked_or_paywalled": [
+          "theinformation.com (direct access unavailable; the shipment allegation is attributed through Reuters, which says it could not independently verify it)"
+        ]
+      },
+      "editorial_note": "Humanising newsroom edit applied. No external style linter was run. The main desk is ranked by editorial judgement; More Signals preserves lower-ranked verified developments. Company claims, preliminary filings, forecasts and allegations are labelled. No new verified Huawei Ascend, domestic Chinese accelerator, SMIC yield, HBM, advanced-packaging, lithography or export-control development met the date and evidence bar."
     }
   ],
   "stories": [
@@ -2633,16 +2816,33 @@
       "normalized_headline": "Gemini 4 Carbon targets long-running coding and cybersecurity work",
       "canonical_urls": [
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-        "https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2026-10-28/"
+        "https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2026-10-28/",
+        "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/",
+        "https://antigravity.google/docs/swarm/"
       ],
       "original_publication_date": "2026-10-28",
       "first_edition_date": "2026-10-29",
       "first_edition_path": "archive/2026-10-29.html",
       "edition_paths": [
-        "archive/2026-10-29.html"
+        "archive/2026-10-29.html",
+        "archive/2026-11-11.html"
       ],
-      "follow_up_editions": [],
-      "source_metadata": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-11",
+          "path": "archive/2026-11-11.html",
+          "headline": "FOLLOW-UP: Google opens Gemini 4 Carbon to Ultra users and previews Antigravity’s /swarm teams",
+          "material_change": "Gemini 4 Carbon moved from the restricted-access launch covered on 29 October to availability for Google AI Ultra subscribers and enterprise customers. Google also introduced the /swarm preview in Antigravity, with a coordinator, parallel workers in isolated Git worktrees and a verifier. This is a material availability and workflow change, not merely fresh commentary.",
+          "canonical_urls": [
+            "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/",
+            "https://antigravity.google/docs/swarm/"
+          ]
+        }
+      ],
+      "source_metadata": [
+        "Google Antigravity · 10 Nov 2026",
+        "Google Antigravity · 10 Nov 2026"
+      ],
       "delivery_note": null
     },
     {
@@ -5564,7 +5764,9 @@
       "normalized_headline": "FOLLOW-UP: Investor doubts put Anthropic’s IPO timetable under pressure",
       "canonical_urls": [
         "https://www.reuters.com/world/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-2026-11-05/",
-        "https://www.reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/"
+        "https://www.reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+        "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/"
       ],
       "original_publication_date": "2026-11-05",
       "first_edition_date": "2026-11-06",
@@ -5572,7 +5774,8 @@
       "edition_paths": [
         "archive/2026-11-06.html",
         "archive/2026-11-10-edition-2.html",
-        "archive/2026-11-10-edition-3.html"
+        "archive/2026-11-10-edition-3.html",
+        "archive/2026-11-11.html"
       ],
       "follow_up_editions": [
         {
@@ -5583,11 +5786,23 @@
           "canonical_urls": [
             "https://www.reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/"
           ]
+        },
+        {
+          "date": "2026-11-11",
+          "path": "archive/2026-11-11.html",
+          "headline": "FOLLOW-UP: Anthropic files a preliminary US$70–US$78 IPO range and a US$26bn private placement",
+          "material_change": "Anthropic’s 10 November S-1/A sets a preliminary 825m-share public offering range of US$70–US$78 and a separate US$26bn strategic private placement. Reuters reports up to US$90.4bn combined proceeds and distinguishes about US$1.4tn fully diluted valuation from roughly US$1tn excluding options and restricted stock. This is a filed prospectus after the earlier banker pricing details were withdrawn; final terms remain subject to change.",
+          "canonical_urls": [
+            "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+            "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/"
+          ]
         }
       ],
       "source_metadata": [
         "Reuters, 5 Nov 2026",
-        "Reuters · Exclusive reporting · 10 Nov 2026"
+        "Reuters · Exclusive reporting · 10 Nov 2026",
+        "Anthropic SEC S-1/A · 10 Nov 2026",
+        "Reuters · 10 Nov 2026"
       ],
       "delivery_note": "Investor concerns and possible roadshow delay are reported, not a company-confirmed decision.",
       "follow_up_of": "event-anthropic-s1-amendment-compute-commitments-financials-2026-11-02",
@@ -6236,7 +6451,8 @@
         "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
         "https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/",
         "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
-        "https://apnews.com/article/3345b9f05c54d58909e88f6dcb9c1cd8"
+        "https://apnews.com/article/3345b9f05c54d58909e88f6dcb9c1cd8",
+        "https://www.reuters.com/world/china/nvidia-ceos-affair-aided-75-billion-chip-shipments-china-information-reports-2026-11-10/"
       ],
       "original_publication_date": "2026-11-08",
       "first_edition_date": "2026-11-09",
@@ -6245,7 +6461,8 @@
         "archive/2026-11-09.html",
         "archive/2026-11-09-edition-2.html",
         "archive/2026-11-10-edition-2.html",
-        "archive/2026-11-10-edition-3.html"
+        "archive/2026-11-10-edition-3.html",
+        "archive/2026-11-11.html"
       ],
       "follow_up_editions": [
         {
@@ -6256,13 +6473,23 @@
           "canonical_urls": [
             "https://apnews.com/article/3345b9f05c54d58909e88f6dcb9c1cd8"
           ]
+        },
+        {
+          "date": "2026-11-11",
+          "path": "archive/2026-11-11.html",
+          "headline": "FOLLOW-UP: New reporting deepens scrutiny of Nvidia’s China chip ties and board investigation",
+          "material_change": "Reuters reports The Information’s allegation that a businesswoman facilitated at least US$7.5bn in Nvidia chip shipments to Chinese firms, says it could not independently verify the reports, and reports that the board retained outside counsel while Senate Democratic Leader Chuck Schumer called for tighter China chip-export curbs. These are additional allegations and procedural developments, not findings of wrongdoing or proof that national-security information was compromised.",
+          "canonical_urls": [
+            "https://www.reuters.com/world/china/nvidia-ceos-affair-aided-75-billion-chip-shipments-china-information-reports-2026-11-10/"
+          ]
         }
       ],
       "source_metadata": [
         "NVIDIA Board statement · 8 Nov 2026",
         "Reuters · 8 Nov 2026",
         "Associated Press · 8 Nov 2026",
-        "Associated Press · Independent reporting · 9 Nov 2026"
+        "Associated Press · Independent reporting · 9 Nov 2026",
+        "Reuters · 10 Nov 2026"
       ],
       "delivery_note": "The formal board investigation is confirmed; the reported foreign-intelligence targeting and any compromise are allegations, not findings."
     },
@@ -6626,6 +6853,284 @@
         "Noitom Robotics via GlobeNewswire · Company announcement · 9 Nov 2026"
       ],
       "delivery_note": "The dataset is free for research, education and evaluation; commercial use is separately licensed. Hugging Face links are supplied by the announcement."
+    },
+    {
+      "story_id": "event-google-deepmind-alphaproof-code-signal-formal-verification-2026-11-10",
+      "normalized_subject": "google deepmind alphaproof code formal verification of signal libsignal",
+      "event_summary": "Google DeepMind published AlphaProof Code, an agentic formal-verification workflow that machine-checks proofs of selected security properties in libsignal v0.105.4 at the compiled AArch64 code level. Scope is one-to-one sessions; group messaging and several external assumptions are excluded.",
+      "normalized_headline": "DeepMind’s agents formally verify key Signal code, down to the machine instructions",
+      "canonical_urls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf",
+        "https://google-deepmind.github.io/code-verification/"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google DeepMind · Research announcement · 10 Nov 2026",
+        "Google DeepMind · Technical paper · 10 Nov 2026"
+      ],
+      "delivery_note": "The paper limits the proof to libsignal v0.105.4 one-to-one sessions under stated assumptions; do not describe this as a proof of the entire Signal application."
+    },
+    {
+      "story_id": "event-tsmc-board-invests-anthropic-openai-409bn-capital-appropriations-2026-11-10",
+      "normalized_subject": "tsmc board strategic investments in anthropic and openai plus 2027 semiconductor capacity appropriations",
+      "event_summary": "TSMC’s 10 November board approved up to US$500m investment in Anthropic at its IPO price, up to US$500m in OpenAI preferred stock, up to US$500m for a semiconductor ecosystem investment vehicle, and about US$40.927bn in capital appropriations for advanced technology, packaging, fab and R&D capacity.",
+      "normalized_headline": "TSMC backs Anthropic and OpenAI as it authorises another US$40.9bn for capacity",
+      "canonical_urls": [
+        "https://pr.tsmc.com/english/news/3352",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+        "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "TSMC · Board resolutions · 10 Nov 2026",
+        "Anthropic PBC · SEC S-1/A · 10 Nov 2026",
+        "Reuters · 10 Nov 2026"
+      ],
+      "delivery_note": "Board approvals and capital appropriations are authorisations, not completed investment transfers or proof that all capacity is already under construction."
+    },
+    {
+      "story_id": "event-softbank-q2fy2026-ai-data-center-power-equipment-procurement-loss-2026-11-10",
+      "normalized_subject": "softbank q2 fy2026 revised us ai data center power generation equipment procurement",
+      "event_summary": "SoftBank’s Q2 FY2026 investor presentation disclosed a ¥597.2bn (US$3.7bn) loss tied to revised US AI data-centre power-generation equipment procurement plans, including US$2.9bn of non-refundable advances and US$0.9bn of contract modifications; up to US$2.1bn of future rebates are conditional.",
+      "normalized_headline": "SoftBank books a US$3.7bn loss after revising US AI data-centre power-equipment plans",
+      "canonical_urls": [
+        "https://group.softbank/en/ir/presentations",
+        "https://group.softbank/media/Project/sbg/sbg/pdf/ir/presentations/2026/investor-presentation_q2fy2026_01_en.pdf",
+        "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "SoftBank Group · Q2 FY2026 Investor Briefing · 10 Nov 2026",
+        "SoftBank Group · Consolidated financial report · 10 Nov 2026"
+      ],
+      "delivery_note": "The ¥768bn six-month net loss has multiple drivers; the US$3.7bn power-equipment procurement charge is a separate disclosed component."
+    },
+    {
+      "story_id": "event-infineon-fy2026-record-quarter-data-center-power-supply-forecast-2026-11-10",
+      "normalized_subject": "infineon fy2026 results fy2027 data center power supply revenue forecast",
+      "event_summary": "Infineon reported Q4 FY2026 revenue of €4.706bn and FY2026 revenue of €16.353bn, up 12% year on year. It forecasts FY2027 revenue near €20bn and data-centre power-supply revenue close to €4bn, with €3.0bn–€3.5bn planned investment.",
+      "normalized_headline": "Infineon expects data-centre power-supply revenue to approach €4bn next year",
+      "canonical_urls": [
+        "https://www.infineon.com/press-release/2026/infpr202611-025"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Infineon Technologies · FY2026 results · 10 Nov 2026"
+      ],
+      "delivery_note": "The close-to-€4bn data-centre figure is management’s FY2027 forecast, not reported FY2026 revenue."
+    },
+    {
+      "story_id": "event-coreweave-q3fy2026-backlog-power-capex-forge-2026-11-10",
+      "normalized_subject": "coreweave q3 fy2026 revenue backlog power footprint capex and forge",
+      "event_summary": "CoreWeave reported Q3 2026 revenue of US$3.661bn, net loss of US$709m, net interest expense of US$846m, revenue backlog of US$132.5bn, active power above 1.7GW and contracted power above 4.6GW. It raised FY2026 capex guidance to US$37bn–US$39bn and launched CoreWeave Forge.",
+      "normalized_headline": "CoreWeave’s backlog hits US$132.5bn as quarterly revenue climbs to US$3.66bn",
+      "canonical_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+        "https://investors.coreweave.com/"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "CoreWeave · Q3 2026 earnings exhibit filed with SEC · 10 Nov 2026"
+      ],
+      "delivery_note": "Backlog is subject to delivery and service-availability conditions; annualised run-rate revenue and forward guidance are not reported full-year revenue."
+    },
+    {
+      "story_id": "event-openai-control-room-research-inference-stop-system-2026-11-09",
+      "normalized_subject": "openai control room central research inference authorization and stop system",
+      "event_summary": "OpenAI described Control Room, a central service that ties agentic research workloads to approved safety cases and job IDs, checks authorization at inference time, and denies output after a stop decision. The company says the maximum stop propagation time is 35 seconds and the system fails closed if unavailable.",
+      "normalized_headline": "OpenAI moves its research kill switch into the inference layer",
+      "canonical_urls": [
+        "https://openai.com/index/control-room/",
+        "https://www.gadgets360.com/ai/news/openai-control-room-agent-research-safety-35-seconds-2026-11-10"
+      ],
+      "original_publication_date": "2026-11-09",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI · Control Room technical post · 9 Nov 2026",
+        "Gadgets 360 · 10 Nov 2026"
+      ],
+      "delivery_note": "The 35-second bound starts after a stop instruction is received, not when an issue is first detected. It is an internal research system, not a public API feature."
+    },
+    {
+      "story_id": "event-anthropic-claude-workspace-mcp-apps-sheets-whiteboards-data-2026-11-10",
+      "normalized_subject": "anthropic claude sheets whiteboards data and interactive mcp app connectors",
+      "event_summary": "Anthropic introduced Claude Sheets, Whiteboards and Data plus interactive connectors that embed partner application interfaces inside Claude using MCP Apps. The company describes user-permission inheritance and admin controls; some products and partner integrations remain in beta.",
+      "normalized_headline": "Anthropic turns Claude into a shared work surface for spreadsheets, dashboards and connected apps",
+      "canonical_urls": [
+        "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+        "https://claude.com/resources/product-updates"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Anthropic / Claude · Product update · 10 Nov 2026"
+      ],
+      "delivery_note": "Claude Meetings was described as coming soon in the official update and is not recorded as generally available."
+    },
+    {
+      "story_id": "event-us-china-bilateral-superintelligence-risk-dialogue-bessent-2026-11-10",
+      "normalized_subject": "us china bilateral ai superintelligence risk dialogue advanced model testing incident alert channel",
+      "event_summary": "US Treasury Secretary Scott Bessent said a planned Trump–Xi meeting in Shenzhen alongside the 18–19 November APEC summit will advance a bilateral dialogue on superintelligence, including advanced-model testing practices and a direct channel for serious incident alerts. No joint technical protocol has been published.",
+      "normalized_headline": "Washington and Beijing plan a new AI-risk dialogue alongside next week’s summit",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/",
+        "https://www.straitstimes.com/world/united-states/us-and-china-should-stay-clear-eyed-on-ai-cooperation-and-competition-bessent-says"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 11 Nov 2026 reporting on Bessent’s 10 Nov remarks",
+        "The Straits Times · 11 Nov 2026"
+      ],
+      "delivery_note": "This is a planned dialogue described by a US official; it is not a published joint communiqué or a completed bilateral testing protocol."
+    },
+    {
+      "story_id": "event-eia-november-2026-us-electricity-demand-forecast-ai-data-centers-2026-11-10",
+      "normalized_subject": "eia november 2026 us electricity demand forecast ai data centers and electrification",
+      "event_summary": "The EIA’s November 2026 Short-Term Energy Outlook projects US electricity consumption rising from 4,216 billion kWh in 2025 to 4,306 billion in 2026 and 4,370 billion in 2027, attributing higher demand to AI data centres and electrification.",
+      "normalized_headline": "EIA sees US electricity consumption setting records again in 2026 and 2027",
+      "canonical_urls": [
+        "https://www.eia.gov/outlooks/steo/",
+        "https://www.reuters.com/business/energy/us-power-demand-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-11-10/"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "US Energy Information Administration · November STEO · 10 Nov 2026",
+        "Reuters · 10 Nov 2026"
+      ],
+      "delivery_note": "The national forecast attributes demand growth to data centres and electrification but does not isolate the AI-only share or local grid bottlenecks."
+    },
+    {
+      "story_id": "event-oura-acquires-counsel-health-ai-primary-care-2026-11-10",
+      "normalized_subject": "oura acquisition counsel health ai native primary care physicians",
+      "event_summary": "Oura agreed to acquire Counsel Health, an AI-native primary-care company that combines medical AI agents with in-house physicians. Counsel says the transaction is valued at US$625m; Oura plans to connect the service with continuous biometric data.",
+      "normalized_headline": "Oura agrees to buy AI-native primary-care company Counsel Health for US$625m",
+      "canonical_urls": [
+        "https://www.counselhealth.com/newsroom/oura-to-acquire-counsel-health-advancing-vision-for-more-connected-personalized-healthcare"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Counsel Health · Acquisition announcement · 10 Nov 2026"
+      ],
+      "delivery_note": "The transaction is subject to customary closing conditions; the acquisition price is the company-disclosed figure."
+    },
+    {
+      "story_id": "event-openai-q3-2026-revenue-and-operating-losses-wsj-report-2026-11-10",
+      "normalized_subject": "openai q3 2026 revenue and operating losses as reported by wsj",
+      "event_summary": "Reuters, citing documents reviewed by The Wall Street Journal, reported OpenAI Q3 revenue of about US$10bn, operating losses of US$10.9bn and adjusted operating margin of −109%, improved from −150% in the prior quarter. OpenAI did not immediately respond to Reuters.",
+      "normalized_headline": "OpenAI’s Q3 revenue reportedly reached US$10bn, while operating losses widened",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/transactional/openai-posts-steep-losses-even-quarterly-revenue-rises-10-billion-wsj-reports-2026-11-10/"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters citing The Wall Street Journal · 10 Nov 2026"
+      ],
+      "delivery_note": "These are reported figures attributed to WSJ documents, not a public audited OpenAI quarterly filing."
+    },
+    {
+      "story_id": "event-openai-business-hub-business-agents-chatgpt-merchants-2026-11-10",
+      "normalized_subject": "openai business hub claimed chatgpt profiles and business agents for us merchants",
+      "event_summary": "OpenAI launched a beta allowing eligible businesses to claim ChatGPT profiles, update product feeds and view aggregated engagement, alongside Business Agents for US e-commerce and online-service firms. Reuters reports initial availability includes eligible Shopify merchants.",
+      "normalized_headline": "OpenAI opens Business Hub profiles and Business Agents to US merchants",
+      "canonical_urls": [
+        "https://www.reuters.com/technology/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-us-e-commerce-firms-2026-11-10/"
+      ],
+      "original_publication_date": "2026-11-10",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 10 Nov 2026"
+      ],
+      "delivery_note": "Initial rollout is limited to eligible US businesses and merchants; product availability and commerce features may expand."
+    },
+    {
+      "story_id": "event-infineon-300mm-silicon-carbide-power-device-manufacturing-milestone-2026-11-09",
+      "normalized_subject": "infineon functional silicon carbide power devices on 300mm wafers",
+      "event_summary": "Infineon said it had processed functional silicon-carbide power devices on 300mm wafers in a full-scale fab using existing silicon equipment. The company says a 300mm wafer can yield 2.3 times as many chips as a 200mm wafer; no high-volume production ramp was disclosed.",
+      "normalized_headline": "Infineon demonstrates functional power devices on 300mm silicon-carbide wafers",
+      "canonical_urls": [
+        "https://www.infineon.com/press-release/2026/infpr202611-028"
+      ],
+      "original_publication_date": "2026-11-09",
+      "first_edition_date": "2026-11-11",
+      "first_edition_path": "archive/2026-11-11.html",
+      "edition_paths": [
+        "archive/2026-11-11.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Infineon Technologies · Manufacturing milestone · 9 Nov 2026"
+      ],
+      "delivery_note": "This is a manufacturing-feasibility milestone, not evidence of volume production or a confirmed customer ramp."
     }
   ]
 }
