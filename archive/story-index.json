@@ -1743,7 +1743,7 @@
       "archive_issue_files_checked": 27,
       "source_domains_targeted": 57,
       "supplemental_domains_targeted": 15,
-      "source_domains_opened_and_inspected": 16,
+      "source_domains_opened_and_inspected": 19,
       "source_pages_opened_and_inspected": 25,
       "source_domains_blocked": 1,
       "source_domains_with_date_matched_results": 20,
@@ -1869,7 +1869,10 @@
           "apnews.com",
           "theguardian.com",
           "channelnewsasia.com",
-          "indianexpress.com"
+          "indianexpress.com",
+          "gadgets360.com",
+          "techcrunch.com",
+          "theverge.com"
         ],
         "date_matched_domains": [
           "deepmind.google",
