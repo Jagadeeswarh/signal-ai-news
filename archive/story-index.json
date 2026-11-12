@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-11T08:54:00+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.",
+  "last_updated_at": "2026-11-12T08:39:00+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -1915,6 +1915,380 @@
         ]
       },
       "editorial_note": "Humanising newsroom edit applied. No external style linter was run. The main desk is ranked by editorial judgement; More Signals preserves lower-ranked verified developments. Company claims, preliminary filings, forecasts and allegations are labelled. No new verified Huawei Ascend, domestic Chinese accelerator, SMIC yield, HBM, advanced-packaging, lithography or export-control development met the date and evidence bar."
+    },
+    {
+      "date": "2026-11-12",
+      "story_ids": [
+        "event-nvidia-board-succession-review-2026-11-11",
+        "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+        "event-northwestern-polytechnical-h200-procurement-2026-11-11",
+        "event-bnef-data-centre-power-demand-forecast-2035-2026-11-11",
+        "event-alibaba-t-head-hkex-spin-off-2026-11-10",
+        "event-samsung-asan-hbm-packaging-plant-2026-11-12",
+        "event-microsoft-optical-transceiver-import-ban-lobbying-2026-11-10",
+        "event-fractile-inference-chip-series-c-2026-11-11",
+        "event-google-deepmind-alphagenome-2-2026-11-11",
+        "event-ntt-physics-control-adapter-2026-11-11",
+        "event-airline-ai-booking-agent-policy-split-2026-11-11",
+        "event-openai-odessia-acquisition-2026-11-10",
+        "event-mercor-series-d-750m-2026-11-10",
+        "event-meta-infrastructure-leadership-transition-2026-11-11",
+        "event-adobe-mcp-creative-agent-disney-alliance-2026-11-10",
+        "event-google-labs-tabletop-experiment-2026-11-11",
+        "event-amd-epyc-9006-zen6-server-platforms-2026-11-10",
+        "event-hosin-amicro-hong-kong-ipos-2026-11-12",
+        "event-mckinsey-banking-ai-agent-costs-2026-11-10",
+        "event-workday-ai-hiring-class-action-certification-2026-11-11"
+      ],
+      "story_count": 20,
+      "new_story_count": 18,
+      "material_follow_up_count": 2,
+      "repeat_candidates_excluded": 8,
+      "excluded_repeat_candidates": [
+        "Gemini 4 Carbon access expansion and /swarm preview (covered in the 11 Nov edition)",
+        "Anthropic preliminary IPO price range and private-placement terms (covered in the 11 Nov edition)",
+        "CoreWeave Q3 backlog and profitability outlook (covered in the 11 Nov edition)",
+        "Infineon FY2027 data-centre power forecast (covered in the 11 Nov edition)",
+        "Infineon 300mm silicon-carbide milestone (covered in the 11 Nov edition)",
+        "SoftBank power-equipment procurement loss (covered in the 11 Nov edition)",
+        "OpenAI Business Hub and Business Agents (covered in the 11 Nov edition)",
+        "Anthropic Claude workspace, MCP apps and Meetings release (covered in the 11 Nov edition)"
+      ],
+      "excluded_stale_candidates": [
+        "STT GDC India stake-sale process: Reuters Breakingviews on 11 Nov added no transaction milestone to the sale process reported on 5 Nov; excluded as outside the 48-hour window and unchanged."
+      ],
+      "main_desk_count": 10,
+      "more_signals_count": 10,
+      "archive_issue_files_checked": 26,
+      "archive_pages_unavailable": [],
+      "source_domains_targeted": 76,
+      "supplemental_domains_targeted": 1,
+      "source_domains_opened_and_inspected": 15,
+      "source_domains_with_date_matched_results": 18,
+      "source_domains_blocked": 5,
+      "source_domain_audit": {
+        "core_search_targets": [
+          "openai.com",
+          "anthropic.com",
+          "blog.google",
+          "deepmind.google",
+          "blogs.microsoft.com",
+          "ai.meta.com",
+          "nvidia.com",
+          "developer.nvidia.com",
+          "aws.amazon.com",
+          "huggingface.co",
+          "github.blog",
+          "developer.apple.com",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "technologyreview.com",
+          "spectrum.ieee.org",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "theregister.com",
+          "tomshardware.com",
+          "anandtech.com",
+          "trendforce.com",
+          "digitimes.com",
+          "semianalysis.com",
+          "datacenterdynamics.com",
+          "lightreading.com",
+          "utilitydive.com",
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "wsj.com",
+          "cnbc.com",
+          "apnews.com",
+          "semafor.com",
+          "restofworld.org",
+          "economictimes.indiatimes.com",
+          "livemint.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "thehindu.com",
+          "indianexpress.com",
+          "business-standard.com",
+          "scmp.com",
+          "caixinglobal.com",
+          "36kr.com",
+          "nikkei.com",
+          "asia.nikkei.com",
+          "thelec.net",
+          "koreaherald.com",
+          "yonhapnews.co.kr",
+          "huawei.com",
+          "cert-in.org.in",
+          "cisa.gov",
+          "bis.gov",
+          "sec.gov",
+          "gov.uk",
+          "europa.eu",
+          "eia.gov",
+          "about.bnef.com",
+          "energy.gov",
+          "iea.org",
+          "cloud.google.com",
+          "research.google",
+          "news.samsung.com",
+          "news.lenovo.com",
+          "amd.com",
+          "fractile.com",
+          "newsroom.cisco.com",
+          "newsroom.ibm.com",
+          "news.microsoft.com",
+          "blogs.nvidia.com",
+          "newsroom.intel.com"
+        ],
+        "supplemental_search_targets": [
+          "theinformation.com"
+        ],
+        "directly_opened_domains": [
+          "reuters.com",
+          "axios.com",
+          "nvidianews.nvidia.com",
+          "deepmind.google",
+          "about.bnef.com",
+          "data.alibabagroup.com",
+          "group.ntt",
+          "ir.amd.com",
+          "news.lenovo.com",
+          "news.adobe.com",
+          "blog.google",
+          "theverge.com",
+          "techcrunch.com",
+          "odessia.com",
+          "theinformation.com"
+        ],
+        "date_matched_domains": [
+          "reuters.com",
+          "axios.com",
+          "nvidianews.nvidia.com",
+          "deepmind.google",
+          "about.bnef.com",
+          "data.alibabagroup.com",
+          "group.ntt",
+          "ir.amd.com",
+          "news.lenovo.com",
+          "news.adobe.com",
+          "blog.google",
+          "theverge.com",
+          "techcrunch.com",
+          "odessia.com",
+          "theinformation.com",
+          "nature.com",
+          "wsj.com",
+          "ft.com"
+        ],
+        "background_only_domains": [
+          "semafor.com"
+        ],
+        "blocked_or_paywalled": [
+          "theinformation.com: article headline/snippet visible, full briefing paywalled",
+          "nature.com: full AlphaGenome 2 article unavailable",
+          "wsj.com: full article paywalled; claims cross-checked through Reuters",
+          "ft.com: full articles paywalled or snippet-only",
+          "semafor.com: direct access blocked by robots.txt"
+        ]
+      },
+      "research_window": "2026-11-10T08:39:00+05:30 to 2026-11-12T08:39:00+05:30",
+      "coverage_gap_note": "No new independently verifiable Huawei Ascend or SMIC production/yield milestone, domestic accelerator volume ramp, or India AI-policy/model launch met the date and evidence bar. T-Head and Samsung HBM capacity developments were verified; India data-centre electricity demand is covered through BNEF.",
+      "editorial_note": "Humanising newsroom pass applied. No external style linter was run. Rankings are editorial judgement, not objective truth; company claims, forecasts, preliminary filings and allegations are attributed.",
+      "path": "archive/2026-11-12.html",
+      "kind": "superseded original edition",
+      "superseded_by": "archive/2026-11-12-edition-2.html",
+      "superseded_reason": "Original publication counted 26 prior archive files. Two additional 28 October issue variants were subsequently found and inspected; the original file is preserved unchanged."
+    },
+    {
+      "date": "2026-11-12",
+      "story_ids": [
+        "event-nvidia-board-succession-review-2026-11-11",
+        "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+        "event-northwestern-polytechnical-h200-procurement-2026-11-11",
+        "event-bnef-data-centre-power-demand-forecast-2035-2026-11-11",
+        "event-alibaba-t-head-hkex-spin-off-2026-11-10",
+        "event-samsung-asan-hbm-packaging-plant-2026-11-12",
+        "event-microsoft-optical-transceiver-import-ban-lobbying-2026-11-10",
+        "event-fractile-inference-chip-series-c-2026-11-11",
+        "event-google-deepmind-alphagenome-2-2026-11-11",
+        "event-ntt-physics-control-adapter-2026-11-11",
+        "event-airline-ai-booking-agent-policy-split-2026-11-11",
+        "event-openai-odessia-acquisition-2026-11-10",
+        "event-mercor-series-d-750m-2026-11-10",
+        "event-meta-infrastructure-leadership-transition-2026-11-11",
+        "event-adobe-mcp-creative-agent-disney-alliance-2026-11-10",
+        "event-google-labs-tabletop-experiment-2026-11-11",
+        "event-amd-epyc-9006-zen6-server-platforms-2026-11-10",
+        "event-hosin-amicro-hong-kong-ipos-2026-11-12",
+        "event-mckinsey-banking-ai-agent-costs-2026-11-10",
+        "event-workday-ai-hiring-class-action-certification-2026-11-11"
+      ],
+      "story_count": 20,
+      "new_story_count": 18,
+      "material_follow_up_count": 2,
+      "repeat_candidates_excluded": 8,
+      "excluded_repeat_candidates": [
+        "Gemini 4 Carbon access expansion and /swarm preview (covered in the 11 Nov edition)",
+        "Anthropic preliminary IPO price range and private-placement terms (covered in the 11 Nov edition)",
+        "CoreWeave Q3 backlog and profitability outlook (covered in the 11 Nov edition)",
+        "Infineon FY2027 data-centre power forecast (covered in the 11 Nov edition)",
+        "Infineon 300mm silicon-carbide milestone (covered in the 11 Nov edition)",
+        "SoftBank power-equipment procurement loss (covered in the 11 Nov edition)",
+        "OpenAI Business Hub and Business Agents (covered in the 11 Nov edition)",
+        "Anthropic Claude workspace, MCP apps and Meetings release (covered in the 11 Nov edition)"
+      ],
+      "excluded_stale_candidates": [
+        "STT GDC India stake-sale process: Reuters Breakingviews on 11 Nov added no transaction milestone to the sale process reported on 5 Nov; excluded as outside the 48-hour window and unchanged."
+      ],
+      "main_desk_count": 10,
+      "more_signals_count": 10,
+      "archive_issue_files_checked": 28,
+      "archive_pages_unavailable": [],
+      "source_domains_targeted": 76,
+      "supplemental_domains_targeted": 1,
+      "source_domains_opened_and_inspected": 15,
+      "source_domains_with_date_matched_results": 18,
+      "source_domains_blocked": 5,
+      "source_domain_audit": {
+        "core_search_targets": [
+          "openai.com",
+          "anthropic.com",
+          "blog.google",
+          "deepmind.google",
+          "blogs.microsoft.com",
+          "ai.meta.com",
+          "nvidia.com",
+          "developer.nvidia.com",
+          "aws.amazon.com",
+          "huggingface.co",
+          "github.blog",
+          "developer.apple.com",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "technologyreview.com",
+          "spectrum.ieee.org",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "theregister.com",
+          "tomshardware.com",
+          "anandtech.com",
+          "trendforce.com",
+          "digitimes.com",
+          "semianalysis.com",
+          "datacenterdynamics.com",
+          "lightreading.com",
+          "utilitydive.com",
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "wsj.com",
+          "cnbc.com",
+          "apnews.com",
+          "semafor.com",
+          "restofworld.org",
+          "economictimes.indiatimes.com",
+          "livemint.com",
+          "moneycontrol.com",
+          "yourstory.com",
+          "thehindu.com",
+          "indianexpress.com",
+          "business-standard.com",
+          "scmp.com",
+          "caixinglobal.com",
+          "36kr.com",
+          "nikkei.com",
+          "asia.nikkei.com",
+          "thelec.net",
+          "koreaherald.com",
+          "yonhapnews.co.kr",
+          "huawei.com",
+          "cert-in.org.in",
+          "cisa.gov",
+          "bis.gov",
+          "sec.gov",
+          "gov.uk",
+          "europa.eu",
+          "eia.gov",
+          "about.bnef.com",
+          "energy.gov",
+          "iea.org",
+          "cloud.google.com",
+          "research.google",
+          "news.samsung.com",
+          "news.lenovo.com",
+          "amd.com",
+          "fractile.com",
+          "newsroom.cisco.com",
+          "newsroom.ibm.com",
+          "news.microsoft.com",
+          "blogs.nvidia.com",
+          "newsroom.intel.com"
+        ],
+        "supplemental_search_targets": [
+          "theinformation.com"
+        ],
+        "directly_opened_domains": [
+          "reuters.com",
+          "axios.com",
+          "nvidianews.nvidia.com",
+          "deepmind.google",
+          "about.bnef.com",
+          "data.alibabagroup.com",
+          "group.ntt",
+          "ir.amd.com",
+          "news.lenovo.com",
+          "news.adobe.com",
+          "blog.google",
+          "theverge.com",
+          "techcrunch.com",
+          "odessia.com",
+          "theinformation.com"
+        ],
+        "date_matched_domains": [
+          "reuters.com",
+          "axios.com",
+          "nvidianews.nvidia.com",
+          "deepmind.google",
+          "about.bnef.com",
+          "data.alibabagroup.com",
+          "group.ntt",
+          "ir.amd.com",
+          "news.lenovo.com",
+          "news.adobe.com",
+          "blog.google",
+          "theverge.com",
+          "techcrunch.com",
+          "odessia.com",
+          "theinformation.com",
+          "nature.com",
+          "wsj.com",
+          "ft.com"
+        ],
+        "background_only_domains": [
+          "semafor.com"
+        ],
+        "blocked_or_paywalled": [
+          "theinformation.com: article headline/snippet visible, full briefing paywalled",
+          "nature.com: full AlphaGenome 2 article unavailable",
+          "wsj.com: full article paywalled; claims cross-checked through Reuters",
+          "ft.com: full articles paywalled or snippet-only",
+          "semafor.com: direct access blocked by robots.txt"
+        ]
+      },
+      "research_window": "2026-11-10T08:39:00+05:30 to 2026-11-12T08:39:00+05:30",
+      "coverage_gap_note": "No new independently verifiable Huawei Ascend or SMIC production/yield milestone, domestic accelerator volume ramp, or India AI-policy/model launch met the date and evidence bar. T-Head and Samsung HBM capacity developments were verified; India data-centre electricity demand is covered through BNEF.",
+      "editorial_note": "Humanising newsroom pass applied. No external style linter was run. Rankings are editorial judgement, not objective truth; company claims, forecasts, preliminary filings and allegations are attributed.",
+      "path": "archive/2026-11-12-edition-2.html",
+      "kind": "corrected edition 2 (archive audit correction only)",
+      "correction_note": "Corrects the prior-issue audit from 26 to 28 accessible dated issue files. Story selection, rankings, source links and the 20 story records are unchanged.",
+      "supersedes": "archive/2026-11-12.html"
     }
   ],
   "stories": [
@@ -6465,7 +6839,9 @@
         "archive/2026-11-09-edition-2.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html",
-        "archive/2026-11-11.html"
+        "archive/2026-11-11.html",
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
       ],
       "follow_up_editions": [
         {
@@ -6485,6 +6861,28 @@
           "canonical_urls": [
             "https://www.reuters.com/world/china/nvidia-ceos-affair-aided-75-billion-chip-shipments-china-information-reports-2026-11-10/"
           ]
+        },
+        {
+          "date": "2026-11-12",
+          "path": "archive/2026-11-12.html",
+          "corrected_path": "archive/2026-11-12-edition-2.html",
+          "headline": "FOLLOW-UP: Nvidia board reportedly weighs CEO succession",
+          "material_change": "Reuters reports directors are meeting to decide whether to remove Jensen Huang; the 10 November independent-director statement confirms the investigation and outside counsel, but no board decision is public.",
+          "canonical_urls": [
+            "https://www.reuters.com/technology/nvidia-is-preparing-oust-ceo-jensen-huang-wsj-reports-2026-11-11/",
+            "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "path": "archive/2026-11-12.html",
+          "corrected_path": "archive/2026-11-12-edition-2.html",
+          "headline": "FOLLOW-UP: Axios reports delay in a third Trump-approved Nvidia chip-diversion crackdown",
+          "material_change": "Axios cites six sources on internal delays at Commerce; the department denied the reported Bessent-Lutnick confrontation, and no new enforcement order was published.",
+          "canonical_urls": [
+            "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+            "https://www.reuters.com/world/china/lutnick-stalled-trump-crackdown-diversion-nvidia-chips-china-axios-reports-2026-11-11/"
+          ]
         }
       ],
       "source_metadata": [
@@ -6494,7 +6892,7 @@
         "Associated Press · Independent reporting · 9 Nov 2026",
         "Reuters · 10 Nov 2026"
       ],
-      "delivery_note": "The formal board investigation is confirmed; the reported foreign-intelligence targeting and any compromise are allegations, not findings."
+      "delivery_note": "The formal board investigation is confirmed; the reported foreign-intelligence targeting and any compromise are allegations, not findings. 12 November 2026 material follow-ups: board succession reporting and a reported delay in a third chip-diversion crackdown; neither establishes wrongdoing or a final board decision."
     },
     {
       "story_id": "event-se-asia-datacentre-project-pause-power-water-permits-report-2026-11-07",
@@ -7134,6 +7532,558 @@
         "Infineon Technologies · Manufacturing milestone · 9 Nov 2026"
       ],
       "delivery_note": "This is a manufacturing-feasibility milestone, not evidence of volume production or a confirmed customer ramp."
+    },
+    {
+      "story_id": "event-nvidia-board-succession-review-2026-11-11",
+      "normalized_subject": "nvidia board ceo succession investigation",
+      "event_summary": "Reuters says Nvidia directors are weighing whether to remove Jensen Huang; Nvidia confirms an independent investigation and outside counsel but no decision is public.",
+      "normalized_headline": "Nvidia’s board is reportedly weighing Jensen Huang’s removal. No decision is public.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.reuters.com/technology/nvidia-is-preparing-oust-ceo-jensen-huang-wsj-reports-2026-11-11/",
+        "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 11 Nov 2026",
+        "NVIDIA independent-director statement · 10 Nov 2026"
+      ],
+      "delivery_note": "Material follow-up to the 8 November Nvidia board investigation record. Reported board deliberations are not a confirmed removal decision.",
+      "entities": [
+        "NVIDIA",
+        "Jensen Huang",
+        "NVIDIA board"
+      ],
+      "follow_up_of": "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08",
+      "material_change": "Reuters reports a board meeting to decide Huang’s future; official statement confirms the probe, not an outcome."
+    },
+    {
+      "story_id": "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+      "normalized_subject": "us commerce delay nvidia chip diversion crackdown",
+      "event_summary": "Axios reports that a third Trump-approved crackdown on suspected Nvidia chip diversion to China was delayed inside Commerce; the department denied one specific confrontation claim.",
+      "normalized_headline": "Axios reports a third Trump-approved chip-diversion crackdown is still stalled.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+        "https://www.reuters.com/world/china/lutnick-stalled-trump-crackdown-diversion-nvidia-chips-china-axios-reports-2026-11-11/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Axios · 11 Nov 2026",
+        "Reuters · 11 Nov 2026"
+      ],
+      "delivery_note": "Material follow-up to the ongoing Nvidia chip-diversion investigation. Internal deliberations are reported from anonymous sources; no new enforcement order was published.",
+      "entities": [
+        "U.S. Commerce Department",
+        "Howard Lutnick",
+        "NVIDIA",
+        "China"
+      ],
+      "follow_up_of": "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08",
+      "material_change": "Axios reporting is attributed to anonymous sources; Commerce denied the specific reported confrontation."
+    },
+    {
+      "story_id": "event-northwestern-polytechnical-h200-procurement-2026-11-11",
+      "normalized_subject": "northwestern polytechnical university nvidia h200 procurement",
+      "event_summary": "Reuters found procurement records showing a blacklisted Chinese university bought two H200 chips through a local supplier and rented access to servers containing restricted Nvidia GPUs.",
+      "normalized_headline": "A blacklisted Chinese university bought Nvidia H200 chips through local suppliers, records show.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters investigation · 11 Nov 2026"
+      ],
+      "delivery_note": "The records do not establish chip origin, server location or a direct Nvidia sale; no specific export-control violation is proven.",
+      "entities": [
+        "Northwestern Polytechnical University",
+        "NVIDIA",
+        "H200",
+        "U.S. Entity List"
+      ]
+    },
+    {
+      "story_id": "event-bnef-data-centre-power-demand-forecast-2035-2026-11-11",
+      "normalized_subject": "global data centre electricity demand forecast power generation pipeline india",
+      "event_summary": "BloombergNEF forecasts 2,354TWh of data-centre electricity demand by 2035 and tracks 181GW of announced gas-generation proposals alongside data-centre projects.",
+      "normalized_headline": "BloombergNEF sees data-centre electricity demand almost quadrupling by 2035.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://about.bnef.com/insights/data-centers/data-center-power-demand-is-set-to-surge-raising-new-climate-challenges-bloombergnef/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "BloombergNEF · 11 Nov 2026"
+      ],
+      "delivery_note": "Forecast and project-pipeline figures are scenarios, not metered demand or committed construction; India’s forecast rises from 11TWh in 2025 to 91TWh in 2035.",
+      "entities": [
+        "BloombergNEF",
+        "Data centres",
+        "India",
+        "United States"
+      ]
+    },
+    {
+      "story_id": "event-alibaba-t-head-hkex-spin-off-2026-11-10",
+      "normalized_subject": "alibaba t-head proposed hong kong listing spin off",
+      "event_summary": "Alibaba says the Hong Kong exchange has allowed it to proceed with a proposed spin-off of its wholly owned chip subsidiary T-Head; confidential listing application was filed in September.",
+      "normalized_headline": "Alibaba gets the green light to move T-Head toward a Hong Kong listing.",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://data.alibabagroup.com/ir_filings/HKEX/09988/en/202611102026111001061/2026111001061.pdf",
+        "https://www.reuters.com/business/retail-consumer/alibaba-chip-unit-t-head-files-confidential-hong-kong-ipo-application-2026-11-10/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Alibaba Group / HKEX filing · 10 Nov 2026",
+        "Reuters · 10 Nov 2026"
+      ],
+      "delivery_note": "Proposed spin-off remains subject to listing and regulatory approvals; no offering size, valuation or timetable was disclosed.",
+      "entities": [
+        "Alibaba Group",
+        "T-Head",
+        "Hong Kong Stock Exchange"
+      ]
+    },
+    {
+      "story_id": "event-samsung-asan-hbm-packaging-plant-2026-11-12",
+      "normalized_subject": "samsung asan hbm packaging plant investment",
+      "event_summary": "Samsung broke ground on a 6tn-won HBM packaging facility in Asan and brought the planned operating start forward to June 2028.",
+      "normalized_headline": "Samsung breaks ground on a ₩6tn HBM packaging plant and pulls the start date forward.",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-samsung-chip-packaging-expansion-spur-30-billion-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "The 40tn-won advanced-equipment investment cited by the president is additional investment, not the plant’s cost; planned capacity is not yet production.",
+      "entities": [
+        "Samsung Electronics",
+        "HBM",
+        "Asan",
+        "South Korea"
+      ]
+    },
+    {
+      "story_id": "event-microsoft-optical-transceiver-import-ban-lobbying-2026-11-10",
+      "normalized_subject": "microsoft chinese optical transceiver import restrictions lobbying",
+      "event_summary": "Reuters reports Microsoft and industry groups lobbied against a possible U.S. restriction on new Chinese optical transceiver models; no FCC rule has been announced.",
+      "normalized_headline": "Microsoft is lobbying against a possible ban on Chinese optical transceivers.",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://www.reuters.com/business/media-telecom/microsoft-presses-trump-scuttle-expected-ban-chinese-data-center-technology-2026-11-10/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 10 Nov 2026"
+      ],
+      "delivery_note": "The proposed 3.2Tbps threshold is under consideration only; no final rule, scope or effective date is public.",
+      "entities": [
+        "Microsoft",
+        "FCC",
+        "China",
+        "Optical transceivers"
+      ]
+    },
+    {
+      "story_id": "event-fractile-inference-chip-series-c-2026-11-11",
+      "normalized_subject": "fractile inference chip series c funding",
+      "event_summary": "UK inference-chip startup Fractile raised $720m at a reported $7bn valuation and plans its first commercial chip in 2027.",
+      "normalized_headline": "UK inference-chip startup Fractile raises $720m at a $7bn valuation.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/transactional/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-funding-round-2026-11-11/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 11 Nov 2026"
+      ],
+      "delivery_note": "Commercial silicon, independent benchmarks, yields and customer deployments remain ahead; performance and efficiency claims are company claims.",
+      "entities": [
+        "Fractile",
+        "UK Sovereign AI Fund",
+        "Inference chips"
+      ]
+    },
+    {
+      "story_id": "event-google-deepmind-alphagenome-2-2026-11-11",
+      "normalized_subject": "google deepmind alphagenome 2 cell specific genetic variant prediction",
+      "event_summary": "DeepMind introduced AlphaGenome 2, a conditional genomics model trained on more than 107m cell profiles across 68 tissues; reported benchmark gains are company-reported.",
+      "normalized_headline": "AlphaGenome 2 moves DNA prediction from broad tissues to specific cell states.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "https://www.nature.com/articles/d41586-026-03673-0"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google DeepMind · 11 Nov 2026",
+        "Nature · 11 Nov 2026 (full text inaccessible)"
+      ],
+      "delivery_note": "Research-use model only; not validated or approved for clinical diagnosis. Nature full text was inaccessible during this run.",
+      "entities": [
+        "Google DeepMind",
+        "AlphaGenome 2",
+        "Genomics"
+      ]
+    },
+    {
+      "story_id": "event-ntt-physics-control-adapter-2026-11-11",
+      "normalized_subject": "ntt physics control adapter world model robot action prediction",
+      "event_summary": "NTT added a physics-control adapter to a video model and reported improved shelf-loading success in a small-robot test; field trials are planned.",
+      "normalized_headline": "NTT’s world model screens robot actions before they happen.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://group.ntt/en/newsrelease/2026/11/11/261111b.html"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "NTT · 11 Nov 2026"
+      ],
+      "delivery_note": "Reported success-rate gain is company-tested; trial count and real-world airport deployment were not disclosed.",
+      "entities": [
+        "NTT",
+        "Mujin",
+        "Robotics"
+      ]
+    },
+    {
+      "story_id": "event-airline-ai-booking-agent-policy-split-2026-11-11",
+      "normalized_subject": "united jetblue airline ai booking agent policies",
+      "event_summary": "United restricted unauthorised third-party AI agents from flight transactions; JetBlue publicly argued airlines should adapt to customer demand while protecting distribution economics.",
+      "normalized_headline": "Airlines split over AI booking agents.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+        "https://www.reuters.com/legal/litigation/jetblue-president-says-airlines-should-follow-customers-lead-ai-booking-agents-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Verge · 11 Nov 2026",
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "This is a policy and executive-position split, not an industry-wide standard for agent bookings.",
+      "entities": [
+        "United Airlines",
+        "JetBlue",
+        "AI agents"
+      ]
+    },
+    {
+      "story_id": "event-openai-odessia-acquisition-2026-11-10",
+      "normalized_subject": "openai acquisition odessia travel startup founder",
+      "event_summary": "OpenAI acquired travel startup Odessia; founder Francis Davidson is joining OpenAI and the standalone service has closed.",
+      "normalized_headline": "OpenAI acquires AI travel startup Odessia.",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+        "https://odessia.com/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "TechCrunch · 10 Nov 2026",
+        "Odessia · 10 Nov 2026"
+      ],
+      "delivery_note": "Deal price and any future ChatGPT travel product have not been announced; planned travel volume is not revenue.",
+      "entities": [
+        "OpenAI",
+        "Odessia",
+        "Francis Davidson"
+      ]
+    },
+    {
+      "story_id": "event-mercor-series-d-750m-2026-11-10",
+      "normalized_subject": "mercor series d 750 million 20 billion valuation",
+      "event_summary": "Mercor raised $750m in a Series D at a reported $20bn valuation to expand its expert-data and model-evaluation business.",
+      "normalized_headline": "Mercor raises $750m at a $20bn valuation.",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/transactional/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 10 Nov 2026"
+      ],
+      "delivery_note": "Valuation and funding terms are reported; the company’s business links experts with model-training and evaluation tasks.",
+      "entities": [
+        "Mercor",
+        "NVIDIA",
+        "Apollo"
+      ]
+    },
+    {
+      "story_id": "event-meta-infrastructure-leadership-transition-2026-11-11",
+      "normalized_subject": "meta infrastructure head santosh janardhan departure dave brown",
+      "event_summary": "Meta infrastructure leader Santosh Janardhan is due to depart in early 2027; The Information reports Dave Brown as successor, while Reuters confirms the departure.",
+      "normalized_headline": "Meta’s infrastructure chief will leave in early 2027.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.reuters.com/technology/metas-longtime-infrastructure-head-janardhan-depart-early-2027-2026-11-11/",
+        "https://www.theinformation.com/briefings/metas-infrastructure-chief-leaving-amid-massive-ai-buildout"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 11 Nov 2026",
+        "The Information · 11 Nov 2026 (paywalled)"
+      ],
+      "delivery_note": "The Information full text was paywalled; its headline/snippet reported the successor, while Reuters confirmed the departure.",
+      "entities": [
+        "Meta",
+        "Santosh Janardhan",
+        "Dave Brown"
+      ]
+    },
+    {
+      "story_id": "event-adobe-mcp-creative-agent-disney-alliance-2026-11-10",
+      "normalized_subject": "adobe local mcp creative agents disney ai alliance",
+      "event_summary": "Adobe announced local MCP integrations in preview for creative apps, expanded Creative Agent and announced a multi-year AI innovation alliance with Disney.",
+      "normalized_headline": "Adobe brings agents closer to editable creative files.",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Adobe · 10 Nov 2026"
+      ],
+      "delivery_note": "MCP integrations are in preview; the Disney alliance concerns concept exploration and creative-production workflows.",
+      "entities": [
+        "Adobe",
+        "Photoshop",
+        "Illustrator",
+        "Premiere",
+        "After Effects",
+        "Disney"
+      ]
+    },
+    {
+      "story_id": "event-google-labs-tabletop-experiment-2026-11-11",
+      "normalized_subject": "google labs tabletop collaborative group planning experiment",
+      "event_summary": "Google Labs introduced Tabletop, an experimental shared space that creates collaborative mini-tools from group prompts, links and files.",
+      "normalized_headline": "Google Labs tests Tabletop, a shared space that generates group tools.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+        "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google Labs · 11 Nov 2026",
+        "The Verge · 11 Nov 2026"
+      ],
+      "delivery_note": "Limited U.S. waitlist experiment; Google did not identify the underlying model.",
+      "entities": [
+        "Google Labs",
+        "Tabletop"
+      ]
+    },
+    {
+      "story_id": "event-amd-epyc-9006-zen6-server-platforms-2026-11-10",
+      "normalized_subject": "amd epyc 9006 zen6 server platform availability",
+      "event_summary": "AMD’s 6th-generation EPYC 9006 CPUs became generally available; Lenovo announced systems using the new generation and liquid cooling.",
+      "normalized_headline": "AMD’s 6th-gen EPYC server CPUs begin shipping in OEM systems.",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing",
+        "https://news.lenovo.com/pressroom/press-releases/lenovo-accelerates-ai-and-hpc-convergence-with-next-generation-infrastructure/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "AMD · 10 Nov 2026",
+        "Lenovo · 10 Nov 2026"
+      ],
+      "delivery_note": "Performance claims are from AMD and partners; independent workload benchmarks are not presented in the issue.",
+      "entities": [
+        "AMD",
+        "EPYC 9006",
+        "Lenovo",
+        "Zen 6"
+      ]
+    },
+    {
+      "story_id": "event-hosin-amicro-hong-kong-ipos-2026-11-12",
+      "normalized_subject": "hosin electronics amicro technology hong kong listings",
+      "event_summary": "Chinese memory/storage supplier Hosin Electronics and robotics-chip supplier Amicro Technology raised HK$1.78bn combined in Hong Kong listings.",
+      "normalized_headline": "Two Chinese chip companies make their Hong Kong debuts.",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/chinese-chip-firms-hosin-amicro-are-set-open-mixed-hong-kong-debuts-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "IPO proceeds support memory/storage and robotics-chip businesses; the listings are not a new frontier accelerator launch.",
+      "entities": [
+        "Hosin Electronics",
+        "Amicro Technology",
+        "Hong Kong"
+      ]
+    },
+    {
+      "story_id": "event-mckinsey-banking-ai-agent-costs-2026-11-10",
+      "normalized_subject": "mckinsey banking ai agent token cost finops",
+      "event_summary": "McKinsey’s banking research warns token spending could reach 20% of banks’ labour costs and discusses tighter governance of agent spend and approvals.",
+      "normalized_headline": "Banks are building AI FinOps teams as agent costs rise.",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/banks-seek-rein-soaring-ai-agent-costs-mckinsey-says-2026-11-10/",
+        "https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 10 Nov 2026",
+        "McKinsey · Global Banking Annual Review 2026"
+      ],
+      "delivery_note": "The 20% figure is a potential cost, not current measured spend; customer survey findings are reported by McKinsey.",
+      "entities": [
+        "McKinsey",
+        "Banks",
+        "AI agents"
+      ]
+    },
+    {
+      "story_id": "event-workday-ai-hiring-class-action-certification-2026-11-11",
+      "normalized_subject": "workday ai hiring discrimination class action certification",
+      "event_summary": "Workday asked a U.S. judge to deny class certification in an AI hiring-screening lawsuit; the company also challenges a conditional age-discrimination collective.",
+      "normalized_headline": "Workday asks a judge to block class-action status in an AI hiring-bias case.",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/government/workday-says-millions-job-applicants-cant-sue-group-over-ai-screening-2026-11-11/"
+      ],
+      "first_edition_date": "2026-11-12",
+      "first_edition_path": "archive/2026-11-12.html",
+      "edition_paths": [
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 11 Nov 2026"
+      ],
+      "delivery_note": "Allegations remain disputed; no finding of discrimination has been made. A class-certification hearing is scheduled for March.",
+      "entities": [
+        "Workday",
+        "AI hiring",
+        "Class action"
+      ]
     }
   ]
 }
