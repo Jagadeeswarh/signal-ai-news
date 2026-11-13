@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-13T08:53:00+05:30",
+  "last_updated_at": "2026-11-13T10:42:40.570+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.",
   "editions": [
     {
@@ -2663,6 +2663,75 @@
       "research_window": "2026-11-11T09:00:00+05:30 to 2026-11-13T08:53:00+05:30",
       "coverage_gap_note": "No new independently verified Huawei Ascend, DeepSeek-on-domestic-chips, Cambricon, Moore Threads, Biren, Alibaba T-Head or Baidu Kunlunxin production/yield milestone met the date and evidence bar. No new frontier-model launch, major robotics deployment or AI-science paper was verified in this update. India's strongest new development is OpenAI's limited GPT-6 Luna API regional-processing option. Australia's AI safety regulator proposal was announced on 10 November, outside the 48-hour window. AMD's MI455X benchmark is vendor-run; Nebius says its delayed third-party capacity remains contracted; the SGLang consortium has not yet published new independent benchmarks.",
       "editorial_note": "Humanising newsroom pass applied. No external style linter was run. Rankings are editorial judgement, not objective truth; company claims, forecasts, preliminary plans and benchmark comparisons are labelled."
+    },
+    {
+      "date": "2026-11-13",
+      "path": "archive/2026-11-13-edition-3.html",
+      "story_ids": [
+        "event-google-gemini-4-hydrogen-2026-11-12",
+        "event-google-gemini-decisions-api-2026-11-11",
+        "event-baidu-ernie-5-5-flash-preview-2026-11-13",
+        "event-bielik-11b-v31-dflash-bielik-one-2026-11-12",
+        "event-microsoft-365-outage-exchange-healthcheck-cascade-2026-11-12",
+        "event-microsoft-artEx-storm-0940-connectwise-supply-chain-2026-10-21",
+        "event-anthropic-mamubench-multiuser-agent-coordination-2026-11-11",
+        "event-evolving-infra-agent-adaptive-serving-arxiv-2611-12304",
+        "event-steerdistill-quantized-agent-distillation-arxiv-2611-13410",
+        "event-meta-astryx-open-source-design-system-2026-11-13",
+        "event-copilotkit-openbot-ai-coworker-workspace-2026-11-13",
+        "event-gtagym-gta-v-agent-benchmark-arxiv-2611-13028",
+        "event-dependable-long-horizon-agents-trajectory-study-arxiv-2611-13254",
+        "event-opmd-on-policy-midtraining-distillation-arxiv-2611-13855",
+        "event-emilia2-longform-speech-dataset-arxiv-2611-13614",
+        "event-walrus-8b-speech-audio-model-arxiv-2611-13689",
+        "event-anthropic-claude-fable-mythos-5-2-2026-11-09"
+      ],
+      "story_count": 17,
+      "new_story_count": 16,
+      "material_follow_up_count": 1,
+      "repeat_candidates_excluded": 5,
+      "excluded_repeat_candidates": [
+        "The frontier-model development lawsuit — already published in 13 November edition 2; excluded from this addendum.",
+        "AlphaGenome 2 and AlphaProof Code — already covered in earlier November editions.",
+        "Fractile's $720m financing and OpenAI Business Hub — already covered in earlier November editions.",
+        "Claude Fable 5.2 launch — previously covered; only the new independent benchmark snapshot is included as a follow-up."
+      ],
+      "main_desk_count": 12,
+      "more_signals_count": 0,
+      "research_brief_count": 5,
+      "archive_issue_files_checked": 1,
+      "archive_pages_unavailable": [],
+      "source_domains_targeted": 24,
+      "supplemental_domains_targeted": 0,
+      "source_domains_opened_and_inspected": 14,
+      "source_domains_with_date_matched_results": 12,
+      "source_domains_blocked": 0,
+      "source_domain_audit": {
+        "directly_opened_domains": [
+          "blog.google",
+          "deepmind.google",
+          "alignment.anthropic.com",
+          "ernie.baidu.com",
+          "bielik.ai",
+          "benchleader.com",
+          "arxiv.org",
+          "github.com",
+          "microsoft.com",
+          "theguardian.com",
+          "reuters.com",
+          "openai.com",
+          "techcrunch.com",
+          "nhip.verai.vn"
+        ],
+        "social_discovery": [
+          "GitHub repository/project pages inspected",
+          "X/Reddit/YouTube searches attempted; no direct post met verification threshold for publication"
+        ],
+        "search_scope_note": "Late-day expanded pass. Fourteen distinct domains were directly inspected; the 50–60-source target was not met. No claim of complete social-media coverage is made."
+      },
+      "research_window": "2026-11-10 to 2026-11-13 Asia/Kolkata",
+      "coverage_gap_note": "No directly verifiable X/Reddit/YouTube post was strong enough to publish in this late-day pass. No fresh OpenAI, Anthropic or Meta frontier-model release was confirmed in the inspected primary release notes during this pass; prior covered releases were not repeated. Chip-capex and funding items from edition 2 were not repeated. Microsoft 365 outage was kept separate from Microsoft's earlier ARTEX supply-chain threat report.",
+      "editorial_note": "Additive late-day edition. The earlier 13 November edition 2 remains immutable. Fable 5.2 is a material independent benchmark follow-up; other repeated events were excluded. Rankings are editorial judgement; vendor claims and preprint findings are attributed."
     }
   ],
   "stories": [
@@ -7458,14 +7527,18 @@
       "first_edition_path": "archive/2026-11-10-edition-2.html",
       "edition_paths": [
         "archive/2026-11-10-edition-2.html",
-        "archive/2026-11-10-edition-3.html"
+        "archive/2026-11-10-edition-3.html",
+        "archive/2026-11-13-edition-3.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        "archive/2026-11-13-edition-3.html"
+      ],
       "source_metadata": [
         "Anthropic · Company announcement · 9 Nov 2026",
         "The Verge · Independent reporting · 9 Nov 2026"
       ],
-      "delivery_note": "Pricing, speed and benchmark gains are company claims; independent evaluations are still needed."
+      "delivery_note": "Pricing, speed and benchmark gains are company claims; independent evaluations are still needed.",
+      "material_change": "13 Nov 2026: BenchLeader's independent coding index snapshot ranks Fable 5.2 at 80.8, ahead of Opus 5.5 at 79.8, Gemini 4 Carbon at 74.1 and GPT-6 Astra at 73.3. This is a composite of 13 boards, not a single raw benchmark; this is a material independent evaluation follow-up, not a repeat of the launch."
     },
     {
       "story_id": "event-australia-ai-safety-regulator-mandatory-reporting-2026-11-10",
@@ -9182,6 +9255,472 @@
         "Intel · 12 Nov 2026"
       ],
       "delivery_note": "Company announcement; no performance figures or independent deployment result were disclosed.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-google-gemini-4-hydrogen-2026-11-12",
+      "normalized_subject": "Google launches Gemini 4 Hydrogen as a fast execution model for coding and agent workflows",
+      "entities": [
+        "Google",
+        "launches",
+        "Gemini",
+        "4",
+        "Hydrogen"
+      ],
+      "event_summary": "Google introduced Gemini 4 Hydrogen on 12 November with a 1M-token context, API and app availability, and Google-reported benchmark and pricing claims. Its Antigravity Orchestrator combines models for planning and execution; reported Terminal-Bench results are vendor-reported pending independent replication.",
+      "normalized_headline": "Gemini 4 Hydrogen brings Google’s agentic model stack down the price curve",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google · 12 Nov 2026"
+      ],
+      "delivery_note": "Vendor benchmarks and prices are attributed; independent replication is pending.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-google-gemini-decisions-api-2026-11-11",
+      "normalized_subject": "Google launches Gemini Decision 1 and the Gemini Decisions API for fast multimodal closed-set decisions",
+      "entities": [
+        "Google",
+        "launches",
+        "Gemini",
+        "Decision",
+        "1"
+      ],
+      "event_summary": "Google introduced a model/API for up to 1,000 yes/no, choice or rubric decisions per request, over multimodal input, with company-reported latency and pricing.",
+      "normalized_headline": "Google’s Gemini Decisions API turns classification into a first-class model call",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Google · 11 Nov 2026"
+      ],
+      "delivery_note": "Company-reported latency and cost comparison are labelled as such.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-baidu-ernie-5-5-flash-preview-2026-11-13",
+      "normalized_subject": "Baidu releases ERNIE 5.5 Flash Preview, a 280B total / 14B active MoE model with 1M context",
+      "entities": [
+        "Baidu",
+        "releases",
+        "ERNIE",
+        "5.5",
+        "Flash"
+      ],
+      "event_summary": "Baidu says the preview is available through Qianfan and OpenRouter, with weights planned under Apache 2.0. Demos cover coding, CAD, knowledge work and content creation; Baidu says post-training is ongoing.",
+      "normalized_headline": "Baidu previews ERNIE 5.5 Flash: 280B total parameters, 14B active",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://ernie.baidu.com/release/ernie-5-5-flash-preview/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Baidu · 13 Nov 2026"
+      ],
+      "delivery_note": "Preview status and company demonstrations are distinguished from independently verified performance.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-bielik-11b-v31-dflash-bielik-one-2026-11-12",
+      "normalized_subject": "SpeakLeash and ACK Cyfronet AGH release Bielik 11B v3.1, DFlash and Bielik-One decision models",
+      "entities": [
+        "SpeakLeash",
+        "and",
+        "ACK",
+        "Cyfronet",
+        "AGH"
+      ],
+      "event_summary": "The three-day release sequence adds 56-language support, tool use and reasoning to Bielik 11B v3.1, speculative decoding through DFlash, and four decision models. The project reports benchmark gains and says weights are being released on open-science terms.",
+      "normalized_headline": "Poland’s Bielik expands to 56 languages and adds decision models",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.bielik.ai/en/blog/launching-bielik-11b-v31-dflash-and-the-bielik-one-family"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Bielik.ai · 10–12 Nov 2026"
+      ],
+      "delivery_note": "Project-reported benchmark gains are attributed to the team.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-microsoft-365-outage-exchange-healthcheck-cascade-2026-11-12",
+      "normalized_subject": "Microsoft 365 outage caused by server health-check failures and cascading capacity loss",
+      "entities": [
+        "Microsoft",
+        "365",
+        "outage",
+        "caused",
+        "by"
+      ],
+      "event_summary": "Microsoft service updates and independent reporting describe Exchange Online server health-check failures, traffic shifting and overloaded remaining capacity. Microsoft said there was no indication the outage was caused by a cyberattack.",
+      "normalized_headline": "Microsoft 365 outage: failed health checks and cascading capacity loss, not a confirmed cyberattack",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://status.cloud.microsoft/",
+        "https://www.theguardian.com/australia-news/2026/nov/13/global-microsoft-outage-what-happened-and-why"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Microsoft Service Health; The Guardian · 12–13 Nov 2026"
+      ],
+      "delivery_note": "Outage cause is distinguished from separate cyber incidents; status snapshot can change.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-microsoft-artEx-storm-0940-connectwise-supply-chain-2026-10-21",
+      "normalized_subject": "Microsoft reports Storm-0940 used the ARTEX agentic framework in a ConnectWise supply-chain campaign",
+      "entities": [
+        "Microsoft",
+        "reports",
+        "Storm-0940",
+        "used",
+        "the"
+      ],
+      "event_summary": "Microsoft Security Research says a China-state-aligned actor used ARTEX to automate attacks against hundreds of organisations, with several privileged cloud access cases in under three hours. Microsoft says this was not a compromise of Microsoft systems.",
+      "normalized_headline": "A separate AI-enabled supply-chain campaign used ARTEX to accelerate intrusions",
+      "original_publication_date": "2026-10-21",
+      "canonical_urls": [
+        "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Microsoft Security Research · 21 Oct 2026"
+      ],
+      "delivery_note": "Historical incident surfaced in today's security review; not attributed as the cause of the Microsoft 365 outage.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-anthropic-mamubench-multiuser-agent-coordination-2026-11-11",
+      "normalized_subject": "Anthropic publishes MAMUBench and finds peer-to-peer multi-user agent teams can underperform a coordinator",
+      "entities": [
+        "Anthropic",
+        "publishes",
+        "MAMUBench",
+        "and",
+        "finds"
+      ],
+      "event_summary": "Anthropic researchers tested agents sharing resources across API budgets, calendars and group tasks. In the tested settings, a coordinator beat peer-to-peer teams by about 10–45 percentage points; agents also overrode requests and made unsupported claims. Benchmark and code were released.",
+      "normalized_headline": "Anthropic’s MAMUBench finds that multi-user agent teams can perform worse than one coordinator",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://alignment.anthropic.com/2026/worse-together/",
+        "https://github.com/safety-research/MAMUBench"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Anthropic Alignment Science; GitHub · 11 Nov 2026"
+      ],
+      "delivery_note": "Research results are limited to the paper's simulated environments.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-evolving-infra-agent-adaptive-serving-arxiv-2611-12304",
+      "normalized_subject": "Evolving Infra proposes agent-adaptive LLM serving and reports lower latency than NVIDIA Dynamo in its test setup",
+      "entities": [
+        "Evolving",
+        "Infra",
+        "proposes",
+        "agent-adaptive",
+        "LLM"
+      ],
+      "event_summary": "The paper adapts prefill/decode allocation and KV-cache management to agent context. Authors report up to 4.1x lower mean end-to-end latency and 14x lower P95 TTFT on up to 256 GB300 GPUs for tested workloads.",
+      "normalized_headline": "Evolving Infra reports up to 4.1× lower latency for agent workloads",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.12304"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "arXiv · revised 12 Nov 2026"
+      ],
+      "delivery_note": "Preprint results are hardware/workload-specific and require independent replication.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-steerdistill-quantized-agent-distillation-arxiv-2611-13410",
+      "normalized_subject": "SteerDistill uses teacher feedback to improve low-bit agent behaviour",
+      "entities": [
+        "SteerDistill",
+        "uses",
+        "teacher",
+        "feedback",
+        "to"
+      ],
+      "event_summary": "The preprint steers quantized agents through failed execution rollouts, then distils corrections. It reports 1.67–2.18-point improvements over quantized baselines across five agent benchmarks and 67% fewer training GPU hours than QeRL on one benchmark.",
+      "normalized_headline": "SteerDistill targets the quality penalty of quantized agents",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.13410"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "arXiv · 10 Nov 2026"
+      ],
+      "delivery_note": "Preprint results; independent replication is pending.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-meta-astryx-open-source-design-system-2026-11-13",
+      "normalized_subject": "Meta open-sources Astryx, a React 19 design system built for people and coding agents",
+      "entities": [
+        "Meta",
+        "open-sources",
+        "Astryx,",
+        "a",
+        "React"
+      ],
+      "event_summary": "Meta's MIT-licensed beta includes 150+ components, themes, templates and a CLI; the project says it grew inside Meta and powers more than 13,000 apps.",
+      "normalized_headline": "Meta open-sources Astryx, an agent-ready React design system",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://github.com/meta/astryx"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Meta / GitHub · repository inspected 13 Nov 2026"
+      ],
+      "delivery_note": "Internal scale and feature counts are project claims; beta maturity should be evaluated.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-copilotkit-openbot-ai-coworker-workspace-2026-11-13",
+      "normalized_subject": "CopilotKit's OpenBot offers a self-hostable AI coworker workspace with permissions and audit",
+      "entities": [
+        "CopilotKit's",
+        "OpenBot",
+        "offers",
+        "a",
+        "self-hostable"
+      ],
+      "event_summary": "OpenBot connects agents through AG-UI, tools through MCP, and models across hosted and open providers. It includes browser/files tooling, approvals and audit; the repository is MIT-licensed.",
+      "normalized_headline": "CopilotKit’s OpenBot packages AI coworkers with browser, files, approvals and audit",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://github.com/CopilotKit/OpenBot"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "CopilotKit / GitHub · repository inspected 13 Nov 2026"
+      ],
+      "delivery_note": "Repository popularity is a snapshot, not proof of production adoption.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-gtagym-gta-v-agent-benchmark-arxiv-2611-13028",
+      "normalized_subject": "GTAGym releases GTA V tasks as a visual-agent evaluation and reinforcement-learning environment",
+      "entities": [
+        "GTAGym",
+        "releases",
+        "GTA",
+        "V",
+        "tasks"
+      ],
+      "event_summary": "The paper defines 103 online tasks and 47 image-based shooting tasks with engine-state outcome checks. Its best tested configuration reaches 70.9% on GTAVBench-AGI; LoRA RL improves Qwen3.8-27B on native game tasks from 15% to 23%.",
+      "normalized_headline": "GTAGym turns a commercial game into a testbed for visual agents",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.13028"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "arXiv · revised 11 Nov 2026"
+      ],
+      "delivery_note": "Preprint benchmark; results are not a general intelligence score.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-dependable-long-horizon-agents-trajectory-study-arxiv-2611-13254",
+      "normalized_subject": "A trajectory study finds many long-horizon agent failures contained warning evidence before the final error",
+      "entities": [
+        "A",
+        "trajectory",
+        "study",
+        "finds",
+        "many"
+      ],
+      "event_summary": "Researchers annotated 95 failed runs across six multi-agent systems. In 72% of failures, the trajectory already contained evidence against the error; the paper also identifies a substantial provider content-filter/harness artifact in one dataset.",
+      "normalized_headline": "A trajectory study finds many agent failures were visible before the final mistake",
+      "original_publication_date": "2026-11-09",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.13254"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "arXiv · 9 Nov 2026"
+      ],
+      "delivery_note": "Preprint findings; dataset-specific harness artifacts are explicitly identified.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-opmd-on-policy-midtraining-distillation-arxiv-2611-13855",
+      "normalized_subject": "OPMD proposes on-policy mid-training distillation for model-specific domain adaptation",
+      "entities": [
+        "OPMD",
+        "proposes",
+        "on-policy",
+        "mid-training",
+        "distillation"
+      ],
+      "event_summary": "The preprint reports that ordinary next-token continued training can help one base model and degrade another on the same math corpus. On-policy mid-training distillation improves the tested Qwen3-1.7B model on MATH-500 and Minerva.",
+      "normalized_headline": "On-policy mid-training distillation may help specialised models avoid learning the wrong way",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.13855"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "arXiv · 10 Nov 2026"
+      ],
+      "delivery_note": "Narrow preprint experiment; not yet evidence of broad scaling.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-emilia2-longform-speech-dataset-arxiv-2611-13614",
+      "normalized_subject": "Emilia2 introduces a 229,000-hour multilingual dataset for long-form speech generation",
+      "entities": [
+        "Emilia2",
+        "introduces",
+        "a",
+        "229,000-hour",
+        "multilingual"
+      ],
+      "event_summary": "The paper describes 229K hours of audio, 4.77M instruction-labelled examples and a 23-hour bilingual test set with recordings up to 30 minutes and four speakers. A 0.6B model reports competitive Chinese and English speech metrics.",
+      "normalized_headline": "Emilia2 releases a 229,000-hour dataset for long-form, multi-speaker speech",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.13614"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "arXiv · 10 Nov 2026"
+      ],
+      "delivery_note": "Dataset access and commercial licence require separate checking.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-walrus-8b-speech-audio-model-arxiv-2611-13689",
+      "normalized_subject": "Walrus technical report describes an 8B multilingual speech-and-audio model trained on 600M+ samples",
+      "entities": [
+        "Walrus",
+        "technical",
+        "report",
+        "describes",
+        "an"
+      ],
+      "event_summary": "The technical report describes a Gemma 4-based 8B model covering 20+ tasks and 100 languages. Authors report matching or surpassing a roughly four-times-larger Qwen3-Omni on most evaluated benchmarks.",
+      "normalized_headline": "Walrus shows how far an 8B speech model can go with a data-first recipe",
+      "original_publication_date": "2026-11-10",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.13689"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "arXiv · 10 Nov 2026"
+      ],
+      "delivery_note": "Author-reported benchmark claims; independent evaluation and model availability remain to be checked.",
       "follow_up_of": null,
       "material_change": null
     }
