@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-13T08:25:50+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.",
+  "last_updated_at": "2026-11-13T08:53:00+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -2476,6 +2476,193 @@
       "research_window": "2026-11-11T08:25:00+05:30 to 2026-11-13T08:25:00+05:30",
       "coverage_gap_note": "No new frontier-model launch or major API release met the date and evidence bar. No new independently verified Huawei Ascend, DeepSeek-on-domestic-chips, Cambricon, Moore Threads, Biren, Alibaba T-Head or Baidu Kunlunxin production/yield milestone was found. SMIC’s supply outlook and xFusion’s server-sector IPO review are included, but neither proves leading-edge domestic accelerator independence. No fresh major robotics deployment or AI-science paper was verified. India’s strongest chip signal was Tata Electronics’ early-stage financing discussion for a 28nm–110nm fab; no new India AI model or government deployment order was confirmed. No new AI-specific model vulnerability disclosure was found; FaceStealer is an AI-assisted social-engineering campaign.",
       "editorial_note": "Humanising newsroom pass applied. No external style linter was run. Rankings are editorial judgement, not objective truth; company claims, forecasts, preliminary filings, allegations and legal requests are labelled."
+    },
+    {
+      "date": "2026-11-13",
+      "path": "archive/2026-11-13-edition-2.html",
+      "story_ids": [
+        "event-nvidia-board-succession-review-2026-11-11",
+        "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+        "event-cisco-fy27-ai-infrastructure-revenue-outlook-2026-11-12",
+        "event-naver-ai-factory-2t-won-contract-2026-11-12",
+        "event-xfusion-ipo-review-passes-ai-server-growth-2026-11-12",
+        "event-smic-q3-2026-results-ai-supply-tight-through-2027",
+        "event-north-korea-facestealer-crypto-open-source-supply-chain-2026-11-12",
+        "event-foxconn-openai-collaboration-discussions-ai-server-robot-deployment",
+        "event-cerebras-q3-2026-outlook-openai-backlog-2026-11-12",
+        "event-nonprofits-lawsuit-halt-frontier-ai-development-2026-11-12",
+        "event-nscale-monarch-campus-8gw-ipo-power-financing-permits",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+        "event-tata-electronics-2bn-loan-talks-dholera-fab-2026-11-12",
+        "event-rox-series-b-100m-1-3bn-valuation-2026-11-11",
+        "event-fed-barr-ai-job-disruption-labor-share-2026-11-12",
+        "event-france-international-defence-ai-centre-2026-11-12",
+        "event-github-portable-agent-skills-guide-2026-11-12",
+        "event-goldman-ai-investment-forecast-1-4tn-2027-2026-11-12",
+        "event-adaspace-hong-kong-ipo-ai-satellite-2026-11-13",
+        "event-us-ai-task-force-ai-cyberattack-reporting-2026-11-13",
+        "event-ai-firms-counterintelligence-hiring-ex-intelligence-2026-11-12",
+        "event-amd-instinct-mi400-mi450x-mi455x-update-2026-11-12",
+        "event-nebius-q3-2026-capacity-delays-guidance-2026-11-12",
+        "event-sglang-consortium-open-inference-roadmap-2026-11-12",
+        "event-openai-india-gpt6-luna-api-regional-processing-2026-11-12",
+        "event-amd-psiquantum-quantum-hpc-ai-partnership-2026-11-12",
+        "event-intel-radixark-sglang-optimization-2026-11-12"
+      ],
+      "story_count": 27,
+      "new_story_count": 21,
+      "material_follow_up_count": 6,
+      "repeat_candidates_excluded": 4,
+      "excluded_repeat_candidates": [
+        "SMIC's AI supply-tightness outlook — already covered in the 13 November first edition.",
+        "The lawsuit seeking to halt frontier-model development — already covered in the 13 November first edition.",
+        "Nvidia's leadership transition and board developments — already covered in the 13 November first edition.",
+        "OpenAI's Control Room research kill switch — covered in the 11 November edition."
+      ],
+      "excluded_stale_candidates": [
+        "Australia's proposed AI safety regulator — announced 10 November, outside the 48-hour window.",
+        "DeepSeek–Huawei Ascend programming-tools partnership — announced 30 September, outside the window.",
+        "Google TPU production at Meta — reported weeks earlier, with no new deployment milestone in this window."
+      ],
+      "main_desk_count": 14,
+      "more_signals_count": 13,
+      "archive_issue_files_checked": 31,
+      "archive_pages_unavailable": [],
+      "source_domains_targeted": 68,
+      "supplemental_domains_targeted": 6,
+      "source_domains_opened_and_inspected": 14,
+      "source_domains_with_date_matched_results": 12,
+      "source_domains_blocked": 4,
+      "source_domain_audit": {
+        "core_search_targets": [
+          "openai.com",
+          "anthropic.com",
+          "deepmind.google",
+          "blog.google",
+          "blogs.microsoft.com",
+          "ai.meta.com",
+          "github.blog",
+          "huggingface.co",
+          "nvidia.com",
+          "developer.nvidia.com",
+          "amd.com",
+          "newsroom.amd.com",
+          "intel.com",
+          "tsmc.com",
+          "news.samsung.com",
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "wsj.com",
+          "cnbc.com",
+          "apnews.com",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "theregister.com",
+          "venturebeat.com",
+          "scmp.com",
+          "caixinglobal.com",
+          "36kr.com",
+          "nikkei.com",
+          "asia.nikkei.com",
+          "thelec.net",
+          "koreaherald.com",
+          "koreatimes.co.kr",
+          "economictimes.indiatimes.com",
+          "livemint.com",
+          "moneycontrol.com",
+          "business-standard.com",
+          "thehindu.com",
+          "indianexpress.com",
+          "yourstory.com",
+          "cert-in.org.in",
+          "cisa.gov",
+          "bis.gov",
+          "sec.gov",
+          "gov.uk",
+          "europa.eu",
+          "nature.com",
+          "science.org",
+          "arxiv.org",
+          "spectrum.ieee.org",
+          "technologyreview.com",
+          "datacenterdynamics.com",
+          "lightreading.com",
+          "utilitydive.com",
+          "iea.org",
+          "eia.gov",
+          "bleepingcomputer.com",
+          "therecord.media",
+          "darkreading.com",
+          "securityweek.com"
+        ],
+        "supplemental_domains_targeted": [
+          "nebius.com",
+          "lmsys.org",
+          "intc.com",
+          "sglang.io",
+          "developers.openai.com",
+          "theweek.in"
+        ],
+        "directly_opened_domains": [
+          "newsroom.amd.com",
+          "nebius.com",
+          "reuters.com",
+          "business-standard.com",
+          "moneycontrol.com",
+          "theweek.in",
+          "lmsys.org",
+          "intc.com",
+          "sglang.io",
+          "nvidia.com",
+          "developers.openai.com",
+          "apnews.com",
+          "pm.gov.au",
+          "wsj.com"
+        ],
+        "date_matched_domains": [
+          "newsroom.amd.com",
+          "nebius.com",
+          "reuters.com",
+          "business-standard.com",
+          "moneycontrol.com",
+          "theweek.in",
+          "lmsys.org",
+          "intc.com",
+          "sglang.io",
+          "nvidia.com",
+          "developers.openai.com",
+          "wsj.com"
+        ],
+        "background_only_domains": [
+          "apnews.com",
+          "pm.gov.au"
+        ],
+        "blocked_or_paywalled": [
+          {
+            "domain": "asia.nikkei.com",
+            "reason": "Blocked by robots.txt in grouped search results."
+          },
+          {
+            "domain": "cnbc.com",
+            "reason": "Blocked by robots.txt in grouped search results."
+          },
+          {
+            "domain": "technologyreview.com",
+            "reason": "Blocked by robots.txt in grouped search results."
+          },
+          {
+            "domain": "thehindu.com",
+            "reason": "Blocked by robots.txt in grouped search results."
+          }
+        ],
+        "search_scope_note": "62 distinct core domains were targeted across grouped searches, followed by six supplemental domains. Fourteen distinct domains were opened and inspected directly; 12 yielded date-matched material. AP News and the Australian Prime Minister's site were checked only to establish that the AI safety regulator announcement was dated 10 November and outside the 48-hour window."
+      },
+      "research_window": "2026-11-11T09:00:00+05:30 to 2026-11-13T08:53:00+05:30",
+      "coverage_gap_note": "No new independently verified Huawei Ascend, DeepSeek-on-domestic-chips, Cambricon, Moore Threads, Biren, Alibaba T-Head or Baidu Kunlunxin production/yield milestone met the date and evidence bar. No new frontier-model launch, major robotics deployment or AI-science paper was verified in this update. India's strongest new development is OpenAI's limited GPT-6 Luna API regional-processing option. Australia's AI safety regulator proposal was announced on 10 November, outside the 48-hour window. AMD's MI455X benchmark is vendor-run; Nebius says its delayed third-party capacity remains contracted; the SGLang consortium has not yet published new independent benchmarks.",
+      "editorial_note": "Humanising newsroom pass applied. No external style linter was run. Rankings are editorial judgement, not objective truth; company claims, forecasts, preliminary plans and benchmark comparisons are labelled."
     }
   ],
   "stories": [
@@ -4998,9 +5185,17 @@
         "archive/2026-11-04-edition-2.html",
         "archive/2026-11-04-edition-3.html",
         "archive/2026-11-04-edition-4.html",
-        "archive/2026-11-04-edition-5.html"
+        "archive/2026-11-04-edition-5.html",
+        "archive/2026-11-13-edition-2.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-13",
+          "path": "archive/2026-11-13-edition-2.html",
+          "headline": "FOLLOW-UP: AMD adds MI450X and publishes new MI455X inference results",
+          "material_change": "Adds a new MI450X 288GB HBM4 configuration, MI430X scientific-computing specifications and a new AMD-run MI455X DeepSeek-R1 inference result."
+        }
+      ],
       "source_metadata": [
         "AMD investor release, 3 Nov 2026",
         "Reuters, 3 Nov 2026",
@@ -8784,6 +8979,209 @@
         "ASML",
         "counterintelligence"
       ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-amd-instinct-mi400-mi450x-mi455x-update-2026-11-12",
+      "normalized_subject": "AMD expands Instinct MI400 with MI450X, new MI455X inference results and MI430X scientific-computing details",
+      "entities": [
+        "AMD",
+        "Instinct MI400",
+        "MI430X",
+        "MI450X",
+        "MI455X",
+        "Helios",
+        "ROCm",
+        "DeepSeek-R1",
+        "Nvidia Vera Rubin"
+      ],
+      "event_summary": "On 12 November 2026 AMD expanded its Instinct MI400 portfolio with the MI450X GPU, offering 288GB of HBM4 per GPU while retaining the MI455X compute, bandwidth and connectivity profile. AMD also published a vendor-run MI455X/Helios DeepSeek-R1 result of 21,333 tokens per second per GPU in an MLPerf Inference Offline configuration, which AMD says is up to 30% above Nvidia Vera Rubin's latest published result. AMD added MI430X scientific-computing specifications: up to 288 TFLOPs FP64, 432GB HBM4 and up to 23.3TB/s bandwidth; availability is expected in 2027. The benchmark comparison is not an independent identical-system test; product availability and real workloads remain to be established.",
+      "normalized_headline": "AMD adds a 288GB HBM4 MI450X and publishes new Helios inference numbers",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+        "https://www.amd.com/en/products/accelerators/instinct/mi400/mi430x.html"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "AMD Newsroom · 12 Nov 2026",
+        "AMD Instinct MI430X product information · accessed 13 Nov 2026"
+      ],
+      "delivery_note": "Material follow-up to AMD's 3 November Q3/Helios story. MI455X throughput and bandwidth comparisons are vendor-run or vendor-calculated; no independent identical-system comparison was published in this source set.",
+      "follow_up_of": "event-amd-q3-2026-data-centre-revenue-helios-warrants-2026-11-03",
+      "material_change": "Adds a new MI450X 288GB HBM4 configuration, MI430X scientific-computing specifications and a new AMD-run MI455X DeepSeek-R1 inference result. This is more than a fresh article about the prior Q3 results."
+    },
+    {
+      "story_id": "event-nebius-q3-2026-capacity-delays-guidance-2026-11-12",
+      "normalized_subject": "Nebius Q3 2026 results, third-party data-centre capacity delays and revised revenue/capex guidance",
+      "entities": [
+        "Nebius",
+        "AI cloud",
+        "Microsoft",
+        "Meta",
+        "data centres",
+        "capex",
+        "neocloud"
+      ],
+      "event_summary": "Nebius reported Q3 2026 revenue of US$981m, above the US$907.5m estimate cited by Reuters, and lowered its 2026 revenue range to US$3.0–3.2bn after some third-party data-centre capacity expected in 2026 moved to H1 2027. The company says the contracts remain in place and its own sites are on schedule or ahead. It raised 2026 capex guidance to about US$27bn and expects US$40–45bn in 2027, with 75–85% of next year's spending expected to be covered by customer prepayments and asset-backed financing. Nebius forecasts US$12–13bn 2027 revenue and pre-tax break-even by year-end. Reuters reports a 16% share-price fall; this is an execution and financing signal, not proof of a broad demand collapse.",
+      "normalized_headline": "Nebius cuts its 2026 revenue range after third-party data-centre capacity slips",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results",
+        "https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Nebius · Q3 results · 12 Nov 2026",
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "Nebius says delayed third-party capacity remains contracted and its own sites are on schedule. The revised revenue outlook and capex are company guidance; the share-price move is Reuters reporting.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-sglang-consortium-open-inference-roadmap-2026-11-12",
+      "normalized_subject": "LMSYS launches a cross-vendor SGLang consortium to coordinate open inference roadmap work",
+      "entities": [
+        "LMSYS Org",
+        "SGLang",
+        "Nvidia",
+        "AMD",
+        "Intel",
+        "Google",
+        "Meta",
+        "Cloudflare",
+        "Modal",
+        "RadixArk"
+      ],
+      "event_summary": "On 12 November 2026 LMSYS Org launched the SGLang Consortium with Nvidia, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk as founding members. The group will coordinate work on frontier-model support, reasoning and multimodal workloads, distributed inference and hardware optimization. Members appoint technical representatives and hold two roadmap meetings per year; working groups can collaborate between meetings. LMSYS maintainers retain technical decision-making and code-acceptance authority and the project remains open to the wider community. LMSYS says SGLang runs on hundreds of thousands of GPUs; that scale figure is a project claim, and the announcement includes no new independent benchmark.",
+      "normalized_headline": "Nvidia, AMD, Intel, Google and Meta join a new SGLang inference consortium",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.lmsys.org/blog/2026-11-12-sglang-consortium",
+        "https://www.sglang.io/summit"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "LMSYS Org · 12 Nov 2026",
+        "SGLang Summit · 12–13 Nov 2026"
+      ],
+      "delivery_note": "The consortium is a roadmap forum, not a closed fork. The project's deployment-scale figures are attributed to LMSYS.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-openai-india-gpt6-luna-api-regional-processing-2026-11-12",
+      "normalized_subject": "OpenAI enables limited GPT-6 Luna API regional processing and storage in India",
+      "entities": [
+        "OpenAI",
+        "India",
+        "GPT-6 Luna",
+        "Responses API",
+        "Chat Completions API",
+        "in.api.openai.com",
+        "Zero Data Retention"
+      ],
+      "event_summary": "OpenAI added India as a regional-processing location for eligible API customers on 12 November 2026. Supported GPT-6 Luna requests can be processed and stored in India through the Responses and Chat Completions APIs using an India project and in.api.openai.com. OpenAI's developer documentation specifies active Zero Data Retention (ZDR), Standard pay-as-you-go, and no hosted tools for regional processing in India. This does not apply to the consumer ChatGPT app or every model and workflow; customers must review their full data path and eligibility.",
+      "normalized_headline": "OpenAI adds in-country API processing for eligible Indian customers",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://developers.openai.com/api/docs/guides/your-data",
+        "https://www.business-standard.com/amp/technology/artificial-intelligence/openai-to-process-ai-requests-in-india-to-meet-data-localisation-needs-126111200782_1.html",
+        "https://www.theweek.in/wire-updates/business/2026/11/12/openai-to-process-ai-requests-within-india-for-businesses-with-data-localisation-needs.html"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI API documentation · accessed 13 Nov 2026",
+        "Business Standard / PTI · 12 Nov 2026",
+        "The Week / PTI · 12 Nov 2026"
+      ],
+      "delivery_note": "Official documentation specifies active ZDR, Standard pay-as-you-go, supported GPT-6 Luna endpoints and no hosted tools. This is not a general data-localisation or regulatory-compliance certification.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-amd-psiquantum-quantum-hpc-ai-partnership-2026-11-12",
+      "normalized_subject": "AMD plans equity investment and expanded quantum/HPC/AI infrastructure partnership with PsiQuantum",
+      "entities": [
+        "AMD",
+        "PsiQuantum",
+        "silicon photonics",
+        "quantum computing",
+        "HPC",
+        "AI",
+        "drug discovery"
+      ],
+      "event_summary": "On 12 November 2026 AMD and PsiQuantum announced an expanded strategic partnership to co-design infrastructure for utility-scale fault-tolerant quantum computers and develop hybrid applications combining quantum, high-performance and AI computing. AMD brings Versal FPGAs, Instinct GPUs, EPYC CPUs and ROCm; PsiQuantum contributes its silicon-photonics platform. AMD plans an equity investment, but the amount was not disclosed. The companies cite GPU simulations of covalent inhibitors relevant to oncology and a machine-learning decoder for quantum error correction. These are company claims, not clinical validation or evidence of a deployed fault-tolerant quantum system.",
+      "normalized_headline": "AMD and PsiQuantum expand their quantum/HPC partnership",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.psiquantum.com/news-import/psiquantum-amd-partnership-future-of-computing",
+        "https://www.reuters.com/business/amd-invest-psiquantum-advance-quantum-computing-infrastructure-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "PsiQuantum · 12 Nov 2026",
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "Investment amount is undisclosed. The drug-research and decoder results are attributed to the companies; no independent clinical or deployed quantum-system result was reported.",
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-intel-radixark-sglang-optimization-2026-11-12",
+      "normalized_subject": "Intel and RadixArk announce SGLang optimization collaboration for Intel platforms",
+      "entities": [
+        "Intel",
+        "RadixArk",
+        "SGLang",
+        "Intel AMX",
+        "CPUs",
+        "GPUs",
+        "AI accelerators"
+      ],
+      "event_summary": "On 12 November 2026 Intel announced a collaboration with RadixArk to optimize the open-source SGLang inference stack for Intel CPUs, GPUs and accelerators, including Intel Advanced Matrix Extensions. Intel and RadixArk describe planned upstream engineering work and improved deployment flexibility, but the release discloses no independent performance benchmark or production result. This is a distinct engineering collaboration, separate from Intel's membership in the SGLang Consortium.",
+      "normalized_headline": "Intel and RadixArk team up to optimise SGLang on Intel hardware",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.intc.com/news-events/press-releases/detail/1787/intel-radixark-collaborate-to-advance-open-ai-inference-on"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Intel · 12 Nov 2026"
+      ],
+      "delivery_note": "Company announcement; no performance figures or independent deployment result were disclosed.",
       "follow_up_of": null,
       "material_change": null
     }
