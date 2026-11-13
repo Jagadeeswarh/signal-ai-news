@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-12T08:39:00+05:30",
+  "last_updated_at": "2026-11-13T08:25:50+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.",
   "editions": [
     {
@@ -2289,6 +2289,193 @@
       "kind": "corrected edition 2 (archive audit correction only)",
       "correction_note": "Corrects the prior-issue audit from 26 to 28 accessible dated issue files. Story selection, rankings, source links and the 20 story records are unchanged.",
       "supersedes": "archive/2026-11-12.html"
+    },
+    {
+      "date": "2026-11-13",
+      "path": "archive/2026-11-13.html",
+      "story_ids": [
+        "event-nvidia-board-succession-review-2026-11-11",
+        "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+        "event-cisco-fy27-ai-infrastructure-revenue-outlook-2026-11-12",
+        "event-naver-ai-factory-2t-won-contract-2026-11-12",
+        "event-xfusion-ipo-review-passes-ai-server-growth-2026-11-12",
+        "event-smic-q3-2026-results-ai-supply-tight-through-2027",
+        "event-north-korea-facestealer-crypto-open-source-supply-chain-2026-11-12",
+        "event-foxconn-openai-collaboration-discussions-ai-server-robot-deployment",
+        "event-cerebras-q3-2026-outlook-openai-backlog-2026-11-12",
+        "event-nonprofits-lawsuit-halt-frontier-ai-development-2026-11-12",
+        "event-nscale-monarch-campus-8gw-ipo-power-financing-permits",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+        "event-tata-electronics-2bn-loan-talks-dholera-fab-2026-11-12",
+        "event-rox-series-b-100m-1-3bn-valuation-2026-11-11",
+        "event-fed-barr-ai-job-disruption-labor-share-2026-11-12",
+        "event-france-international-defence-ai-centre-2026-11-12",
+        "event-github-portable-agent-skills-guide-2026-11-12",
+        "event-goldman-ai-investment-forecast-1-4tn-2027-2026-11-12",
+        "event-adaspace-hong-kong-ipo-ai-satellite-2026-11-13",
+        "event-us-ai-task-force-ai-cyberattack-reporting-2026-11-13",
+        "event-ai-firms-counterintelligence-hiring-ex-intelligence-2026-11-12"
+      ],
+      "story_count": 21,
+      "new_story_count": 16,
+      "material_follow_up_count": 5,
+      "repeat_candidates_excluded": 9,
+      "excluded_repeat_candidates": [
+        "Gemini 4 Carbon’s broader paid and enterprise availability and /swarm preview — already covered in the 11–12 November issues; no new launch milestone in this window.",
+        "Anthropic’s preliminary IPO price range and $26bn private placement — already covered; only the reported six-times oversubscription is included as a material follow-up.",
+        "Samsung’s HBM packaging plant schedule — already covered on 12 November.",
+        "AlphaGenome 2 — already covered on 12 November.",
+        "BloombergNEF’s data-centre power-demand and proposed gas-generation forecast — already covered on 12 November.",
+        "TSMC’s $40.9bn capital authorisation and investments in Anthropic/OpenAI — already covered on 11 November.",
+        "CoreWeave’s Q3 backlog, capex and guidance — already covered on 11 November.",
+        "Northwestern Polytechnical University’s H200 procurement — already covered on 12 November; the new overseas-compute reservations are a separate material response.",
+        "Microsoft’s optical-transceiver import-ban lobbying — already covered on 12 November."
+      ],
+      "excluded_stale_candidates": [
+        "Huawei’s Peerium/one-million-chip architecture was announced on 17 September 2026, outside this 48-hour window; no new production or yield milestone was verified."
+      ],
+      "main_desk_count": 10,
+      "more_signals_count": 11,
+      "archive_issue_files_checked": 28,
+      "archive_pages_unavailable": [],
+      "source_domains_targeted": 60,
+      "supplemental_domains_targeted": 0,
+      "source_domains_opened_and_inspected": 20,
+      "source_domains_with_date_matched_results": 20,
+      "source_domains_blocked": 4,
+      "source_domain_audit": {
+        "core_search_targets": [
+          "openai.com",
+          "anthropic.com",
+          "blog.google",
+          "deepmind.google",
+          "microsoft.com",
+          "blogs.microsoft.com",
+          "ai.meta.com",
+          "nvidia.com",
+          "amd.com",
+          "aws.amazon.com",
+          "github.blog",
+          "huggingface.co",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "spectrum.ieee.org",
+          "developer.apple.com",
+          "cloudflare.com",
+          "databricks.com",
+          "stackoverflow.blog",
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "wsj.com",
+          "cnbc.com",
+          "apnews.com",
+          "washingtonpost.com",
+          "fortune.com",
+          "businessinsider.com",
+          "theguardian.com",
+          "theinformation.com",
+          "semafor.com",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "theregister.com",
+          "venturebeat.com",
+          "bleepingcomputer.com",
+          "digitimes.com",
+          "trendforce.com",
+          "thelec.net",
+          "tomshardware.com",
+          "anandtech.com",
+          "semianalysis.com",
+          "datacenterdynamics.com",
+          "lightreading.com",
+          "utilitydive.com",
+          "scmp.com",
+          "caixinglobal.com",
+          "36kr.com",
+          "nikkei.com",
+          "koreaherald.com",
+          "koreatimes.co.kr",
+          "en.sedaily.com",
+          "yonhapnews.co.kr",
+          "economictimes.indiatimes.com",
+          "livemint.com",
+          "moneycontrol.com",
+          "business-standard.com"
+        ],
+        "directly_opened_domains": [
+          "reuters.com",
+          "investor.nvidia.com",
+          "apnews.com",
+          "newsroom.cisco.com",
+          "koreatimes.co.kr",
+          "koreaherald.com",
+          "en.sedaily.com",
+          "finance.eastmoney.com",
+          "chnfund.com",
+          "m.21jingji.com",
+          "economictimes.indiatimes.com",
+          "sec.gov",
+          "fortune.com",
+          "capitaltimes.asia",
+          "businessinsider.com",
+          "news.bloomberglaw.com",
+          "github.blog",
+          "justice.gov",
+          "ic3.gov",
+          "theregister.com"
+        ],
+        "date_matched_domains": [
+          "reuters.com",
+          "investor.nvidia.com",
+          "apnews.com",
+          "newsroom.cisco.com",
+          "koreatimes.co.kr",
+          "koreaherald.com",
+          "en.sedaily.com",
+          "finance.eastmoney.com",
+          "chnfund.com",
+          "m.21jingji.com",
+          "economictimes.indiatimes.com",
+          "sec.gov",
+          "fortune.com",
+          "capitaltimes.asia",
+          "businessinsider.com",
+          "news.bloomberglaw.com",
+          "github.blog",
+          "justice.gov",
+          "ic3.gov",
+          "theregister.com"
+        ],
+        "background_only_domains": [
+          "huawei.com"
+        ],
+        "blocked_or_paywalled": [
+          {
+            "domain": "theinformation.com",
+            "reason": "Full article paywalled; Reuters reporting was used for the overseas-compute story."
+          },
+          {
+            "domain": "ft.com",
+            "reason": "Paywalled; not relied on for a new story in this edition."
+          },
+          {
+            "domain": "bloomberg.com",
+            "reason": "Full story inaccessible; Anthropic oversubscription is attributed to Bloomberg News through Reuters."
+          },
+          {
+            "domain": "channelnewsasia.com",
+            "reason": "Page fetch blocked; accessible Reuters and regional sources were used instead."
+          }
+        ],
+        "search_scope_note": "60 distinct domains were targeted in grouped searches. Twenty distinct source domains were opened and inspected directly; targeted domains are not counted as articles read."
+      },
+      "research_window": "2026-11-11T08:25:00+05:30 to 2026-11-13T08:25:00+05:30",
+      "coverage_gap_note": "No new frontier-model launch or major API release met the date and evidence bar. No new independently verified Huawei Ascend, DeepSeek-on-domestic-chips, Cambricon, Moore Threads, Biren, Alibaba T-Head or Baidu Kunlunxin production/yield milestone was found. SMIC’s supply outlook and xFusion’s server-sector IPO review are included, but neither proves leading-edge domestic accelerator independence. No fresh major robotics deployment or AI-science paper was verified. India’s strongest chip signal was Tata Electronics’ early-stage financing discussion for a 28nm–110nm fab; no new India AI model or government deployment order was confirmed. No new AI-specific model vulnerability disclosure was found; FaceStealer is an AI-assisted social-engineering campaign.",
+      "editorial_note": "Humanising newsroom pass applied. No external style linter was run. Rankings are editorial judgement, not objective truth; company claims, forecasts, preliminary filings, allegations and legal requests are labelled."
     }
   ],
   "stories": [
@@ -4005,7 +4192,8 @@
       "first_edition_path": "archive/2026-10-31.html",
       "edition_paths": [
         "archive/2026-10-31.html",
-        "archive/2026-11-06.html"
+        "archive/2026-11-06.html",
+        "archive/2026-11-13.html"
       ],
       "follow_up_editions": [
         {
@@ -4015,6 +4203,15 @@
           "material_change": "Adds reporting that Microsoft declined an optional Texas capacity expansion; existing contracted capacity remains unchanged.",
           "canonical_urls": [
             "https://www.reuters.com/technology/microsoft-rejects-multibillion-dollar-ai-deal-with-uks-nscale-ft-reports-2026-11-05/"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "path": "archive/2026-11-13.html",
+          "headline": "FOLLOW-UP: Nscale’s amended IPO filing shows 14-fold revenue growth and a $1.7bn nine-month loss",
+          "material_change": "The amended filing adds nine-month revenue of $307.5m and a net loss of $1.7bn, compared with $21.3m revenue and $433.3m loss a year earlier; IPO terms remain undisclosed.",
+          "canonical_urls": [
+            "https://www.reuters.com/technology/nscale-expects-14-fold-revenue-surge-amended-ipo-filing-2026-11-12/"
           ]
         }
       ],
@@ -4207,9 +4404,20 @@
       "first_edition_date": "2026-10-31",
       "first_edition_path": "archive/2026-10-31-edition-2.html",
       "edition_paths": [
-        "archive/2026-10-31-edition-2.html"
+        "archive/2026-10-31-edition-2.html",
+        "archive/2026-11-13.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-13",
+          "path": "archive/2026-11-13.html",
+          "headline": "FOLLOW-UP: Foxconn reports Q3 profit growth and a high-double-digit AI rack shipment outlook for 2027",
+          "material_change": "Foxconn’s Q3 profit rose 34% and management forecast high-double-digit AI rack shipment growth in 2027, while saying chips and memory remain constrained.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/retail-consumer/taiwans-foxconn-reports-34-rise-q3-profit-beats-forecasts-2026-11-12/"
+          ]
+        }
+      ],
       "source_metadata": [
         "Reuters, 30 Oct 2026; chairman remarks and company deployment figures"
       ],
@@ -6152,7 +6360,8 @@
         "archive/2026-11-06.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html",
-        "archive/2026-11-11.html"
+        "archive/2026-11-11.html",
+        "archive/2026-11-13.html"
       ],
       "follow_up_editions": [
         {
@@ -6172,6 +6381,15 @@
           "canonical_urls": [
             "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
             "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "path": "archive/2026-11-13.html",
+          "headline": "FOLLOW-UP: Anthropic’s IPO is reportedly about six times oversubscribed",
+          "material_change": "Bloomberg News reports demand about six times the shares available, with existing backers potentially prioritised; Anthropic had not commented and the book is not final.",
+          "canonical_urls": [
+            "https://www.reuters.com/legal/transactional/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-2026-11-12/"
           ]
         }
       ],
@@ -7547,9 +7765,21 @@
       "first_edition_path": "archive/2026-11-12.html",
       "edition_paths": [
         "archive/2026-11-12.html",
-        "archive/2026-11-12-edition-2.html"
+        "archive/2026-11-12-edition-2.html",
+        "archive/2026-11-13.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-13",
+          "path": "archive/2026-11-13.html",
+          "headline": "FOLLOW-UP: Jensen Huang steps down; Colette Kress becomes interim CEO",
+          "material_change": "Nvidia confirmed Huang’s immediate resignation as president, CEO and director; CFO Colette Kress becomes interim CEO while the board searches for a permanent successor. Congress requested testimony from Huang and Commerce Secretary Lutnick.",
+          "canonical_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx",
+            "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/"
+          ]
+        }
+      ],
       "source_metadata": [
         "Reuters · 11 Nov 2026",
         "NVIDIA independent-director statement · 10 Nov 2026"
@@ -7577,9 +7807,20 @@
       "first_edition_path": "archive/2026-11-12.html",
       "edition_paths": [
         "archive/2026-11-12.html",
-        "archive/2026-11-12-edition-2.html"
+        "archive/2026-11-12-edition-2.html",
+        "archive/2026-11-13.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-13",
+          "path": "archive/2026-11-13.html",
+          "headline": "FOLLOW-UP: Chinese AI firms move to reserve Nvidia compute outside China",
+          "material_change": "Reuters reports a major Chinese cloud provider discussed overseas capacity and smaller AI labs approached Southeast Asian data-centre operators; this is a new reported response to export-control uncertainty, not a confirmed final rule or completed set of contracts.",
+          "canonical_urls": [
+            "https://www.reuters.com/world/china/chinese-ai-firms-rush-secure-nvidia-chip-capacity-spy-scandal-stirs-fear-us-2026-11-12/"
+          ]
+        }
+      ],
       "source_metadata": [
         "Axios · 11 Nov 2026",
         "Reuters · 11 Nov 2026"
@@ -8084,6 +8325,467 @@
         "AI hiring",
         "Class action"
       ]
+    },
+    {
+      "story_id": "event-cisco-fy27-ai-infrastructure-revenue-outlook-2026-11-12",
+      "normalized_subject": "Cisco fiscal 2027 outlook and hyperscaler AI networking revenue",
+      "event_summary": "Cisco raised its FY2027 revenue outlook and lifted its hyperscaler AI infrastructure revenue target to $9bn, citing demand for networking and related systems.",
+      "normalized_headline": "Cisco lifts its AI infrastructure revenue target to $9bn as networking demand spreads",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/business/media-telecom/cisco-raises-annual-revenue-forecast-strong-ai-networking-demand-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "Revenue and AI infrastructure figures are company guidance reported by Reuters; forecasts are not recognised revenue.",
+      "entities": [
+        "Cisco",
+        "AI networking",
+        "hyperscalers"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-naver-ai-factory-2t-won-contract-2026-11-12",
+      "normalized_subject": "Naver AI Factory contract with unnamed US inference provider",
+      "event_summary": "Naver signed a roughly 2 trillion won, five-year AI-computing services contract covering 20MW with an unnamed US inference company; initial delivery is expected in 2027.",
+      "normalized_headline": "Naver signs a $1.4bn AI-compute contract before its AI Factory opens",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://en.sedaily.com/business/2026/11/12/naver-bets-on-ai-factory-agents-and-logistics-for-growth",
+        "https://www.koreatimes.co.kr/business/companies/20261112/naver-signs-2-trillion-won-ai-computing-deal-with-us-firm"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Seoul Economic Daily · 12 Nov 2026",
+        "The Korea Times · 12 Nov 2026"
+      ],
+      "delivery_note": "The customer is unnamed and the delivery schedule is company guidance; the agreement is reported as signed.",
+      "entities": [
+        "Naver",
+        "AI Factory",
+        "AI inference",
+        "South Korea"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-xfusion-ipo-review-passes-ai-server-growth-2026-11-12",
+      "normalized_subject": "xFusion IPO review and Chinese AI server business",
+      "event_summary": "xFusion passed the Shenzhen listing review committee’s issuance and listing review; its prospectus reports 2025 AI-server revenue of 29.629bn yuan, but the company is a server integrator rather than a chip designer.",
+      "normalized_headline": "China’s xFusion passes IPO review as AI servers become half its revenue",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://finance.eastmoney.com/a/202611123930019613.html",
+        "https://www.21jingji.com/article/20261113/herald/4d7b5f3a0f5b4f4bbf1c3a7d7b1a1f21.html"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Shanghai Securities News via Eastmoney · 13 Nov 2026",
+        "21st Century Business Herald · 13 Nov 2026"
+      ],
+      "delivery_note": "Financial figures are prospectus data reported by regional financial media; market-rank and cooling claims are company/prospectus claims. Listing review is not final listing approval.",
+      "entities": [
+        "xFusion",
+        "China",
+        "AI servers",
+        "liquid cooling"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-smic-q3-2026-results-ai-supply-tight-through-2027",
+      "normalized_subject": "SMIC third-quarter 2026 results and AI supply outlook",
+      "event_summary": "SMIC reported a 123.4% year-on-year profit increase, 33.9% revenue growth and 97.3% utilisation; management said AI chip supply would remain tight through 2027 and memory balance may take until 2028.",
+      "normalized_headline": "SMIC’s profit jumps 123%; management says AI chip supply will stay tight through 2027",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/smic-reports-1234-jump-third-quarter-profit-2026-11-12/",
+        "https://www.reuters.com/technology/smic-says-ai-chip-supply-chain-will-remain-tight-through-2027-2026-11-13/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026",
+        "Reuters · 13 Nov 2026"
+      ],
+      "delivery_note": "Quarterly figures are reported results; the supply and memory outlook is management guidance. This is not evidence of new leading-edge AI logic production.",
+      "entities": [
+        "SMIC",
+        "China",
+        "semiconductor foundry",
+        "AI supply chain"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-north-korea-facestealer-crypto-open-source-supply-chain-2026-11-12",
+      "normalized_subject": "North Korean FaceStealer social engineering campaign",
+      "event_summary": "The DOJ and FBI disrupted infrastructure used in a campaign that stole more than $400m in cryptocurrency over 18 months and increasingly targeted open-source maintainers using recorded video and AI-generated deepfakes.",
+      "normalized_headline": "FBI disrupts FaceStealer, an AI-assisted video scam targeting crypto users and open-source maintainers",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+        "https://www.fbi.gov/facestealer",
+        "https://www.reuters.com/world/asia-pacific/north-korean-hackers-steal-more-than-400-million-using-video-images-fbi-says-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "US Department of Justice · 12 Nov 2026",
+        "FBI FaceStealer guidance",
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "The $400m loss and 900-video seizure are government figures. The separate $1.2bn Binance asset restraint is not part of FaceStealer.",
+      "entities": [
+        "North Korea",
+        "FaceStealer",
+        "open-source supply chain",
+        "FBI",
+        "cryptocurrency"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-cerebras-q3-2026-outlook-openai-backlog-2026-11-12",
+      "normalized_subject": "Cerebras third-quarter results and 2026 revenue outlook",
+      "event_summary": "Cerebras raised its 2026 adjusted revenue guidance to $940m–$960m; its $26.1bn RPO is supported in large part by a $20bn multiyear OpenAI compute agreement.",
+      "normalized_headline": "Cerebras raises its 2026 outlook as cloud revenue and backlog grow",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/business/cerebras-raises-annual-sales-forecast-strong-ai-linked-demand-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "Adjusted revenue and RPO are company-reported measures; RPO is future contracted work, not cash already collected.",
+      "entities": [
+        "Cerebras",
+        "OpenAI",
+        "AI chips",
+        "inference"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-nonprofits-lawsuit-halt-frontier-ai-development-2026-11-12",
+      "normalized_subject": "Nonprofit lawsuit seeking to halt frontier AI development",
+      "event_summary": "A group of nonprofits sued OpenAI, Anthropic, SpaceX’s AI division, Meta and Google in San Francisco, asking the court to halt further frontier-model development; no injunction has been issued.",
+      "normalized_headline": "Nonprofits sue five AI developers, asking a court to halt frontier-model work",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/",
+        "https://apnews.com/article/8cf2319c870322019712ab658f71ec55"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026",
+        "Associated Press · 12 Nov 2026"
+      ],
+      "delivery_note": "The claims and requested remedy are allegations in a complaint, not a court finding or injunction.",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "SpaceX AI",
+        "California litigation"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-tata-electronics-2bn-loan-talks-dholera-fab-2026-11-12",
+      "normalized_subject": "Tata Electronics financing discussions for Dholera semiconductor fab",
+      "event_summary": "Tata Electronics is in early-stage discussions for up to $2bn in loans, potentially including an $800m first tranche, for its Dholera semiconductor expansion.",
+      "normalized_headline": "Tata Electronics explores up to $2bn in loans for semiconductor expansion",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://economictimes.indiatimes.com/industry/banking/finance/tata-electronics-in-talks-to-raise-2-billion-for-expansion/articleshow/135747322.cms"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Economic Times · 12 Nov 2026"
+      ],
+      "delivery_note": "Financing talks are preliminary and not a completed facility. The planned 28nm–110nm fab targets power-management chips and microcontrollers, not leading-edge AI GPUs.",
+      "entities": [
+        "Tata Electronics",
+        "India",
+        "Dholera",
+        "semiconductors"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-rox-series-b-100m-1-3bn-valuation-2026-11-11",
+      "normalized_subject": "Rox enterprise AI sales-agent Series B",
+      "event_summary": "Rox raised $100m at a reported $1.3bn valuation to expand its enterprise sales-agent platform; its claimed ARR growth is company-reported.",
+      "normalized_headline": "Rox raises $100m at a $1.3bn valuation for enterprise sales agents",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.reuters.com/business/automation-startup-rox-raises-100-million-13-billion-valuation-2026-11-11/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 11 Nov 2026"
+      ],
+      "delivery_note": "The valuation is reported by Reuters; the more-than-tenfold ARR growth is a company claim.",
+      "entities": [
+        "Rox",
+        "enterprise agents",
+        "sales automation"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-fed-barr-ai-job-disruption-labor-share-2026-11-12",
+      "normalized_subject": "Federal Reserve Governor Michael Barr remarks on AI and labour",
+      "event_summary": "Fed Governor Michael Barr warned that AI could displace workers at scale and widen inequality, citing a 52.8% labour share in Q2 2026.",
+      "normalized_headline": "Fed’s Barr warns AI could disrupt jobs and widen inequality",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/government/feds-barr-us-should-prepare-serious-ai-job-disruption-widening-inequality-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "These are a governor’s remarks and interpretation, not a formal Federal Reserve forecast or policy decision.",
+      "entities": [
+        "Federal Reserve",
+        "Michael Barr",
+        "AI",
+        "labour market"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-france-international-defence-ai-centre-2026-11-12",
+      "normalized_subject": "France international defence AI centre plan",
+      "event_summary": "France plans an international centre for defence-related AI with a target opening in summer 2027; funding and international membership remain unresolved.",
+      "normalized_headline": "France plans an international centre for defence-related AI",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/technology/french-army-ministry-set-up-centre-defence-related-ai-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "This is a government plan, not an operational centre; funding and membership are not final.",
+      "entities": [
+        "France",
+        "defence AI",
+        "NATO",
+        "European sovereignty"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-github-portable-agent-skills-guide-2026-11-12",
+      "normalized_subject": "GitHub guide to portable agent skills and SKILL.md",
+      "event_summary": "GitHub published practical guidance on packaging reusable agent instructions in SKILL.md files and sharing/versioning them across agent tools.",
+      "normalized_headline": "GitHub explains how to package reusable skills across AI agents",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://github.blog/ai-and-ml/generative-ai/build-once-run-on-any-agent/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "GitHub Blog · 12 Nov 2026"
+      ],
+      "delivery_note": "This is a developer guide, not a new formal standard; tool permissions, credentials and execution environments remain host-specific.",
+      "entities": [
+        "GitHub",
+        "agent skills",
+        "SKILL.md",
+        "developer tools"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-goldman-ai-investment-forecast-1-4tn-2027-2026-11-12",
+      "normalized_subject": "Goldman Sachs forecast for US AI hardware and intellectual-property spending",
+      "event_summary": "Goldman Sachs forecast annualised US AI hardware and IP spending above $900bn by end-2026 and $1.4tn by end-2027.",
+      "normalized_headline": "Goldman sees US AI hardware and IP spending reaching $1.4tn annualised",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/business/ai-stay-dominant-force-behind-us-business-investment-2027-goldman-says-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "This is a bank forecast based on assumptions, not actual or committed expenditure.",
+      "entities": [
+        "Goldman Sachs",
+        "AI investment",
+        "US capex"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-adaspace-hong-kong-ipo-ai-satellite-2026-11-13",
+      "normalized_subject": "Adaspace Hong Kong IPO debut",
+      "event_summary": "AI satellite maker Adaspace raised HK$750m in its Hong Kong IPO and fell 1.2% on its first trading day.",
+      "normalized_headline": "AI satellite maker Adaspace slips 1.2% on its Hong Kong debut",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/chinese-ai-satellite-maker-adaspace-slips-hong-kong-debut-2026-11-13/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 13 Nov 2026"
+      ],
+      "delivery_note": "IPO proceeds and first-day share movement are reported market facts; the company’s satellite AI capabilities remain company-described.",
+      "entities": [
+        "Adaspace",
+        "China",
+        "AI satellites",
+        "space computing"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-us-ai-task-force-ai-cyberattack-reporting-2026-11-13",
+      "normalized_subject": "US AI task force discussion of AI-powered cyberattack reporting",
+      "event_summary": "The White House AI task force discussed reporting standards and information sharing for AI-powered cyberattacks as the 2015 Cybersecurity Information Sharing Act approaches expiry.",
+      "normalized_headline": "Trump’s AI task force discusses reporting AI-powered cyberattacks",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 13 Nov 2026"
+      ],
+      "delivery_note": "The meeting produced discussion, not a new rule or formal decision.",
+      "entities": [
+        "White House",
+        "AI task force",
+        "cybersecurity",
+        "CISA"
+      ],
+      "follow_up_of": null,
+      "material_change": null
+    },
+    {
+      "story_id": "event-ai-firms-counterintelligence-hiring-ex-intelligence-2026-11-12",
+      "normalized_subject": "AI companies recruit former intelligence and counterintelligence staff",
+      "event_summary": "Reuters reports frontier AI companies are hiring counterintelligence specialists to protect model weights, code and trade secrets, with some job postings offering $200,000–$500,000 salaries.",
+      "normalized_headline": "AI firms are recruiting former intelligence officers to protect trade secrets",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/litigation/help-wanted-ai-firms-court-ex-spies-nvidia-drama-spotlights-security-risks-2026-11-12/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13.html",
+      "edition_paths": [
+        "archive/2026-11-13.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 12 Nov 2026"
+      ],
+      "delivery_note": "Hiring trend is based on Reuters reporting and job postings; advertised compensation is not a uniform salary range.",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Nvidia",
+        "ASML",
+        "counterintelligence"
+      ],
+      "follow_up_of": null,
+      "material_change": null
     }
   ]
 }
