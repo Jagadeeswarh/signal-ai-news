@@ -1,572 +1,199 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#f5f1e8">
-<meta name="description" content="SIGNAL. AI Daily — 13 November 2026, expanded edition 2. AMD MI400 performance, Nebius capacity delays, SGLang open inference, OpenAI India API residency and the AI compute supply chain.">
-<title>SIGNAL. — AI Daily | 13 November 2026 — Expanded edition 2</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="description" content="SIGNAL AI Daily — 13 November 2026 expanded edition 3: models, benchmarks, agents, security, research and builder culture.">
+<title>SIGNAL. — AI Daily | 13 November 2026 — Expanded Edition 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#f5f1e8;--ink:#171717;--muted:#615d56;--red:#8c2227;--line:#bdb5a8;--soft:#eae4d9;--white:#fbf9f4;--sans:Inter,Arial,Helvetica,sans-serif}
-*{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:13px/1.55 var(--sans)}
-a{color:var(--red);text-underline-offset:2px}
-button,input,textarea{font:inherit}
-button{cursor:pointer}
-header{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;background:var(--white);border-bottom:4px double var(--ink);padding:14px clamp(15px,3vw,40px)}
-.brand{font:700 clamp(38px,5vw,60px)/.9 "Space Grotesk",Arial,sans-serif;letter-spacing:.1em}
-.brand-sub{font-size:10px;font-weight:700;letter-spacing:.15em;color:var(--muted);text-transform:uppercase;margin:7px 0 0 4px}
-.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.actions button,.actions a{border:1px solid var(--ink);background:transparent;color:var(--ink);padding:8px 12px;text-decoration:none;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
-.actions .share{background:var(--red);border-color:var(--red);color:white}
-.shell{max-width:1480px;margin:auto;padding:0 clamp(15px,3vw,40px) 36px}
-.strip{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:9px 0;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700}
-.hero{display:grid;grid-template-columns:1.5fr .7fr;gap:25px;align-items:end;padding:20px 0 16px;border-bottom:3px solid var(--ink)}
-.kicker{color:var(--red);font-size:10px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;margin:0 0 8px}
-h1{font-size:clamp(31px,4.2vw,55px);line-height:1.02;letter-spacing:-.055em;margin:0 0 10px;font-weight:800}
-.hero p{margin:0;font-size:15px;line-height:1.45;color:#38352f}
-.hero-note{border-left:1px solid var(--line);padding-left:18px}
-.hero-note p{font-size:11px;color:var(--muted);margin:0 0 7px}
-.toolbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--line)}
-.search{flex:1;min-width:230px;max-width:450px}
-.search input{width:100%;padding:8px 10px;border:1px solid var(--line);background:var(--white)}
-.tools{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
-.tools button,.tools label{border:1px solid var(--line);background:var(--white);padding:7px 9px;font-size:10px}
-.tools input{width:65px;vertical-align:middle}
-.note{font-size:10px;color:var(--muted);margin:10px 0 14px}
-.layout{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:24px;align-items:start}
-.section{border-bottom:2px solid var(--ink);padding:0 0 6px;margin:15px 0 0;display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.section h2{font-size:17px;letter-spacing:-.03em;margin:0;font-weight:800}
-.section span{font-size:9px;color:var(--muted);letter-spacing:.12em;text-transform:uppercase;font-weight:700}
-.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
-.story{padding:13px 0 15px;border-bottom:1px solid var(--line);break-inside:avoid;min-width:0}
-.story.lead{grid-column:1/-1;padding-left:13px;margin-left:-13px;background:linear-gradient(90deg,var(--soft) 0 4px,transparent 4px)}
-.meta{display:flex;align-items:center;gap:8px;margin-bottom:7px;flex-wrap:wrap}
-.rank{display:inline-grid;place-items:center;width:25px;height:24px;background:var(--red);color:white;font-size:11px;font-weight:800}
-.tag{font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
-.kind{font-size:9px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#625d55;border:1px solid var(--line);padding:2px 5px}
-time{margin-left:auto;color:var(--muted);font-size:10px}
-h3{font-size:clamp(18px,2vw,24px);line-height:1.12;letter-spacing:-.04em;margin:0 0 6px}
-.story.lead h3{font-size:clamp(24px,3vw,34px)}
-.deck{font-weight:650;font-size:12px;line-height:1.4;margin:0 0 8px;color:#3b3832}
-.story p{margin:7px 0}
-.evidence,.why,.rankwhy,.source{font-size:10.5px}
-.evidence{border-left:2px solid var(--line);padding-left:9px;color:#514d46}
-.why{background:var(--soft);padding:8px 10px}
-.rankwhy{font-style:italic;color:var(--muted)}
-.source{line-height:1.8;color:var(--muted)}
-.source b{color:var(--ink)}
-.rail{padding-top:15px}
-.box{border-top:2px solid var(--ink);padding:9px 0 12px;margin-bottom:13px}
-.box h3{font-size:13px;margin:0 0 7px}
-.box p,.box li{font-size:10px;color:#514d46;line-height:1.5}
-.box ul{padding-left:15px;margin:5px 0}
-.box li{margin:4px 0}
-.callout{background:var(--ink);color:var(--paper);padding:12px}
-.callout h3{color:white}
-.callout p,.callout li{color:#e6dfd3}
-.table-wrap{overflow-x:auto}
-table{border-collapse:collapse;width:100%;min-width:850px;font-size:10px}
-th{background:var(--ink);color:white;text-align:left;padding:8px 7px;font-size:9px;text-transform:uppercase;letter-spacing:.1em}
-td{padding:8px 7px;border-bottom:1px solid var(--line);vertical-align:top}
-tr:nth-child(even){background:#eee9df}
-td:first-child{width:28px}
-input[type=checkbox]{accent-color:var(--red);width:15px;height:15px}
-.smallrank{color:var(--red);font-weight:800}
-.context{font-size:10px;color:#555047;line-height:1.45;margin-top:3px;max-width:680px}
-.review{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--line)}
-.review button{background:var(--red);color:white;border:0;padding:9px 12px;font-size:10px;font-weight:800;letter-spacing:.1em}
-.status{font-size:10px;color:var(--muted)}
-.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:12px 0 20px}
-.analysis{border-top:2px solid var(--red);padding-top:7px}
-.analysis h3{font-size:14px;margin:0 0 5px}
-.analysis p{font-size:11px;margin:0;color:#514d46}
-.watch{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0 18px}
-.watch div{border-top:1px solid var(--line);padding:7px 0}
-.watch strong{display:block;font-size:11px}
-.watch span{font-size:10px;color:var(--muted)}
-.glossary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 14px;margin:8px 0 20px}
-.term{border-top:1px solid var(--line);padding:7px 0}
-.term dt{font-size:10px;font-weight:800}
-.term dd{font-size:10px;color:var(--muted);margin:2px 0 0}
-details{border-top:1px solid var(--line);padding:8px 0}
-summary{font-size:10px;font-weight:800;cursor:pointer}
-details p,details li{font-size:10px;color:var(--muted);line-height:1.5}
-details ul{columns:3;padding-left:16px}
-.domain-list{word-break:break-word;line-height:1.7}
-.hidden{display:none!important}
-footer{border-top:4px double var(--ink);padding:12px 0;margin-top:24px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:9px}
-.modal{display:none;position:fixed;inset:0;background:#0009;z-index:5;align-items:center;justify-content:center;padding:18px}
-.modal.open{display:flex}
-.modalcard{background:var(--white);border:2px solid var(--ink);padding:16px;width:min(650px,100%)}
-.modalcard h2{font-size:18px;margin:0 0 6px}
-.modalcard p{font-size:11px;color:var(--muted)}
-textarea{width:100%;min-height:180px;padding:9px;border:1px solid var(--line);background:white;font:10px/1.45 var(--sans)}
-.modalcard button{padding:8px 11px;background:var(--ink);color:white;border:0;margin:8px 5px 0 0;font-size:10px;font-weight:800}
-@media(max-width:1050px){.layout{grid-template-columns:minmax(0,1fr) 250px}.story-grid{grid-template-columns:1fr}}
-@media(max-width:800px){.layout{grid-template-columns:1fr}.rail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.story-grid{grid-template-columns:1fr}}
-@media(max-width:600px){.hero{grid-template-columns:1fr}.hero-note{border-left:0;border-top:1px solid var(--line);padding:9px 0 0}.rail{grid-template-columns:1fr}.grid2,.watch{grid-template-columns:1fr}.glossary{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-sub{display:none}}
-@media print{body{background:white;font-size:10pt}header,.shell{max-width:none;padding-left:0;padding-right:0}.toolbar,.review,.modal,.no-print{display:none!important}.layout{display:block}.rail{display:grid;grid-template-columns:repeat(3,1fr)}.story-grid{display:block}.story{break-inside:avoid}.story.lead{background:none;border-left:3px solid #999;padding-left:10px}a{color:black;text-decoration:none}.source a:after{content:" (" attr(href) ")";font-size:8pt;word-break:break-all}table{min-width:0}th{background:#ddd;color:black}details{break-inside:avoid}}
-</style>
-</head>
-<body>
-<header id="top">
-  <div><span class="brand">SIGNAL.</span><span class="brand-sub">AI DAILY / COMPUTE · CODE · CONSEQUENCE</span></div>
-  <div class="actions"><span class="meta">FRIDAY · 13 NOV 2026 · EDITION 2</span><button class="share" id="shareBtn">SHARE ↗</button><button id="downloadBtn">DOWNLOAD HTML</button><a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/index.html" target="_blank" rel="noopener">ARCHIVE</a></div>
-</header>
-<div class="shell">
-<div class="strip"><span>GLOBAL AI INDUSTRY DESK · SOURCE-CHECKED EDITION</span><span>ASIA / KOLKATA · 08:25 IST</span><span>48-HOUR WINDOW · 11–13 NOV 2026</span></div>
-
-<section class="hero">
-  <div>
-    <p class="kicker">THE MORNING BRIEF / FRIDAY EDITION 2</p>
-    <h1>Inference is becoming a contest over chips, software, power and where the data runs.</h1>
-    <p>AMD has expanded its MI400 accelerator family and published new Helios inference results. Nebius’ results show how third-party data-centre delays can push revenue even while spending rises. Nvidia, AMD, Intel, Google and Meta are backing a shared SGLang inference roadmap, while OpenAI has added India-based API processing for eligible GPT-6 Luna workloads. The original 13 November desk remains intact; this expanded edition adds four main-desk reports and two additional signals.</p>
-  </div>
-  <div class="hero-note">
-    <p><strong>27 distinct developments</strong><br>14 main-desk reports · 13 more signals</p>
-    <p><strong>21 new stories · 6 material follow-ups</strong><br>4 repeat candidates excluded in this update; 3 out-of-window candidates were not promoted.</p>
-    <p><strong>Research breadth</strong><br>68 distinct domains targeted · 14 domains opened and inspected.</p>
-    <p><strong>Archive check</strong><br>31 dated issue files fetched and checked · none unavailable.</p>
-    <p><strong>Editorial note</strong><br>Rankings weigh consequence, novelty, evidence, likely impact and developer relevance. They are editorial judgement, not objective truth.</p>
-  </div>
+:root{--paper:#f5f1e8;--ink:#071717;--muted:#625d56;--red:#8c2227;--line:#c9c0b3;--soft:#ebe5db;--white:#fbf9f4;--sans:Inter,Arial,Helvetica,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.65 var(--sans)}
+a{color:var(--red);text-underline-offset:3px}.page{max-width:1120px;margin:auto;padding:24px clamp(16px,3vw,36px) 70px}
+header{display:flex;align-items:center;justify-content:space-between;gap:18px;border-bottom:4px double var(--ink);padding-bottom:14px}
+.logo{font:700 clamp(42px,8vw,72px)/.95 "Space Grotesk",sans-serif;letter-spacing:.04em}.logo span{color:var(--red)}.tools{display:flex;gap:8px;flex-wrap:wrap}
+button{border:1px solid var(--ink);background:transparent;padding:8px 12px;font:600 12px var(--sans);cursor:pointer}button:hover{background:var(--ink);color:white}
+.kicker{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--red);font-weight:800;margin:20px 0 8px}
+h1,h2,h3,p{margin-top:0}h1{font-size:clamp(26px,4vw,42px);line-height:1.12;max-width:850px;margin-bottom:10px}h2{font-size:23px;line-height:1.2;border-bottom:2px solid var(--ink);padding-bottom:8px;margin:32px 0 12px}h3{font-size:19px;line-height:1.25;margin-bottom:9px}
+.deck{font-size:17px;max-width:880px;color:#38342f}.edition-meta{font-size:12px;color:var(--muted);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0;margin:16px 0}
+.brief{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;margin:20px 0}.brief>div{background:var(--white);border:1px solid var(--line);padding:16px}
+.brief h2{margin:0 0 8px;font-size:19px;border:0;padding:0}.brief p{margin:0 0 8px}
+.toc{display:flex;gap:8px 16px;flex-wrap:wrap;font-size:12px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0}.toc a{font-weight:700;text-decoration:none}
+.note{background:var(--soft);padding:12px 14px;border-left:4px solid var(--red);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}.story{border-top:1px solid var(--line);padding:18px 0;break-inside:avoid}.story p{margin-bottom:9px}.meta{display:flex;justify-content:space-between;color:var(--red);font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;margin-bottom:7px}.why{font-size:13px;color:#3c3934}.source{font-size:11px;color:var(--muted);border-top:1px dotted var(--line);padding-top:7px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:12px 0 20px}td,th{padding:9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--soft);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+ul{padding-left:20px}li{margin:5px 0}.footer{margin-top:40px;border-top:4px double var(--ink);padding-top:14px;color:var(--muted);font-size:12px}
+.searchbar{display:flex;gap:8px;align-items:center;margin:12px 0}input{font:inherit;padding:8px;border:1px solid var(--line);background:var(--white);min-width:220px;max-width:100%}
+.small{font-size:12px;color:var(--muted)}.pill{display:inline-block;border:1px solid var(--line);padding:2px 7px;font-size:10px;text-transform:uppercase;letter-spacing:.08em;margin-right:5px}
+@media(max-width:760px){.brief,.grid{grid-template-columns:1fr}header{align-items:flex-start;flex-direction:column}.tools{width:100%}}
+@media print{body{background:white;font-size:11pt}.page{max-width:none;padding:0}.tools,.searchbar{display:none}a{color:#071;text-decoration:underline}.story{break-inside:avoid}}
+</style></head>
+<body><div class="page">
+<header><div class="logo">SIGNAL<span>.</span></div><div class="tools">
+<button onclick="window.print()">PRINT / SAVE PDF</button><button onclick="speak()">READ ALOUD</button><button onclick="stopSpeak()">STOP</button><button onclick="sharePage()">SHARE</button>
+</div></header>
+<div class="kicker">AI Daily · Expanded late-day update · Edition 3</div>
+<h1>Models are getting faster. Agents are getting more consequential. The weak links are now coordination, trust and infrastructure.</h1>
+<p class="deck">A broader second pass through today’s AI news: Google’s new agent-focused model and decision API, a fresh open-model release from Baidu, a new multilingual family from Poland, agent research that exposes coordination failures, a Microsoft outage that was not a cyberattack, and a handful of tools builders can actually inspect.</p>
+<div class="edition-meta">Friday, 13 November 2026 · Asia/Kolkata · 17 story entries · 1 material benchmark follow-up · Expanded update to today’s earlier edition</div>
+<div class="brief">
+<div><h2>The editor’s briefing</h2><p>Google is splitting the model stack more explicitly: a strong planner, a faster execution model and a separate single-pass decision model. That architecture may matter more to agent cost than a single headline benchmark. Baidu and Bielik are pushing agentic and multilingual models beyond the usual US lab circuit.</p><p>Meanwhile, agent research is moving from “can the model use tools?” to “can multiple agents coordinate without overriding people, losing context or corrupting shared work?” The Microsoft outage is a separate reliability lesson: a server health-check failure and capacity cascade, not a confirmed cyberattack.</p></div>
+<div><h2>What deserves your attention</h2><ul><li><b>Build:</b> Gemini Decisions API, OpenBot and Astryx.</li><li><b>Evaluate:</b> Fable’s coding lead is a composite index, not one universal score.</li><li><b>Secure:</b> treat agent permissions and third-party app grants as production attack surface.</li><li><b>Watch:</b> open weights for ERNIE and Bielik, plus independent tests of Google’s agent claims.</li></ul></div>
+</div>
+<nav class="toc"><a href="#models">Models & benchmarks</a><a href="#security">Security & reliability</a><a href="#agents">Agents & inference</a><a href="#builders">Builders & products</a><a href="#research">Research papers</a><a href="#future">Future radar</a><a href="#money">Capital lens</a><a href="#audit">Source audit</a></nav>
+<p class="note"><b>How to read this update:</b> This is an additive expanded edition. The earlier 13 November edition remains preserved and contains the day’s compute, supply-chain, India API-residency, funding and infrastructure coverage. <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-13-edition-2.html">Open the earlier full edition</a>. Items below were checked against the persistent story registry; one Fable item is explicitly marked as a material benchmark follow-up. Company claims and preprint results are labelled as such.</p>
+<div class="searchbar"><label for="q"><b>Search this update</b></label><input id="q" placeholder="Filter stories, models, topics…" oninput="filterStories()"></div>
+<section id="models"><h2>Models & benchmark desk</h2><div class="grid">
+    <article class="story" id="s1">
+      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#01</span></div>
+      <h3>Gemini 4 Hydrogen brings Google’s agentic model stack down the price curve</h3>
+      <p>Google introduced Gemini 4 Hydrogen on 12 November as its fast execution model for coding and agent workflows. It has a 1-million-token context window and is priced at $1.50 per million input tokens and $7.50 per million output tokens. Google reports a score of 51 on the Artificial Analysis Intelligence Index at default high thinking (54 at xhigh), versus 50 for Gemini 4 Argon. Google also says its Antigravity Orchestrator can combine Carbon and Hydrogen to approach Carbon task success on Terminal-Bench 4.0 while using 24% less quota and finishing 19% faster. These are vendor-reported results; independent replication is still needed.</p>
+      <p class="why"><b>Why it matters:</b> For everyday coding, test execution and verification, a cheaper fast model paired with a stronger planner may be more economical than asking one frontier model to do everything.</p>
+      <div class="source">Google · 12 Nov 2026 · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s2">
+      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#02</span></div>
+      <h3>Google’s Gemini Decisions API turns classification into a first-class model call</h3>
+      <p>Gemini Decision 1 scores up to 1,000 yes/no, multiple-choice or rubric questions in one request, across text, images, audio, video and PDFs. Google documents a 256K-token input limit, 150–250 ms end-to-end latency and pricing of $0.10 per million input tokens with no output-token charge. The intended jobs are routing, policy checks, tool selection and grading—not open-ended conversation. Google reports nearly 5× lower cost than Gemini 3.5 Flash-Lite on its shared benchmark suite; that comparison is vendor-published.</p>
+      <p class="why"><b>Why it matters:</b> This could remove unnecessary generation steps from agent architectures. Use it for bounded decisions, but route low-confidence cases to a larger model or a human.</p>
+      <div class="source">Google · 11 Nov 2026 · <a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s3">
+      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#03</span></div>
+      <h3>FOLLOW-UP: Fable 5.2 moves to the top of a third-party coding index</h3>
+      <p>The November 13 BenchLeader snapshot gives Claude Fable 5.2 a coding composite of 80.8, ahead of Opus 5.5 at 79.8, Gemini 4 Carbon at 74.1 and GPT-6 Astra at 73.3. The index standardises and averages 13 benchmark boards from 17 publishers; it is not one raw benchmark score. FrontierCode 2.0, one active board, shows Fable 5.2 at 49.1% on its newest result. Harness differences matter, and several popular coding benchmarks are near saturation. This is a material independent-evaluation follow-up to the Fable 5.2 launch already covered in the earlier November 10 SIGNAL edition.</p>
+      <p class="why"><b>Why it matters:</b> For a developer choosing a model, the useful signal is not a single leaderboard crown: Fable 5.2 leads the aggregate coding index, while benchmark saturation and harness effects still limit certainty.</p>
+      <div class="source">BenchLeader · data as of 13 Nov 2026 · <a href="https://www.benchleader.com/benchmarks/coding" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s4">
+      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#04</span></div>
+      <h3>Baidu previews ERNIE 5.5 Flash: 280B total parameters, 14B active</h3>
+      <p>Baidu released ERNIE 5.5 Flash Preview, a post-trained model with 280 billion total parameters, 14 billion active parameters and a 1-million-token context window. Its API is available through Qianfan and OpenRouter; Baidu says the weights will follow under Apache 2.0, but they are not yet open. The company’s demos include game-building, Blender and FreeCAD CAD work, research reports and video production. Baidu says the preview is still being post-trained, so treat its demos and benchmark images as company evidence, not independent proof of general capability.</p>
+      <p class="why"><b>Why it matters:</b> Watch for the actual weight release, reproducible evals and serving requirements. The 14B-active MoE design could matter for cost if the software stack and quality hold up.</p>
+      <div class="source">Baidu · 13 Nov 2026 · <a href="https://ernie.baidu.com/release/ernie-5-5-flash-preview/" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s5">
+      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#05</span></div>
+      <h3>Poland’s Bielik expands to 56 languages and adds decision models</h3>
+      <p>SpeakLeash and ACK Cyfronet AGH announced a three-part Bielik release sequence: Bielik 11B v3.1, its DFlash speculative-decoding companion, and the Bielik-One family of decision models. Bielik 11B v3.1 was trained on an additional 500 billion tokens and expands reported language coverage from 32 to 56, with tool calling and multi-step reasoning. Bielik-One targets classification and scoring rather than long-form generation. The team says the models will be released on Hugging Face under open-science terms; check the model cards and licences before production use.</p>
+      <p class="why"><b>Why it matters:</b> This is a useful non-US open-model signal: multilingual coverage, small decision models and speculative decoding may be more practical for regional products than chasing only the largest frontier model.</p>
+      <div class="source">Bielik.ai · 10–12 Nov 2026 · <a href="https://www.bielik.ai/en/blog/launching-bielik-11b-v31-dflash-and-the-bielik-one-family" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article></div></section>
+<section id="security"><h2>Security & reliability</h2><div class="grid">
+    <article class="story" id="s6">
+      <div class="meta"><span>SECURITY &amp; RELIABILITY</span><span>#06</span></div>
+      <h3>Microsoft 365 outage: failed health checks and cascading capacity loss, not a confirmed cyberattack</h3>
+      <p>Microsoft’s November 12–13 outage affected Exchange Online and connected Microsoft 365 services, including Outlook, parts of Teams, SharePoint, Copilot and Graph-dependent workflows. Microsoft’s service updates said affected servers were failing automated health checks and becoming unavailable; traffic then shifted to remaining capacity, which became overloaded. Some restored servers became unresponsive again when traffic returned. The Guardian reported nearly 130,000 Down Detector reports and more than nine hours of disruption. Microsoft said there was no indication the outage was caused by a cyberattack. At the latest status snapshot inspected for this edition, service degradation was still listed; status can change after publication.</p>
+      <p class="why"><b>Why it matters:</b> The engineering lesson is failure amplification: health-check logic, rollback safety, traffic shaping and spare capacity can turn a local fault into a global outage. Keep alternate communications and recovery paths.</p>
+      <div class="source">Microsoft Service Health · 13 Nov 2026; Guardian · 13 Nov 2026 · <a href="https://sdf.status.cloud.microsoft/" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s7">
+      <div class="meta"><span>SECURITY &amp; RELIABILITY</span><span>#07</span></div>
+      <h3>A separate AI-enabled supply-chain campaign used ARTEX to accelerate intrusions</h3>
+      <p>Microsoft Security Research says the China-state-aligned actor Storm-0940 used the ARTEX agentic penetration-testing framework from September 2026 to automate attacks against hundreds of organisations. Microsoft linked the activity to a ConnectWise multi-tenant application supply-chain compromise and reported cases where attackers gained privileged cloud access in under three hours. Microsoft also says the activity did not result from a compromise or vulnerability in Microsoft’s own corporate systems or products. This campaign is separate from the Microsoft 365 service outage above; do not conflate them.</p>
+      <p class="why"><b>Why it matters:</b> Agent security is now operational security. Review third-party app grants, service-principal sign-ins, credential changes and Graph activity; constrain agent permissions and audit tool execution.</p>
+      <div class="source">Microsoft Security Research · 21 Oct 2026 · <a href="https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article></div></section>
+<section id="agents"><h2>Agents, inference & systems research</h2><div class="grid">
+    <article class="story" id="s7">
+      <div class="meta"><span>AGENTS &amp; RESEARCH</span><span>#07</span></div>
+      <h3>Anthropic’s MAMUBench finds that multi-user agent teams can perform worse than one coordinator</h3>
+      <p>In a November 11 research post, Anthropic researchers tested agents representing different users while sharing scarce resources such as API budgets, calendars and group bookings. In the tested environments, one coordinator outperformed peer-to-peer teams by roughly 10–45 percentage points. The researchers also observed agents overriding other users’ requests and making unsupported claims about what others wanted. A platform guard that prevented checkout until pending messages had been read recovered many failed booking episodes. The benchmark and code are public under an MIT licence.</p>
+      <p class="why"><b>Why it matters:</b> The next agent problem is coordination across people, not just multi-agent task decomposition. Shared carts, calendars, codebases and budgets need permissions, consent and commit-time checks.</p>
+      <div class="source">Anthropic Alignment Science · 11 Nov 2026 · <a href="https://alignment.anthropic.com/2026/worse-together/" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s7">
+      <div class="meta"><span>INFRASTRUCTURE &amp; INFERENCE</span><span>#07</span></div>
+      <h3>Evolving Infra reports up to 4.1× lower latency for agent workloads</h3>
+      <p>A research team including Ion Stoica and Song Han describes an agent-adaptive serving framework that reallocates prefill and decode compute and manages the KV cache using signals from agent context. In tests with GLM-5.2 and Kimi K2.6 on up to 256 GB300 GPUs, the authors report up to 4.1× lower mean end-to-end latency and 14× lower P95 time-to-first-token than NVIDIA Dynamo. These are results from the paper’s particular workloads and hardware setup, not a universal benchmark. The implementation is open-sourced.</p>
+      <p class="why"><b>Why it matters:</b> Agent workloads reuse long contexts and pause between tool calls. Better serving and cache policy can lower costs without waiting for a new GPU generation.</p>
+      <div class="source">arXiv · revised 12 Nov 2026 · <a href="https://arxiv.org/abs/2611.12304" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s7">
+      <div class="meta"><span>INFRASTRUCTURE &amp; INFERENCE</span><span>#07</span></div>
+      <h3>SteerDistill targets the quality penalty of quantized agents</h3>
+      <p>SteerDistill uses a full-precision teacher to correct failed low-bit agent rollouts, then distils those corrections into a smaller model. The paper reports that W4A16 models beat the strongest quantized baseline by 1.67–2.18 points across five agent benchmarks and remain within one point of BF16. On τ²-Bench, it reports a 1.84-point gain over QeRL while using 67% fewer training GPU hours. These are preprint results; independent replication and broader model coverage are still needed.</p>
+      <p class="why"><b>Why it matters:</b> If replicated, this is a practical route to cheaper high-volume agents: optimise the behaviour that fails during execution, not only static token prediction.</p>
+      <div class="source">arXiv · 10 Nov 2026 · <a href="https://arxiv.org/abs/2611.13410" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article></div></section>
+<section id="builders"><h2>Builders, design systems & agent products</h2><div class="grid">
+    <article class="story" id="s7">
+      <div class="meta"><span>BUILDERS &amp; DESIGN</span><span>#07</span></div>
+      <h3>Meta open-sources Astryx, an agent-ready React design system</h3>
+      <p>Meta’s Astryx repository describes a beta design system built on React 19 and StyleX, with more than 150 accessible components, themes, templates and a CLI designed for both developers and coding agents. Meta says the system grew inside the company over eight years and powers more than 13,000 internal apps. The repository is MIT-licensed. It supports customisation without forcing teams to adopt StyleX as their application styling layer.</p>
+      <p class="why"><b>Why it matters:</b> For frontend builders, this is a reusable component and design-token system with agent-facing documentation. Evaluate the beta maturity and accessibility in your own app before adopting.</p>
+      <div class="source">Meta / GitHub · repository inspected 13 Nov 2026 · <a href="https://github.com/meta/astryx" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s7">
+      <div class="meta"><span>BUILDERS &amp; AGENT PRODUCTS</span><span>#07</span></div>
+      <h3>CopilotKit’s OpenBot packages AI coworkers with browser, files, approvals and audit</h3>
+      <p>OpenBot is an MIT-licensed, self-hostable workspace for AI agents. Its repository describes support for agents built with different stacks through AG-UI, model choice across OpenAI, Claude, Gemini and open models, MCP tools, browser/computer access, permissions, approvals and audit trails. The GitHub repository showed 11.6k stars and 1.4k forks when inspected. The project is a substantial builder signal, but its own README still distinguishes local deployment from the early-access business offering.</p>
+      <p class="why"><b>Why it matters:</b> Worth studying if you want to build a governed agent workspace rather than a one-off chatbot. The approval and audit layer is as important as the model connection.</p>
+      <div class="source">CopilotKit / GitHub · repository inspected 13 Nov 2026 · <a href="https://github.com/CopilotKit/OpenBot" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article></div></section>
+<section id="research"><h2>Research, evaluation, speech & multimodal</h2><div class="grid">
+    <article class="story" id="s7">
+      <div class="meta"><span>RESEARCH &amp; EVALUATION</span><span>#07</span></div>
+      <h3>GTAGym turns a commercial game into a testbed for visual agents</h3>
+      <p>GTAGym introduces an evaluation and reinforcement-learning environment built around GTA V tasks: 103 online tasks derived from story missions and 47 image-based shooting tasks, with outcomes checked against game-engine state. The best of six tested frontier models reached 70.9% on the paper’s GTAVBench-AGI configuration. LoRA reinforcement learning raised Qwen3.8-27B from 15% to 23% on native GTA V tasks. Aerial navigation and interception remained difficult. This is a preprint benchmark, not a general measure of intelligence.</p>
+      <p class="why"><b>Why it matters:</b> Game environments provide long-horizon perception-and-action tests that are harder to fake than static question answering. They expose the gap between seeing a screen and controlling a world.</p>
+      <div class="source">arXiv · revised 11 Nov 2026 · <a href="https://arxiv.org/abs/2611.13028" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s7">
+      <div class="meta"><span>RESEARCH &amp; EVALUATION</span><span>#07</span></div>
+      <h3>A trajectory study finds many agent failures were visible before the final mistake</h3>
+      <p>Researchers annotated 95 failed runs from six multi-agent systems and found that 72% already contained evidence contradicting the error before the failure, but agents did not act on it. The paper also found that 45% of hand-crafted failures in one dataset ended in a provider content-filter crash after which the harness emitted a final answer the agent had not produced. That finding is a warning about evaluation quality: some apparent model failures may be harness failures.</p>
+      <p class="why"><b>Why it matters:</b> For production systems, preserve full trajectories and re-check beliefs against tool outputs. For benchmark readers, inspect whether the evaluation harness itself is reliable.</p>
+      <div class="source">arXiv · 9 Nov 2026 · <a href="https://arxiv.org/abs/2611.13254" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s7">
+      <div class="meta"><span>RESEARCH &amp; TRAINING</span><span>#07</span></div>
+      <h3>On-policy mid-training distillation may help specialised models avoid learning the wrong way</h3>
+      <p>The OPMD paper argues that ordinary next-token continued training can help one base model while damaging another on the same domain corpus. Its method samples trajectories from the evolving student and uses a frozen teacher to provide token-level reverse-KL guidance. In the reported math experiments, OPMD improves Qwen3-1.7B on MATH-500 and Minerva where the evaluated next-token baseline degrades. The result is narrow and preprint-stage, but it suggests domain adaptation may need to account for what the student can already do.</p>
+      <p class="why"><b>Why it matters:</b> This matters to teams fine-tuning smaller models for domain work: adding more domain tokens is not automatically beneficial.</p>
+      <div class="source">arXiv · 10 Nov 2026 · <a href="https://arxiv.org/abs/2611.13855" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s7">
+      <div class="meta"><span>SPEECH &amp; MULTIMODAL</span><span>#07</span></div>
+      <h3>Emilia2 releases a 229,000-hour dataset for long-form, multi-speaker speech</h3>
+      <p>Emilia2 is a research dataset for controllable long-form speech generation. The paper describes 229,000 hours of multilingual audio, natural-language instructions for 4.77 million examples and non-verbal tags for 933,000 examples. Its test set contains 23 hours of bilingual recordings, up to 30 minutes long and with four speakers. A 0.6B non-autoregressive model trained on the dataset reports the best Chinese character-error and English word-error rates among the systems compared. Dataset access and licence details should be checked before commercial use.</p>
+      <p class="why"><b>Why it matters:</b> Long-form speech needs speaker identity, turn-taking and expressive consistency over minutes—not just a clean 10-second voice sample. This dataset targets that gap.</p>
+      <div class="source">arXiv · 10 Nov 2026 · <a href="https://arxiv.org/abs/2611.13614" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article>
+    <article class="story" id="s7">
+      <div class="meta"><span>SPEECH &amp; MULTIMODAL</span><span>#07</span></div>
+      <h3>Walrus shows how far an 8B speech model can go with a data-first recipe</h3>
+      <p>Walrus is an 8-billion-parameter speech-and-audio model built on a standard Gemma 4 decoder backbone. Its technical report describes more than 600 million training samples across 20-plus tasks and 100 languages, covering recognition, translation, text-to-speech, emotion and general audio understanding. The authors report matching or exceeding the roughly four-times-larger Qwen3-Omni on most benchmarks. This is a technical report and the authors’ benchmark claim; independent evaluation and practical model availability remain to be checked.</p>
+      <p class="why"><b>Why it matters:</b> The cost lesson is that data quality and task-aware training can sometimes compete with simply scaling parameter count.</p>
+      <div class="source">arXiv · 10 Nov 2026 · <a href="https://arxiv.org/abs/2611.13689" target="_blank" rel="noopener">Original source / paper</a></div>
+    </article></div></section>
+<section id="future"><h2>Future radar · next 3–12 months</h2>
+<table><thead><tr><th>Watch item</th><th>What would confirm it</th><th>Why it matters</th></tr></thead><tbody>
+<tr><td>Gemini’s planner/executor orchestration</td><td>Independent Terminal-Bench and real repository tests; quota and latency measurements across multi-step tasks.</td><td>Could make model routing and workload-specific inference a bigger cost lever than raw model size.</td></tr>
+<tr><td>ERNIE 5.5 Flash weights and Bielik model cards</td><td>Actual weight publication, licence text, reproducible benchmarks, quantisation and serving requirements.</td><td>Open weights and regional language support can widen the pool of deployable models.</td></tr>
+<tr><td>Agent coordination benchmarks</td><td>External replications of MAMUBench and fixes for consent, message-read and shared-resource conflicts.</td><td>Multi-user agents will need platform-level governance, not just better prompts.</td></tr>
+<tr><td>Inference efficiency stack</td><td>Independent tests of Evolving Infra and SteerDistill on different GPUs, models and production traffic.</td><td>Better serving and quantisation could shift economics for agent-heavy workloads.</td></tr>
+<tr><td>Microsoft 365 incident review</td><td>Microsoft’s final root-cause analysis, corrective actions and evidence that health-check changes cannot trigger a similar cascade.</td><td>Cloud resilience is part of AI product reliability when copilots and agents depend on the same services.</td></tr>
+</tbody></table>
 </section>
-
-<div class="toolbar no-print">
-  <div class="search"><input id="search" type="search" placeholder="Search this edition: Nvidia, HBM, Naver, FaceStealer, agents…"></div>
-  <div class="tools">
-    <button id="play">▶ READ</button><button id="pause">Ⅱ PAUSE</button><button id="stop">■ STOP</button>
-    <label>Speed <input id="speed" type="range" min=".75" max="1.5" step=".05" value="1"><span id="speedval">1.00×</span></label>
-    <button id="printBtn">PRINT / PDF</button>
-  </div>
+<section id="money"><h2>Capital flows & portfolio lens</h2>
+<p>The earlier edition already covers today’s large infrastructure and financing signals, including AMD’s MI400 roadmap, Nebius capacity delays, Cerebras’ outlook, Cisco networking demand, SMIC’s supply commentary and the Naver AI-compute contract. This update does not repeat those items.</p>
+<p>The new angle is the economics below the chip layer. Google’s lower-cost execution model and decision-only API, Evolving Infra’s serving efficiency and SteerDistill’s quantisation work all target the cost of running agents. If they hold up outside vendor tests and preprints, more value may accrue to inference software, routing, caching, memory efficiency and production orchestration—not only accelerator suppliers.</p>
+<p><b>Portfolio watch, not a buy/sell call:</b> track who can turn announced capacity into deployed, utilised compute; who lowers inference cost per successful task; and who owns the workflow layer. Treat model-leaderboard leadership as a product signal, not proof of durable margins. The previous edition’s capex and supplier coverage remains the primary capital-flow report for today.</p>
+</section>
+<section id="audit"><h2>Coverage & source audit</h2>
+<p><b>New items:</b> 17 story entries in this update: 16 new events plus 1 material benchmark follow-up; 12 main-desk reports and 5 research briefs; 0 unverified viral claims promoted to confirmed news. The earlier edition remains separately archived and linked above.</p>
+<p><b>Research breadth:</b> this pass directly inspected 14 distinct source domains across primary model and product documentation, an independent coding leaderboard, arXiv papers, GitHub repositories, official security material and independent reporting. It did not reach the full 50–60-source target in this late-day pass, and the public X/Reddit/YouTube scan did not yield a direct post that met the verification threshold. GitHub project pages supplied the strongest inspectable builder signals.</p>
+<ul><li><b>Model labs &amp; primary product sources:</b> Google DeepMind / Google AI, Anthropic, Baidu ERNIE, Bielik.ai</li><li><b>Independent evaluation &amp; research:</b> BenchLeader, arXiv, NHỊP research roundup</li><li><b>Developer &amp; builder ecosystem:</b> GitHub repositories: Meta Astryx, CopilotKit OpenBot, MAMUBench</li><li><b>Security &amp; incident response:</b> Microsoft Security Research, Microsoft Service Health, university mirror of Microsoft status updates</li><li><b>Independent reporting &amp; policy:</b> Reuters, The Guardian, ABC News</li><li><b>Industry &amp; infrastructure:</b> TechCrunch</li><li><b>Regional coverage:</b> Bielik (Poland), Baidu (China), Google, Microsoft and global sources</li></ul>
+<p class="small">Ranking is editorial judgement, not an objective truth. Vendor claims are attributed. Preprints have not necessarily been peer reviewed. Benchmark scores are not directly comparable when harnesses, prompts, effort settings, model versions or compute budgets differ. Social posts and demos are leads, not proof.</p>
+<p><b>Earlier full edition:</b> <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-13-edition-2.html">13 November — Expanded Edition 2</a> · <b>Archive:</b> <a href="https://github.com/Jagadeeswarh/signal-ai-news/tree/main/archive">All issues</a>.</p>
+</section>
+<div class="footer"><b>SIGNAL.</b> — AI Daily · 13 November 2026 · Expanded Edition 3<br>Reported facts are attributed to linked sources; company claims and research preprints are identified as such. This edition is a research briefing, not investment advice.</div>
 </div>
-<p class="note">Research window for this expanded edition: 11 November 2026, 09:00 IST to 13 November 2026, 08:53 IST. The original 21 reports are preserved; this update adds four main-desk reports and two More Signals items. Main-desk reports receive fuller treatment; More Signals preserves additional verified developments. Rankings reflect editorial judgement, not social-media popularity.</p>
-
-<div class="layout">
-<main>
-<div class="section"><h2>THE MAIN DESK</h2><span>Ranked by industry consequence · 01–14</span></div>
-<div class="story-grid">
-
-<article class="story lead" id="s1" data-search="nvidia Jensen Huang resigns Colette Kress interim CEO Harvey Jones board chair leadership succession export controls Congress hearing">
- <div class="meta"><span class="rank">01</span><span class="tag">CHIPS / GOVERNANCE / POLICY</span><span class="kind">FOLLOW-UP</span><time>12 NOV 2026</time></div>
- <h3>Jensen Huang steps down; Colette Kress takes the interim CEO role at Nvidia</h3>
- <p class="deck">Nvidia says the resignation is effective immediately. The company has not given a reason, and the board has begun a search for a permanent successor.</p>
- <p>Nvidia’s board announced that Jensen Huang had resigned as president, chief executive and a director, effective immediately. CFO Colette Kress will serve as interim CEO while keeping the finance role. The board has appointed Harvey C. Jones as its first-ever chair and says it will consider both internal and external candidates for the permanent job.</p>
- <p>The company’s statement says its operations, customer commitments and product roadmap are expected to continue without interruption. It does not explain why Huang left. Reuters reports that the departure follows a week of national-security scrutiny around Nvidia’s dealings and the oversight of advanced-chip exports to China. Allegations in that wider inquiry remain unresolved; they should not be treated as findings of wrongdoing.</p>
- <p>Congress is now seeking answers. Senate Banking Committee chair Tim Scott has invited Huang and Commerce Secretary Howard Lutnick to testify on December 3 and December 10, respectively, warning that subpoenas remain an option. The House Foreign Affairs Committee has also sought a briefing. The official transition notice says Nvidia’s fiscal third-quarter results will still be released on November 17.</p>
- <p class="evidence"><strong>Evidence check:</strong> Nvidia’s November 12 release confirms the resignation, interim appointment and board search. Reuters independently reports the political and national-security fallout; Bloomberg Law reports the Senate testimony requests. Nvidia has not stated a reason for the resignation.</p>
- <p class="why"><strong>Why developers should care:</strong> Nvidia remains the central supplier in many training and inference stacks. There is no announced change to the roadmap, but leadership can affect capital allocation, customer financing, cloud partnerships and the company’s position in the US–China export debate. Those decisions shape where developers can rent compute and which systems ship.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.9/5. This is a rare leadership transition at the company most closely associated with the AI compute boom, with consequences that reach beyond one stock. The cause remains officially unstated.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx" target="_blank" rel="noopener">Nvidia — 12 Nov</a> · <a href="https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a> · <a href="https://news.bloomberglaw.com/banking-law/scott-asks-huang-lutnick-to-testify-before-senate-banking-panel" target="_blank" rel="noopener">Bloomberg Law — 13 Nov</a> · <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-12-edition-2.html" target="_blank" rel="noopener">Earlier SIGNAL coverage — 12 Nov</a></div>
-</article>
-
-<article class="story" id="s2" data-search="China Chinese AI firms overseas Nvidia compute cloud capacity Southeast Asia export controls remote access RASA">
- <div class="meta"><span class="rank">02</span><span class="tag">COMPUTE / EXPORT CONTROLS / CHINA</span><span class="kind">FOLLOW-UP</span><time>12 NOV 2026</time></div>
- <h3>Chinese AI firms move to reserve Nvidia compute outside China</h3>
- <p class="deck">A major Chinese cloud provider has discussed securing overseas capacity, while smaller AI labs have approached data-centre operators in Southeast Asia.</p>
- <p>Reuters, citing three people familiar with the discussions, reports that Chinese AI companies are trying to lock in access to Nvidia-powered compute outside mainland China. One large cloud provider has discussed overseas reservations internally; smaller AI labs have contacted operators in Southeast Asia. The report describes an effort to secure capacity, not a completed set of contracts.</p>
- <p>The distinction matters. US controls can restrict the physical export of advanced processors, but rented cloud access creates a different enforcement problem when the customer, server and workload sit in different jurisdictions. The Remote Access Security Act, which would give the US Commerce Department authority over certain remote access to controlled technology, has passed the House but has not become law. There is no confirmed new rule in force from this reporting.</p>
- <p>This is a material follow-up to the November 12 coverage of stalled chip-diversion controls and procurement of restricted Nvidia hardware by a blacklisted Chinese university. The new development is the reported shift toward reserving overseas cloud capacity as companies try to protect access to compute.</p>
- <p class="evidence"><strong>Evidence check:</strong> Reuters attributes the capacity discussions to sources familiar with the matter. The overseas reservations are not described as completed contracts, and the RASA remains proposed legislation.</p>
- <p class="why"><strong>Why developers should care:</strong> Export controls may change where a workload can run, who can rent a GPU cluster and what identity checks a cloud provider must perform. Teams planning cross-border training or inference need to track the physical location of compute and the rules that govern remote access.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.8/5. It shows a concrete market response to export-control uncertainty, but the scale and status of the reservations remain based on sources rather than disclosed contracts.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://www.reuters.com/world/china/chinese-ai-firms-rush-secure-nvidia-chip-capacity-spy-scandal-stirs-fear-us-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a> · <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-12-edition-2.html" target="_blank" rel="noopener">Earlier SIGNAL coverage — 12 Nov</a></div>
-</article>
-
-<article class="story" id="s3" data-search="Cisco AI networking infrastructure hyperscaler revenue 9 billion fiscal 2027 switches routers cybersecurity">
- <div class="meta"><span class="rank">03</span><span class="tag">NETWORKING / INFRASTRUCTURE</span><span class="kind">NEW</span><time>12 NOV 2026</time></div>
- <h3>Cisco lifts its AI infrastructure target to $9bn as networking demand spreads</h3>
- <p class="deck">The company raised its fiscal 2027 revenue outlook, with hyperscaler AI infrastructure revenue now expected to reach $9bn, up from $7.5bn.</p>
- <p>Cisco raised its fiscal 2027 revenue forecast to $74.8bn–$75.8bn, from a previous range of $72.2bn–$73.4bn. It also lifted its AI infrastructure revenue target from hyperscalers to $9bn. First-quarter revenue was $18.5bn, ahead of analysts’ average estimate, according to Reuters.</p>
- <p>The demand is moving beyond accelerators. Large AI clusters need high-throughput switches, routers, optics and security systems to connect thousands of processors and keep data moving. Cisco chief executive Chuck Robbins described the market as the early stage of a multi-year networking cycle. The company also says it is building software tools that use AI agents to help defend enterprise IT infrastructure.</p>
- <p class="evidence"><strong>Evidence check:</strong> The revenue outlook and AI infrastructure target are company guidance reported by Reuters. They are forecasts, not booked AI revenue already recognised.</p>
- <p class="why"><strong>Why developers should care:</strong> Network topology, congestion, optical links and security can become bottlenecks even when GPU capacity is available. The growing spend on networking makes the data-centre fabric a larger part of the AI systems stack.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.7/5. It is a measurable signal that AI infrastructure spending is spreading into the network layer, not just buying more accelerators.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://www.reuters.com/business/media-telecom/cisco-raises-annual-revenue-forecast-strong-ai-networking-demand-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div>
-</article>
-
-<article class="story" id="s4" data-search="Naver AI Factory 2 trillion won 1.4 billion contract 20MW 55MW 200MW AI inference Korea">
- <div class="meta"><span class="rank">04</span><span class="tag">CLOUD / ASIA / DATA CENTRES</span><span class="kind">NEW</span><time>12 NOV 2026</time></div>
- <h3>Naver signs a $1.4bn AI-compute contract before its AI Factory opens</h3>
- <p class="deck">The five-year agreement covers 20 megawatts of capacity for an unnamed US AI inference company. Naver says its first-phase capacity is already being contracted.</p>
- <p>Naver has signed a computing-services contract worth about 2 trillion won, or roughly $1.4bn, with a US AI inference company whose name has not been disclosed. The agreement covers 20MW of capacity over five years. Naver says the initial service is due to begin in 2027, when the first phase of its AI Factory is expected to come online.</p>
- <p>The company has described a 200MW first-phase plan and says more than ten global AI firms are in talks for the remaining 180MW. Its AI Factory is being developed with Nvidia and infrastructure partners, with an emphasis on liquid cooling and high-density GPU systems. The unnamed customer and the contract’s detailed pricing structure have not been publicly identified.</p>
- <p class="evidence"><strong>Evidence check:</strong> The contract value, capacity and timing are reported by Seoul Economic Daily and Korea Times. Naver has not named the customer. Capacity plans and delivery dates remain company guidance.</p>
- <p class="why"><strong>Why developers should care:</strong> This is a real export contract for AI compute services, not just a data-centre announcement. It gives developers another potential source of inference capacity in Asia, while highlighting how power, cooling, GPU supply and customer concentration determine whether a campus can earn revenue.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.6/5. A signed multi-year contract is stronger evidence of demand than a capacity target alone, although the customer remains unnamed and delivery is still ahead.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://en.sedaily.com/business/2026/11/12/naver-bets-on-ai-factory-agents-and-logistics-for-growth" target="_blank" rel="noopener">Seoul Economic Daily — 12 Nov</a> · <a href="https://www.koreatimes.co.kr/business/companies/20261112/naver-signs-2-trillion-won-ai-computing-deal-with-us-firm" target="_blank" rel="noopener">The Korea Times — 12 Nov</a></div>
-</article>
-
-<article class="story" id="s5" data-search="xFusion China IPO review Shenzhen Stock Exchange AI servers liquid cooling 58.246 billion yuan 29.629">
- <div class="meta"><span class="rank">05</span><span class="tag">CHINA / AI SERVERS / CAPITAL</span><span class="kind">NEW</span><time>13 NOV 2026</time></div>
- <h3>China’s xFusion passes IPO review as AI servers become half its revenue</h3>
- <p class="deck">The Shenzhen listing committee cleared the server maker’s application. It is a compute-infrastructure supplier, not a chip designer or foundry.</p>
- <p>Shenzhen Stock Exchange’s listing review committee said xFusion Digital Technologies met the requirements for issuance, listing and disclosure at its November 12 meeting. The review is a milestone, not a completed listing: registration, the offering and the first trading date are still ahead.</p>
- <p>Shanghai Securities News, carried by Eastmoney, reports that xFusion generated 58.246bn yuan of revenue in 2025, including 29.629bn yuan from AI servers. First-half 2026 revenue was 37.286bn yuan, with net profit of 2.108bn yuan. The prospectus says the company has built a liquid-cooling system spanning cold plates, coolant distribution units and full racks; its claim of leading domestic server sales is based on IDC data cited in the filing.</p>
- <p>The company is a server and systems integrator. Its IPO proceeds are intended for next-generation compute infrastructure, manufacturing and research, including AI and power architecture. The filing does not establish that xFusion designs its own leading-edge accelerators or that its systems remove dependence on foreign chips and software.</p>
- <p class="evidence"><strong>Evidence check:</strong> The listing-review result and financial figures come from the prospectus as reported by Shanghai Securities News. Market-rank and liquid-cooling performance statements are company/prospectus claims, not independent benchmark results.</p>
- <p class="why"><strong>Why developers should care:</strong> The Chinese AI stack is expanding through servers, liquid cooling, rack integration and domestic infrastructure providers as well as chip design. For developers, the open questions are accelerator compatibility, compiler support, memory bandwidth, interconnects and the cost of porting workloads.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.5/5. The IPO review offers a rare financial view of the domestic AI-server market, but it should not be mistaken for proof of leading-edge chip independence.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://finance.eastmoney.com/a/202611123930019613.html" target="_blank" rel="noopener">Shanghai Securities News via Eastmoney — 13 Nov</a> · <a href="https://www.21jingji.com/article/20261113/herald/4d7b5f3a0f5b4f4bbf1c3a7d7b1a1f21.html" target="_blank" rel="noopener">21st Century Business Herald — 13 Nov</a></div>
-</article>
-
-<article class="story" id="s6" data-search="SMIC Q3 2026 revenue profit 123.4 percent utilisation 97.3 AI chip supply chain tight 2027 memory 2028">
- <div class="meta"><span class="rank">06</span><span class="tag">FOUNDRIES / SUPPLY CHAIN / CHINA</span><span class="kind">NEW</span><time>12–13 NOV 2026</time></div>
- <h3>SMIC’s profit jumps 123%; management says AI chip supply will stay tight through 2027</h3>
- <p class="deck">Record quarterly revenue and 97.3% utilisation show a busy foundry. The outlook also points to long equipment lead times and a memory bottleneck that may last longer.</p>
- <p>Semiconductor Manufacturing International Corp (SMIC), China’s largest contract chipmaker, reported third-quarter net profit of $428.4m, up 123.4% year on year. Revenue rose 33.9% to $3.19bn. Monthly production capacity reached 1.1 million standard eight-inch-equivalent wafers and utilisation rose to 97.3%. China accounted for 90.8% of quarterly revenue.</p>
- <p>On November 13, co-CEO Zhao Haijun said the AI-related semiconductor supply chain would remain tight through 2027 as data-centre and private-cloud demand continued. He expects memory supply and demand to move toward balance only around mid-to-late 2028. Some equipment orders now take more than 24 months to deliver, adding uncertainty to capital spending.</p>
- <p>SMIC’s results are not evidence that it is producing the most advanced AI logic processors at scale. The foundry serves a broad range of domestic customers, including mature and supporting chip categories used across servers, power management and connectivity. The utilisation and lead-time data are useful indicators of pressure across the wider Chinese chip ecosystem.</p>
- <p class="evidence"><strong>Evidence check:</strong> The Q3 financial and capacity figures are from Reuters’ November 12 results report. The supply-chain and memory outlook is management guidance quoted by Reuters on November 13, not a guaranteed forecast.</p>
- <p class="why"><strong>Why developers should care:</strong> AI server delivery depends on more than the accelerator die. Power-management chips, connectivity, memory, substrates and equipment all have lead times. Tight supply in these supporting layers can affect cost and deployment schedules even when a model team has secured compute.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.5/5. SMIC’s utilisation and management outlook are a structural signal about China’s semiconductor capacity, but the report does not demonstrate a new leading-edge AI chip process.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://www.reuters.com/world/asia-pacific/smic-reports-1234-jump-third-quarter-profit-2026-11-12/" target="_blank" rel="noopener">Reuters results — 12 Nov</a> · <a href="https://www.reuters.com/technology/smic-says-ai-chip-supply-chain-will-remain-tight-through-2027-2026-11-13/" target="_blank" rel="noopener">Reuters supply outlook — 13 Nov</a></div>
-</article>
-
-<article class="story" id="s7" data-search="North Korea FaceStealer AI deepfake social engineering crypto 400 million open source software supply chain FBI DOJ 900 videos">
- <div class="meta"><span class="rank">07</span><span class="tag">SECURITY / OPEN SOURCE / AI MISUSE</span><span class="kind">NEW</span><time>12 NOV 2026</time></div>
- <h3>FBI disrupts FaceStealer, an AI-assisted video scam targeting crypto users and open-source maintainers</h3>
- <p class="deck">The North Korean operation has stolen more than $400m in cryptocurrency over 18 months. The FBI says it seized over 900 webcam videos and warns that repository access is now a target.</p>
- <p>The US Department of Justice announced the seizure of cloud infrastructure used in a North Korean social-engineering operation the FBI calls FaceStealer. The scheme has stolen more than $400m over the past 18 months. Attackers send meeting invitations from accounts taken over from people the victim knows, then use recorded webcam footage to make a fake contact appear on a video call.</p>
- <p>During the call, a staged technical problem prompts the target to click a link or run a supposed fix, which installs malware. The FBI says operators also use AI-generated deepfakes of well-known people in cryptocurrency and Web3. Most of the scheme relies on stolen real video, not synthetic video alone. The attackers have increasingly targeted people who maintain open-source software and the repository accounts they control.</p>
- <p>The DOJ says the FBI seized more than 900 webcam videos. It also announced a separate court-authorised restraint of more than $1.2bn in cryptocurrency stolen from Binance by a different North Korean group. Those Binance assets are not part of the $400m FaceStealer theft.</p>
- <p class="evidence"><strong>Evidence check:</strong> The DOJ and FBI describe the operation and infrastructure seizure. The dollar loss and video count are government figures. The FBI’s technical report provides defensive guidance.</p>
- <p class="why"><strong>Why developers should care:</strong> Open-source maintainers are being targeted for access to devices and software repositories. Treat unexpected meeting links and “fix your audio” scripts as hostile, verify contacts through a second channel, use hardware-backed authentication and keep repository credentials separate from everyday accounts.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.7/5. This is an active attack with a direct software-supply-chain angle and a concrete law-enforcement disruption, not a speculative model-risk scenario.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency" target="_blank" rel="noopener">US Department of Justice — 12 Nov</a> · <a href="https://www.fbi.gov/facestealer" target="_blank" rel="noopener">FBI FaceStealer guidance</a> · <a href="https://www.reuters.com/world/asia-pacific/north-korean-hackers-steal-more-than-400-million-using-video-images-fbi-says-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div>
-</article>
-
-<article class="story" id="s8" data-search="Foxconn Q3 profit AI rack shipments high double digit 2027 cloud networking 60 percent supply chain tight">
- <div class="meta"><span class="rank">08</span><span class="tag">AI SERVERS / MANUFACTURING / TAIWAN</span><span class="kind">FOLLOW-UP</span><time>12 NOV 2026</time></div>
- <h3>Foxconn expects high-double-digit AI rack growth in 2027, but supply remains tight</h3>
- <p class="deck">A stronger quarter gives a clearer measure of the AI-server ramp. The company still says chips, memory and other components are in short supply.</p>
- <p>Foxconn reported third-quarter net profit of T$77.5bn, up 34% year on year and ahead of analyst expectations. The world’s largest contract electronics manufacturer expects high-double-digit growth in AI rack shipments in 2027. Cloud and networking products already account for more than half of revenue this year; chairman Young Liu expects that share to exceed 60% within three to five years.</p>
- <p>Liu said AI demand from cloud providers remains strong, but chips, memory and other key components are still constrained. Foxconn is expanding AI-server production in several regions, including Mexico and Texas, while maintaining its broader electronics manufacturing footprint. The company did not provide an absolute AI-rack shipment target.</p>
- <p>This is a material follow-up to the October 31 SIGNAL coverage of Foxconn’s AI-server expansion and its work with OpenAI. The new information is a 34% profit increase, a qualitative 2027 rack-shipment forecast and management’s warning that supply remains below demand.</p>
- <p class="evidence"><strong>Evidence check:</strong> The profit figure and shipment outlook are from Reuters’ report on Foxconn’s November 12 results. The high-double-digit forecast is company guidance, not a quantified shipment commitment.</p>
- <p class="why"><strong>Why developers should care:</strong> A rack is a complete system of compute, memory, networking, power and cooling. Delays in any of those parts can hold up deployment even after a cloud provider has ordered GPUs.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.3/5. It adds hard financial results and a forward shipment signal to a supply-chain story already covered, making the follow-up material.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://www.reuters.com/business/retail-consumer/taiwans-foxconn-reports-34-rise-q3-profit-beats-forecasts-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a> · <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-10-31-edition-2.html" target="_blank" rel="noopener">Earlier SIGNAL coverage — 31 Oct</a></div>
-</article>
-
-<article class="story" id="s9" data-search="Cerebras Q3 revenue guidance 940 960 million OpenAI 20 billion remaining performance obligations 26.1 billion wafer scale engine">
- <div class="meta"><span class="rank">09</span><span class="tag">AI CHIPS / INFERENCE / BUSINESS</span><span class="kind">NEW</span><time>12 NOV 2026</time></div>
- <h3>Cerebras raises its 2026 outlook as cloud revenue and backlog grow</h3>
- <p class="deck">The chipmaker lifted its adjusted revenue forecast to $940m–$960m. Its $20bn OpenAI computing agreement underpins a large future-revenue backlog.</p>
- <p>Cerebras raised its 2026 adjusted revenue forecast from $880m–$890m to $940m–$960m, citing demand for AI computing. Third-quarter adjusted revenue rose 70% year on year to $230.9m, while adjusted cloud and services revenue more than tripled to $144.9m. Its net loss widened to 67 cents per share from 41 cents a year earlier.</p>
- <p>The company’s remaining performance obligations (RPO) stood at $26.1bn at September 30, supported in large part by a multiyear $20bn agreement to provide compute to OpenAI. RPO represents contracted future work; it is not cash already collected or revenue guaranteed without delivery conditions. Cerebras is expanding chip production and cloud capacity to meet the commitments.</p>
- <p>The company’s wafer-scale engine places memory on the same large silicon die, a different approach from conventional GPU systems that rely on separate high-bandwidth memory. Cerebras says this reduces data movement. The design is technically distinctive, but customers still need to see sustained production, competitive total cost and reliable software support at scale.</p>
- <p class="evidence"><strong>Evidence check:</strong> Revenue, guidance, RPO and the OpenAI agreement are from Reuters’ November 12 results coverage. Adjusted figures are non-GAAP company measures; the company’s efficiency claims are not independent benchmarks.</p>
- <p class="why"><strong>Why developers should care:</strong> More inference capacity outside the Nvidia ecosystem could improve supply options. The practical test is whether Cerebras can deliver the contracted compute on time, with predictable latency, tooling and economics.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.2/5. The commercial backlog is substantial, but execution, losses and customer concentration remain important risks.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://www.reuters.com/business/cerebras-raises-annual-sales-forecast-strong-ai-linked-demand-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div>
-</article>
-
-<article class="story" id="s10" data-search="OpenAI Google Anthropic SpaceX Meta lawsuit halt frontier AI development public nuisance California unfair business practices">
- <div class="meta"><span class="rank">10</span><span class="tag">LAW / SAFETY / FRONTIER MODELS</span><span class="kind">NEW</span><time>12 NOV 2026</time></div>
- <h3>Nonprofits sue five AI developers, asking a court to halt frontier-model work</h3>
- <p class="deck">The complaint targets OpenAI, Anthropic, SpaceX’s AI division, Meta and Google. It is a legal request, not a court order.</p>
- <p>A group of nonprofits, including the Irreplaceable Education Fund, Public Citizen and Heat Initiative, filed suit in San Francisco against OpenAI, Anthropic, SpaceX’s AI division, Meta and Alphabet’s Google. The complaint argues that the companies’ development practices create a public nuisance under California law and asks the court to bar further work on products including ChatGPT, Gemini and Claude.</p>
- <p>The plaintiffs cite public statements by company leaders about the potential risks of advanced AI and point to reported incidents involving models that escaped testing environments. The companies had not immediately responded to Reuters’ requests for comment. The filing does not mean a judge has accepted the claims or ordered any development pause.</p>
- <p class="evidence"><strong>Evidence check:</strong> Reuters reviewed the filing and reports the plaintiffs’ legal theory and requested remedy. The allegations remain claims in a complaint; no injunction or merits ruling has been issued.</p>
- <p class="why"><strong>Why developers should care:</strong> The case tests whether public-nuisance and consumer-protection theories can be used to challenge frontier-model development. Even without an immediate order, litigation can affect safety documentation, launch decisions, insurance and governance.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.1/5. The requested remedy is sweeping, but the case is at an early stage and its legal prospects are uncertain.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a> · <a href="https://apnews.com/article/8cf2319c870322019712ab658f71ec55" target="_blank" rel="noopener">Associated Press — 12 Nov</a></div>
-</article>
-
-
-<article class="story" id="s11" data-search="AMD Instinct MI400 MI455X MI450X MI430X Helios HBM4 ROCm DeepSeek-R1 MLPerf inference FP64 scientific computing">
- <div class="meta"><span class="rank">11</span><span class="tag">CHIPS / AI INFRASTRUCTURE / SCIENCE</span><span class="kind">FOLLOW-UP</span><time>12 NOV 2026</time></div>
- <h3>AMD adds a 288GB HBM4 MI450X and publishes new Helios inference numbers</h3>
- <p class="deck">The MI450X gives rack customers a lower-memory option alongside MI455X. AMD also reports a strong DeepSeek-R1 result and details a science-focused MI430X.</p>
- <p>AMD’s 12 November update expands its Instinct MI400 family in three directions. The new MI450X puts 288GB of high-bandwidth memory (HBM4) on each GPU while keeping the MI455X compute, bandwidth and connectivity profile. Both can run in AMD’s Helios rack design and use the ROCm software stack; MI455X retains more memory headroom for larger models, longer contexts or higher concurrency.</p>
- <p>AMD says its Performance Labs measured 21,333 tokens per second per MI455X GPU running DeepSeek-R1 in an MLPerf Inference Offline configuration. The company describes that as up to 30% higher throughput than Nvidia’s latest published Vera Rubin NVL72 result. The footnote matters: AMD’s test was run on its own configuration in October and compared with Nvidia’s published result, not a new independent, identical-system shoot-out. AMD also calculates up to 20% higher HBM bandwidth for Helios; that comparison is likewise based on published specifications.</p>
- <p>The MI430X is aimed at high-performance computing and AI for science. AMD lists native double-precision (FP64) support, up to 288 teraflops of FP64 performance, 432GB of HBM4 and up to 23.3 terabytes per second of memory bandwidth. The company says the MI430X is expected to be available in 2027. Its figures are product specifications and engineering projections, not measurements from a shipping product.</p>
- <p class="evidence"><strong>Evidence check:</strong> AMD published the portfolio update and benchmark on 12 November. The throughput figure and the “up to 30%” comparison are AMD Performance Labs results, with the comparison tied to published MLPerf Inference v6.1 entries. The published methodology does not establish a universal advantage across models or serving configurations.</p>
- <p class="why"><strong>Why developers should care:</strong> The MI450X makes memory capacity a more explicit configuration choice within one rack platform. For inference teams, the useful comparison is not just peak FLOPs: model fit, context length, batching, ROCm support, power and cost per generated token all matter. Cross-vendor benchmarks and real deployment data are still needed.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.8/5. This is a material product and performance update to AMD’s Helios roadmap, but its headline benchmark remains vendor-run and should be treated accordingly. It follows AMD’s Q3 Helios production update in the <a href="2026-11-04.html">4 November SIGNAL edition</a>.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/" target="_blank" rel="noopener">AMD Newsroom — 12 Nov</a> · <a href="https://www.amd.com/en/products/accelerators/instinct/mi400/mi430x.html" target="_blank" rel="noopener">AMD Instinct MI430X technical information</a></div>
-</article>
-<article class="story" id="s12" data-search="Nebius Q3 2026 results AI cloud revenue guidance capex third party capacity delay neocloud financing prepayments Microsoft Meta">
- <div class="meta"><span class="rank">12</span><span class="tag">AI CLOUD / DATA CENTRE ECONOMICS</span><span class="kind">NEW</span><time>12 NOV 2026</time></div>
- <h3>Nebius cuts its 2026 revenue range after third-party data-centre capacity slips</h3>
- <p class="deck">Quarterly revenue beat estimates, but some contracted capacity will not arrive until the first half of 2027. The company has raised its spending plan sharply.</p>
- <p>Nebius reported third-quarter revenue of US$981 million, above the roughly US$908 million analyst estimate cited by Reuters. It now expects 2026 revenue of US$3.0–3.2 billion, trimming the top of its earlier range of US$3.0–3.4 billion after delays at third-party sites pushed some expected capacity from this year into the first half of 2027. Nebius says the contracts remain in place and that its own facilities are on schedule or ahead.</p>
- <p>The spending plan is rising even as some capacity slips. Nebius lifted its 2026 capital-spending outlook to about US$27 billion, from a previous US$20–25 billion range, and expects US$40–45 billion in 2027. Management says customer prepayments and asset-backed financing tied to existing contracts will cover roughly 75–85% of next year’s investment. The company forecasts US$12–13 billion of 2027 revenue and says it expects to reach pre-tax break-even by year-end.</p>
- <p>Reuters reported a 16% share-price fall after the outlook change, amid wider concerns about the financing and delivery schedules of specialist AI cloud providers. That market reaction is not proof that demand has collapsed. Nebius says customers are already seeking capacity for 2028; that is management’s assessment, while the delayed third-party sites are a concrete execution risk.</p>
- <p class="evidence"><strong>Evidence check:</strong> Nebius’ 12 November results release is the primary source for the quarter. The revised guidance, delay explanation and financing mix are reported by Reuters. The company says its own facilities remain on track; the slippage concerns third-party capacity.</p>
- <p class="why"><strong>Why developers should care:</strong> Reserved GPUs are only useful when the building, power and networking are ready. Teams buying cloud capacity should track delivery dates, site ownership, customer prepayment terms and the provider’s exposure to third-party campuses, not just headline GPU counts or backlog.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.7/5. This is a useful stress test of AI infrastructure economics: demand can be strong while revenue recognition and usable capacity still move because construction is late.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results" target="_blank" rel="noopener">Nebius — Q3 results, 12 Nov</a> · <a href="https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div>
-</article>
-<article class="story" id="s13" data-search="LMSYS SGLang consortium NVIDIA AMD Intel Google Meta Cloudflare Modal RadixArk open source inference engine roadmap hardware optimization">
- <div class="meta"><span class="rank">13</span><span class="tag">OPEN SOURCE / INFERENCE / DEVELOPER TOOLS</span><span class="kind">NEW</span><time>12 NOV 2026</time></div>
- <h3>Nvidia, AMD, Intel, Google and Meta join a new SGLang inference consortium</h3>
- <p class="deck">The group will help shape an open serving engine’s roadmap across models, distributed inference and hardware. SGLang’s maintainers keep control of code acceptance.</p>
- <p>LMSYS Org announced the SGLang Consortium on 12 November, naming Nvidia, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk as founding members. The group is a standing forum for technical representatives to share deployment feedback and coordinate work on frontier-model support, reasoning and multimodal workloads, distributed inference and hardware optimisation.</p>
- <p>Governance is an important detail. Each member will designate a technical representative and take part in two roadmap meetings a year; working groups can collaborate between meetings. LMSYS says the project remains open to the wider community and its maintainers retain responsibility for technical decisions and accepting code. The announcement does not create a closed fork or transfer control of the repository to the vendors.</p>
- <p>LMSYS says SGLang runs on hundreds of thousands of GPUs and powers large production deployments at companies including Meta, Microsoft, Google, Amazon and Cloudflare. Those scale figures are from the project’s own announcement, and the consortium launch came with no new independent performance benchmark. The first SGLang Summit is running in San Francisco on 12–13 November, with sessions on hardware, models, multimodal serving and agents.</p>
- <p class="evidence"><strong>Evidence check:</strong> The consortium structure, members and governance terms are from LMSYS Org’s announcement. The deployment scale is an LMSYS claim. Intel separately announced a RadixArk collaboration to optimise SGLang for Intel CPUs, GPUs and accelerators; that is listed in More Signals below.</p>
- <p class="why"><strong>Why developers should care:</strong> Serving software can make the same accelerator fleet substantially more or less efficient. A shared roadmap spanning rival chip vendors could improve day-zero model support and reduce the cost of moving workloads between hardware, but that depends on actual upstream code, kernels and reproducible results.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.6/5. This is a meaningful cross-vendor commitment to open inference, though it is a governance and engineering forum today, not a guarantee of hardware parity.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://www.lmsys.org/blog/2026-11-12-sglang-consortium" target="_blank" rel="noopener">LMSYS Org — 12 Nov</a> · <a href="https://www.sglang.io/summit" target="_blank" rel="noopener">SGLang Summit — 12–13 Nov</a></div>
-</article>
-<article class="story" id="s14" data-search="OpenAI India API inference residency GPT-6 Luna in.api.openai.com data localisation Zero Data Retention ZDR Responses Chat Completions">
- <div class="meta"><span class="rank">14</span><span class="tag">INDIA / API / DATA RESIDENCY</span><span class="kind">NEW</span><time>12 NOV 2026</time></div>
- <h3>OpenAI adds in-country API processing for eligible Indian customers</h3>
- <p class="deck">Supported GPT-6 Luna requests can now be processed and stored in India. The launch is limited to selected API routes and customers with Zero Data Retention.</p>
- <p>OpenAI has added India to its API regional-processing locations. For supported workloads, the request and the model computation that generates the response take place in India, and supported customer content is stored there. The launch is limited to GPT-6 Luna through the Responses and Chat Completions APIs, using a project configured for India and the regional endpoint <code>in.api.openai.com</code>.</p>
- <p>The fine print is significant for implementation. OpenAI’s platform documentation says regional processing in India requires an active Zero Data Retention (ZDR) control; Modified Abuse Monitoring alone is not enough. The region supports Standard pay-as-you-go, and hosted tools are unavailable. This is an API capability for eligible organisations, not a change to the consumer ChatGPT app or a blanket promise that every part of every workflow stays in India.</p>
- <p>For Indian banks, insurers and other regulated businesses, the ability to keep supported prompts and model computation in-country can remove one practical barrier to production use. It does not replace a customer’s own legal review, vendor risk assessment or data-flow mapping. Teams still need to check which model, endpoint, tool chain and retention settings their actual application uses.</p>
- <p class="evidence"><strong>Evidence check:</strong> OpenAI’s developer documentation now lists India as a regional-processing location for GPT-6 Luna and specifies the ZDR and tool restrictions. Business Standard and The Week carried the company’s 12 November announcement through PTI. No regulator approval or named production customer was disclosed in those reports.</p>
- <p class="why"><strong>Why developers should care:</strong> Regional inference can make supported document analysis, drafting and summarisation easier to deploy for Indian enterprises with localisation requirements. But eligibility, ZDR approval, model support and unavailable hosted tools can affect architecture and cost. Treat it as a specific deployment option, not a general compliance certificate.</p>
- <p class="rankwhy"><strong>Why it ranks here:</strong> Editorial assessment 4.5/5. This is a concrete India availability change with direct implications for enterprise API architecture and local AI adoption; its scope is deliberately narrow.</p>
- <div class="source"><strong>Sources:</strong> <a href="https://developers.openai.com/api/docs/guides/your-data" target="_blank" rel="noopener">OpenAI API data controls — India regional processing</a> · <a href="https://www.business-standard.com/amp/technology/artificial-intelligence/openai-to-process-ai-requests-in-india-to-meet-data-localisation-needs-126111200782_1.html" target="_blank" rel="noopener">Business Standard / PTI — 12 Nov</a> · <a href="https://www.theweek.in/wire-updates/business/2026/11/12/openai-to-process-ai-requests-within-india-for-businesses-with-data-localisation-needs.html" target="_blank" rel="noopener">The Week / PTI — 12 Nov</a></div>
-</article>
-</div>
-
-<div class="section"><h2>MORE SIGNALS</h2><span>Additional verified developments · selectable</span></div>
-<p class="note">These items add useful business, policy, developer and regional context without displacing the main desk. Follow-ups are marked and linked to the earlier SIGNAL issue.</p>
-<div class="table-wrap">
-<table>
-<thead><tr><th>Select</th><th>Rank</th><th>Development / source</th><th>Why it matters</th></tr></thead>
-<tbody id="signals">
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select Nscale IPO filing follow-up" data-headline="FOLLOW-UP: Nscale’s amended IPO filing shows 14-fold revenue growth and a $1.7bn loss" data-source="Reuters" data-date="12 Nov 2026" data-url="https://www.reuters.com/technology/nscale-expects-14-fold-revenue-surge-amended-ipo-filing-2026-11-12/" data-context="Nscale reported preliminary nine-month revenue of $307.5m, up from $21.3m a year earlier, but a net loss of $1.7bn versus $433.3m. The amendment adds July–September figures to its earlier filing; IPO terms remain undisclosed. This is a material financial update to the 31 Oct SIGNAL coverage of its 8GW AI campus and financing questions."></td>
-<td class="smallrank">15</td>
-<td><strong>FOLLOW-UP: Nscale’s revenue jumps 14-fold, but its loss widens to $1.7bn</strong><div class="context">The amended IPO filing adds nine-month numbers: $307.5m revenue and a $1.7bn net loss. <a href="https://www.reuters.com/technology/nscale-expects-14-fold-revenue-surge-amended-ipo-filing-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a> · <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-10-31.html" target="_blank" rel="noopener">Earlier SIGNAL coverage — 31 Oct</a></div></td>
-<td>Rapid growth comes with heavy losses and large infrastructure obligations. The filing did not disclose IPO terms.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select Anthropic IPO oversubscription follow-up" data-headline="FOLLOW-UP: Anthropic’s IPO is reported to be about six times oversubscribed" data-source="Reuters, citing Bloomberg News" data-date="12 Nov 2026" data-url="https://www.reuters.com/legal/transactional/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-2026-11-12/" data-context="Bloomberg News reports demand is about six times the shares available and that existing backers may receive priority allocations. Anthropic had not immediately commented and the terms may change. This is a material demand update after the 12 Nov SIGNAL coverage of the filed $70–$78 preliminary range and $26bn private placement."></td>
-<td class="smallrank">16</td>
-<td><strong>FOLLOW-UP: Anthropic’s IPO is reportedly six times oversubscribed</strong><div class="context">Bloomberg News reports demand exceeds the shares available; existing backers may receive priority. <a href="https://www.reuters.com/legal/transactional/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a> · <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-12-edition-2.html" target="_blank" rel="noopener">Earlier SIGNAL coverage — 12 Nov</a></div></td>
-<td>A demand signal for one of the largest proposed AI listings, but it remains a reported book-building figure, not a completed offering.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select Tata Electronics financing talks" data-headline="Tata Electronics discusses up to $2bn in loans for semiconductor expansion" data-source="The Economic Times" data-date="12 Nov 2026" data-url="https://economictimes.indiatimes.com/industry/banking/finance/tata-electronics-in-talks-to-raise-2-billion-for-expansion/articleshow/135747322.cms" data-context="The first tranche could be up to $800m, but lender participation, pricing and final size remain early-stage discussions. The Dholera fab is planned for 28nm–110nm processes and 50,000 wafer starts per month, aimed at power-management chips and microcontrollers rather than leading-edge AI accelerators."></td>
-<td class="smallrank">17</td>
-<td><strong>Tata Electronics explores up to $2bn in loans for semiconductor expansion</strong><div class="context">The first tranche could be up to $800m; the discussions are early-stage. Dholera is planned for 28nm–110nm chips. <a href="https://economictimes.indiatimes.com/industry/banking/finance/tata-electronics-in-talks-to-raise-2-billion-for-expansion/articleshow/135747322.cms" target="_blank" rel="noopener">The Economic Times — 12 Nov</a></div></td>
-<td>A financing signal for India’s chip ecosystem, but this is a mature-node fab plan, not a domestic leading-edge GPU project.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select Rox funding" data-headline="AI sales-agent startup Rox raises $100m at a $1.3bn valuation" data-source="Reuters" data-date="11 Nov 2026" data-url="https://www.reuters.com/business/automation-startup-rox-raises-100-million-13-billion-valuation-2026-11-11/" data-context="The Series B was co-led by General Catalyst and March Capital. Rox says annual recurring revenue grew more than tenfold in its first year; its website lists Puma, Groq and Ramp among customers."></td>
-<td class="smallrank">18</td>
-<td><strong>Rox raises $100m at a $1.3bn valuation for enterprise sales agents</strong><div class="context">The startup says its agents handle lead generation, meeting booking and account workflows. <a href="https://www.reuters.com/business/automation-startup-rox-raises-100-million-13-billion-valuation-2026-11-11/" target="_blank" rel="noopener">Reuters — 11 Nov</a></div></td>
-<td>Another large bet on agents that operate inside enterprise systems. The more-than-tenfold revenue growth is company-reported.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select Fed Barr remarks" data-headline="Fed Governor Michael Barr says the US should prepare for serious AI job disruption" data-source="Reuters" data-date="12 Nov 2026" data-url="https://www.reuters.com/legal/government/feds-barr-us-should-prepare-serious-ai-job-disruption-widening-inequality-2026-11-12/" data-context="Barr said AI could displace workers at scale depending on deployment speed and widen inequality. He cited a 52.8% labour share in Q2 2026, a record low. These are his remarks and interpretation, not a formal Fed forecast or policy decision."></td>
-<td class="smallrank">19</td>
-<td><strong>Fed’s Barr warns AI could disrupt jobs and widen inequality</strong><div class="context">The governor cited a 52.8% labour share in Q2 2026 and warned that gains may accrue to capital owners. <a href="https://www.reuters.com/legal/government/feds-barr-us-should-prepare-serious-ai-job-disruption-widening-inequality-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div></td>
-<td>It is a senior policymaker’s warning, not a central-bank forecast. The distribution of productivity gains is becoming an economic-policy question.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select France defence AI centre" data-headline="France plans an international centre for defence-related AI" data-source="Reuters" data-date="12 Nov 2026" data-url="https://www.reuters.com/technology/french-army-ministry-set-up-centre-defence-related-ai-2026-11-12/" data-context="The centre is targeted to open in summer 2027, with hoped-for NATO recognition. Funding and international membership have not been finalised. France says it wants to strengthen European defence technology capabilities and reduce reliance on US-based suppliers."></td>
-<td class="smallrank">20</td>
-<td><strong>France plans an international centre for defence-related AI</strong><div class="context">The centre is targeted for summer 2027; funding and membership are not final. <a href="https://www.reuters.com/technology/french-army-ministry-set-up-centre-defence-related-ai-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div></td>
-<td>A European sovereignty initiative for military AI, still at the planning stage rather than an operational deployment.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select GitHub agent skills guide" data-headline="GitHub publishes a guide to portable agent skills and SKILL.md" data-source="GitHub Blog" data-date="12 Nov 2026" data-url="https://github.blog/ai-and-ml/generative-ai/build-once-run-on-any-agent/" data-context="The guide shows how to package reusable agent instructions in SKILL.md files and version them across tools. It is practical guidance, not a new formal standard; tool permissions, credentials and execution environments remain host-specific."></td>
-<td class="smallrank">21</td>
-<td><strong>GitHub explains how to package reusable skills across AI agents</strong><div class="context">The guide uses SKILL.md files to version and share workflow instructions across agent tools. <a href="https://github.blog/ai-and-ml/generative-ai/build-once-run-on-any-agent/" target="_blank" rel="noopener">GitHub Blog — 12 Nov</a></div></td>
-<td>Useful for developers building repeatable agent workflows, but portability of instructions does not make tools or permissions interchangeable.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select Goldman AI investment forecast" data-headline="Goldman Sachs forecasts $1.4tn annualised US AI hardware and IP spending by end-2027" data-source="Reuters, citing Goldman Sachs" data-date="12 Nov 2026" data-url="https://www.reuters.com/business/ai-stay-dominant-force-behind-us-business-investment-2027-goldman-says-2026-11-12/" data-context="Goldman forecasts more than $900bn annualised spending by end-2026 and $1.4tn by end-2027, nearly 4% of US GDP. These are forecasts, not actual committed or measured spend."></td>
-<td class="smallrank">22</td>
-<td><strong>Goldman sees US AI hardware and IP spending reaching $1.4tn annualised</strong><div class="context">The forecast is for end-2027; Goldman expects more than $900bn by end-2026. <a href="https://www.reuters.com/business/ai-stay-dominant-force-behind-us-business-investment-2027-goldman-says-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div></td>
-<td>A scale estimate for the capital cycle, but it depends on Goldman’s assumptions and is not a record of money already spent.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select Adaspace IPO" data-headline="AI satellite maker Adaspace raises HK$750m and slips 1.2% on Hong Kong debut" data-source="Reuters" data-date="13 Nov 2026" data-url="https://www.reuters.com/world/asia-pacific/chinese-ai-satellite-maker-adaspace-set-open-lower-hong-kong-debut-2026-11-13/" data-context="Adaspace raised HK$750m in an IPO and fell 1.2% in its first day of trading. It makes AI-powered satellites and satellite-data services; proceeds are intended for research, satellite production and a Shenzhen research centre."></td>
-<td class="smallrank">23</td>
-<td><strong>AI satellite maker Adaspace slips 1.2% on its Hong Kong debut</strong><div class="context">The company raised HK$750m and plans to spend proceeds on R&amp;D and satellite production. <a href="https://www.reuters.com/world/asia-pacific/chinese-ai-satellite-maker-adaspace-set-open-lower-hong-kong-debut-2026-11-13/" target="_blank" rel="noopener">Reuters — 13 Nov</a></div></td>
-<td>A small but notable signal from the physical-AI and space-computing edge of the Chinese technology ecosystem.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select US AI task force meeting" data-headline="Trump’s AI task force discusses reporting AI-powered cyberattacks" data-source="Reuters" data-date="13 Nov 2026" data-url="https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/" data-context="The task force discussed ways to encourage critical sectors to report AI-powered cyberattacks and work on national incident-reporting standards. The 2015 Cybersecurity Information Sharing Act expires next month; no new rule or decision was announced."></td>
-<td class="smallrank">24</td>
-<td><strong>Trump’s AI task force discusses reporting AI-powered cyberattacks</strong><div class="context">The group discussed incident reporting and information sharing; the 2015 cyber-information-sharing law expires next month. <a href="https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/" target="_blank" rel="noopener">Reuters — 13 Nov</a></div></td>
-<td>A policy discussion, not a new rule. Its timing matters as critical-infrastructure operators face more capable agentic attacks.</td>
-</tr>
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select AI firms counterintelligence hiring" data-headline="AI firms court former intelligence and counterintelligence staff" data-source="Reuters" data-date="12 Nov 2026" data-url="https://www.reuters.com/legal/litigation/help-wanted-ai-firms-court-ex-spies-nvidia-drama-spotlights-security-risks-2026-11-12/" data-context="Revelio Labs says counterintelligence hiring is a new phenomenon at frontier AI firms. Reuters found specialist job postings at OpenAI, Anthropic and Nvidia, with salaries often around $200,000–$500,000; ASML is also building intelligence capacity."></td>
-<td class="smallrank">25</td>
-<td><strong>AI firms are recruiting former intelligence officers to protect trade secrets</strong><div class="context">Revelio Labs describes counterintelligence hiring as a new trend at frontier labs; advertised salaries often reach $200k–$500k. <a href="https://www.reuters.com/legal/litigation/help-wanted-ai-firms-court-ex-spies-nvidia-drama-spotlights-security-risks-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div></td>
-<td>AI model weights, code, training data and executive access are becoming high-value security targets. The hiring trend is broader than Nvidia’s leadership crisis.</td>
-</tr>
-
-
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select AMD PsiQuantum partnership" data-headline="AMD plans an equity investment in PsiQuantum and expands its quantum-computing partnership" data-source="PsiQuantum / Reuters" data-date="12 Nov 2026" data-url="https://www.psiquantum.com/news-import/psiquantum-amd-partnership-future-of-computing" data-context="AMD and PsiQuantum will co-design infrastructure for utility-scale quantum computers and develop hybrid quantum-classical, HPC and AI applications. AMD will bring Versal FPGAs, Instinct GPUs, EPYC CPUs and ROCm; PsiQuantum contributes silicon photonics. AMD says it plans an equity investment but did not disclose the amount. The companies' drug-research and simulation claims are not independent clinical evidence."></td>
-<td class="smallrank">26</td>
-<td><strong>AMD and PsiQuantum expand their quantum/HPC partnership</strong><div class="context">The companies will co-design infrastructure for utility-scale quantum systems and explore hybrid quantum, HPC and AI workloads. <a href="https://www.psiquantum.com/news-import/psiquantum-amd-partnership-future-of-computing" target="_blank" rel="noopener">PsiQuantum — 12 Nov</a> · <a href="https://www.reuters.com/business/amd-invest-psiquantum-advance-quantum-computing-infrastructure-2026-11-12/" target="_blank" rel="noopener">Reuters — 12 Nov</a></div></td>
-<td>AMD plans an undisclosed equity investment and brings conventional compute and software into PsiQuantum’s photonic platform. A fault-tolerant system remains a development goal, not a product available today.</td>
-</tr>
-<tr class="signal-row">
-<td><input class="pick" type="checkbox" aria-label="Select Intel RadixArk SGLang collaboration" data-headline="Intel and RadixArk collaborate to optimize SGLang for Intel platforms" data-source="Intel" data-date="12 Nov 2026" data-url="https://www.intc.com/news-events/press-releases/detail/1787/intel-radixark-collaborate-to-advance-open-ai-inference-on" data-context="Intel says it will work with RadixArk to optimize the open-source SGLang inference stack for Intel CPUs, GPUs and accelerators, including Intel AMX. The announcement describes upstream engineering work but does not disclose an independent performance benchmark or production deployment result."></td>
-<td class="smallrank">27</td>
-<td><strong>Intel and RadixArk team up to optimise SGLang on Intel hardware</strong><div class="context">The collaboration targets Intel CPUs, GPUs and accelerators, with planned upstream work in the open-source inference stack. <a href="https://www.intc.com/news-events/press-releases/detail/1787/intel-radixark-collaborate-to-advance-open-ai-inference-on" target="_blank" rel="noopener">Intel — 12 Nov</a></div></td>
-<td>A concrete engineering commitment behind the broader SGLang cross-vendor push. Performance and model-coverage gains still need to appear in code and benchmarks.</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="review no-print">
-  <button id="review">REVIEW SELECTED</button>
-  <span class="status" id="reviewStatus" role="status" aria-live="polite">Select any rows to copy a prompt asking ChatGPT to reassess their ranking and coverage.</span>
-</div>
-
-<div class="section"><h2>AI IN CONTEXT</h2><span>Analysis · not additional reported facts</span></div>
-<div class="grid2">
- <div class="analysis"><h3>1. Inference is now a software-and-silicon contest</h3><p>AMD’s MI400 update and the SGLang consortium point to the same shift from training headlines to the cost of serving real workloads. Hardware memory capacity matters, but so do kernels, scheduling, model support and the serving engine. A multi-vendor roadmap could make it easier to move models between accelerators; the proof will be upstream code and repeatable benchmarks.</p></div>
- <div class="analysis"><h3>2. A backlog does not guarantee a ready data centre</h3><p>Nebius’ third-party capacity delays show how revenue can slip even when customers and contracts remain. Power, equipment, construction and site ownership determine when a GPU reservation becomes usable capacity. The financing mix matters too: customer prepayments can reduce external funding needs, but they also make delivery obligations more important.</p></div>
- <div class="analysis"><h3>3. Data residency is becoming an API configuration</h3><p>OpenAI’s India option is a practical change for some enterprise workloads, but the scope is narrow: GPT-6 Luna, supported endpoints, an India project and active ZDR. It does not turn every product, hosted tool or third-party connection into an in-country workflow. Compliance depends on the full data path, not a regional endpoint alone.</p></div>
- <div class="analysis"><h3>4. Quantum/HPC partnerships remain long-horizon research bets</h3><p>AMD’s expanded work with PsiQuantum connects conventional CPUs and GPUs with silicon photonics and quantum-system design. The immediate work is infrastructure and application co-design, not a commercially available fault-tolerant quantum computer. The drug-discovery results are company claims and should not be read as clinical validation.</p></div>
-</div>
-
-<div class="section"><h2>WHAT TO WATCH NEXT</h2><span>Questions that would change the story</span></div>
-<div class="watch">
- <div><strong>AMD MI400 availability and independent results</strong><span>When do MI450X and MI455X ship at scale, and do outside teams reproduce the DeepSeek-R1 throughput result on comparable systems?</span></div>
- <div><strong>Nebius third-party sites and financing</strong><span>Which delayed sites come online in H1 2027, and how much of the US$40–45bn plan is actually covered by customer prepayments and asset-backed contracts?</span></div>
- <div><strong>SGLang roadmap</strong><span>Do the consortium’s working groups deliver upstream kernels, day-zero model support and consistent performance across Nvidia, AMD, Intel and Google hardware?</span></div>
- <div><strong>OpenAI India regional processing</strong><span>Will more models or hosted tools become available, and how do eligible Indian customers implement ZDR and map every external data flow?</span></div>
- <div><strong>PsiQuantum and AMD</strong><span>What milestones follow the expanded partnership, and when do the companies disclose the investment size, system architecture or independently validated scientific results?</span></div>
- <div><strong>Nvidia transition and restricted compute</strong><span>How does the interim leadership team address export-control exposure, remote access to overseas capacity and the next round of AI infrastructure investment?</span></div>
-</div>
-
-</div>
-
-<div class="section"><h2>DECODE THE JARGON</h2><span>Plain-English reference</span></div>
-<dl class="glossary">
- <div class="term"><dt>AI rack</dt><dd>A complete server cabinet with accelerators, memory, networking, power distribution and cooling, designed to operate as one system.</dd></div>
- <div class="term"><dt>HBM</dt><dd>High-bandwidth memory, stacked DRAM placed close to an accelerator to move data quickly.</dd></div>
- <div class="term"><dt>8-inch equivalent wafer</dt><dd>A foundry accounting unit that converts different wafer sizes into the area of a standard 200mm wafer.</dd></div>
- <div class="term"><dt>RPO</dt><dd>Remaining performance obligations: contracted future work not yet recognised as revenue. It is not cash already collected.</dd></div>
- <div class="term"><dt>AI Factory</dt><dd>A data-centre campus designed around AI training and inference, usually with dense accelerator racks, high power and liquid cooling.</dd></div>
- <div class="term"><dt>Inference</dt><dd>Running a trained model to generate an answer, prediction or action.</dd></div>
- <div class="term"><dt>RASA</dt><dd>Remote Access Security Act, a proposed US bill to regulate certain remote access to controlled technology. It is not yet law.</dd></div>
- <div class="term"><dt>SOFR</dt><dd>Secured Overnight Financing Rate, a US dollar benchmark rate used in some floating-rate loans.</dd></div>
- <div class="term"><dt>Counterintelligence</dt><dd>Work to detect and prevent espionage, coercion, insider threats and attempts to steal sensitive information.</dd></div>
- <div class="term"><dt>SKILL.md</dt><dd>A text file used to package reusable instructions and context for an AI agent workflow.</dd></div>
- <div class="term"><dt>IPO</dt><dd>Initial public offering, the first sale of a company’s shares to public-market investors.</dd></div>
- <div class="term"><dt>Labour share</dt><dd>The portion of economic output paid to workers as wages and benefits rather than to owners of capital.</dd></div>
-
- <div class="term"><dt>HBM4</dt><dd>The fourth generation of high-bandwidth memory, stacked beside accelerators to feed large models with data at high speed.</dd></div>
- <div class="term"><dt>ROCm</dt><dd>AMD’s open software platform and tools for programming and running GPU workloads.</dd></div>
- <div class="term"><dt>MLPerf Inference Offline</dt><dd>A benchmark mode that measures inference throughput when requests are available in a batch, rather than arriving one by one in real time.</dd></div>
- <div class="term"><dt>ZDR</dt><dd>Zero Data Retention, an approved API data-control setting that excludes customer content from abuse-monitoring logs, subject to endpoint and feature limitations.</dd></div>
- <div class="term"><dt>Regional processing</dt><dd>A data-residency option that keeps supported model computation in a selected region; it does not automatically cover every tool or connected service.</dd></div>
- <div class="term"><dt>Neocloud</dt><dd>A specialist cloud provider focused on renting accelerator capacity and related AI infrastructure.</dd></div>
- <div class="term"><dt>Silicon photonics</dt><dd>Technology that uses light in silicon-based components to move data between chips or systems.</dd></div>
- <div class="term"><dt>FP64</dt><dd>64-bit floating-point arithmetic, used for high-precision scientific and engineering calculations.</dd></div>
-</dl>
-
-<div class="section"><h2>AI INFRASTRUCTURE &amp; GEOPOLITICS SCAN</h2><span>Pre-publication checklist</span></div>
-<div class="grid2">
- <div class="analysis"><h3>China and domestic compute</h3><p>We examined Huawei Ascend and Peerium, DeepSeek’s optimisation for domestic chips, Cambricon, Moore Threads, Biren, Alibaba T-Head, Baidu Kunlunxin and SMIC. The strongest new items were xFusion’s server-sector IPO review and SMIC’s supply outlook. No new independently verified Huawei/DeepSeek production, yield or accelerator-capacity milestone met the date bar.</p></div>
- <div class="analysis"><h3>Foundries, memory and packaging</h3><p>SMIC’s 97.3% utilisation and equipment lead times are new. Samsung’s HBM packaging plant and the previous TSMC investment/capacity announcements are repeats from earlier issues, so they are not republished as fresh stories. No new HBM allocation, lithography or advanced-packaging capacity milestone cleared the verification bar.</p></div>
- <div class="analysis"><h3>Power, cloud and inference economics</h3><p>Cisco, Naver, Cerebras, Foxconn and Nscale provide fresh evidence about networking, capacity contracts, rack shipments and financing. We found no new grid or power-plant decision in the window that was stronger than these verified infrastructure developments.</p></div>
- <div class="analysis"><h3>India and other regional ecosystems</h3><p>Tata Electronics’ early-stage loan discussions are relevant to India’s semiconductor build-out, but its planned 28nm–110nm fab is for power-management chips and microcontrollers, not leading-edge AI GPUs. No new India AI model launch or government deployment order met the evidence bar. No fresh major robotics or AI-science paper was verified in this window.</p></div>
-</div>
-
-<div class="section" id="archive"><h2>THE COVERAGE AUDIT</h2><span>Source breadth, repeat check and limitations</span></div>
-<p class="note">This expanded edition retains the 21 stories from the first 13 November issue and adds four new main-desk reports plus two More Signals items. We targeted 68 distinct domains: 62 core sources across the beat map and six follow-up domains. Fourteen domains were opened and inspected directly; 12 produced date-matched material. Two were checked to date-test an Australian policy story that fell outside the 48-hour window. Search targets are not counted as articles read.</p>
-<details><summary>Directly opened and inspected domains (14)</summary><p class="domain-list">newsroom.amd.com · nebius.com · reuters.com · business-standard.com · moneycontrol.com · theweek.in · lmsys.org · intc.com · sglang.io · nvidia.com · developers.openai.com · apnews.com · pm.gov.au · wsj.com</p><p>12 domains produced date-matched material: newsroom.amd.com · nebius.com · reuters.com · business-standard.com · moneycontrol.com · theweek.in · lmsys.org · intc.com · sglang.io · nvidia.com · developers.openai.com · wsj.com. AP News and the Australian Prime Minister’s site were checked for the AI safety regulator story, but its announcement was dated 10 November and was not promoted in this 48-hour edition.</p></details>
-<details><summary>All 62 core search targets</summary><p class="domain-list">openai.com · anthropic.com · deepmind.google · blog.google · blogs.microsoft.com · ai.meta.com · github.blog · huggingface.co · nvidia.com · developer.nvidia.com · amd.com · newsroom.amd.com · intel.com · tsmc.com · news.samsung.com · reuters.com · bloomberg.com · ft.com · wsj.com · cnbc.com · apnews.com · theverge.com · techcrunch.com · arstechnica.com · wired.com · theregister.com · venturebeat.com · scmp.com · caixinglobal.com · 36kr.com · nikkei.com · asia.nikkei.com · thelec.net · koreaherald.com · koreatimes.co.kr · economictimes.indiatimes.com · livemint.com · moneycontrol.com · business-standard.com · thehindu.com · indianexpress.com · yourstory.com · cert-in.org.in · cisa.gov · bis.gov · sec.gov · gov.uk · europa.eu · nature.com · science.org · arxiv.org · spectrum.ieee.org · technologyreview.com · datacenterdynamics.com · lightreading.com · utilitydive.com · iea.org · eia.gov · bleepingcomputer.com · therecord.media · darkreading.com · securityweek.com</p><p>Six supplemental follow-up domains: nebius.com · lmsys.org · intc.com · sglang.io · developers.openai.com · theweek.in.</p></details>
-<details><summary>Repeat candidates excluded in this update</summary><ul>
-<li>SMIC’s AI supply-tightness outlook — already covered in the 13 November first edition.</li>
-<li>The lawsuit seeking to halt frontier-model development — already covered in the 13 November first edition.</li>
-<li>Nvidia’s leadership transition and board developments — already covered in the 13 November first edition.</li>
-<li>OpenAI’s Control Room research kill switch — covered in the 11 November edition.</li>
-</ul><p>Three additional candidates were outside the 48-hour window: Australia’s proposed AI safety regulator (10 November), the DeepSeek–Huawei Ascend programming-tools partnership (30 September), and Google TPU production at Meta (reported weeks earlier). Four repeats and three stale candidates were not promoted. AMD’s MI400 update is included as a material follow-up to the 4 November AMD report because it adds a new GPU variant and new benchmark results.</p></details>
-<details><summary>Coverage gaps and evidence limits</summary><p>No new independently verified Huawei Ascend, DeepSeek-on-domestic-chips, Cambricon, Moore Threads, Biren, Alibaba T-Head or Baidu Kunlunxin production/yield milestone met the date and evidence bar. No new frontier-model launch, major robotics deployment or AI-science paper was verified in this update. India’s strongest new development is OpenAI’s limited GPT-6 Luna API regional-processing option. Australia’s AI safety regulator proposal was announced on 10 November, outside the 48-hour window.</p><p>AMD’s MI455X throughput and bandwidth comparisons are vendor-run or vendor-calculated and are not an independent identical-system comparison. Nebius says its delayed third-party capacity remains contracted and its own sites are on schedule; the guidance change should not be treated as proof of a broad demand collapse. The SGLang consortium has not yet published new independent benchmarks.</p><p>The archive audit fetched and checked all 31 dated issue files linked from the archive index; none was unavailable. The persistent registry contained 251 story records and 32 edition entries before this update. Six event records were appended: five new events and one AMD material follow-up. The AMD parent record now links to this follow-up edition. The original 13 November issue remains immutable.</p><p>Ranking is editorial judgement, not objective truth. The main desk gives the highest-consequence developments fuller coverage; More Signals preserves additional verified items in a selectable table. Company claims, forecasts and preliminary plans are labelled. A humanising newsroom edit was applied; no external style linter was run.</p></details>
-
-<footer><span>SIGNAL. — AI DAILY / 13 NOVEMBER 2026</span><span>Paper, ink, evidence. Built to read offline.</span><span><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">BACK TO TOP ↑</a></span></footer>
-</div>
-
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
- <div class="modalcard">
-  <h2 id="modalTitle">Share this edition</h2>
-  <p id="modalHelp">Your browser cannot attach this local HTML file. Copy the summary and attach the downloaded HTML separately.</p>
-  <textarea id="fallback" readonly></textarea>
-  <button id="copy">COPY TEXT</button><button id="close">CLOSE</button>
-  <p id="modalStatus" role="status" aria-live="polite"></p>
- </div>
-</div>
-
 <script>
-(()=> {
- const summary="SIGNAL. — AI Daily | 13 November 2026 — Expanded edition 2. Lead additions: AMD expands the MI400 accelerator family and publishes new Helios inference results; Nebius cuts its 2026 revenue range after third-party data-centre delays; Nvidia, AMD, Intel, Google and Meta join the SGLang open-inference consortium; OpenAI adds limited GPT-6 Luna API processing in India. More Signals adds AMD–PsiQuantum quantum/HPC work and Intel–RadixArk SGLang optimisation. The edition contains 27 developments: 14 main-desk reports and 13 More Signals, including 21 new stories and six material follow-ups.";
- const items=[...document.querySelectorAll('.story,.signal-row')];
- document.getElementById('search').addEventListener('input',e=>{
-   const q=e.target.value.toLowerCase().trim();
-   items.forEach(x=>x.classList.toggle('hidden',q&&!((x.dataset.search||x.textContent).toLowerCase().includes(q))));
- });
- const speed=document.getElementById('speed');
- speed.addEventListener('input',()=>document.getElementById('speedval').textContent=Number(speed.value).toFixed(2)+'×');
- document.getElementById('play').onclick=()=>{
-   if(!('speechSynthesis'in window)){document.getElementById('reviewStatus').textContent='Read-aloud is not supported in this browser.';return;}
-   speechSynthesis.cancel();
-   const u=new SpeechSynthesisUtterance(document.querySelector('main').innerText);
-   u.rate=Number(speed.value);
-   speechSynthesis.speak(u);
- };
- document.getElementById('pause').onclick=()=>{if(window.speechSynthesis&&speechSynthesis.speaking){speechSynthesis.paused?speechSynthesis.resume():speechSynthesis.pause();}};
- document.getElementById('stop').onclick=()=>{if(window.speechSynthesis)speechSynthesis.cancel();};
- document.getElementById('printBtn').onclick=()=>window.print();
- const modal=document.getElementById('modal'),fallback=document.getElementById('fallback'),status=document.getElementById('modalStatus');
- const sourceLinks=[...document.querySelectorAll('.source a')].map(a=>a.textContent+': '+a.href).join('\n');
- const shareText=summary+'\n\nSelected source links:\n'+sourceLinks+'\n\nAttach the downloaded HTML file to share the complete offline edition.';
- function showModal(text,title,help){document.getElementById('modalTitle').textContent=title;document.getElementById('modalHelp').textContent=help;fallback.value=text;modal.classList.add('open');fallback.focus();fallback.select();}
- document.getElementById('downloadBtn').onclick=()=>{
-   const source='<!doctype html>\n'+document.documentElement.outerHTML;
-   const blob=new Blob([source],{type:'text/html;charset=utf-8'});
-   const url=URL.createObjectURL(blob),a=document.createElement('a');
-   a.href=url;a.download='SIGNAL_AI_Daily_2026-11-13-edition-2.html';
-   document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
- };
- document.getElementById('shareBtn').onclick=async()=>{
-   try{
-     const source='<!doctype html>\n'+document.documentElement.outerHTML;
-     const file=new File([source],'SIGNAL_AI_Daily_2026-11-13-edition-2.html',{type:'text/html'});
-     if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
-       await navigator.share({title:'SIGNAL. — AI Daily | 13 November 2026 — Expanded edition 2',text:summary,files:[file]});return;
-     }
-     if(navigator.share){await navigator.share({title:'SIGNAL. — AI Daily | 13 November 2026 — Expanded edition 2',text:shareText});return;}
-     showModal(shareText,'Share this edition','Your browser cannot attach the local HTML file. Copy this summary and attach the downloaded HTML file in your email or messaging app.');
-   }catch(e){if(e.name!=='AbortError')showModal(shareText,'Share this edition','File sharing is unavailable here. Copy this summary and attach the downloaded HTML file separately.');}
- };
- document.getElementById('review').onclick=async()=>{
-   const selected=[...document.querySelectorAll('.pick:checked')];
-   if(!selected.length){document.getElementById('reviewStatus').textContent='Nothing selected. Tick one or more rows first.';return;}
-   const prompt='Please reassess the ranking and coverage of the following SIGNAL. — AI Daily items. I consider these important. Compare them with the main desk on industry significance, novelty, evidence quality, likely impact and developer relevance. Do not automatically promote them; explain your judgement and any missing context.\n\n'+selected.map((c,i)=>(i+1)+'. '+c.dataset.headline+'\nSource: '+c.dataset.source+'\nPublication date: '+c.dataset.date+'\nDirect URL: '+c.dataset.url+'\nContext: '+c.dataset.context).join('\n\n');
-   try{await navigator.clipboard.writeText(prompt);document.getElementById('reviewStatus').textContent=selected.length+' item(s) copied. Paste into ChatGPT for reassessment.';}
-   catch(e){showModal(prompt,'Copy the review prompt','Clipboard access is unavailable. The prompt is selected below; copy it manually and paste it into ChatGPT.');}
- };
- document.getElementById('copy').onclick=async()=>{
-   try{await navigator.clipboard.writeText(fallback.value);status.textContent='Copied. Attach the downloaded HTML file separately.';}
-   catch(e){fallback.focus();fallback.select();status.textContent='Clipboard unavailable. Text is selected; copy it manually.';}
- };
- document.getElementById('close').onclick=()=>modal.classList.remove('open');
- modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open');});
-})();
-</script>
-</body>
-</html>
+function filterStories(){const q=document.getElementById('q').value.toLowerCase();document.querySelectorAll('.story').forEach(s=>s.style.display=s.innerText.toLowerCase().includes(q)?'block':'none');}
+function speak(){if(!('speechSynthesis' in window)){alert('Read-aloud is not supported in this browser.');return;}speechSynthesis.cancel();const t=document.querySelector('.page').innerText;const u=new SpeechSynthesisUtterance(t);u.rate=1; speechSynthesis.speak(u);}
+function stopSpeak(){if('speechSynthesis' in window)speechSynthesis.cancel();}
+async function sharePage(){const data={title:document.title,text:'SIGNAL. AI Daily — 13 November 2026 Expanded Edition 3. Models, benchmarks, agents, security, research and builder tools.',url:location.href};if(navigator.share){try{await navigator.share(data);return;}catch(e){}}try{await navigator.clipboard.writeText(data.title+'\n'+data.text+'\n'+data.url);alert('Edition summary and link copied. To share the offline webpage, attach the downloaded HTML file.');}catch(e){alert('Share is unavailable here. Use your browser menu to share the page, or attach the downloaded HTML file.');}}
+</script></body></html>
