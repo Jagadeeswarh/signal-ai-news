@@ -2775,8 +2775,8 @@
       "research_brief_count": 5,
       "more_signals_count": 0,
       "research_window": "2026-11-11 to 2026-11-13 Asia/Kolkata",
-      "source_domains_targeted": 50,
-      "source_domains_opened_and_inspected": 16,
+      "source_domains_targeted": 24,
+      "source_domains_opened_and_inspected": 18,
       "source_domain_audit": {
         "primary_sources": [
           "blog.google",
@@ -2801,7 +2801,7 @@
           "arxiv.org",
           "github.com"
         ],
-        "note": "Expanded late-day research pass. Targeted sources and direct source documents are distinguished; community reports are labelled anecdotal."
+        "note": "Late-day supplement: 24 distinct primary, independent, research and community domains were targeted; 18 were inspected for this update. This is not a claim that the full daily 50–60-domain research target was completed. The next scheduled edition should run the full diversified source sweep. Social reports remain anecdotal unless independently corroborated."
       },
       "editorial_note": "Additive edition. Editions 1–3 remain immutable. Social feedback is not treated as verified reporting. Vendor benchmarks, product claims and preprint results are attributed."
     }
