@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-13T10:42:40.570+05:30",
+  "last_updated_at": "2026-11-13T17:30:00+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.",
   "editions": [
     {
@@ -2732,6 +2732,78 @@
       "research_window": "2026-11-10 to 2026-11-13 Asia/Kolkata",
       "coverage_gap_note": "No directly verifiable X/Reddit/YouTube post was strong enough to publish in this late-day pass. No fresh OpenAI, Anthropic or Meta frontier-model release was confirmed in the inspected primary release notes during this pass; prior covered releases were not repeated. Chip-capex and funding items from edition 2 were not repeated. Microsoft 365 outage was kept separate from Microsoft's earlier ARTEX supply-chain threat report.",
       "editorial_note": "Additive late-day edition. The earlier 13 November edition 2 remains immutable. Fable 5.2 is a material independent benchmark follow-up; other repeated events were excluded. Rankings are editorial judgement; vendor claims and preprint findings are attributed."
+    },
+    {
+      "date": "2026-11-13",
+      "path": "archive/2026-11-13-edition-4.html",
+      "kind": "expanded full-spectrum edition 4",
+      "story_ids": [
+        "event-google-gemini-4-hydrogen-2026-11-12",
+        "event-google-gemini-decisions-api-2026-11-11",
+        "event-baidu-ernie-5-5-flash-preview-2026-11-13",
+        "event-bielik-11b-v31-dflash-bielik-one-2026-11-12",
+        "event-microsoft-365-outage-exchange-healthcheck-cascade-2026-11-12",
+        "event-microsoft-artEx-storm-0940-connectwise-supply-chain-2026-10-21",
+        "event-anthropic-mamubench-multiuser-agent-coordination-2026-11-11",
+        "event-evolving-infra-agent-adaptive-serving-arxiv-2611-12304",
+        "event-steerdistill-quantized-agent-distillation-arxiv-2611-13410",
+        "event-meta-astryx-open-source-design-system-2026-11-13",
+        "event-copilotkit-openbot-ai-coworker-workspace-2026-11-13",
+        "event-gtagym-gta-v-agent-benchmark-arxiv-2611-13028",
+        "event-dependable-long-horizon-agents-trajectory-study-arxiv-2611-13254",
+        "event-opmd-on-policy-midtraining-distillation-arxiv-2611-13855",
+        "event-emilia2-longform-speech-dataset-arxiv-2611-13614",
+        "event-walrus-8b-speech-audio-model-arxiv-2611-13689",
+        "event-anthropic-claude-fable-mythos-5-2-2026-11-09",
+        "event-ibm-granite-llmon-preview-2026-11-12",
+        "event-aws-emulator-agent-built-local-cloud-2026-11-11",
+        "event-runway-praxis-1-open-world-action-model-2026-11-11",
+        "event-minimax-h3-image-open-weight-4k-2026-11-11",
+        "event-zyphra-zonos3-mini-real-time-tts-2026-11-09",
+        "event-world-labs-atlas-public-world-model-2026-11-12",
+        "event-anthropic-self-hosted-managed-agents-2026-11-12",
+        "event-anthropic-claude-meetings-beta-2026-11-12",
+        "event-anthropic-claude-manufacturing-plugin-2026-11-12",
+        "event-nice-cognigy-agentic-experience-studio-2026-11-12",
+        "event-qwen4-max-preview-token-plan-2026-11-11",
+        "event-community-fable52-usage-cost-feedback-2026-11-13"
+      ],
+      "story_count": 29,
+      "new_story_count": 11,
+      "material_follow_up_count": 1,
+      "main_desk_count": 24,
+      "research_brief_count": 5,
+      "more_signals_count": 0,
+      "research_window": "2026-11-11 to 2026-11-13 Asia/Kolkata",
+      "source_domains_targeted": 50,
+      "source_domains_opened_and_inspected": 16,
+      "source_domain_audit": {
+        "primary_sources": [
+          "blog.google",
+          "deepmind.google",
+          "huggingface.co",
+          "aws.amazon.com",
+          "aboutamazon.com",
+          "runway.com",
+          "minimax.io",
+          "zyphra.com",
+          "worldlabs.ai",
+          "claude.com",
+          "anthropic.com",
+          "cognigy.com",
+          "qwencloud.com"
+        ],
+        "independent_and_community_sources": [
+          "reuters.com",
+          "apnews.com",
+          "theguardian.com",
+          "reddit.com",
+          "arxiv.org",
+          "github.com"
+        ],
+        "note": "Expanded late-day research pass. Targeted sources and direct source documents are distinguished; community reports are labelled anecdotal."
+      },
+      "editorial_note": "Additive edition. Editions 1–3 remain immutable. Social feedback is not treated as verified reporting. Vendor benchmarks, product claims and preprint results are attributed."
     }
   ],
   "stories": [
@@ -9723,6 +9795,335 @@
       "delivery_note": "Author-reported benchmark claims; independent evaluation and model availability remain to be checked.",
       "follow_up_of": null,
       "material_change": null
+    },
+    {
+      "story_id": "event-ibm-granite-llmon-preview-2026-11-12",
+      "normalized_subject": "IBM Granite LLMON structured prompt language and preview models",
+      "event_summary": "IBM released experimental Granite 4.1 3B and 8B preview models trained to consume and generate LLMON (LLM Object Notation), a structured format that labels instructions, data, tool definitions and outputs with explicit identifiers. IBM also published a toolkit and examples. The project is experimental; independent evidence of improved reliability or prompt-injection resistance is not yet established.",
+      "normalized_headline": "IBM tests LLM-native structure with Granite 4.1 LLMON previews",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+        "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Hugging Face / IBM Granite · 12 Nov 2026"
+      ],
+      "delivery_note": "An attempt to make prompt structure explicit rather than burying it in prose or JSON. Test it against ordinary templates and adversarial inputs before assuming it is safer.",
+      "entities": [
+        "IBM",
+        "Granite",
+        "LLMON",
+        "prompt engineering",
+        "open models"
+      ]
+    },
+    {
+      "story_id": "event-aws-emulator-agent-built-local-cloud-2026-11-11",
+      "normalized_subject": "AWS Emulator local cloud API emulator and agent-built software",
+      "event_summary": "AWS Emulator lets developers and coding agents send AWS SDK and CLI calls to a local endpoint without deploying resources or using an AWS account. It keeps resource state in memory, isolates separate runs, and returns 501 for unsupported operations. AWS says the emulator was written by autonomous agents and checked with fidelity tests and automated review gates; its source is published under CC0.",
+      "normalized_headline": "AWS releases a local cloud emulator designed for developers and coding agents",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/",
+        "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
+        "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "AWS · 11 Nov 2026",
+        "About Amazon · 11 Nov 2026"
+      ],
+      "delivery_note": "A useful way to let agents test cloud integrations locally and cheaply. Emulator fidelity is limited to supported APIs; do not treat it as a complete substitute for staging in AWS.",
+      "entities": [
+        "Amazon Web Services",
+        "AWS Emulator",
+        "coding agents",
+        "developer tools"
+      ]
+    },
+    {
+      "story_id": "event-runway-praxis-1-open-world-action-model-2026-11-11",
+      "normalized_subject": "Runway Praxis-1 open-weight world action model for robotics",
+      "event_summary": "Runway released Praxis-1, a 27-billion-parameter mixture-of-experts world-action model, with weights and inference/fine-tuning code under Apache 2.0. It predicts video and actions together and is intended for robot control. Runway reports 46.2% success over 1,200 episodes on NVIDIA RoboLab-120, above the compared open-weight VLA models; these are vendor-presented benchmark results, and real-world transfer remains a separate question.",
+      "normalized_headline": "Runway opens Praxis-1 weights for developers building robot-control systems",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://runway.com/news/company-news/praxis-1-is-now-available",
+        "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Runway · 11 Nov 2026"
+      ],
+      "delivery_note": "A significant bridge between video foundation models and physical action. The next test is whether independent labs reproduce the score on different robots and real environments.",
+      "entities": [
+        "Runway",
+        "Praxis-1",
+        "robotics",
+        "world models",
+        "open weights"
+      ]
+    },
+    {
+      "story_id": "event-minimax-h3-image-open-weight-4k-2026-11-11",
+      "normalized_subject": "MiniMax H3-Image open-weight high-resolution image generation",
+      "event_summary": "MiniMax released H3-Image as an open-weight image generation and editing model, supporting up to 16 reference images and 4K output. The company says a 4K image can be generated in under ten seconds and positions the model for advertising, e-commerce and content workflows. Check the model card and licence conditions before commercial deployment; open weights do not automatically mean unrestricted commercial use.",
+      "normalized_headline": "MiniMax opens H3-Image, a 4K image model built for multi-reference creative work",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://www.minimax.io/blog/minimax-h3-image",
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "MiniMax · 11 Nov 2026"
+      ],
+      "delivery_note": "Useful for creators and product teams who need consistent multi-reference edits. Benchmark speed on your own GPU and inspect the commercial licence before using client assets.",
+      "entities": [
+        "MiniMax",
+        "H3-Image",
+        "image generation",
+        "creative AI"
+      ]
+    },
+    {
+      "story_id": "event-zyphra-zonos3-mini-real-time-tts-2026-11-09",
+      "normalized_subject": "Zyphra ZONOS3-Mini real-time open-weight voice cloning TTS",
+      "event_summary": "Zyphra introduced ZONOS3-Mini, an Apache 2.0 sparse mixture-of-experts text-to-speech model with 100 million active and about 800 million total parameters. It supports zero-shot voice cloning, accent and delivery controls, and browser/WebGPU, server and local runtimes. Zyphra reports real-time execution on devices including Pixel 9 and MacBook Air; those latency figures are vendor measurements.",
+      "normalized_headline": "Zyphra’s 100M-active-parameter ZONOS3-Mini brings controllable voice generation to local devices",
+      "original_publication_date": "2026-11-09",
+      "canonical_urls": [
+        "https://www.zyphra.com/our-work/zonos3-mini",
+        "https://huggingface.co/blog/Zyphra/zonos3-mini"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Zyphra · 9 Nov 2026",
+        "Hugging Face / Zyphra · 12 Nov 2026"
+      ],
+      "delivery_note": "Local, steerable speech could enable low-latency voice interfaces without sending every request to a hosted service. Voice-cloning consent and misuse controls remain essential.",
+      "entities": [
+        "Zyphra",
+        "ZONOS3-Mini",
+        "speech synthesis",
+        "voice cloning"
+      ]
+    },
+    {
+      "story_id": "event-world-labs-atlas-public-world-model-2026-11-12",
+      "normalized_subject": "World Labs Atlas world model public release and 3D creation tools",
+      "event_summary": "World Labs opened Atlas to broader public use with Viewfinder for reconstructing and exploring scenes from images, Chisel for controllable scene blocking, Splats to Mesh, Relight and developer integrations. Outputs include spatially coherent views, camera paths, video and Gaussian splats. Public pricing and commercial terms were not clear in the material inspected; builders should check usage rights and API limits before client work.",
+      "normalized_headline": "World Labs opens Atlas: turn photos into explorable 3D worlds and agent-ready scenes",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://worldlabs.ai/blog",
+        "https://worldlabs.ai/atlas"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "World Labs · 12 Nov 2026"
+      ],
+      "delivery_note": "This is a creative and spatial-computing shift, not just another text-to-image tool. Game, simulation, architecture and robotics teams should test geometry consistency and export quality.",
+      "entities": [
+        "World Labs",
+        "Atlas",
+        "Viewfinder",
+        "Chisel",
+        "world models",
+        "3D Gaussian splatting"
+      ]
+    },
+    {
+      "story_id": "event-anthropic-self-hosted-managed-agents-2026-11-12",
+      "normalized_subject": "Anthropic self-hosted Claude Managed Agents private beta",
+      "event_summary": "Anthropic opened a private beta of self-hosted Claude Managed Agents. Companies can host the agent runtime, credentials and session history in their own cloud or on-premises environment while choosing where model requests are sent. Managed Agents supplies the harness, sandboxing, credential handling and session history for long-running agents. It is a private beta, not general availability.",
+      "normalized_headline": "Anthropic lets enterprises run Claude Managed Agents inside their own cloud",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://claude.com/fr/resources/articles/self-hosted-claude-managed-agents",
+        "https://claude.com/resources/product-updates"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Anthropic · 12 Nov 2026"
+      ],
+      "delivery_note": "A meaningful deployment choice for regulated firms and companies with sensitive internal systems. The security boundary still depends on identity, secrets, network egress and the host environment.",
+      "entities": [
+        "Anthropic",
+        "Claude Managed Agents",
+        "enterprise agents",
+        "self-hosting"
+      ]
+    },
+    {
+      "story_id": "event-anthropic-claude-meetings-beta-2026-11-12",
+      "normalized_subject": "Anthropic Claude Meetings beta in Google Meet",
+      "event_summary": "Claude Meetings entered beta for Team and Enterprise plans. Claude joins Google Meet as a visible participant, follows the discussion, answers questions, writes notes and action items, and can create documents or whiteboards during the call. The feature stores a transcript, summary and screen descriptions rather than audio. Anthropic says participants should consent to transcription; some enterprise configurations are excluded from the beta.",
+      "normalized_headline": "Claude can now join Google Meet calls, answer questions and build work artifacts live",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://claude.com/resources/articles/claude-meetings",
+        "https://support.claude.com/en/articles/12138966-release-notes"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Anthropic · 12 Nov 2026"
+      ],
+      "delivery_note": "Meeting assistants are moving from passive transcription to live task execution. Consent, access to connected tools and visibility of generated artifacts need clear team policies.",
+      "entities": [
+        "Anthropic",
+        "Claude Meetings",
+        "Google Meet",
+        "workplace AI"
+      ]
+    },
+    {
+      "story_id": "event-anthropic-claude-manufacturing-plugin-2026-11-12",
+      "normalized_subject": "Anthropic Claude for Manufacturing plugin and connectors",
+      "event_summary": "Claude for Manufacturing bundles 17 skills and four connectors for tasks such as quoting, supplier requests, quality reports and diagnosing production interruptions. It connects to systems including Autodesk Fusion, Infor, Microsoft 365 and Oracle NetSuite. Anthropic says staff review and approve quotes, corrective actions and supplier-facing work; the plugin does not operate factory equipment.",
+      "normalized_headline": "Anthropic packages 17 manufacturing skills into a Claude plugin",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://claude.com/resources/articles/claude-for-manufacturing",
+        "https://claude.com/resources/product-updates"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Anthropic · 12 Nov 2026"
+      ],
+      "delivery_note": "Vertical agents are becoming workflow products with connectors and approval gates. The differentiator is integration into real systems, not a generic chat interface.",
+      "entities": [
+        "Anthropic",
+        "Claude for Manufacturing",
+        "industrial AI",
+        "ERP"
+      ]
+    },
+    {
+      "story_id": "event-nice-cognigy-agentic-experience-studio-2026-11-12",
+      "normalized_subject": "NiCE Cognigy next-generation agentic customer experience platform",
+      "event_summary": "NiCE introduced a next-generation Cognigy platform with an Agentic Experience Studio, AI Assist, agent tracing, multivariate testing and real-time voice-to-voice support. The platform is designed to combine deterministic flows with agents, preserving existing customer deployments and governance. The release is a product announcement; independent production performance data was not included.",
+      "normalized_headline": "NiCE upgrades Cognigy with agent tracing, voice-to-voice and governed orchestration",
+      "original_publication_date": "2026-11-12",
+      "canonical_urls": [
+        "https://www.cognigy.com/product-updates/next-gen-nice-cognigy"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "NiCE Cognigy · 12 Nov 2026"
+      ],
+      "delivery_note": "Enterprise agent platforms are converging on observability and deterministic guardrails. Look for evidence of resolution rates, escalation quality and total cost per handled interaction.",
+      "entities": [
+        "NiCE",
+        "Cognigy",
+        "customer experience",
+        "voice agents"
+      ]
+    },
+    {
+      "story_id": "event-qwen4-max-preview-token-plan-2026-11-11",
+      "normalized_subject": "Alibaba Qwen4-Max multimodal preview availability",
+      "event_summary": "QwenCloud lists Qwen4-Max-Preview as a next-generation multimodal model for text, image and video understanding, deep reasoning, tool calling, structured outputs and coding. It is available through a limited Token Plan preview from November 11 to November 25, 2026, with no pay-as-you-go access during the preview. The preview terms and model retirement date matter for anyone testing it in production-like workflows.",
+      "normalized_headline": "Qwen4-Max Preview opens a new multimodal model tier for agent and coding experiments",
+      "original_publication_date": "2026-11-11",
+      "canonical_urls": [
+        "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "QwenCloud · preview documentation accessed 13 Nov 2026"
+      ],
+      "delivery_note": "Track it as a model availability signal, not a fully released production API. Test coding, visual understanding and tool-call reliability against the models you already use.",
+      "entities": [
+        "Alibaba",
+        "Qwen",
+        "Qwen4-Max",
+        "multimodal models"
+      ]
+    },
+    {
+      "story_id": "event-community-fable52-usage-cost-feedback-2026-11-13",
+      "normalized_subject": "Community reports on Claude Fable 5.2 usage limits and coding workflows",
+      "event_summary": "A November 13 discussion in r/ClaudeCode reports sharply different experiences with Fable 5.2. Some users say high-effort coding and subagent orchestration exhaust usage limits quickly; others argue the model is valuable for architecture, deep review and difficult reasoning, while Opus or smaller models are more efficient for routine implementation. This is anecdotal community feedback, not a controlled benchmark or representative usage study.",
+      "normalized_headline": "Builder feedback on Fable 5.2: stronger reasoning, but agent-heavy sessions can burn quotas quickly",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://www.reddit.com/r/ClaudeCoding/comments/1xv04ev/tldr_fable_52_uses_so_much_usage_its_basically/",
+        "https://www.reddit.com/r/ClaudeCoding/comments/1xt2wbe/tldr_hows_everyone_finding_claude_fable_52_so_far/"
+      ],
+      "first_edition_date": "2026-11-13",
+      "first_edition_path": "archive/2026-11-13-edition-4.html",
+      "edition_paths": [
+        "archive/2026-11-13-edition-4.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "r/ClaudeCode / r/ClaudeCoding · 11–13 Nov 2026"
+      ],
+      "delivery_note": "Practical takeaway: route routine edits to cheaper models and reserve Fable for high-value planning, architecture and review—then measure cost per completed task, not tokens alone.",
+      "entities": [
+        "Claude Fable 5.2",
+        "Claude Code",
+        "AI developer community",
+        "model economics"
+      ]
     }
   ]
 }
