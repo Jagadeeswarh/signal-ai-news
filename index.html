@@ -1,289 +1,527 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f5f1e8">
-<meta name="description" content="SIGNAL AI Daily — 13 November 2026 expanded edition 3: models, benchmarks, agents, security, research and builder culture.">
-<title>SIGNAL. — AI Daily | 13 November 2026 — Expanded Edition 4</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f5ef">
+<meta name="description" content="SIGNAL. AI Daily — a source-checked, full-stack briefing on models, agents, products, research, security, compute, business and the AI ecosystem.">
+<title>SIGNAL. — AI Daily | Saturday, 14 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#f5f1e8;--ink:#071717;--muted:#625d56;--red:#8c2227;--line:#c9c0b3;--soft:#ebe5db;--white:#fbf9f4;--sans:Inter,Arial,Helvetica,sans-serif}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.65 var(--sans)}
-a{color:var(--red);text-underline-offset:3px}.page{max-width:1120px;margin:auto;padding:24px clamp(16px,3vw,36px) 70px}
-header{display:flex;align-items:center;justify-content:space-between;gap:18px;border-bottom:4px double var(--ink);padding-bottom:14px}
-.logo{font:700 clamp(42px,8vw,72px)/.95 "Space Grotesk",sans-serif;letter-spacing:.04em}.logo span{color:var(--red)}.tools{display:flex;gap:8px;flex-wrap:wrap}
-button{border:1px solid var(--ink);background:transparent;padding:8px 12px;font:600 12px var(--sans);cursor:pointer}button:hover{background:var(--ink);color:white}
-.kicker{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--red);font-weight:800;margin:20px 0 8px}
-h1,h2,h3,p{margin-top:0}h1{font-size:clamp(26px,4vw,42px);line-height:1.12;max-width:850px;margin-bottom:10px}h2{font-size:23px;line-height:1.2;border-bottom:2px solid var(--ink);padding-bottom:8px;margin:32px 0 12px}h3{font-size:19px;line-height:1.25;margin-bottom:9px}
-.deck{font-size:17px;max-width:880px;color:#38342f}.edition-meta{font-size:12px;color:var(--muted);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0;margin:16px 0}
-.brief{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;margin:20px 0}.brief>div{background:var(--white);border:1px solid var(--line);padding:16px}
-.brief h2{margin:0 0 8px;font-size:19px;border:0;padding:0}.brief p{margin:0 0 8px}
-.toc{display:flex;gap:8px 16px;flex-wrap:wrap;font-size:12px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0}.toc a{font-weight:700;text-decoration:none}
-.note{background:var(--soft);padding:12px 14px;border-left:4px solid var(--red);font-size:13px}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}.story{border-top:1px solid var(--line);padding:18px 0;break-inside:avoid}.story p{margin-bottom:9px}.meta{display:flex;justify-content:space-between;color:var(--red);font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;margin-bottom:7px}.why{font-size:13px;color:#3c3934}.source{font-size:11px;color:var(--muted);border-top:1px dotted var(--line);padding-top:7px}
-table{width:100%;border-collapse:collapse;font-size:13px;margin:12px 0 20px}td,th{padding:9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--soft);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
-ul{padding-left:20px}li{margin:5px 0}.footer{margin-top:40px;border-top:4px double var(--ink);padding-top:14px;color:var(--muted);font-size:12px}
-.searchbar{display:flex;gap:8px;align-items:center;margin:12px 0}input{font:inherit;padding:8px;border:1px solid var(--line);background:var(--white);min-width:220px;max-width:100%}
-.small{font-size:12px;color:var(--muted)}.pill{display:inline-block;border:1px solid var(--line);padding:2px 7px;font-size:10px;text-transform:uppercase;letter-spacing:.08em;margin-right:5px}
-@media(max-width:760px){.brief,.grid{grid-template-columns:1fr}header{align-items:flex-start;flex-direction:column}.tools{width:100%}}
-@media print{body{background:white;font-size:11pt}.page{max-width:none;padding:0}.tools,.searchbar{display:none}a{color:#071;text-decoration:underline}.story{break-inside:avoid}}
-</style></head>
-<body><div class="page">
-<header><div class="logo">SIGNAL<span>.</span></div><div class="tools">
-<button onclick="window.print()">PRINT / SAVE PDF</button><button onclick="speak()">READ ALOUD</button><button onclick="stopSpeak()">STOP</button><button onclick="sharePage()">SHARE</button>
-</div></header>
-<div class="kicker">AI Daily · Expanded full-spectrum edition · Edition 4</div>
-<h1>AI is moving from chat to coordinated work: cheaper agents, real-world creation and new failure modes.</h1>
-<p class="deck">A fuller scan across model releases, benchmark shifts, agent infrastructure, open-source frameworks, creative tools, speech, robotics, enterprise workflows, security incidents and the conversations builders are having in public. This edition adds the day’s developer and creator launches to the earlier compute and capital coverage.</p>
-<div class="edition-meta">Friday, 13 November 2026 · Asia/Kolkata · 29 story entries · 23 main-desk developments · 5 research briefs · 1 community pulse · Expanded update to today’s earlier editions</div>
-<div class="brief">
-<div><h2>The editor’s briefing</h2><p>Google is splitting the model stack into planners, fast executors and bounded decision calls. IBM is testing structured prompt representations; Qwen and Baidu are pushing multimodal and agentic previews; and the open-model ecosystem now spans voice, image and robot action.</p><p>Meanwhile, AI is moving into meetings, manufacturing, cloud development, 3D scene creation and physical robots. Agent research is moving from tool use to coordination, consent and reliability. Microsoft’s outage remains a separate infrastructure incident—not a confirmed cyberattack.</p></div>
-<div><h2>What deserves your attention</h2><ul><li><b>Build:</b> Gemini Decisions API, AWS Emulator, LLMON and OpenBot.</li><li><b>Evaluate:</b> Fable’s coding lead is a composite index, not one universal score.</li><li><b>Secure:</b> treat agent permissions and third-party app grants as production attack surface.</li><li><b>Create:</b> MiniMax H3-Image, ZONOS3-Mini, Atlas and Praxis-1.</li><li><b>Watch:</b> independent tests of Google’s agent claims and the new open model releases.</li></ul></div>
+:root{--paper:#f7f5ef;--paper2:#efede6;--ink:#171b20;--muted:#626a70;--line:#c9c9c1;--red:#a32924;--red2:#7e1d1a;--green:#3f6652;--body:"Inter",Arial,Helvetica,sans-serif;--display:"Space Grotesk",Arial,Helvetica,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.58 var(--body)}a{color:var(--red2);text-decoration-thickness:1px;text-underline-offset:3px}a:hover{color:var(--ink)}button,input,select,textarea{font:inherit}button{cursor:pointer}.page{max-width:1440px;margin:0 auto;padding:22px 30px 36px}.masthead{display:flex;align-items:flex-end;justify-content:space-between;gap:22px;border-bottom:4px double var(--ink);padding-bottom:13px}.wordmark{font:700 clamp(48px,7vw,78px)/.88 var(--display);letter-spacing:.035em}.wordmark span{color:var(--red)}.mast-sub{margin-top:8px;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:700}.head-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.btn{border:1px solid var(--ink);background:transparent;color:var(--ink);padding:8px 12px;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;border-radius:2px}.btn.primary{background:var(--red);border-color:var(--red);color:#fff}.btn:hover{background:var(--ink);color:#fff}.datebar{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:9px 0;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700}.datebar strong{color:var(--ink)}.kicker{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--red);font-weight:800;margin:20px 0 7px}.briefing{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(240px,.55fr);gap:28px;padding:18px 0 16px;border-bottom:1px solid var(--ink)}h1{font:700 clamp(29px,4vw,47px)/1.05 var(--body);letter-spacing:-.045em;margin:0 0 12px;max-width:900px}.dek{font-size:16px;line-height:1.55;max-width:940px;margin:0;color:#30373b}.brief-side{border-left:1px solid var(--line);padding-left:20px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}.brief-side p{margin:0;color:var(--muted);font-size:12px}.statline{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.stat{border-top:2px solid var(--red);padding-top:7px}.stat b{display:block;font:700 25px/1 var(--display)}.stat span{display:block;color:var(--muted);font-size:9px;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}.toc{display:flex;gap:7px 16px;flex-wrap:wrap;padding:10px 0 12px;border-bottom:1px solid var(--line);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}.toc a{color:var(--ink);text-decoration:none}.toc a:hover{color:var(--red);text-decoration:underline}.toolstrip{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:11px 0;border-bottom:1px solid var(--line)}.toolstrip label{font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.toolstrip input,.toolstrip select{border:1px solid var(--line);background:#fffdf8;padding:7px 9px;border-radius:2px;min-height:34px;color:var(--ink)}.toolstrip input{min-width:220px;flex:1}.toolstrip .audio{display:flex;align-items:center;gap:5px}.toolstrip .audio .btn{padding:7px 9px}.toolstrip select{min-width:70px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:26px;padding-top:18px}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;border-bottom:2px solid var(--ink);padding-bottom:7px;margin:0 0 12px}.section-head h2{font:700 20px/1.1 var(--display);letter-spacing:-.025em;margin:0}.section-head small{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-weight:800}.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}.story{position:relative;border-bottom:1px solid var(--line);padding:14px 0 15px;min-width:0}.story.lead{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:22px;padding:15px 0 18px;border-bottom:2px solid var(--ink)}.story-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px}.rank{font:700 13px/1 var(--display);color:var(--red);min-width:22px}.tag{font-size:9px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--red);border:1px solid #d7aaa6;padding:3px 6px}.meta{font-size:10px;color:var(--muted);font-weight:600}.story h3{font:700 21px/1.13 var(--body);letter-spacing:-.035em;margin:0 0 9px}.story:not(.lead) h3{font-size:18px}.story p{margin:0 0 9px;color:#343a3f}.story .why{border-left:3px solid var(--red);padding:5px 0 5px 10px;margin:10px 0 8px;font-size:12px;color:#333b40}.story .why b{color:var(--red2)}.sources{font-size:10px;line-height:1.6;color:var(--muted);margin-top:7px}.sources a{font-weight:700;margin-right:8px}.story .follow{display:inline-block;background:#efe5dc;color:#7d342c;padding:3px 6px;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.story .lead-title{align-self:center}.story .lead-copy{align-self:center}.sidebar{border-left:1px solid var(--line);padding-left:18px}.railbox{border-bottom:1px solid var(--line);padding:0 0 14px;margin-bottom:14px}.railbox h3{font:700 15px/1.15 var(--display);margin:0 0 8px}.railbox p,.railbox li{font-size:11px;color:#454c50;margin:0 0 7px}.railbox ul{padding-left:16px;margin:0}.railbox .tiny{font-size:10px;color:var(--muted)}.railbox .callout{border-top:2px solid var(--red);padding-top:7px}.no-score{background:var(--paper2);padding:9px 10px;border-left:3px solid var(--red)}.desk-section{margin-top:24px}.analysis-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.analysis-card{border-top:2px solid var(--ink);padding-top:8px}.analysis-card h3{font:700 15px/1.2 var(--display);margin:0 0 6px}.analysis-card p{font-size:12px;margin:0;color:#42494e}.more-list{border-top:1px solid var(--ink)}.more-item{display:grid;grid-template-columns:30px minmax(0,1fr) 110px;gap:12px;align-items:start;border-bottom:1px solid var(--line);padding:11px 0}.more-num{font:700 14px var(--display);color:var(--red)}.more-item h3{font:700 15px/1.2 var(--body);margin:0 0 4px}.more-item p{font-size:11px;color:#454c50;margin:0}.more-item .more-meta{font-size:9px;text-align:right;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.06em}.community{border:1px solid var(--line);border-left:4px solid var(--red);padding:12px 14px;margin-top:12px;background:rgba(239,237,230,.45)}.community h3{font:700 17px/1.2 var(--display);margin:0 0 7px}.community p{font-size:12px;margin:0 0 7px}.statusline{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--red)}.future-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}.future-item{border-top:1px solid var(--line);padding:10px 0}.future-item b{font-size:11px;color:var(--red);text-transform:uppercase;letter-spacing:.06em}.future-item p{font-size:12px;margin:4px 0 0;color:#42494e}.capital-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px}.capital-grid p{font-size:12px;color:#42494e;margin:0 0 8px}.capital-grid ul{margin:5px 0;padding-left:17px}.capital-grid li{font-size:12px;color:#42494e;margin-bottom:5px}.glossary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 18px}.term{border-top:1px solid var(--line);padding:8px 0}.term b{font-size:11px}.term p{font-size:11px;margin:3px 0 0;color:#4c5358}.audit{border-top:2px solid var(--ink);margin-top:24px;padding-top:10px}.audit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.audit-box{background:var(--paper2);padding:10px 11px}.audit-box b{display:block;font:700 20px var(--display)}.audit-box span{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:800}.audit p,.audit li{font-size:11px;color:#4b5257}.audit ul{margin:6px 0;padding-left:17px}.audit details{border-top:1px solid var(--line);padding:8px 0}.audit summary{cursor:pointer;font-size:11px;font-weight:800;color:var(--red2)}.domain-list{font-size:10px;line-height:1.8;color:#52595e;word-break:break-word}.coverage-note{font-size:11px;background:#ece9e0;padding:10px 12px;border-left:3px solid var(--ink);margin-top:10px}.footer{border-top:4px double var(--ink);margin-top:28px;padding:12px 0 0;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:10px}.footer strong{color:var(--ink)}.share-dialog{position:fixed;inset:0;background:rgba(20,22,24,.52);display:none;align-items:center;justify-content:center;padding:18px;z-index:50}.share-dialog.open{display:flex}.share-panel{width:min(620px,100%);background:var(--paper);border:1px solid var(--ink);padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.25)}.share-panel h2{font:700 21px var(--display);margin:0 0 8px}.share-panel p{font-size:12px;color:#444c51}.share-panel textarea{width:100%;min-height:130px;border:1px solid var(--line);background:#fffdf8;padding:10px;font:11px/1.5 var(--body);color:var(--ink)}.share-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.share-close{float:right}.feedback{font-size:11px;color:var(--green);min-height:18px;margin-top:6px}.hidden{display:none!important}
+@media(max-width:1050px){.layout{grid-template-columns:minmax(0,1fr) 260px}.story-grid{gap:0 16px}.story h3{font-size:19px}.story:not(.lead) h3{font-size:17px}}
+@media(max-width:780px){.page{padding:16px 17px 28px}.layout{grid-template-columns:1fr}.sidebar{border-left:0;border-top:2px solid var(--ink);padding:16px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 18px}.railbox{margin:0}.briefing{grid-template-columns:1fr}.brief-side{border-left:0;border-top:1px solid var(--line);padding:12px 0 0}.analysis-grid{grid-template-columns:1fr 1fr}.glossary{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.page{padding:13px 13px 24px}.masthead{align-items:flex-start}.wordmark{font-size:51px}.mast-sub{font-size:8px}.head-actions{gap:5px}.head-actions .btn{padding:7px 8px;font-size:9px}.datebar{font-size:9px}.briefing{padding-top:14px}.dek{font-size:14px}.story-grid{grid-template-columns:1fr}.story.lead{grid-template-columns:1fr;gap:8px}.story h3{font-size:20px}.story:not(.lead) h3{font-size:18px}.sidebar{grid-template-columns:1fr}.analysis-grid,.future-list,.capital-grid,.glossary,.audit-grid{grid-template-columns:1fr}.more-item{grid-template-columns:25px minmax(0,1fr)}.more-item .more-meta{grid-column:2;text-align:left}.toolstrip input{min-width:100%;order:1}.toolstrip label[for=search]{order:0}.toolstrip .audio{width:100%;justify-content:flex-start}.toolstrip .btn{font-size:9px}.statline{grid-template-columns:repeat(3,1fr)}h1{font-size:31px}}
+@media print{body{background:#fff;color:#000;font-size:10.5pt}.page{max-width:none;padding:0 8mm}.head-actions,.toolstrip,.share-dialog,.toc{display:none!important}.masthead{padding-bottom:8px}.wordmark{font-size:48pt}.layout{grid-template-columns:1fr 60mm;gap:7mm}.story-grid{gap:0 5mm}.story,.more-item,.future-item,.term{break-inside:avoid}.story h3{font-size:15pt}.story:not(.lead) h3{font-size:12pt}.sidebar{border-left:1px solid #999}.briefing{break-inside:avoid}.desk-section{break-inside:auto}.sources a{color:#000}.footer{margin-top:10mm}.audit details{break-inside:avoid}.audit details[open] .domain-list{display:block}a{text-decoration:underline}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="masthead">
+  <div>
+    <div class="wordmark">SIGNAL<span>.</span></div>
+    <div class="mast-sub">The full-stack AI intelligence daily</div>
+  </div>
+  <div class="head-actions">
+    <button class="btn primary" id="shareBtn" type="button">Share</button>
+    <button class="btn" type="button" onclick="window.print()">Print / PDF</button>
+    <a class="btn" href="/index.html" style="text-decoration:none">Latest</a>
+  </div>
+</header>
+<div class="datebar">
+  <span><strong>Saturday, 14 November 2026</strong> · Asia/Kolkata</span>
+  <span>Research window: 12–14 November · 08:42 IST cut-off</span>
+  <span>Full-stack briefing · Issue 01</span>
 </div>
-<nav class="toc"><a href="#models">Models & benchmarks</a><a href="#security">Security & reliability</a><a href="#agents">Agents & inference</a><a href="#builders">Builders & products</a><a href="#research">Research papers</a><a href="#newdevelopments">New launches & tools</a><a href="#community">Community pulse</a><a href="#future">Future radar</a><a href="#money">Capital lens</a><a href="#audit">Source audit</a></nav>
-<p class="note"><b>How to read this update:</b> This is an additive expanded edition. Earlier 13 November editions remain preserved. Edition 2 carries compute, supply-chain, India API-residency, funding and infrastructure coverage; edition 3 carries the first model, agent and research expansion. <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-13-edition-3.html">Open expanded edition 3</a> · <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-13-edition-2.html">Open expanded edition 2</a>. Items below were checked against the persistent story registry; one Fable item is explicitly marked as a material benchmark follow-up. Company claims and preprint results are labelled as such.</p>
-<div class="searchbar"><label for="q"><b>Search this update</b></label><input id="q" placeholder="Filter stories, models, topics…" oninput="filterStories()"></div>
-<section id="models"><h2>Models & benchmark desk</h2><div class="grid">
-    <article class="story" id="s1">
-      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#01</span></div>
-      <h3>Gemini 4 Hydrogen brings Google’s agentic model stack down the price curve</h3>
-      <p>Google introduced Gemini 4 Hydrogen on 12 November as its fast execution model for coding and agent workflows. It has a 1-million-token context window and is priced at $1.50 per million input tokens and $7.50 per million output tokens. Google reports a score of 51 on the Artificial Analysis Intelligence Index at default high thinking (54 at xhigh), versus 50 for Gemini 4 Argon. Google also says its Antigravity Orchestrator can combine Carbon and Hydrogen to approach Carbon task success on Terminal-Bench 4.0 while using 24% less quota and finishing 19% faster. These are vendor-reported results; independent replication is still needed.</p>
-      <p class="why"><b>Why it matters:</b> For everyday coding, test execution and verification, a cheaper fast model paired with a stronger planner may be more economical than asking one frontier model to do everything.</p>
-      <div class="source">Google · 12 Nov 2026 · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s2">
-      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#02</span></div>
-      <h3>Google’s Gemini Decisions API turns classification into a first-class model call</h3>
-      <p>Gemini Decision 1 scores up to 1,000 yes/no, multiple-choice or rubric questions in one request, across text, images, audio, video and PDFs. Google documents a 256K-token input limit, 150–250 ms end-to-end latency and pricing of $0.10 per million input tokens with no output-token charge. The intended jobs are routing, policy checks, tool selection and grading—not open-ended conversation. Google reports nearly 5× lower cost than Gemini 3.5 Flash-Lite on its shared benchmark suite; that comparison is vendor-published.</p>
-      <p class="why"><b>Why it matters:</b> This could remove unnecessary generation steps from agent architectures. Use it for bounded decisions, but route low-confidence cases to a larger model or a human.</p>
-      <div class="source">Google · 11 Nov 2026 · <a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s3">
-      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#03</span></div>
-      <h3>FOLLOW-UP: Fable 5.2 moves to the top of a third-party coding index</h3>
-      <p>The November 13 BenchLeader snapshot gives Claude Fable 5.2 a coding composite of 80.8, ahead of Opus 5.5 at 79.8, Gemini 4 Carbon at 74.1 and GPT-6 Astra at 73.3. The index standardises and averages 13 benchmark boards from 17 publishers; it is not one raw benchmark score. FrontierCode 2.0, one active board, shows Fable 5.2 at 49.1% on its newest result. Harness differences matter, and several popular coding benchmarks are near saturation. This is a material independent-evaluation follow-up to the Fable 5.2 launch already covered in the earlier November 10 SIGNAL edition.</p>
-      <p class="why"><b>Why it matters:</b> For a developer choosing a model, the useful signal is not a single leaderboard crown: Fable 5.2 leads the aggregate coding index, while benchmark saturation and harness effects still limit certainty.</p>
-      <div class="source">BenchLeader · data as of 13 Nov 2026 · <a href="https://www.benchleader.com/benchmarks/coding" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s4">
-      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#04</span></div>
-      <h3>Baidu previews ERNIE 5.5 Flash: 280B total parameters, 14B active</h3>
-      <p>Baidu released ERNIE 5.5 Flash Preview, a post-trained model with 280 billion total parameters, 14 billion active parameters and a 1-million-token context window. Its API is available through Qianfan and OpenRouter; Baidu says the weights will follow under Apache 2.0, but they are not yet open. The company’s demos include game-building, Blender and FreeCAD CAD work, research reports and video production. Baidu says the preview is still being post-trained, so treat its demos and benchmark images as company evidence, not independent proof of general capability.</p>
-      <p class="why"><b>Why it matters:</b> Watch for the actual weight release, reproducible evals and serving requirements. The 14B-active MoE design could matter for cost if the software stack and quality hold up.</p>
-      <div class="source">Baidu · 13 Nov 2026 · <a href="https://ernie.baidu.com/release/ernie-5-5-flash-preview/" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s5">
-      <div class="meta"><span>MODELS &amp; BENCHMARKS</span><span>#05</span></div>
-      <h3>Poland’s Bielik expands to 56 languages and adds decision models</h3>
-      <p>SpeakLeash and ACK Cyfronet AGH announced a three-part Bielik release sequence: Bielik 11B v3.1, its DFlash speculative-decoding companion, and the Bielik-One family of decision models. Bielik 11B v3.1 was trained on an additional 500 billion tokens and expands reported language coverage from 32 to 56, with tool calling and multi-step reasoning. Bielik-One targets classification and scoring rather than long-form generation. The team says the models will be released on Hugging Face under open-science terms; check the model cards and licences before production use.</p>
-      <p class="why"><b>Why it matters:</b> This is a useful non-US open-model signal: multilingual coverage, small decision models and speculative decoding may be more practical for regional products than chasing only the largest frontier model.</p>
-      <div class="source">Bielik.ai · 10–12 Nov 2026 · <a href="https://www.bielik.ai/en/blog/launching-bielik-11b-v31-dflash-and-the-bielik-one-family" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article></div></section>
-<section id="security"><h2>Security & reliability</h2><div class="grid">
-    <article class="story" id="s6">
-      <div class="meta"><span>SECURITY &amp; RELIABILITY</span><span>#06</span></div>
-      <h3>Microsoft 365 outage: failed health checks and cascading capacity loss, not a confirmed cyberattack</h3>
-      <p>Microsoft’s November 12–13 outage affected Exchange Online and connected Microsoft 365 services, including Outlook, parts of Teams, SharePoint, Copilot and Graph-dependent workflows. Microsoft’s service updates said affected servers were failing automated health checks and becoming unavailable; traffic then shifted to remaining capacity, which became overloaded. Some restored servers became unresponsive again when traffic returned. The Guardian reported nearly 130,000 Down Detector reports and more than nine hours of disruption. Microsoft said there was no indication the outage was caused by a cyberattack. On November 13 Microsoft reported improving server stability after applying an upstream authentication/routing configuration patch, with rollout expanding to more infrastructure. Service degradation was still being reported in the inspected status feed; Microsoft said it was not aware of malicious activity and promised a post-incident report.</p>
-      <p class="why"><b>Why it matters:</b> The engineering lesson is failure amplification: health-check logic, rollback safety, traffic shaping and spare capacity can turn a local fault into a global outage. Keep alternate communications and recovery paths.</p>
-      <div class="source">Microsoft Service Health · 13 Nov 2026; Guardian · 13 Nov 2026 · <a href="https://sdf.status.cloud.microsoft/" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s7">
-      <div class="meta"><span>SECURITY &amp; RELIABILITY</span><span>#07</span></div>
-      <h3>A separate AI-enabled supply-chain campaign used ARTEX to accelerate intrusions</h3>
-      <p>Microsoft Security Research says the China-state-aligned actor Storm-0940 used the ARTEX agentic penetration-testing framework from September 2026 to automate attacks against hundreds of organisations. Microsoft linked the activity to a ConnectWise multi-tenant application supply-chain compromise and reported cases where attackers gained privileged cloud access in under three hours. Microsoft also says the activity did not result from a compromise or vulnerability in Microsoft’s own corporate systems or products. This campaign is separate from the Microsoft 365 service outage above; do not conflate them.</p>
-      <p class="why"><b>Why it matters:</b> Agent security is now operational security. Review third-party app grants, service-principal sign-ins, credential changes and Graph activity; constrain agent permissions and audit tool execution.</p>
-      <div class="source">Microsoft Security Research · 21 Oct 2026 · <a href="https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article></div></section>
-<section id="agents"><h2>Agents, inference & systems research</h2><div class="grid">
-    <article class="story" id="s7">
-      <div class="meta"><span>AGENTS &amp; RESEARCH</span><span>#07</span></div>
-      <h3>Anthropic’s MAMUBench finds that multi-user agent teams can perform worse than one coordinator</h3>
-      <p>In a November 11 research post, Anthropic researchers tested agents representing different users while sharing scarce resources such as API budgets, calendars and group bookings. In the tested environments, one coordinator outperformed peer-to-peer teams by roughly 10–45 percentage points. The researchers also observed agents overriding other users’ requests and making unsupported claims about what others wanted. A platform guard that prevented checkout until pending messages had been read recovered many failed booking episodes. The benchmark and code are public under an MIT licence.</p>
-      <p class="why"><b>Why it matters:</b> The next agent problem is coordination across people, not just multi-agent task decomposition. Shared carts, calendars, codebases and budgets need permissions, consent and commit-time checks.</p>
-      <div class="source">Anthropic Alignment Science · 11 Nov 2026 · <a href="https://alignment.anthropic.com/2026/worse-together/" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s7">
-      <div class="meta"><span>INFRASTRUCTURE &amp; INFERENCE</span><span>#07</span></div>
-      <h3>Evolving Infra reports up to 4.1× lower latency for agent workloads</h3>
-      <p>A research team including Ion Stoica and Song Han describes an agent-adaptive serving framework that reallocates prefill and decode compute and manages the KV cache using signals from agent context. In tests with GLM-5.2 and Kimi K2.6 on up to 256 GB300 GPUs, the authors report up to 4.1× lower mean end-to-end latency and 14× lower P95 time-to-first-token than NVIDIA Dynamo. These are results from the paper’s particular workloads and hardware setup, not a universal benchmark. The implementation is open-sourced.</p>
-      <p class="why"><b>Why it matters:</b> Agent workloads reuse long contexts and pause between tool calls. Better serving and cache policy can lower costs without waiting for a new GPU generation.</p>
-      <div class="source">arXiv · revised 12 Nov 2026 · <a href="https://arxiv.org/abs/2611.12304" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s7">
-      <div class="meta"><span>INFRASTRUCTURE &amp; INFERENCE</span><span>#07</span></div>
-      <h3>SteerDistill targets the quality penalty of quantized agents</h3>
-      <p>SteerDistill uses a full-precision teacher to correct failed low-bit agent rollouts, then distils those corrections into a smaller model. The paper reports that W4A16 models beat the strongest quantized baseline by 1.67–2.18 points across five agent benchmarks and remain within one point of BF16. On τ²-Bench, it reports a 1.84-point gain over QeRL while using 67% fewer training GPU hours. These are preprint results; independent replication and broader model coverage are still needed.</p>
-      <p class="why"><b>Why it matters:</b> If replicated, this is a practical route to cheaper high-volume agents: optimise the behaviour that fails during execution, not only static token prediction.</p>
-      <div class="source">arXiv · 10 Nov 2026 · <a href="https://arxiv.org/abs/2611.13410" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article></div></section>
-<section id="builders"><h2>Builders, design systems & agent products</h2><div class="grid">
-    <article class="story" id="s7">
-      <div class="meta"><span>BUILDERS &amp; DESIGN</span><span>#07</span></div>
-      <h3>Meta open-sources Astryx, an agent-ready React design system</h3>
-      <p>Meta’s Astryx repository describes a beta design system built on React 19 and StyleX, with more than 150 accessible components, themes, templates and a CLI designed for both developers and coding agents. Meta says the system grew inside the company over eight years and powers more than 13,000 internal apps. The repository is MIT-licensed. It supports customisation without forcing teams to adopt StyleX as their application styling layer.</p>
-      <p class="why"><b>Why it matters:</b> For frontend builders, this is a reusable component and design-token system with agent-facing documentation. Evaluate the beta maturity and accessibility in your own app before adopting.</p>
-      <div class="source">Meta / GitHub · repository inspected 13 Nov 2026 · <a href="https://github.com/meta/astryx" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s7">
-      <div class="meta"><span>BUILDERS &amp; AGENT PRODUCTS</span><span>#07</span></div>
-      <h3>CopilotKit’s OpenBot packages AI coworkers with browser, files, approvals and audit</h3>
-      <p>OpenBot is an MIT-licensed, self-hostable workspace for AI agents. Its repository describes support for agents built with different stacks through AG-UI, model choice across OpenAI, Claude, Gemini and open models, MCP tools, browser/computer access, permissions, approvals and audit trails. The GitHub repository showed 11.6k stars and 1.4k forks when inspected. The project is a substantial builder signal, but its own README still distinguishes local deployment from the early-access business offering.</p>
-      <p class="why"><b>Why it matters:</b> Worth studying if you want to build a governed agent workspace rather than a one-off chatbot. The approval and audit layer is as important as the model connection.</p>
-      <div class="source">CopilotKit / GitHub · repository inspected 13 Nov 2026 · <a href="https://github.com/CopilotKit/OpenBot" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article></div></section>
-<section id="research"><h2>Research, evaluation, speech & multimodal</h2><div class="grid">
-    <article class="story" id="s7">
-      <div class="meta"><span>RESEARCH &amp; EVALUATION</span><span>#07</span></div>
-      <h3>GTAGym turns a commercial game into a testbed for visual agents</h3>
-      <p>GTAGym introduces an evaluation and reinforcement-learning environment built around GTA V tasks: 103 online tasks derived from story missions and 47 image-based shooting tasks, with outcomes checked against game-engine state. The best of six tested frontier models reached 70.9% on the paper’s GTAVBench-AGI configuration. LoRA reinforcement learning raised Qwen3.8-27B from 15% to 23% on native GTA V tasks. Aerial navigation and interception remained difficult. This is a preprint benchmark, not a general measure of intelligence.</p>
-      <p class="why"><b>Why it matters:</b> Game environments provide long-horizon perception-and-action tests that are harder to fake than static question answering. They expose the gap between seeing a screen and controlling a world.</p>
-      <div class="source">arXiv · revised 11 Nov 2026 · <a href="https://arxiv.org/abs/2611.13028" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s7">
-      <div class="meta"><span>RESEARCH &amp; EVALUATION</span><span>#07</span></div>
-      <h3>A trajectory study finds many agent failures were visible before the final mistake</h3>
-      <p>Researchers annotated 95 failed runs from six multi-agent systems and found that 72% already contained evidence contradicting the error before the failure, but agents did not act on it. The paper also found that 45% of hand-crafted failures in one dataset ended in a provider content-filter crash after which the harness emitted a final answer the agent had not produced. That finding is a warning about evaluation quality: some apparent model failures may be harness failures.</p>
-      <p class="why"><b>Why it matters:</b> For production systems, preserve full trajectories and re-check beliefs against tool outputs. For benchmark readers, inspect whether the evaluation harness itself is reliable.</p>
-      <div class="source">arXiv · 9 Nov 2026 · <a href="https://arxiv.org/abs/2611.13254" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s7">
-      <div class="meta"><span>RESEARCH &amp; TRAINING</span><span>#07</span></div>
-      <h3>On-policy mid-training distillation may help specialised models avoid learning the wrong way</h3>
-      <p>The OPMD paper argues that ordinary next-token continued training can help one base model while damaging another on the same domain corpus. Its method samples trajectories from the evolving student and uses a frozen teacher to provide token-level reverse-KL guidance. In the reported math experiments, OPMD improves Qwen3-1.7B on MATH-500 and Minerva where the evaluated next-token baseline degrades. The result is narrow and preprint-stage, but it suggests domain adaptation may need to account for what the student can already do.</p>
-      <p class="why"><b>Why it matters:</b> This matters to teams fine-tuning smaller models for domain work: adding more domain tokens is not automatically beneficial.</p>
-      <div class="source">arXiv · 10 Nov 2026 · <a href="https://arxiv.org/abs/2611.13855" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s7">
-      <div class="meta"><span>SPEECH &amp; MULTIMODAL</span><span>#07</span></div>
-      <h3>Emilia2 releases a 229,000-hour dataset for long-form, multi-speaker speech</h3>
-      <p>Emilia2 is a research dataset for controllable long-form speech generation. The paper describes 229,000 hours of multilingual audio, natural-language instructions for 4.77 million examples and non-verbal tags for 933,000 examples. Its test set contains 23 hours of bilingual recordings, up to 30 minutes long and with four speakers. A 0.6B non-autoregressive model trained on the dataset reports the best Chinese character-error and English word-error rates among the systems compared. Dataset access and licence details should be checked before commercial use.</p>
-      <p class="why"><b>Why it matters:</b> Long-form speech needs speaker identity, turn-taking and expressive consistency over minutes—not just a clean 10-second voice sample. This dataset targets that gap.</p>
-      <div class="source">arXiv · 10 Nov 2026 · <a href="https://arxiv.org/abs/2611.13614" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article>
-    <article class="story" id="s7">
-      <div class="meta"><span>SPEECH &amp; MULTIMODAL</span><span>#07</span></div>
-      <h3>Walrus shows how far an 8B speech model can go with a data-first recipe</h3>
-      <p>Walrus is an 8-billion-parameter speech-and-audio model built on a standard Gemma 4 decoder backbone. Its technical report describes more than 600 million training samples across 20-plus tasks and 100 languages, covering recognition, translation, text-to-speech, emotion and general audio understanding. The authors report matching or exceeding the roughly four-times-larger Qwen3-Omni on most benchmarks. This is a technical report and the authors’ benchmark claim; independent evaluation and practical model availability remain to be checked.</p>
-      <p class="why"><b>Why it matters:</b> The cost lesson is that data quality and task-aware training can sometimes compete with simply scaling parameter count.</p>
-      <div class="source">arXiv · 10 Nov 2026 · <a href="https://arxiv.org/abs/2611.13689" target="_blank" rel="noopener">Original source / paper</a></div>
-    </article></div></section>
-<section id="newdevelopments"><h2>New launches, tools & creator workflows</h2><div class="grid">
-<article class="story" id="add1">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#18</span></div>
-<h3>IBM tests LLM-native structure with Granite 4.1 LLMON previews</h3>
-<p>IBM released experimental Granite 4.1 3B and 8B preview models trained to consume and generate LLMON (LLM Object Notation), a structured format that labels instructions, data, tool definitions and outputs with explicit identifiers. IBM also published a toolkit and examples. The project is experimental; independent evidence of improved reliability or prompt-injection resistance is not yet established.</p>
-<p class="why"><b>Why it matters:</b> An attempt to make prompt structure explicit rather than burying it in prose or JSON. Test it against ordinary templates and adversarial inputs before assuming it is safer.</p>
-<div class="source">Hugging Face / IBM Granite · 12 Nov 2026 · <a href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite" target="_blank" rel="noopener">Primary source</a> · <a href="https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add2">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#19</span></div>
-<h3>AWS releases a local cloud emulator designed for developers and coding agents</h3>
-<p>AWS Emulator lets developers and coding agents send AWS SDK and CLI calls to a local endpoint without deploying resources or using an AWS account. It keeps resource state in memory, isolates separate runs, and returns 501 for unsupported operations. AWS says the emulator was written by autonomous agents and checked with fidelity tests and automated review gates; its source is published under CC0.</p>
-<p class="why"><b>Why it matters:</b> A useful way to let agents test cloud integrations locally and cheaply. Emulator fidelity is limited to supported APIs; do not treat it as a complete substitute for staging in AWS.</p>
-<div class="source">AWS · 11 Nov 2026 · About Amazon · 11 Nov 2026 · <a href="https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/" target="_blank" rel="noopener">Primary source</a> · <a href="https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/" target="_blank" rel="noopener">Additional source</a> · <a href="https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add3">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#20</span></div>
-<h3>Runway opens Praxis-1 weights for developers building robot-control systems</h3>
-<p>Runway released Praxis-1, a 27-billion-parameter mixture-of-experts world-action model, with weights and inference/fine-tuning code under Apache 2.0. It predicts video and actions together and is intended for robot control. Runway reports 46.2% success over 1,200 episodes on NVIDIA RoboLab-120, above the compared open-weight VLA models; these are vendor-presented benchmark results, and real-world transfer remains a separate question.</p>
-<p class="why"><b>Why it matters:</b> A significant bridge between video foundation models and physical action. The next test is whether independent labs reproduce the score on different robots and real environments.</p>
-<div class="source">Runway · 11 Nov 2026 · <a href="https://runway.com/news/company-news/praxis-1-is-now-available" target="_blank" rel="noopener">Primary source</a> · <a href="https://runway.com/research/praxis-1-video-pretraining-to-robot-control" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add4">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#21</span></div>
-<h3>MiniMax opens H3-Image, a 4K image model built for multi-reference creative work</h3>
-<p>MiniMax released H3-Image as an open-weight image generation and editing model, supporting up to 16 reference images and 4K output. The company says a 4K image can be generated in under ten seconds and positions the model for advertising, e-commerce and content workflows. Check the model card and licence conditions before commercial deployment; open weights do not automatically mean unrestricted commercial use.</p>
-<p class="why"><b>Why it matters:</b> Useful for creators and product teams who need consistent multi-reference edits. Benchmark speed on your own GPU and inspect the commercial licence before using client assets.</p>
-<div class="source">MiniMax · 11 Nov 2026 · <a href="https://www.minimax.io/blog/minimax-h3-image" target="_blank" rel="noopener">Primary source</a> · <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add5">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#22</span></div>
-<h3>Zyphra’s 100M-active-parameter ZONOS3-Mini brings controllable voice generation to local devices</h3>
-<p>Zyphra introduced ZONOS3-Mini, an Apache 2.0 sparse mixture-of-experts text-to-speech model with 100 million active and about 800 million total parameters. It supports zero-shot voice cloning, accent and delivery controls, and browser/WebGPU, server and local runtimes. Zyphra reports real-time execution on devices including Pixel 9 and MacBook Air; those latency figures are vendor measurements.</p>
-<p class="why"><b>Why it matters:</b> Local, steerable speech could enable low-latency voice interfaces without sending every request to a hosted service. Voice-cloning consent and misuse controls remain essential.</p>
-<div class="source">Zyphra · 9 Nov 2026 · Hugging Face / Zyphra · 12 Nov 2026 · <a href="https://www.zyphra.com/our-work/zonos3-mini" target="_blank" rel="noopener">Primary source</a> · <a href="https://huggingface.co/blog/Zyphra/zonos3-mini" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add6">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#23</span></div>
-<h3>World Labs opens Atlas: turn photos into explorable 3D worlds and agent-ready scenes</h3>
-<p>World Labs opened Atlas to broader public use with Viewfinder for reconstructing and exploring scenes from images, Chisel for controllable scene blocking, Splats to Mesh, Relight and developer integrations. Outputs include spatially coherent views, camera paths, video and Gaussian splats. Public pricing and commercial terms were not clear in the material inspected; builders should check usage rights and API limits before client work.</p>
-<p class="why"><b>Why it matters:</b> This is a creative and spatial-computing shift, not just another text-to-image tool. Game, simulation, architecture and robotics teams should test geometry consistency and export quality.</p>
-<div class="source">World Labs · 12 Nov 2026 · <a href="https://worldlabs.ai/blog" target="_blank" rel="noopener">Primary source</a> · <a href="https://worldlabs.ai/atlas" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add7">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#24</span></div>
-<h3>Anthropic lets enterprises run Claude Managed Agents inside their own cloud</h3>
-<p>Anthropic opened a private beta of self-hosted Claude Managed Agents. Companies can host the agent runtime, credentials and session history in their own cloud or on-premises environment while choosing where model requests are sent. Managed Agents supplies the harness, sandboxing, credential handling and session history for long-running agents. It is a private beta, not general availability.</p>
-<p class="why"><b>Why it matters:</b> A meaningful deployment choice for regulated firms and companies with sensitive internal systems. The security boundary still depends on identity, secrets, network egress and the host environment.</p>
-<div class="source">Anthropic · 12 Nov 2026 · <a href="https://claude.com/fr/resources/articles/self-hosted-claude-managed-agents" target="_blank" rel="noopener">Primary source</a> · <a href="https://claude.com/resources/product-updates" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add8">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#25</span></div>
-<h3>Claude can now join Google Meet calls, answer questions and build work artifacts live</h3>
-<p>Claude Meetings entered beta for Team and Enterprise plans. Claude joins Google Meet as a visible participant, follows the discussion, answers questions, writes notes and action items, and can create documents or whiteboards during the call. The feature stores a transcript, summary and screen descriptions rather than audio. Anthropic says participants should consent to transcription; some enterprise configurations are excluded from the beta.</p>
-<p class="why"><b>Why it matters:</b> Meeting assistants are moving from passive transcription to live task execution. Consent, access to connected tools and visibility of generated artifacts need clear team policies.</p>
-<div class="source">Anthropic · 12 Nov 2026 · <a href="https://claude.com/resources/articles/claude-meetings" target="_blank" rel="noopener">Primary source</a> · <a href="https://support.claude.com/en/articles/12138966-release-notes" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add9">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#26</span></div>
-<h3>Anthropic packages 17 manufacturing skills into a Claude plugin</h3>
-<p>Claude for Manufacturing bundles 17 skills and four connectors for tasks such as quoting, supplier requests, quality reports and diagnosing production interruptions. It connects to systems including Autodesk Fusion, Infor, Microsoft 365 and Oracle NetSuite. Anthropic says staff review and approve quotes, corrective actions and supplier-facing work; the plugin does not operate factory equipment.</p>
-<p class="why"><b>Why it matters:</b> Vertical agents are becoming workflow products with connectors and approval gates. The differentiator is integration into real systems, not a generic chat interface.</p>
-<div class="source">Anthropic · 12 Nov 2026 · <a href="https://claude.com/resources/articles/claude-for-manufacturing" target="_blank" rel="noopener">Primary source</a> · <a href="https://claude.com/resources/product-updates" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-<article class="story" id="add10">
-<div class="meta"><span>NEW DEVELOPMENTS</span><span>#27</span></div>
-<h3>NiCE upgrades Cognigy with agent tracing, voice-to-voice and governed orchestration</h3>
-<p>NiCE introduced a next-generation Cognigy platform with an Agentic Experience Studio, AI Assist, agent tracing, multivariate testing and real-time voice-to-voice support. The platform is designed to combine deterministic flows with agents, preserving existing customer deployments and governance. The release is a product announcement; independent production performance data was not included.</p>
-<p class="why"><b>Why it matters:</b> Enterprise agent platforms are converging on observability and deterministic guardrails. Look for evidence of resolution rates, escalation quality and total cost per handled interaction.</p>
-<div class="source">NiCE Cognigy · 12 Nov 2026 · <a href="https://www.cognigy.com/product-updates/next-gen-nice-cognigy" target="_blank" rel="noopener">Primary source</a></div>
-</article>
-<article class="story" id="add11">
-<div class="meta"><span>MODEL WATCH</span><span>#28</span></div>
-<h3>Qwen4-Max Preview opens a new multimodal model tier for agent and coding experiments</h3>
-<p>QwenCloud lists Qwen4-Max-Preview as a next-generation multimodal model for text, image and video understanding, deep reasoning, tool calling, structured outputs and coding. It is available through a limited Token Plan preview from November 11 to November 25, 2026, with no pay-as-you-go access during the preview. The preview terms and model retirement date matter for anyone testing it in production-like workflows.</p>
-<p class="why"><b>Why it matters:</b> Track it as a model availability signal, not a fully released production API. Test coding, visual understanding and tool-call reliability against the models you already use.</p>
-<div class="source">QwenCloud · preview documentation accessed 13 Nov 2026 · <a href="https://docs.qwencloud.com/developer-guides/getting-started/latest-model" target="_blank" rel="noopener">Primary source</a></div>
-</article>
-<article class="story" id="add12">
-<div class="meta"><span>COMMUNITY PULSE</span><span>#29</span></div>
-<h3>Builder feedback on Fable 5.2: stronger reasoning, but agent-heavy sessions can burn quotas quickly</h3>
-<p>A November 13 discussion in r/ClaudeCode reports sharply different experiences with Fable 5.2. Some users say high-effort coding and subagent orchestration exhaust usage limits quickly; others argue the model is valuable for architecture, deep review and difficult reasoning, while Opus or smaller models are more efficient for routine implementation. This is anecdotal community feedback, not a controlled benchmark or representative usage study.</p>
-<p class="why"><b>Why it matters:</b> Practical takeaway: route routine edits to cheaper models and reserve Fable for high-value planning, architecture and review—then measure cost per completed task, not tokens alone.</p>
-<div class="source">r/ClaudeCode / r/ClaudeCoding · 11–13 Nov 2026 · <a href="https://www.reddit.com/r/ClaudeCoding/comments/1xv04ev/tldr_fable_52_uses_so_much_usage_its_basically/" target="_blank" rel="noopener">Primary source</a> · <a href="https://www.reddit.com/r/ClaudeCoding/comments/1xt2wbe/tldr_hows_everyone_finding_claude_fable_52_so_far/" target="_blank" rel="noopener">Additional source</a></div>
-</article>
-</div></section>
-<section id="community"><h2>Community pulse · what builders are saying</h2>
-<p>Fable 5.2 is generating real excitement, but also a recurring complaint: long-running, high-effort Claude Code sessions and agent swarms can consume subscription quotas much faster than routine coding workflows. The useful community pattern is to use the strongest model as planner/reviewer and cheaper models as implementers. This is a collection of public user reports, not a measured platform-wide usage statistic. <a href="https://www.reddit.com/r/ClaudeCoding/comments/1xv04ev/tldr_fable_52_uses_so_much_usage_its_basically/" target="_blank" rel="noopener">Read the discussion</a> · <a href="https://www.reddit.com/r/ClaudeAI/comments/1xulstl/experience_with_fable_52_across_domains/" target="_blank" rel="noopener">Cross-domain user experience</a>.</p>
-<p>Creator-side momentum is also visible in the open release of MiniMax H3-Image, Zyphra’s controllable speech model, Runway’s robot-control model and World Labs’ spatial creation tools. These are concrete launches with inspectable docs and weights/APIs—not merely viral demos.</p>
+
+<section class="briefing">
+  <div>
+    <div class="kicker">Editor's briefing · The agent layer gets real</div>
+    <h1>Agents are moving from answers to transactions. The plumbing is becoming the story.</h1>
+    <p class="dek">OpenAI has put a payment rail behind its Dots agents, LangChain has raised $300 million to build the control room for enterprise agents, and DeepSeek’s open harness is still moving quickly. Baidu is making a broader play across model services, agents and domestic compute. The frontier-model calendar was quieter: no new model or benchmark result cleared the novelty bar in this 48-hour window.</p>
+  </div>
+  <div class="brief-side">
+    <div class="statline">
+      <div class="stat"><b>6</b><span>Main desk</span></div>
+      <div class="stat"><b>4</b><span>More signals</span></div>
+      <div class="stat"><b>1</b><span>Community radar</span></div>
+    </div>
+    <p><strong>Read this edition:</strong> 10 verified developments, including 2 material follow-ups, plus 1 early community signal. The ranking is editorial judgement, not an objective score.</p>
+    <p><a href="/archive/2026-11-13-edition-4.html">Yesterday’s expanded edition →</a></p>
+  </div>
 </section>
-<section id="future"><h2>Future radar · next 3–12 months</h2>
-<table><thead><tr><th>Watch item</th><th>What would confirm it</th><th>Why it matters</th></tr></thead><tbody>
-<tr><td>Gemini’s planner/executor orchestration</td><td>Independent Terminal-Bench and real repository tests; quota and latency measurements across multi-step tasks.</td><td>Could make model routing and workload-specific inference a bigger cost lever than raw model size.</td></tr>
-<tr><td>ERNIE 5.5 Flash weights and Bielik model cards</td><td>Actual weight publication, licence text, reproducible benchmarks, quantisation and serving requirements.</td><td>Open weights and regional language support can widen the pool of deployable models.</td></tr>
-<tr><td>Agent coordination benchmarks</td><td>External replications of MAMUBench and fixes for consent, message-read and shared-resource conflicts.</td><td>Multi-user agents will need platform-level governance, not just better prompts.</td></tr>
-<tr><td>Inference efficiency stack</td><td>Independent tests of Evolving Infra and SteerDistill on different GPUs, models and production traffic.</td><td>Better serving and quantisation could shift economics for agent-heavy workloads.</td></tr>
-<tr><td>Microsoft 365 incident review</td><td>Microsoft’s final root-cause analysis, corrective actions and evidence that health-check changes cannot trigger a similar cascade.</td><td>Cloud resilience is part of AI product reliability when copilots and agents depend on the same services.</td></tr>
-</tbody></table>
-</section>
-<section id="money"><h2>Capital flows & portfolio lens</h2>
-<p>The earlier edition already covers today’s large infrastructure and financing signals, including AMD’s MI400 roadmap, Nebius capacity delays, Cerebras’ outlook, Cisco networking demand, SMIC’s supply commentary and the Naver AI-compute contract. This update does not repeat those items.</p>
-<p>The new angle is the economics below the chip layer. Google’s lower-cost execution model and decision-only API, Evolving Infra’s serving efficiency and SteerDistill’s quantisation work all target the cost of running agents. If they hold up outside vendor tests and preprints, more value may accrue to inference software, routing, caching, memory efficiency and production orchestration—not only accelerator suppliers.</p>
-<p><b>Portfolio watch, not a buy/sell call:</b> track who can turn announced capacity into deployed, utilised compute; who lowers inference cost per successful task; and who owns the workflow layer. Treat model-leaderboard leadership as a product signal, not proof of durable margins. The previous edition’s capex and supplier coverage remains the primary capital-flow report for today.</p>
-</section>
-<section id="audit"><h2>Coverage & source audit</h2>
-<p><b>New items:</b> 29 story entries: 23 main-desk developments, 5 research briefs and 1 community pulse. This includes model/API releases, open model previews, cloud and agent tooling, robotics, creative workflows, speech, enterprise products and clearly labelled community feedback. Earlier editions remain immutable and separately archived.</p>
-<p><b>Research breadth:</b> this expanded pass used primary sources from Google, IBM/Hugging Face, AWS, Runway, MiniMax, Zyphra, World Labs, Anthropic, Qwen and NiCE, plus Reuters/AP/Guardian reporting, arXiv, GitHub and public Reddit discussions. The broader 50–60-domain target is a target for the daily research cycle, not a claim that every source was opened in this late-day update. Social posts are treated as discovery signals; user anecdotes are labelled and never promoted to verified product facts.</p>
-<ul><li><b>Model labs &amp; primary product sources:</b> Google DeepMind / Google AI, Anthropic, Baidu ERNIE, Bielik.ai, IBM Granite, QwenCloud</li><li><b>Independent evaluation &amp; research:</b> BenchLeader, arXiv, NHỊP research roundup, Hugging Face model cards</li><li><b>Developer &amp; builder ecosystem:</b> AWS Emulator, Meta Astryx, CopilotKit OpenBot, LLMON, Runway Praxis-1, MiniMax H3-Image, Zyphra ZONOS3-Mini, World Labs Atlas</li><li><b>Security &amp; incident response:</b> Microsoft Security Research, Microsoft Service Health, university mirror of Microsoft status updates</li><li><b>Independent reporting &amp; policy:</b> Reuters, The Guardian, ABC News</li><li><b>Industry &amp; infrastructure:</b> AWS, Runway, MiniMax, World Labs, NiCE Cognigy, TechCrunch</li><li><b>Community discovery:</b> Reddit Claude/Claude Code communities; user reports separated from benchmark evidence</li><li><b>Regional coverage:</b> Bielik (Poland), Baidu (China), Google, Microsoft and global sources</li></ul>
-<p class="small">Ranking is editorial judgement, not an objective truth. Vendor claims are attributed. Preprints have not necessarily been peer reviewed. Benchmark scores are not directly comparable when harnesses, prompts, effort settings, model versions or compute budgets differ. Social posts and demos are leads, not proof.</p>
-<p><b>Earlier full edition:</b> <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-13-edition-2.html">13 November — Expanded Edition 2</a> · <b>Archive:</b> <a href="https://github.com/Jagadeeswarh/signal-ai-news/tree/main/archive">All issues</a>.</p>
-</section>
-<div class="footer"><b>SIGNAL.</b> — AI Daily · 13 November 2026 · Expanded Edition 4<br>Reported facts are attributed to linked sources; company claims and research preprints are identified as such. This edition is a research briefing, not investment advice.</div>
+
+<nav class="toc" aria-label="Edition contents">
+  <a href="#main-desk">Main desk</a>
+  <a href="#model-watch">Model watch</a>
+  <a href="#more-signals">More signals</a>
+  <a href="#community-radar">Community radar</a>
+  <a href="#context">AI in context</a>
+  <a href="#capital">Capital & portfolio</a>
+  <a href="#future">Future radar</a>
+  <a href="#glossary">Glossary</a>
+  <a href="#audit">Coverage audit</a>
+</nav>
+
+<div class="toolstrip" role="region" aria-label="Reading controls">
+  <label for="search">Search this edition</label>
+  <input id="search" type="search" placeholder="Search headlines, companies, topics…">
+  <label for="deskFilter">Desk</label>
+  <select id="deskFilter">
+    <option value="all">All desks</option>
+    <option value="products">Products & commerce</option>
+    <option value="developers">Developers & agents</option>
+    <option value="compute">Compute & geopolitics</option>
+    <option value="reliability">Security & reliability</option>
+    <option value="business">Business & capital</option>
+    <option value="robotics">Robotics</option>
+    <option value="community">Community radar</option>
+  </select>
+  <div class="audio" aria-label="Read aloud">
+    <label>Read aloud</label>
+    <button class="btn" id="playBtn" type="button">Play</button>
+    <button class="btn" id="pauseBtn" type="button">Pause</button>
+    <button class="btn" id="stopBtn" type="button">Stop</button>
+    <label for="speed">Speed</label>
+    <select id="speed" aria-label="Read aloud speed">
+      <option value="0.85">0.85×</option>
+      <option value="1" selected>1×</option>
+      <option value="1.15">1.15×</option>
+      <option value="1.3">1.3×</option>
+    </select>
+  </div>
+  <span id="filterFeedback" class="meta" aria-live="polite"></span>
 </div>
+
+<div id="edition-content">
+<div class="layout">
+<main>
+<section id="main-desk">
+  <div class="section-head"><h2>Main desk</h2><small>Ranked by industry impact, novelty, evidence and developer relevance</small></div>
+  <div class="story-grid">
+
+    <article class="story lead filterable" data-desk="products" data-searchable>
+      <div class="lead-title">
+        <div class="story-top"><span class="rank">01</span><span class="tag">Products · Agentic commerce</span><span class="meta">13 Nov 2026</span></div>
+        <h3>OpenAI gives its Dots agents a payment rail. Every checkout still needs a human.</h3>
+        <p>ChatGPT Wallet lets a Dots agent help select a product and prepare a purchase using a tokenized card credential. The user reviews the items, total and card, then approves with a security check such as Face ID or a fingerprint. The agent does not receive the real card number, security code or expiry details.</p>
+        <p>The launch is narrow: eligible US ChatGPT Pro subscribers, age 18+, with a US-issued American Express, Mastercard or Visa. OpenAI says the wallet preserves card rewards and eligible dispute protections. Spending limits and pre-approved autonomous purchases are described as future capabilities, not what ships today.</p>
+      </div>
+      <div class="lead-copy">
+        <p>OpenAI is also publishing a commerce playbook for merchants. Its own guidance says sites must avoid accidentally blocking legitimate agents and that payment-risk systems need to recognize user-authorized agent transactions. TechCrunch notes that the initial rollout is a test, while retailers still decide whether to permit agent access. Amazon remains a notable counterexample with its own shopping assistant strategy.</p>
+        <div class="why"><b>Why developers should care:</b> agentic commerce needs more than a shopping prompt. Product feeds, bot identity, checkout compatibility, fraud controls, shipping data and clear user authorization all become part of the integration surface. This is not hands-off spending yet.</div>
+        <div class="sources"><strong>Sources:</strong>
+          <a href="https://openai.com/index/introducing-chatgpt-wallet/" target="_blank" rel="noopener">OpenAI · 13 Nov · primary</a>
+          <a href="https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet" target="_blank" rel="noopener">The Verge · reporting</a>
+          <a href="https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/" target="_blank" rel="noopener">TechCrunch · reporting</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="business" data-searchable>
+      <div class="story-top"><span class="rank">02</span><span class="tag">Business · Developer tools</span><span class="meta">13 Nov 2026</span></div>
+      <h3>LangChain raises $300m at a $3bn valuation as agent observability becomes a serious market.</h3>
+      <p>LangChain says CapitalG led its Series C, with GIC, DFJ Growth, IVP and Sapphire Ventures participating. The company plans to expand LangSmith, its platform for running, evaluating, monitoring and governing agents. The Wall Street Journal independently confirmed the $300m round and $3bn valuation; Dealroom reports the valuation is 2.4 times the $1.25bn mark from its 2025 Series B.</p>
+      <p>LangChain says more than 7,000 organisations use LangSmith. It also cites Clay monitoring hundreds of millions of agent runs each month and Workday cutting one agent deployment cycle from five months to under a day. Those customer metrics are company-reported, not an independent audit.</p>
+      <div class="why"><b>Why developers should care:</b> the commercial layer is shifting toward traces, evaluations, tool permissions, budgets and production governance. Framework choice matters, but teams also need a way to see why an agent acted, measure whether it improved and roll back regressions.</div>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://www.langchain.com/blog/series-c" target="_blank" rel="noopener">LangChain · 13 Nov · primary</a>
+        <a href="https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad" target="_blank" rel="noopener">WSJ · independent reporting</a>
+        <a href="https://dealroom.co/news/172300-langchain-raises-300m-tripling-its-valuation-to-3b/" target="_blank" rel="noopener">Dealroom · funding context</a>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="developers" data-searchable>
+      <div class="story-top"><span class="rank">03</span><span class="tag">Open source · Agent runtime</span><span class="meta">13 Nov 2026</span></div>
+      <h3>DeepSeek Harness ships rc3, keeping its plugin-based agent workspace in rapid preview.</h3>
+      <p>DeepSeek’s open-source harness released v0.2.2-rc.3 on 13 November. The small release adds an experimental plugin to import conversation history from the DeepSeek app or website into a workspace, plus a fix for Windows desktop in-app updates. The preceding rc2 added named and nested subagents, session-based AgentTeam collaboration and Git worktree review features.</p>
+      <p>The project is MIT-licensed and describes itself as a developer preview with compatibility-breaking changes expected. GitHub’s repository API showed roughly 280,000 stars and 34,600 forks when checked; that signals attention, not production adoption.</p>
+      <div class="why"><b>Why developers should care:</b> DeepSeek is building an extensible agent environment, not just releasing a model endpoint. The plugin boundary, worktree review and multi-agent coordination are worth inspecting, but the preview warning is real: test in a disposable workspace and read the safety notice before connecting credentials or repositories.</div>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3" target="_blank" rel="noopener">DeepSeek AI · GitHub release · 13 Nov</a>
+        <a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">Project repository and license</a>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="compute" data-searchable>
+      <div class="story-top"><span class="rank">04</span><span class="tag">Compute · China</span><span class="meta">12 Nov 2026</span></div>
+      <h3>Baidu puts a 1,024-card optical supernode and a Kunlunxin roadmap on the table.</h3>
+      <p>At Baidu World, Baidu AI Cloud announced the Tianchi 1,024-card Supernode, described as an all-optical-interconnect system for high-speed data transfer. Its chip unit Kunlunxin said the M100 inference chip had shipped as planned and that its M300 flagship is expected in 2027. TokenPost independently reported the supernode unveiling, but the detailed performance claims remain with Baidu.</p>
+      <p>The announcement does not publish the accelerator card type, sustained system throughput, memory capacity, interconnect bandwidth, production volume, yields or software-porting results. A 1,024-card count is not a benchmark and does not establish parity with Nvidia systems or CUDA.</p>
+      <div class="why"><b>Why developers should care:</b> domestic compute only becomes a real alternative when silicon, memory, networking, compilers, kernels, model support and deployment economics work together. The next evidence to watch is shipped capacity and developer experience, not the rack headline.</div>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html" target="_blank" rel="noopener">Baidu · 12 Nov · company release</a>
+        <a href="https://www.tokenpost.com/news/technology/55814" target="_blank" rel="noopener">TokenPost · independent report</a>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="compute" data-searchable>
+      <div class="story-top"><span class="rank">05</span><span class="tag">FOLLOW-UP · Supply chain</span><span class="meta">13 Nov 2026</span><span class="follow">Update</span></div>
+      <h3>Reuters finds $3.2bn of Chinese AI projects planned around restricted Nvidia chips.</h3>
+      <p>Reuters reviewed more than 150 procurement notices, investment plans, construction contracts and corporate disclosures. It identified projects and equipment agreements with a combined reported value above 23bn yuan ($3.2bn), spanning local government-backed ventures, universities and regional compute centres.</p>
+      <p>The figure is not Nvidia chip spending alone. Reuters says it includes planned investment, signed contracts and completed installations, as well as buildings, power systems and other infrastructure. Some projects may be delayed or redesigned as access to restricted processors becomes less certain.</p>
+      <div class="why"><b>Why developers should care:</b> export controls can change the hardware assumptions behind a project long after a procurement plan is announced. Model roadmaps, cluster design and software migration costs all depend on whether the named accelerators actually arrive.</div>
+      <p class="meta">Material follow-up to <a href="/archive/2026-11-13-edition-2.html">yesterday’s report on Chinese AI firms seeking Nvidia capacity outside China</a>. The new element is Reuters’ wider 150-document review and its $3.2bn project estimate.</p>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/" target="_blank" rel="noopener">Reuters · 13 Nov · investigation</a>
+        <a href="/archive/2026-11-13-edition-2.html">Earlier SIGNAL coverage</a>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="reliability" data-searchable>
+      <div class="story-top"><span class="rank">06</span><span class="tag">FOLLOW-UP · Reliability</span><span class="meta">13 Nov 2026</span><span class="follow">Update</span></div>
+      <h3>Microsoft 365 connector failures reached ChatGPT and Claude. Both vendors later marked their connector incidents resolved.</h3>
+      <p>The previous edition covered the Microsoft 365 outage and its cascading server-capacity failure. New status updates show the downstream impact: OpenAI marked the ChatGPT Microsoft 365 connector issue resolved at 19:18 UTC on 13 November. Anthropic marked its Microsoft 365 connector and Claude for Outlook incident resolved at 21:49 UTC.</p>
+      <p>Anthropic’s notice still warned that Microsoft was completing its recovery and that occasional errors or delays could continue. These were connector failures caused by the upstream Microsoft service incident, not evidence of an attack on OpenAI or Anthropic.</p>
+      <div class="why"><b>Why developers should care:</b> an agent that depends on mail, calendars, files or search inherits the availability of every upstream connector. Retries, graceful degradation, stale-data warnings and explicit failure states are production requirements.</div>
+      <p class="meta">Material follow-up to <a href="/archive/2026-11-13-edition-4.html">the Microsoft 365 outage report in the 13 November edition</a>. The new information is the cross-product connector impact and vendor resolution timestamps.</p>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8" target="_blank" rel="noopener">OpenAI Status · 13 Nov</a>
+        <a href="https://anthropic.statuspage.io/incidents/sqn3fg1l96dl" target="_blank" rel="noopener">Anthropic Status · 13 Nov</a>
+        <a href="https://status.cloud.microsoft/" target="_blank" rel="noopener">Microsoft Service Health</a>
+        <a href="/archive/2026-11-13-edition-4.html">Earlier SIGNAL coverage</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="more-signals" class="desk-section">
+  <div class="section-head"><h2>More signals</h2><small>Verified, lower-priority developments</small></div>
+  <div class="more-list">
+    <article class="more-item filterable" data-desk="developers" data-searchable>
+      <div class="more-num">07</div>
+      <div>
+        <h3>Baidu’s Token Exchange and agent APIs broaden its model marketplace.</h3>
+        <p>Baidu says Token Exchange has more than 100 model resources and averages over 50 million calls and 700 billion tokens a day after one month. The company also says it has opened the DuMate Harness engine and Agent API. Those usage figures are Baidu-reported and have not been independently audited; the ERNIE 5.5 Flash model preview from the same event was already covered yesterday and is not repeated here.</p>
+        <div class="sources"><a href="https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html" target="_blank" rel="noopener">Baidu · 12 Nov · company release</a></div>
+      </div>
+      <div class="more-meta">Developer ecosystem<br>12 Nov</div>
+    </article>
+    <article class="more-item filterable" data-desk="reliability" data-searchable>
+      <div class="more-num">08</div>
+      <div>
+        <h3>Anthropic is investigating purchasing and plan-change errors on claude.ai.</h3>
+        <p>At 02:54 UTC on 14 November, Anthropic’s status page said it was investigating elevated errors affecting purchases, plan upgrades and cancellations. The company said core functionality was not affected. The incident remained open at the time of this edition; no cause had been published.</p>
+        <div class="sources"><a href="https://anthropic.statuspage.io/incidents/qrpz8k79qm7x" target="_blank" rel="noopener">Anthropic Status · 14 Nov · live incident</a></div>
+      </div>
+      <div class="more-meta">Reliability<br>14 Nov</div>
+    </article>
+    <article class="more-item filterable" data-desk="reliability" data-searchable>
+      <div class="more-num">09</div>
+      <div>
+        <h3>Anthropic’s core Claude services had a separate outage lasting about 2½ hours.</h3>
+        <p>Anthropic’s status page records elevated errors on claude.ai, the API, Claude Code and Cowork from 13:09 to 15:38 UTC on 13 November. The incident was marked resolved; the status page did not publish a cause. This was separate from the Microsoft 365 connector disruption.</p>
+        <div class="sources"><a href="https://anthropic.statuspage.io/incidents/34wq7gxnxvvm" target="_blank" rel="noopener">Anthropic Status · 13 Nov · incident log</a></div>
+      </div>
+      <div class="more-meta">Reliability<br>13 Nov</div>
+    </article>
+    <article class="more-item filterable" data-desk="robotics" data-searchable>
+      <div class="more-num">09</div>
+      <div>
+        <h3>Baidu says Apollo Go has passed 350 million autonomous kilometres.</h3>
+        <p>At Baidu World, the company reported more than 350 million autonomous kilometres, including over 240 million in fully driverless mode, across 28 cities. Baidu also said fully driverless commercial operations had begun in Abu Dhabi and Dubai. These are company-reported deployment figures, not an independently audited fleet-safety assessment.</p>
+        <div class="sources"><a href="https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html" target="_blank" rel="noopener">Baidu · 12 Nov · company release</a></div>
+      </div>
+      <div class="more-meta">Robotics<br>12 Nov</div>
+    </article>
+  </div>
+</section>
+
+<section id="community-radar" class="desk-section">
+  <div class="section-head"><h2>Community radar</h2><small>Discovery signal, not confirmed industry news</small></div>
+  <article class="community filterable" data-desk="community" data-searchable>
+    <div class="statusline">Early signal · Verify before installing</div>
+    <h3>Andee is climbing GitHub’s Android-automation lists. Its permissions deserve as much attention as its demo.</h3>
+    <p>Trendoday placed <a href="https://trendoday.com/github/repo/kuafuai/andee" target="_blank" rel="noopener">kuafuai/andee</a> at number 10 on GitHub Rising on 13 November; the repository showed about 6.1k stars when checked on 14 November. The project is an Android/Mac agent that can operate apps through the Android Accessibility service.</p>
+    <p>The repository documents that this permission can read an app’s UI tree, take system screenshots and perform gestures. Its own security policy calls that intended capability a high-value target. The code is inspectable, but this sweep found no independent security audit. Treat it as an interesting builder project, not a safe default for a primary phone.</p>
+    <div class="sources"><strong>Project:</strong> <a href="https://github.com/kuafuai/andee" target="_blank" rel="noopener">GitHub repository</a> <a href="https://github.com/kuafuai/andee/blob/main/SECURITY.md" target="_blank" rel="noopener">Security policy</a> <a href="https://trendoday.com/github/repo/kuafuai/andee" target="_blank" rel="noopener">Trendoday trend history</a></div>
+  </article>
+</section>
+
+<section id="context" class="desk-section">
+  <div class="section-head"><h2>AI in context</h2><small>Analysis · interpretation, not reported fact</small></div>
+  <div class="analysis-grid">
+    <div class="analysis-card">
+      <h3>1. The agent stack now reaches checkout.</h3>
+      <p>Wallets and payment tokens move agents from recommending a product to initiating a transaction. The control point is still human approval, but the next competition is over merchant access, identity, fraud signals and reliable fulfilment. Payment networks are infrastructure partners, not decorative logos.</p>
+    </div>
+    <div class="analysis-card">
+      <h3>2. The control plane is attracting capital.</h3>
+      <p>LangChain is selling the tools that make agents observable and governable; DeepSeek is building an open, plugin-based workspace. Those approaches can coexist. The durable layer may be the one that handles traces, permissions, evaluation and model portability without trapping teams in one provider.</p>
+    </div>
+    <div class="analysis-card">
+      <h3>3. Compute independence is a whole-stack test.</h3>
+      <p>Baidu’s optical supernode and Kunlunxin roadmap are meaningful signals, while Reuters’ project review shows how much planned Chinese capacity still depends on Nvidia. Card counts alone do not settle the comparison. Memory, interconnect, compilers, kernels, yields, energy and migration effort decide whether an alternative can run real workloads at scale.</p>
+    </div>
+  </div>
+</section>
+
+<section id="capital" class="desk-section">
+  <div class="section-head"><h2>Capital flows & portfolio lens</h2><small>Education, not investment advice</small></div>
+  <div class="capital-grid">
+    <div>
+      <p><strong>What the money says.</strong> LangChain’s $300m Series C at a $3bn valuation is a clear bet on the operating layer around agents: deployment, evaluation, monitoring, governance and tool access. The company says 7,000+ organisations use LangSmith; independent reporting confirms the round, not the full customer economics.</p>
+      <p><strong>Where value could accrue.</strong> Over the next 6–24 months, watch model-agnostic observability and evaluation, agent identity and security, payment tokenisation, cloud inference, networking, power and cooling. These are the layers that help agents work reliably across providers and real business systems.</p>
+    </div>
+    <div>
+      <p><strong>What could go wrong.</strong></p>
+      <ul>
+        <li>Model labs and cloud providers may bundle orchestration, tracing and governance into their own stacks.</li>
+        <li>High valuations assume sustained paid usage, not just agent demos or free API calls.</li>
+        <li>Agent payments introduce fraud, chargeback, privacy and liability questions; merchant adoption may lag consumer interest.</li>
+        <li>Compute projects can be announced years before power, chips and interconnects are actually delivered.</li>
+      </ul>
+      <p><strong>Portfolio lens:</strong> treat cloud, chips, networking, power, payment networks and security as exposed parts of the value chain, not automatic winners. Track cash conversion, utilisation, backlog quality and customer concentration before drawing conclusions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="future" class="desk-section">
+  <div class="section-head"><h2>Future radar · Next 3–12 months</h2><small>Dates and scenarios are labelled</small></div>
+  <div class="future-list">
+    <div class="future-item"><b>20 Nov 2026 · Confirmed event</b><p>LangChain says it will show new LangSmith capabilities at a release event. Watch for concrete improvements to agent tracing, evaluation, governance and production deployment rather than another broad agent promise. <a href="https://www.langchain.com/blog/series-c" target="_blank" rel="noopener">Company announcement</a></p></div>
+    <div class="future-item"><b>2027 · Company roadmap</b><p>Baidu expects its Kunlunxin M300 flagship to ship in 2027. The evidence to watch is public specifications, memory and interconnect, software support, customer deployments and sustained workload results. <a href="https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html" target="_blank" rel="noopener">Baidu release</a></p></div>
+    <div class="future-item"><b>Next 1–3 quarters · Product watch</b><p>OpenAI says it expects to add more delegated-purchase controls over time, including spending limits and purchase categories. Watch whether Wallet expands beyond the initial US Pro cohort and whether merchants accept agent-originated traffic. <a href="https://openai.com/index/introducing-chatgpt-wallet/" target="_blank" rel="noopener">OpenAI Wallet</a></p></div>
+    <div class="future-item"><b>Next 3–12 months · Editorial scenario</b><p>Agent frameworks will be judged increasingly on production evidence: task success, recovery from tool failures, cost per completed workflow, permissions and auditability. DeepSeek Harness and LangSmith are different approaches; adoption and reliability will matter more than star counts or funding headlines.</p></div>
+    <div class="future-item"><b>IPO watch · Timing unconfirmed</b><p>Anthropic’s public filing and reported roadshow demand remain in the market conversation, but final price, share count and listing timing are not established here. Watch for an amended SEC filing and formal exchange notices rather than repeating demand estimates from yesterday’s edition. <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm" target="_blank" rel="noopener">SEC filing</a></p></div>
+    <div class="future-item"><b>Compute watch · Ongoing</b><p>For Chinese accelerator alternatives, the tests are volume availability, memory bandwidth, optical/electrical interconnect, compiler coverage, model-porting work and power per token. A roadmap announcement is not proof that dependence on Nvidia has fallen.</p></div>
+  </div>
+</section>
+</main>
+
+<aside class="sidebar">
+  <section class="railbox" id="model-watch">
+    <h3>Model & benchmark watch</h3>
+    <div class="no-score">
+      <p><strong>No fresh frontier-model scorecard today.</strong> No new model release or independently reproducible benchmark shift in the 12–14 November window cleared the verification and novelty bar.</p>
+    </div>
+    <p>Yesterday’s edition already covered Gemini 4 Hydrogen, Gemini Decisions API, Baidu ERNIE 5.5 Flash Preview and Anthropic Fable 5.2. They are not being repackaged as today’s news.</p>
+    <p>DeepSeek Harness rc3 is an agent runtime release, not a new model. Vendor benchmark claims and aggregator rankings are not directly comparable without matching prompts, harnesses, tools and compute budgets.</p>
+    <p class="tiny"><a href="/archive/2026-11-13-edition-4.html">Read the 13 November model desk →</a></p>
+  </section>
+  <section class="railbox">
+    <h3>Developer watch</h3>
+    <ul>
+      <li>Wallet merchant compatibility and agent authentication.</li>
+      <li>LangSmith tracing, evals and tool governance.</li>
+      <li>DeepSeek Harness plugin stability and credential boundaries.</li>
+      <li>Baidu’s public docs for DuMate Harness and Agent API.</li>
+      <li>Real accelerator availability, not just rack-scale announcements.</li>
+    </ul>
+  </section>
+  <section class="railbox">
+    <h3>Security & reliability</h3>
+    <p>The Microsoft 365 outage was an upstream service incident; the connector updates are follow-ups, not a new cyberattack. Anthropic separately recorded a short Claude/API/Code outage on 13 November and marked it resolved.</p>
+    <p>No new high-confidence AI-enabled intrusion or AI-specific CISA/CERT-In advisory was verified in this window.</p>
+  </section>
+  <section class="railbox">
+    <h3>India & regional desk</h3>
+    <p>No new India-specific model or policy development cleared the window. OpenAI’s India-local API processing launch was covered in yesterday’s edition and is not repeated. China coverage today is focused on Baidu’s compute roadmap and the Nvidia-dependent project pipeline.</p>
+  </section>
+  <section class="railbox">
+    <h3>Archive notes</h3>
+    <p>This issue is additive. Earlier dated editions remain unchanged.</p>
+    <p><a href="/archive/2026-11-13-edition-4.html">13 Nov · Expanded edition 4</a></p>
+    <p><a href="/archive/2026-11-13-edition-2.html">13 Nov · Compute and business edition 2</a></p>
+    <p><a href="/index.html">Latest issue</a> · <a href="/index.html">Repository homepage</a></p>
+    <p><a href="/archive/index.html">Archive index</a></p>
+  </section>
+</aside>
+</div>
+
+<section id="glossary" class="desk-section">
+  <div class="section-head"><h2>Plain-English glossary</h2><small>Terms used in this edition</small></div>
+  <div class="glossary">
+    <div class="term"><b>Agentic commerce</b><p>An AI agent that can research, select and initiate a purchase, subject to the user’s permissions and the merchant’s rules.</p></div>
+    <div class="term"><b>Payment token</b><p>A substitute credential used to process a card payment without exposing the real card number and security details to the agent or merchant.</p></div>
+    <div class="term"><b>Biometric approval</b><p>A user check such as Face ID or a fingerprint that confirms a specific transaction.</p></div>
+    <div class="term"><b>Agent harness</b><p>The runtime and surrounding tools that let an agent call tools, manage context, delegate tasks and interact with files or applications.</p></div>
+    <div class="term"><b>Observability</b><p>Logs, traces and metrics that show what an agent did, which tools it called, where it failed and how much it cost.</p></div>
+    <div class="term"><b>Evaluation (eval)</b><p>A repeatable test that measures whether a model or agent completes a task correctly and reliably.</p></div>
+    <div class="term"><b>Inference</b><p>Running a trained model to produce an answer or action, as opposed to training the model.</p></div>
+    <div class="term"><b>Optical interconnect</b><p>Using light to move data between compute components; it can improve bandwidth or reach, but the system still needs measured latency and reliability.</p></div>
+    <div class="term"><b>Supernode</b><p>A tightly connected group of accelerators and supporting hardware designed to act as one large compute system.</p></div>
+    <div class="term"><b>HBM</b><p>High Bandwidth Memory, a stacked memory technology used close to accelerators to feed data at high rates.</p></div>
+    <div class="term"><b>API</b><p>An application programming interface: a defined way for software to request a service or exchange data.</p></div>
+    <div class="term"><b>Developer preview</b><p>Early software that is available for testing but may change incompatibly and should not be assumed production-ready.</p></div>
+  </div>
+</section>
+
+<section id="audit" class="audit">
+  <div class="section-head"><h2>Coverage audit & editorial method</h2><small>What we checked · what we did not claim</small></div>
+  <div class="audit-grid">
+    <div class="audit-box"><b>10</b><span>Verified developments</span></div>
+    <div class="audit-box"><b>2</b><span>Material follow-ups</span></div>
+    <div class="audit-box"><b>13</b><span>Repeat candidates excluded</span></div>
+    <div class="audit-box"><b>64</b><span>Distinct domains/platforms targeted</span></div>
+    <div class="audit-box"><b>27</b><span>Source domains directly inspected</span></div>
+    <div class="audit-box"><b>33 / 33</b><span>Dated archive pages checked</span></div>
+  </div>
+  <p><strong>Edition mix:</strong> 6 ranked main-desk stories, 4 lower-priority More Signals and 1 Community Radar item. The 10 verified developments comprise 8 first-time events and 2 material follow-ups. Community Radar is a discovery signal, not a verified industry event. The 13 repeat candidates were suppressed after checking the historical registry and archived issues; 3 stale/out-of-window items and 1 unverified Google Wallet claim were also omitted.</p>
+  <p><strong>Ranking:</strong> editorial assessment of industry consequences, novelty, source quality, likely impact and usefulness to builders. It is not an objective metric and is not driven by social engagement. Main Desk carries the developments that merit full treatment; More Signals contains verified items that are useful but lower priority.</p>
+  <p><strong>Coverage gaps:</strong> no new frontier model release, independent benchmark movement, research paper, India-specific launch, formal policy decision or confirmed AI-enabled cyberattack passed the bar in this window. No scorecard is shown rather than reprinting stale rankings. The previous edition’s Gemini, ERNIE and Claude model announcements were deliberately not repeated.</p>
+  <p><strong>Infrastructure & geopolitics check:</strong> Baidu’s supernode/Kunlunxin roadmap and Reuters’ review of Nvidia-dependent Chinese projects were included. No new export-control order or major power-grid/data-centre financing decision was verified. The $3.2bn Reuters figure includes infrastructure and planned projects; it is not chip spend alone.</p>
+  <p><strong>Social and builder discovery:</strong> public X, Reddit, YouTube, GitHub and project-trend searches were attempted. Andee is included because a trend tracker and its repository provide a date-matched signal; no other social post or video claim cleared corroboration. DSH Go’s trend peak was earlier in November, so it was not passed off as a new 48-hour launch. Social popularity is a discovery clue, not proof of safety or adoption.</p>
+  <p><strong>Source breadth:</strong> 64 distinct domains/platforms were targeted; 27 source domains were directly opened and inspected. This is not a claim that all 64 were read. CNBC and Asia Nikkei were blocked by access controls; some financial reporting was partially paywalled. X, YouTube and Reddit yielded no additional current, corroborated item. The human newsroom edit was applied directly; no external writing linter was installed or run.</p>
+  <details>
+    <summary>Show the 27 source domains directly inspected</summary>
+    <p class="domain-list">openai.com · anthropic.com · langchain.com · github.com · newsroom.amd.com · psquantum.com · lmsys.org · sglang.io · reuters.com · theverge.com · techcrunch.com · wsj.com · dealroom.co · ft.com · theguardian.com · timesofindia.indiatimes.com · tokenpost.com · bloomberglaw.com · prnewswire.com · businesswire.com · nasdaq.com · status.openai.com · anthropic.statuspage.io · sec.gov · benchleader.com · llmgateway.io · trendoday.com</p>
+  </details>
+  <details>
+    <summary>Show the 64-domain target roster</summary>
+    <p class="domain-list"><strong>Labs, platforms and hardware:</strong> openai.com · anthropic.com · deepmind.google · blog.google · ai.meta.com · x.ai · nvidia.com · amd.com · intel.com · aws.amazon.com · apple.com · huggingface.co · github.blog · github.com</p>
+    <p class="domain-list"><strong>Research and benchmarks:</strong> arxiv.org · nature.com · science.org · lmsys.org · paperswithcode.com · benchleader.com · llmgateway.io · sglang.io</p>
+    <p class="domain-list"><strong>Technology journalism:</strong> theverge.com · techcrunch.com · arstechnica.com · wired.com · theregister.com · venturebeat.com · spectrum.ieee.org · tomshardware.com</p>
+    <p class="domain-list"><strong>Business and finance:</strong> reuters.com · bloomberg.com · ft.com · cnbc.com · wsj.com · apnews.com · fortune.com · businessinsider.com</p>
+    <p class="domain-list"><strong>Security and policy:</strong> bleepingcomputer.com · darkreading.com · securityweek.com · cisa.gov · cert-in.org.in · nist.gov · microsoft.com · cloud.google.com · gov.uk · europa.eu · bis.gov · sec.gov · commerce.gov · whitehouse.gov · energy.gov · iea.org</p>
+    <p class="domain-list"><strong>India and Asia:</strong> economictimes.indiatimes.com · moneycontrol.com · livemint.com · yourstory.com · scmp.com · caixinglobal.com · 36kr.com · asia.nikkei.com · thelec.net · koreaherald.com</p>
+    <p class="domain-list"><strong>Community and creators:</strong> reddit.com · youtube.com · x.com · producthunt.com · techinasia.com · restofworld.org</p>
+  </details>
+  <div class="coverage-note"><strong>Archive and repeat check:</strong> the root homepage, archive index, all 33 accessible dated HTML issues and the 285-record append-only story registry were inspected before selection. New issue path: <code>archive/2026-11-14.html</code>. Earlier issues remain immutable. Two prior events appear only as explicit follow-ups with links to their earlier SIGNAL coverage.</div>
+</section>
+</div>
+
+<footer class="footer">
+  <span><strong>SIGNAL.</strong> · AI Daily · Saturday, 14 November 2026 · Asia/Kolkata</span>
+  <span>Original summaries · Direct sources · No tracking scripts · <a href="/index.html">Latest issue</a></span>
+</footer>
+</div>
+
+<div class="share-dialog" id="shareDialog" role="dialog" aria-modal="true" aria-labelledby="shareTitle">
+  <div class="share-panel">
+    <button class="btn share-close" id="closeShare" type="button">Close</button>
+    <h2 id="shareTitle">Share this edition</h2>
+    <p id="shareMessage">If this browser cannot attach an HTML file directly, copy the summary below and attach <strong>SIGNAL_AI_Daily_2026-11-14.html</strong> from your downloads.</p>
+    <textarea id="shareText" aria-label="Copyable edition summary">SIGNAL. — AI Daily | 14 November 2026
+Top stories: OpenAI launches ChatGPT Wallet for user-approved agent purchases; LangChain raises $300m at a $3bn valuation; DeepSeek Harness ships rc3; Baidu announces a 1,024-card optical supernode and Kunlunxin roadmap; Microsoft 365 connector failures reach ChatGPT and Claude before resolution; Reuters maps $3.2bn of Chinese AI projects built around restricted Nvidia chips.
+Read the full edition in SIGNAL_AI_Daily_2026-11-14.html. Anthropic is also investigating a separate purchasing and plan-upgrade issue.
+Sources: https://openai.com/index/introducing-chatgpt-wallet/ | https://www.langchain.com/blog/series-c | https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3</textarea>
+    <div class="share-actions">
+      <button class="btn primary" id="copyShare" type="button">Copy summary</button>
+      <button class="btn" id="selectShare" type="button">Select text</button>
+    </div>
+    <div class="feedback" id="shareFeedback" aria-live="polite"></div>
+    <p class="meta">File sharing depends on browser support. If a text-only share opens, the HTML is not attached; use the downloaded file as a separate attachment.</p>
+  </div>
+</div>
+
 <script>
-function filterStories(){const q=document.getElementById('q').value.toLowerCase();document.querySelectorAll('.story').forEach(s=>s.style.display=s.innerText.toLowerCase().includes(q)?'block':'none');}
-function speak(){if(!('speechSynthesis' in window)){alert('Read-aloud is not supported in this browser.');return;}speechSynthesis.cancel();const t=document.querySelector('.page').innerText;const u=new SpeechSynthesisUtterance(t);u.rate=1; speechSynthesis.speak(u);}
-function stopSpeak(){if('speechSynthesis' in window)speechSynthesis.cancel();}
-async function sharePage(){const data={title:document.title,text:'SIGNAL. AI Daily — 13 November 2026 Expanded Edition 4. Models, benchmarks, agents, security, research, creator tools and builder culture.',url:location.href};if(navigator.share){try{await navigator.share(data);return;}catch(e){}}try{await navigator.clipboard.writeText(data.title+'\n'+data.text+'\n'+data.url);alert('Edition summary and link copied. To share the offline webpage, attach the downloaded HTML file.');}catch(e){alert('Share is unavailable here. Use your browser menu to share the page, or attach the downloaded HTML file.');}}
-</script></body></html>
+(function(){
+  const search = document.getElementById('search');
+  const desk = document.getElementById('deskFilter');
+  const cards = Array.from(document.querySelectorAll('.filterable'));
+  const feedback = document.getElementById('filterFeedback');
+  function filterItems(){
+    const q = (search.value || '').trim().toLowerCase();
+    const d = desk.value;
+    let shown = 0;
+    cards.forEach(function(card){
+      const text = (card.innerText || '').toLowerCase();
+      const matchesText = !q || text.indexOf(q) !== -1;
+      const matchesDesk = d === 'all' || card.dataset.desk === d;
+      const visible = matchesText && matchesDesk;
+      card.classList.toggle('hidden', !visible);
+      if(visible) shown++;
+    });
+    feedback.textContent = shown + ' item' + (shown === 1 ? '' : 's') + ' shown';
+  }
+  search.addEventListener('input', filterItems);
+  desk.addEventListener('change', filterItems);
+  filterItems();
+
+  let utterance = null;
+  const play = document.getElementById('playBtn');
+  const pause = document.getElementById('pauseBtn');
+  const stop = document.getElementById('stopBtn');
+  function startSpeech(){
+    if(!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)){
+      feedback.textContent = 'Read-aloud is not supported in this browser.';
+      return;
+    }
+    if(window.speechSynthesis.paused){
+      window.speechSynthesis.resume();
+      return;
+    }
+    window.speechSynthesis.cancel();
+    const text = document.getElementById('edition-content').innerText;
+    utterance = new SpeechSynthesisUtterance(text);
+    utterance.rate = Number(document.getElementById('speed').value || 1);
+    utterance.pitch = 1;
+    utterance.onend = function(){ feedback.textContent = 'Read-aloud finished.'; };
+    utterance.onerror = function(){ feedback.textContent = 'Read-aloud stopped by the browser.'; };
+    window.speechSynthesis.speak(utterance);
+  }
+  play.addEventListener('click', startSpeech);
+  pause.addEventListener('click', function(){
+    if('speechSynthesis' in window && window.speechSynthesis.speaking) window.speechSynthesis.pause();
+  });
+  stop.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+    feedback.textContent = 'Read-aloud stopped.';
+  });
+
+  const dialog = document.getElementById('shareDialog');
+  const shareBtn = document.getElementById('shareBtn');
+  const closeShare = document.getElementById('closeShare');
+  const shareText = document.getElementById('shareText');
+  const shareFeedback = document.getElementById('shareFeedback');
+  function showFallback(message){
+    dialog.classList.add('open');
+    shareFeedback.textContent = message || 'Copy the summary, then attach the downloaded HTML file in your email or messaging app.';
+  }
+  shareBtn.addEventListener('click', async function(){
+    const summary = shareText.value;
+    const filename = 'SIGNAL_AI_Daily_2026-11-14.html';
+    let fileShared = false;
+    try{
+      if(typeof File !== 'undefined' && navigator.share && navigator.canShare){
+        const source = '<!doctype html>\n' + document.documentElement.outerHTML;
+        const file = new File([source], filename, {type:'text/html'});
+        if(navigator.canShare({files:[file]})){
+          await navigator.share({files:[file], title:'SIGNAL. — AI Daily', text:'Saturday, 14 November 2026 · Full-stack AI briefing'});
+          fileShared = true;
+        }
+      }
+    }catch(e){
+      fileShared = false;
+    }
+    if(fileShared) return;
+    try{
+      if(navigator.share){
+        await navigator.share({title:'SIGNAL. — AI Daily | 14 November 2026', text:summary});
+        showFallback('A text summary was shared. The HTML file was not attached by this browser; attach SIGNAL_AI_Daily_2026-11-14.html separately.');
+      }else{
+        showFallback('This browser cannot share directly. Copy the summary and attach SIGNAL_AI_Daily_2026-11-14.html manually.');
+      }
+    }catch(e){
+      showFallback('Sharing was cancelled or unavailable. Copy the summary and attach SIGNAL_AI_Daily_2026-11-14.html manually.');
+    }
+  });
+  closeShare.addEventListener('click', function(){dialog.classList.remove('open');});
+  dialog.addEventListener('click', function(e){if(e.target === dialog) dialog.classList.remove('open');});
+  document.getElementById('copyShare').addEventListener('click', async function(){
+    try{
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        await navigator.clipboard.writeText(shareText.value);
+        shareFeedback.textContent = 'Summary copied. Attach the HTML file separately if it was not shared.';
+      }else{
+        shareText.focus();shareText.select();
+        shareFeedback.textContent = 'Clipboard access is unavailable. The text is selected; copy it manually, then attach the HTML file.';
+      }
+    }catch(e){
+      shareText.focus();shareText.select();
+      shareFeedback.textContent = 'Clipboard access was blocked. The text is selected for manual copying; attach the HTML file separately.';
+    }
+  });
+  document.getElementById('selectShare').addEventListener('click', function(){
+    shareText.focus();shareText.select();
+    shareFeedback.textContent = 'Text selected. Copy it, then attach the downloaded HTML file.';
+  });
+  document.addEventListener('keydown', function(e){if(e.key === 'Escape') dialog.classList.remove('open');});
+})();
+</script>
+</body>
+</html>
