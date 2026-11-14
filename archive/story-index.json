@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-13T17:30:00+05:30",
+  "last_updated_at": "2026-11-14T03:12:29Z",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.",
   "editions": [
     {
@@ -2805,6 +2805,227 @@
       },
       "editorial_note": "Additive edition. Editions 1–3 remain immutable. Social feedback is not treated as verified reporting. Vendor benchmarks, product claims and preprint results are attributed.",
       "community_pulse_count": 1
+    },
+    {
+      "date": "2026-11-14",
+      "path": "archive/2026-11-14.html",
+      "kind": "full-stack AI intelligence edition 1",
+      "story_ids": [
+        "event-openai-chatgpt-wallet-agentic-payments-2026-11-13",
+        "event-langchain-series-c-300m-3bn-2026-11-13",
+        "event-deepseek-harness-022-rc3-release-2026-11-13",
+        "event-baidu-tianchi-1024-supernode-kunlunxin-roadmap-2026-11-12",
+        "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+        "event-microsoft-365-outage-exchange-healthcheck-cascade-2026-11-12",
+        "event-baidu-token-exchange-dumate-agent-api-2026-11-12",
+        "event-anthropic-claude-purchasing-errors-2026-11-14",
+        "event-anthropic-claude-api-code-outage-2026-11-13",
+        "event-baidu-apollo-go-350m-autonomous-km-2026-11-12",
+        "event-andee-android-accessibility-agent-trending-2026-11-13"
+      ],
+      "story_count": 11,
+      "new_story_count": 9,
+      "verified_story_count": 10,
+      "unique_new_verified_story_count": 8,
+      "material_follow_up_count": 2,
+      "main_desk_count": 6,
+      "research_brief_count": 0,
+      "more_signals_count": 4,
+      "community_pulse_count": 1,
+      "research_window": "2026-11-12 to 2026-11-14 08:42 Asia/Kolkata",
+      "source_domains_targeted": 64,
+      "source_domains_opened_and_inspected": 27,
+      "source_domains_not_opened": 37,
+      "source_classes_inspected": {
+        "primary_company_and_project_repositories": 8,
+        "independent_reporting_and_business_press": 10,
+        "press_release_distribution_and_market_sources": 3,
+        "security_and_service_status": 2,
+        "research_and_benchmark_trackers": 2,
+        "policy_and_regulatory": 1,
+        "community_trend_tracking": 1
+      },
+      "source_domain_audit": {
+        "primary_company_and_project_repositories": [
+          "openai.com",
+          "anthropic.com",
+          "langchain.com",
+          "github.com",
+          "newsroom.amd.com",
+          "psiquantum.com",
+          "lmsys.org",
+          "sglang.io"
+        ],
+        "independent_reporting_and_business_press": [
+          "reuters.com",
+          "theverge.com",
+          "techcrunch.com",
+          "wsj.com",
+          "dealroom.co",
+          "ft.com",
+          "theguardian.com",
+          "timesofindia.indiatimes.com",
+          "tokenpost.com",
+          "bloomberglaw.com"
+        ],
+        "press_release_distribution_and_market_sources": [
+          "prnewswire.com",
+          "businesswire.com",
+          "nasdaq.com"
+        ],
+        "security_and_service_status": [
+          "status.openai.com",
+          "anthropic.statuspage.io"
+        ],
+        "research_and_benchmark_trackers": [
+          "benchleader.com",
+          "llmgateway.io"
+        ],
+        "policy_and_regulatory": [
+          "sec.gov"
+        ],
+        "community_trend_tracking": [
+          "trendoday.com"
+        ],
+        "note": "27 distinct source domains were directly opened and inspected. The 64-domain target roster is broader than the inspected set; no claim is made that all targets were read. CNBC and Asia Nikkei were blocked by access controls; some financial reporting was partially paywalled. X, YouTube and Reddit searches produced no additional current, corroborated item."
+      },
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "deepmind.google",
+        "blog.google",
+        "ai.meta.com",
+        "x.ai",
+        "nvidia.com",
+        "amd.com",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "lmsys.org",
+        "huggingface.co",
+        "github.blog",
+        "github.com",
+        "paperswithcode.com",
+        "theverge.com",
+        "techcrunch.com",
+        "arstechnica.com",
+        "wired.com",
+        "theregister.com",
+        "venturebeat.com",
+        "spectrum.ieee.org",
+        "tomshardware.com",
+        "reuters.com",
+        "bloomberg.com",
+        "ft.com",
+        "cnbc.com",
+        "wsj.com",
+        "apnews.com",
+        "fortune.com",
+        "businessinsider.com",
+        "bleepingcomputer.com",
+        "darkreading.com",
+        "securityweek.com",
+        "cisa.gov",
+        "cert-in.org.in",
+        "nist.gov",
+        "microsoft.com",
+        "cloud.google.com",
+        "gov.uk",
+        "europa.eu",
+        "bis.gov",
+        "sec.gov",
+        "commerce.gov",
+        "whitehouse.gov",
+        "energy.gov",
+        "iea.org",
+        "economictimes.indiatimes.com",
+        "moneycontrol.com",
+        "livemint.com",
+        "yourstory.com",
+        "scmp.com",
+        "caixinglobal.com",
+        "36kr.com",
+        "asia.nikkei.com",
+        "thelec.net",
+        "koreaherald.com",
+        "reddit.com",
+        "youtube.com",
+        "x.com",
+        "producthunt.com",
+        "techinasia.com",
+        "restofworld.org"
+      ],
+      "inspected_domains": [
+        "openai.com",
+        "anthropic.com",
+        "langchain.com",
+        "github.com",
+        "newsroom.amd.com",
+        "psiquantum.com",
+        "lmsys.org",
+        "sglang.io",
+        "reuters.com",
+        "theverge.com",
+        "techcrunch.com",
+        "wsj.com",
+        "dealroom.co",
+        "ft.com",
+        "theguardian.com",
+        "timesofindia.indiatimes.com",
+        "tokenpost.com",
+        "bloomberglaw.com",
+        "prnewswire.com",
+        "businesswire.com",
+        "nasdaq.com",
+        "status.openai.com",
+        "anthropic.statuspage.io",
+        "sec.gov",
+        "benchleader.com",
+        "llmgateway.io",
+        "trendoday.com"
+      ],
+      "archive_pages_checked": 33,
+      "archive_pages_not_checked": 0,
+      "registry_records_before": 285,
+      "registry_records_after": 293,
+      "duplicate_candidates_excluded": 13,
+      "repeat_exclusions": [
+        "Google Gemini 4 Hydrogen",
+        "Google Gemini Decisions API",
+        "Anthropic Fable 5.2",
+        "Baidu ERNIE 5.5 Flash Preview",
+        "OpenAI India-local API processing",
+        "SMIC AI-supply outlook",
+        "AMD MI400/MI450X and Helios updates",
+        "Nebius 2026 guidance revision",
+        "Fractile $720m funding round",
+        "TSMC AI-capacity investment",
+        "SGLang Consortium announcement",
+        "AMD–PsiQuantum partnership",
+        "Anthropic IPO oversubscription report"
+      ],
+      "stale_candidates_excluded": 3,
+      "stale_exclusions": [
+        "Vertiv liquid-cooling partnership (original announcement dated 27 Oct)",
+        "Ling 3.2 Flash (original release dated 5 Nov)",
+        "Anthropic Gas Supply and Transport Lead job listing (first seen 6 Nov; not a new event in this window)"
+      ],
+      "unverified_claims_excluded": 1,
+      "unverified_exclusions": [
+        "A purported Google Wallet/Gemini integration had no matching primary announcement or reliable corroboration in this sweep."
+      ],
+      "coverage_gaps": [
+        "No new frontier model release or independently reproducible benchmark movement met the 48-hour novelty bar.",
+        "No new research paper in AI/robotics/medicine was verified as a consequential development in this window.",
+        "No new India-specific model or policy announcement met the bar; the India-local processing launch was already covered on 13 Nov.",
+        "No new formal AI policy/copyright decision or AI-specific CISA/CERT-In advisory was verified.",
+        "No confirmed AI-enabled intrusion was found; reliability incidents are reported separately from attacks."
+      ],
+      "infrastructure_geopolitics_check": "Baidu's Tianchi/Kunlunxin roadmap and Reuters' 150-document review of Nvidia-dependent Chinese projects were included. No new export-control order or major power-grid/data-centre financing decision was verified.",
+      "social_discovery_note": "Public X, Reddit, YouTube, GitHub, Hugging Face, Product Hunt and creator searches were attempted. Andee is included as one early GitHub trend signal. DSH Go's trend peak was 6–7 Nov and was not presented as a new 48-hour development. Social popularity is not treated as proof.",
+      "editorial_note": "Full-stack, developer-oriented edition. No fixed story cap was applied; only 10 verified developments and one community signal cleared the bar. The humanizing newsroom edit was applied directly; no external humanization package or linter was installed or run.",
+      "humanized_editorial_pass": true,
+      "external_linter_run": false
     }
   ],
   "stories": [
@@ -8149,7 +8370,8 @@
       "edition_paths": [
         "archive/2026-11-12.html",
         "archive/2026-11-12-edition-2.html",
-        "archive/2026-11-13.html"
+        "archive/2026-11-13.html",
+        "archive/2026-11-14.html"
       ],
       "follow_up_editions": [
         {
@@ -8160,13 +8382,24 @@
           "canonical_urls": [
             "https://www.reuters.com/world/china/chinese-ai-firms-rush-secure-nvidia-chip-capacity-spy-scandal-stirs-fear-us-2026-11-12/"
           ]
+        },
+        {
+          "date": "2026-11-14",
+          "path": "archive/2026-11-14.html",
+          "headline": "FOLLOW-UP: Reuters maps $3.2bn of Chinese AI projects planned around restricted Nvidia processors",
+          "material_change": "Reuters reviewed more than 150 procurement notices, investment plans, construction contracts and corporate disclosures, identifying projects and equipment agreements above 23 billion yuan ($3.2bn). The estimate includes planned investments, signed contracts and completed installations, plus buildings and power infrastructure; it is not Nvidia chip spending alone. This adds a new document-based estimate to the earlier report on Chinese AI firms seeking Nvidia capacity outside China.",
+          "canonical_urls": [
+            "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/",
+            "https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-13-edition-2.html"
+          ]
         }
       ],
       "source_metadata": [
         "Axios · 11 Nov 2026",
-        "Reuters · 11 Nov 2026"
+        "Reuters · 11 Nov 2026",
+        "Reuters · 13 Nov 2026 · 150+ procurement and project documents"
       ],
-      "delivery_note": "Material follow-up to the ongoing Nvidia chip-diversion investigation. Internal deliberations are reported from anonymous sources; no new enforcement order was published.",
+      "delivery_note": "Material follow-up to the ongoing Nvidia chip-diversion investigation. Internal deliberations are reported from anonymous sources; no new enforcement order was published. Follow-up: the $3.2bn estimate includes planned projects and non-chip infrastructure; it is not a chip-spend figure.",
       "entities": [
         "U.S. Commerce Department",
         "Howard Lutnick",
@@ -9467,13 +9700,28 @@
       "first_edition_date": "2026-11-13",
       "first_edition_path": "archive/2026-11-13-edition-3.html",
       "edition_paths": [
-        "archive/2026-11-13-edition-3.html"
+        "archive/2026-11-13-edition-3.html",
+        "archive/2026-11-14.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-14",
+          "path": "archive/2026-11-14.html",
+          "headline": "FOLLOW-UP: Microsoft 365 connector failures reached ChatGPT and Claude, then both vendors marked them resolved",
+          "material_change": "The 13 November edition covered the Microsoft 365 outage itself. New status pages show OpenAI marked its Microsoft 365 connector incident resolved at 19:18 UTC on 13 November and Anthropic marked its connector/Claude for Outlook incident resolved at 21:49 UTC. Anthropic still warned that Microsoft was completing recovery and occasional errors or delays could continue.",
+          "canonical_urls": [
+            "https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8",
+            "https://anthropic.statuspage.io/incidents/sqn3fg1l96dl",
+            "https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-13-edition-4.html"
+          ]
+        }
+      ],
       "source_metadata": [
-        "Microsoft Service Health; The Guardian · 12–13 Nov 2026"
+        "Microsoft Service Health; The Guardian · 12–13 Nov 2026",
+        "OpenAI Status · 13 Nov 2026",
+        "Anthropic Status · 13 Nov 2026"
       ],
-      "delivery_note": "Outage cause is distinguished from separate cyber incidents; status snapshot can change.",
+      "delivery_note": "Outage cause is distinguished from separate cyber incidents; status snapshot can change. Follow-up: connector-specific resolution timestamps were added on 14 Nov; this does not claim every Microsoft 365 workload had fully recovered.",
       "follow_up_of": null,
       "material_change": null
     },
@@ -10125,6 +10373,297 @@
         "AI developer community",
         "model economics"
       ]
+    },
+    {
+      "story_id": "event-openai-chatgpt-wallet-agentic-payments-2026-11-13",
+      "normalized_subject": "openai chatgpt wallet user approved agentic payments",
+      "event_summary": "OpenAI introduced ChatGPT Wallet for eligible US ChatGPT Pro subscribers. Dots can prepare purchases using a payment token; the user reviews the items and total and approves each transaction with a security check. The initial release is limited and does not yet enable fully delegated spending.",
+      "normalized_headline": "OpenAI introduces ChatGPT Wallet for user-approved agent purchases",
+      "canonical_urls": [
+        "https://openai.com/index/introducing-chatgpt-wallet/",
+        "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+      ],
+      "original_publication_date": "2026-11-13",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "OpenAI · 13 Nov 2026",
+        "The Verge · 13 Nov 2026",
+        "TechCrunch · 13 Nov 2026"
+      ],
+      "delivery_note": "Initial availability is limited to eligible US Pro subscribers with US-issued cards. Spending limits and pre-approved purchases are future plans, not current functionality.",
+      "entities": [
+        "OpenAI",
+        "ChatGPT",
+        "Dots",
+        "American Express",
+        "Mastercard",
+        "Visa"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "products",
+      "verification_level": "primary announcement plus independent reporting"
+    },
+    {
+      "story_id": "event-langchain-series-c-300m-3bn-2026-11-13",
+      "normalized_subject": "langchain series c 300 million 3 billion valuation",
+      "event_summary": "LangChain announced a $300 million Series C at a $3 billion valuation to expand LangSmith and its agent runtime, evaluation, observability and governance products. The company reports more than 7,000 organisations using LangSmith; customer workflow metrics are company claims.",
+      "normalized_headline": "LangChain raises $300m at a $3bn valuation",
+      "canonical_urls": [
+        "https://www.langchain.com/blog/series-c",
+        "https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad",
+        "https://dealroom.co/news/172300-langchain-raises-300m-tripling-its-valuation-to-3b/"
+      ],
+      "original_publication_date": "2026-11-13",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "LangChain · 13 Nov 2026",
+        "WSJ · 13 Nov 2026",
+        "Dealroom · 13 Nov 2026"
+      ],
+      "delivery_note": "Funding and valuation are confirmed by company announcement and independent reporting; customer and productivity figures remain company-reported.",
+      "entities": [
+        "LangChain",
+        "CapitalG",
+        "GIC",
+        "DFJ Growth",
+        "LangSmith"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "business",
+      "verification_level": "primary announcement plus independent reporting"
+    },
+    {
+      "story_id": "event-deepseek-harness-022-rc3-release-2026-11-13",
+      "normalized_subject": "deepseek harness v0.2.2 rc3 plugin release",
+      "event_summary": "DeepSeek Harness released v0.2.2-rc.3, adding an experimental plugin to import chat history from the DeepSeek app or website and fixing a Windows desktop in-app updater issue. The project remains a developer preview with breaking changes expected.",
+      "normalized_headline": "DeepSeek Harness ships v0.2.2-rc.3",
+      "canonical_urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3",
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ],
+      "original_publication_date": "2026-11-13",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "DeepSeek AI GitHub release · 13 Nov 2026",
+        "GitHub repository snapshot · 14 Nov 2026"
+      ],
+      "delivery_note": "MIT-licensed developer preview; repository popularity is not evidence of production use. Test with disposable credentials and workspaces.",
+      "entities": [
+        "DeepSeek",
+        "DeepSeek Harness",
+        "GitHub"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "developers",
+      "verification_level": "primary repository release"
+    },
+    {
+      "story_id": "event-baidu-tianchi-1024-supernode-kunlunxin-roadmap-2026-11-12",
+      "normalized_subject": "baidu tianchi 1024 card optical supernode kunlunxin m100 m300 roadmap",
+      "event_summary": "Baidu announced a Tianchi 1,024-card all-optical-interconnect supernode and said Kunlunxin's M100 inference chip had shipped as planned, with M300 expected in 2027. The announcement did not provide independent system benchmarks, volume, yield or software-porting evidence.",
+      "normalized_headline": "Baidu unveils Tianchi 1,024-card supernode and Kunlunxin roadmap",
+      "canonical_urls": [
+        "https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html",
+        "https://www.tokenpost.com/news/technology/55814"
+      ],
+      "original_publication_date": "2026-11-12",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Baidu via PRNewswire · 12 Nov 2026",
+        "TokenPost · 12 Nov 2026"
+      ],
+      "delivery_note": "Company roadmap and product claims; card type, throughput, HBM, interconnect bandwidth, yields, deployed capacity and CUDA-equivalent software support remain unreported.",
+      "entities": [
+        "Baidu",
+        "Baidu AI Cloud",
+        "Tianchi",
+        "Kunlunxin",
+        "M100",
+        "M300"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "compute",
+      "verification_level": "primary announcement plus limited independent reporting"
+    },
+    {
+      "story_id": "event-baidu-token-exchange-dumate-agent-api-2026-11-12",
+      "normalized_subject": "baidu token exchange model marketplace dumate harness agent api",
+      "event_summary": "Baidu announced Token Exchange, a marketplace for model services, and said it had more than 100 model resources with over 50 million daily calls and 700 billion daily tokens after one month. Baidu also said it opened the DuMate Harness engine and Agent API. Usage figures are company-reported.",
+      "normalized_headline": "Baidu launches Token Exchange and opens DuMate agent APIs",
+      "canonical_urls": [
+        "https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html"
+      ],
+      "original_publication_date": "2026-11-12",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Baidu via PRNewswire · 12 Nov 2026"
+      ],
+      "delivery_note": "The service metrics and product performance claims have not been independently audited. The ERNIE 5.5 Flash model preview from the same event was already covered in the prior edition and is not duplicated.",
+      "entities": [
+        "Baidu",
+        "Token Exchange",
+        "DuMate",
+        "Agent API",
+        "model marketplace"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "developers",
+      "verification_level": "primary company announcement"
+    },
+    {
+      "story_id": "event-anthropic-claude-api-code-outage-2026-11-13",
+      "normalized_subject": "anthropic claude ai api claude code degraded performance outage",
+      "event_summary": "Anthropic's status page records a separate incident from 13:09 to 15:38 UTC on 13 November, with elevated errors on claude.ai, the Claude API, Claude Code and Cowork. The incident was marked resolved; no cause was published.",
+      "normalized_headline": "Anthropic resolves a separate Claude, API and Claude Code outage",
+      "canonical_urls": [
+        "https://anthropic.statuspage.io/incidents/34wq7gxnxvvm"
+      ],
+      "original_publication_date": "2026-11-13",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Anthropic Status · 13 Nov 2026"
+      ],
+      "delivery_note": "Status-page incident only. No cyberattack or root cause was reported.",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Claude API",
+        "Claude Code"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "reliability",
+      "verification_level": "primary service-status record"
+    },
+    {
+      "story_id": "event-anthropic-claude-purchasing-errors-2026-11-14",
+      "normalized_subject": "anthropic claude ai purchasing plan upgrade cancellation errors",
+      "event_summary": "Anthropic reported elevated errors affecting purchases, plan upgrades and cancellations on claude.ai beginning at 02:54 UTC on 14 November. The status page said core functionality was not affected; the incident remained under investigation at the edition cut-off.",
+      "normalized_headline": "Anthropic investigates purchasing and plan-change errors on claude.ai",
+      "canonical_urls": [
+        "https://anthropic.statuspage.io/incidents/qrpz8k79qm7x"
+      ],
+      "original_publication_date": "2026-11-14",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Anthropic Status · 14 Nov 2026"
+      ],
+      "delivery_note": "Live incident at 08:42 IST. Core Claude functionality was reported unaffected; no cause had been published.",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "claude.ai"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "reliability",
+      "verification_level": "primary live service-status record",
+      "status": "investigating at edition cut-off"
+    },
+    {
+      "story_id": "event-baidu-apollo-go-350m-autonomous-km-2026-11-12",
+      "normalized_subject": "baidu apollo go 350 million autonomous kilometres 28 cities",
+      "event_summary": "At Baidu World, Baidu reported more than 350 million autonomous kilometres, including over 240 million in fully driverless mode, across 28 cities, and said fully driverless commercial operations had begun in Abu Dhabi and Dubai.",
+      "normalized_headline": "Baidu reports 350 million Apollo Go autonomous kilometres",
+      "canonical_urls": [
+        "https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html"
+      ],
+      "original_publication_date": "2026-11-12",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Baidu via PRNewswire · 12 Nov 2026"
+      ],
+      "delivery_note": "Deployment and mileage figures are company-reported and were not independently audited in this sweep.",
+      "entities": [
+        "Baidu",
+        "Apollo Go",
+        "Abu Dhabi",
+        "Dubai"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "robotics",
+      "verification_level": "primary company announcement"
+    },
+    {
+      "story_id": "event-andee-android-accessibility-agent-trending-2026-11-13",
+      "normalized_subject": "andee android accessibility screen automation agent github trend",
+      "event_summary": "Andee appeared in GitHub Rising tracking on 13 November. The open-source Android/Mac agent uses Android Accessibility to read app UI trees, take screenshots and perform gestures. Its own security policy explicitly identifies the accessibility capability as a high-value target.",
+      "normalized_headline": "Andee surfaces as a fast-growing Android agent project",
+      "canonical_urls": [
+        "https://github.com/kuafuai/andee",
+        "https://github.com/kuafuai/andee/blob/main/SECURITY.md",
+        "https://trendoday.com/github/repo/kuafuai/andee"
+      ],
+      "original_publication_date": "2026-11-13",
+      "first_edition_date": "2026-11-14",
+      "first_edition_path": "archive/2026-11-14.html",
+      "edition_paths": [
+        "archive/2026-11-14.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "GitHub repository snapshot · 14 Nov 2026",
+        "Trendoday GitHub Rising · 13 Nov 2026"
+      ],
+      "delivery_note": "Community radar only. Trend rank is a discovery signal, not evidence of safe use or production adoption. No independent security audit was found in this sweep.",
+      "entities": [
+        "Andee",
+        "KuafuAI",
+        "Android",
+        "AccessibilityService"
+      ],
+      "follow_up_of": null,
+      "material_change": null,
+      "desk": "community",
+      "record_type": "community_signal",
+      "verification_level": "repository and trend tracker; adoption and safety unverified"
     }
   ]
 }
