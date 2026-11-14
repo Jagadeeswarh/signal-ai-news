@@ -28,7 +28,7 @@
   <div class="head-actions">
     <button class="btn primary" id="shareBtn" type="button">Share</button>
     <button class="btn" type="button" onclick="window.print()">Print / PDF</button>
-    <a class="btn" href="index.html" style="text-decoration:none">Latest</a>
+    <a class="btn" href="/index.html" style="text-decoration:none">Latest</a>
   </div>
 </header>
 <div class="datebar">
@@ -46,11 +46,11 @@
   <div class="brief-side">
     <div class="statline">
       <div class="stat"><b>6</b><span>Main desk</span></div>
-      <div class="stat"><b>3</b><span>More signals</span></div>
+      <div class="stat"><b>4</b><span>More signals</span></div>
       <div class="stat"><b>1</b><span>Community radar</span></div>
     </div>
-    <p><strong>Read this edition:</strong> 9 verified developments, including 2 material follow-ups, plus 1 early community signal. The ranking is editorial judgement, not an objective score.</p>
-    <p><a href="2026-11-13-edition-4.html">Yesterday’s expanded edition →</a></p>
+    <p><strong>Read this edition:</strong> 10 verified developments, including 2 material follow-ups, plus 1 early community signal. The ranking is editorial judgement, not an objective score.</p>
+    <p><a href="/archive/2026-11-13-edition-4.html">Yesterday’s expanded edition →</a></p>
   </div>
 </section>
 
@@ -164,10 +164,10 @@
       <p>Reuters reviewed more than 150 procurement notices, investment plans, construction contracts and corporate disclosures. It identified projects and equipment agreements with a combined reported value above 23bn yuan ($3.2bn), spanning local government-backed ventures, universities and regional compute centres.</p>
       <p>The figure is not Nvidia chip spending alone. Reuters says it includes planned investment, signed contracts and completed installations, as well as buildings, power systems and other infrastructure. Some projects may be delayed or redesigned as access to restricted processors becomes less certain.</p>
       <div class="why"><b>Why developers should care:</b> export controls can change the hardware assumptions behind a project long after a procurement plan is announced. Model roadmaps, cluster design and software migration costs all depend on whether the named accelerators actually arrive.</div>
-      <p class="meta">Material follow-up to <a href="2026-11-13-edition-2.html">yesterday’s report on Chinese AI firms seeking Nvidia capacity outside China</a>. The new element is Reuters’ wider 150-document review and its $3.2bn project estimate.</p>
+      <p class="meta">Material follow-up to <a href="/archive/2026-11-13-edition-2.html">yesterday’s report on Chinese AI firms seeking Nvidia capacity outside China</a>. The new element is Reuters’ wider 150-document review and its $3.2bn project estimate.</p>
       <div class="sources"><strong>Sources:</strong>
         <a href="https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/" target="_blank" rel="noopener">Reuters · 13 Nov · investigation</a>
-        <a href="2026-11-13-edition-2.html">Earlier SIGNAL coverage</a>
+        <a href="/archive/2026-11-13-edition-2.html">Earlier SIGNAL coverage</a>
       </div>
     </article>
 
@@ -177,12 +177,12 @@
       <p>The previous edition covered the Microsoft 365 outage and its cascading server-capacity failure. New status updates show the downstream impact: OpenAI marked the ChatGPT Microsoft 365 connector issue resolved at 19:18 UTC on 13 November. Anthropic marked its Microsoft 365 connector and Claude for Outlook incident resolved at 21:49 UTC.</p>
       <p>Anthropic’s notice still warned that Microsoft was completing its recovery and that occasional errors or delays could continue. These were connector failures caused by the upstream Microsoft service incident, not evidence of an attack on OpenAI or Anthropic.</p>
       <div class="why"><b>Why developers should care:</b> an agent that depends on mail, calendars, files or search inherits the availability of every upstream connector. Retries, graceful degradation, stale-data warnings and explicit failure states are production requirements.</div>
-      <p class="meta">Material follow-up to <a href="2026-11-13-edition-4.html">the Microsoft 365 outage report in the 13 November edition</a>. The new information is the cross-product connector impact and vendor resolution timestamps.</p>
+      <p class="meta">Material follow-up to <a href="/archive/2026-11-13-edition-4.html">the Microsoft 365 outage report in the 13 November edition</a>. The new information is the cross-product connector impact and vendor resolution timestamps.</p>
       <div class="sources"><strong>Sources:</strong>
         <a href="https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8" target="_blank" rel="noopener">OpenAI Status · 13 Nov</a>
-        <a href="https://anthropic.statuspage.io/incidents/2026-11-12-microsoft-365-connector" target="_blank" rel="noopener">Anthropic Status · 13 Nov</a>
+        <a href="https://anthropic.statuspage.io/incidents/sqn3fg1l96dl" target="_blank" rel="noopener">Anthropic Status · 13 Nov</a>
         <a href="https://status.cloud.microsoft/" target="_blank" rel="noopener">Microsoft Service Health</a>
-        <a href="2026-11-13-edition-4.html">Earlier SIGNAL coverage</a>
+        <a href="/archive/2026-11-13-edition-4.html">Earlier SIGNAL coverage</a>
       </div>
     </article>
   </div>
@@ -202,6 +202,15 @@
     </article>
     <article class="more-item filterable" data-desk="reliability" data-searchable>
       <div class="more-num">08</div>
+      <div>
+        <h3>Anthropic is investigating purchasing and plan-change errors on claude.ai.</h3>
+        <p>At 02:54 UTC on 14 November, Anthropic’s status page said it was investigating elevated errors affecting purchases, plan upgrades and cancellations. The company said core functionality was not affected. The incident remained open at the time of this edition; no cause had been published.</p>
+        <div class="sources"><a href="https://anthropic.statuspage.io/incidents/qrpz8k79qm7x" target="_blank" rel="noopener">Anthropic Status · 14 Nov · live incident</a></div>
+      </div>
+      <div class="more-meta">Reliability<br>14 Nov</div>
+    </article>
+    <article class="more-item filterable" data-desk="reliability" data-searchable>
+      <div class="more-num">09</div>
       <div>
         <h3>Anthropic’s core Claude services had a separate outage lasting about 2½ hours.</h3>
         <p>Anthropic’s status page records elevated errors on claude.ai, the API, Claude Code and Cowork from 13:09 to 15:38 UTC on 13 November. The incident was marked resolved; the status page did not publish a cause. This was separate from the Microsoft 365 connector disruption.</p>
@@ -291,7 +300,7 @@
     </div>
     <p>Yesterday’s edition already covered Gemini 4 Hydrogen, Gemini Decisions API, Baidu ERNIE 5.5 Flash Preview and Anthropic Fable 5.2. They are not being repackaged as today’s news.</p>
     <p>DeepSeek Harness rc3 is an agent runtime release, not a new model. Vendor benchmark claims and aggregator rankings are not directly comparable without matching prompts, harnesses, tools and compute budgets.</p>
-    <p class="tiny"><a href="2026-11-13-edition-4.html">Read the 13 November model desk →</a></p>
+    <p class="tiny"><a href="/archive/2026-11-13-edition-4.html">Read the 13 November model desk →</a></p>
   </section>
   <section class="railbox">
     <h3>Developer watch</h3>
@@ -315,10 +324,10 @@
   <section class="railbox">
     <h3>Archive notes</h3>
     <p>This issue is additive. Earlier dated editions remain unchanged.</p>
-    <p><a href="2026-11-13-edition-4.html">13 Nov · Expanded edition 4</a></p>
-    <p><a href="2026-11-13-edition-2.html">13 Nov · Compute and business edition 2</a></p>
-    <p><a href="index.html">Latest issue</a> · <a href="index.html">Repository homepage</a></p>
-    <p><a href="index.html">SIGNAL archive index is linked from the site</a></p>
+    <p><a href="/archive/2026-11-13-edition-4.html">13 Nov · Expanded edition 4</a></p>
+    <p><a href="/archive/2026-11-13-edition-2.html">13 Nov · Compute and business edition 2</a></p>
+    <p><a href="/index.html">Latest issue</a> · <a href="/index.html">Repository homepage</a></p>
+    <p><a href="/archive/index.html">Archive index</a></p>
   </section>
 </aside>
 </div>
@@ -344,14 +353,14 @@
 <section id="audit" class="audit">
   <div class="section-head"><h2>Coverage audit & editorial method</h2><small>What we checked · what we did not claim</small></div>
   <div class="audit-grid">
-    <div class="audit-box"><b>9</b><span>Verified developments</span></div>
+    <div class="audit-box"><b>10</b><span>Verified developments</span></div>
     <div class="audit-box"><b>2</b><span>Material follow-ups</span></div>
     <div class="audit-box"><b>13</b><span>Repeat candidates excluded</span></div>
     <div class="audit-box"><b>64</b><span>Distinct domains/platforms targeted</span></div>
     <div class="audit-box"><b>27</b><span>Source domains directly inspected</span></div>
     <div class="audit-box"><b>33 / 33</b><span>Dated archive pages checked</span></div>
   </div>
-  <p><strong>Edition mix:</strong> 6 ranked main-desk stories, 3 lower-priority More Signals and 1 Community Radar item. The 9 verified developments comprise 7 first-time events and 2 material follow-ups. Community Radar is a discovery signal, not a verified industry event. The 13 repeat candidates were suppressed after checking the historical registry and archived issues; 3 stale/out-of-window items and 1 unverified Google Wallet claim were also omitted.</p>
+  <p><strong>Edition mix:</strong> 6 ranked main-desk stories, 4 lower-priority More Signals and 1 Community Radar item. The 10 verified developments comprise 8 first-time events and 2 material follow-ups. Community Radar is a discovery signal, not a verified industry event. The 13 repeat candidates were suppressed after checking the historical registry and archived issues; 3 stale/out-of-window items and 1 unverified Google Wallet claim were also omitted.</p>
   <p><strong>Ranking:</strong> editorial assessment of industry consequences, novelty, source quality, likely impact and usefulness to builders. It is not an objective metric and is not driven by social engagement. Main Desk carries the developments that merit full treatment; More Signals contains verified items that are useful but lower priority.</p>
   <p><strong>Coverage gaps:</strong> no new frontier model release, independent benchmark movement, research paper, India-specific launch, formal policy decision or confirmed AI-enabled cyberattack passed the bar in this window. No scorecard is shown rather than reprinting stale rankings. The previous edition’s Gemini, ERNIE and Claude model announcements were deliberately not repeated.</p>
   <p><strong>Infrastructure & geopolitics check:</strong> Baidu’s supernode/Kunlunxin roadmap and Reuters’ review of Nvidia-dependent Chinese projects were included. No new export-control order or major power-grid/data-centre financing decision was verified. The $3.2bn Reuters figure includes infrastructure and planned projects; it is not chip spend alone.</p>
@@ -377,7 +386,7 @@
 
 <footer class="footer">
   <span><strong>SIGNAL.</strong> · AI Daily · Saturday, 14 November 2026 · Asia/Kolkata</span>
-  <span>Original summaries · Direct sources · No tracking scripts · <a href="index.html">Latest issue</a></span>
+  <span>Original summaries · Direct sources · No tracking scripts · <a href="/index.html">Latest issue</a></span>
 </footer>
 </div>
 
@@ -388,7 +397,7 @@
     <p id="shareMessage">If this browser cannot attach an HTML file directly, copy the summary below and attach <strong>SIGNAL_AI_Daily_2026-11-14.html</strong> from your downloads.</p>
     <textarea id="shareText" aria-label="Copyable edition summary">SIGNAL. — AI Daily | 14 November 2026
 Top stories: OpenAI launches ChatGPT Wallet for user-approved agent purchases; LangChain raises $300m at a $3bn valuation; DeepSeek Harness ships rc3; Baidu announces a 1,024-card optical supernode and Kunlunxin roadmap; Microsoft 365 connector failures reach ChatGPT and Claude before resolution; Reuters maps $3.2bn of Chinese AI projects built around restricted Nvidia chips.
-Read the full edition in SIGNAL_AI_Daily_2026-11-14.html.
+Read the full edition in SIGNAL_AI_Daily_2026-11-14.html. Anthropic is also investigating a separate purchasing and plan-upgrade issue.
 Sources: https://openai.com/index/introducing-chatgpt-wallet/ | https://www.langchain.com/blog/series-c | https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3</textarea>
     <div class="share-actions">
       <button class="btn primary" id="copyShare" type="button">Copy summary</button>
