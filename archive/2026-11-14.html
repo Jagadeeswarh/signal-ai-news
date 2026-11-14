@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f5ef">
+<meta name="description" content="SIGNAL. AI Daily — a source-checked, full-stack briefing on models, agents, products, research, security, compute, business and the AI ecosystem.">
+<title>SIGNAL. — AI Daily | Saturday, 14 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f7f5ef;--paper2:#efede6;--ink:#171b20;--muted:#626a70;--line:#c9c9c1;--red:#a32924;--red2:#7e1d1a;--green:#3f6652;--body:"Inter",Arial,Helvetica,sans-serif;--display:"Space Grotesk",Arial,Helvetica,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.58 var(--body)}a{color:var(--red2);text-decoration-thickness:1px;text-underline-offset:3px}a:hover{color:var(--ink)}button,input,select,textarea{font:inherit}button{cursor:pointer}.page{max-width:1440px;margin:0 auto;padding:22px 30px 36px}.masthead{display:flex;align-items:flex-end;justify-content:space-between;gap:22px;border-bottom:4px double var(--ink);padding-bottom:13px}.wordmark{font:700 clamp(48px,7vw,78px)/.88 var(--display);letter-spacing:.035em}.wordmark span{color:var(--red)}.mast-sub{margin-top:8px;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:700}.head-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.btn{border:1px solid var(--ink);background:transparent;color:var(--ink);padding:8px 12px;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;border-radius:2px}.btn.primary{background:var(--red);border-color:var(--red);color:#fff}.btn:hover{background:var(--ink);color:#fff}.datebar{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:9px 0;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700}.datebar strong{color:var(--ink)}.kicker{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--red);font-weight:800;margin:20px 0 7px}.briefing{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(240px,.55fr);gap:28px;padding:18px 0 16px;border-bottom:1px solid var(--ink)}h1{font:700 clamp(29px,4vw,47px)/1.05 var(--body);letter-spacing:-.045em;margin:0 0 12px;max-width:900px}.dek{font-size:16px;line-height:1.55;max-width:940px;margin:0;color:#30373b}.brief-side{border-left:1px solid var(--line);padding-left:20px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}.brief-side p{margin:0;color:var(--muted);font-size:12px}.statline{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.stat{border-top:2px solid var(--red);padding-top:7px}.stat b{display:block;font:700 25px/1 var(--display)}.stat span{display:block;color:var(--muted);font-size:9px;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}.toc{display:flex;gap:7px 16px;flex-wrap:wrap;padding:10px 0 12px;border-bottom:1px solid var(--line);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}.toc a{color:var(--ink);text-decoration:none}.toc a:hover{color:var(--red);text-decoration:underline}.toolstrip{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:11px 0;border-bottom:1px solid var(--line)}.toolstrip label{font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.toolstrip input,.toolstrip select{border:1px solid var(--line);background:#fffdf8;padding:7px 9px;border-radius:2px;min-height:34px;color:var(--ink)}.toolstrip input{min-width:220px;flex:1}.toolstrip .audio{display:flex;align-items:center;gap:5px}.toolstrip .audio .btn{padding:7px 9px}.toolstrip select{min-width:70px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:26px;padding-top:18px}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;border-bottom:2px solid var(--ink);padding-bottom:7px;margin:0 0 12px}.section-head h2{font:700 20px/1.1 var(--display);letter-spacing:-.025em;margin:0}.section-head small{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-weight:800}.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}.story{position:relative;border-bottom:1px solid var(--line);padding:14px 0 15px;min-width:0}.story.lead{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:22px;padding:15px 0 18px;border-bottom:2px solid var(--ink)}.story-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px}.rank{font:700 13px/1 var(--display);color:var(--red);min-width:22px}.tag{font-size:9px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--red);border:1px solid #d7aaa6;padding:3px 6px}.meta{font-size:10px;color:var(--muted);font-weight:600}.story h3{font:700 21px/1.13 var(--body);letter-spacing:-.035em;margin:0 0 9px}.story:not(.lead) h3{font-size:18px}.story p{margin:0 0 9px;color:#343a3f}.story .why{border-left:3px solid var(--red);padding:5px 0 5px 10px;margin:10px 0 8px;font-size:12px;color:#333b40}.story .why b{color:var(--red2)}.sources{font-size:10px;line-height:1.6;color:var(--muted);margin-top:7px}.sources a{font-weight:700;margin-right:8px}.story .follow{display:inline-block;background:#efe5dc;color:#7d342c;padding:3px 6px;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.story .lead-title{align-self:center}.story .lead-copy{align-self:center}.sidebar{border-left:1px solid var(--line);padding-left:18px}.railbox{border-bottom:1px solid var(--line);padding:0 0 14px;margin-bottom:14px}.railbox h3{font:700 15px/1.15 var(--display);margin:0 0 8px}.railbox p,.railbox li{font-size:11px;color:#454c50;margin:0 0 7px}.railbox ul{padding-left:16px;margin:0}.railbox .tiny{font-size:10px;color:var(--muted)}.railbox .callout{border-top:2px solid var(--red);padding-top:7px}.no-score{background:var(--paper2);padding:9px 10px;border-left:3px solid var(--red)}.desk-section{margin-top:24px}.analysis-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.analysis-card{border-top:2px solid var(--ink);padding-top:8px}.analysis-card h3{font:700 15px/1.2 var(--display);margin:0 0 6px}.analysis-card p{font-size:12px;margin:0;color:#42494e}.more-list{border-top:1px solid var(--ink)}.more-item{display:grid;grid-template-columns:30px minmax(0,1fr) 110px;gap:12px;align-items:start;border-bottom:1px solid var(--line);padding:11px 0}.more-num{font:700 14px var(--display);color:var(--red)}.more-item h3{font:700 15px/1.2 var(--body);margin:0 0 4px}.more-item p{font-size:11px;color:#454c50;margin:0}.more-item .more-meta{font-size:9px;text-align:right;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.06em}.community{border:1px solid var(--line);border-left:4px solid var(--red);padding:12px 14px;margin-top:12px;background:rgba(239,237,230,.45)}.community h3{font:700 17px/1.2 var(--display);margin:0 0 7px}.community p{font-size:12px;margin:0 0 7px}.statusline{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--red)}.future-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}.future-item{border-top:1px solid var(--line);padding:10px 0}.future-item b{font-size:11px;color:var(--red);text-transform:uppercase;letter-spacing:.06em}.future-item p{font-size:12px;margin:4px 0 0;color:#42494e}.capital-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px}.capital-grid p{font-size:12px;color:#42494e;margin:0 0 8px}.capital-grid ul{margin:5px 0;padding-left:17px}.capital-grid li{font-size:12px;color:#42494e;margin-bottom:5px}.glossary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 18px}.term{border-top:1px solid var(--line);padding:8px 0}.term b{font-size:11px}.term p{font-size:11px;margin:3px 0 0;color:#4c5358}.audit{border-top:2px solid var(--ink);margin-top:24px;padding-top:10px}.audit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.audit-box{background:var(--paper2);padding:10px 11px}.audit-box b{display:block;font:700 20px var(--display)}.audit-box span{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:800}.audit p,.audit li{font-size:11px;color:#4b5257}.audit ul{margin:6px 0;padding-left:17px}.audit details{border-top:1px solid var(--line);padding:8px 0}.audit summary{cursor:pointer;font-size:11px;font-weight:800;color:var(--red2)}.domain-list{font-size:10px;line-height:1.8;color:#52595e;word-break:break-word}.coverage-note{font-size:11px;background:#ece9e0;padding:10px 12px;border-left:3px solid var(--ink);margin-top:10px}.footer{border-top:4px double var(--ink);margin-top:28px;padding:12px 0 0;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:10px}.footer strong{color:var(--ink)}.share-dialog{position:fixed;inset:0;background:rgba(20,22,24,.52);display:none;align-items:center;justify-content:center;padding:18px;z-index:50}.share-dialog.open{display:flex}.share-panel{width:min(620px,100%);background:var(--paper);border:1px solid var(--ink);padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.25)}.share-panel h2{font:700 21px var(--display);margin:0 0 8px}.share-panel p{font-size:12px;color:#444c51}.share-panel textarea{width:100%;min-height:130px;border:1px solid var(--line);background:#fffdf8;padding:10px;font:11px/1.5 var(--body);color:var(--ink)}.share-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.share-close{float:right}.feedback{font-size:11px;color:var(--green);min-height:18px;margin-top:6px}.hidden{display:none!important}
+@media(max-width:1050px){.layout{grid-template-columns:minmax(0,1fr) 260px}.story-grid{gap:0 16px}.story h3{font-size:19px}.story:not(.lead) h3{font-size:17px}}
+@media(max-width:780px){.page{padding:16px 17px 28px}.layout{grid-template-columns:1fr}.sidebar{border-left:0;border-top:2px solid var(--ink);padding:16px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 18px}.railbox{margin:0}.briefing{grid-template-columns:1fr}.brief-side{border-left:0;border-top:1px solid var(--line);padding:12px 0 0}.analysis-grid{grid-template-columns:1fr 1fr}.glossary{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.page{padding:13px 13px 24px}.masthead{align-items:flex-start}.wordmark{font-size:51px}.mast-sub{font-size:8px}.head-actions{gap:5px}.head-actions .btn{padding:7px 8px;font-size:9px}.datebar{font-size:9px}.briefing{padding-top:14px}.dek{font-size:14px}.story-grid{grid-template-columns:1fr}.story.lead{grid-template-columns:1fr;gap:8px}.story h3{font-size:20px}.story:not(.lead) h3{font-size:18px}.sidebar{grid-template-columns:1fr}.analysis-grid,.future-list,.capital-grid,.glossary,.audit-grid{grid-template-columns:1fr}.more-item{grid-template-columns:25px minmax(0,1fr)}.more-item .more-meta{grid-column:2;text-align:left}.toolstrip input{min-width:100%;order:1}.toolstrip label[for=search]{order:0}.toolstrip .audio{width:100%;justify-content:flex-start}.toolstrip .btn{font-size:9px}.statline{grid-template-columns:repeat(3,1fr)}h1{font-size:31px}}
+@media print{body{background:#fff;color:#000;font-size:10.5pt}.page{max-width:none;padding:0 8mm}.head-actions,.toolstrip,.share-dialog,.toc{display:none!important}.masthead{padding-bottom:8px}.wordmark{font-size:48pt}.layout{grid-template-columns:1fr 60mm;gap:7mm}.story-grid{gap:0 5mm}.story,.more-item,.future-item,.term{break-inside:avoid}.story h3{font-size:15pt}.story:not(.lead) h3{font-size:12pt}.sidebar{border-left:1px solid #999}.briefing{break-inside:avoid}.desk-section{break-inside:auto}.sources a{color:#000}.footer{margin-top:10mm}.audit details{break-inside:avoid}.audit details[open] .domain-list{display:block}a{text-decoration:underline}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="masthead">
+  <div>
+    <div class="wordmark">SIGNAL<span>.</span></div>
+    <div class="mast-sub">The full-stack AI intelligence daily</div>
+  </div>
+  <div class="head-actions">
+    <button class="btn primary" id="shareBtn" type="button">Share</button>
+    <button class="btn" type="button" onclick="window.print()">Print / PDF</button>
+    <a class="btn" href="index.html" style="text-decoration:none">Latest</a>
+  </div>
+</header>
+<div class="datebar">
+  <span><strong>Saturday, 14 November 2026</strong> · Asia/Kolkata</span>
+  <span>Research window: 12–14 November · 08:42 IST cut-off</span>
+  <span>Full-stack briefing · Issue 01</span>
+</div>
+
+<section class="briefing">
+  <div>
+    <div class="kicker">Editor's briefing · The agent layer gets real</div>
+    <h1>Agents are moving from answers to transactions. The plumbing is becoming the story.</h1>
+    <p class="dek">OpenAI has put a payment rail behind its Dots agents, LangChain has raised $300 million to build the control room for enterprise agents, and DeepSeek’s open harness is still moving quickly. Baidu is making a broader play across model services, agents and domestic compute. The frontier-model calendar was quieter: no new model or benchmark result cleared the novelty bar in this 48-hour window.</p>
+  </div>
+  <div class="brief-side">
+    <div class="statline">
+      <div class="stat"><b>6</b><span>Main desk</span></div>
+      <div class="stat"><b>3</b><span>More signals</span></div>
+      <div class="stat"><b>1</b><span>Community radar</span></div>
+    </div>
+    <p><strong>Read this edition:</strong> 9 verified developments, including 2 material follow-ups, plus 1 early community signal. The ranking is editorial judgement, not an objective score.</p>
+    <p><a href="2026-11-13-edition-4.html">Yesterday’s expanded edition →</a></p>
+  </div>
+</section>
+
+<nav class="toc" aria-label="Edition contents">
+  <a href="#main-desk">Main desk</a>
+  <a href="#model-watch">Model watch</a>
+  <a href="#more-signals">More signals</a>
+  <a href="#community-radar">Community radar</a>
+  <a href="#context">AI in context</a>
+  <a href="#capital">Capital & portfolio</a>
+  <a href="#future">Future radar</a>
+  <a href="#glossary">Glossary</a>
+  <a href="#audit">Coverage audit</a>
+</nav>
+
+<div class="toolstrip" role="region" aria-label="Reading controls">
+  <label for="search">Search this edition</label>
+  <input id="search" type="search" placeholder="Search headlines, companies, topics…">
+  <label for="deskFilter">Desk</label>
+  <select id="deskFilter">
+    <option value="all">All desks</option>
+    <option value="products">Products & commerce</option>
+    <option value="developers">Developers & agents</option>
+    <option value="compute">Compute & geopolitics</option>
+    <option value="reliability">Security & reliability</option>
+    <option value="business">Business & capital</option>
+    <option value="robotics">Robotics</option>
+    <option value="community">Community radar</option>
+  </select>
+  <div class="audio" aria-label="Read aloud">
+    <label>Read aloud</label>
+    <button class="btn" id="playBtn" type="button">Play</button>
+    <button class="btn" id="pauseBtn" type="button">Pause</button>
+    <button class="btn" id="stopBtn" type="button">Stop</button>
+    <label for="speed">Speed</label>
+    <select id="speed" aria-label="Read aloud speed">
+      <option value="0.85">0.85×</option>
+      <option value="1" selected>1×</option>
+      <option value="1.15">1.15×</option>
+      <option value="1.3">1.3×</option>
+    </select>
+  </div>
+  <span id="filterFeedback" class="meta" aria-live="polite"></span>
+</div>
+
+<div id="edition-content">
+<div class="layout">
+<main>
+<section id="main-desk">
+  <div class="section-head"><h2>Main desk</h2><small>Ranked by industry impact, novelty, evidence and developer relevance</small></div>
+  <div class="story-grid">
+
+    <article class="story lead filterable" data-desk="products" data-searchable>
+      <div class="lead-title">
+        <div class="story-top"><span class="rank">01</span><span class="tag">Products · Agentic commerce</span><span class="meta">13 Nov 2026</span></div>
+        <h3>OpenAI gives its Dots agents a payment rail. Every checkout still needs a human.</h3>
+        <p>ChatGPT Wallet lets a Dots agent help select a product and prepare a purchase using a tokenized card credential. The user reviews the items, total and card, then approves with a security check such as Face ID or a fingerprint. The agent does not receive the real card number, security code or expiry details.</p>
+        <p>The launch is narrow: eligible US ChatGPT Pro subscribers, age 18+, with a US-issued American Express, Mastercard or Visa. OpenAI says the wallet preserves card rewards and eligible dispute protections. Spending limits and pre-approved autonomous purchases are described as future capabilities, not what ships today.</p>
+      </div>
+      <div class="lead-copy">
+        <p>OpenAI is also publishing a commerce playbook for merchants. Its own guidance says sites must avoid accidentally blocking legitimate agents and that payment-risk systems need to recognize user-authorized agent transactions. TechCrunch notes that the initial rollout is a test, while retailers still decide whether to permit agent access. Amazon remains a notable counterexample with its own shopping assistant strategy.</p>
+        <div class="why"><b>Why developers should care:</b> agentic commerce needs more than a shopping prompt. Product feeds, bot identity, checkout compatibility, fraud controls, shipping data and clear user authorization all become part of the integration surface. This is not hands-off spending yet.</div>
+        <div class="sources"><strong>Sources:</strong>
+          <a href="https://openai.com/index/introducing-chatgpt-wallet/" target="_blank" rel="noopener">OpenAI · 13 Nov · primary</a>
+          <a href="https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet" target="_blank" rel="noopener">The Verge · reporting</a>
+          <a href="https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/" target="_blank" rel="noopener">TechCrunch · reporting</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="business" data-searchable>
+      <div class="story-top"><span class="rank">02</span><span class="tag">Business · Developer tools</span><span class="meta">13 Nov 2026</span></div>
+      <h3>LangChain raises $300m at a $3bn valuation as agent observability becomes a serious market.</h3>
+      <p>LangChain says CapitalG led its Series C, with GIC, DFJ Growth, IVP and Sapphire Ventures participating. The company plans to expand LangSmith, its platform for running, evaluating, monitoring and governing agents. The Wall Street Journal independently confirmed the $300m round and $3bn valuation; Dealroom reports the valuation is 2.4 times the $1.25bn mark from its 2025 Series B.</p>
+      <p>LangChain says more than 7,000 organisations use LangSmith. It also cites Clay monitoring hundreds of millions of agent runs each month and Workday cutting one agent deployment cycle from five months to under a day. Those customer metrics are company-reported, not an independent audit.</p>
+      <div class="why"><b>Why developers should care:</b> the commercial layer is shifting toward traces, evaluations, tool permissions, budgets and production governance. Framework choice matters, but teams also need a way to see why an agent acted, measure whether it improved and roll back regressions.</div>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://www.langchain.com/blog/series-c" target="_blank" rel="noopener">LangChain · 13 Nov · primary</a>
+        <a href="https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad" target="_blank" rel="noopener">WSJ · independent reporting</a>
+        <a href="https://dealroom.co/news/172300-langchain-raises-300m-tripling-its-valuation-to-3b/" target="_blank" rel="noopener">Dealroom · funding context</a>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="developers" data-searchable>
+      <div class="story-top"><span class="rank">03</span><span class="tag">Open source · Agent runtime</span><span class="meta">13 Nov 2026</span></div>
+      <h3>DeepSeek Harness ships rc3, keeping its plugin-based agent workspace in rapid preview.</h3>
+      <p>DeepSeek’s open-source harness released v0.2.2-rc.3 on 13 November. The small release adds an experimental plugin to import conversation history from the DeepSeek app or website into a workspace, plus a fix for Windows desktop in-app updates. The preceding rc2 added named and nested subagents, session-based AgentTeam collaboration and Git worktree review features.</p>
+      <p>The project is MIT-licensed and describes itself as a developer preview with compatibility-breaking changes expected. GitHub’s repository API showed roughly 280,000 stars and 34,600 forks when checked; that signals attention, not production adoption.</p>
+      <div class="why"><b>Why developers should care:</b> DeepSeek is building an extensible agent environment, not just releasing a model endpoint. The plugin boundary, worktree review and multi-agent coordination are worth inspecting, but the preview warning is real: test in a disposable workspace and read the safety notice before connecting credentials or repositories.</div>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3" target="_blank" rel="noopener">DeepSeek AI · GitHub release · 13 Nov</a>
+        <a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">Project repository and license</a>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="compute" data-searchable>
+      <div class="story-top"><span class="rank">04</span><span class="tag">Compute · China</span><span class="meta">12 Nov 2026</span></div>
+      <h3>Baidu puts a 1,024-card optical supernode and a Kunlunxin roadmap on the table.</h3>
+      <p>At Baidu World, Baidu AI Cloud announced the Tianchi 1,024-card Supernode, described as an all-optical-interconnect system for high-speed data transfer. Its chip unit Kunlunxin said the M100 inference chip had shipped as planned and that its M300 flagship is expected in 2027. TokenPost independently reported the supernode unveiling, but the detailed performance claims remain with Baidu.</p>
+      <p>The announcement does not publish the accelerator card type, sustained system throughput, memory capacity, interconnect bandwidth, production volume, yields or software-porting results. A 1,024-card count is not a benchmark and does not establish parity with Nvidia systems or CUDA.</p>
+      <div class="why"><b>Why developers should care:</b> domestic compute only becomes a real alternative when silicon, memory, networking, compilers, kernels, model support and deployment economics work together. The next evidence to watch is shipped capacity and developer experience, not the rack headline.</div>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html" target="_blank" rel="noopener">Baidu · 12 Nov · company release</a>
+        <a href="https://www.tokenpost.com/news/technology/55814" target="_blank" rel="noopener">TokenPost · independent report</a>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="compute" data-searchable>
+      <div class="story-top"><span class="rank">05</span><span class="tag">FOLLOW-UP · Supply chain</span><span class="meta">13 Nov 2026</span><span class="follow">Update</span></div>
+      <h3>Reuters finds $3.2bn of Chinese AI projects planned around restricted Nvidia chips.</h3>
+      <p>Reuters reviewed more than 150 procurement notices, investment plans, construction contracts and corporate disclosures. It identified projects and equipment agreements with a combined reported value above 23bn yuan ($3.2bn), spanning local government-backed ventures, universities and regional compute centres.</p>
+      <p>The figure is not Nvidia chip spending alone. Reuters says it includes planned investment, signed contracts and completed installations, as well as buildings, power systems and other infrastructure. Some projects may be delayed or redesigned as access to restricted processors becomes less certain.</p>
+      <div class="why"><b>Why developers should care:</b> export controls can change the hardware assumptions behind a project long after a procurement plan is announced. Model roadmaps, cluster design and software migration costs all depend on whether the named accelerators actually arrive.</div>
+      <p class="meta">Material follow-up to <a href="2026-11-13-edition-2.html">yesterday’s report on Chinese AI firms seeking Nvidia capacity outside China</a>. The new element is Reuters’ wider 150-document review and its $3.2bn project estimate.</p>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/" target="_blank" rel="noopener">Reuters · 13 Nov · investigation</a>
+        <a href="2026-11-13-edition-2.html">Earlier SIGNAL coverage</a>
+      </div>
+    </article>
+
+    <article class="story filterable" data-desk="reliability" data-searchable>
+      <div class="story-top"><span class="rank">06</span><span class="tag">FOLLOW-UP · Reliability</span><span class="meta">13 Nov 2026</span><span class="follow">Update</span></div>
+      <h3>Microsoft 365 connector failures reached ChatGPT and Claude. Both vendors later marked their connector incidents resolved.</h3>
+      <p>The previous edition covered the Microsoft 365 outage and its cascading server-capacity failure. New status updates show the downstream impact: OpenAI marked the ChatGPT Microsoft 365 connector issue resolved at 19:18 UTC on 13 November. Anthropic marked its Microsoft 365 connector and Claude for Outlook incident resolved at 21:49 UTC.</p>
+      <p>Anthropic’s notice still warned that Microsoft was completing its recovery and that occasional errors or delays could continue. These were connector failures caused by the upstream Microsoft service incident, not evidence of an attack on OpenAI or Anthropic.</p>
+      <div class="why"><b>Why developers should care:</b> an agent that depends on mail, calendars, files or search inherits the availability of every upstream connector. Retries, graceful degradation, stale-data warnings and explicit failure states are production requirements.</div>
+      <p class="meta">Material follow-up to <a href="2026-11-13-edition-4.html">the Microsoft 365 outage report in the 13 November edition</a>. The new information is the cross-product connector impact and vendor resolution timestamps.</p>
+      <div class="sources"><strong>Sources:</strong>
+        <a href="https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8" target="_blank" rel="noopener">OpenAI Status · 13 Nov</a>
+        <a href="https://anthropic.statuspage.io/incidents/2026-11-12-microsoft-365-connector" target="_blank" rel="noopener">Anthropic Status · 13 Nov</a>
+        <a href="https://status.cloud.microsoft/" target="_blank" rel="noopener">Microsoft Service Health</a>
+        <a href="2026-11-13-edition-4.html">Earlier SIGNAL coverage</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="more-signals" class="desk-section">
+  <div class="section-head"><h2>More signals</h2><small>Verified, lower-priority developments</small></div>
+  <div class="more-list">
+    <article class="more-item filterable" data-desk="developers" data-searchable>
+      <div class="more-num">07</div>
+      <div>
+        <h3>Baidu’s Token Exchange and agent APIs broaden its model marketplace.</h3>
+        <p>Baidu says Token Exchange has more than 100 model resources and averages over 50 million calls and 700 billion tokens a day after one month. The company also says it has opened the DuMate Harness engine and Agent API. Those usage figures are Baidu-reported and have not been independently audited; the ERNIE 5.5 Flash model preview from the same event was already covered yesterday and is not repeated here.</p>
+        <div class="sources"><a href="https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html" target="_blank" rel="noopener">Baidu · 12 Nov · company release</a></div>
+      </div>
+      <div class="more-meta">Developer ecosystem<br>12 Nov</div>
+    </article>
+    <article class="more-item filterable" data-desk="reliability" data-searchable>
+      <div class="more-num">08</div>
+      <div>
+        <h3>Anthropic’s core Claude services had a separate outage lasting about 2½ hours.</h3>
+        <p>Anthropic’s status page records elevated errors on claude.ai, the API, Claude Code and Cowork from 13:09 to 15:38 UTC on 13 November. The incident was marked resolved; the status page did not publish a cause. This was separate from the Microsoft 365 connector disruption.</p>
+        <div class="sources"><a href="https://anthropic.statuspage.io/incidents/34wq7gxnxvvm" target="_blank" rel="noopener">Anthropic Status · 13 Nov · incident log</a></div>
+      </div>
+      <div class="more-meta">Reliability<br>13 Nov</div>
+    </article>
+    <article class="more-item filterable" data-desk="robotics" data-searchable>
+      <div class="more-num">09</div>
+      <div>
+        <h3>Baidu says Apollo Go has passed 350 million autonomous kilometres.</h3>
+        <p>At Baidu World, the company reported more than 350 million autonomous kilometres, including over 240 million in fully driverless mode, across 28 cities. Baidu also said fully driverless commercial operations had begun in Abu Dhabi and Dubai. These are company-reported deployment figures, not an independently audited fleet-safety assessment.</p>
+        <div class="sources"><a href="https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html" target="_blank" rel="noopener">Baidu · 12 Nov · company release</a></div>
+      </div>
+      <div class="more-meta">Robotics<br>12 Nov</div>
+    </article>
+  </div>
+</section>
+
+<section id="community-radar" class="desk-section">
+  <div class="section-head"><h2>Community radar</h2><small>Discovery signal, not confirmed industry news</small></div>
+  <article class="community filterable" data-desk="community" data-searchable>
+    <div class="statusline">Early signal · Verify before installing</div>
+    <h3>Andee is climbing GitHub’s Android-automation lists. Its permissions deserve as much attention as its demo.</h3>
+    <p>Trendoday placed <a href="https://trendoday.com/github/repo/kuafuai/andee" target="_blank" rel="noopener">kuafuai/andee</a> at number 10 on GitHub Rising on 13 November; the repository showed about 6.1k stars when checked on 14 November. The project is an Android/Mac agent that can operate apps through the Android Accessibility service.</p>
+    <p>The repository documents that this permission can read an app’s UI tree, take system screenshots and perform gestures. Its own security policy calls that intended capability a high-value target. The code is inspectable, but this sweep found no independent security audit. Treat it as an interesting builder project, not a safe default for a primary phone.</p>
+    <div class="sources"><strong>Project:</strong> <a href="https://github.com/kuafuai/andee" target="_blank" rel="noopener">GitHub repository</a> <a href="https://github.com/kuafuai/andee/blob/main/SECURITY.md" target="_blank" rel="noopener">Security policy</a> <a href="https://trendoday.com/github/repo/kuafuai/andee" target="_blank" rel="noopener">Trendoday trend history</a></div>
+  </article>
+</section>
+
+<section id="context" class="desk-section">
+  <div class="section-head"><h2>AI in context</h2><small>Analysis · interpretation, not reported fact</small></div>
+  <div class="analysis-grid">
+    <div class="analysis-card">
+      <h3>1. The agent stack now reaches checkout.</h3>
+      <p>Wallets and payment tokens move agents from recommending a product to initiating a transaction. The control point is still human approval, but the next competition is over merchant access, identity, fraud signals and reliable fulfilment. Payment networks are infrastructure partners, not decorative logos.</p>
+    </div>
+    <div class="analysis-card">
+      <h3>2. The control plane is attracting capital.</h3>
+      <p>LangChain is selling the tools that make agents observable and governable; DeepSeek is building an open, plugin-based workspace. Those approaches can coexist. The durable layer may be the one that handles traces, permissions, evaluation and model portability without trapping teams in one provider.</p>
+    </div>
+    <div class="analysis-card">
+      <h3>3. Compute independence is a whole-stack test.</h3>
+      <p>Baidu’s optical supernode and Kunlunxin roadmap are meaningful signals, while Reuters’ project review shows how much planned Chinese capacity still depends on Nvidia. Card counts alone do not settle the comparison. Memory, interconnect, compilers, kernels, yields, energy and migration effort decide whether an alternative can run real workloads at scale.</p>
+    </div>
+  </div>
+</section>
+
+<section id="capital" class="desk-section">
+  <div class="section-head"><h2>Capital flows & portfolio lens</h2><small>Education, not investment advice</small></div>
+  <div class="capital-grid">
+    <div>
+      <p><strong>What the money says.</strong> LangChain’s $300m Series C at a $3bn valuation is a clear bet on the operating layer around agents: deployment, evaluation, monitoring, governance and tool access. The company says 7,000+ organisations use LangSmith; independent reporting confirms the round, not the full customer economics.</p>
+      <p><strong>Where value could accrue.</strong> Over the next 6–24 months, watch model-agnostic observability and evaluation, agent identity and security, payment tokenisation, cloud inference, networking, power and cooling. These are the layers that help agents work reliably across providers and real business systems.</p>
+    </div>
+    <div>
+      <p><strong>What could go wrong.</strong></p>
+      <ul>
+        <li>Model labs and cloud providers may bundle orchestration, tracing and governance into their own stacks.</li>
+        <li>High valuations assume sustained paid usage, not just agent demos or free API calls.</li>
+        <li>Agent payments introduce fraud, chargeback, privacy and liability questions; merchant adoption may lag consumer interest.</li>
+        <li>Compute projects can be announced years before power, chips and interconnects are actually delivered.</li>
+      </ul>
+      <p><strong>Portfolio lens:</strong> treat cloud, chips, networking, power, payment networks and security as exposed parts of the value chain, not automatic winners. Track cash conversion, utilisation, backlog quality and customer concentration before drawing conclusions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="future" class="desk-section">
+  <div class="section-head"><h2>Future radar · Next 3–12 months</h2><small>Dates and scenarios are labelled</small></div>
+  <div class="future-list">
+    <div class="future-item"><b>20 Nov 2026 · Confirmed event</b><p>LangChain says it will show new LangSmith capabilities at a release event. Watch for concrete improvements to agent tracing, evaluation, governance and production deployment rather than another broad agent promise. <a href="https://www.langchain.com/blog/series-c" target="_blank" rel="noopener">Company announcement</a></p></div>
+    <div class="future-item"><b>2027 · Company roadmap</b><p>Baidu expects its Kunlunxin M300 flagship to ship in 2027. The evidence to watch is public specifications, memory and interconnect, software support, customer deployments and sustained workload results. <a href="https://www.prnewswire.com/news-releases/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations-302937959.html" target="_blank" rel="noopener">Baidu release</a></p></div>
+    <div class="future-item"><b>Next 1–3 quarters · Product watch</b><p>OpenAI says it expects to add more delegated-purchase controls over time, including spending limits and purchase categories. Watch whether Wallet expands beyond the initial US Pro cohort and whether merchants accept agent-originated traffic. <a href="https://openai.com/index/introducing-chatgpt-wallet/" target="_blank" rel="noopener">OpenAI Wallet</a></p></div>
+    <div class="future-item"><b>Next 3–12 months · Editorial scenario</b><p>Agent frameworks will be judged increasingly on production evidence: task success, recovery from tool failures, cost per completed workflow, permissions and auditability. DeepSeek Harness and LangSmith are different approaches; adoption and reliability will matter more than star counts or funding headlines.</p></div>
+    <div class="future-item"><b>IPO watch · Timing unconfirmed</b><p>Anthropic’s public filing and reported roadshow demand remain in the market conversation, but final price, share count and listing timing are not established here. Watch for an amended SEC filing and formal exchange notices rather than repeating demand estimates from yesterday’s edition. <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm" target="_blank" rel="noopener">SEC filing</a></p></div>
+    <div class="future-item"><b>Compute watch · Ongoing</b><p>For Chinese accelerator alternatives, the tests are volume availability, memory bandwidth, optical/electrical interconnect, compiler coverage, model-porting work and power per token. A roadmap announcement is not proof that dependence on Nvidia has fallen.</p></div>
+  </div>
+</section>
+</main>
+
+<aside class="sidebar">
+  <section class="railbox" id="model-watch">
+    <h3>Model & benchmark watch</h3>
+    <div class="no-score">
+      <p><strong>No fresh frontier-model scorecard today.</strong> No new model release or independently reproducible benchmark shift in the 12–14 November window cleared the verification and novelty bar.</p>
+    </div>
+    <p>Yesterday’s edition already covered Gemini 4 Hydrogen, Gemini Decisions API, Baidu ERNIE 5.5 Flash Preview and Anthropic Fable 5.2. They are not being repackaged as today’s news.</p>
+    <p>DeepSeek Harness rc3 is an agent runtime release, not a new model. Vendor benchmark claims and aggregator rankings are not directly comparable without matching prompts, harnesses, tools and compute budgets.</p>
+    <p class="tiny"><a href="2026-11-13-edition-4.html">Read the 13 November model desk →</a></p>
+  </section>
+  <section class="railbox">
+    <h3>Developer watch</h3>
+    <ul>
+      <li>Wallet merchant compatibility and agent authentication.</li>
+      <li>LangSmith tracing, evals and tool governance.</li>
+      <li>DeepSeek Harness plugin stability and credential boundaries.</li>
+      <li>Baidu’s public docs for DuMate Harness and Agent API.</li>
+      <li>Real accelerator availability, not just rack-scale announcements.</li>
+    </ul>
+  </section>
+  <section class="railbox">
+    <h3>Security & reliability</h3>
+    <p>The Microsoft 365 outage was an upstream service incident; the connector updates are follow-ups, not a new cyberattack. Anthropic separately recorded a short Claude/API/Code outage on 13 November and marked it resolved.</p>
+    <p>No new high-confidence AI-enabled intrusion or AI-specific CISA/CERT-In advisory was verified in this window.</p>
+  </section>
+  <section class="railbox">
+    <h3>India & regional desk</h3>
+    <p>No new India-specific model or policy development cleared the window. OpenAI’s India-local API processing launch was covered in yesterday’s edition and is not repeated. China coverage today is focused on Baidu’s compute roadmap and the Nvidia-dependent project pipeline.</p>
+  </section>
+  <section class="railbox">
+    <h3>Archive notes</h3>
+    <p>This issue is additive. Earlier dated editions remain unchanged.</p>
+    <p><a href="2026-11-13-edition-4.html">13 Nov · Expanded edition 4</a></p>
+    <p><a href="2026-11-13-edition-2.html">13 Nov · Compute and business edition 2</a></p>
+    <p><a href="index.html">Latest issue</a> · <a href="index.html">Repository homepage</a></p>
+    <p><a href="index.html">SIGNAL archive index is linked from the site</a></p>
+  </section>
+</aside>
+</div>
+
+<section id="glossary" class="desk-section">
+  <div class="section-head"><h2>Plain-English glossary</h2><small>Terms used in this edition</small></div>
+  <div class="glossary">
+    <div class="term"><b>Agentic commerce</b><p>An AI agent that can research, select and initiate a purchase, subject to the user’s permissions and the merchant’s rules.</p></div>
+    <div class="term"><b>Payment token</b><p>A substitute credential used to process a card payment without exposing the real card number and security details to the agent or merchant.</p></div>
+    <div class="term"><b>Biometric approval</b><p>A user check such as Face ID or a fingerprint that confirms a specific transaction.</p></div>
+    <div class="term"><b>Agent harness</b><p>The runtime and surrounding tools that let an agent call tools, manage context, delegate tasks and interact with files or applications.</p></div>
+    <div class="term"><b>Observability</b><p>Logs, traces and metrics that show what an agent did, which tools it called, where it failed and how much it cost.</p></div>
+    <div class="term"><b>Evaluation (eval)</b><p>A repeatable test that measures whether a model or agent completes a task correctly and reliably.</p></div>
+    <div class="term"><b>Inference</b><p>Running a trained model to produce an answer or action, as opposed to training the model.</p></div>
+    <div class="term"><b>Optical interconnect</b><p>Using light to move data between compute components; it can improve bandwidth or reach, but the system still needs measured latency and reliability.</p></div>
+    <div class="term"><b>Supernode</b><p>A tightly connected group of accelerators and supporting hardware designed to act as one large compute system.</p></div>
+    <div class="term"><b>HBM</b><p>High Bandwidth Memory, a stacked memory technology used close to accelerators to feed data at high rates.</p></div>
+    <div class="term"><b>API</b><p>An application programming interface: a defined way for software to request a service or exchange data.</p></div>
+    <div class="term"><b>Developer preview</b><p>Early software that is available for testing but may change incompatibly and should not be assumed production-ready.</p></div>
+  </div>
+</section>
+
+<section id="audit" class="audit">
+  <div class="section-head"><h2>Coverage audit & editorial method</h2><small>What we checked · what we did not claim</small></div>
+  <div class="audit-grid">
+    <div class="audit-box"><b>9</b><span>Verified developments</span></div>
+    <div class="audit-box"><b>2</b><span>Material follow-ups</span></div>
+    <div class="audit-box"><b>13</b><span>Repeat candidates excluded</span></div>
+    <div class="audit-box"><b>64</b><span>Distinct domains/platforms targeted</span></div>
+    <div class="audit-box"><b>27</b><span>Source domains directly inspected</span></div>
+    <div class="audit-box"><b>33 / 33</b><span>Dated archive pages checked</span></div>
+  </div>
+  <p><strong>Edition mix:</strong> 6 ranked main-desk stories, 3 lower-priority More Signals and 1 Community Radar item. The 9 verified developments comprise 7 first-time events and 2 material follow-ups. Community Radar is a discovery signal, not a verified industry event. The 13 repeat candidates were suppressed after checking the historical registry and archived issues; 3 stale/out-of-window items and 1 unverified Google Wallet claim were also omitted.</p>
+  <p><strong>Ranking:</strong> editorial assessment of industry consequences, novelty, source quality, likely impact and usefulness to builders. It is not an objective metric and is not driven by social engagement. Main Desk carries the developments that merit full treatment; More Signals contains verified items that are useful but lower priority.</p>
+  <p><strong>Coverage gaps:</strong> no new frontier model release, independent benchmark movement, research paper, India-specific launch, formal policy decision or confirmed AI-enabled cyberattack passed the bar in this window. No scorecard is shown rather than reprinting stale rankings. The previous edition’s Gemini, ERNIE and Claude model announcements were deliberately not repeated.</p>
+  <p><strong>Infrastructure & geopolitics check:</strong> Baidu’s supernode/Kunlunxin roadmap and Reuters’ review of Nvidia-dependent Chinese projects were included. No new export-control order or major power-grid/data-centre financing decision was verified. The $3.2bn Reuters figure includes infrastructure and planned projects; it is not chip spend alone.</p>
+  <p><strong>Social and builder discovery:</strong> public X, Reddit, YouTube, GitHub and project-trend searches were attempted. Andee is included because a trend tracker and its repository provide a date-matched signal; no other social post or video claim cleared corroboration. DSH Go’s trend peak was earlier in November, so it was not passed off as a new 48-hour launch. Social popularity is a discovery clue, not proof of safety or adoption.</p>
+  <p><strong>Source breadth:</strong> 64 distinct domains/platforms were targeted; 27 source domains were directly opened and inspected. This is not a claim that all 64 were read. CNBC and Asia Nikkei were blocked by access controls; some financial reporting was partially paywalled. X, YouTube and Reddit yielded no additional current, corroborated item. The human newsroom edit was applied directly; no external writing linter was installed or run.</p>
+  <details>
+    <summary>Show the 27 source domains directly inspected</summary>
+    <p class="domain-list">openai.com · anthropic.com · langchain.com · github.com · newsroom.amd.com · psquantum.com · lmsys.org · sglang.io · reuters.com · theverge.com · techcrunch.com · wsj.com · dealroom.co · ft.com · theguardian.com · timesofindia.indiatimes.com · tokenpost.com · bloomberglaw.com · prnewswire.com · businesswire.com · nasdaq.com · status.openai.com · anthropic.statuspage.io · sec.gov · benchleader.com · llmgateway.io · trendoday.com</p>
+  </details>
+  <details>
+    <summary>Show the 64-domain target roster</summary>
+    <p class="domain-list"><strong>Labs, platforms and hardware:</strong> openai.com · anthropic.com · deepmind.google · blog.google · ai.meta.com · x.ai · nvidia.com · amd.com · intel.com · aws.amazon.com · apple.com · huggingface.co · github.blog · github.com</p>
+    <p class="domain-list"><strong>Research and benchmarks:</strong> arxiv.org · nature.com · science.org · lmsys.org · paperswithcode.com · benchleader.com · llmgateway.io · sglang.io</p>
+    <p class="domain-list"><strong>Technology journalism:</strong> theverge.com · techcrunch.com · arstechnica.com · wired.com · theregister.com · venturebeat.com · spectrum.ieee.org · tomshardware.com</p>
+    <p class="domain-list"><strong>Business and finance:</strong> reuters.com · bloomberg.com · ft.com · cnbc.com · wsj.com · apnews.com · fortune.com · businessinsider.com</p>
+    <p class="domain-list"><strong>Security and policy:</strong> bleepingcomputer.com · darkreading.com · securityweek.com · cisa.gov · cert-in.org.in · nist.gov · microsoft.com · cloud.google.com · gov.uk · europa.eu · bis.gov · sec.gov · commerce.gov · whitehouse.gov · energy.gov · iea.org</p>
+    <p class="domain-list"><strong>India and Asia:</strong> economictimes.indiatimes.com · moneycontrol.com · livemint.com · yourstory.com · scmp.com · caixinglobal.com · 36kr.com · asia.nikkei.com · thelec.net · koreaherald.com</p>
+    <p class="domain-list"><strong>Community and creators:</strong> reddit.com · youtube.com · x.com · producthunt.com · techinasia.com · restofworld.org</p>
+  </details>
+  <div class="coverage-note"><strong>Archive and repeat check:</strong> the root homepage, archive index, all 33 accessible dated HTML issues and the 285-record append-only story registry were inspected before selection. New issue path: <code>archive/2026-11-14.html</code>. Earlier issues remain immutable. Two prior events appear only as explicit follow-ups with links to their earlier SIGNAL coverage.</div>
+</section>
+</div>
+
+<footer class="footer">
+  <span><strong>SIGNAL.</strong> · AI Daily · Saturday, 14 November 2026 · Asia/Kolkata</span>
+  <span>Original summaries · Direct sources · No tracking scripts · <a href="index.html">Latest issue</a></span>
+</footer>
+</div>
+
+<div class="share-dialog" id="shareDialog" role="dialog" aria-modal="true" aria-labelledby="shareTitle">
+  <div class="share-panel">
+    <button class="btn share-close" id="closeShare" type="button">Close</button>
+    <h2 id="shareTitle">Share this edition</h2>
+    <p id="shareMessage">If this browser cannot attach an HTML file directly, copy the summary below and attach <strong>SIGNAL_AI_Daily_2026-11-14.html</strong> from your downloads.</p>
+    <textarea id="shareText" aria-label="Copyable edition summary">SIGNAL. — AI Daily | 14 November 2026
+Top stories: OpenAI launches ChatGPT Wallet for user-approved agent purchases; LangChain raises $300m at a $3bn valuation; DeepSeek Harness ships rc3; Baidu announces a 1,024-card optical supernode and Kunlunxin roadmap; Microsoft 365 connector failures reach ChatGPT and Claude before resolution; Reuters maps $3.2bn of Chinese AI projects built around restricted Nvidia chips.
+Read the full edition in SIGNAL_AI_Daily_2026-11-14.html.
+Sources: https://openai.com/index/introducing-chatgpt-wallet/ | https://www.langchain.com/blog/series-c | https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3</textarea>
+    <div class="share-actions">
+      <button class="btn primary" id="copyShare" type="button">Copy summary</button>
+      <button class="btn" id="selectShare" type="button">Select text</button>
+    </div>
+    <div class="feedback" id="shareFeedback" aria-live="polite"></div>
+    <p class="meta">File sharing depends on browser support. If a text-only share opens, the HTML is not attached; use the downloaded file as a separate attachment.</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  const search = document.getElementById('search');
+  const desk = document.getElementById('deskFilter');
+  const cards = Array.from(document.querySelectorAll('.filterable'));
+  const feedback = document.getElementById('filterFeedback');
+  function filterItems(){
+    const q = (search.value || '').trim().toLowerCase();
+    const d = desk.value;
+    let shown = 0;
+    cards.forEach(function(card){
+      const text = (card.innerText || '').toLowerCase();
+      const matchesText = !q || text.indexOf(q) !== -1;
+      const matchesDesk = d === 'all' || card.dataset.desk === d;
+      const visible = matchesText && matchesDesk;
+      card.classList.toggle('hidden', !visible);
+      if(visible) shown++;
+    });
+    feedback.textContent = shown + ' item' + (shown === 1 ? '' : 's') + ' shown';
+  }
+  search.addEventListener('input', filterItems);
+  desk.addEventListener('change', filterItems);
+  filterItems();
+
+  let utterance = null;
+  const play = document.getElementById('playBtn');
+  const pause = document.getElementById('pauseBtn');
+  const stop = document.getElementById('stopBtn');
+  function startSpeech(){
+    if(!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)){
+      feedback.textContent = 'Read-aloud is not supported in this browser.';
+      return;
+    }
+    if(window.speechSynthesis.paused){
+      window.speechSynthesis.resume();
+      return;
+    }
+    window.speechSynthesis.cancel();
+    const text = document.getElementById('edition-content').innerText;
+    utterance = new SpeechSynthesisUtterance(text);
+    utterance.rate = Number(document.getElementById('speed').value || 1);
+    utterance.pitch = 1;
+    utterance.onend = function(){ feedback.textContent = 'Read-aloud finished.'; };
+    utterance.onerror = function(){ feedback.textContent = 'Read-aloud stopped by the browser.'; };
+    window.speechSynthesis.speak(utterance);
+  }
+  play.addEventListener('click', startSpeech);
+  pause.addEventListener('click', function(){
+    if('speechSynthesis' in window && window.speechSynthesis.speaking) window.speechSynthesis.pause();
+  });
+  stop.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+    feedback.textContent = 'Read-aloud stopped.';
+  });
+
+  const dialog = document.getElementById('shareDialog');
+  const shareBtn = document.getElementById('shareBtn');
+  const closeShare = document.getElementById('closeShare');
+  const shareText = document.getElementById('shareText');
+  const shareFeedback = document.getElementById('shareFeedback');
+  function showFallback(message){
+    dialog.classList.add('open');
+    shareFeedback.textContent = message || 'Copy the summary, then attach the downloaded HTML file in your email or messaging app.';
+  }
+  shareBtn.addEventListener('click', async function(){
+    const summary = shareText.value;
+    const filename = 'SIGNAL_AI_Daily_2026-11-14.html';
+    let fileShared = false;
+    try{
+      if(typeof File !== 'undefined' && navigator.share && navigator.canShare){
+        const source = '<!doctype html>\n' + document.documentElement.outerHTML;
+        const file = new File([source], filename, {type:'text/html'});
+        if(navigator.canShare({files:[file]})){
+          await navigator.share({files:[file], title:'SIGNAL. — AI Daily', text:'Saturday, 14 November 2026 · Full-stack AI briefing'});
+          fileShared = true;
+        }
+      }
+    }catch(e){
+      fileShared = false;
+    }
+    if(fileShared) return;
+    try{
+      if(navigator.share){
+        await navigator.share({title:'SIGNAL. — AI Daily | 14 November 2026', text:summary});
+        showFallback('A text summary was shared. The HTML file was not attached by this browser; attach SIGNAL_AI_Daily_2026-11-14.html separately.');
+      }else{
+        showFallback('This browser cannot share directly. Copy the summary and attach SIGNAL_AI_Daily_2026-11-14.html manually.');
+      }
+    }catch(e){
+      showFallback('Sharing was cancelled or unavailable. Copy the summary and attach SIGNAL_AI_Daily_2026-11-14.html manually.');
+    }
+  });
+  closeShare.addEventListener('click', function(){dialog.classList.remove('open');});
+  dialog.addEventListener('click', function(e){if(e.target === dialog) dialog.classList.remove('open');});
+  document.getElementById('copyShare').addEventListener('click', async function(){
+    try{
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        await navigator.clipboard.writeText(shareText.value);
+        shareFeedback.textContent = 'Summary copied. Attach the HTML file separately if it was not shared.';
+      }else{
+        shareText.focus();shareText.select();
+        shareFeedback.textContent = 'Clipboard access is unavailable. The text is selected; copy it manually, then attach the HTML file.';
+      }
+    }catch(e){
+      shareText.focus();shareText.select();
+      shareFeedback.textContent = 'Clipboard access was blocked. The text is selected for manual copying; attach the HTML file separately.';
+    }
+  });
+  document.getElementById('selectShare').addEventListener('click', function(){
+    shareText.focus();shareText.select();
+    shareFeedback.textContent = 'Text selected. Copy it, then attach the downloaded HTML file.';
+  });
+  document.addEventListener('keydown', function(e){if(e.key === 'Escape') dialog.classList.remove('open');});
+})();
+</script>
+</body>
+</html>
