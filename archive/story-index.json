@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-14T03:12:29Z",
+  "last_updated_at": "2026-11-15T08:33:00Z",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.",
   "editions": [
     {
@@ -3026,6 +3026,186 @@
       "editorial_note": "Full-stack, developer-oriented edition. No fixed story cap was applied; only 10 verified developments and one community signal cleared the bar. The humanizing newsroom edit was applied directly; no external humanization package or linter was installed or run.",
       "humanized_editorial_pass": true,
       "external_linter_run": false
+    },
+    {
+      "date": "2026-11-15",
+      "path": "archive/2026-11-15.html",
+      "kind": "full-stack AI intelligence edition 1",
+      "story_ids": [
+        "event-microsoft-artEx-storm-0940-connectwise-supply-chain-2026-10-21",
+        "event-cursor-claude-code-extension-marketplace-supply-chain-compromise",
+        "event-epoch-ai-evaluation-live-site-agent-probing-disclosure-2026-11-13",
+        "event-llama-cpp-v1-0-api-abi-stability-2026-11-13",
+        "event-github-copilot-model-deprecations-december-2026-11-13",
+        "event-airtrunk-andhra-18gw-mou-2026-11-14",
+        "event-github-ai-scan-repository-rest-api-2026-11-13",
+        "event-github-copilot-app-ghes-ga-2026-11-13",
+        "event-github-copilot-gemini-4-hydrogen-ga-2026-11-13",
+        "event-nvidia-glm53-two-dgx-vllm-serving-recipe-2026-11-13"
+      ],
+      "story_count": 10,
+      "new_story_count": 8,
+      "verified_story_count": 10,
+      "unique_new_verified_story_count": 8,
+      "material_follow_up_count": 2,
+      "main_desk_count": 6,
+      "more_signals_count": 4,
+      "community_pulse_count": 0,
+      "research_window": "2026-11-13 14:03 to 2026-11-15 14:03 Asia/Kolkata",
+      "source_domains_targeted": 52,
+      "source_domains_opened_and_inspected": 24,
+      "source_domains_with_date_matched_results": 16,
+      "archive_issue_files_checked": 35,
+      "archive_pages_unavailable": [],
+      "duplicate_candidates_excluded": 9,
+      "excluded_repeat_candidates": [
+        "Gemini 4 Hydrogen original model launch; only its new Copilot distribution is included.",
+        "Anthropic self-hosted Claude Managed Agents private beta.",
+        "The lawsuit seeking to halt frontier-model development.",
+        "SMIC's AI-supply outlook through 2027.",
+        "Baidu's Kunlunxin/Tianchi roadmap.",
+        "DeepSeek Harness rc3.",
+        "OpenAI ChatGPT Wallet.",
+        "LangChain's Series C funding round.",
+        "Baidu Token Exchange and Apollo Go deployment claims."
+      ],
+      "stale_candidates_excluded": 2,
+      "excluded_stale_candidates": [
+        "The arXiv paper One Fabrication Is Enough was submitted 11 November, outside the strict 48-hour window.",
+        "Cerebras Q3 results and Applied Materials FY2026 results were published 12 November, outside the selected 48-hour window."
+      ],
+      "main_desk_story_ids": [
+        "event-microsoft-artEx-storm-0940-connectwise-supply-chain-2026-10-21",
+        "event-cursor-claude-code-extension-marketplace-supply-chain-compromise",
+        "event-epoch-ai-evaluation-live-site-agent-probing-disclosure-2026-11-13",
+        "event-llama-cpp-v1-0-api-abi-stability-2026-11-13",
+        "event-github-copilot-model-deprecations-december-2026-11-13",
+        "event-airtrunk-andhra-18gw-mou-2026-11-14"
+      ],
+      "more_signals_story_ids": [
+        "event-github-ai-scan-repository-rest-api-2026-11-13",
+        "event-github-copilot-app-ghes-ga-2026-11-13",
+        "event-github-copilot-gemini-4-hydrogen-ga-2026-11-13",
+        "event-nvidia-glm53-two-dgx-vllm-serving-recipe-2026-11-13"
+      ],
+      "source_classes_inspected": {
+        "government_and_security_advisories": 3,
+        "security_research_and_incident_reporting": 4,
+        "primary_labs_platforms_and_developer_releases": 6,
+        "independent_technology_and_business_reporting": 5,
+        "research_repositories": 1,
+        "infrastructure_and_semiconductor_specialists": 3,
+        "india_and_regional_reporting": 2
+      },
+      "source_domain_audit": {
+        "directly_opened_domains": [
+          "ic3.gov",
+          "cloudflare.com",
+          "epoch.ai",
+          "cursor.com",
+          "bleepingcomputer.com",
+          "github.blog",
+          "github.com",
+          "huggingface.co",
+          "developer.nvidia.com",
+          "datacenterdynamics.com",
+          "cert.europa.eu",
+          "cloud.google.com",
+          "justsecurity.org",
+          "sec.gov",
+          "reuters.com",
+          "apnews.com",
+          "arxiv.org",
+          "cerebras.gcs-web.com",
+          "appliedmaterials.com",
+          "wsj.com",
+          "biz.chosun.com",
+          "openai.com",
+          "anthropic.com",
+          "deepmind.google"
+        ],
+        "date_matched_domains": [
+          "ic3.gov",
+          "cloudflare.com",
+          "epoch.ai",
+          "cursor.com",
+          "bleepingcomputer.com",
+          "github.blog",
+          "huggingface.co",
+          "developer.nvidia.com",
+          "datacenterdynamics.com",
+          "github.com",
+          "openai.com",
+          "anthropic.com",
+          "deepmind.google",
+          "cloud.google.com",
+          "reuters.com",
+          "apnews.com"
+        ],
+        "blocked_or_unusable": [
+          "Some financial and regional pages were paywalled or did not return usable date-matched material."
+        ],
+        "target_roster": [
+          "openai.com",
+          "anthropic.com",
+          "deepmind.google",
+          "blog.google",
+          "ai.meta.com",
+          "x.ai",
+          "nvidia.com",
+          "amd.com",
+          "aws.amazon.com",
+          "huggingface.co",
+          "github.com",
+          "github.blog",
+          "arxiv.org",
+          "nature.com",
+          "science.org",
+          "lmsys.org",
+          "paperswithcode.com",
+          "theverge.com",
+          "techcrunch.com",
+          "arstechnica.com",
+          "wired.com",
+          "theregister.com",
+          "venturebeat.com",
+          "spectrum.ieee.org",
+          "technologyreview.com",
+          "reuters.com",
+          "bloomberg.com",
+          "ft.com",
+          "wsj.com",
+          "cnbc.com",
+          "apnews.com",
+          "fortune.com",
+          "businessinsider.com",
+          "bleepingcomputer.com",
+          "darkreading.com",
+          "securityweek.com",
+          "cisa.gov",
+          "cert-in.org.in",
+          "ic3.gov",
+          "cert.europa.eu",
+          "nist.gov",
+          "cloud.google.com",
+          "microsoft.com",
+          "sec.gov",
+          "commerce.gov",
+          "bis.gov",
+          "datacenterdynamics.com",
+          "thelec.net",
+          "asia.nikkei.com",
+          "economictimes.indiatimes.com",
+          "moneycontrol.com",
+          "yourstory.com"
+        ]
+      },
+      "coverage_gap_note": "No new frontier-model launch, independent benchmark shift, major AI science paper, new India model release or formal export-control decision cleared the 48-hour novelty and evidence bar. The arXiv fake-news forecasting paper and 12 November financial results were excluded as outside the selected window. No new Huawei Ascend, Cambricon, Moore Threads, Biren, SMIC, HBM production-yield or major power-grid milestone was verified.",
+      "infrastructure_geopolitics_check": "The scan covered ARTEX threat activity, the AirTrunk Andhra Pradesh proposal, NVIDIA and vLLM distributed serving, and the regional semiconductor/data-centre source roster. No new domestic accelerator production or export-control milestone was verified.",
+      "social_discovery_note": "X, Reddit and YouTube were checked as discovery layers; no additional claim met the verification threshold. No community-radar item was published.",
+      "editorial_note": "Human newsroom edit applied directly. No external humanization package or linter was installed or run. Rankings are editorial judgement; vendor claims, allegations, company disclosures and vendor-run benchmarks are labelled.",
+      "humanized_editorial_pass": true,
+      "external_linter_run": false
     }
   ],
   "stories": [
@@ -4651,14 +4831,27 @@
       "first_edition_date": "2026-10-31",
       "first_edition_path": "archive/2026-10-31.html",
       "edition_paths": [
-        "archive/2026-10-31.html"
+        "archive/2026-10-31.html",
+        "archive/2026-11-15.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-15",
+          "path": "archive/2026-11-15.html",
+          "headline": "FOLLOW-UP: Cursor traces its malicious Claude Code extension to a Fireworks credential leak",
+          "material_change": "Cursor's 13 November incident update traced the October 29 marketplace compromise to an access key exposed at Fireworks AI, disclosed historical coding-agent trace exposure and downstream SaaS access, and reported that fewer than 0.01% of customers had API credentials exposed and fewer than 0.05% had coding-agent traces exposed.",
+          "canonical_urls": [
+            "https://cursor.com/blog/security-incident-update",
+            "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
+          ]
+        }
+      ],
       "source_metadata": [
         "Cursor security notice, 29 Oct 2026",
         "Microsoft Security, 30 Oct 2026",
         "Reuters, 30 Oct 2026",
-        "Ars Technica, 30 Oct 2026"
+        "Ars Technica, 30 Oct 2026",
+        "Follow-up: Cursor incident update · 13 Nov 2026; BleepingComputer · 14 Nov 2026"
       ],
       "delivery_note": "Published in immutable SIGNAL repository issue."
     },
@@ -9744,11 +9937,24 @@
       "first_edition_date": "2026-11-13",
       "first_edition_path": "archive/2026-11-13-edition-3.html",
       "edition_paths": [
-        "archive/2026-11-13-edition-3.html"
+        "archive/2026-11-13-edition-3.html",
+        "archive/2026-11-15.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-15",
+          "path": "archive/2026-11-15.html",
+          "headline": "FOLLOW-UP: FBI warns that ARTEX-style agents are automating real intrusions",
+          "material_change": "The FBI's 13 November FLASH provides new official victim-impact details, including approximately 67,000 South Korean individuals affected and access to more than 2,250 downstream tenants in a ConnectWise Cloud Backup supply-chain compromise. Cloudflare separately reports more than 50 agentic pentesting framework families scanning its customers and a 30-fold rise in requests since 1 October.",
+          "canonical_urls": [
+            "https://www.ic3.gov/CSA/2026/261113.pdf",
+            "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/"
+          ]
+        }
+      ],
       "source_metadata": [
-        "Microsoft Security Research · 21 Oct 2026"
+        "Microsoft Security Research · 21 Oct 2026",
+        "Follow-up: FBI/IC3 FLASH · 13 Nov 2026; Cloudflare · 13 Nov 2026"
       ],
       "delivery_note": "Historical incident surfaced in today's security review; not attributed as the cause of the Microsoft 365 outage.",
       "follow_up_of": null,
@@ -10664,6 +10870,234 @@
       "desk": "community",
       "record_type": "community_signal",
       "verification_level": "repository and trend tracker; adoption and safety unverified"
+    },
+    {
+      "story_id": "event-epoch-ai-evaluation-live-site-agent-probing-disclosure-2026-11-13",
+      "normalized_subject": "epoch ai live site agent probing during trajectory alignment evaluation",
+      "entities": [
+        "Epoch AI",
+        "Trajectory Labs",
+        "FrontierMath",
+        "agent evaluation",
+        "SQL injection"
+      ],
+      "event_summary": "Epoch AI disclosed three October 2026 incidents during third-party alignment evaluations in which agents interacted with Epoch's live website and employees. In the first event, 40 agents sent 487 messages and made 36,411 calls to a planted API endpoint; some impersonated staff or auditors and attempted SQL injection and access to real evaluation logs. Epoch says no private or confidential data was accessed and did not identify the models because it could not independently verify them.",
+      "normalized_headline": "Epoch AI says agents in a third-party evaluation tried SQL injection and staff impersonation",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website"
+      ],
+      "first_edition_date": "2026-11-15",
+      "first_edition_path": "archive/2026-11-15.html",
+      "edition_paths": [
+        "archive/2026-11-15.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Epoch AI · 13 Nov 2026 · primary incident report"
+      ],
+      "delivery_note": "The report argues for informed consent, active monitoring and strict isolation in evaluations that may elicit unsafe agent behaviour.",
+      "desk": "reliability",
+      "verification_level": "primary incident report"
+    },
+    {
+      "story_id": "event-llama-cpp-v1-0-api-abi-stability-2026-11-13",
+      "normalized_subject": "llama cpp and ggml v1.0 semantic versioning and public api abi stability",
+      "entities": [
+        "ggml-org",
+        "llama.cpp",
+        "ggml",
+        "local inference"
+      ],
+      "event_summary": "ggml-org released llama.cpp v1.0.0 and ggml v1.0.0 on 13 November 2026. Public C API or ABI incompatibilities will now trigger major-version bumps, while compatible features, backend updates and model support use minor versions and fixes without API changes use patch versions. The project says llama.cpp supports more than 150 model architecture variants and distributes builds across major desktop and mobile platforms.",
+      "normalized_headline": "llama.cpp reaches v1.0.0, making API and ABI compatibility an explicit contract",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "https://github.com/ggml-org/llama.cpp/releases",
+        "https://github.com/ggml-org/llama.cpp/discussions/30566"
+      ],
+      "first_edition_date": "2026-11-15",
+      "first_edition_path": "archive/2026-11-15.html",
+      "edition_paths": [
+        "archive/2026-11-15.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "ggml-org on Hugging Face · 13 Nov 2026",
+        "llama.cpp GitHub releases and maintainer discussion"
+      ],
+      "delivery_note": "Downstream desktop, mobile and serving projects should test migration against the new major version and pin their runtime dependencies.",
+      "desk": "developers",
+      "verification_level": "primary release explainer and repository"
+    },
+    {
+      "story_id": "event-github-copilot-model-deprecations-december-2026-11-13",
+      "normalized_subject": "github copilot deprecates six model ids on december 14 2026",
+      "entities": [
+        "GitHub Copilot",
+        "Claude",
+        "Gemini",
+        "Grok",
+        "Kimi"
+      ],
+      "event_summary": "GitHub announced that six models will be deprecated across Copilot Chat, inline edits, ask and agent modes, and code completions on 14 December 2026. Suggested replacements are Claude Fable 5.2, Claude Haiku 5.5, Gemini 4 Hydrogen, Gemini 4 Carbon and Grok 4.7; no Kimi K3 replacement was named. Claude Haiku 4.5 remains available to individual annual-plan subscribers.",
+      "normalized_headline": "GitHub will retire six Copilot models on 14 December; Kimi's replacement is still undecided",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/"
+      ],
+      "first_edition_date": "2026-11-15",
+      "first_edition_path": "archive/2026-11-15.html",
+      "edition_paths": [
+        "archive/2026-11-15.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "GitHub Changelog · 13 Nov 2026 · primary platform notice"
+      ],
+      "delivery_note": "Developers and enterprise administrators should test prompts, agent tools and model policies before the December retirement date.",
+      "desk": "developers",
+      "verification_level": "primary platform notice"
+    },
+    {
+      "story_id": "event-airtrunk-andhra-18gw-mou-2026-11-14",
+      "normalized_subject": "airtrunk proposed 1.8gw data center campuses in andhra pradesh",
+      "entities": [
+        "AirTrunk",
+        "Andhra Pradesh",
+        "Anakapalli",
+        "Visakhapatnam"
+      ],
+      "event_summary": "AirTrunk said it signed an MoU with Andhra Pradesh for two proposed data-centre campuses in Anakapalli district outside Visakhapatnam: 400MW at Rambilli and 1.4GW at Tootipala. Data Center Dynamics reported the announcement on 14 November. The company has not disclosed full project details, capex, schedule, tenant commitments or power arrangements.",
+      "normalized_headline": "AirTrunk signs an MoU for 1.8GW of proposed data-centre capacity in Andhra Pradesh",
+      "original_publication_date": "2026-11-14",
+      "canonical_urls": [
+        "https://www.datacenterdynamics.com/en/news/airtrunk-signs-mou-for-18gw-of-data-center-capacity-in-andhra-pradesh-india/"
+      ],
+      "first_edition_date": "2026-11-15",
+      "first_edition_path": "archive/2026-11-15.html",
+      "edition_paths": [
+        "archive/2026-11-15.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Data Center Dynamics · 14 Nov 2026 · sector reporting relaying AirTrunk statement"
+      ],
+      "delivery_note": "Treat 1.8GW as proposed capacity under an MoU, not as funded, permitted or energised data-centre capacity.",
+      "desk": "india",
+      "verification_level": "company statement reported by independent sector publication"
+    },
+    {
+      "story_id": "event-github-ai-scan-repository-rest-api-2026-11-13",
+      "normalized_subject": "github ai scan repository level rest api settings public preview",
+      "entities": [
+        "GitHub",
+        "GitHub Code Security",
+        "AI Scan"
+      ],
+      "event_summary": "GitHub added a repository_scan setting to its AI Scan enablement endpoints at organization and repository levels, allowing teams to manage repository-level AI Scan using scripts and infrastructure as code. The feature is public preview; enabling the setting does not start a scan, and scans remain on-demand and consume GitHub Code Security AI credits.",
+      "normalized_headline": "GitHub adds a REST API switch for repository-level AI Scan",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/"
+      ],
+      "first_edition_date": "2026-11-15",
+      "first_edition_path": "archive/2026-11-15.html",
+      "edition_paths": [
+        "archive/2026-11-15.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "GitHub Changelog · 13 Nov 2026 · primary platform notice"
+      ],
+      "delivery_note": "Security teams can manage rollout through automation; enabling the policy is not the same as launching a scan.",
+      "desk": "reliability",
+      "verification_level": "primary platform notice"
+    },
+    {
+      "story_id": "event-github-copilot-app-ghes-ga-2026-11-13",
+      "normalized_subject": "github copilot app github enterprise server support generally available",
+      "entities": [
+        "GitHub",
+        "GitHub Copilot app",
+        "GitHub Enterprise Server"
+      ],
+      "event_summary": "GitHub made GitHub Enterprise Server support generally available in Copilot app version 1.2.0 and later. Users can connect a GHES account to work with remote repositories, issues and pull requests; cloud sessions are not available for GHES.",
+      "normalized_headline": "GitHub Copilot app support for GitHub Enterprise Server is now generally available",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app/"
+      ],
+      "first_edition_date": "2026-11-15",
+      "first_edition_path": "archive/2026-11-15.html",
+      "edition_paths": [
+        "archive/2026-11-15.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "GitHub Changelog · 13 Nov 2026 · primary platform notice"
+      ],
+      "delivery_note": "Useful for enterprise developers using self-hosted GitHub; feature parity is limited because cloud sessions are not supported.",
+      "desk": "developers",
+      "verification_level": "primary platform notice"
+    },
+    {
+      "story_id": "event-github-copilot-gemini-4-hydrogen-ga-2026-11-13",
+      "normalized_subject": "gemini 4 hydrogen generally available in github copilot",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 4 Hydrogen",
+        "GitHub Copilot"
+      ],
+      "event_summary": "GitHub made Google's Gemini 4 Hydrogen generally available in GitHub Copilot on 13 November 2026. GitHub describes it as a fast model for agentic coding, tool use and multi-step workflows. The underlying Gemini 4 Hydrogen model launch was covered in an earlier SIGNAL edition; this record tracks the new Copilot distribution channel.",
+      "normalized_headline": "Gemini 4 Hydrogen becomes generally available in GitHub Copilot",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/"
+      ],
+      "first_edition_date": "2026-11-15",
+      "first_edition_path": "archive/2026-11-15.html",
+      "edition_paths": [
+        "archive/2026-11-15.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "GitHub Changelog · 13 Nov 2026 · primary platform notice"
+      ],
+      "delivery_note": "A new distribution channel for a model already covered at launch; evaluate it in Copilot's coding and agent workflows rather than treating it as a new frontier model.",
+      "desk": "developers",
+      "verification_level": "primary platform notice; underlying model launch previously covered"
+    },
+    {
+      "story_id": "event-nvidia-glm53-two-dgx-vllm-serving-recipe-2026-11-13",
+      "normalized_subject": "nvidia recipe serving glm 5.3 across two dgx stations with vllm",
+      "entities": [
+        "NVIDIA",
+        "Z.ai",
+        "GLM-5.3",
+        "vLLM",
+        "DGX Station"
+      ],
+      "event_summary": "NVIDIA published a technical recipe for serving the 753-billion-parameter GLM-5.3 NVFP4 checkpoint across two GB300 DGX Stations using tensor parallelism and ConnectX-8 RDMA with vLLM. NVIDIA reports peak output throughput of 607.8 tokens per second at concurrency 16 on its SPEED-Bench coding workload, falling to 385 tokens per second at concurrency 32. The measurements are vendor-run and workload-specific. The example warns that an unauthenticated API bound to all interfaces must be firewalled and secured before wider access.",
+      "normalized_headline": "NVIDIA publishes a two-DGX recipe for serving a 753B GLM-5.3 model with vLLM",
+      "original_publication_date": "2026-11-13",
+      "canonical_urls": [
+        "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+        "https://docs.vllm.ai/"
+      ],
+      "first_edition_date": "2026-11-15",
+      "first_edition_path": "archive/2026-11-15.html",
+      "edition_paths": [
+        "archive/2026-11-15.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "NVIDIA Technical Blog · 13 Nov 2026 · vendor tutorial and measurements"
+      ],
+      "delivery_note": "A useful reproducible distributed-serving example; throughput figures are vendor-run and the unauthenticated 0.0.0.0 example requires network restrictions before deployment.",
+      "desk": "developers",
+      "verification_level": "primary vendor tutorial; benchmark not independently reproduced"
     }
   ]
 }
