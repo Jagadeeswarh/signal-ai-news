@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-16T08:04:46+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.",
+  "last_updated_at": "2026-11-16T08:12:00+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -3642,7 +3642,198 @@
       "social_discovery_note": "X, Reddit, YouTube, GitHub, Hugging Face and Product Hunt were targeted for discovery. No separate Community Radar item cleared verification. OpenAI staff statements were used as context through reporting; StationeryBench was inspected as a small task-suite repository but no model leaderboard was promoted.",
       "editorial_note": "Clean structural rebuild; not copied or grafted from a prior issue. All three Main Desk articles have story-specific Impact Radius panels. No old checkbox/review workflow. No external linter claimed.",
       "humanized_editorial_pass": true,
-      "external_linter_run": false
+      "external_linter_run": false,
+      "status": "superseded_by_correction",
+      "superseded_by": "archive/2026-11-16-edition-2.html",
+      "revision_note": "Edition 2 corrects the Pax Silica signing date to 16 November; the original immutable edition remains preserved."
+    },
+    {
+      "date": "2026-11-16",
+      "path": "archive/2026-11-16-edition-2.html",
+      "kind": "full-spectrum AI intelligence edition 2 (date correction; no story changes)",
+      "story_ids": [
+        "event-pax-silica-san-francisco-declaration-ai-supply-chain-2026-11-15",
+        "event-sk-hynix-supplier-support-trinity-fab-2026-11-16",
+        "event-openai-robotics-reorganisation-clarification-2026-11-13",
+        "event-sebi-ai-capital-markets-guidelines-2026-11-16",
+        "event-australia-ai-copyright-debate-creators-energy-2026-11-15",
+        "event-anthropic-claude-ios-signin-purchase-incidents-2026-11-14"
+      ],
+      "story_count": 6,
+      "new_story_count": 0,
+      "verified_story_count": 6,
+      "unique_new_verified_story_count": 0,
+      "material_follow_up_count": 0,
+      "main_desk_count": 3,
+      "more_signals_count": 3,
+      "community_pulse_count": 0,
+      "main_desk_story_ids": [
+        "event-pax-silica-san-francisco-declaration-ai-supply-chain-2026-11-15",
+        "event-sk-hynix-supplier-support-trinity-fab-2026-11-16",
+        "event-openai-robotics-reorganisation-clarification-2026-11-13"
+      ],
+      "more_signals_story_ids": [
+        "event-sebi-ai-capital-markets-guidelines-2026-11-16",
+        "event-australia-ai-copyright-debate-creators-energy-2026-11-15",
+        "event-anthropic-claude-ios-signin-purchase-incidents-2026-11-14"
+      ],
+      "community_story_ids": [],
+      "research_window": "2026-11-14 to 2026-11-16 Asia/Kolkata",
+      "source_domains_targeted": 60,
+      "source_domains_opened_and_inspected": 19,
+      "source_domains_materially_read": 16,
+      "source_domains_partial_or_limited": 3,
+      "source_domains_blocked": 1,
+      "archive_issue_files_checked": 37,
+      "archive_pages_unavailable": [],
+      "duplicate_candidates_excluded": 4,
+      "excluded_repeat_candidates": [
+        "LangChain US$300m Series C — already covered in archive/2026-11-14.html",
+        "DeepSeek full app/API expansion — already covered in archive/2026-11-15-edition-2.html",
+        "Gemini 4 Hydrogen availability in Copilot — already covered in archive/2026-11-15-edition-2.html",
+        "ChatGPT Wallet — already covered in archive/2026-11-14.html"
+      ],
+      "stale_candidates_excluded": 1,
+      "excluded_stale_candidates": [
+        "OpenAI Images 2.6 — official release dated 4 November, outside the research window."
+      ],
+      "out_of_window_candidates_excluded": [
+        "Q-CTRL US$290m Series C and Mirendil funding reports dated 12 November were not promoted as fresh 14–16 November developments."
+      ],
+      "source_classes_inspected": {
+        "company_and_platform_release_or_status_pages": 6,
+        "government_and_regulator_material": 1,
+        "major_newswire_and_regional_reporting": 8,
+        "research_and_code_repositories": 2,
+        "social_and_builder_platforms_targeted_without_a_qualifying_radar_item": 5,
+        "security_and_infrastructure_specialist_domains_targeted": 12
+      },
+      "source_domain_audit": {
+        "directly_opened_domains": [
+          "ft.com",
+          "reuters.com",
+          "fortune.com",
+          "timesofindia.indiatimes.com",
+          "sebi.gov.in",
+          "theguardian.com",
+          "the-decoder.com",
+          "openai.com",
+          "help.openai.com",
+          "economictimes.indiatimes.com",
+          "koreajoongangdaily.com",
+          "cna.com.tw",
+          "research.nvidia.com",
+          "github.com",
+          "status.openai.com",
+          "status.claude.com",
+          "githubstatus.com",
+          "status.cloud.google.com",
+          "status.cloud.microsoft"
+        ],
+        "materially_read_domains": [
+          "reuters.com",
+          "fortune.com",
+          "timesofindia.indiatimes.com",
+          "theguardian.com",
+          "the-decoder.com",
+          "openai.com",
+          "help.openai.com",
+          "economictimes.indiatimes.com",
+          "koreajoongangdaily.com",
+          "cna.com.tw",
+          "research.nvidia.com",
+          "github.com",
+          "status.openai.com",
+          "status.claude.com",
+          "githubstatus.com",
+          "status.cloud.google.com"
+        ],
+        "partial_or_limited_domains": [
+          "ft.com — article opened but paywalled",
+          "sebi.gov.in — speech listing and PDF wrapper opened; speech text not extracted",
+          "status.cloud.microsoft — JavaScript-only shell"
+        ],
+        "blocked_domains": [
+          "state.gov — primary Pax Silica page returned HTTP 403"
+        ],
+        "target_roster": [
+          "openai.com",
+          "anthropic.com",
+          "deepmind.google",
+          "blog.google",
+          "ai.google.dev",
+          "ai.meta.com",
+          "x.ai",
+          "microsoft.com",
+          "blogs.microsoft.com",
+          "aws.amazon.com",
+          "developer.nvidia.com",
+          "amd.com",
+          "mistral.ai",
+          "deepseek.com",
+          "alibabacloud.com",
+          "qwenlm.github.io",
+          "zhipuai.cn",
+          "moonshot.ai",
+          "minimax.io",
+          "github.blog",
+          "github.com",
+          "huggingface.co",
+          "arxiv.org",
+          "paperswithcode.com",
+          "producthunt.com",
+          "reddit.com",
+          "x.com",
+          "youtube.com",
+          "cursor.com",
+          "langchain.com",
+          "cisa.gov",
+          "cert-in.org.in",
+          "cloudflare.com",
+          "security.googleblog.com",
+          "therecord.media",
+          "bleepingcomputer.com",
+          "darkreading.com",
+          "hackerone.com",
+          "snyk.io",
+          "apnews.com",
+          "reuters.com",
+          "ft.com",
+          "bloomberg.com",
+          "datacenterdynamics.com",
+          "semianalysis.com",
+          "trendforce.com",
+          "news.skhynix.com",
+          "news.samsung.com",
+          "tsmc.com",
+          "eia.gov",
+          "economictimes.indiatimes.com",
+          "moneycontrol.com",
+          "business-standard.com",
+          "timesofindia.indiatimes.com",
+          "livemint.com",
+          "restofworld.org",
+          "nikkei.com",
+          "scmp.com",
+          "thehindu.com",
+          "abc.net.au"
+        ]
+      },
+      "coverage_gap_note": "The primary State Department declaration text was inaccessible (403); FT was paywalled; SEBI speech text was not extracted; Microsoft status page was JavaScript-only. X staff posts were not directly opened. No date-matched model release, general-purpose benchmark shift, new developer/API/MCP release, creator/multimodal launch, AI-specific exploit or vulnerability, new Huawei Ascend/SMIC/HBM export-control decision, or data-centre power deployment was verified.",
+      "infrastructure_geopolitics_check": "Pax Silica San Francisco Declaration and SK hynix supplier support verified. No specific new Huawei Ascend shipment, SMIC process milestone, HBM allocation or Nvidia availability/export-control change verified.",
+      "security_reliability_check": "No new AI-specific attack or vulnerability verified. Anthropic status page recorded 14 November purchasing and Apple sign-in incidents; OpenAI, GitHub and Google Cloud status pages showed no broad current incident. Microsoft status page could not be read.",
+      "energy_datacentre_check": "No new date-matched AI data-centre power contract, grid connection or deployed-capacity milestone verified.",
+      "india_asia_check": "India's signature on the San Francisco Declaration, SEBI's planned market-AI guidelines and SK hynix's Korean supplier programme verified; no new India-specific foundation-model launch verified.",
+      "social_discovery_note": "X, Reddit, YouTube, GitHub, Hugging Face and Product Hunt were targeted for discovery. No separate Community Radar item cleared verification. OpenAI staff statements were used as context through reporting; StationeryBench was inspected as a small task-suite repository but no model leaderboard was promoted.",
+      "editorial_note": "Clean structural rebuild; not copied or grafted from a prior issue. All three Main Desk articles have story-specific Impact Radius panels. No old checkbox/review workflow. No external linter claimed.",
+      "humanized_editorial_pass": true,
+      "external_linter_run": false,
+      "status": "current_corrected_edition",
+      "superseded_by": "archive/2026-11-16-edition-2.html",
+      "revision_note": "Edition 2 corrects the Pax Silica signing date to 16 November; the original immutable edition remains preserved.",
+      "revision_of": "archive/2026-11-16.html",
+      "correction_count": 1,
+      "correction_summary": "Corrects the Pax Silica signing/publication date from 15 November to 16 November; all six stories and all other content remain unchanged."
     }
   ],
   "stories": [
@@ -12035,19 +12226,27 @@
         "https://www.cna.com.tw/news/aopl/202611160011.aspx",
         "https://m.economictimes.com/news/india/india-joins-us-led-pact-to-secure-ai-supply-chains-critical-technologies-amid-china-rivalry-report/articleshow/135869598.cms"
       ],
-      "original_publication_date": "2026-11-15",
+      "original_publication_date": "2026-11-16",
       "first_edition_date": "2026-11-16",
       "first_edition_path": "archive/2026-11-16.html",
       "edition_paths": [
+        "archive/2026-11-16-edition-2.html",
         "archive/2026-11-16.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
-        "Financial Times · report · 15 Nov 2026 · paywall",
+        "Financial Times · report · 16 Nov 2026 · paywall",
         "CNA / Focus Taiwan · 16 Nov 2026",
         "Economic Times / ANI · 16 Nov 2026"
       ],
-      "delivery_note": "New San Francisco Declaration under Pax Silica; not a new export-control rule. State Department primary page returned HTTP 403, so legal text and implementation detail remain unverified."
+      "delivery_note": "New San Francisco Declaration under Pax Silica; not a new export-control rule. State Department primary page returned HTTP 403, so legal text and implementation detail remain unverified.",
+      "correction_editions": [
+        {
+          "date": "2026-11-16",
+          "path": "archive/2026-11-16-edition-2.html",
+          "correction": "Corrected the signing/publication date from 15 November to 16 November after verifying the Monday dateline and same-day CNA and Economic Times coverage. No new event or material follow-up."
+        }
+      ]
     },
     {
       "story_id": "event-sk-hynix-supplier-support-trinity-fab-2026-11-16",
