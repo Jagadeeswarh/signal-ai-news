@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-15T08:58:49.138Z",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.",
+  "last_updated_at": "2026-11-16T08:04:46+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -3404,6 +3404,243 @@
       "infrastructure_geopolitics_check": "AirTrunk's Andhra Pradesh 1.8GW MoU is explicitly proposed capacity. NVIDIA's distributed serving and Jetson DLA tutorials are technical releases; no additional financing or formal export-control decision was verified.",
       "social_discovery_note": "Reddit, GitHub Explore and Hugging Face community sources were checked. Community opinion and trending repositories are separated from verified developments. X discovery results that could not be opened were not used as confirmation. A stale LFM2.5-230M launch claim was checked against Liquid AI's June 25 release date and excluded.",
       "editorial_note": "New information architecture built from a clean page rather than the prior issue HTML. Every Main Desk report has a specific Impact Radius panel. Community attention is not treated as evidence of adoption. Netlify deployment is not asserted.",
+      "humanized_editorial_pass": true,
+      "external_linter_run": false
+    },
+    {
+      "date": "2026-11-10",
+      "path": "archive/2026-11-10.html",
+      "kind": "original dated issue (preserved; superseded by corrected edition 2)",
+      "story_ids": [
+        "event-google-tpu-8tx-8i-max-2026-11-09",
+        "event-australia-ai-safety-regulator-mandatory-reporting-2026-11-10",
+        "event-norway-statnett-data-centre-grid-pause-licensing-2026-11-09",
+        "event-anthropic-claude-fable-mythos-5-2-2026-11-09",
+        "event-softbank-grab-petros-malaysia-ai-infrastructure-2026-11-09",
+        "event-nvidia-rebellions-skt-r200-nvlink-fusion-2026-11-09",
+        "event-paris-call-ai-safety-security-joint-declaration-2026-11-09",
+        "event-disney-adobe-firefly-foundry-custom-models-2026-11-09",
+        "event-envision-galaxy-800v-dc-ai-campus-2026-11-02",
+        "event-india-domestic-ai-models-critical-sectors-policy-report-2026-11-09",
+        "event-european-data-centre-protests-amsterdam-microsoft-site-2026-11-06",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+        "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08",
+        "event-noitom-hiphi-hand-physical-ai-dataset-2026-11-09"
+      ],
+      "story_count": 14,
+      "new_story_count": 11,
+      "verified_story_count": 14,
+      "unique_new_verified_story_count": 11,
+      "material_follow_up_count": 3,
+      "main_desk_count": 8,
+      "more_signals_count": 6,
+      "community_pulse_count": 0,
+      "main_desk_story_ids": [
+        "event-google-tpu-8tx-8i-max-2026-11-09",
+        "event-australia-ai-safety-regulator-mandatory-reporting-2026-11-10",
+        "event-norway-statnett-data-centre-grid-pause-licensing-2026-11-09",
+        "event-anthropic-claude-fable-mythos-5-2-2026-11-09",
+        "event-softbank-grab-petros-malaysia-ai-infrastructure-2026-11-09",
+        "event-nvidia-rebellions-skt-r200-nvlink-fusion-2026-11-09",
+        "event-paris-call-ai-safety-security-joint-declaration-2026-11-09",
+        "event-disney-adobe-firefly-foundry-custom-models-2026-11-09"
+      ],
+      "more_signals_story_ids": [
+        "event-envision-galaxy-800v-dc-ai-campus-2026-11-02",
+        "event-india-domestic-ai-models-critical-sectors-policy-report-2026-11-09",
+        "event-european-data-centre-protests-amsterdam-microsoft-site-2026-11-06",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+        "event-nvidia-board-investigation-foreign-intelligence-targeting-2026-11-08",
+        "event-noitom-hiphi-hand-physical-ai-dataset-2026-11-09"
+      ],
+      "community_story_ids": [],
+      "research_window": "2026-11-08 to 2026-11-10 Asia/Kolkata",
+      "source_domains_targeted": 87,
+      "source_domains_opened_and_inspected": 23,
+      "duplicate_candidates_excluded": 9,
+      "archive_issue_files_checked": 24,
+      "archive_pages_unavailable": [],
+      "archive_backfill_note": "Backfilled from the preserved original HTML after the registry audit found its edition-level record missing. The original issue contains eight Main Desk reports, six More Signals, eleven new event records and three material follow-ups. All 14 story records already existed; paths and follow-up details were linked without deleting prior records."
+    },
+    {
+      "date": "2026-11-16",
+      "path": "archive/2026-11-16.html",
+      "kind": "full-spectrum AI intelligence edition 1 (clean structural rebuild)",
+      "story_ids": [
+        "event-pax-silica-san-francisco-declaration-ai-supply-chain-2026-11-15",
+        "event-sk-hynix-supplier-support-trinity-fab-2026-11-16",
+        "event-openai-robotics-reorganisation-clarification-2026-11-13",
+        "event-sebi-ai-capital-markets-guidelines-2026-11-16",
+        "event-australia-ai-copyright-debate-creators-energy-2026-11-15",
+        "event-anthropic-claude-ios-signin-purchase-incidents-2026-11-14"
+      ],
+      "story_count": 6,
+      "new_story_count": 6,
+      "verified_story_count": 6,
+      "unique_new_verified_story_count": 6,
+      "material_follow_up_count": 0,
+      "main_desk_count": 3,
+      "more_signals_count": 3,
+      "community_pulse_count": 0,
+      "main_desk_story_ids": [
+        "event-pax-silica-san-francisco-declaration-ai-supply-chain-2026-11-15",
+        "event-sk-hynix-supplier-support-trinity-fab-2026-11-16",
+        "event-openai-robotics-reorganisation-clarification-2026-11-13"
+      ],
+      "more_signals_story_ids": [
+        "event-sebi-ai-capital-markets-guidelines-2026-11-16",
+        "event-australia-ai-copyright-debate-creators-energy-2026-11-15",
+        "event-anthropic-claude-ios-signin-purchase-incidents-2026-11-14"
+      ],
+      "community_story_ids": [],
+      "research_window": "2026-11-14 to 2026-11-16 Asia/Kolkata",
+      "source_domains_targeted": 60,
+      "source_domains_opened_and_inspected": 19,
+      "source_domains_materially_read": 16,
+      "source_domains_partial_or_limited": 3,
+      "source_domains_blocked": 1,
+      "archive_issue_files_checked": 37,
+      "archive_pages_unavailable": [],
+      "duplicate_candidates_excluded": 4,
+      "excluded_repeat_candidates": [
+        "LangChain US$300m Series C — already covered in archive/2026-11-14.html",
+        "DeepSeek full app/API expansion — already covered in archive/2026-11-15-edition-2.html",
+        "Gemini 4 Hydrogen availability in Copilot — already covered in archive/2026-11-15-edition-2.html",
+        "ChatGPT Wallet — already covered in archive/2026-11-14.html"
+      ],
+      "stale_candidates_excluded": 1,
+      "excluded_stale_candidates": [
+        "OpenAI Images 2.6 — official release dated 4 November, outside the research window."
+      ],
+      "out_of_window_candidates_excluded": [
+        "Q-CTRL US$290m Series C and Mirendil funding reports dated 12 November were not promoted as fresh 14–16 November developments."
+      ],
+      "source_classes_inspected": {
+        "company_and_platform_release_or_status_pages": 6,
+        "government_and_regulator_material": 1,
+        "major_newswire_and_regional_reporting": 8,
+        "research_and_code_repositories": 2,
+        "social_and_builder_platforms_targeted_without_a_qualifying_radar_item": 5,
+        "security_and_infrastructure_specialist_domains_targeted": 12
+      },
+      "source_domain_audit": {
+        "directly_opened_domains": [
+          "ft.com",
+          "reuters.com",
+          "fortune.com",
+          "timesofindia.indiatimes.com",
+          "sebi.gov.in",
+          "theguardian.com",
+          "the-decoder.com",
+          "openai.com",
+          "help.openai.com",
+          "economictimes.indiatimes.com",
+          "koreajoongangdaily.com",
+          "cna.com.tw",
+          "research.nvidia.com",
+          "github.com",
+          "status.openai.com",
+          "status.claude.com",
+          "githubstatus.com",
+          "status.cloud.google.com",
+          "status.cloud.microsoft"
+        ],
+        "materially_read_domains": [
+          "reuters.com",
+          "fortune.com",
+          "timesofindia.indiatimes.com",
+          "theguardian.com",
+          "the-decoder.com",
+          "openai.com",
+          "help.openai.com",
+          "economictimes.indiatimes.com",
+          "koreajoongangdaily.com",
+          "cna.com.tw",
+          "research.nvidia.com",
+          "github.com",
+          "status.openai.com",
+          "status.claude.com",
+          "githubstatus.com",
+          "status.cloud.google.com"
+        ],
+        "partial_or_limited_domains": [
+          "ft.com — article opened but paywalled",
+          "sebi.gov.in — speech listing and PDF wrapper opened; speech text not extracted",
+          "status.cloud.microsoft — JavaScript-only shell"
+        ],
+        "blocked_domains": [
+          "state.gov — primary Pax Silica page returned HTTP 403"
+        ],
+        "target_roster": [
+          "openai.com",
+          "anthropic.com",
+          "deepmind.google",
+          "blog.google",
+          "ai.google.dev",
+          "ai.meta.com",
+          "x.ai",
+          "microsoft.com",
+          "blogs.microsoft.com",
+          "aws.amazon.com",
+          "developer.nvidia.com",
+          "amd.com",
+          "mistral.ai",
+          "deepseek.com",
+          "alibabacloud.com",
+          "qwenlm.github.io",
+          "zhipuai.cn",
+          "moonshot.ai",
+          "minimax.io",
+          "github.blog",
+          "github.com",
+          "huggingface.co",
+          "arxiv.org",
+          "paperswithcode.com",
+          "producthunt.com",
+          "reddit.com",
+          "x.com",
+          "youtube.com",
+          "cursor.com",
+          "langchain.com",
+          "cisa.gov",
+          "cert-in.org.in",
+          "cloudflare.com",
+          "security.googleblog.com",
+          "therecord.media",
+          "bleepingcomputer.com",
+          "darkreading.com",
+          "hackerone.com",
+          "snyk.io",
+          "apnews.com",
+          "reuters.com",
+          "ft.com",
+          "bloomberg.com",
+          "datacenterdynamics.com",
+          "semianalysis.com",
+          "trendforce.com",
+          "news.skhynix.com",
+          "news.samsung.com",
+          "tsmc.com",
+          "eia.gov",
+          "economictimes.indiatimes.com",
+          "moneycontrol.com",
+          "business-standard.com",
+          "timesofindia.indiatimes.com",
+          "livemint.com",
+          "restofworld.org",
+          "nikkei.com",
+          "scmp.com",
+          "thehindu.com",
+          "abc.net.au"
+        ]
+      },
+      "coverage_gap_note": "The primary State Department declaration text was inaccessible (403); FT was paywalled; SEBI speech text was not extracted; Microsoft status page was JavaScript-only. X staff posts were not directly opened. No date-matched model release, general-purpose benchmark shift, new developer/API/MCP release, creator/multimodal launch, AI-specific exploit or vulnerability, new Huawei Ascend/SMIC/HBM export-control decision, or data-centre power deployment was verified.",
+      "infrastructure_geopolitics_check": "Pax Silica San Francisco Declaration and SK hynix supplier support verified. No specific new Huawei Ascend shipment, SMIC process milestone, HBM allocation or Nvidia availability/export-control change verified.",
+      "security_reliability_check": "No new AI-specific attack or vulnerability verified. Anthropic status page recorded 14 November purchasing and Apple sign-in incidents; OpenAI, GitHub and Google Cloud status pages showed no broad current incident. Microsoft status page could not be read.",
+      "energy_datacentre_check": "No new date-matched AI data-centre power contract, grid connection or deployed-capacity milestone verified.",
+      "india_asia_check": "India's signature on the San Francisco Declaration, SEBI's planned market-AI guidelines and SK hynix's Korean supplier programme verified; no new India-specific foundation-model launch verified.",
+      "social_discovery_note": "X, Reddit, YouTube, GitHub, Hugging Face and Product Hunt were targeted for discovery. No separate Community Radar item cleared verification. OpenAI staff statements were used as context through reporting; StationeryBench was inspected as a small task-suite repository but no model leaderboard was promoted.",
+      "editorial_note": "Clean structural rebuild; not copied or grafted from a prior issue. All three Main Desk articles have story-specific Impact Radius panels. No old checkbox/review workflow. No external linter claimed.",
       "humanized_editorial_pass": true,
       "external_linter_run": false
     }
@@ -7309,6 +7546,7 @@
       "first_edition_date": "2026-11-06",
       "first_edition_path": "archive/2026-11-06.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-06.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html",
@@ -7316,6 +7554,15 @@
         "archive/2026-11-13.html"
       ],
       "follow_up_editions": [
+        {
+          "date": "2026-11-10",
+          "path": "archive/2026-11-10.html",
+          "headline": "FOLLOW-UP: Anthropic retracts preliminary IPO pricing details sent to bankers",
+          "material_change": "Reuters reports that emails showed an initial 867-million-share, US$70–80 per-share range was circulated to bankers and then withdrawn as inaccurate. Anthropic said it would update the filing later and declined comment; no final IPO price or share count was established.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/"
+          ]
+        },
         {
           "date": "2026-11-10",
           "path": "archive/2026-11-10-edition-2.html",
@@ -7856,11 +8103,22 @@
       "first_edition_date": "2026-11-08",
       "first_edition_path": "archive/2026-11-08.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-08.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
       "follow_up_editions": [
+        {
+          "date": "2026-11-10",
+          "path": "archive/2026-11-10.html",
+          "headline": "FOLLOW-UP: Europe-wide data-centre protests reach 90 events across about 15 countries",
+          "material_change": "Le Monde's 9 November reporting adds the coalition's count of 90 actions in about 15 countries over 6–7 November, extending the earlier Amsterdam construction-site occupation to a broader coordinated wave. The 90-event figure is the organisers' count, not an independently audited tally.",
+          "canonical_urls": [
+            "https://www.lemonde.fr/en/economy/article/2026/11/09/protests-against-data-centers-held-across-europe_6775706_19.html",
+            "https://stopdirtydatacentres.eu/en/"
+          ]
+        },
         {
           "date": "2026-11-10",
           "path": "archive/2026-11-10-edition-2.html",
@@ -8005,6 +8263,7 @@
       "first_edition_date": "2026-11-09",
       "first_edition_path": "archive/2026-11-09.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-09.html",
         "archive/2026-11-09-edition-2.html",
         "archive/2026-11-10-edition-2.html",
@@ -8014,6 +8273,15 @@
         "archive/2026-11-12-edition-2.html"
       ],
       "follow_up_editions": [
+        {
+          "date": "2026-11-10",
+          "path": "archive/2026-11-10.html",
+          "headline": "FOLLOW-UP: FBI and congressional scrutiny widen Nvidia's CEO inquiry",
+          "material_change": "AP reports President Trump said the FBI is looking into the matter, congressional leaders requested a briefing, and Nvidia shares fell more than 4% on Monday and about 11% since the prior Wednesday. The foreign-intelligence allegation remains unproven.",
+          "canonical_urls": [
+            "https://apnews.com/article/3345b9f05c54d58909e88f6dcb9c1cd8"
+          ]
+        },
         {
           "date": "2026-11-10",
           "path": "archive/2026-11-10-edition-2.html",
@@ -8189,8 +8457,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8199,7 +8468,8 @@
         "Google Cloud Blog · Company announcement · 9 Nov 2026",
         "Reuters · Independent reporting · 9 Nov 2026"
       ],
-      "delivery_note": "Google's performance and adoption figures are company-reported; public pricing and a general availability date for 8tx and 8i Max were not disclosed."
+      "delivery_note": "Google's performance and adoption figures are company-reported; public pricing and a general availability date for 8tx and 8i Max were not disclosed.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-anthropic-claude-fable-mythos-5-2-2026-11-09",
@@ -8212,8 +8482,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html",
         "archive/2026-11-13-edition-3.html"
@@ -8226,7 +8497,8 @@
         "The Verge · Independent reporting · 9 Nov 2026"
       ],
       "delivery_note": "Pricing, speed and benchmark gains are company claims; independent evaluations are still needed.",
-      "material_change": "13 Nov 2026: BenchLeader's independent coding index snapshot ranks Fable 5.2 at 80.8, ahead of Opus 5.5 at 79.8, Gemini 4 Carbon at 74.1 and GPT-6 Astra at 73.3. This is a composite of 13 boards, not a single raw benchmark; this is a material independent evaluation follow-up, not a repeat of the launch."
+      "material_change": "13 Nov 2026: BenchLeader's independent coding index snapshot ranks Fable 5.2 at 80.8, ahead of Opus 5.5 at 79.8, Gemini 4 Carbon at 74.1 and GPT-6 Astra at 73.3. This is a composite of 13 boards, not a single raw benchmark; this is a material independent evaluation follow-up, not a repeat of the launch.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-australia-ai-safety-regulator-mandatory-reporting-2026-11-10",
@@ -8240,8 +8512,9 @@
       ],
       "original_publication_date": "2026-11-10",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8251,7 +8524,8 @@
         "Australian PM&C · Government recommendations · 10 Nov 2026",
         "The Guardian · Independent reporting · 10 Nov 2026"
       ],
-      "delivery_note": "The regulator has been announced, but detailed powers and the proposed legislation are pending. Some rapid-review recommendations are phrased as matters for government to consider."
+      "delivery_note": "The regulator has been announced, but detailed powers and the proposed legislation are pending. Some rapid-review recommendations are phrased as matters for government to consider.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-norway-statnett-data-centre-grid-pause-licensing-2026-11-09",
@@ -8264,8 +8538,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8274,7 +8549,8 @@
         "Statnett · Grid operator announcement · 9 Nov 2026",
         "Norwegian Government · Policy announcement · 9 Nov 2026"
       ],
-      "delivery_note": "The pause is temporary and is not a blanket ban; existing approved connections are unaffected."
+      "delivery_note": "The pause is temporary and is not a blanket ban; existing approved connections are unaffected.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-softbank-grab-petros-malaysia-ai-infrastructure-2026-11-09",
@@ -8286,8 +8562,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8295,7 +8572,8 @@
       "source_metadata": [
         "SoftBank Group · Company announcement · 9 Nov 2026"
       ],
-      "delivery_note": "The capital is staged and conditional; the 5GW figure is a long-term target, not commissioned capacity. Grab's own press page was not retrievable in this run."
+      "delivery_note": "The capital is staged and conditional; the 5GW figure is a long-term target, not commissioned capacity. Grab's own press page was not retrievable in this run.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-nvidia-rebellions-skt-r200-nvlink-fusion-2026-11-09",
@@ -8308,8 +8586,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8318,7 +8597,8 @@
         "NVIDIA Newsroom · Company announcement · 8 Nov 2026",
         "SK Telecom Newsroom · Company announcement · 9 Nov 2026"
       ],
-      "delivery_note": "This is an MOU and development plan, not a shipping product or independent benchmark. Nvidia says R200 systems are expected to be ready for deployment in 2028."
+      "delivery_note": "This is an MOU and development plan, not a shipping product or independent benchmark. Nvidia says R200 systems are expected to be ready for deployment in 2028.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-paris-call-ai-safety-security-joint-declaration-2026-11-09",
@@ -8330,8 +8610,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8339,7 +8620,8 @@
       "source_metadata": [
         "Prime Minister of Canada · Joint declaration · 9 Nov 2026"
       ],
-      "delivery_note": "The declaration is a cooperation commitment, not a binding treaty or directly enforceable law."
+      "delivery_note": "The declaration is a cooperation commitment, not a binding treaty or directly enforceable law.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-disney-adobe-firefly-foundry-custom-models-2026-11-09",
@@ -8351,8 +8633,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8360,7 +8643,8 @@
       "source_metadata": [
         "Adobe Newsroom · Company announcement · 9 Nov 2026"
       ],
-      "delivery_note": "The announcement does not disclose model size, training-data scope, licensing economics or independent quality evaluations."
+      "delivery_note": "The announcement does not disclose model size, training-data scope, licensing economics or independent quality evaluations.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-envision-galaxy-800v-dc-ai-campus-2026-11-02",
@@ -8373,8 +8657,9 @@
       ],
       "original_publication_date": "2026-11-02",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8383,7 +8668,8 @@
         "TechRadar · Independent reporting · 9 Nov 2026",
         "Envision via PR Newswire · Company announcement · 2 Nov 2026"
       ],
-      "delivery_note": "The 800V DC deployment is reported as live, but campus capacity and renewable share are company plans; independent efficiency and cost measurements were not published."
+      "delivery_note": "The 800V DC deployment is reported as live, but campus capacity and renewable share are company plans; independent efficiency and cost measurements were not published.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-india-domestic-ai-models-critical-sectors-policy-report-2026-11-09",
@@ -8395,8 +8681,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8404,7 +8691,8 @@
       "source_metadata": [
         "Business Standard · Reporting based on unnamed government officials · 9 Nov 2026"
       ],
-      "delivery_note": "This is a reported policy direction based on unnamed officials, not a published government order; capability comparisons are attributed claims."
+      "delivery_note": "This is a reported policy direction based on unnamed officials, not a published government order; capability comparisons are attributed claims.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-noitom-hiphi-hand-physical-ai-dataset-2026-11-09",
@@ -8418,8 +8706,9 @@
       ],
       "original_publication_date": "2026-11-09",
       "first_edition_date": "2026-11-10",
-      "first_edition_path": "archive/2026-11-10-edition-2.html",
+      "first_edition_path": "archive/2026-11-10.html",
       "edition_paths": [
+        "archive/2026-11-10.html",
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html"
       ],
@@ -8427,7 +8716,8 @@
       "source_metadata": [
         "Noitom Robotics via GlobeNewswire · Company announcement · 9 Nov 2026"
       ],
-      "delivery_note": "The dataset is free for research, education and evaluation; commercial use is separately licensed. Hugging Face links are supplied by the announcement."
+      "delivery_note": "The dataset is free for research, education and evaluation; commercial use is separately licensed. Hugging Face links are supplied by the announcement.",
+      "archive_backfill_note": "Original 10 November issue verified during the 16 November historical audit; original path added without deleting the corrected-edition path."
     },
     {
       "story_id": "event-google-deepmind-alphaproof-code-signal-formal-verification-2026-11-10",
@@ -11734,6 +12024,150 @@
       "desk": "community",
       "record_type": "community_signal",
       "verification_level": "Cross-check against original vendor release; stale claim filtered."
+    },
+    {
+      "story_id": "event-pax-silica-san-francisco-declaration-ai-supply-chain-2026-11-15",
+      "normalized_subject": "Pax Silica San Francisco Declaration allied AI supply-chain protection",
+      "event_summary": "The United States and eight partners including India signed the San Francisco Declaration on the Secure Foundations of Enduring Prosperity under Pax Silica, agreeing to identify critical AI technologies and supply chains, share information and establish working groups.",
+      "normalized_headline": "US and eight partners sign a new AI supply-chain declaration; India is among them",
+      "canonical_urls": [
+        "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22",
+        "https://www.cna.com.tw/news/aopl/202611160011.aspx",
+        "https://m.economictimes.com/news/india/india-joins-us-led-pact-to-secure-ai-supply-chains-critical-technologies-amid-china-rivalry-report/articleshow/135869598.cms"
+      ],
+      "original_publication_date": "2026-11-15",
+      "first_edition_date": "2026-11-16",
+      "first_edition_path": "archive/2026-11-16.html",
+      "edition_paths": [
+        "archive/2026-11-16.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Financial Times · report · 15 Nov 2026 · paywall",
+        "CNA / Focus Taiwan · 16 Nov 2026",
+        "Economic Times / ANI · 16 Nov 2026"
+      ],
+      "delivery_note": "New San Francisco Declaration under Pax Silica; not a new export-control rule. State Department primary page returned HTTP 403, so legal text and implementation detail remain unverified."
+    },
+    {
+      "story_id": "event-sk-hynix-supplier-support-trinity-fab-2026-11-16",
+      "normalized_subject": "SK hynix five-year supplier support programme and Trinity Fab test facility",
+      "event_summary": "SK hynix announced 1.4 trillion won of supplier support over five years and a separately funded 874.6 billion won Trinity Fab test facility in Yongin, alongside separate 2 trillion won financing backed by Korea Trade Insurance Corporation.",
+      "normalized_headline": "SK hynix commits US$1.05bn over five years to its supplier base",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/sk-hynix-spend-1-billion-over-five-years-support-chip-suppliers-2026-11-16/",
+        "https://www.koreajoongangdaily.com/business/inside-sk-hynixs-655-million-chip-test-bed/12971453"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-16",
+      "first_edition_path": "archive/2026-11-16.html",
+      "edition_paths": [
+        "archive/2026-11-16.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Reuters · 16 Nov 2026",
+        "Korea JoongAng Daily · 16 Nov 2026"
+      ],
+      "delivery_note": "Financial categories kept separate: supplier support, shared facility budget and financing. Timeline discrepancy preserved: Reuters says May 2027 opening; Korea JoongAng Daily says Q4 2027 full operations."
+    },
+    {
+      "story_id": "event-openai-robotics-reorganisation-clarification-2026-11-13",
+      "normalized_subject": "OpenAI robotics team reorganisation and clarification that programme continues",
+      "event_summary": "OpenAI reorganised its robotics work by moving researchers into main research and applied robotics/hardware staff into Applied. After a report framed the change as disbandment, OpenAI and staff clarified that the robotics programme and roadmap continue.",
+      "normalized_headline": "OpenAI reshapes its robotics organisation; the programme was not abandoned",
+      "canonical_urls": [
+        "https://www.fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+        "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+        "https://research.nvidia.com/labs/srl/projects/astranomy/"
+      ],
+      "original_publication_date": "2026-11-13",
+      "first_edition_date": "2026-11-16",
+      "first_edition_path": "archive/2026-11-16.html",
+      "edition_paths": [
+        "archive/2026-11-16.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Fortune · 13 Nov 2026",
+        "The Decoder · updated 14 Nov 2026",
+        "NVIDIA Research · study dated 14 Oct 2026 · context only"
+      ],
+      "delivery_note": "No earlier SIGNAL issue covered this event. The issue distinguishes the confirmed reorganisation from the disputed 'disbanded' framing; NVIDIA's simulated benchmark is vendor-authored and not a physical-robot deployment result."
+    },
+    {
+      "story_id": "event-sebi-ai-capital-markets-guidelines-2026-11-16",
+      "normalized_subject": "SEBI detailed AI-use guidelines for Indian capital markets",
+      "event_summary": "SEBI chairman Tuhin Kanta Pandey said detailed guidelines for AI use in capital markets are forthcoming, with disclosures, accountability and human oversight for critical decisions. No draft, consultation timetable or effective date was published.",
+      "normalized_headline": "SEBI says detailed AI-use guidelines for capital markets are coming",
+      "canonical_urls": [
+        "https://timesofindia.indiatimes.com/business/india-business/sebi-to-issue-guidelines-for-usage-of-ai-in-mkts-pandey/amp_articleshow/135868846.cms",
+        "https://www.sebi.gov.in/media-and-notifications/speeches/nov-2026/address-by-chairman-at-india-international-trade-fair_105774.html"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-16",
+      "first_edition_path": "archive/2026-11-16.html",
+      "edition_paths": [
+        "archive/2026-11-16.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Times of India · 16 Nov 2026",
+        "SEBI speech listing · 14 Nov 2026 · PDF text not extracted"
+      ],
+      "delivery_note": "Announced direction only; no new compliance duty is in force until draft rules or a formal instrument are published."
+    },
+    {
+      "story_id": "event-australia-ai-copyright-debate-creators-energy-2026-11-15",
+      "normalized_subject": "Australia AI copyright policy debate creators rights and data-centre environmental concerns",
+      "event_summary": "An Australian senator publicly argued that AI policy should not sacrifice creators' copyright interests or environmental protections to attract AI investment, adding to debate around a wider government policy package expected before year-end.",
+      "normalized_headline": "Australian debate over AI copyright now includes environmental and constitutional concerns",
+      "canonical_urls": [
+        "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan"
+      ],
+      "original_publication_date": "2026-11-15",
+      "first_edition_date": "2026-11-16",
+      "first_edition_path": "archive/2026-11-16.html",
+      "edition_paths": [
+        "archive/2026-11-16.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "The Guardian · 15 Nov 2026"
+      ],
+      "delivery_note": "Political intervention and policy debate only; no final bill or adopted AI-training opt-out scheme was reported in this window."
+    },
+    {
+      "story_id": "event-anthropic-claude-ios-signin-purchase-incidents-2026-11-14",
+      "normalized_subject": "Anthropic Claude iOS Apple sign-in and purchasing service incidents",
+      "event_summary": "Anthropic's status page recorded purchasing and plan-change errors on 14 November, resolved at 04:03 UTC, and a separate Apple sign-in issue affecting some new Claude iOS accounts, with Google or email sign-up offered as a workaround.",
+      "normalized_headline": "Claude's purchase errors were resolved; an Apple sign-in issue remained listed",
+      "canonical_urls": [
+        "https://status.claude.com/"
+      ],
+      "original_publication_date": "2026-11-14",
+      "first_edition_date": "2026-11-16",
+      "first_edition_path": "archive/2026-11-16.html",
+      "edition_paths": [
+        "archive/2026-11-16.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        "Anthropic status page · incident history checked 16 Nov 2026"
+      ],
+      "delivery_note": "Service reliability item, not a security incident. The Apple sign-in entry had no explicit resolution line in the visible history; status page reported no new incidents on 15–16 Nov."
+    }
+  ],
+  "archive_backfill_audit": [
+    {
+      "date": "2026-11-16",
+      "path": "archive/2026-11-10.html",
+      "missing_record_backfilled": true,
+      "dated_archive_files_checked": 37,
+      "story_records_linked": 14,
+      "new_events": 11,
+      "material_followups": 3,
+      "prior_records_removed": 0
     }
   ]
 }
