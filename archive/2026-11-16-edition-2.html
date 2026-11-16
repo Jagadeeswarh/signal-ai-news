@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6f3eb">
+<meta name="description" content="SIGNAL. AI Daily — Monday, 16 November 2026. A source-checked, full-spectrum briefing on models, agents, research, compute, policy and the AI business.">
+<title>SIGNAL. — AI Daily | 16 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f6f3eb;--paper-2:#eeeae0;--paper-3:#e5e0d5;--ink:#181b1d;--muted:#62696d;--rule:#c8c6bd;--red:#9d2925;--red-dark:#76201d;--green:#476c5a;--blue:#3e596c;--display:"Space Grotesk",Arial,sans-serif;--body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:18px}
+body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.62 var(--body)}
+a{color:var(--red-dark);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#111}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+.page{max-width:1440px;margin:0 auto;padding:24px 34px 44px}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:22px;border-bottom:5px double var(--ink);padding:3px 0 16px}
+.wordmark{font:700 clamp(48px,7.5vw,88px)/.82 var(--display);letter-spacing:.025em}
+.wordmark span{color:var(--red)}
+.masthead-note{text-align:right;font-size:10px;line-height:1.55;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:var(--muted)}
+.masthead-note strong{display:block;color:var(--ink);font-size:12px;letter-spacing:.08em}
+.utility{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--ink)}
+.issue-line{font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.tools{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.tool-btn,.tool-select{border:1px solid var(--ink);background:transparent;color:var(--ink);padding:7px 10px;font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+.tool-btn.primary{background:var(--red);border-color:var(--red);color:#fff}
+.tool-btn:hover{background:var(--ink);color:#fff}
+.tool-select{background:var(--paper)}
+.editor-grid{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:34px;padding:26px 0 22px;border-bottom:1px solid var(--ink)}
+.kicker{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--red);font-weight:800;margin:0 0 9px}
+h1{font:700 clamp(31px,4.6vw,54px)/1.02 var(--display);letter-spacing:-.055em;margin:0 0 13px;max-width:980px}
+.standfirst{font-size:17px;line-height:1.48;max-width:960px;color:#353c40;margin:0 0 12px}
+.brief-copy{max-width:940px;margin:0;color:#454c50}
+.brief-rail{border-left:1px solid var(--rule);padding-left:19px;display:grid;align-content:center;gap:13px}
+.brief-stat{border-top:2px solid var(--red);padding-top:6px}
+.brief-stat strong{display:block;font:700 29px/1 var(--display)}
+.brief-stat span{display:block;margin-top:4px;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:800}
+.contents{padding:13px 0 14px;border-bottom:1px solid var(--rule)}
+.contents-label{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin:0 0 8px}
+.contents nav{display:flex;gap:7px 16px;flex-wrap:wrap}
+.contents a{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.055em;color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
+.contents a:hover{border-color:var(--red);color:var(--red-dark)}
+.filterbar{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid var(--rule)}
+.filterbar label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:800}
+.filterbar input,.filterbar select{border:1px solid var(--rule);background:#fffdf8;padding:8px 10px;color:var(--ink);min-height:35px}
+.filterbar input{flex:1;min-width:230px}
+.filterbar select{min-width:150px}
+#filter-count{font-size:10px;color:var(--muted);font-weight:700}
+.section{margin:30px 0 0;scroll-margin-top:12px}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:14px;border-bottom:2px solid var(--ink);padding:0 0 8px;margin-bottom:14px}
+.section-head h2{font:700 clamp(19px,2.2vw,25px)/1.1 var(--display);letter-spacing:-.035em;margin:0}
+.section-head small{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:800;text-align:right}
+.section-intro{max-width:950px;color:#4a5054;margin:0 0 13px}
+.impact-overview{border:1px solid var(--rule);border-top:4px solid var(--red);padding:15px 16px 13px;background:rgba(255,255,255,.28)}
+.impact-overview h2{font:700 22px/1.1 var(--display);margin:0 0 6px;letter-spacing:-.03em}
+.impact-overview>p{font-size:12px;color:#4c5357;margin:0 0 11px;max-width:980px}
+.matrix-wrap{overflow-x:auto}
+.impact-matrix{width:100%;border-collapse:collapse;font-size:10px;min-width:780px}
+.impact-matrix th{background:var(--paper-2);text-align:left;text-transform:uppercase;letter-spacing:.08em;font-size:9px;padding:8px;border-bottom:1px solid var(--rule)}
+.impact-matrix td{vertical-align:top;padding:9px 8px;border-bottom:1px solid var(--rule);line-height:1.5}
+.impact-matrix td:first-child{font-weight:800;min-width:150px}
+.level{display:inline-block;border:1px solid var(--rule);padding:2px 6px;font-size:8px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;white-space:nowrap}
+.level.high{border-color:var(--red);color:var(--red-dark)}
+.level.moderate{border-color:#8a7750;color:#69552e}
+.level.emerging{border-color:var(--blue);color:var(--blue)}
+.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 26px}
+.story{min-width:0;padding:16px 0 18px;border-bottom:1px solid var(--rule)}
+.story.lead{grid-column:1/-1;border-bottom:2px solid var(--ink)}
+.story-meta{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--red);font-weight:800}
+.story h3{font:700 20px/1.17 var(--body);letter-spacing:-.035em;margin:7px 0 9px}
+.story.lead h3{font-size:clamp(22px,2.8vw,31px);max-width:1000px}
+.story p{margin:0 0 9px;color:#343b3f}
+.story .summary{font-size:14px;line-height:1.55;color:#252c30;font-weight:600}
+.story-body{max-width:1000px}
+.story-body p{font-size:12px}
+.impact-panel{margin:12px 0;padding:11px 13px;background:var(--paper-2);border-left:3px solid var(--green)}
+.impact-panel h4{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--green);margin:0 0 7px}
+.impact-panel dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:4px 9px;margin:0;font-size:10px;line-height:1.5}
+.impact-panel dt{font-weight:800;color:#28342e}
+.impact-panel dd{margin:0;color:#454c50}
+.why{border-left:3px solid var(--red);padding:7px 0 7px 11px!important;color:#343b3f!important;font-size:11px!important}
+.why strong{color:var(--red-dark)}
+.sources{font-size:10px!important;color:var(--muted)!important;line-height:1.7!important;margin-top:10px!important}
+.sources a{font-weight:700;margin-right:9px}
+.note{padding:12px 14px;background:var(--paper-2);border-left:3px solid var(--blue);font-size:11px;color:#41484c;margin:12px 0}
+.no-change{padding:13px 15px;border:1px solid var(--rule);background:rgba(255,255,255,.28)}
+.no-change strong{color:var(--red-dark)}
+.watch-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.watch-card{border-top:1px solid var(--rule);padding:10px 0}
+.watch-card h3{font:700 14px/1.25 var(--display);margin:0 0 6px}
+.watch-card p{font-size:11px;color:#4a5155;margin:0 0 6px}
+.watch-card .meta-line{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}
+.more-list{border-top:1px solid var(--ink)}
+.more-card{display:grid;grid-template-columns:34px minmax(0,1fr);gap:11px;padding:13px 0;border-bottom:1px solid var(--rule)}
+.more-number{font:700 17px var(--display);color:var(--red)}
+.more-card h3{font:700 16px/1.2 var(--body);letter-spacing:-.02em;margin:0 0 5px}
+.more-card p{font-size:11px;color:#444c50;margin:5px 0}
+.impact-line{border-left:2px solid var(--green);padding-left:8px}
+.analysis-grid,.future-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.analysis-card,.future-card{border-top:2px solid var(--ink);padding:9px 0}
+.analysis-card .num{font:700 19px var(--display);color:var(--red)}
+.analysis-card h3,.future-card h3{font:700 13px/1.25 var(--display);margin:5px 0}
+.analysis-card p,.future-card p{font-size:10px;color:#4a5155;margin:5px 0}
+.future-card .when{font-size:9px;text-transform:uppercase;letter-spacing:.1em;font-weight:800;color:var(--red-dark)}
+.glossary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px 15px}
+.term{border-top:1px solid var(--rule);padding:8px 0}
+.term strong{font-size:11px}
+.term p{font-size:10px;color:#535a5e;margin:3px 0}
+.audit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:12px 0}
+.audit-box{background:var(--paper-2);padding:10px}
+.audit-box strong{display:block;font:700 24px/1 var(--display)}
+.audit-box span{display:block;font-size:9px;line-height:1.4;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800;margin-top:5px}
+.audit-list{font-size:11px;color:#464d51;padding-left:18px}
+.audit-list li{margin:4px 0}
+.community-empty{border:1px dashed var(--rule);padding:14px;font-size:11px;color:#4d5559}
+.footer{border-top:4px double var(--ink);margin-top:34px;padding:14px 0 0;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.share-fallback{display:none;border:1px solid var(--ink);background:#fffdf8;padding:14px;margin:12px 0}
+.share-fallback.show{display:block}
+.share-fallback h3{font:700 16px var(--display);margin:0 0 6px}
+.share-fallback p{font-size:11px;color:#4c5357;margin:0 0 8px}
+.share-fallback textarea{width:100%;min-height:90px;border:1px solid var(--rule);background:#fff;padding:9px;font:11px/1.5 var(--body)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+[hidden]{display:none!important}
+@media(max-width:900px){.page{padding:18px 20px 36px}.editor-grid{grid-template-columns:1fr}.brief-rail{border-left:0;border-top:1px solid var(--rule);padding:12px 0 0;grid-template-columns:repeat(3,1fr)}.impact-grid{grid-template-columns:repeat(2,1fr)}.analysis-grid,.future-grid{grid-template-columns:repeat(2,1fr)}.glossary{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.page{padding:14px 15px 28px}.masthead{align-items:flex-start;flex-direction:column;gap:11px}.masthead-note{text-align:left}.utility{align-items:flex-start}.tools{width:100%}.tool-btn,.tool-select{padding:7px 8px}.editor-grid{padding-top:20px}.brief-rail{grid-template-columns:repeat(3,1fr)}.story-grid,.watch-grid{grid-template-columns:1fr}.story.lead{grid-column:auto}.story h3,.story.lead h3{font-size:20px}.analysis-grid,.future-grid{grid-template-columns:1fr}.audit-grid{grid-template-columns:repeat(2,1fr)}.impact-panel dl{grid-template-columns:1fr;gap:1px}.impact-panel dd{margin-bottom:5px}.glossary{grid-template-columns:repeat(2,1fr)}.filterbar input{min-width:100%;flex-basis:100%}.section-head{align-items:flex-start;flex-direction:column;gap:4px}}
+@media print{body{background:#fff;color:#000;font-size:10pt}.page{max-width:none;padding:0}.utility,.filterbar,.contents,.share-fallback,.footer button{display:none!important}.masthead{padding-top:0}.wordmark{font-size:44pt}.editor-grid{grid-template-columns:1fr 220px;gap:20px}.story,.more-card,.watch-card,.analysis-card,.future-card,.term{break-inside:avoid}.section{break-before:auto}.story-grid{grid-template-columns:1fr 1fr}.story.lead{grid-column:1/-1}.impact-overview,.impact-panel,.note,.audit-box{-webkit-print-color-adjust:exact;print-color-adjust:exact}.sources a{color:#000}.sources a::after{content:" (" attr(href) ")";font-size:8pt;color:#444;overflow-wrap:anywhere}.footer{display:flex}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="masthead">
+  <div class="wordmark">SIGNAL<span>.</span></div>
+  <div class="masthead-note"><strong>AI Daily · Full-spectrum intelligence</strong>Monday, 16 November 2026<br>Asia/Kolkata edition · No. 020 · Revision 2</div>
+</header>
+<div class="utility">
+  <div class="issue-line">The AI stack, from model to machine · Research window: 14–16 November 2026</div>
+  <div class="tools" aria-label="Reading tools">
+    <button class="tool-btn" id="read-play" type="button">Read aloud</button>
+    <button class="tool-btn" id="read-pause" type="button">Pause</button>
+    <button class="tool-btn" id="read-stop" type="button">Stop</button>
+    <label class="sr-only" for="read-speed">Read aloud speed</label>
+    <select class="tool-select" id="read-speed" aria-label="Read aloud speed">
+      <option value="0.85">0.85×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option><option value="1.3">1.3×</option><option value="1.5">1.5×</option>
+    </select>
+    <button class="tool-btn primary" id="share-issue" type="button">Share edition</button>
+    <button class="tool-btn" id="print-issue" type="button">Print / PDF</button>
+  </div>
+</div>
+
+<main id="edition-content">
+<section class="editor-grid" id="briefing">
+  <div>
+    <p class="kicker">Editor's briefing · Monday edition</p>
+    <h1>AI's strategic perimeter is widening — from chips and memory to robots and market rules</h1>
+    <p class="standfirst">A new US-led supply-chain declaration brings India and eight other partners into a shared security agenda. SK hynix is funding the supplier layer beneath memory production. OpenAI's robotics reshuffle is real, but the claim that it abandoned the programme is not.</p>
+    <p class="brief-copy">The strongest changes today sit below the model leaderboard. Governments are beginning to coordinate around the physical and logistical stack that makes advanced AI possible; a Korean memory supplier is trying to shorten the path from prototype to production; and OpenAI is testing whether general-purpose models can absorb work once assigned to specialist robotics teams. India's securities regulator and Australia's copyright debate add a second theme: the rules for AI deployment are moving from principle to operating detail. No new frontier-model release or meaningful general-purpose benchmark shift cleared the date-matched evidence bar.</p>
+  </div>
+  <aside class="brief-rail" aria-label="Edition snapshot">
+    <div class="brief-stat"><strong>06</strong><span>Verified developments</span></div>
+    <div class="brief-stat"><strong>03</strong><span>Main Desk reports</span></div>
+    <div class="brief-stat"><strong>60 / 19</strong><span>Domains targeted / opened</span></div>
+  </aside>
+</section>
+
+<div class="contents">
+  <p class="contents-label">Contents · jump to desk</p>
+  <nav aria-label="Edition contents">
+    <a href="#impact-radius">Impact Radius</a>
+    <a href="#main-desk">Main Desk</a>
+    <a href="#model-watch">Model &amp; Benchmark Watch</a>
+    <a href="#developer-stack">Developer &amp; Agent Stack</a>
+    <a href="#creator-desk">Creator &amp; Multimodal</a>
+    <a href="#research-robotics">Research &amp; Robotics</a>
+    <a href="#security-reliability">Security &amp; Reliability</a>
+    <a href="#compute-energy">Compute &amp; Energy</a>
+    <a href="#capital-lens">Capital Flows</a>
+    <a href="#india-asia">India &amp; Asia</a>
+    <a href="#community">Community Intelligence</a>
+    <a href="#more-signals">More Signals</a>
+    <a href="#future-radar">Future Radar</a>
+    <a href="#glossary">Glossary</a>
+    <a href="#coverage-audit">Coverage Audit</a>
+  </nav>
+</div>
+
+<div class="filterbar" aria-label="Story search and filters">
+  <label for="story-search">Search this edition</label>
+  <input id="story-search" type="search" placeholder="Search headlines, companies, technologies…">
+  <label for="desk-filter">Desk</label>
+  <select id="desk-filter">
+    <option value="all">All stories</option>
+    <option value="main">Main Desk</option>
+    <option value="more">More Signals</option>
+  </select>
+  <span id="filter-count" aria-live="polite">Showing 6 of 6 stories</span>
+</div>
+
+<section class="section impact-overview" id="impact-radius">
+  <h2>Impact Radius</h2>
+  <p>Observed effects are separated from forecast spillovers. Qualitative levels describe the likely reach of the event, not a numerical score. Confidence reflects the evidence available in this edition.</p>
+  <div class="matrix-wrap">
+    <table class="impact-matrix">
+      <thead><tr><th>Development</th><th>Direct impact</th><th>Adjacent / second-order</th><th>Affected groups</th><th>Geography</th><th>Horizon</th><th>Reach / confidence</th></tr></thead>
+      <tbody>
+        <tr><td>San Francisco Declaration under Pax Silica</td><td>Joint identification and protection of AI-critical technologies and supply chains</td><td>Possible future screening, procurement alignment and investment hubs; not new export licences today</td><td>Governments, chip and equipment firms, minerals and logistics providers, AI labs</td><td>US plus Japan, Australia, Israel, UK, South Korea, India, Qatar and UAE</td><td>Now → 12 months</td><td><span class="level high">High reach</span><br><span class="level moderate">Medium-high confidence</span></td></tr>
+        <tr><td>SK hynix supplier programme and Trinity Fab</td><td>Five-year supplier support and shared production-like test capacity</td><td>Potentially faster qualification of memory materials and tools; no immediate wafer output added</td><td>Suppliers, memory makers, accelerator vendors, cloud infrastructure buyers</td><td>South Korea; global memory supply chain</td><td>3–12 months → 2027</td><td><span class="level high">High reach</span><br><span class="level high">High confidence</span></td></tr>
+        <tr><td>OpenAI robotics reorganisation</td><td>Robotics research and applied hardware teams move into wider research and product groups</td><td>Could shift the balance between general models and specialist robot policies; deployment proof remains open</td><td>Model labs, robotics developers, integrators, robot-data and safety teams</td><td>US; global robotics ecosystem</td><td>Now → 2027</td><td><span class="level moderate">Moderate reach</span><br><span class="level high">High confidence on reorg</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section" id="main-desk">
+  <div class="section-head"><h2>Main Desk</h2><small>Ranked by consequence, novelty and evidence</small></div>
+  <div class="story-grid">
+    <article class="story lead" id="pax-silica" data-filterable="true" data-desk="main" data-search="pax silica san francisco declaration india united states supply chain chips semiconductors critical minerals energy export controls china japan australia israel uk korea qatar uae">
+      <div class="story-meta">01 · Policy / Compute / Geopolitics · 16 November</div>
+      <h3>US and eight partners sign a new AI supply-chain declaration; India is among them</h3>
+      <p class="summary">The San Francisco Declaration moves Pax Silica from broad supply-chain language toward a shared inventory of technologies and infrastructure that participating governments say need stronger protection. It is a coordination step, not a new export-control regime.</p>
+      <div class="story-body">
+        <p>According to the <a href="https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22">Financial Times report</a>, the United States signed the San Francisco Declaration on the Secure Foundations of Enduring Prosperity with Japan, Australia, Israel, the United Kingdom, South Korea, India, Qatar and the United Arab Emirates. The US under-secretary of state for economic affairs, Jacob Helberg, described a plan to identify critical technologies and supply chains, share information about vulnerabilities and diversification, and establish working groups, including on investment hubs.</p>
+        <p>The scope is deliberately wider than advanced GPUs. It spans chip design, manufacturing equipment, semiconductor supply, critical minerals, energy infrastructure and the logistics that move components between countries. That matters because a chip's security can depend on design software in one country, lithography or deposition equipment in another, refining elsewhere and a port or carrier in a fourth.</p>
+        <p>India's signature is strategically relevant, but it should not be read as India's first entry into the wider Pax Silica network. This is a distinct San Francisco Declaration under the initiative. Germany, Sweden, the Netherlands and the European Commission were reported as expected to sign the following week; they are not counted as confirmed signatories here.</p>
+        <p><strong>What has not happened:</strong> the reporting describes a joint list, information-sharing and working groups. It does not establish a new multilateral export ban, a new licence tier or an immediate change to Nvidia shipment permissions. The full new declaration text was not available through the State Department page during this check, so implementation details remain less certain than the reported signing.</p>
+        <p class="why"><strong>Why developers should care:</strong> procurement, cloud-region choice, access to accelerators and the origin of critical components may become more tightly linked to allied supply-chain policy. Teams building in India should watch how the shared list treats model infrastructure, networking, power and data-centre equipment—not only GPUs.</p>
+      </div>
+      <div class="impact-panel">
+        <h4>Impact radius</h4>
+        <dl>
+          <dt>Directly affected</dt><dd>Signatory governments and firms across semiconductors, chip tools, critical minerals, energy and transport infrastructure</dd>
+          <dt>Adjacent effects</dt><dd>AI labs, hyperscalers, cloud buyers and manufacturers may face more aligned procurement or screening expectations; this is a forecast, not an enacted rule</dd>
+          <dt>Geography</dt><dd>United States, Japan, Australia, Israel, United Kingdom, South Korea, India, Qatar and UAE; four European participants were only expected to join</dd>
+          <dt>Time horizon</dt><dd>Coordination begins now; any operational list or investment effect is likely to unfold over 3–12 months</dd>
+          <dt>Confidence</dt><dd>Medium-high on the signing and named participants, based on FT reporting relayed by CNA and Economic Times; lower on the text's legal and enforcement effect because the primary document was not accessible</dd>
+        </dl>
+      </div>
+      <p class="sources">Sources: <a href="https://www.cna.com.tw/news/aopl/202611160011.aspx">CNA / Focus Taiwan · 16 Nov</a><a href="https://m.economictimes.com/news/india/india-joins-us-led-pact-to-secure-ai-supply-chains-critical-technologies-amid-china-rivalry-report/articleshow/135869598.cms">Economic Times / ANI · 16 Nov</a><a href="https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22">Financial Times · 16 Nov (paywall)</a></p>
+    </article>
+
+    <article class="story" id="sk-hynix" data-filterable="true" data-desk="main" data-search="sk hynix trinity fab supplier support one point zero five billion 1.4 trillion won semiconductor memory materials parts equipment testing cleanroom korea">
+      <div class="story-meta">02 · Chips / Memory / Business · 16 November</div>
+      <h3>SK hynix commits $1.05bn over five years to its supplier base</h3>
+      <p class="summary">The programme backs Korean materials, parts and equipment suppliers from research through sales. A separate shared test facility is designed to let smaller firms validate tools and materials in conditions close to a commercial memory line.</p>
+      <div class="story-body">
+        <p>SK hynix said it plans to spend 1.4 trillion won (about US$1.05 billion) over five years on domestic semiconductor suppliers. Reuters reports support across four stages—research and development, testing, mass production and sales—with up to half of initial development costs advanced for qualifying projects. Suppliers can also be compensated for work even if a project misses its target.</p>
+        <p>The separate Trinity Fab project has a total budget of 874.6 billion won (about US$654.6 million), funded by SK hynix, the central government and local authorities. The cleanroom is planned at 3,305 square metres and will include 51 pieces of equipment spanning lithography, etching, deposition, metrology and inspection. Suppliers will be able to test materials and tools using 12-inch wafers before attempting production-line deployment.</p>
+        <p>Keep three financial buckets separate: the 1.4-trillion-won supplier programme is multi-year support; the 874.6-billion-won Trinity Fab is a jointly funded facility budget; and the additional 2-trillion-won financing backed by Korea Trade Insurance Corporation is financing, not cash already spent. None of these figures is new HBM output or a data-centre capacity number.</p>
+        <p>There is a schedule discrepancy worth watching. Reuters says Trinity Fab is scheduled to open in May 2027. Korea JoongAng Daily reports full operations in the fourth quarter of 2027, while the first Y1 cleanroom is expected in February 2027. These may refer to opening versus full commissioning, but the sources do not reconcile the milestones; we keep both dates visible rather than choosing one.</p>
+        <p class="why"><strong>Why developers should care:</strong> memory supply is not only a question of wafer starts. Faster qualification of materials, inspection systems and process equipment can reduce bottlenecks that sit between a prototype and a repeatable production line. The near-term gain is supplier readiness, not an instant increase in HBM availability.</p>
+      </div>
+      <div class="impact-panel">
+        <h4>Impact radius</h4>
+        <dl>
+          <dt>Directly affected</dt><dd>SK hynix and Korean suppliers of semiconductor materials, parts, process tools and inspection equipment</dd>
+          <dt>Adjacent effects</dt><dd>DRAM and HBM supply chains, accelerator vendors, packaging partners and cloud infrastructure buyers may benefit if supplier qualification becomes faster; the size of any gain is not yet measured</dd>
+          <dt>Geography</dt><dd>Yongin and the wider South Korean semiconductor cluster, with downstream effects across global memory supply</dd>
+          <dt>Time horizon</dt><dd>Supplier support over five years; facility opening/commissioning milestones in 2027</dd>
+          <dt>Confidence</dt><dd>High on programme and facility budgets from Reuters and Korea JoongAng Daily; medium on the exact operational date because May and Q4 2027 are both reported for different milestones</dd>
+        </dl>
+      </div>
+      <p class="sources">Sources: <a href="https://www.reuters.com/world/asia-pacific/sk-hynix-spend-1-billion-over-five-years-support-chip-suppliers-2026-11-16/">Reuters · 16 Nov</a><a href="https://www.koreajoongangdaily.com/business/inside-sk-hynixs-655-million-chip-test-bed/12971453">Korea JoongAng Daily · 16 Nov</a></p>
+    </article>
+
+    <article class="story" id="openai-robotics" data-filterable="true" data-desk="main" data-search="openai robotics team reorganization reorganized Mark Chen Greg Brockman applied research GPT-6 Astra robot policy CoRL Fortune Decoder">
+      <div class="story-meta">03 · Research / Robotics / Frontier labs · 13–14 November update</div>
+      <h3>OpenAI reshapes its robotics organisation; the programme was not abandoned</h3>
+      <p class="summary">Fortune reported that OpenAI had disbanded its stand-alone robotics team. The company confirmed a reorganisation, while staff publicly called the headline misleading; The Decoder updated its report after OpenAI clarified that robotics work continues.</p>
+      <div class="story-body">
+        <p>The verified change is organisational. Robotics researchers moved into OpenAI's main research group under Chief Research Officer Mark Chen; applied robotics and hardware staff moved into the Applied organisation led by Greg Brockman. OpenAI told Fortune that robotics remains part of its long-term vision. Researchers Scott Cory and Michelle Fradin also said publicly that the programme, roadmap and goals were continuing while the team worked more closely with the rest of research.</p>
+        <p>The distinction matters: a stand-alone team no longer being separate is not the same as the company cancelling robotics. The Decoder's 14 November update explicitly changed its opening description after the company's clarification. Fortune also reported that OpenAI still has a first public humanoid demonstration target in 2027; that is a company target, not a booked launch date.</p>
+        <p>There is a technical reason the organisation may be changing. NVIDIA Research's earlier Astranomy study (14 October, not a new release) tested GPT-6 Astra as a robot policy in the simulated RoboLab-120 environment. Its agentic configuration scored 74.8% task success, versus 66.3% for a direct policy, but averaged 13.37 seconds per inference call and US$36.40 per episode; the direct policy averaged 18.56 seconds and US$1.96 per episode. The study is NVIDIA-authored and simulation-based. It is not an independent replication or evidence that a general model is ready to control production robots safely.</p>
+        <p>That cost-and-latency trade-off is the missing half of the generalist story. Persistent context and tool use can improve a model's simulated performance, but every extra reasoning step adds time, compute and operational complexity. Specialist controllers may still win on predictable latency, energy use, reliability and cost.</p>
+        <p class="why"><strong>Why developers should care:</strong> robotics teams should evaluate end-to-end task success, wall-clock latency, recovery behaviour, safety constraints and cost per completed task—not just model reasoning scores. For builders, the useful question is where a general model should plan and where a deterministic or learned low-latency controller should execute.</p>
+      </div>
+      <div class="impact-panel">
+        <h4>Impact radius</h4>
+        <dl>
+          <dt>Directly affected</dt><dd>OpenAI robotics researchers, applied robotics and hardware teams, and the company's model-to-robot roadmap</dd>
+          <dt>Adjacent effects</dt><dd>Robot integrators, specialist VLA teams, robot-data providers and safety-evaluation developers may face pressure to show where dedicated policies outperform general models</dd>
+          <dt>Geography</dt><dd>US organisation change; implications for the global robotics and embodied-AI ecosystem</dd>
+          <dt>Time horizon</dt><dd>Organisation change now; public humanoid demonstration remains a 2027 target</dd>
+          <dt>Confidence</dt><dd>High on the reorganisation and company clarification from Fortune and The Decoder; medium on the broader general-model strategy; NVIDIA's benchmark is vendor-authored and simulated</dd>
+        </dl>
+      </div>
+      <p class="sources">Sources: <a href="https://www.fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/">Fortune · 13 Nov</a><a href="https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/">The Decoder · updated 14 Nov</a><a href="https://research.nvidia.com/labs/srl/projects/astranomy/">NVIDIA Research · 14 Oct study</a></p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="model-watch">
+  <div class="section-head"><h2>Model &amp; Benchmark Watch</h2><small>Release and evaluation discipline</small></div>
+  <div class="no-change">
+    <p><strong>No material model or general-purpose benchmark change verified for 14–16 November.</strong> No new OpenAI, Anthropic, Google DeepMind, Meta, xAI, NVIDIA, AMD, Mistral, DeepSeek, Qwen, Zhipu, Moonshot, MiniMax, Tencent, Baidu or Cohere model version with a date-matched release note, access change or independently reproduced benchmark cleared the bar.</p>
+    <p>Recent releases and access changes already covered in the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-15-edition-2.html">15 November expanded edition</a> are not repeated here. The NVIDIA Astranomy study discussed above is useful context, not a new model release: GPT-6 Astra is proprietary, the evaluation used a persistent Codex session in simulation, and the reported US$36.40 is cost per agentic episode—not a retail API price. The strongest configuration reached 74.8% on RoboLab-120, but its 13.37-second inference calls make real-time deployment a separate engineering problem.</p>
+    <p class="meta-line">Benchmark labels: NVIDIA-authored study · simulated RoboLab-120 · no independent reproduction verified in this window · no cross-harness leaderboard comparison made.</p>
+  </div>
+</section>
+
+<section class="section" id="developer-stack">
+  <div class="section-head"><h2>Developer &amp; Agent Stack</h2><small>APIs · IDEs · MCP · frameworks · inference</small></div>
+  <div class="note"><strong>No material, date-matched developer release verified.</strong> The sweep covered GitHub and its changelog, Hugging Face, Cursor, LangChain, model-provider release pages, MCP and local-inference sources. No new API, IDE, agent framework, MCP server, open-weight release or local-inference version change met the evidence and timing threshold. LangChain's US$300m Series C was already covered in the 14 November issue; it is excluded as a repeat, not presented as today's news.</div>
+</section>
+
+<section class="section" id="creator-desk">
+  <div class="section-head"><h2>Creator &amp; Multimodal Desk</h2><small>Image · video · audio · design · speech</small></div>
+  <div class="note"><strong>No material, date-matched creator-product launch verified.</strong> No new image, video, audio, speech or design product with confirmed 14–16 November availability, pricing or production access cleared the bar. Recent creator-tool changes already recorded in the prior edition are not recycled as fresh launches.</div>
+</section>
+
+<section class="section" id="research-robotics">
+  <div class="section-head"><h2>Research, Science &amp; Robotics</h2><small>Embodied systems and evaluation</small></div>
+  <p class="section-intro">The day's qualifying research-and-robotics development is the OpenAI organisation change above. No new date-matched arXiv paper, peer-reviewed science result or independently reproduced robotics benchmark cleared the bar.</p>
+  <div class="watch-grid">
+    <div class="watch-card">
+      <div class="meta-line">Context · NVIDIA Research · 14 October</div>
+      <h3>Astra's simulation result is promising, but expensive and slow</h3>
+      <p>The RoboLab-120 study reports 74.8% task success for an agentic GPT-6 Astra policy, versus 66.3% for a direct policy. The agentic setup costs about US$36.40 per episode and averages 13.37 seconds per inference call. These are study conditions, not a production service-level guarantee.</p>
+      <p><a href="https://research.nvidia.com/labs/srl/projects/astranomy/">Read the NVIDIA study</a></p>
+    </div>
+    <div class="watch-card">
+      <div class="meta-line">Evaluation watch · public GitHub repository</div>
+      <h3>StationeryBench is a small, inspectable task suite—not a leaderboard</h3>
+      <p>The public repository defines five bimanual desk-manipulation tasks and 20 repetitions per task. Its README distinguishes mock policies from real hardware runs and does not publish a verified model leaderboard. We did not promote secondary performance claims as established results.</p>
+      <p><a href="https://github.com/robocurve/stationerybench">Inspect the StationeryBench repository</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="security-reliability">
+  <div class="section-head"><h2>Security, Safety &amp; Reliability</h2><small>Incidents · vulnerabilities · outages · mitigation</small></div>
+  <p class="section-intro">No new AI-specific exploit, prompt-injection campaign, agent privilege-escalation incident, credential leak or supply-chain attack was verified in the 14–16 November window. The verified service issues were narrow access and billing failures—not evidence of an attack.</p>
+  <div class="watch-grid">
+    <div class="watch-card">
+      <div class="meta-line">Anthropic status · 14 November</div>
+      <h3>Claude logged two limited customer-facing issues</h3>
+      <p>Elevated purchase, upgrade and cancellation errors began at 02:54 UTC on 14 November and were resolved at 04:03 UTC. Anthropic said delayed payments and plan changes were applied and core functionality was unaffected. A separate Sign in with Apple issue for new Claude iOS accounts was under investigation from 07:11 UTC, with the last visible update at 20:12 UTC; Google or email sign-up was the workaround. The status page lists no new incidents on 15 or 16 November and shows no explicit resolution line for the Apple sign-in entry at the time checked.</p>
+      <p><a href="https://status.claude.com/">Anthropic status and incident history</a></p>
+    </div>
+    <div class="watch-card">
+      <div class="meta-line">Cross-provider status check · 16 November</div>
+      <h3>No broad platform outage was visible on the checked status pages</h3>
+      <p>OpenAI reported fully operational systems; GitHub reported all systems operational and no incidents on 14–16 November; Google Cloud reported no broad severe incidents at its latest update. Microsoft's status page returned a JavaScript-only shell and could not be inspected here. No outage is described as an attack.</p>
+      <p><a href="https://status.openai.com/">OpenAI</a> · <a href="https://www.githubstatus.com/">GitHub</a> · <a href="https://status.cloud.google.com/">Google Cloud</a> · <a href="https://status.cloud.microsoft/">Microsoft</a></p>
+    </div>
+  </div>
+  <div class="note"><strong>Advisory watch:</strong> CERT-In's 2026 advisory list shows a 13 November ransomware advisory and a 12 November Microsoft vulnerability advisory; its dedicated AI-agent attack-vector advisory is dated 15 October, outside this edition's window. No new date-matched CISA or CERT-In AI-agent advisory was surfaced. The 15 October note remains relevant for exposed credentials, over-permissive APIs and cloud roles, but it is not a new incident today. <a href="https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADVLIST02&amp;year=2026">CERT-In advisory list</a> · <a href="https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&amp;pageid=PUBVLNOTES02">CERT-In AI-agent advisory · 15 Oct</a></div>
+</section>
+
+<section class="section" id="compute-energy">
+  <div class="section-head"><h2>Compute, Chips, Cloud &amp; Energy</h2><small>Memory · manufacturing · networks · power</small></div>
+  <p class="section-intro">The SK hynix supplier programme is today's material compute development. The Pax Silica declaration broadens the policy perimeter around chips, critical minerals, energy and logistics. No separate 14–16 November data-centre power contract, new hyperscale capacity deployment or energy-grid milestone was verified.</p>
+  <div class="note"><strong>China–US compute standing watch:</strong> the declaration is a new allied supply-chain coordination step, but no new date-matched Huawei Ascend shipment, SMIC process milestone, HBM allocation decision, Nvidia availability change or formal export-control rule was verified. The absence of a new measure is not evidence that existing controls have changed.</div>
+</section>
+
+<section class="section" id="capital-lens">
+  <div class="section-head"><h2>Business, Capital Flows &amp; Portfolio Lens</h2><small>Announcements are not cash flow</small></div>
+  <p class="section-intro">SK hynix's numbers illustrate why infrastructure announcements need to be separated by financial type.</p>
+  <div class="matrix-wrap">
+    <table class="impact-matrix">
+      <thead><tr><th>Figure</th><th>What it represents</th><th>What it does not mean</th></tr></thead>
+      <tbody>
+        <tr><td>1.4tn won / US$1.05bn</td><td>Five-year supplier support programme spanning R&amp;D, testing, mass production and sales</td><td>Not a single-year capex cheque or already-disbursed cash</td></tr>
+        <tr><td>874.6bn won / US$654.6m</td><td>Joint budget for the Trinity Fab shared test facility; SK hynix, central government and local authorities contribute</td><td>Not memory output, HBM shipments or data-centre capacity</td></tr>
+        <tr><td>2tn won</td><td>Separate financing backed by Korea Trade Insurance Corporation and financial institutions</td><td>Not revenue, backlog or cash spent by SK hynix</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note"><strong>Capital flows &amp; portfolio lens — an educational rule, not investment advice:</strong> read every AI infrastructure announcement in six buckets: announced intention, signed contract, committed financing, recognised backlog, deployed capacity and cash actually spent. Then ask what is already generating revenue. A large headline amount can be strategically important while still being several steps away from operating capacity. For suppliers, qualification throughput and customer adoption may matter more than the headline budget.</div>
+</section>
+
+<section class="section" id="india-asia">
+  <div class="section-head"><h2>India &amp; Asia / Global Regional Desk</h2><small>Policy · supply chain · regional capability</small></div>
+  <p class="section-intro">India appears in two distinct developments: it signed the new San Francisco Declaration under Pax Silica, and SEBI's chairman said detailed capital-markets AI guidance would follow. South Korea's supplier programme is the region's most concrete manufacturing move in this window. No new India-specific foundation-model launch was verified.</p>
+  <p class="section-intro">Beyond the US and Asia, Australia's AI copyright and data-centre debate is becoming more politically contested. The European participants expected to sign the Pax Silica declaration next week remain prospective, not confirmed signatories.</p>
+</section>
+
+<section class="section" id="community">
+  <div class="section-head"><h2>Community Intelligence</h2><small>X · Reddit · YouTube · GitHub · Hugging Face · Product Hunt</small></div>
+  <div class="community-empty"><strong>No separate Community Radar item cleared the verification bar today.</strong> Public social and builder channels were used for discovery, not proof. OpenAI staff posts disputing the “disbanded” robotics headline are incorporated as company-employee context in the robotics report; they are not treated as independent performance evidence. The small StationeryBench repository is linked above, but its README does not provide a verified model leaderboard. No unverified launch, viral demo or anecdotal benchmark is promoted as news.</div>
+</section>
+
+<section class="section" id="more-signals">
+  <div class="section-head"><h2>More Signals</h2><small>Verified, lower-priority developments</small></div>
+  <div class="more-list">
+    <article class="more-card" data-filterable="true" data-desk="more" data-search="sebi india capital markets artificial intelligence guidelines human in the loop disclosures accountability investor protection">
+      <div class="more-number">04</div>
+      <div>
+        <div class="story-meta">India · Regulation · 16 November</div>
+        <h3>SEBI says detailed AI-use guidelines for capital markets are coming</h3>
+        <p>Chairman Tuhin Kanta Pandey said the proposed rules would cover disclosures, accountability for regulated entities and a human-in-the-loop approach for critical decisions. SEBI had floated guiding principles in June 2025; no new draft, consultation timetable or effective date was published with this announcement.</p>
+        <p class="impact-line"><strong>Impact:</strong> brokers, exchanges, market infrastructure and AI vendors serving regulated firms should prepare for documentation and human-oversight requirements, but no new compliance duty is in force yet.</p>
+        <p class="sources">Sources: <a href="https://timesofindia.indiatimes.com/business/india-business/sebi-to-issue-guidelines-for-usage-of-ai-in-mkts-pandey/amp_articleshow/135868846.cms">The Times of India · 16 Nov</a> · <a href="https://www.sebi.gov.in/media-and-notifications/speeches/nov-2026/address-by-chairman-at-india-international-trade-fair_105774.html">SEBI speech listing · 14 Nov</a></p>
+      </div>
+    </article>
+    <article class="more-card" data-filterable="true" data-desk="more" data-search="Australia copyright AI training opt out artists creators datacentres environment Andrew McLachlan policy">
+      <div class="more-number">05</div>
+      <div>
+        <div class="story-meta">Australia · Copyright / Society · 14–15 November</div>
+        <h3>Australian debate over AI copyright now includes environmental and constitutional concerns</h3>
+        <p>Liberal senator Andrew McLachlan warned that creators' rights should not be traded away to attract AI investment and that data-centre expansion should not come at the expense of biodiversity. The dispute sits inside a wider policy package that may cover copyright, energy and online safety. The government package is expected before year-end; no final bill or adopted opt-out scheme was reported in this window.</p>
+        <p class="impact-line"><strong>Impact:</strong> AI firms seeking training-data certainty, publishers, artists and data-centre developers face a more contested policy process; the practical rules remain undecided.</p>
+        <p class="sources">Source: <a href="https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan">The Guardian · 15 Nov</a></p>
+      </div>
+    </article>
+    <article class="more-card" data-filterable="true" data-desk="more" data-search="Anthropic Claude status Apple sign in purchase errors billing iOS incident November 14">
+      <div class="more-number">06</div>
+      <div>
+        <div class="story-meta">Service reliability · 14 November</div>
+        <h3>Claude's purchase errors were resolved; an Apple sign-in issue remained listed</h3>
+        <p>Anthropic's status history records a short purchasing and plan-change incident on 14 November, resolved at 04:03 UTC, and a separate Apple sign-in problem affecting some new Claude iOS accounts. Google or email sign-up was the stated workaround. The page records no new incidents on 15 or 16 November; no security compromise was alleged.</p>
+        <p class="impact-line"><strong>Impact:</strong> affected new iOS users and customers changing plans; Claude API and core service components were listed as operational. The last visible Apple sign-in update had no explicit resolution line.</p>
+        <p class="sources">Source: <a href="https://status.claude.com/">Anthropic status page · checked 16 Nov</a></p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="future-radar">
+  <div class="section-head"><h2>Future Radar · 3–12 months</h2><small>Confirmed milestones vs scenarios</small></div>
+  <div class="future-grid">
+    <article class="future-card">
+      <div class="when">Reported expectation · week of 23 November</div>
+      <h3>European participants may add signatures to the Pax Silica declaration</h3>
+      <p>Germany, Sweden, the Netherlands and the European Commission were reported as expected to sign the following week. Watch for the final roster and, more importantly, publication of the joint protected-technology list. Signatures are not yet confirmed.</p>
+    </article>
+    <article class="future-card">
+      <div class="when">Scheduled event · 18–19 November 2026</div>
+      <h3>APEC in Shenzhen tests the diplomatic backdrop</h3>
+      <p>The APEC leaders' meeting is scheduled for 18–19 November. CNA reports a possible Trump–Xi meeting on 19 November; treat the bilateral encounter as reported expectation, not a guaranteed outcome or a forecast of policy concessions.</p>
+    </article>
+    <article class="future-card">
+      <div class="when">Company / project targets · 2027</div>
+      <h3>Trinity Fab commissioning and OpenAI's robotics demonstration</h3>
+      <p>Reuters reports a May 2027 opening target for Trinity Fab; Korea JoongAng Daily says full operations are scheduled for Q4 2027. OpenAI's first public humanoid demonstration remains a company target for 2027, not a dated event.</p>
+    </article>
+    <article class="future-card">
+      <div class="when">Policy expectation · before year-end</div>
+      <h3>SEBI and Australia move from signals to draft rules</h3>
+      <p>SEBI has said detailed AI-use guidelines are coming, without a date. Australia's broader AI policy package is expected before the end of 2026. Draft language will determine whether the debate becomes a concrete compliance burden.</p>
+    </article>
+    <article class="future-card">
+      <div class="when">Scenario · next 3–12 months</div>
+      <h3>Allied supply-chain lists could shape investment screening</h3>
+      <p>If the Pax Silica partners publish a detailed list and establish working groups, firms may see more coordinated investment, procurement and technology-security expectations. The scenario depends on the list's scope and each government's implementation; no new rule is in force from the declaration alone.</p>
+    </article>
+    <article class="future-card">
+      <div class="when">Scenario · next 3–12 months</div>
+      <h3>General-purpose robot policies face a cost-and-latency test</h3>
+      <p>Expect more model-to-robot demonstrations, but the useful comparison will be task completion under real-world constraints: recovery, safety, latency, energy and cost per successful task. Simulation gains alone will not settle the specialist-versus-generalist question.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="ai-context">
+  <div class="section-head"><h2>AI in Context</h2><small>Three editorial observations</small></div>
+  <div class="analysis-grid">
+    <article class="analysis-card"><div class="num">01</div><h3>The supply-chain perimeter is becoming a policy object</h3><p>Pax Silica's new step is not a chip ban; it is an attempt to agree which links in the AI stack should be protected together. The practical test is whether a shared list changes procurement and investment behaviour.</p></article>
+    <article class="analysis-card"><div class="num">02</div><h3>Memory bottlenecks are also supplier-qualification bottlenecks</h3><p>SK hynix is investing in the ecosystem that proves materials and tools can survive production conditions. That may improve time-to-market, but a test bed is not itself new HBM capacity.</p></article>
+    <article class="analysis-card"><div class="num">03</div><h3>Generalist models still pay a systems tax in robotics</h3><p>OpenAI's reorganisation points to a model-centric strategy. NVIDIA's simulation results show the promise and the cost: higher task success in an agentic setup, but much higher token spend and multi-second inference. Physical reliability remains the hard test.</p></article>
+  </div>
+</section>
+
+<section class="section" id="glossary">
+  <div class="section-head"><h2>Plain-English Glossary</h2><small>Terms used in this edition</small></div>
+  <div class="glossary">
+    <div class="term"><strong>HBM</strong><p>High-bandwidth memory: stacked DRAM designed to feed data-hungry accelerators.</p></div>
+    <div class="term"><strong>DRAM</strong><p>Dynamic random-access memory, the main working memory used in many computers and accelerators.</p></div>
+    <div class="term"><strong>Trinity Fab</strong><p>A shared, production-like test facility for semiconductor suppliers; not a new chip-production line.</p></div>
+    <div class="term"><strong>Supplier qualification</strong><p>Testing a material, component or tool until it is trusted for use in a production process.</p></div>
+    <div class="term"><strong>Agentic policy</strong><p>A robot-control setup where a model can use tools and persistent context while deciding actions.</p></div>
+    <div class="term"><strong>Inference latency</strong><p>The time a model takes to return an answer or action after receiving an input.</p></div>
+    <div class="term"><strong>Robots.txt</strong><p>A website instruction file for crawlers; it is not, by itself, a legal licence or a guarantee that every bot will comply.</p></div>
+    <div class="term"><strong>Opt-out</strong><p>A default-use model in which a rights holder must actively signal that content should not be used.</p></div>
+    <div class="term"><strong>Backlog</strong><p>Contracted or committed future work not yet recognised as revenue; it is not the same as cash received.</p></div>
+    <div class="term"><strong>Deployed capacity</strong><p>Infrastructure that is installed, commissioned and available for use—not just announced or financed.</p></div>
+    <div class="term"><strong>Export control</strong><p>A government rule restricting the transfer or sale of specified goods, software or technology across borders.</p></div>
+    <div class="term"><strong>Impact radius</strong><p>The directly affected parties plus adjacent systems likely to feel second-order effects; forecasts are labelled separately.</p></div>
+  </div>
+</section>
+
+<section class="section" id="coverage-audit">
+  <div class="section-head"><h2>Coverage Audit &amp; Method</h2><small>What was checked · what was not verified</small></div>
+  <div class="audit-grid">
+    <div class="audit-box"><strong>06</strong><span>Distinct verified stories</span></div>
+    <div class="audit-box"><strong>03</strong><span>Main Desk</span></div>
+    <div class="audit-box"><strong>03</strong><span>More Signals</span></div>
+    <div class="audit-box"><strong>00</strong><span>Community Radar</span></div>
+    <div class="audit-box"><strong>04</strong><span>Repeat candidates excluded</span></div>
+    <div class="audit-box"><strong>00</strong><span>Material archive follow-ups</span></div>
+    <div class="audit-box"><strong>60</strong><span>Distinct domains/platforms targeted</span></div>
+    <div class="audit-box"><strong>19 / 16</strong><span>Domains opened / materially read</span></div>
+  </div>
+  <ul class="audit-list">
+    <li><strong>Research window:</strong> 14–16 November 2026, prioritising 15 and 16 November in Asia/Kolkata time. A few older primary studies were used only as clearly dated context, not as fresh releases.</li>
+    <li><strong>Source classes:</strong> company and platform release/status pages; government and regulator material; major newswires and regional reporting; semiconductor trade reporting; research papers and repositories; public social/community discovery.</li>
+    <li><strong>Access:</strong> 19 distinct domains returned opened pages; 16 were materially read. Three were partial (Financial Times paywall, SEBI speech landing/PDF wrapper without extracted speech text, and Microsoft's JavaScript-only status shell). The State Department Pax Silica page returned HTTP 403. OpenAI staff posts on X were encountered through reporting and mirrors, not directly opened on X.</li>
+    <li><strong>Historical deduplication:</strong> all 37 dated HTML files in <code>archive/</code> were fetched and inspected, alongside the root homepage, archive index and story registry. No dated archive page was unavailable. One missing edition-level registry record for the preserved 10 November original issue was identified and backfilled without deleting prior records.</li>
+    <li><strong>Repeat candidates excluded:</strong> LangChain's US$300m Series C (already covered 14 November), DeepSeek's full app/API expansion and Gemini 4 Hydrogen availability in Copilot (covered 15 November), and ChatGPT Wallet (covered 14 November). OpenAI Images 2.6 and the Q-CTRL / Mirendil funding announcements were not promoted because their publication dates fall outside this edition's 24–48-hour priority window.</li>
+    <li><strong>Model and benchmark scan:</strong> no material model/version or general-purpose benchmark change verified. The NVIDIA robotics study is dated 14 October and is labelled context, not a fresh benchmark release.</li>
+    <li><strong>Security and reliability scan:</strong> no new AI-specific exploit, agent privilege escalation, prompt-injection campaign or supply-chain compromise verified. Anthropic's 14 November access/billing issues are recorded with timeline and workaround. OpenAI, GitHub and Google Cloud status pages were checked; Microsoft's page could not be read.</li>
+    <li><strong>Compute and geopolitics scan:</strong> new Pax Silica declaration and SK hynix supplier investment verified. No date-matched Huawei Ascend, SMIC, HBM export-control or Nvidia availability change was confirmed.</li>
+    <li><strong>Energy and data-centre scan:</strong> no new date-matched data-centre power contract, grid connection or deployed-capacity milestone verified. Australia's policy debate includes data-centre energy and biodiversity concerns, but it is not a new project announcement.</li>
+    <li><strong>India and Asia scan:</strong> India’s signature on the San Francisco Declaration, SEBI's planned market-AI guidelines and SK hynix's Korean supplier programme were verified. No new India-specific foundation-model launch was verified.</li>
+    <li><strong>Other beats:</strong> no date-matched new open-weight/local-inference release, IDE/MCP/API launch, creator/multimodal product release or peer-reviewed science result cleared the evidence bar. Community discovery produced no separate item strong enough for Community Radar.</li>
+    <li><strong>Human newsroom edit:</strong> claims were narrowed to what the sources support; the Pax Silica document-access gap and SK hynix schedule discrepancy remain visible. No external linter is claimed to have been run.</li>
+  </ul>
+</section>
+
+<div class="share-fallback" id="share-fallback" aria-live="polite">
+  <h3>Share the edition</h3>
+  <p>This browser cannot attach the HTML file through Web Share. Copy the note below, then attach <strong>SIGNAL_AI_Daily_2026-11-16.html</strong> manually in your mail or messaging app.</p>
+  <textarea id="share-text" readonly> SIGNAL. — AI Daily · 16 November 2026
+Six verified developments: the new Pax Silica declaration signed by the US and eight partners including India; SK hynix's US$1.05bn supplier programme and Trinity Fab; OpenAI's clarified robotics reorganisation; SEBI's planned capital-markets AI guidelines; Australia's copyright debate; and Anthropic's limited 14 November service issues.
+Read the attached SIGNAL_AI_Daily_2026-11-16.html for the full edition and source links.
+GitHub issue: https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-16.html</textarea>
+  <p><button class="tool-btn primary" id="copy-share-text" type="button">Copy share note</button> <button class="tool-btn" id="close-share-fallback" type="button">Close</button></p>
+</div>
+</main>
+
+<footer class="footer">
+  <span>SIGNAL. · AI Daily · 16 November 2026</span>
+  <span>Source-linked · Human-edited · No paid data feed</span>
+  <span><a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/index.html">Archive</a> · <a href="https://github.com/Jagadeeswarh/signal-ai-news">Repository</a></span>
+</footer>
+</div>
+<script>
+(function(){
+  var search=document.getElementById('story-search');
+  var desk=document.getElementById('desk-filter');
+  var cards=Array.prototype.slice.call(document.querySelectorAll('[data-filterable="true"]'));
+  var count=document.getElementById('filter-count');
+  function filterStories(){
+    var q=(search.value||'').toLowerCase().trim();
+    var d=desk.value;
+    var shown=0;
+    cards.forEach(function(card){
+      var text=(card.innerText+' '+(card.getAttribute('data-search')||'')).toLowerCase();
+      var matchText=!q||text.indexOf(q)!==-1;
+      var matchDesk=d==='all'||card.getAttribute('data-desk')===d;
+      var visible=matchText&&matchDesk;
+      card.hidden=!visible;
+      if(visible)shown++;
+    });
+    count.textContent='Showing '+shown+' of '+cards.length+' stories';
+  }
+  search.addEventListener('input',filterStories);
+  desk.addEventListener('change',filterStories);
+  var play=document.getElementById('read-play');
+  var pause=document.getElementById('read-pause');
+  var stop=document.getElementById('read-stop');
+  var speed=document.getElementById('read-speed');
+  var utterance=null;
+  function speechSupported(){return 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;}
+  function startReading(){
+    if(!speechSupported()){play.textContent='Read aloud unavailable';return;}
+    window.speechSynthesis.cancel();
+    var target=document.getElementById('edition-content');
+    var textContent=target.innerText||target.textContent;
+    utterance=new SpeechSynthesisUtterance(textContent);
+    utterance.rate=parseFloat(speed.value||'1');
+    utterance.onend=function(){play.textContent='Read aloud';};
+    utterance.onerror=function(){play.textContent='Read aloud';};
+    window.speechSynthesis.speak(utterance);
+    play.textContent='Restart read-aloud';
+  }
+  play.addEventListener('click',function(){
+    if(!speechSupported()){play.textContent='Read aloud unavailable';return;}
+    if(window.speechSynthesis.paused){window.speechSynthesis.resume();play.textContent='Reading';return;}
+    if(window.speechSynthesis.speaking){window.speechSynthesis.pause();play.textContent='Resume';return;}
+    startReading();
+  });
+  pause.addEventListener('click',function(){
+    if(speechSupported()&&window.speechSynthesis.speaking){window.speechSynthesis.pause();play.textContent='Resume';}
+  });
+  stop.addEventListener('click',function(){
+    if(speechSupported()){window.speechSynthesis.cancel();}
+    play.textContent='Read aloud';
+  });
+  speed.addEventListener('change',function(){
+    if(speechSupported()&&window.speechSynthesis.speaking){startReading();}
+  });
+  document.getElementById('print-issue').addEventListener('click',function(){window.print();});
+  var fallback=document.getElementById('share-fallback');
+  var shareButton=document.getElementById('share-issue');
+  var shareText=document.getElementById('share-text');
+  async function copyText(){
+    var textValue=shareText.value;
+    try{
+      if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(textValue);}
+      else{shareText.focus();shareText.select();document.execCommand('copy');}
+      document.getElementById('copy-share-text').textContent='Copied';
+    }catch(e){shareText.focus();shareText.select();}
+  }
+  document.getElementById('copy-share-text').addEventListener('click',copyText);
+  document.getElementById('close-share-fallback').addEventListener('click',function(){fallback.classList.remove('show');});
+  shareButton.addEventListener('click',async function(){
+    var title='SIGNAL. — AI Daily | 16 November 2026';
+    var note='Six verified developments across AI supply chains, memory, robotics, regulation and reliability. Full source-linked HTML edition attached where supported.';
+    try{
+      var htmlText='<!doctype html>\n'+document.documentElement.outerHTML;
+      var file=new File([htmlText],'SIGNAL_AI_Daily_2026-11-16.html',{type:'text/html'});
+      if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+        await navigator.share({title:title,text:note,files:[file]});
+        return;
+      }
+    }catch(e){}
+    fallback.classList.add('show');
+    await copyText();
+  });
+})();
+</script>
+</body>
+</html>
