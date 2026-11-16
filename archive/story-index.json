@@ -3829,11 +3829,10 @@
       "humanized_editorial_pass": true,
       "external_linter_run": false,
       "status": "current_corrected_edition",
-      "superseded_by": "archive/2026-11-16-edition-2.html",
-      "revision_note": "Edition 2 corrects the Pax Silica signing date to 16 November; the original immutable edition remains preserved.",
       "revision_of": "archive/2026-11-16.html",
       "correction_count": 1,
-      "correction_summary": "Corrects the Pax Silica signing/publication date from 15 November to 16 November; all six stories and all other content remain unchanged."
+      "correction_summary": "Corrects the Pax Silica signing/publication date from 15 November to 16 November; all six stories and all other content remain unchanged.",
+      "supersedes": "archive/2026-11-16.html"
     }
   ],
   "stories": [
