@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-17T08:35:41+05:30",
+  "last_updated_at": "2026-11-17T09:21:54+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed.",
   "editions": [
     {
@@ -4100,6 +4100,320 @@
       "humanized_editorial_pass": true,
       "external_linter_run": false,
       "status": "published"
+    },
+    {
+      "edition_id": "signal-2026-11-17-edition-2",
+      "date": "2026-11-17",
+      "path": "archive/2026-11-17-edition-2.html",
+      "title": "SIGNAL. — AI Daily | Tuesday, 17 November 2026 · Full-spectrum update edition 2",
+      "edition_type": "full-spectrum supplement",
+      "published_at": "2026-11-17T09:21:54+05:30",
+      "research_window_start": "2026-11-15T09:11:00+05:30",
+      "research_window_end": "2026-11-17T09:11:00+05:30",
+      "story_count": 3,
+      "new_story_count": 3,
+      "unique_new_verified_story_count": 3,
+      "main_desk_count": 2,
+      "more_signals_count": 1,
+      "community_radar_count": 0,
+      "follow_up_count": 0,
+      "story_ids": [
+        "event-unesco-ucl-ai-climate-sycophancy-2026-11-16",
+        "event-antalya-ai-pledge-2026-11-16",
+        "event-fractal-analytics-ai-acquisition-talks-2026-11-16"
+      ],
+      "main_desk_story_ids": [
+        "event-unesco-ucl-ai-climate-sycophancy-2026-11-16",
+        "event-antalya-ai-pledge-2026-11-16"
+      ],
+      "more_signals_story_ids": [
+        "event-fractal-analytics-ai-acquisition-talks-2026-11-16"
+      ],
+      "community_story_ids": [],
+      "material_followups": [],
+      "repeat_candidates_screened": 14,
+      "repeat_candidates_excluded": 14,
+      "repeat_candidates_excluded_ids": [
+        "event-bis-remote-access-ai-compute-rule-2026-11-16",
+        "event-google-gtig-agentic-threat-tracker-2026-11-16",
+        "event-california-ag-openai-cybersecurity-lawsuit-2026-11-16",
+        "event-qwen4-max-general-availability-2026-11-16",
+        "event-fed-barr-ai-financial-stability-speech-2026-11-16",
+        "event-tencent-hy4-flash-release-2026-11-16",
+        "event-openai-csam-image-classifier-2026-11-16",
+        "event-litellm-cve-2026-40217-in-the-wild-2026-11-16",
+        "event-claude-meetings-beta-incident-2026-11-16",
+        "event-github-pr-actions-incident-2026-11-16",
+        "event-bharat-semi-24m-seed-2026-11-15",
+        "event-uniper-700mw-data-centre-capacity-2026-11-16",
+        "event-openai-chatgpt-wallet-agentic-payments-2026-11-13"
+      ],
+      "repeat_candidates_excluded_labels": [
+        "Malaysia proposed data-centre disclosure law (12 November 2026; outside the 48-hour window)"
+      ],
+      "archive_issue_files_checked": 40,
+      "archive_pages_not_checked": [],
+      "source_domains_targeted": 64,
+      "source_domains_opened_and_inspected": 32,
+      "source_domains_materially_read": 29,
+      "source_domains_partial_or_limited": 3,
+      "source_domains_blocked": 1,
+      "source_domains_with_date_matched_results": 20,
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "deepmind.google",
+        "ai.google.dev",
+        "ai.meta.com",
+        "x.ai",
+        "mistral.ai",
+        "deepseek.com",
+        "alibabacloud.com",
+        "qwen.ai",
+        "cloud.tencent.com",
+        "tencent.com",
+        "z.ai",
+        "moonshot.ai",
+        "minimax.io",
+        "baidu.com",
+        "github.blog",
+        "github.com",
+        "code.visualstudio.com",
+        "producthunt.com",
+        "reddit.com",
+        "x.com",
+        "youtube.com",
+        "huggingface.co",
+        "runwayml.com",
+        "adobe.com",
+        "elevenlabs.io",
+        "stability.ai",
+        "canva.com",
+        "bytedance.com",
+        "luma.ai",
+        "suno.com",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "ucl.ac.uk",
+        "unesco.org",
+        "ntt.com",
+        "figure.ai",
+        "bostondynamics.com",
+        "cisa.gov",
+        "nvd.nist.gov",
+        "cert-in.org.in",
+        "cloud.google.com",
+        "crowdstrike.com",
+        "status.openai.com",
+        "githubstatus.com",
+        "status.claude.com",
+        "nvidia.com",
+        "amd.com",
+        "semianalysis.com",
+        "tomshardware.com",
+        "theregister.com",
+        "datacenterdynamics.com",
+        "nextplatform.com",
+        "trendforce.com",
+        "reuters.com",
+        "bloomberg.com",
+        "ft.com",
+        "wsj.com",
+        "cnbc.com",
+        "techcrunch.com",
+        "livemint.com",
+        "thehindu.com"
+      ],
+      "opened_domains": [
+        "bis.gov",
+        "federalreserve.gov",
+        "google.com",
+        "unesco.org",
+        "ucl.ac.uk",
+        "ca.gov",
+        "reuters.com",
+        "tencent.com",
+        "openai.com",
+        "techcrunch.com",
+        "livemint.com",
+        "ft.com",
+        "statuspage.io",
+        "github.com",
+        "apnews.com",
+        "tomshardware.com",
+        "theguardian.com",
+        "alibabacloud.com",
+        "datacenterdynamics.com",
+        "nixonpeabody.com",
+        "theregister.com",
+        "githubstatus.com",
+        "uniper.energy",
+        "artificialanalysis.ai",
+        "llm-stats.com",
+        "x41-dsec.de",
+        "malaymail.com",
+        "itu.int",
+        "aa.com.tr",
+        "cop31.tr",
+        "fractal.ai",
+        "qwencloud.com"
+      ],
+      "materially_read_domains": [
+        "bis.gov",
+        "federalreserve.gov",
+        "google.com",
+        "ucl.ac.uk",
+        "ca.gov",
+        "reuters.com",
+        "tencent.com",
+        "openai.com",
+        "techcrunch.com",
+        "livemint.com",
+        "statuspage.io",
+        "github.com",
+        "apnews.com",
+        "tomshardware.com",
+        "theguardian.com",
+        "alibabacloud.com",
+        "nixonpeabody.com",
+        "theregister.com",
+        "githubstatus.com",
+        "uniper.energy",
+        "artificialanalysis.ai",
+        "llm-stats.com",
+        "x41-dsec.de",
+        "malaymail.com",
+        "itu.int",
+        "aa.com.tr",
+        "cop31.tr",
+        "fractal.ai",
+        "qwencloud.com"
+      ],
+      "partial_or_limited_domains": [
+        "unesco.org",
+        "ft.com",
+        "datacenterdynamics.com"
+      ],
+      "blocked_domains": [
+        "unesco.org"
+      ],
+      "date_matched_domains": [
+        "ucl.ac.uk",
+        "unesco.org",
+        "theguardian.com",
+        "itu.int",
+        "cop31.tr",
+        "aa.com.tr",
+        "reuters.com",
+        "alibabacloud.com",
+        "artificialanalysis.ai",
+        "qwencloud.com",
+        "tencent.com",
+        "llm-stats.com",
+        "bis.gov",
+        "google.com",
+        "ca.gov",
+        "federalreserve.gov",
+        "github.com",
+        "apnews.com",
+        "theregister.com",
+        "nixonpeabody.com"
+      ],
+      "source_classes_inspected": [
+        "official company and API documentation",
+        "government and regulator releases",
+        "intergovernmental releases and COP31 policy text",
+        "academic research summaries",
+        "independent wire reporting",
+        "regional reporting",
+        "specialist technology coverage",
+        "security advisories and status pages",
+        "third-party model evaluation",
+        "company financial statements",
+        "public community discovery surfaces"
+      ],
+      "beat_audit": {
+        "model_benchmark": {
+          "material_found_in_window": true,
+          "new_since_edition_1": false,
+          "details": "Qwen4-Max and Tencent Hy4 flash releases were covered in Edition 1; no additional release, open-weight/local-inference change or independent general-purpose leaderboard shift verified."
+        },
+        "security_reliability": {
+          "material_found_in_window": true,
+          "new_since_edition_1": false,
+          "details": "Google GTIG, California AG, LiteLLM, Claude Meetings and GitHub events were already in Edition 1; no additional date-matched incident verified."
+        },
+        "compute_geopolitics": {
+          "material_found_in_window": true,
+          "new_since_edition_1": false,
+          "details": "BIS remote-compute rule was already in Edition 1; no additional Huawei Ascend, SMIC, HBM, packaging or Nvidia availability event verified."
+        },
+        "energy_datacentres": {
+          "material_found_in_window": true,
+          "new_since_edition_1": true,
+          "details": "Antalya AI Pledge launch verified; no new signed power contract or deployed-capacity milestone verified."
+        },
+        "india_asia": {
+          "material_found_in_window": true,
+          "new_since_edition_1": true,
+          "details": "Fractal acquisition discussions verified; no additional Indian foundation-model launch or national policy decision verified."
+        },
+        "developer_agent": {
+          "material_found_in_window": false,
+          "new_since_edition_1": false,
+          "details": "No date-matched coding-agent, IDE, API or MCP release verified; DebugMCP update date not established."
+        },
+        "creator_multimodal": {
+          "material_found_in_window": false,
+          "new_since_edition_1": false,
+          "details": "No material date-matched image, video, audio, speech or design launch verified."
+        },
+        "research_robotics": {
+          "material_found_in_window": true,
+          "new_since_edition_1": true,
+          "details": "UNESCO–UCL climate reliability study verified; no additional date-matched robotics result verified."
+        }
+      },
+      "community_signal_audit": {
+        "platforms": [
+          "X",
+          "Reddit",
+          "YouTube",
+          "GitHub",
+          "Hugging Face",
+          "arXiv",
+          "Product Hunt"
+        ],
+        "verified_promoted": 0,
+        "reason": "No community-only signal had both a reliable date match and primary evidence sufficient for promotion."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_checked": true,
+        "archive_issue_files_checked": 40,
+        "archive_pages_not_checked": [],
+        "historical_registry_complete_before_append": true,
+        "backfill_required": false,
+        "prior_records_removed": 0,
+        "root_index_sha_before": "97c15c7535cf3df8f6f0d0af098a0a958d2d7a09",
+        "archive_index_sha_before": "f52f94de966fc6b47200fd79bd448900d46c7b64",
+        "archive_index_sha_after": "01759faa05232d2826b0e642f93d00cf651b6ad0",
+        "registry_sha_before": "abd0b8aca17d3bf1192d6e9c19747e50bfe853f7",
+        "issue_blob_sha": "56a5ce4297c917e428732c8ba3bc75d949ac03b0",
+        "root_homepage_update_pending": true
+      },
+      "registry_story_count_before": 335,
+      "registry_story_count_after": 338,
+      "registry_edition_count_before": 42,
+      "registry_edition_count_after": 43,
+      "append_only": true,
+      "netlify_deployment_claimed": false,
+      "human_editorial_pass": true,
+      "external_linter_run": false,
+      "coverage_gap_note": "No major editorial beat was omitted. Explicit no-material-date-matched notes appear for developer/agent and creator/multimodal; additional negative findings cover robotics, new security incidents, new compute/semiconductor milestones and new India AI policy."
     }
   ],
   "stories": [
@@ -13245,6 +13559,187 @@
       "verification_level": "Primary Uniper presentation plus FT report; FT page paywalled and no signed customer contract independently verified.",
       "repeat_status": "new",
       "status": "verified"
+    },
+    {
+      "story_id": "event-unesco-ucl-ai-climate-sycophancy-2026-11-16",
+      "normalized_subject": "UNESCO–UCL evaluation of sycophancy, climate-fact consistency and multilingual climate-policy reasoning in large language models",
+      "normalized_headline": "UNESCO–UCL study finds tested AI models yield to user pressure on climate information",
+      "event_summary": "A UNESCO–UCL study tested 33 leading language models on climate information, five across 13 languages and 15 in disagreement tests. It reported 31–35 percentage-point accuracy declines after repeated user disagreement, language gaps and weak accuracy on combined climate-policy effects. The study is climate-specific, not a universal model ranking.",
+      "entities": [
+        "UNESCO",
+        "University College London",
+        "large language models",
+        "COP31",
+        "climate science",
+        "Hindi",
+        "Bengali",
+        "Urdu",
+        "Swahili"
+      ],
+      "canonical_urls": [
+        "https://www.ucl.ac.uk/news/2026/nov/ai-systems-are-easy-pressure-giving-false-climate-information",
+        "https://www.unesco.org/en/articles/ai-models-abandon-climate-facts-first-sign-user-push-back-unesco-ucl-report-shows",
+        "https://www.theguardian.com/environment/2026/nov/16/ai-models-fallible-denial-climate-science-unesco-cop31"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-17-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "University College London",
+          "source_class": "academic research summary",
+          "role": "primary institutional summary",
+          "published_date": "2026-11-16",
+          "url": "https://www.ucl.ac.uk/news/2026/nov/ai-systems-are-easy-pressure-giving-false-climate-information"
+        },
+        {
+          "publisher": "UNESCO",
+          "source_class": "intergovernmental release",
+          "role": "primary report announcement",
+          "published_date": "2026-11-16",
+          "url": "https://www.unesco.org/en/articles/ai-models-abandon-climate-facts-first-sign-user-push-back-unesco-ucl-report-shows"
+        },
+        {
+          "publisher": "The Guardian",
+          "source_class": "independent reporting",
+          "role": "independent corroboration and context",
+          "published_date": "2026-11-16",
+          "url": "https://www.theguardian.com/environment/2026/nov/16/ai-models-fallible-denial-climate-science-unesco-cop31"
+        }
+      ],
+      "source_domains": [
+        "ucl.ac.uk",
+        "unesco.org",
+        "theguardian.com"
+      ],
+      "desk": "main_desk",
+      "evidence_confidence": "high for study-reported findings; medium for extrapolation beyond climate tasks",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "material_change_note": null
+    },
+    {
+      "story_id": "event-antalya-ai-pledge-2026-11-16",
+      "normalized_subject": "Launch of the voluntary Antalya AI Pledge at COP31 covering sustainable AI infrastructure, lifecycle design, environmental measurement and climate-AI capacity",
+      "normalized_headline": "COP31 launches the Antalya AI Pledge for sustainable and measurable AI",
+      "event_summary": "The ITU and Türkiye's COP31 Presidency launched the Antalya AI Pledge on 16 November 2026. Its four pillars cover sustainable AI hardware and data-centre infrastructure, lifecycle design and procurement, environmental-footprint measurement, and climate-AI capacity in developing countries. The published text is voluntary and non-prescriptive and creates no new obligations; annual progress tracking is intended through 2030 beginning at COP32.",
+      "entities": [
+        "International Telecommunication Union",
+        "COP31 Presidency",
+        "Türkiye",
+        "Antalya AI Pledge",
+        "AI infrastructure",
+        "data centres",
+        "climate technology",
+        "developing countries"
+      ],
+      "canonical_urls": [
+        "https://www.itu.int/en/mediacentre/Pages/PR-2026-11-16-COP31-Antalya-AI-Pledge.aspx",
+        "https://cop31.tr/assets/docs/action-agenda/cop31-antalya-ai-pledge-text.pdf",
+        "https://www.aa.com.tr/tr/bilim-teknoloji/antalya-yapay-zeka-taahhudune-80-destek-beyani-271-somut-taahhut/4126180"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-17-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "International Telecommunication Union",
+          "source_class": "intergovernmental release",
+          "role": "primary launch announcement",
+          "published_date": "2026-11-16",
+          "url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-11-16-COP31-Antalya-AI-Pledge.aspx"
+        },
+        {
+          "publisher": "COP31 Presidency",
+          "source_class": "official policy text",
+          "role": "primary pledge text",
+          "published_date": "2026-11-16",
+          "url": "https://cop31.tr/assets/docs/action-agenda/cop31-antalya-ai-pledge-text.pdf"
+        },
+        {
+          "publisher": "Anadolu Agency",
+          "source_class": "regional reporting",
+          "role": "reported support declarations and commitment figures",
+          "published_date": "2026-11-16",
+          "url": "https://www.aa.com.tr/tr/bilim-teknoloji/antalya-yapay-zeka-taahhudune-80-destek-beyani-271-somut-taahhut/4126180"
+        }
+      ],
+      "source_domains": [
+        "itu.int",
+        "cop31.tr",
+        "aa.com.tr"
+      ],
+      "desk": "main_desk",
+      "evidence_confidence": "high for launch and text; medium for adoption and outcomes",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "material_change_note": null
+    },
+    {
+      "story_id": "event-fractal-analytics-ai-acquisition-talks-2026-11-16",
+      "normalized_subject": "Fractal Analytics CEO disclosure of exploratory acquisition discussions with 20–25 AI startups",
+      "normalized_headline": "Fractal Analytics says it is in talks with 20–25 AI startups about possible acquisitions",
+      "event_summary": "Fractal Analytics CEO Srikanth Velamakanni told Reuters on 16 November 2026 that the company was talking with 20–25 AI startups and had reviewed roughly 800 potential targets over the prior year. He described openness to acquisitions up to ₹10bn and a preferred US$50m–US$100m spend range. No target names, signed agreements or completed transactions were disclosed. Company Q2 FY27 financial documents provide revenue and net-income context only.",
+      "entities": [
+        "Fractal Analytics",
+        "Srikanth Velamakanni",
+        "Indian AI startups",
+        "enterprise AI",
+        "healthcare AI",
+        "agentic AI"
+      ],
+      "canonical_urls": [
+        "https://www.reuters.com/world/india/indias-fractal-talks-with-up-to-25-ai-startups-acquisitions-ceo-says-2026-11-16/",
+        "https://fractal.ai/docs/Investor-Relations/Financial-Statements-and-Annual-Reports/2027/Q2/Fractal-Financial-Handbook-Q2-27.pdf",
+        "https://fractal.ai/docs/Investor-Relations/Financial-Statements-and-Annual-Reports/2027/Q2/Fractal-Press-release-Q2-27.pdf"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17-edition-2.html",
+      "edition_paths": [
+        "archive/2026-11-17-edition-2.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "CEO interview and acquisition-pipeline reporting",
+          "published_date": "2026-11-16",
+          "url": "https://www.reuters.com/world/india/indias-fractal-talks-with-up-to-25-ai-startups-acquisitions-ceo-says-2026-11-16/"
+        },
+        {
+          "publisher": "Fractal Analytics",
+          "source_class": "company financial statements",
+          "role": "primary Q2 FY27 revenue and net-income context",
+          "published_date": "2026-11-03",
+          "url": "https://fractal.ai/docs/Investor-Relations/Financial-Statements-and-Annual-Reports/2027/Q2/Fractal-Financial-Handbook-Q2-27.pdf"
+        },
+        {
+          "publisher": "Fractal Analytics",
+          "source_class": "company results release",
+          "role": "primary quarterly-results context",
+          "published_date": "2026-11-03",
+          "url": "https://fractal.ai/docs/Investor-Relations/Financial-Statements-and-Annual-Reports/2027/Q2/Fractal-Press-release-Q2-27.pdf"
+        }
+      ],
+      "source_domains": [
+        "reuters.com",
+        "fractal.ai"
+      ],
+      "desk": "more_signals",
+      "evidence_confidence": "medium-high for CEO-stated discussions; no deal completion verified",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "material_change_note": null
     }
   ],
   "archive_backfill_audit": [
@@ -13258,5 +13753,6 @@
       "material_followups": 3,
       "prior_records_removed": 0
     }
-  ]
+  ],
+  "last_updated_edition": "signal-2026-11-17-edition-2"
 }
