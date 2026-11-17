@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-16T08:12:00+05:30",
+  "last_updated_at": "2026-11-17T08:35:41+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed.",
   "editions": [
     {
@@ -3833,6 +3833,273 @@
       "correction_count": 1,
       "correction_summary": "Corrects the Pax Silica signing/publication date from 15 November to 16 November; all six stories and all other content remain unchanged.",
       "supersedes": "archive/2026-11-16.html"
+    },
+    {
+      "edition_id": "signal-2026-11-17",
+      "date": "2026-11-17",
+      "path": "archive/2026-11-17.html",
+      "published_at": "2026-11-17T08:35:41+05:30",
+      "title": "SIGNAL. — AI Daily | Tuesday, 17 November 2026",
+      "edition_type": "full-spectrum",
+      "story_ids": [
+        "event-bis-remote-access-ai-compute-rule-2026-11-16",
+        "event-google-gtig-agentic-threat-tracker-2026-11-16",
+        "event-california-ag-openai-cybersecurity-lawsuit-2026-11-16",
+        "event-qwen4-max-general-availability-2026-11-16",
+        "event-fed-barr-ai-financial-stability-speech-2026-11-16",
+        "event-tencent-hy4-flash-release-2026-11-16",
+        "event-openai-csam-image-classifier-2026-11-16",
+        "event-litellm-cve-2026-40217-in-the-wild-2026-11-16",
+        "event-claude-meetings-beta-incident-2026-11-16",
+        "event-github-pr-actions-incident-2026-11-16",
+        "event-bharat-semi-24m-seed-2026-11-15",
+        "event-uniper-700mw-data-centre-capacity-2026-11-16"
+      ],
+      "story_count": 12,
+      "main_desk_story_ids": [
+        "event-bis-remote-access-ai-compute-rule-2026-11-16",
+        "event-google-gtig-agentic-threat-tracker-2026-11-16",
+        "event-california-ag-openai-cybersecurity-lawsuit-2026-11-16",
+        "event-qwen4-max-general-availability-2026-11-16",
+        "event-fed-barr-ai-financial-stability-speech-2026-11-16",
+        "event-tencent-hy4-flash-release-2026-11-16"
+      ],
+      "more_signals_story_ids": [
+        "event-openai-csam-image-classifier-2026-11-16",
+        "event-litellm-cve-2026-40217-in-the-wild-2026-11-16",
+        "event-claude-meetings-beta-incident-2026-11-16",
+        "event-github-pr-actions-incident-2026-11-16",
+        "event-bharat-semi-24m-seed-2026-11-15",
+        "event-uniper-700mw-data-centre-capacity-2026-11-16"
+      ],
+      "community_story_ids": [],
+      "main_desk_count": 6,
+      "more_signals_count": 6,
+      "community_radar_count": 0,
+      "new_story_count": 8,
+      "follow_up_count": 4,
+      "unique_new_verified_story_count": 8,
+      "repeat_candidates_screened": 10,
+      "repeat_candidates_excluded": 6,
+      "unchanged_repeat_candidates_excluded": [
+        "Pax Silica declaration (already covered in 16 November edition; no material change)",
+        "ChatGPT Wallet / Dots payment rail (no new availability or material change)",
+        "Gemini 4 Carbon launch (no new access or benchmark change)",
+        "Anthropic Fable 5.2 / Mythos 5.2 initial release (no material new release or benchmark change)",
+        "Jensen Huang leadership story (no new material update)",
+        "SEBI AI-use guideline announcement (no new material update)"
+      ],
+      "material_followups": [
+        {
+          "story_id": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+          "follow_up_of": "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+          "prior_issue_path": "archive/2026-11-12.html"
+        },
+        {
+          "story_id": "event-qwen4-max-general-availability-2026-11-16",
+          "follow_up_of": "event-qwen4-max-preview-token-plan-2026-11-11",
+          "prior_issue_path": "archive/2026-11-13-edition-4.html"
+        },
+        {
+          "story_id": "event-fed-barr-ai-financial-stability-speech-2026-11-16",
+          "follow_up_of": "event-fed-barr-ai-job-disruption-labor-share-2026-11-12",
+          "prior_issue_path": "archive/2026-11-13.html"
+        },
+        {
+          "story_id": "event-claude-meetings-beta-incident-2026-11-16",
+          "follow_up_of": "event-anthropic-claude-meetings-beta-2026-11-12",
+          "prior_issue_path": "archive/2026-11-13-edition-4.html"
+        }
+      ],
+      "source_domains_targeted": 64,
+      "source_domains_opened_and_inspected": 26,
+      "source_domains_materially_read": 24,
+      "source_domains_partial_or_limited": 2,
+      "source_domains_blocked": 0,
+      "source_domains_with_date_matched_results": 20,
+      "source_classes_inspected": [
+        "official regulator releases and rule text",
+        "official company / lab product releases and API documentation",
+        "official threat-intelligence reports",
+        "official service-status pages",
+        "independent wire reporting",
+        "independent technology and regional reporting",
+        "third-party model benchmark evaluation",
+        "security advisory database",
+        "public community / research discovery platforms"
+      ],
+      "source_domain_audit": {
+        "targeted_domains": [
+          "openai.com",
+          "anthropic.com",
+          "deepmind.google",
+          "blog.google",
+          "ai.meta.com",
+          "x.ai",
+          "microsoft.com",
+          "aws.amazon.com",
+          "mistral.ai",
+          "deepseek.com",
+          "alibabacloud.com",
+          "qwen.ai",
+          "tencent.com",
+          "baidu.com",
+          "zhipuai.cn",
+          "moonshot.ai",
+          "minimax.io",
+          "github.blog",
+          "github.com",
+          "huggingface.co",
+          "cursor.com",
+          "langchain.com",
+          "producthunt.com",
+          "reddit.com",
+          "x.com",
+          "youtube.com",
+          "arxiv.org",
+          "paperswithcode.com",
+          "cisa.gov",
+          "cert-in.org.in",
+          "bis.gov",
+          "federalregister.gov",
+          "commerce.gov",
+          "nist.gov",
+          "cloudflare.com",
+          "security.googleblog.com",
+          "cloud.google.com",
+          "therecord.media",
+          "bleepingcomputer.com",
+          "darkreading.com",
+          "securityweek.com",
+          "nvidia.com",
+          "developer.nvidia.com",
+          "amd.com",
+          "tsmc.com",
+          "skhynix.com",
+          "trendforce.com",
+          "semianalysis.com",
+          "datacenterdynamics.com",
+          "eia.gov",
+          "nikkei.com",
+          "scmp.com",
+          "reuters.com",
+          "apnews.com",
+          "techcrunch.com",
+          "ft.com",
+          "livemint.com",
+          "moneycontrol.com",
+          "business-standard.com",
+          "economictimes.indiatimes.com",
+          "timesofindia.indiatimes.com",
+          "thehindu.com",
+          "restofworld.org",
+          "asia.nikkei.com"
+        ],
+        "opened_domains": [
+          "bis.gov",
+          "cloud.google.com",
+          "theregister.com",
+          "reuters.com",
+          "techcrunch.com",
+          "nixonpeabody.com",
+          "oag.ca.gov",
+          "apnews.com",
+          "alibabacloud.com",
+          "artificialanalysis.ai",
+          "tencent.com",
+          "llm-stats.com",
+          "openai.com",
+          "deploymentsafety.openai.com",
+          "developers.openai.com",
+          "status.claude.com",
+          "githubstatus.com",
+          "github.com",
+          "uniper.energy",
+          "federalreserve.gov",
+          "livemint.com",
+          "nvidia.com",
+          "status.openai.com",
+          "status.cloud.google.com",
+          "ft.com",
+          "status.cloud.microsoft"
+        ],
+        "materially_read_domains": [
+          "bis.gov",
+          "cloud.google.com",
+          "theregister.com",
+          "reuters.com",
+          "techcrunch.com",
+          "nixonpeabody.com",
+          "oag.ca.gov",
+          "apnews.com",
+          "alibabacloud.com",
+          "artificialanalysis.ai",
+          "tencent.com",
+          "llm-stats.com",
+          "openai.com",
+          "deploymentsafety.openai.com",
+          "developers.openai.com",
+          "status.claude.com",
+          "githubstatus.com",
+          "github.com",
+          "uniper.energy",
+          "federalreserve.gov",
+          "livemint.com",
+          "nvidia.com",
+          "status.openai.com",
+          "status.cloud.google.com"
+        ],
+        "partial_or_limited_domains": [
+          {
+            "domain": "ft.com",
+            "reason": "Article page opened but subscription wall prevented material reading; company presentation used for capacity facts."
+          },
+          {
+            "domain": "status.cloud.microsoft",
+            "reason": "Status page returned a JavaScript shell and could not be materially read."
+          }
+        ],
+        "blocked_domains": [],
+        "date_matched_domains": [
+          "bis.gov",
+          "cloud.google.com",
+          "theregister.com",
+          "reuters.com",
+          "techcrunch.com",
+          "nixonpeabody.com",
+          "oag.ca.gov",
+          "apnews.com",
+          "alibabacloud.com",
+          "artificialanalysis.ai",
+          "tencent.com",
+          "llm-stats.com",
+          "openai.com",
+          "status.claude.com",
+          "githubstatus.com",
+          "github.com",
+          "uniper.energy",
+          "federalreserve.gov",
+          "livemint.com",
+          "nvidia.com"
+        ]
+      },
+      "coverage_gap_note": "No major beat omitted. No material date-matched creator-generation launch, research / robotics result, open-weight release, or new Huawei Ascend / SMIC / HBM / advanced-packaging / NVIDIA-availability change verified. FT paywall and Microsoft status JavaScript shell are explicit access gaps. Hy4 flash benchmark evidence remains vendor-run; no independent reproduction verified.",
+      "infrastructure_geopolitics_check": "Material: BIS remote-access interim final rule. No separate date-matched Huawei Ascend, SMIC, HBM, advanced packaging or NVIDIA availability change verified.",
+      "security_reliability_check": "Material: Google GTIG agentic threat report, LiteLLM CVE exploitation evidence, California OpenAI filing, Claude Meetings beta incident and GitHub PR / Actions incident. No evidence that service reliability incidents were attacks.",
+      "energy_datacentre_check": "Material: Uniper describes around 700MW of secured grid capacity at advanced stage. No signed tenant contract or deployed / consumed capacity independently verified.",
+      "india_asia_check": "Material: Bharat Semi US$24m seed, Qwen4-Max and Tencent Hy4 flash releases, and BIS coverage of Singapore, Malaysia, Indonesia and Thailand. No new Indian AI policy event verified.",
+      "social_discovery_note": "X, Reddit, YouTube, GitHub, Hugging Face, Product Hunt and arXiv were used for discovery. No community-only item passed the verification threshold; no unverified signal promoted.",
+      "archive_issue_files_checked": 39,
+      "archive_pages_unavailable": 0,
+      "archive_pages_not_checked": [],
+      "registry_story_count_before": 323,
+      "registry_story_count_after": 335,
+      "registry_edition_count_before": 41,
+      "registry_edition_count_after": 42,
+      "prior_records_removed": 0,
+      "humanized_editorial_pass": true,
+      "external_linter_run": false,
+      "status": "published"
     }
   ],
   "stories": [
@@ -12354,6 +12621,630 @@
         "Anthropic status page · incident history checked 16 Nov 2026"
       ],
       "delivery_note": "Service reliability item, not a security incident. The Apple sign-in entry had no explicit resolution line in the visible history; status page reported no new incidents on 15–16 Nov."
+    },
+    {
+      "story_id": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+      "normalized_subject": "BIS licensing for remote access to advanced AI compute through overseas data centres",
+      "normalized_headline": "BIS issues interim final rule on remote access to advanced AI chips",
+      "entities": [
+        "US Bureau of Industry and Security",
+        "US Department of Commerce",
+        "Singapore",
+        "Malaysia",
+        "Indonesia",
+        "Thailand",
+        "Brazil",
+        "advanced AI chips",
+        "overseas data centres"
+      ],
+      "event_summary": "BIS issued an interim final rule adding licensing and diligence requirements for covered advanced-chip transfers and overseas data-centre arrangements that provide significant compute to restricted-country firms. The rule specifies a 12M TPP threshold, five destination countries and a 90-day transition after the actual effective date; the posted text still contains Federal Register date placeholders.",
+      "canonical_urls": [
+        "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/",
+        "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+        "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+      "prior_issue_path": "archive/2026-11-12.html",
+      "material_change": "BIS moved from delay / policy review to an issued interim final rule specifying remote-access licensing, a 12M TPP threshold, five destination countries and a 90-day transition after effectiveness.",
+      "follow_up_editions": [
+        {
+          "date": "2026-11-17",
+          "path": "archive/2026-11-17.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-12.html",
+          "material_change": "BIS moved from delay / policy review to an issued interim final rule specifying remote-access licensing, a 12M TPP threshold, five destination countries and a 90-day transition after effectiveness."
+        }
+      ],
+      "source_domains": [
+        "bis.gov",
+        "reuters.com",
+        "techcrunch.com",
+        "nixonpeabody.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+          "type": "primary_regulator",
+          "publisher": "US BIS"
+        },
+        {
+          "url": "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/",
+          "type": "independent_reporting",
+          "publisher": "Reuters"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+          "type": "independent_reporting",
+          "publisher": "TechCrunch"
+        },
+        {
+          "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
+          "type": "legal_analysis",
+          "publisher": "Nixon Peabody"
+        }
+      ],
+      "desk": "policy_compute",
+      "verification_level": "Primary BIS release and rule text; cross-checked with Reuters, TechCrunch and legal analysis.",
+      "repeat_status": "material_follow_up",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-google-gtig-agentic-threat-tracker-2026-11-16",
+      "normalized_subject": "Google GTIG observed agentic exploit development and coding-agent configuration supply-chain abuse",
+      "normalized_headline": "Google reports autonomous exploit tooling and Claude Code configuration backdoor",
+      "entities": [
+        "Google Threat Intelligence Group",
+        "exploit_agent",
+        "Claude Code",
+        "SOMBERMEME",
+        "MIDNIGHT NEPTUNE",
+        "LiteLLM",
+        "French media",
+        "education organisations"
+      ],
+      "event_summary": "GTIG reported an exposed staging server hosting an agent framework that compared patches, searched for vulnerabilities, drafted and executed exploit code, and contained exfiltrated data. The same tracker described a separate repository campaign using .claude/settings.json to fetch a backdoor at Claude Code startup. GTIG did not publish a success rate for the exploit framework or name the victims.",
+      "canonical_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+        "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": null,
+      "prior_issue_path": null,
+      "material_change": null,
+      "follow_up_editions": [],
+      "source_domains": [
+        "cloud.google.com",
+        "theregister.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+          "type": "primary_threat_intelligence",
+          "publisher": "Google GTIG"
+        },
+        {
+          "url": "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926",
+          "type": "independent_reporting",
+          "publisher": "The Register"
+        }
+      ],
+      "desk": "security_agent_systems",
+      "verification_level": "Primary GTIG threat-intelligence report; independently reported by The Register. Exploit success rate and full victim scope not disclosed.",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-california-ag-openai-cybersecurity-lawsuit-2026-11-16",
+      "normalized_subject": "California Attorney General lawsuit against OpenAI over agent cybersecurity and containment",
+      "normalized_headline": "California sues OpenAI over alleged agent-control and cybersecurity failures",
+      "entities": [
+        "California Attorney General Rob Bonta",
+        "OpenAI",
+        "Hugging Face",
+        "ChatGPT",
+        "California Department of Justice"
+      ],
+      "event_summary": "California filed a state lawsuit alleging OpenAI failed to adequately contain and disclose risks from agentic systems, centring on a July incident involving a cyberattack on Hugging Face. The Attorney General cited 80 known incidents; the count and allegations are not adjudicated findings. OpenAI says it strengthened safeguards and published technical and independent reports.",
+      "canonical_urls": [
+        "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+        "https://apnews.com/article/chatgpt-openai-hugging-face-ai-risk-1dd7be56134b4f09fb2fb974803edc69",
+        "https://www.reuters.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-2026-11-16/"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": null,
+      "prior_issue_path": null,
+      "material_change": null,
+      "follow_up_editions": [],
+      "source_domains": [
+        "oag.ca.gov",
+        "apnews.com",
+        "reuters.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "type": "primary_regulator",
+          "publisher": "California Attorney General"
+        },
+        {
+          "url": "https://apnews.com/article/chatgpt-openai-hugging-face-ai-risk-1dd7be56134b4f09fb2fb974803edc69",
+          "type": "independent_reporting",
+          "publisher": "Associated Press"
+        },
+        {
+          "url": "https://www.reuters.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-2026-11-16/",
+          "type": "independent_reporting",
+          "publisher": "Reuters"
+        }
+      ],
+      "desk": "law_safety",
+      "verification_level": "Official filing announcement and independent AP / Reuters reporting; allegations explicitly attributed.",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-qwen4-max-general-availability-2026-11-16",
+      "normalized_subject": "Qwen4-Max transition from preview to general availability",
+      "normalized_headline": "Qwen4-Max production API replaces preview access",
+      "entities": [
+        "Alibaba Cloud",
+        "Qwen",
+        "Qwen4-Max",
+        "QwenCloud",
+        "Artificial Analysis"
+      ],
+      "event_summary": "Alibaba made Qwen4-Max available as a production API model, advertising a one-million-token context and multimodal input. Artificial Analysis measured an Intelligence Index of 43, rank 38 of 81, with slow task completion and high output volume. The preview model ID is scheduled to retire on 25 November.",
+      "canonical_urls": [
+        "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783",
+        "https://artificialanalysis.ai/models/qwen4-max",
+        "https://docs.qwencloud.com/models/qwen4-max-preview"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": "event-qwen4-max-preview-token-plan-2026-11-11",
+      "prior_issue_path": "archive/2026-11-13-edition-4.html",
+      "material_change": "Production API access is now available under qwen4-max; the preview identifier has a dated retirement on 25 November and third-party evaluation is now available.",
+      "follow_up_editions": [
+        {
+          "date": "2026-11-17",
+          "path": "archive/2026-11-17.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-13-edition-4.html",
+          "material_change": "Production API access is now available under qwen4-max; the preview identifier has a dated retirement on 25 November and third-party evaluation is now available."
+        }
+      ],
+      "source_domains": [
+        "alibabacloud.com",
+        "artificialanalysis.ai",
+        "docs.qwencloud.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783",
+          "type": "primary_company_release",
+          "publisher": "Alibaba Cloud"
+        },
+        {
+          "url": "https://artificialanalysis.ai/models/qwen4-max",
+          "type": "independent_benchmark",
+          "publisher": "Artificial Analysis"
+        },
+        {
+          "url": "https://docs.qwencloud.com/models/qwen4-max-preview",
+          "type": "primary_api_documentation",
+          "publisher": "Qwen Cloud"
+        }
+      ],
+      "desk": "models_api",
+      "verification_level": "Primary Alibaba release and Qwen API docs; independent Artificial Analysis evaluation.",
+      "repeat_status": "material_follow_up",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-fed-barr-ai-financial-stability-speech-2026-11-16",
+      "normalized_subject": "Federal Reserve Governor Michael Barr speech on AI financial stability implications",
+      "normalized_headline": "Barr expands AI risk warning to debt, contingent liabilities and bank-run channels",
+      "entities": [
+        "Federal Reserve",
+        "Michael Barr",
+        "AI infrastructure debt",
+        "hyperscalers",
+        "GPU suppliers",
+        "financial stability"
+      ],
+      "event_summary": "Barr's 16 November speech cited more than US$800bn of on-balance-sheet debt at seven large AI firms before year-end and more than US$3tn in potential maximum nominal off-balance-sheet liabilities. He also described circular financing and agent-driven financial-stability channels. The figures are estimates and contingent exposures, not cash already spent.",
+      "canonical_urls": [
+        "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+        "https://www.reuters.com/world/feds-barr-warns-ai-risks-financial-system-2026-11-16/"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": "event-fed-barr-ai-job-disruption-labor-share-2026-11-12",
+      "prior_issue_path": "archive/2026-11-13.html",
+      "material_change": "Barr's new speech adds AI-sector leverage, off-balance-sheet commitments, circular financing, market herding and agent-driven bank-run risk to the earlier labour-market warning.",
+      "follow_up_editions": [
+        {
+          "date": "2026-11-17",
+          "path": "archive/2026-11-17.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-13.html",
+          "material_change": "Barr's new speech adds AI-sector leverage, off-balance-sheet commitments, circular financing, market herding and agent-driven bank-run risk to the earlier labour-market warning."
+        }
+      ],
+      "source_domains": [
+        "federalreserve.gov",
+        "reuters.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+          "type": "primary_speech",
+          "publisher": "Federal Reserve Board"
+        },
+        {
+          "url": "https://www.reuters.com/world/feds-barr-warns-ai-risks-financial-system-2026-11-16/",
+          "type": "independent_reporting",
+          "publisher": "Reuters"
+        }
+      ],
+      "desk": "business_financial_stability",
+      "verification_level": "Primary Federal Reserve speech and Reuters reporting; contingent liabilities clearly distinguished from drawn debt.",
+      "repeat_status": "material_follow_up",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-tencent-hy4-flash-release-2026-11-16",
+      "normalized_subject": "Tencent Hy4 flash low-cost API model release",
+      "normalized_headline": "Tencent launches Hy4 flash for low-cost everyday agent workloads",
+      "entities": [
+        "Tencent",
+        "Hy4 flash",
+        "Hy4",
+        "DeepSeek-V4.1-Flash-1017",
+        "TokenHub",
+        "WorkBuddy"
+      ],
+      "event_summary": "Tencent released Hy4 flash with a one-million-token context, image input and low API pricing. Tencent published internal and vendor-run benchmark results showing weaker long-horizon coding than Hy4. Independent analysis found no third-party reproduction of the benchmark claims.",
+      "canonical_urls": [
+        "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+        "https://llm-stats.com/blog/research/hy4-flash-launch"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": null,
+      "prior_issue_path": null,
+      "material_change": null,
+      "follow_up_editions": [],
+      "source_domains": [
+        "tencent.com",
+        "llm-stats.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+          "type": "primary_company_release",
+          "publisher": "Tencent"
+        },
+        {
+          "url": "https://llm-stats.com/blog/research/hy4-flash-launch",
+          "type": "independent_analysis_of_vendor_results",
+          "publisher": "LLM Stats"
+        }
+      ],
+      "desk": "models_inference",
+      "verification_level": "Primary Tencent release and independent analysis of vendor-run benchmark appendix; no independent reproduction.",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-openai-csam-image-classifier-2026-11-16",
+      "normalized_subject": "OpenAI CSAM Image Classifier API release for approved safety organisations",
+      "normalized_headline": "OpenAI releases specialised CSAM image-classification API",
+      "entities": [
+        "OpenAI",
+        "CSAM Image Classifier",
+        "NCMEC",
+        "trust and safety teams"
+      ],
+      "event_summary": "OpenAI announced a specialised image classifier for approved organisations. It returns risk scores for likely CSAM and likely AI-generated CSAM, with human review required and limitations documented in the model card.",
+      "canonical_urls": [
+        "https://openai.com/index/strengthening-online-child-safety/",
+        "https://deploymentsafety.openai.com/csam-image-classifier/introduction",
+        "https://developers.openai.com/api/docs/guides/csam-guidance"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": null,
+      "prior_issue_path": null,
+      "material_change": null,
+      "follow_up_editions": [],
+      "source_domains": [
+        "openai.com",
+        "deploymentsafety.openai.com",
+        "developers.openai.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://openai.com/index/strengthening-online-child-safety/",
+          "type": "primary_company_release",
+          "publisher": "OpenAI"
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/csam-image-classifier/introduction",
+          "type": "primary_model_card",
+          "publisher": "OpenAI Deployment Safety Hub"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/csam-guidance",
+          "type": "primary_api_documentation",
+          "publisher": "OpenAI API"
+        }
+      ],
+      "desk": "safety_models",
+      "verification_level": "Primary OpenAI release, model card and API guidance; no independent public reproduction verified.",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-litellm-cve-2026-40217-in-the-wild-2026-11-16",
+      "normalized_subject": "Observed in-the-wild exploitation of LiteLLM CVE-2026-40217",
+      "normalized_headline": "Google observes exploitation of LiteLLM custom-code sandbox escape",
+      "entities": [
+        "LiteLLM",
+        "CVE-2026-40217",
+        "Google GTIG",
+        "GitHub Advisory Database",
+        "LLM-jacking"
+      ],
+      "event_summary": "Google's 16 November threat tracker reports an attacker using CVE-2026-40217 in an LLM-jacking intrusion. The GitHub-reviewed advisory describes a custom-code guardrail sandbox escape that can execute code in the proxy process when a proxy-admin credential is available.",
+      "canonical_urls": [
+        "https://github.com/advisories/GHSA-wxxx-gvqv-xp7p",
+        "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": null,
+      "prior_issue_path": null,
+      "material_change": null,
+      "follow_up_editions": [],
+      "source_domains": [
+        "github.com",
+        "cloud.google.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://github.com/advisories/GHSA-wxxx-gvqv-xp7p",
+          "type": "security_advisory",
+          "publisher": "GitHub Advisory Database"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+          "type": "primary_threat_intelligence",
+          "publisher": "Google GTIG"
+        }
+      ],
+      "desk": "security_vulnerability",
+      "verification_level": "GitHub-reviewed advisory plus Google GTIG observation of active exploitation; scope not quantified.",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-claude-meetings-beta-incident-2026-11-16",
+      "normalized_subject": "Claude Meetings beta join reliability incident",
+      "normalized_headline": "Claude Meetings pauses Team joins and auto-join after demand spike",
+      "entities": [
+        "Anthropic",
+        "Claude Meetings",
+        "Claude Team",
+        "Claude Enterprise"
+      ],
+      "event_summary": "Anthropic's status page records a demand-related incident beginning 16 November. Team users could not add Claude to new calls and auto-join was paused; Enterprise access was restored on 17 November while Team restoration remained pending at the edition cut-off.",
+      "canonical_urls": [
+        "https://status.claude.com/incidents/b5cq662qf2wm"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": "event-anthropic-claude-meetings-beta-2026-11-12",
+      "prior_issue_path": "archive/2026-11-13-edition-4.html",
+      "material_change": "The previously announced beta experienced a service degradation: Team join and auto-join were paused, while Enterprise was restored with slower join performance.",
+      "follow_up_editions": [
+        {
+          "date": "2026-11-17",
+          "path": "archive/2026-11-17.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-13-edition-4.html",
+          "material_change": "The previously announced beta experienced a service degradation: Team join and auto-join were paused, while Enterprise was restored with slower join performance."
+        }
+      ],
+      "source_domains": [
+        "status.claude.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://status.claude.com/incidents/b5cq662qf2wm",
+          "type": "primary_status_incident",
+          "publisher": "Anthropic Status"
+        }
+      ],
+      "desk": "reliability",
+      "verification_level": "Primary Anthropic incident timeline; status impact and mitigation stated by vendor.",
+      "repeat_status": "material_follow_up",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-github-pr-actions-incident-2026-11-16",
+      "normalized_subject": "GitHub pull request merge and Actions workflow start degradation",
+      "normalized_headline": "GitHub resolves pull-request merge and Actions delays",
+      "entities": [
+        "GitHub",
+        "GitHub Pull Requests",
+        "GitHub Actions"
+      ],
+      "event_summary": "GitHub status history records a 16 November service incident that increased pull-request merge timeouts to 4.75% from a 0.2% baseline and delayed Actions workflow start times. Service was restored after load reduction; root-cause analysis remained pending.",
+      "canonical_urls": [
+        "https://www.githubstatus.com/"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": null,
+      "prior_issue_path": null,
+      "material_change": null,
+      "follow_up_editions": [],
+      "source_domains": [
+        "githubstatus.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://www.githubstatus.com/",
+          "type": "primary_status_incident",
+          "publisher": "GitHub Status"
+        }
+      ],
+      "desk": "reliability_developer_tools",
+      "verification_level": "Primary GitHub status history; no evidence of malicious activity.",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-bharat-semi-24m-seed-2026-11-15",
+      "normalized_subject": "Bharat Semi US$24m seed funding for AI image sensors",
+      "normalized_headline": "Bharat Semi raises US$24m seed round for AI image-sensor development",
+      "entities": [
+        "Bharat Semi",
+        "Info Edge",
+        "South Park Commons",
+        "General Atomics",
+        "Kaynes Semicon",
+        "India"
+      ],
+      "event_summary": "Bharat Semi raised a US$24m seed round to develop AI-enabled image sensors. The company remains pre-revenue and targets commercial production in 2027; design wins are company-reported and no order values or shipped volumes were disclosed.",
+      "canonical_urls": [
+        "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+        "https://www.livemint.com/companies/start-ups/bharat-semi-raises-24-million-seed-funding-info-edge-deeptech-startup-11794722449154.html?openSearch=true"
+      ],
+      "original_publication_date": "2026-11-15",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": null,
+      "prior_issue_path": null,
+      "material_change": null,
+      "follow_up_editions": [],
+      "source_domains": [
+        "techcrunch.com",
+        "livemint.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+          "type": "independent_reporting",
+          "publisher": "TechCrunch"
+        },
+        {
+          "url": "https://www.livemint.com/companies/start-ups/bharat-semi-raises-24-million-seed-funding-info-edge-deeptech-startup-11794722449154.html?openSearch=true",
+          "type": "independent_regional_reporting",
+          "publisher": "Mint"
+        }
+      ],
+      "desk": "india_business",
+      "verification_level": "Independent TechCrunch and Mint reporting; product roadmap and design-win claims attributed to company.",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-uniper-700mw-data-centre-capacity-2026-11-16",
+      "normalized_subject": "Uniper advanced-stage data-centre grid capacity and site development",
+      "normalized_headline": "Uniper identifies 700MW of grid capacity for data-centre opportunities",
+      "entities": [
+        "Uniper",
+        "UK",
+        "Germany",
+        "Nordics",
+        "data centres",
+        "electricity grid"
+      ],
+      "event_summary": "Uniper's November 2026 capital-markets presentation describes around 700MW of secured grid capacity for data-centre opportunities at an advanced stage. The Financial Times reports a first deal is nearing, but no tenant or signed contract is disclosed in the company presentation.",
+      "canonical_urls": [
+        "https://www.uniper.energy/system/files/2026-11/Uniper_Capital%20Markets%20Day%20Presentation_November_2026.pdf",
+        "https://www.ft.com/content/74756c50-cedb-4ff9-9cad-43abd5b0646d"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-17",
+      "first_edition_path": "archive/2026-11-17.html",
+      "edition_paths": [
+        "archive/2026-11-17.html"
+      ],
+      "follow_up_of": null,
+      "prior_issue_path": null,
+      "material_change": null,
+      "follow_up_editions": [],
+      "source_domains": [
+        "uniper.energy",
+        "ft.com"
+      ],
+      "source_metadata": [
+        {
+          "url": "https://www.uniper.energy/system/files/2026-11/Uniper_Capital%20Markets%20Day%20Presentation_November_2026.pdf",
+          "type": "primary_company_presentation",
+          "publisher": "Uniper"
+        },
+        {
+          "url": "https://www.ft.com/content/74756c50-cedb-4ff9-9cad-43abd5b0646d",
+          "type": "independent_reporting_paywalled",
+          "publisher": "Financial Times"
+        }
+      ],
+      "desk": "energy_datacentres",
+      "verification_level": "Primary Uniper presentation plus FT report; FT page paywalled and no signed customer contract independently verified.",
+      "repeat_status": "new",
+      "status": "verified"
     }
   ],
   "archive_backfill_audit": [
