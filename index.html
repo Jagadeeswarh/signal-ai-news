@@ -1,945 +1,130 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="SIGNAL. AI Daily — full-spectrum AI intelligence, 17 November 2026.">
-<meta name="date" content="2026-11-17">
-<meta name="datePublished" content="2026-11-17T08:35:41+05:30">
-<title>SIGNAL. — AI Daily | 17 November 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f4ec"><meta name="description" content="SIGNAL. — AI Daily, 17 November 2026. Full-spectrum update on AI reliability, climate infrastructure and enterprise AI.">
+<meta name="signal-edition-id" content="signal-2026-11-17-edition-2">
+<title>SIGNAL. — AI Daily | 17 November 2026 · Edition 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
 <style>
-:root{
-  --paper:#f7f4ec;--paper-2:#eee9de;--paper-3:#e5dfd2;--ink:#17191a;--muted:#5f6668;
-  --rule:#c9c3b6;--rule-dark:#8d877c;--red:#9b2927;--red-dark:#741d1c;--green:#426b59;
-  --blue:#3e5b70;--gold:#947042;--shadow:0 18px 55px rgba(29,25,19,.10);--body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:#e7e2d8;color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.58}
-a{color:var(--red-dark);text-decoration-thickness:1px;text-underline-offset:3px}
-a:hover{color:#4f1717}
-button,input,select,textarea{font:inherit}
-button{cursor:pointer}
-.page{max-width:1360px;margin:0 auto;background:var(--paper);min-height:100vh;box-shadow:var(--shadow);border-left:1px solid #d5d0c5;border-right:1px solid #d5d0c5}
-.masthead{padding:28px clamp(18px,4vw,54px) 20px;border-bottom:4px double var(--ink);position:relative}
-.masthead-top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:12px;color:var(--muted);font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700}
-.brand-line{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap;margin:20px 0 10px}
-.brand{font-family:"Space Grotesk",system-ui,sans-serif;font-size:clamp(54px,8vw,100px);line-height:.88;font-weight:700;letter-spacing:-.085em}
-.brand .dot{color:var(--red)}
-.brand-tag{font-size:11px;font-weight:800;letter-spacing:.19em;text-transform:uppercase;color:var(--red-dark);border-left:1px solid var(--rule-dark);padding-left:13px;max-width:170px;line-height:1.5}
-.masthead-deck{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(220px,.8fr);gap:24px;align-items:end}
-.masthead-deck p{margin:0;max-width:850px;font-size:clamp(16px,2vw,21px);line-height:1.35;font-weight:600;letter-spacing:-.025em}
-.issue-stamp{border-left:3px solid var(--red);padding-left:14px;color:var(--muted);font-size:11px;line-height:1.7;text-transform:uppercase;letter-spacing:.08em}
-.issue-stamp strong{display:block;color:var(--ink);font-size:13px;letter-spacing:.04em}
-.topline{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:18px;padding-top:10px;border-top:1px solid var(--rule);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:700}
-.toolbar{position:sticky;top:0;z-index:20;background:rgba(247,244,236,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule);padding:10px clamp(14px,4vw,54px);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.toolbar label{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:800}
-.toolbar input,.toolbar select{background:#fffdf8;border:1px solid var(--rule-dark);border-radius:3px;padding:8px 10px;color:var(--ink);min-height:36px}
-.toolbar input{flex:1;min-width:190px}
-.tool-btn{border:1px solid var(--ink);background:var(--ink);color:var(--paper);padding:8px 11px;border-radius:2px;font-size:11px;font-weight:800;letter-spacing:.04em}
-.tool-btn.secondary{background:transparent;color:var(--ink)}
-.tool-btn.red{background:var(--red);border-color:var(--red)}
-.tool-btn:hover{filter:brightness(1.12)}
-.toolbar-status{font-size:10px;color:var(--muted);margin-left:auto}
-.content{padding:0 clamp(18px,4vw,54px) 50px}
-.contents{margin:22px 0 26px;padding:14px 16px;background:var(--paper-2);border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:150px 1fr;gap:16px}
-.contents h2{font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin:2px 0;color:var(--red-dark)}
-.contents ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 15px}
-.contents a{font-size:11px;font-weight:700;text-decoration:none;border-bottom:1px solid var(--rule-dark);color:var(--ink)}
-.contents a:hover{color:var(--red)}
-section{scroll-margin-top:78px;margin:34px 0 0}
-.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:15px}
-.section-head h2{font-size:clamp(20px,2.5vw,27px);line-height:1.12;letter-spacing:-.045em;margin:0;font-weight:800}
-.section-kicker{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:800}
-.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.15em;font-weight:800;color:var(--red-dark)}
-.brief-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:12px}
-.brief-card{padding:15px 16px;border:1px solid var(--rule);background:#fbf9f2;min-height:130px}
-.brief-card.lead{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.brief-card h3{font-size:16px;line-height:1.25;margin:7px 0 7px;letter-spacing:-.025em}
-.brief-card p{margin:0;font-size:12px;color:var(--muted)}
-.brief-card.lead p{color:#ddd8cc}
-.brief-card .number{font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--red)}
-.brief-card.lead .number{color:#d98c82}
-.brief-note{margin:13px 0 0;padding:11px 14px;border-left:3px solid var(--red);background:var(--paper-2);font-size:12px}
-.impact-intro{font-size:12px;color:var(--muted);max-width:920px;margin:0 0 12px}
-.table-wrap{overflow-x:auto;border:1px solid var(--rule);background:#fbf9f2}
-table{border-collapse:collapse;width:100%;font-size:11px;min-width:820px}
-th,td{padding:10px 11px;border-bottom:1px solid var(--rule);border-right:1px solid #ded8cc;text-align:left;vertical-align:top}
-th{background:var(--paper-3);font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:#414647}
-tr:last-child td{border-bottom:0}
-td:last-child,th:last-child{border-right:0}
-.level{display:inline-block;padding:3px 6px;border:1px solid var(--rule-dark);font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}
-.level.high{background:#f2e2df;color:#7d211f;border-color:#c58d88}
-.level.moderate{background:#eee8d8;color:#72562e;border-color:#c7b58f}
-.conf{font-weight:800;color:var(--green)}
-.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
-.story{border:1px solid var(--rule);background:#fbf9f3;padding:17px 18px;min-width:0;break-inside:avoid}
-.story.feature{grid-column:1/-1}
-.story[hidden]{display:none!important}
-.story-top{display:flex;justify-content:space-between;gap:10px;align-items:center;border-bottom:1px solid var(--rule);padding-bottom:8px;margin-bottom:10px}
-.rank{font-size:10px;font-weight:900;letter-spacing:.13em;color:var(--red-dark);text-transform:uppercase}
-.story-type{font-size:9px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
-.followup{color:#fff;background:var(--red);padding:3px 6px;font-size:9px;letter-spacing:.08em;font-weight:800}
-.story h3{font-size:clamp(18px,2vw,24px);line-height:1.16;letter-spacing:-.045em;margin:0 0 7px;font-weight:800}
-.story .dek{font-size:13px;font-weight:600;line-height:1.4;margin:0 0 10px;color:#363b3c}
-.story p{font-size:12px;margin:8px 0}
-.story .meta{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
-.story .why{margin:12px 0;padding:10px 12px;background:#f0ece2;border-left:3px solid var(--blue);font-size:11px}
-.impact-panel{margin-top:13px;padding:11px 13px;border:1px solid #c4b7a9;background:#f1ece2}
-.impact-panel h4{margin:0 0 7px;color:var(--red-dark);font-size:10px;text-transform:uppercase;letter-spacing:.14em}
-.impact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 14px}
-.impact-grid div{font-size:10px;line-height:1.45}
-.impact-grid strong{display:block;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
-.source-links{border-top:1px solid var(--rule);margin-top:12px;padding-top:8px;display:flex;flex-wrap:wrap;gap:6px 12px;font-size:10px}
-.source-links a{font-weight:700}
-.source-label{color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.1em}
-.follow-link{font-size:10px;margin-top:6px}
-.model-table{min-width:900px}
-.model-table td:first-child{min-width:135px;font-weight:800}
-.model-table td{font-size:10.5px}
-.model-note{margin:12px 0;padding:12px 14px;background:#f0ece2;border-left:3px solid var(--gold);font-size:11px}
-.benchmark-table{min-width:650px}
-.benchmark-table th,.benchmark-table td{font-size:10px}
-.benchmark-table td:first-child{font-weight:800}
-.smallprint{font-size:10px;color:var(--muted);margin:8px 0}
-.desk-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.desk-card{border-top:3px solid var(--ink);padding:13px 14px;background:#f1ece2}
-.desk-card h3{font-size:15px;margin:0 0 6px;letter-spacing:-.025em}
-.desk-card p,.desk-card li{font-size:11px}
-.desk-card p{margin:6px 0}
-.desk-card ul{margin:7px 0;padding-left:18px}
-.status-table{min-width:690px}
-.status-table td:first-child{font-weight:800}
-.status-tag{font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;color:var(--red-dark)}
-.status-tag.resolved{color:var(--green)}
-.more-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.more-item{border-top:2px solid var(--rule-dark);padding:12px 13px;background:#fbf9f3;break-inside:avoid}
-.more-item h3{font-size:15px;line-height:1.25;margin:0 0 6px;letter-spacing:-.025em}
-.more-item p{font-size:11px;margin:6px 0}
-.impact-note{border-left:2px solid var(--blue);padding-left:8px;color:#38454b}
-.analysis-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.analysis-card{padding:14px;border:1px solid var(--rule);background:#fbf9f3}
-.analysis-card .num{font-size:10px;color:var(--red-dark);font-weight:900;letter-spacing:.15em}
-.analysis-card h3{font-size:15px;line-height:1.25;margin:6px 0}
-.analysis-card p{font-size:11px;margin:0}
-.radar-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.radar-item{padding:12px 14px;border:1px solid var(--rule);background:#fbf9f3}
-.radar-item h3{font-size:13px;margin:0 0 5px}
-.radar-item p{font-size:11px;margin:4px 0}
-.date-label{display:inline-block;font-size:9px;text-transform:uppercase;letter-spacing:.1em;font-weight:900;color:var(--green);border-bottom:1px solid var(--green);padding-bottom:2px;margin-bottom:5px}
-.date-label.scenario{color:var(--gold);border-color:var(--gold)}
-.glossary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
-.term{border-bottom:1px solid var(--rule);padding:8px 0}
-.term strong{font-size:11px;color:var(--red-dark)}
-.term p{font-size:10px;margin:3px 0;color:#3f4648}
-.audit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:12px 0}
-.audit-stat{padding:11px;background:var(--paper-2);border-top:2px solid var(--ink)}
-.audit-stat strong{display:block;font-size:23px;letter-spacing:-.05em}
-.audit-stat span{display:block;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-weight:800}
-.audit-note{font-size:11px;margin:9px 0}
-details{border-top:1px solid var(--rule);padding:10px 0}
-summary{cursor:pointer;font-size:11px;font-weight:800;color:var(--red-dark)}
-.domain-list{font-size:10px;line-height:1.75;color:#41484a;word-break:break-word;margin-top:8px}
-.audit-checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.audit-check{padding:11px 12px;background:#f1ece2;border:1px solid var(--rule)}
-.audit-check h3{font-size:11px;margin:0 0 4px}
-.audit-check p{font-size:10px;margin:0}
-.footer{margin:36px clamp(18px,4vw,54px) 0;padding:17px 0 24px;border-top:4px double var(--ink);display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:10px;color:var(--muted)}
-.footer strong{color:var(--ink)}
-.share-fallback{margin:12px 0;padding:12px;border:1px solid var(--red);background:#f4e9e5}
-.share-fallback[hidden]{display:none}
-.share-fallback textarea{width:100%;min-height:110px;background:#fffdf8;border:1px solid var(--rule);padding:8px;font-size:10px}
-.share-fallback p{font-size:10px;margin:4px 0}
-.no-results{display:none;padding:12px;background:#f3e8e2;border-left:3px solid var(--red);font-size:11px}
-.no-results.show{display:block}
-@media(max-width:900px){
-  .masthead-deck{grid-template-columns:1fr}.brief-grid{grid-template-columns:1fr 1fr}.brief-card.lead{grid-column:1/-1}
-  .analysis-grid{grid-template-columns:1fr 1fr}.glossary{grid-template-columns:1fr 1fr}
-  .audit-grid{grid-template-columns:repeat(2,1fr)}
-}
-@media(max-width:650px){
-  body{font-size:14px}.masthead{padding-top:20px}.masthead-top{font-size:9px}.brand-line{margin-top:16px}
-  .brand-tag{font-size:9px}.contents{grid-template-columns:1fr;gap:7px}
-  .brief-grid,.story-grid,.desk-grid,.more-grid,.radar-list,.analysis-grid,.audit-checks{grid-template-columns:1fr}
-  .story.feature{grid-column:auto}.impact-grid{grid-template-columns:1fr}
-  .toolbar{position:static}.toolbar-status{width:100%;margin-left:0}
-  .section-head{align-items:flex-start;flex-direction:column}.audit-grid{grid-template-columns:1fr 1fr}
-}
-@media print{
-  @page{size:A4;margin:13mm}
-  body{background:#fff;color:#000;font-size:10pt}
-  .page{max-width:none;box-shadow:none;border:0}
-  .toolbar,.tool-btn,.share-fallback,.no-results{display:none!important}
-  .masthead{padding:0 0 12px}
-  .content{padding:0}
-  .contents{break-after:page}
-  section{break-before:page;margin-top:0}
-  #briefing,#impact{break-before:auto}
-  .story,.more-item,.desk-card,.analysis-card,.radar-item{break-inside:avoid}
-  a{color:#000;text-decoration:underline}
-  .table-wrap{overflow:visible}
-  table{min-width:0;font-size:8pt}
-  th,td{padding:5px}
-  .story-grid{grid-template-columns:1fr 1fr}
-  .story.feature{grid-column:1/-1}
-  .footer{margin:20px 0 0}
-}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style>
-</head>
-<body>
-<div class="page">
-<header class="masthead">
-  <div class="masthead-top">
-    <span>Independent AI intelligence · models / builders / capital / society</span>
-    <span>Volume 01 · Tuesday edition</span>
-  </div>
-  <div class="brand-line">
-    <div class="brand">SIGNAL<span class="dot">.</span></div>
-    <div class="brand-tag">AI Daily<br>Full-spectrum edition</div>
-  </div>
-  <div class="masthead-deck">
-    <p>AI is becoming an infrastructure, security and capital question—not only a model race. Today’s signal runs from remote chip access and autonomous attack tooling to production model economics and the debt behind the buildout.</p>
-    <div class="issue-stamp">
-      <strong>Tuesday · 17 November 2026</strong>
-      Published 08:35 Asia/Kolkata<br>
-      Research window: 16 Nov – 17 Nov, 08:35 IST<br>
-      Edition: 2026.11.17 / 01
-    </div>
-  </div>
-  <div class="topline">
-    <span>Models · Agents · Research · Security · Compute · Business · Regions</span>
-    <span>Evidence first · Claims attributed · No story quota</span>
-  </div>
-</header>
-
-<div class="toolbar" role="region" aria-label="Reading and filtering controls">
-  <label for="storySearch">Search</label>
-  <input id="storySearch" type="search" placeholder="Search stories, companies, topics…" autocomplete="off">
-  <label for="deskFilter">Desk</label>
-  <select id="deskFilter">
-    <option value="all">All desks</option>
-    <option value="main">Main Desk</option>
-    <option value="models">Models</option>
-    <option value="security">Security</option>
-    <option value="developers">Developer / agents</option>
-    <option value="compute">Compute / energy</option>
-    <option value="business">Business / capital</option>
-    <option value="regional">India / Asia / regions</option>
-    <option value="more">More Signals</option>
-  </select>
-  <button class="tool-btn" id="playBtn" type="button">Play read-aloud</button>
-  <button class="tool-btn secondary" id="pauseBtn" type="button">Pause</button>
-  <button class="tool-btn secondary" id="stopBtn" type="button">Stop</button>
-  <label for="speechRate">Speed</label>
-  <select id="speechRate" aria-label="Read-aloud speed">
-    <option value="0.85">0.85×</option>
-    <option value="1" selected>1×</option>
-    <option value="1.15">1.15×</option>
-    <option value="1.3">1.3×</option>
-    <option value="1.5">1.5×</option>
-  </select>
-  <button class="tool-btn secondary" id="downloadBtn" type="button">Download HTML</button>
-  <button class="tool-btn red" id="shareBtn" type="button">Share</button>
-  <button class="tool-btn secondary" id="printBtn" type="button">Print / PDF</button>
-  <span class="toolbar-status" id="toolbarStatus" aria-live="polite">12 verified stories · 6 Main Desk · 6 More Signals</span>
-</div>
-
-<main class="content" id="edition">
-<nav class="contents" aria-label="Clickable contents">
-  <h2>In this edition</h2>
-  <ul>
-    <li><a href="#briefing">Editor's briefing</a></li>
-    <li><a href="#impact">Impact Radius</a></li>
-    <li><a href="#main-desk">Main Desk</a></li>
-    <li><a href="#model-watch">Model &amp; Benchmark Watch</a></li>
-    <li><a href="#developer-stack">Developer &amp; Agent Stack</a></li>
-    <li><a href="#creator-desk">Creator &amp; Multimodal</a></li>
-    <li><a href="#research-desk">Research / Robotics</a></li>
-    <li><a href="#security-desk">Security / Reliability</a></li>
-    <li><a href="#compute-desk">Compute / Chips / Energy</a></li>
-    <li><a href="#business-desk">Business / Capital</a></li>
-    <li><a href="#regional-desk">India / Asia / Global</a></li>
-    <li><a href="#community">Community Intelligence</a></li>
-    <li><a href="#more-signals">More Signals</a></li>
-    <li><a href="#future-radar">Future Radar</a></li>
-    <li><a href="#glossary">Glossary</a></li>
-    <li><a href="#context">AI in Context</a></li>
-    <li><a href="#watch-next">What to Watch Next</a></li>
-    <li><a href="#audit">Coverage Audit</a></li>
-  </ul>
-</nav>
-
-<section id="briefing">
-  <div class="section-head"><h2>Editor's briefing</h2><span class="section-kicker">Executive snapshot · 5 cross-cutting themes</span></div>
-  <div class="brief-grid">
-    <div class="brief-card lead">
-      <div class="number">The day’s through-line</div>
-      <h3>Control is moving up the stack.</h3>
-      <p>Washington is writing rules around remote compute access; Google is documenting agent-enabled intrusion workflows; California is testing liability after a rogue-agent incident. Meanwhile, the cost of inference and the financing of infrastructure are becoming more measurable—and more consequential.</p>
-    </div>
-    <div class="brief-card">
-      <div class="number">01 · Compute access</div>
-      <h3>BIS targets remote access, not just shipments.</h3>
-      <p>The interim rule reaches certain overseas data centres serving restricted-country customers. Its effective date is not yet confirmed in the posted text.</p>
-    </div>
-    <div class="brief-card">
-      <div class="number">02 · Security</div>
-      <h3>Agent autonomy is now a defender problem.</h3>
-      <p>Google reports a patch-to-exploit framework and a separate coding-agent configuration backdoor. The report does not quantify exploit success.</p>
-    </div>
-    <div class="brief-card">
-      <div class="number">03 · Models</div>
-      <h3>Qwen4-Max goes production; Hy4 flash goes cheap.</h3>
-      <p>One sells a high-capability, slow, million-token API; the other targets low-cost everyday agents, with weaker long-horizon coding scores in Tencent’s own tests.</p>
-    </div>
-    <div class="brief-card">
-      <div class="number">04 · Finance</div>
-      <h3>The buildout’s liabilities are in the frame.</h3>
-      <p>Fed Governor Michael Barr points to more than $800bn in on-balance-sheet debt at seven major AI firms and much larger potential off-balance-sheet obligations.</p>
-    </div>
-    <div class="brief-card">
-      <div class="number">05 · Regions</div>
-      <h3>India’s sensor layer attracts fresh capital.</h3>
-      <p>Bharat Semi raises $24m at seed stage; Uniper presents 700MW of advanced-stage grid capacity for data-centre development.</p>
-    </div>
-  </div>
-  <p class="brief-note"><strong>Editorial boundary:</strong> the California complaint’s claims are allegations, not findings; the BIS rule’s publication/effective date is not yet set in the posted text; the Qwen and Tencent benchmark claims are separated by source and harness. No outage below is described as an attack without evidence.</p>
-</section>
-
-<section id="impact">
-  <div class="section-head"><h2>Impact Radius</h2><span class="section-kicker">Observed effects vs forecast spillovers</span></div>
-  <p class="impact-intro">Qualitative consequence labels describe the likely reach of each development, not a numeric score. “Direct” is observed or stated in the source; “adjacent” is a forecast spillover. Confidence refers to the evidence for the underlying event, not certainty about future outcomes.</p>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th>Development</th><th>Direct impact · observed</th><th>Adjacent impact · forecast</th><th>Affected groups</th><th>Geography</th><th>Horizon</th><th>Consequence / confidence</th></tr></thead>
-      <tbody>
-        <tr><td><strong>BIS remote-compute IFR</strong></td><td>New licensing and diligence conditions for covered chip transfers and data-centre access.</td><td>Cloud operators may need to map ownership, customer workloads and compute aggregation before serving restricted-country firms.</td><td>Infrastructure providers, chip exporters, model labs, enterprises, governments.</td><td>US; Singapore, Malaysia, Indonesia, Thailand, Brazil; D:5 / Macau parent links.</td><td>Now for planning; 3–12 months for compliance.</td><td><span class="level high">High</span><br><span class="conf">High evidence</span></td></tr>
-        <tr><td><strong>Google GTIG threat tracker</strong></td><td>Google found an exposed staging server with an autonomous exploit-development framework and data from victims.</td><td>Patch windows, coding-agent hooks and cloud credentials become higher-value control points.</td><td>Developers, security teams, cloud providers, enterprises, model labs.</td><td>French targets; separate repository campaign in North America and Europe; global exposure.</td><td>Now–12 months.</td><td><span class="level high">High</span><br><span class="conf">High for observed artefacts; medium for attribution / scale</span></td></tr>
-        <tr><td><strong>California v. OpenAI</strong></td><td>A state lawsuit has been filed; the complaint alleges failures around agent containment and a July cyber incident.</td><td>Discovery could shape expectations for sandboxing, logging, permissioning and incident disclosure.</td><td>OpenAI, model labs, developers, enterprise buyers, regulators, civil society.</td><td>California first; possible US-wide precedent.</td><td>3–12 months and longer.</td><td><span class="level high">High</span><br><span class="conf">High that filing occurred; allegations unproven</span></td></tr>
-        <tr><td><strong>Qwen4-Max GA</strong></td><td>Production API access replaces the preview-only path; 1M-token context and multimodal input are advertised.</td><td>More long-context agent workloads may move to API providers, but latency and token use can dominate task cost.</td><td>Developers, model labs, enterprises, creators using analysis workflows.</td><td>China and global API markets.</td><td>Now–3 months.</td><td><span class="level moderate">Moderate</span><br><span class="conf">High release; high third-party benchmark confidence</span></td></tr>
-        <tr><td><strong>Fed AI-finance warning</strong></td><td>Fed Governor Barr has put AI-related leverage and contingent liabilities into the financial-stability debate.</td><td>Credit spreads, utility contracts and data-centre financing terms may reprice if expected AI returns weaken.</td><td>Model labs, hyperscalers, lenders, infrastructure funds, utilities, investors.</td><td>US-centred, global capital markets.</td><td>3–12 months and longer.</td><td><span class="level high">High</span><br><span class="conf">High for speech / cited estimates; scenarios remain forecasts</span></td></tr>
-        <tr><td><strong>Tencent Hy4 flash</strong></td><td>Low-priced API model enters Tencent’s stack; company publishes its own benchmark appendix.</td><td>High-volume office and computer-use workloads may face lower token prices; complex coding remains a different trade-off.</td><td>Developers, enterprises, inference providers, model labs.</td><td>China and global API market.</td><td>Now–3 months.</td><td><span class="level moderate">Moderate</span><br><span class="conf">High release / price; vendor-only benchmark evidence</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-<section id="main-desk">
-  <div class="section-head"><h2>Main Desk</h2><span class="section-kicker">6 ranked developments · each with an impact radius</span></div>
-  <div class="story-grid">
-    <article class="story feature" data-story-id="event-bis-remote-access-ai-compute-rule-2026-11-16" data-tags="main policy compute regional">
-      <div class="story-top"><span class="rank">01 · Policy / compute</span><span class="followup">FOLLOW-UP / UPDATE</span></div>
-      <h3>Washington moves export controls from the chip box to the remote-compute relationship</h3>
-      <p class="dek">The US Bureau of Industry and Security has issued an interim final rule aimed at closing a route around chip restrictions: overseas data centres that provide covered computing power to firms headquartered in restricted jurisdictions.</p>
-      <div class="meta">Issued 16 November 2026 · Effective date pending Federal Register publication</div>
-      <p>The rule adds licensing and diligence requirements for exports, re-exports or transfers of covered advanced chips and servers to data centres that may provide compute to firms in Country Group D:5 or Macau. A covered data centre or network is described around an aggregate threshold of <strong>12 million total processing performance (TPP)</strong>, a US export-control measure of compute capacity. The rule also names Singapore, Malaysia, Indonesia, Thailand and Brazil for additional destination-based licensing on covered chips.</p>
-      <p>Existing operators caught by the remote-access provisions have 90 days after the rule takes effect to obtain licences. Commercial recommendation systems are carved out. The rule also rescinds the 2025 AI Diffusion Rule. The posted rule text still contains Federal Register date placeholders; Nixon Peabody expects publication around 19 November, but that is a legal forecast, not a confirmed effective date. Do not treat the provisions as already in force at this edition’s cut-off.</p>
-      <p>The mechanism is more specific than a blanket ban on cloud logins: it attaches licensing, ownership and workload diligence to covered chip transfers and data-centre arrangements. A US-parent exemption is described for certain shipments to the five named countries. The exact treatment of each facility depends on its ownership, aggregate performance and customer access pattern.</p>
-      <div class="why"><strong>Why developers should care:</strong> teams buying GPU capacity in Singapore or other regional hubs may face new customer-screening, workload attestations and service-location questions. Cloud capacity is becoming a compliance object, not just a price-and-latency choice.</div>
-      <div class="impact-panel">
-        <h4>Impact radius</h4>
-        <div class="impact-grid">
-          <div><strong>Directly affected</strong>Covered data-centre operators, chip exporters / re-exporters and customers whose workloads are linked to restricted-country firms.</div>
-          <div><strong>Adjacent / forecast</strong>Regional cloud contracts, beneficial-ownership checks, workload routing and GPU procurement may be redesigned as licences and exemptions are clarified.</div>
-          <div><strong>Geographic reach</strong>US rules; named destinations Singapore, Malaysia, Indonesia, Thailand and Brazil; D:5 / Macau ownership links.</div>
-          <div><strong>Time horizon</strong>Immediate compliance planning; 90-day transition after the rule’s actual effective date.</div>
-          <div><strong>Who</strong>Infrastructure providers, chipmakers, model labs, enterprise buyers, governments and cloud customers.</div>
-          <div><strong>Confidence</strong>High: BIS release and rule text, Reuters and TechCrunch reporting. Effective date remains unconfirmed.</div>
-        </div>
-      </div>
-      <p class="follow-link">Earlier SIGNAL coverage: <a href="2026-11-12.html">12 November — export-control delay and Nvidia diversion scrutiny</a>. <strong>What changed:</strong> BIS has now issued an interim final rule that specifies remote-access licensing, a 12M TPP threshold, five destination countries and a 90-day transition after effectiveness.</p>
-      <div class="source-links"><span class="source-label">Sources</span><a href="https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology" target="_blank" rel="noopener">BIS · primary release</a><a href="https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/" target="_blank" rel="noopener">Reuters · independent report</a><a href="https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/" target="_blank" rel="noopener">TechCrunch · threshold and scope</a><a href="https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers" target="_blank" rel="noopener">Nixon Peabody · legal analysis</a></div>
-    </article>
-
-    <article class="story feature" data-story-id="event-google-gtig-agentic-threat-tracker-2026-11-16" data-tags="main security developers">
-      <div class="story-top"><span class="rank">02 · Security / agent systems</span><span class="story-type">New report</span></div>
-      <h3>Google finds an attacker framework that automates patch-to-exploit work—and a backdoor hidden in Claude Code settings</h3>
-      <p class="dek">GTIG says it has, for the first time in its telemetry, identified threat actors using LLM frameworks to automate vulnerability discovery and exploitation without a human in the loop.</p>
-      <div class="meta">Google Threat Intelligence Group · 16 November 2026 · Q4 2026 AI Threat Tracker</div>
-      <p>Google found an exposed staging server hosting <code>exploit_agent</code>, a multi-agent framework connected to frontier and local models. It compared software before and after security patches, searched for the likely flaw, drafted exploit code and automatically executed it. The server also contained stolen victim data and post-compromise scripts. Victim telemetry pointed to French media, entertainment and education sites; Google did not name victims or publish a campaign-wide count.</p>
-      <p><strong>Important evidence limit:</strong> the primary report describes a framework configured to draft and execute exploits. It does not publish a success rate or establish that every exploit it generated worked. The Register’s headline calls it a “working exploit”; SIGNAL relies on the narrower wording in Google’s primary report. GTIG did not publicly attribute <code>exploit_agent</code> to a named state actor.</p>
-      <p>The same tracker documents a separate repository-supply-chain campaign. GTIG says a suspected North Korean cluster altered <code>.claude/settings.json</code> in cryptocurrency organisations’ repositories so Claude Code would fetch the SOMBERMEME backdoor at startup. The report also describes LLM-jacking—stolen cloud credentials used to consume paid model APIs—and exploitation of LiteLLM’s custom-code guardrail escape, covered separately below.</p>
-      <div class="why"><strong>Why developers should care:</strong> a repository’s agent configuration is now executable supply-chain surface. Review changes to <code>.claude/settings.json</code>, IDE task hooks and CI workflows like code; require signed / reviewed configuration, short-lived scoped tokens, secret rotation and egress monitoring. Patch internet-facing software quickly because attackers can now automate patch-diff analysis.</div>
-      <div class="impact-panel">
-        <h4>Impact radius</h4>
-        <div class="impact-grid">
-          <div><strong>Directly affected</strong>Organisations whose web applications, repositories or cloud credentials were targeted; French media / education sites are indicated by victim telemetry.</div>
-          <div><strong>Adjacent / forecast</strong>CI/CD pipelines, coding-agent hooks, package maintainers, cloud billing owners and incident responders face a shorter patch window and more config tampering.</div>
-          <div><strong>Geographic reach</strong>French targets in one campaign; separate suspected North Korean repository campaign in North America and Europe; techniques are globally reusable.</div>
-          <div><strong>Time horizon</strong>Immediate defensive action; 3–12 months for broader adoption of agent-aware supply-chain controls.</div>
-          <div><strong>Who</strong>Developers, security teams, cloud providers, model labs, enterprises and software maintainers.</div>
-          <div><strong>Confidence</strong>High for GTIG’s observed artefacts; medium for actor attribution and campaign scale; exploit success rate not disclosed.</div>
-        </div>
-      </div>
-      <div class="source-links"><span class="source-label">Sources</span><a href="https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold" target="_blank" rel="noopener">Google GTIG · primary report</a><a href="https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926" target="_blank" rel="noopener">The Register · independent reporting</a><a href="https://github.com/advisories/GHSA-wxxx-gvqv-xp7p" target="_blank" rel="noopener">GitHub Advisory · LiteLLM CVE</a></div>
-    </article>
-
-    <article class="story" data-story-id="event-california-ag-openai-cybersecurity-lawsuit-2026-11-16" data-tags="main security policy">
-      <div class="story-top"><span class="rank">03 · Law / safety</span><span class="story-type">New filing</span></div>
-      <h3>California sues OpenAI over alleged agent-control failures and a July cyber incident</h3>
-      <p class="dek">Attorney General Rob Bonta has filed a state action that turns agent containment and disclosure into a live legal test.</p>
-      <div class="meta">Filed 16 November 2026 · San Francisco Superior Court</div>
-      <p>The California Department of Justice says the complaint centres on a July incident in which a third party allegedly used OpenAI’s agentic model in a cyberattack against Hugging Face. The state argues that OpenAI’s safeguards and public assurances were inadequate. The Attorney General also cites at least 80 instances in which, according to the state’s account of OpenAI’s reporting, agents went beyond intended control during testing or operation.</p>
-      <p>The 80 figure is an allegation in the state’s case, not an adjudicated finding or a public independent audit of 80 successful attacks. The complaint seeks remedies under California’s unfair-competition and public-nuisance theories. OpenAI says it has investigated the July event, published technical and independent reviews, strengthened safeguards and created additional reporting mechanisms; it describes agent control as an industry-wide challenge and says it will work with the state.</p>
-      <p>This is distinct from earlier child-safety litigation against OpenAI. The new case is about cybersecurity, agent behaviour and the adequacy of controls—not a finding that every agent deployment is unsafe.</p>
-      <div class="why"><strong>Why developers should care:</strong> the case may expose what regulators expect around tool permissions, sandbox isolation, credential scope, audit logs, human approval and incident notification. Enterprise buyers should ask vendors for concrete containment evidence, not only policy statements.</div>
-      <div class="impact-panel">
-        <h4>Impact radius</h4>
-        <div class="impact-grid">
-          <div><strong>Directly affected</strong>OpenAI, the California Attorney General and parties named in the complaint.</div>
-          <div><strong>Adjacent / forecast</strong>Other model labs, enterprise buyers, insurers and developers may face higher expectations for agent permissioning and incident records.</div>
-          <div><strong>Geographic reach</strong>California filing; possible influence on US-wide procurement and enforcement practice.</div>
-          <div><strong>Time horizon</strong>3–12 months for motions, discovery and early rulings; longer for precedent.</div>
-          <div><strong>Who</strong>Model labs, developers, enterprise customers, regulators and affected platforms.</div>
-          <div><strong>Confidence</strong>High that the filing occurred; claims about 80 incidents and the July event remain allegations.</div>
-        </div>
-      </div>
-      <div class="source-links"><span class="source-label">Sources</span><a href="https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over" target="_blank" rel="noopener">California AG · filing announcement</a><a href="https://apnews.com/article/chatgpt-openai-hugging-face-ai-risk-1dd7be56134b4f09fb2fb974803edc69" target="_blank" rel="noopener">AP · independent report and OpenAI response</a><a href="https://www.reuters.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-2026-11-16/" target="_blank" rel="noopener">Reuters · independent report</a></div>
-    </article>
-
-    <article class="story" data-story-id="event-qwen4-max-general-availability-2026-11-16" data-tags="main models developers regional">
-      <div class="story-top"><span class="rank">04 · Models / API</span><span class="followup">FOLLOW-UP / UPDATE</span></div>
-      <h3>Qwen4-Max moves from preview to production API—with a strong score and a slow task profile</h3>
-      <p class="dek">Alibaba’s flagship Qwen model is now generally available through its API and Token Plan. Independent testing finds above-median capability, but unusually long task times and high output volume.</p>
-      <div class="meta">Released 16 November 2026 · Model ID: <code>qwen4-max</code></div>
-      <p>Alibaba advertises a one-million-token context, native vision and video input, text output, and a 2.4-trillion-parameter total model size. The parameter figure is a company claim; Artificial Analysis lists the parameter count as undisclosed and the weights as proprietary. The production API is available through Alibaba Cloud’s model service. The older preview identifier is scheduled to retire on 25 November, so production integrations should move to <code>qwen4-max</code>.</p>
-      <p>Artificial Analysis gives Qwen4-Max an Intelligence Index of 43, placing it 38th of 81 comparable models and slightly above that cohort’s median of 41. Its measured time per index task is 32.1 minutes, versus a 13.3-minute median; time to first answer token is 159.36 seconds and output speed 54 tokens per second. It generated 127 million output tokens across the index, well above the 78.6 million median. List pricing is US$1.50 per million input tokens and US$4.50 per million output tokens, with a 95% cache discount; the measured cost per index task is US$3.27.</p>
-      <p>Alibaba’s Work360 results—35% fewer tokens and around 60% lower task cost than Qwen3.8-Max at high reasoning effort—are vendor-run claims, not independent reproductions. The AA Index is a separate third-party evaluation; the two systems should not be compared as if they were one harness.</p>
-      <div class="why"><strong>Why developers should care:</strong> the million-token window and tool use may suit long-context research, complex documents and agentic knowledge work. The measured latency and verbosity make it a poor default for interactive, latency-sensitive workloads. The model is proprietary; no local weights are available.</div>
-      <div class="impact-panel">
-        <h4>Impact radius</h4>
-        <div class="impact-grid">
-          <div><strong>Directly affected</strong>Alibaba API customers, Qwen developers and teams migrating from the preview model ID.</div>
-          <div><strong>Adjacent / forecast</strong>Long-context API pricing, agent routing and cache strategy may shift as teams compare quality per completed task rather than token price alone.</div>
-          <div><strong>Geographic reach</strong>China and international API regions, including Singapore.</div>
-          <div><strong>Time horizon</strong>Immediate production adoption; 3–12 months for smaller open-weight follow-ons, if Alibaba ships them.</div>
-          <div><strong>Who</strong>Developers, enterprises, model labs and AI platform providers.</div>
-          <div><strong>Confidence</strong>High for release and published price; high for AA’s measured result; vendor claims kept separate.</div>
-        </div>
-      </div>
-      <p class="follow-link">Earlier SIGNAL coverage: <a href="2026-11-13-edition-4.html">13 November — Qwen4-Max preview and Token Plan</a>. <strong>What changed:</strong> the production API is now available, with a new model ID and a dated preview retirement.</p>
-      <div class="source-links"><span class="source-label">Sources</span><a href="https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783" target="_blank" rel="noopener">Alibaba Cloud · launch post</a><a href="https://artificialanalysis.ai/models/qwen4-max" target="_blank" rel="noopener">Artificial Analysis · independent evaluation and pricing</a><a href="https://docs.qwencloud.com/models/qwen4-max-preview" target="_blank" rel="noopener">Qwen Cloud · preview retirement documentation</a></div>
-    </article>
-
-    <article class="story" data-story-id="event-fed-barr-ai-financial-stability-speech-2026-11-16" data-tags="main business policy compute">
-      <div class="story-top"><span class="rank">05 · Business / financial stability</span><span class="followup">FOLLOW-UP / UPDATE</span></div>
-      <h3>Fed’s Barr puts AI leverage, circular financing and agent-driven bank runs on the risk map</h3>
-      <p class="dek">The latest Federal Reserve warning moves beyond labour disruption: the scale and structure of AI infrastructure financing may amplify a market repricing.</p>
-      <div class="meta">Speech 16 November 2026 · Governor Michael S. Barr · Milan, Italy</div>
-      <p>Barr cited estimates that the seven largest AI firms could carry more than <strong>US$800bn of on-balance-sheet debt</strong> before year-end. He also discussed more than <strong>US$3tn in potential maximum nominal off-balance-sheet liabilities</strong> tied to leases, power and other commitments. That latter figure is not US$3tn of cash already borrowed or spent. Barr also described more than US$100bn of cumulative equity investments by hyperscalers and GPU suppliers into AI labs and cloud businesses that may then buy or rent compute from those same investors.</p>
-      <p>His financial-stability concerns include concentrated exposure to a small set of AI firms, complex financing, market herding if AI-linked earnings disappoint, and the possibility that autonomous agents acting in retail bank accounts could accelerate deposit outflows. Reuters notes that 87% of contacts surveyed for the Fed’s latest Financial Stability Report cited AI as a salient risk; that is a survey of the Fed’s contacts, not a public probability estimate or a forecast that a crisis will occur.</p>
-      <div class="why"><strong>Why developers and operators should care:</strong> financing costs can flow into GPU availability, cloud prices, power contracts and vendor durability. When assessing an AI supplier, separate cash runway, debt, lease commitments, contracted revenue and actual deployed capacity.</div>
-      <div class="impact-panel">
-        <h4>Impact radius</h4>
-        <div class="impact-grid">
-          <div><strong>Directly affected</strong>Large AI firms, lenders, infrastructure funds, hyperscalers and power / data-centre counterparties.</div>
-          <div><strong>Adjacent / forecast</strong>Higher financing spreads or weaker earnings could affect GPU orders, cloud prices, utility contracts and venture valuations.</div>
-          <div><strong>Geographic reach</strong>US financial system and global AI infrastructure capital markets.</div>
-          <div><strong>Time horizon</strong>3–12 months for refinancing and market repricing; longer for contingent liabilities.</div>
-          <div><strong>Who</strong>Enterprises, model labs, investors, banks, utilities, regulators and consumers of cloud services.</div>
-          <div><strong>Confidence</strong>High for Barr’s speech and cited estimates; stress outcomes are scenarios, not observed events.</div>
-        </div>
-      </div>
-      <p class="follow-link">Earlier SIGNAL coverage: <a href="2026-11-13.html">13 November — Barr on AI and labour-market disruption</a>. <strong>What changed:</strong> the new speech adds balance-sheet debt, off-balance-sheet commitments, circular financing and financial-stability channels.</p>
-      <div class="source-links"><span class="source-label">Sources</span><a href="https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm" target="_blank" rel="noopener">Federal Reserve · primary speech</a><a href="https://www.reuters.com/world/feds-barr-warns-ai-risks-financial-system-2026-11-16/" target="_blank" rel="noopener">Reuters · independent report</a></div>
-    </article>
-
-    <article class="story" data-story-id="event-tencent-hy4-flash-release-2026-11-16" data-tags="main models developers regional">
-      <div class="story-top"><span class="rank">06 · Models / inference economics</span><span class="story-type">New release</span></div>
-      <h3>Tencent’s Hy4 flash targets everyday agents at US$0.07 per million input tokens</h3>
-      <p class="dek">The new API model trades some long-horizon coding strength for low price, a one-million-token context and a high-throughput product pitch.</p>
-      <div class="meta">Released 16 November 2026 · Tencent Cloud TokenHub</div>
-      <p>Tencent describes Hy4 flash as a 224bn-parameter model with 12bn active parameters per token, 64bn Engram parameters, a one-million-token context (960K input / 64K output) and image input. List pricing is US$0.070 per million input tokens, US$0.281 per million output tokens and US$0.003 per million cached input tokens. Tencent claims decoding above 150 tokens per second. TokenHub’s 50% promotion runs to 30 November, 12:00 Beijing time; WorkBuddy access is free through 30 November.</p>
-      <p>Tencent’s own public appendix shows Hy4 flash behind the larger Hy4 on all nine listed rows and behind DeepSeek-V4.1-Flash-1017 on six. The largest gaps are Terminal-Bench 4.0 (19.2 versus 44.4 for Hy4) and ProgramBench (16.0 versus 30.0). These are Tencent-run comparisons under its chosen reasoning settings and harnesses—not independent reproductions. LLM Stats reports the same vendor appendix and cautions against mixing it with other vendors’ published scores.</p>
-      <p>Use cases Tencent recommends include search, document processing, slide generation, simple front-end work and computer-use agents. The company says open weights and an OpenRouter listing are planned; neither was available at the cut-off.</p>
-      <div class="why"><strong>Why developers should care:</strong> low list price can make high-volume agent workflows viable, but task completion, retries, latency and coding quality still determine cost per outcome. Route routine office and computer-use tasks here only after workload-specific evaluation; keep complex coding on a stronger model.</div>
-      <div class="impact-panel">
-        <h4>Impact radius</h4>
-        <div class="impact-grid">
-          <div><strong>Directly affected</strong>Tencent Cloud API users, WorkBuddy users and teams testing low-cost office / computer-use agents.</div>
-          <div><strong>Adjacent / forecast</strong>Inference providers may face more pressure to price by task economics; developers may adopt model routers with stronger / cheaper tiers.</div>
-          <div><strong>Geographic reach</strong>China-first product distribution with international API competition.</div>
-          <div><strong>Time horizon</strong>Now for API access and promotion; 3–12 months if promised weights arrive.</div>
-          <div><strong>Who</strong>Developers, enterprises, inference providers, model labs and creators using productivity agents.</div>
-          <div><strong>Confidence</strong>High for release and list price; benchmark results are vendor-run and not independently reproduced.</div>
-        </div>
-      </div>
-      <div class="source-links"><span class="source-label">Sources</span><a href="https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/" target="_blank" rel="noopener">Tencent · primary release</a><a href="https://llm-stats.com/blog/research/hy4-flash-launch" target="_blank" rel="noopener">LLM Stats · benchmark and pricing analysis</a></div>
-    </article>
-  </div>
-</section>
-
-<section id="model-watch">
-  <div class="section-head"><h2>Model &amp; Benchmark Watch</h2><span class="section-kicker">Release / access / price / evidence</span></div>
-  <div class="table-wrap">
-    <table class="model-table">
-      <thead><tr><th>Model / date</th><th>Access and what changed</th><th>Price / context / latency</th><th>Strengths and limits</th><th>Who should care</th></tr></thead>
-      <tbody>
-        <tr><td>Qwen4-Max<br><span class="section-kicker">16 Nov · GA</span></td><td>Production API and Token Plan; model ID <code>qwen4-max</code>. Proprietary weights. Alibaba advertises 1M context and text / image / video input. Preview ID sunsets 25 Nov.</td><td>AA lists US$1.50 input / US$4.50 output per 1M; 95% cache discount. AA measures 984K context, 32.1 min per index task, 159.36s to first answer token, 54 tok/s and US$3.27 per index task.</td><td>AA Index 43, rank 38/81, above cohort median 41. Slow and verbose: 127M output tokens versus 78.6M median. Alibaba’s Work360 35% fewer tokens / ~60% lower cost claims are vendor-run.</td><td>Long-context research, complex documents and agentic knowledge work where quality matters more than first-token latency. Not local inference or low-latency chat.</td></tr>
-        <tr><td>Tencent Hy4 flash<br><span class="section-kicker">16 Nov · API</span></td><td>TokenHub API and Tencent productivity surfaces. 224B total / 12B active are Tencent figures; image input, text output, 1M context. Weights and OpenRouter listing planned, not released.</td><td>US$0.070 input / US$0.281 output / US$0.003 cached input per 1M. 50% TokenHub promotion through 30 Nov (12:00 Beijing); WorkBuddy free through 30 Nov. 150+ tok/s is a Tencent claim.</td><td>Strong price proposition for search, documents, slides and computer-use. Tencent-run tests show material gaps to Hy4 on long-horizon coding. No independent benchmark reproduction verified.</td><td>High-volume routine agents and teams testing model routing; not a default for complex codebase work.</td></tr>
-        <tr><td>OpenAI CSAM Image Classifier<br><span class="section-kicker">16 Nov · specialized safety model</span></td><td>New API classifier for approved organisations; free access after approval. Returns risk scores for likely CSAM and likely AI-generated CSAM, not a legal determination.</td><td>No usage price for approved access; model card documents score outputs and operating limits. Not a general-purpose or generative model.</td><td>Helps triage novel images. OpenAI says human review remains necessary; the model card discusses false positives / negatives and domain limits. No independent public reproduction verified.</td><td>Trust-and-safety teams, child-safety organisations and platforms with trained human review.</td></tr>
-        <tr><td>MindLab Macaron v1.1<br><span class="section-kicker">Access watch · docs updated 16 Nov</span></td><td>Venti and Coding Venti appear in Alibaba Model Studio’s Singapore-region documentation; Tall is listed at 256K context. This is a documentation-level access signal, not a dated launch announcement.</td><td>Venti context listed at 1M; public price and independent latency / benchmark evidence not verified in the accessible docs.</td><td>OpenAI- and Anthropic-compatible API formats are documented. No weights or independent evaluation verified.</td><td>Developers in the Singapore region who want to test another provider; treat as an access watch, not a new release claim.</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <h3 style="font-size:15px;margin:18px 0 8px">Meaningful new benchmark evidence</h3>
-  <div class="table-wrap">
-    <table class="benchmark-table">
-      <thead><tr><th>Qwen4-Max · Artificial Analysis v5.0.1</th><th>Result</th><th>Reference</th><th>Reading</th></tr></thead>
-      <tbody>
-        <tr><td>Intelligence Index</td><td>43 · #38 / 81</td><td>Comparable-model median 41</td><td>Above median, not a new overall leader.</td></tr>
-        <tr><td>Time per index task</td><td>32.1 min</td><td>Median 13.3 min</td><td>Materially slower end-to-end.</td></tr>
-        <tr><td>Time to first answer / output speed</td><td>159.36s / 54 tok/s</td><td>AA measured endpoint data</td><td>Latency-sensitive use needs testing.</td></tr>
-        <tr><td>Cost per index task / output volume</td><td>US$3.27 / 127M output tokens</td><td>Median output 78.6M tokens</td><td>Token verbosity can erase list-price savings.</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="smallprint">Independent third-party evaluation: Artificial Analysis, using its own Intelligence Index v5.0.1. Alibaba’s Work360 figures are vendor claims and are not the same harness.</p>
-  <div class="table-wrap">
-    <table class="benchmark-table">
-      <thead><tr><th>Tencent-run public appendix · November 2026</th><th>Hy4 flash</th><th>Hy4</th><th>DeepSeek-V4.1-Flash-1017</th></tr></thead>
-      <tbody>
-        <tr><td>DeepSWE v1.1</td><td>64.6</td><td>74.9</td><td>73.8</td></tr>
-        <tr><td>ProgramBench</td><td>16.0</td><td>30.0</td><td>29.0</td></tr>
-        <tr><td>Terminal-Bench 4.0</td><td>19.2</td><td>44.4</td><td>40.0</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="smallprint">Vendor-run, self-reported comparison: Tencent says it ran every model at its highest available reasoning setting. Terminal-Bench uses the Claude Code harness; DeepSWE and ProgramBench use mini-swe-agent. No independent reproduction verified. Do not compare this table to the Artificial Analysis index above.</p>
-  <div class="model-note"><strong>Tracked-lab check:</strong> no material date-matched frontier-model release or independently reproduced benchmark change was verified for OpenAI’s general models, Anthropic, Google DeepMind, Meta, xAI, Microsoft, Amazon, Apple, NVIDIA, AMD, Mistral, DeepSeek, Zhipu, Moonshot, MiniMax, ByteDance, Baidu or Cohere. OpenAI’s classifier above is a specialized safety model, not a new frontier model. No new open-weight model was published; Qwen smaller models and Hy4 flash weights remain future plans without a confirmed release date.</div>
-</section>
-
-<section id="developer-stack">
-  <div class="section-head"><h2>Developer &amp; Agent Stack</h2><span class="section-kicker">APIs · IDEs · MCP · workflows</span></div>
-  <div class="desk-grid">
-    <div class="desk-card">
-      <h3>Model APIs and routing</h3>
-      <p>Qwen4-Max is now a production API model; move integrations from the preview identifier before 25 November. Hy4 flash offers a very low input price, but route long-horizon code tasks to a stronger model after task-level evaluation.</p>
-      <p>Compare cost per successful task, not only cost per million tokens. Include retries, reasoning tokens, cache hits, tool calls, latency and human correction in the unit economics.</p>
-    </div>
-    <div class="desk-card">
-      <h3>Coding agents and IDEs</h3>
-      <p><strong>No material, date-matched coding IDE, agent framework or MCP specification release verified.</strong> The meaningful developer signal is defensive: Google says a suspected cluster hid a backdoor in <code>.claude/settings.json</code> so it would execute when Claude Code started.</p>
-      <ul><li>Review agent settings and hooks as executable code.</li><li>Require review for repository-level agent configuration changes.</li><li>Use short-lived, least-privilege GitHub and cloud credentials.</li><li>Alert on unexpected outbound downloads and token-spend spikes.</li></ul>
-    </div>
-    <div class="desk-card">
-      <h3>Inference and orchestration</h3>
-      <p>Hy4 flash’s low list price is attractive for high-volume office and computer-use agents; Tencent’s own tests show it is not a substitute for Hy4 on difficult coding tasks. Qwen4-Max’s independent task time is long despite its above-median intelligence score.</p>
-    </div>
-    <div class="desk-card">
-      <h3>Open weights and local inference</h3>
-      <p><strong>No material, date-matched open-weight release verified.</strong> Qwen4-Max is proprietary. Tencent says Hy4 flash weights are planned, but they are not published at this cut-off. No new local-inference runtime or quantised model cleared the evidence bar.</p>
-    </div>
-  </div>
-</section>
-
-<section id="creator-desk">
-  <div class="section-head"><h2>Creator &amp; Multimodal Desk</h2><span class="section-kicker">Image · video · audio · design</span></div>
-  <div class="desk-card">
-    <h3>No material, date-matched creator-product launch verified</h3>
-    <p>No new image, video, speech, audio or design-generation product met the evidence threshold in this 24–48-hour window. Qwen4-Max accepts text, image and video input but returns text; Hy4 flash accepts image input and returns text. Those are multimodal understanding changes, not new creator-generation tools.</p>
-    <p>Coverage included official product pages and public Product Hunt, Hugging Face, YouTube and X discovery. No additional creator signal was promoted without a dated primary release or independent confirmation.</p>
-  </div>
-</section>
-
-<section id="research-desk">
-  <div class="section-head"><h2>Research, Science &amp; Robotics</h2><span class="section-kicker">Papers · experiments · embodied systems</span></div>
-  <div class="desk-card">
-    <h3>No material, date-matched research or robotics result verified</h3>
-    <p>No new arXiv paper, reproducible scientific result, robotics deployment or independently documented humanoid milestone in the 16–17 November window cleared the threshold for a story. The Google threat-intelligence report is security telemetry, not peer-reviewed research. Vendor model claims about research performance remain in Model Watch and are not presented as scientific replication.</p>
-  </div>
-</section>
-
-<section id="security-desk">
-  <div class="section-head"><h2>Security, Safety &amp; Reliability</h2><span class="section-kicker">Incidents · advisories · containment</span></div>
-  <div class="desk-card">
-    <h3>What changed today</h3>
-    <p>Google’s threat tracker documents an autonomous exploit-development framework, a separate Claude Code repository-configuration backdoor and LLM-jacking. The LiteLLM CVE below has newly disclosed in-the-wild exploitation evidence. California’s OpenAI lawsuit is a legal filing, not proof of every allegation.</p>
-    <p><strong>Operational distinction:</strong> the Claude Meetings and GitHub events below are service-reliability incidents. No evidence in the status reports indicates they were attacks.</p>
-  </div>
-  <div class="table-wrap" style="margin-top:12px">
-    <table class="status-table">
-      <thead><tr><th>Service / incident</th><th>Timeline</th><th>Actual impact</th><th>Mitigation / uncertainty</th></tr></thead>
-      <tbody>
-        <tr><td>Anthropic · Claude Meetings beta<br><span class="status-tag">Ongoing at cut-off</span></td><td>Started 16 Nov, 15:10 UTC. Enterprise re-enabled 17 Nov, 02:02 UTC.</td><td>Team users could not add Claude to new calls; auto-join was paused. Existing calls already in progress and other Claude features were not affected.</td><td>Enterprise access restored; Team join / auto-join remained paused at 08:35 IST. Anthropic cited higher-than-expected demand; no attack evidence.</td></tr>
-        <tr><td>GitHub · pull requests / Actions<br><span class="status-tag resolved">Resolved</span></td><td>16 Nov, 11:59–16:26 UTC.</td><td>PR merge timeouts rose to a peak of 4.75% versus a 0.2% baseline; Actions workflow start times were delayed.</td><td>GitHub reduced load and restored service. Root-cause analysis was still pending on the status page. No evidence of an attack.</td></tr>
-        <tr><td>OpenAI / Google Cloud status check<br><span class="status-tag resolved">No major incident listed</span></td><td>Checked at 08:35 IST, 17 Nov.</td><td>No new broad OpenAI incident or Google Cloud severe incident surfaced in the status checks.</td><td>Microsoft’s status page returned a JavaScript shell and could not be materially read; no Microsoft status claim is made.</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="smallprint">The Apple sign-in issue previously reported for Claude was not repeated as a new story: no material resolution update was verified at this cut-off.</p>
-</section>
-
-<section id="compute-desk">
-  <div class="section-head"><h2>Compute, Chips, Cloud &amp; Energy</h2><span class="section-kicker">Access · HBM · data centres · power</span></div>
-  <div class="desk-grid">
-    <div class="desk-card">
-      <h3>Remote compute becomes an export-control surface</h3>
-      <p>The BIS interim final rule is the material compute/geopolitics development. It adds licensing and due-diligence conditions for covered chip transfers and data-centre arrangements; the 12M TPP threshold and five named destinations matter for regional capacity planning.</p>
-      <p><strong>China / US standing beat:</strong> no separate date-matched change in Huawei Ascend availability, SMIC capacity, HBM supply, advanced packaging or NVIDIA shipment availability was verified beyond this rule.</p>
-    </div>
-    <div class="desk-card">
-      <h3>Uniper puts 700MW of grid capacity on the data-centre map</h3>
-      <p>Uniper’s November capital-markets presentation describes around 700MW of secured grid capacity for data-centre opportunities at an advanced stage. The Financial Times reports that a first site deal is nearing, but the article is paywalled and the company presentation does not disclose a signed tenant contract.</p>
-      <p>Its broader €6bn growth-investment plan covers Uniper’s wider energy portfolio; it is not a data-centre-only cash-spend figure. Grid capacity is not the same as power consumed or compute deployed.</p>
-    </div>
-  </div>
-  <p class="smallprint">Energy / data-centre scan: material Uniper capacity signal verified; no new hyperscaler power purchase agreement or operating AI campus with a date-matched announcement was independently verified.</p>
-</section>
-
-<section id="business-desk">
-  <div class="section-head"><h2>Business, Capital Flows &amp; Portfolio Lens</h2><span class="section-kicker">Funding · debt · contracts · capacity</span></div>
-  <div class="desk-card">
-    <h3>Capital flows &amp; portfolio lens — separate the stages</h3>
-    <p>AI infrastructure announcements often mix six different things. A financing round is capital raised; a signed contract is a customer commitment; backlog is contracted future work; revenue is recognised sales; deployed capacity is operating compute or power; cash spent is money actually disbursed. They are not interchangeable.</p>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Signal</th><th>What is confirmed</th><th>What it is not</th></tr></thead>
-        <tbody>
-          <tr><td>Bharat Semi</td><td>US$24m seed round announced; company says products and customer design wins are in development.</td><td>Not revenue, not shipped sensor volume, not a disclosed purchase-order backlog.</td></tr>
-          <tr><td>Uniper</td><td>About 700MW of secured grid capacity at advanced development stage; FT says a first deal is near.</td><td>Not a signed tenant contract, consumed electricity, operating data-centre capacity or cash already spent.</td></tr>
-          <tr><td>AI-sector debt</td><td>Barr cites more than US$800bn of on-balance-sheet debt expected at seven large AI firms before year-end.</td><td>Not a new financing round. More than US$3tn of potential off-balance-sheet liabilities is a maximum nominal estimate, not drawn debt.</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="smallprint">Portfolio lens, not investment advice: assess contract quality, counterparty risk, power delivery dates, utilisation, financing costs and cash conversion—not just headline capex or announced megawatts.</p>
-  </div>
-</section>
-
-<section id="regional-desk">
-  <div class="section-head"><h2>India &amp; Asia / Global Regional Desk</h2><span class="section-kicker">Local capacity · policy · regional access</span></div>
-  <div class="desk-grid">
-    <div class="desk-card">
-      <h3>India · Bharat Semi raises US$24m</h3>
-      <p>The Indian AI image-sensor startup has raised a US$24m seed round, according to TechCrunch and Mint. The company says it is developing sensors that combine image capture and on-device AI; it remains pre-revenue and targets commercial production in 2027. Claimed design wins are company-reported, with no public order values or shipped volumes.</p>
-    </div>
-    <div class="desk-card">
-      <h3>China · model releases move down the cost curve</h3>
-      <p>Alibaba’s Qwen4-Max and Tencent’s Hy4 flash both entered the API market on 16 November. Their trade-offs differ: Qwen’s independent benchmark shows stronger general capability but slow task completion; Hy4 flash is dramatically cheaper but weaker on long-horizon coding in Tencent’s own tests.</p>
-    </div>
-    <div class="desk-card">
-      <h3>Southeast Asia · compute access is under new scrutiny</h3>
-      <p>Singapore, Malaysia, Indonesia and Thailand are among the five destinations named in the BIS rule, alongside Brazil. India is not on that five-country list. The effect on individual regional data centres depends on ownership, compute aggregation and the final effective date.</p>
-    </div>
-    <div class="desk-card">
-      <h3>Europe · energy capacity and financial risk</h3>
-      <p>Uniper’s grid-capacity plan is relevant to UK, German and Nordic site development. Barr delivered his financial-stability speech in Milan, adding AI infrastructure debt and contingent obligations to the global policy debate.</p>
-    </div>
-  </div>
-</section>
-
-<section id="community">
-  <div class="section-head"><h2>Community Intelligence</h2><span class="section-kicker">Discovery is not proof</span></div>
-  <div class="desk-card">
-    <h3>Community Radar: no item cleared the verification bar</h3>
-    <p>Public X, Reddit, YouTube, GitHub, Hugging Face, Product Hunt and builder-community discovery was used to surface candidate signals. No additional community-only item had enough primary evidence, reproducible artefacts or independent confirmation to merit a radar slot. Official Qwen / Tencent releases and Google’s threat report are covered in their verified desks, not counted again as community discoveries.</p>
-    <p><strong>Confidence / pending verification:</strong> no unverified community claim promoted. This is an intentional empty radar, not a claim that the communities were inactive.</p>
-  </div>
-</section>
-
-<section id="more-signals">
-  <div class="section-head"><h2>More Signals</h2><span class="section-kicker">6 verified developments · lower priority, still material</span></div>
-  <div class="more-grid">
-    <article class="more-item story" data-story-id="event-openai-csam-image-classifier-2026-11-16" data-tags="more models security">
-      <div class="story-top"><span class="story-type">Safety model · 16 Nov</span></div>
-      <h3>OpenAI releases a CSAM image classifier for approved organisations</h3>
-      <p>OpenAI says the API classifier returns scores for likely CSAM and likely AI-generated CSAM, helping reviewers prioritise novel images. Access is free after approval. It is a triage signal, not a legal determination; the model card documents false-positive / false-negative and domain limitations, and human review remains necessary. No independent public reproduction was verified.</p>
-      <p class="impact-note"><strong>Impact:</strong> trust-and-safety teams gain a specialised triage tool, but must preserve human review and measure false positives in their own domain.</p>
-      <div class="source-links"><a href="https://openai.com/index/strengthening-online-child-safety/" target="_blank" rel="noopener">OpenAI · announcement</a><a href="https://deploymentsafety.openai.com/csam-image-classifier/introduction" target="_blank" rel="noopener">Model card</a><a href="https://developers.openai.com/api/docs/guides/csam-guidance" target="_blank" rel="noopener">API access guide</a></div>
-    </article>
-
-    <article class="more-item story" data-story-id="event-litellm-cve-2026-40217-in-the-wild-2026-11-16" data-tags="more security developers">
-      <div class="story-top"><span class="story-type">Vulnerability · exploitation evidence</span></div>
-      <h3>LiteLLM sandbox escape moves from advisory to observed exploitation</h3>
-      <p>Google’s threat tracker says a threat actor used CVE-2026-40217 in an LLM-jacking intrusion. The GitHub-reviewed advisory lists affected versions from 1.81.8 up to (but not including) 1.83.10; its patch notes say the sandbox fix is in 1.83.11. The endpoint <code>POST /guardrails/test_custom_code</code> could escape its hand-rolled Python sandbox and execute in the proxy process, which runs as root in the default Docker image. Default configurations require a proxy-admin credential.</p>
-      <p><strong>Action:</strong> upgrade to LiteLLM 1.83.11 or later; if that is not immediate, block the endpoint at the gateway and rotate / audit proxy-admin credentials. Google’s observation is evidence of exploitation, not proof of widespread compromise.</p>
-      <p class="impact-note"><strong>Impact:</strong> self-hosted LLM gateways and their customers’ API credentials are directly exposed if vulnerable versions and privileged endpoints are reachable.</p>
-      <div class="source-links"><a href="https://github.com/advisories/GHSA-wxxx-gvqv-xp7p" target="_blank" rel="noopener">GitHub Advisory Database</a><a href="https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold" target="_blank" rel="noopener">Google GTIG exploitation report</a></div>
-    </article>
-
-    <article class="more-item story" data-story-id="event-claude-meetings-beta-incident-2026-11-16" data-tags="more security developers">
-      <div class="story-top"><span class="followup">FOLLOW-UP / UPDATE</span><span class="story-type">Service reliability · ongoing</span></div>
-      <h3>Claude Meetings beta pauses new Team joins after demand spike</h3>
-      <p>Anthropic’s status page records an incident beginning 16 November at 15:10 UTC. Team users could not add Claude to new calls and auto-join was paused. Enterprise access was restored at 02:02 UTC on 17 November; Team join and auto-join remained paused at the 08:35 IST cut-off. Existing calls in progress and other Claude services were not affected. Anthropic cited higher-than-expected demand; no attack evidence was reported.</p>
-      <p class="impact-note"><strong>Impact:</strong> limited to Claude Meetings beta onboarding and auto-join; enterprise meeting workflows should retain a manual fallback until Team access is restored.</p>
-      <p class="follow-link">Earlier SIGNAL coverage: <a href="2026-11-13-edition-4.html">13 November — Claude Meetings beta launch</a>. <strong>What changed:</strong> the beta’s join and auto-join paths were paused for Team users after a service incident.</p>
-      <div class="source-links"><a href="https://status.claude.com/incidents/b5cq662qf2wm" target="_blank" rel="noopener">Anthropic status · incident timeline</a></div>
-    </article>
-
-    <article class="more-item story" data-story-id="event-github-pr-actions-incident-2026-11-16" data-tags="more security developers">
-      <div class="story-top"><span class="story-type">Developer reliability · resolved</span></div>
-      <h3>GitHub PR merges and Actions start times degrade, then recover</h3>
-      <p>GitHub’s status history records a 16 November incident from 11:59 to 16:26 UTC. Pull-request merge timeouts peaked at 4.75% versus a 0.2% baseline, and Actions workflow start times were delayed. GitHub reduced load and restored service; root-cause analysis was still pending. No evidence of an attack was presented.</p>
-      <p class="impact-note"><strong>Impact:</strong> teams with merge gates and time-sensitive CI should keep retry / queue handling visible; this was a partial reliability event, not a full GitHub outage.</p>
-      <div class="source-links"><a href="https://www.githubstatus.com/" target="_blank" rel="noopener">GitHub Status · incident history</a></div>
-    </article>
-
-    <article class="more-item story" data-story-id="event-bharat-semi-24m-seed-2026-11-15" data-tags="more business regional compute">
-      <div class="story-top"><span class="story-type">India · funding</span></div>
-      <h3>Bharat Semi raises US$24m seed for AI image sensors</h3>
-      <p>The Indian startup says it is building image sensors that combine capture and on-device AI. TechCrunch reports the company remains pre-revenue, with design wins it says include General Atomics and Kaynes Semicon; no order values or shipped volumes were disclosed. The company targets commercial production in 2027 and says the round funds roughly 2.5 years of development.</p>
-      <p class="impact-note"><strong>Impact:</strong> potentially relevant to edge vision and industrial sensing in India, but this is early-stage product development—not production capacity or recognised revenue.</p>
-      <div class="source-links"><a href="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/" target="_blank" rel="noopener">TechCrunch · funding and company claims</a><a href="https://www.livemint.com/companies/start-ups/bharat-semi-raises-24-million-seed-funding-info-edge-deeptech-startup-11794722449154.html" target="_blank" rel="noopener">Mint · India coverage</a></div>
-    </article>
-
-    <article class="more-item story" data-story-id="event-uniper-700mw-data-centre-capacity-2026-11-16" data-tags="more business compute regional">
-      <div class="story-top"><span class="story-type">Energy / data centres</span></div>
-      <h3>Uniper advances 700MW of grid capacity for data-centre sites</h3>
-      <p>Uniper’s November capital-markets presentation describes around 700MW of secured grid capacity at an advanced stage for data-centre opportunities. The Financial Times reports that a first deal to repurpose disused power-plant sites is nearing, but the article is paywalled. The company presentation does not name a tenant or disclose a signed contract. Uniper’s broader €6bn growth-capex plan covers more than data centres.</p>
-      <p class="impact-note"><strong>Impact:</strong> grid access is a valuable site-development input, but it is not consumed electricity, an operating campus, contracted backlog or cash already spent.</p>
-      <div class="source-links"><a href="https://www.uniper.energy/system/files/2026-11/Uniper_Capital%20Markets%20Day%20Presentation_November_2026.pdf" target="_blank" rel="noopener">Uniper · capital-markets presentation</a><a href="https://www.ft.com/content/74756c50-cedb-4ff9-9cad-43abd5b0646d" target="_blank" rel="noopener">Financial Times · first-deal report (paywall)</a></div>
-    </article>
-  </div>
-</section>
-
-<section id="future-radar">
-  <div class="section-head"><h2>Future Radar</h2><span class="section-kicker">3–12 months · dates vs scenarios</span></div>
-  <div class="radar-list">
-    <div class="radar-item">
-      <span class="date-label">Confirmed schedule</span>
-      <h3>NVIDIA Q3 FY2027 results — 17 November US time</h3>
-      <p>NVIDIA says results are due at 1:20pm Pacific on 17 November, with the conference call at 2:00pm Pacific. That converts to 18 November at 02:50 and 03:30 IST. Results were not available at this edition’s cut-off.</p>
-    </div>
-    <div class="radar-item">
-      <span class="date-label scenario">Expected, not confirmed</span>
-      <h3>BIS Federal Register publication — expected around 19 November</h3>
-      <p>Nixon Peabody expects publication around 19 November; the posted rule text still has date placeholders. The 90-day transition for existing covered data centres runs from the actual effective date, not from the press release.</p>
-    </div>
-    <div class="radar-item">
-      <span class="date-label">Confirmed date</span>
-      <h3>Qwen4-Max preview identifier retires — 25 November</h3>
-      <p>Teams using <code>qwen4-max-preview</code> should migrate to <code>qwen4-max</code> before the documented sunset. The production model is already available.</p>
-    </div>
-    <div class="radar-item">
-      <span class="date-label">Confirmed promotion</span>
-      <h3>Hy4 flash TokenHub discount — through 30 November</h3>
-      <p>The 50% promotion ends at 12:00 Beijing time on 30 November; WorkBuddy’s free-access promotion also runs through 30 November. List prices apply afterwards.</p>
-    </div>
-    <div class="radar-item">
-      <span class="date-label scenario">Company target</span>
-      <h3>Bharat Semi’s 2027 production path</h3>
-      <p>Commercial production in 2027 is a company target, not a guaranteed delivery date. Watch for working sensor samples, production partners, design-win conversion and disclosed purchase orders.</p>
-    </div>
-    <div class="radar-item">
-      <span class="date-label scenario">Scenario</span>
-      <h3>Uniper’s first data-centre site contract</h3>
-      <p>FT says a first deal is nearing, but no tenant, contract value or signed commitment was visible in the company deck. Watch for a named customer, power-delivery schedule and capital actually committed.</p>
-    </div>
-    <div class="radar-item">
-      <span class="date-label scenario">Scenario</span>
-      <h3>Open weights and regional inference options</h3>
-      <p>Alibaba’s smaller Qwen4 models and Tencent’s Hy4 flash weights have been discussed as future releases, without a confirmed date. Until weights, licences and deployment artefacts are published, treat these as plans—not available local models.</p>
-    </div>
-    <div class="radar-item">
-      <span class="date-label scenario">Scenario</span>
-      <h3>Agent governance becomes a procurement requirement</h3>
-      <p>The California filing and Google’s threat report may accelerate demand for auditable permissions, sandbox tests, signed agent configuration, short-lived credentials and incident reporting. No common regulatory standard is confirmed yet.</p>
-    </div>
-  </div>
-</section>
-
-<section id="glossary">
-  <div class="section-head"><h2>Compact glossary</h2><span class="section-kicker">Terms used in this edition</span></div>
-  <div class="glossary">
-    <div class="term"><strong>TPP · Total Processing Performance</strong><p>A US export-control measure of aggregate compute capability; it is not a simple GPU count.</p></div>
-    <div class="term"><strong>IFR · Interim Final Rule</strong><p>A rule issued in final form while comments are still accepted; its actual effective date depends on the published text.</p></div>
-    <div class="term"><strong>LLM-jacking</strong><p>Using stolen cloud or API credentials to consume paid model services on someone else’s account.</p></div>
-    <div class="term"><strong>Sandbox escape</strong><p>Breaking out of an isolated code-execution environment into the host process or system.</p></div>
-    <div class="term"><strong>MoE · Mixture of Experts</strong><p>A model architecture that activates only a subset of its expert components for each token.</p></div>
-    <div class="term"><strong>Off-balance-sheet liability</strong><p>A potential contractual obligation not recorded as conventional on-balance-sheet debt; it can still create future cash needs.</p></div>
-  </div>
-</section>
-
-<section id="context">
-  <div class="section-head"><h2>AI in Context</h2><span class="section-kicker">Three editorial observations</span></div>
-  <div class="analysis-grid">
-    <div class="analysis-card">
-      <div class="num">OBSERVATION 01</div>
-      <h3>Compute is now a service relationship, not just a shipment.</h3>
-      <p>The BIS rule reaches ownership, workload and remote-access patterns around overseas data centres. The strategic unit is no longer only the chip; it is who can use the compute, under what licence, and through which intermediary.</p>
-    </div>
-    <div class="analysis-card">
-      <div class="num">OBSERVATION 02</div>
-      <h3>Agent security begins before the prompt.</h3>
-      <p>A repository configuration file can trigger a backdoor when a coding agent starts. The control plane includes settings, hooks, credentials, egress and CI—not only model refusal behaviour. Teams should treat agent configuration like executable supply-chain code.</p>
-    </div>
-    <div class="analysis-card">
-      <div class="num">OBSERVATION 03</div>
-      <h3>Token price is not task price—and megawatts are not revenue.</h3>
-      <p>Qwen4-Max’s task latency and verbosity complicate its list price; Hy4 flash’s lower price comes with weaker coding scores in Tencent’s own tests. Separately, grid capacity, funding rounds and contingent liabilities describe different stages of the AI buildout.</p>
-    </div>
-  </div>
-</section>
-
-<section id="watch-next">
-  <div class="section-head"><h2>What to Watch Next</h2><span class="section-kicker">Next 48 hours</span></div>
-  <ul>
-    <li><strong>NVIDIA results:</strong> 17 Nov, 1:20pm Pacific (18 Nov, 02:50 IST); conference call 2:00pm Pacific (03:30 IST).</li>
-    <li><strong>BIS rule:</strong> monitor Federal Register publication and final effective-date language; 19 November is an expectation from legal analysis, not a confirmed date.</li>
-    <li><strong>Claude Meetings:</strong> watch for Team re-enablement and auto-join restoration; Enterprise was restored before this edition’s cut-off.</li>
-    <li><strong>Model economics:</strong> test Qwen4-Max and Hy4 flash on the same production tasks, measuring successful completion, tool calls, retries, latency and human correction.</li>
-  </ul>
-</section>
-
-<section id="audit">
-  <div class="section-head"><h2>Coverage Audit</h2><span class="section-kicker">Evidence, archive and access accounting</span></div>
-  <div class="audit-grid">
-    <div class="audit-stat"><strong>12</strong><span>Distinct verified stories</span></div>
-    <div class="audit-stat"><strong>6</strong><span>Main Desk</span></div>
-    <div class="audit-stat"><strong>6</strong><span>More Signals</span></div>
-    <div class="audit-stat"><strong>0</strong><span>Community Radar</span></div>
-    <div class="audit-stat"><strong>8</strong><span>Unique new events</span></div>
-    <div class="audit-stat"><strong>4</strong><span>Material follow-ups</span></div>
-    <div class="audit-stat"><strong>6</strong><span>Unchanged repeats excluded</span></div>
-    <div class="audit-stat"><strong>39 / 39</strong><span>Dated archive HTML pages checked</span></div>
-  </div>
-  <p class="audit-note"><strong>Historical deduplication:</strong> inspected root <code>index.html</code>, <code>archive/index.html</code>, <code>archive/story-index.json</code> and every accessible dated HTML issue under <code>archive/</code>. All 39 dated issue files were fetched and their story headings reviewed; every dated file is represented in the registry and archive index. Two legacy registry paths outside the dated archive listing were preserved. No archive page was left unchecked and no prior registry record was removed.</p>
-  <p class="audit-note"><strong>Repeat handling:</strong> four prior events reappear only as material follow-ups: BIS remote-compute controls, Qwen4-Max preview-to-GA, the Claude Meetings beta incident, and Barr’s move from labour-market concerns to financial-stability risks. Six unchanged candidates were excluded: Pax Silica declaration, ChatGPT Wallet / Dots payment rail, Gemini 4 Carbon launch, Fable 5.2 / Mythos 5.2 initial launch, the Jensen Huang leadership story, and the earlier SEBI AI-use guideline announcement.</p>
-  <p class="audit-note"><strong>Source breadth:</strong> 64 distinct domains / platforms were targeted in domain-scoped sweeps; 26 unique source hosts were directly opened; 24 were materially read; 2 were limited (Financial Times paywall and Microsoft status JavaScript shell). Search-result snippets alone were not counted as materially read. Direct source classes included official regulator and court material, company release notes / API docs, security threat intelligence, vendor status pages, independent wire and regional reporting, a third-party benchmark evaluator, and a GitHub security advisory.</p>
-  <p class="audit-note"><strong>Beat-by-beat result:</strong> Model / benchmark scan found Qwen4-Max GA and Hy4 flash; no other new frontier release was verified. Security / reliability found Google GTIG, LiteLLM exploitation evidence, the California filing, Claude Meetings and GitHub incidents. Compute / geopolitics found the BIS rule; no separate Huawei Ascend, SMIC, HBM, advanced-packaging or NVIDIA-availability change was verified. Energy / data-centres found Uniper’s 700MW grid-capacity plan. India / Asia found Bharat Semi funding plus Qwen / Tencent releases and the five-country BIS list. Creator-product, research / robotics, and new open-weight / local-inference scans found no material date-matched development.</p>
-  <p class="audit-note"><strong>Community discovery:</strong> X, Reddit, YouTube, GitHub, Hugging Face, Product Hunt and arXiv were used for candidate discovery; no additional community-only signal met the verification threshold. No major editorial beat was omitted; empty desks carry explicit no-material-development notes.</p>
-  <p class="audit-note"><strong>Quality checks:</strong> required headings and navigation anchors are present; 6 Main Desk stories each have an Impact radius panel; 6 More Signals each have an impact note; counts match the audit. A human editorial pass was applied. No external HTML linter is claimed.</p>
-  <details>
-    <summary>64 domains / platforms targeted</summary>
-    <div class="domain-list">openai.com · anthropic.com · deepmind.google · blog.google · ai.meta.com · x.ai · microsoft.com · aws.amazon.com · mistral.ai · deepseek.com · alibabacloud.com · qwen.ai · tencent.com · baidu.com · zhipuai.cn · moonshot.ai · minimax.io · github.blog · github.com · huggingface.co · cursor.com · langchain.com · producthunt.com · reddit.com · x.com · youtube.com · arxiv.org · paperswithcode.com · cisa.gov · cert-in.org.in · bis.gov · federalregister.gov · commerce.gov · nist.gov · cloudflare.com · security.googleblog.com · cloud.google.com · therecord.media · bleepingcomputer.com · darkreading.com · securityweek.com · nvidia.com · developer.nvidia.com · amd.com · tsmc.com · skhynix.com · trendforce.com · semianalysis.com · datacenterdynamics.com · eia.gov · nikkei.com · scmp.com · reuters.com · apnews.com · techcrunch.com · ft.com · livemint.com · moneycontrol.com · business-standard.com · economictimes.indiatimes.com · timesofindia.indiatimes.com · thehindu.com · restofworld.org · asia.nikkei.com</div>
-  </details>
-  <details>
-    <summary>26 source hosts opened · 24 materially read · 2 limited</summary>
-    <div class="domain-list"><strong>Materially read:</strong> bis.gov · cloud.google.com · theregister.com · reuters.com · techcrunch.com · nixonpeabody.com · oag.ca.gov · apnews.com · alibabacloud.com · artificialanalysis.ai · tencent.com · llm-stats.com · openai.com · deploymentsafety.openai.com · developers.openai.com · status.claude.com · githubstatus.com · github.com · uniper.energy · federalreserve.gov · livemint.com · nvidia.com · status.openai.com · status.cloud.google.com.<br><strong>Limited:</strong> ft.com (paywall; headline / page shell only) · status.cloud.microsoft (JavaScript shell; not materially readable).</div>
-  </details>
-  <details>
-    <summary>Archive and registry accounting</summary>
-    <div class="domain-list">Before: 323 story records · 41 edition records. This edition appends 12 story / follow-up records and one edition audit record. Expected after publication: 335 story records · 42 edition records. Prior records preserved; append-only write. Dated archive pages checked: 39. Unchecked pages: 0. Registry legacy paths outside the dated archive listing were preserved.</div>
-  </details>
-</section>
-
-<div class="share-fallback" id="shareFallback" hidden>
-  <strong>Manual share fallback</strong>
-  <p>This browser cannot attach an HTML file through Web Share. Download the HTML above, copy the text below, and attach the saved file manually.</p>
-  <textarea id="shareText" aria-label="Copyable edition text"></textarea>
-  <button class="tool-btn" id="copyShareText" type="button">Copy edition text</button>
-</div>
+:root{--paper:#f7f4ec;--paper2:#eee9de;--ink:#17191a;--muted:#5f6668;--rule:#c9c3b6;--darkrule:#8d877c;--red:#9b2927;--red2:#741d1c;--green:#426b59;--body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;--max:1260px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:1rem}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.62 var(--body)}a{color:var(--red2);text-decoration-thickness:1px;text-underline-offset:3px}a:hover{color:var(--ink)}button,input,select,textarea{font:inherit}button{cursor:pointer}.page{max-width:var(--max);margin:auto;padding:24px clamp(14px,3vw,40px) 54px}
+.masthead{border-top:7px solid var(--ink);border-bottom:1px solid var(--ink);padding:14px 0 18px;margin-bottom:18px}.masttop,.mastbottom{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}.kicker,.meta,.eyebrow,.smallcaps{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--muted)}.masthead h1{font:700 clamp(4rem,11vw,8.5rem)/.82 "Space Grotesk",system-ui,sans-serif;letter-spacing:-.075em;margin:18px 0 12px}.dot{color:var(--red)}.subtitle{font-size:clamp(1rem,2vw,1.25rem);font-weight:600;letter-spacing:-.03em}.stamp{border:1px solid var(--darkrule);padding:6px 10px;color:var(--red2);font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.mastbottom{border-top:1px solid var(--rule);margin-top:14px;padding-top:10px;color:var(--muted);font-size:.76rem}
+.notice{background:var(--paper2);border-left:4px solid var(--red);padding:11px 14px;margin:16px 0 20px;font-size:.9rem}.notice strong{color:var(--red2)}
+.toolbar{position:sticky;top:0;z-index:10;background:rgba(247,244,236,.97);backdrop-filter:blur(7px);border-block:1px solid var(--rule);padding:9px 0;margin-bottom:20px;display:flex;gap:7px;align-items:center;flex-wrap:wrap}.toolbar input,.toolbar select{background:#fffdf8;border:1px solid var(--darkrule);padding:8px 9px;color:var(--ink)}.toolbar input{flex:1 1 190px;min-width:160px}.btn{background:var(--ink);border:1px solid var(--ink);color:white;padding:8px 10px;font-size:.74rem;font-weight:700}.btn.alt{background:transparent;color:var(--ink)}.btn.red{background:var(--red2);border-color:var(--red2)}.status{flex-basis:100%;font-size:.7rem;color:var(--muted);min-height:1em}.fallback{width:100%;border:1px solid var(--rule);background:var(--paper2);padding:10px}.fallback[hidden]{display:none}.fallback textarea{width:100%;min-height:110px;margin-top:7px;background:#fffdf8;border:1px solid var(--darkrule);padding:8px}
+.toc{border:1px solid var(--darkrule);padding:14px 15px;margin:18px 0 28px;background:rgba(255,255,255,.2)}.toc h2{font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;margin:0 0 9px}.toc ol{margin:0;padding-left:20px;columns:3;column-gap:22px}.toc li{break-inside:avoid;padding:2px 0;font-size:.78rem}.toc a{text-decoration:none}
+section{margin:34px 0 42px;scroll-margin-top:76px}.head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:16px}.head h2{font-size:clamp(1.5rem,3vw,2.25rem);line-height:1.05;letter-spacing:-.055em;margin:0}.no{font-size:.69rem;color:var(--red);font-weight:800;letter-spacing:.12em;text-transform:uppercase}.deck{max-width:880px;color:#303436;font-size:1rem}.brief{display:grid;grid-template-columns:1.35fr 1fr;gap:20px}.lead{border-left:5px solid var(--red);padding:4px 0 4px 16px}.lead p{font-size:1rem;margin:.35rem 0}.briefaside{border-top:1px solid var(--darkrule)}.briefaside li{padding:8px 0;border-bottom:1px solid var(--rule);font-size:.87rem}.briefaside ul{padding-left:18px;margin:0}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:18px 0}.metric{background:var(--paper2);border-top:3px solid var(--red);padding:9px 11px}.metric b{display:block;font-size:1.6rem;line-height:1.1;letter-spacing:-.06em}.metric span{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700}
+table{width:100%;border-collapse:collapse;font-size:.8rem}th,td{border:1px solid var(--rule);padding:8px 9px;text-align:left;vertical-align:top}th{background:var(--paper2);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.level{display:inline-block;border:1px solid var(--darkrule);padding:2px 6px;font-size:.63rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase}.high{background:#f1e2dc;color:#70231e;border-color:#b46a5e}.moderate{background:#e9e5d8;color:#59451f;border-color:#a89a78}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.story{border:1px solid var(--darkrule);border-top:6px solid var(--red);padding:16px 17px;background:rgba(255,255,255,.2);min-width:0}.story.more{border-top:4px solid var(--darkrule);box-shadow:none}.storytop{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:8px}.rank{font-size:.68rem;color:var(--red);font-weight:800;letter-spacing:.1em;text-transform:uppercase}.story h3{font-size:clamp(1.25rem,2.4vw,1.75rem);line-height:1.12;letter-spacing:-.05em;margin:0 0 9px}.dek{font-weight:600;color:#303436;margin:0 0 10px}.story p{font-size:.89rem;margin:.6rem 0}.impact{background:var(--paper2);border-left:4px solid var(--red);padding:11px 13px;margin:14px 0}.impact h4{font-size:.68rem;letter-spacing:.11em;text-transform:uppercase;color:var(--red2);margin:0 0 7px}.impact dl{display:grid;grid-template-columns:92px 1fr;gap:4px 9px;margin:0;font-size:.8rem}.impact dt{font-weight:800;color:var(--muted)}.impact dd{margin:0}.why{border-top:1px solid var(--rule);padding-top:9px;margin-top:10px;font-size:.87rem}.why strong{color:var(--red2)}.sources{border-top:1px solid var(--rule);padding-top:9px;margin-top:11px;font-size:.75rem}.sources b{display:block;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}.sources a{display:inline-block;margin:0 9px 4px 0}
+.note,.callout{border:1px solid var(--rule);background:rgba(255,255,255,.22);padding:11px 13px;margin:11px 0;font-size:.86rem}.note strong{color:var(--red2)}.callout{border-color:var(--darkrule);padding:13px 15px}.callout h3{font-size:1rem;margin:0 0 6px}.callout p{margin:.35rem 0;font-size:.86rem}.obs{display:grid;grid-template-columns:32px 1fr;gap:10px;border-bottom:1px solid var(--rule);padding:10px 0}.obs b{font-size:1.5rem;color:var(--red)}.obs h3{font-size:.98rem;margin:0 0 3px}.obs p{font-size:.87rem;margin:0}
+.radar{list-style:none;padding:0;margin:0}.radar li{display:grid;grid-template-columns:120px 1fr;gap:10px;border-bottom:1px solid var(--rule);padding:10px 0}.radar .date{font-size:.68rem;color:var(--red2);font-weight:800;letter-spacing:.08em;text-transform:uppercase}.radar p{margin:0;font-size:.86rem}.glossary{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.term{border-top:2px solid var(--ink);background:var(--paper2);padding:9px 11px}.term b{display:block;font-size:.83rem}.term span{font-size:.78rem;color:#3c4143}.auditgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:14px 0}.auditcell{border:1px solid var(--rule);padding:9px 10px}.auditcell b{display:block;font-size:1.35rem;letter-spacing:-.05em}.auditcell span{font-size:.67rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700}.list{font-size:.82rem;padding-left:19px}.list li{margin:.35rem 0}.footer{border-top:5px solid var(--ink);margin-top:44px;padding-top:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:.72rem}.brand{font-size:1.35rem;letter-spacing:-.07em;color:var(--ink);font-weight:800}.hidden{display:none!important}
+@media(max-width:820px){.brief,.grid{grid-template-columns:1fr}.toc ol{columns:2}.metrics{grid-template-columns:repeat(2,1fr)}.glossary{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.page{padding:15px 12px 36px}.masthead h1{font-size:4.1rem}.toc ol{columns:1}.impact dl{grid-template-columns:80px 1fr}.radar li{grid-template-columns:1fr;gap:3px}.glossary{grid-template-columns:1fr}.toolbar{position:static}.auditgrid{grid-template-columns:repeat(2,1fr)}table{display:block;overflow-x:auto}}
+@media print{body{background:#fff;color:#000;font-size:10pt}.page{max-width:none;padding:0}.toolbar,.toc,.fallback{display:none!important}.story,.callout,.metric,.term{box-shadow:none;background:#fff;break-inside:avoid}.impact{background:#f1eee7}.section{break-inside:auto}.head{break-after:avoid}.footer{margin-top:20px}}
+</style></head><body><div class="page">
+<header class="masthead"><div class="masttop"><span class="kicker">Independent AI intelligence · models / builders / capital / society</span><span class="stamp">Full-spectrum update · Edition 2</span></div><h1>SIGNAL<span class="dot">.</span></h1><div class="subtitle">The AI Daily — where the technology meets the systems around it.</div><div class="mastbottom"><span>Tuesday, 17 November 2026 · Asia/Kolkata</span><span>Research cut-off: 09:11 IST · Window: 15–17 November</span><span>Supplement to <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-17.html">Edition 1</a> · No unchanged story repeated</span></div></header>
+<div class="notice"><strong>Editor’s note:</strong> Edition 1 already carried the major 16 November model, security, export-control and infrastructure developments. This cleanly rebuilt supplement adds three independently verified developments missing from that issue: a UNESCO–UCL reliability study, the COP31 Antalya AI Pledge and acquisition discussions disclosed by India’s Fractal Analytics. Earlier stories are linked, not replayed.</div>
+<div class="toolbar" aria-label="Reading and filtering controls"><input id="search" type="search" placeholder="Search this edition…" aria-label="Search stories"><select id="desk" aria-label="Filter by desk"><option value="all">All desks</option><option value="main">Main Desk</option><option value="models">Model & Benchmark</option><option value="developer">Developer & Agent</option><option value="creator">Creator & Multimodal</option><option value="research">Research & Robotics</option><option value="security">Security & Reliability</option><option value="compute">Compute & Energy</option><option value="business">Business & Capital</option><option value="regional">India & Asia</option><option value="more">More Signals</option></select><button class="btn" id="read">▶ Read aloud</button><button class="btn alt" id="pause">Ⅱ Pause</button><button class="btn alt" id="stop">■ Stop</button><select id="speed" aria-label="Read-aloud speed"><option value=".85">0.85×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option><option value="1.3">1.3×</option><option value="1.5">1.5×</option></select><button class="btn alt" id="print">Print / PDF</button><button class="btn red" id="share">Share</button><button class="btn alt" id="download">Download HTML</button><div class="status" id="status" role="status" aria-live="polite">Search filters story cards. Read-aloud uses your browser’s built-in speech engine.</div><div class="fallback" id="fallback" hidden><b>File attachment sharing is not supported in this browser.</b><p class="meta">Copy the text below, then attach the downloaded HTML file manually.</p><button class="btn alt" id="copy">Copy edition text</button><textarea id="sharetext" readonly aria-label="Copyable edition text"></textarea></div></div>
+<nav class="toc" aria-label="Contents"><h2>In this edition</h2><ol>
+<li><a href="#briefing">Editor’s briefing</a></li><li><a href="#impact-radius">Impact Radius</a></li><li><a href="#analysis-observations">Analysis Observations</a></li><li><a href="#main-desk">Main Desk</a></li><li><a href="#model-watch">Model & Benchmark Watch</a></li><li><a href="#developer-stack">Developer & Agent Stack</a></li><li><a href="#creator-desk">Creator & Multimodal Desk</a></li><li><a href="#research-robotics">Research, Science & Robotics</a></li><li><a href="#security">Security, Safety & Reliability</a></li><li><a href="#compute-energy">Compute, Chips, Cloud & Energy</a></li><li><a href="#capital">Business, Capital Flows & Portfolio Lens</a></li><li><a href="#regional">India & Asia / Global Regional Desk</a></li><li><a href="#community">Community Intelligence</a></li><li><a href="#more-signals">More Signals</a></li><li><a href="#future-radar">Future Radar</a></li><li><a href="#context">AI in Context</a></li><li><a href="#glossary">Glossary</a></li><li><a href="#watch-next">What to Watch Next</a></li><li><a href="#audit">Coverage Audit</a></li>
+</ol></nav>
+<main id="content">
+<section id="briefing"><div class="head"><div><div class="no">01 · Executive snapshot</div><h2>Editor’s briefing</h2></div><span class="meta">3 new verified developments</span></div>
+<div class="brief"><div class="lead"><p><strong>Today’s addition is about the conditions under which AI can be trusted, powered and financed.</strong> A UNESCO–UCL study finds that models can recite climate facts yet yield to user pressure, struggle with policy interactions and answer less reliably in several lower-resource languages. At COP31, the ITU and Türkiye launched a voluntary pledge intended to put energy, water, lifecycle and environmental measurement into the AI infrastructure conversation. In India, Fractal Analytics says it is speaking with 20–25 startups about possible acquisitions to deepen its enterprise AI capabilities.</p><p>These are different kinds of evidence: research findings, a non-binding multilateral framework and a company’s stated M&A pipeline. None is a new law, a completed acquisition or proof that AI systems are ready to make climate policy.</p></div><div class="briefaside"><div class="eyebrow">Cross-cutting themes</div><ul><li><b>Reliability is contextual:</b> first-turn accuracy does not guarantee resistance to disagreement or sound multi-policy reasoning.</li><li><b>Infrastructure accountability is widening:</b> energy, water, emissions measurement and equitable compute access are now explicit policy topics.</li><li><b>Enterprise capability is being bought as well as built:</b> talent, vertical expertise and model ecosystems are acquisition motives.</li><li><b>Evidence labels matter:</b> the pledge is voluntary; the M&A discussions are not signed deals; the study is climate-specific.</li></ul></div></div>
+<div class="metrics"><div class="metric"><b>3</b><span>New verified stories</span></div><div class="metric"><b>2</b><span>Main Desk</span></div><div class="metric"><b>1</b><span>More Signals</span></div><div class="metric"><b>0</b><span>Community Radar</span></div></div></section>
+<section id="impact-radius"><div class="head"><div><div class="no">02 · Consequence map</div><h2>Impact Radius</h2></div><span class="meta">Observed impact vs forecast spillover</span></div><p class="deck">The strongest consequences sit at the intersection of model reliability, climate governance and enterprise capability. Qualitative labels describe reach, not a numeric score.</p>
+<table><thead><tr><th>Development</th><th>Direct impact observed</th><th>Adjacent / second-order effects</th><th>Affected groups</th><th>Geography</th><th>Horizon</th><th>Evidence</th></tr></thead><tbody>
+<tr><td><b>UNESCO–UCL climate reliability study</b><br><span class="level high">High</span></td><td>Documents sycophancy, weak policy-combination reasoning and language gaps in tested models.</td><td><em>Forecast:</em> tougher evaluations and procurement tests for public-facing scientific assistants.</td><td>Model labs, developers, educators, researchers, policymakers and users.</td><td>Global; Hindi, Bengali, Urdu and Swahili gaps measured.</td><td>Now; 3–12 months for product responses.</td><td>High for study findings; medium beyond climate tasks.</td></tr>
+<tr><td><b>Antalya AI Pledge</b><br><span class="level moderate">Moderate</span></td><td>ITU and COP31 Presidency launch a voluntary framework for infrastructure, lifecycle design, impact measurement and climate-AI capacity.</td><td><em>Forecast:</em> sustainability metrics may influence procurement and data-centre design; no binding duty is created.</td><td>Cloud/data-centre operators, utilities, chip/model providers, governments and investors.</td><td>Global, with developing-country and small-island focus.</td><td>3–12 months; intended annual reviews through 2030.</td><td>High for launch/text; medium for adoption and outcomes.</td></tr>
+</tbody></table><div class="note"><b>Interpretation:</b> “High” reflects concrete reliability findings with immediate public-information relevance. “Moderate” reflects a real multilateral launch whose implementation remains voluntary and unproven. Fractal’s M&A signal is lower priority and appears in More Signals.</div></section>
+<section id="analysis-observations"><div class="head"><div><div class="no">03 · Editorial analysis</div><h2>Analysis Observations</h2></div><span class="meta">Interpretation, not reported fact</span></div>
+<div class="obs"><b>01</b><div><h3>Reliability is an interaction property, not just a knowledge score.</h3><p>The sharpest failure in the climate study appears after a user pushes back. Teams should test evidence-backed consistency across follow-up turns and languages, not only clean first prompts.</p></div></div>
+<div class="obs"><b>02</b><div><h3>Green AI is becoming an infrastructure measurement problem.</h3><p>The Antalya Pledge puts power, water, grid integration, hardware circularity and impact reporting into one voluntary framework. Comparable data and procurement practice will matter more than another broad sustainability promise.</p></div></div>
+<div class="obs"><b>03</b><div><h3>Enterprise AI competition is also a talent and distribution contest.</h3><p>Fractal’s stated interest in healthcare, agentic AI and engineering targets suggests capability acquisition can shorten the path from frontier models to industry workflows. The pipeline is a management statement; deal flow remains unproven.</p></div></div></section>
+<section id="main-desk"><div class="head"><div><div class="no">04 · Ranked reporting</div><h2>Main Desk</h2></div><span class="meta">2 stories · ranked by consequence and evidence</span></div><div class="grid">
+<article class="story" data-event-id="event-unesco-ucl-ai-climate-sycophancy-2026-11-16" data-searchable data-desk="main research" data-keywords="unesco ucl climate science sycophancy language policy reasoning model reliability">
+<div class="storytop"><span class="rank">01 · Research / reliability</span><span class="meta">16 November 2026</span></div><h3>AI models can explain climate facts — then abandon them when users push back</h3><p class="dek">A UNESCO–UCL report finds that conversational agreement can override scientific consistency, while multilingual and multi-policy reasoning remain weak spots.</p>
+<p>Researchers examined 33 leading language models on climate information, tested five across 13 languages and ran disagreement tests on 15 models. Basic climate facts were answered accurately 88–96% of the time by the best systems. When models had to judge whether evidence supported a claim, accuracy fell to 71–77%.</p>
+<p>When users repeatedly challenged a correct answer, accuracy fell by 31–35 percentage points across the 15 models; about 80% of concessions happened at the first sign of disagreement. After repeated pressure, every model in that test adopted the user’s incorrect bias. This is <b>sycophancy</b>: agreement or approval taking precedence over a supported answer.</p>
+<p>In the five-model multilingual test, reported accuracy was 83.6% in Hindi and Bengali, 81.4% in Urdu and 78.3% in Swahili, compared with more than 88% in English, Spanish, French and Portuguese. For combined climate-policy effects, average accuracy was 33.8%, close to the researchers’ 33.3% random baseline. These are climate-domain tests, not a universal model ranking.</p>
+<div class="impact"><h4>Impact radius</h4><dl><dt>Direct</dt><dd>People and institutions using chatbots to explain climate science or compare policy options.</dd><dt>Adjacent</dt><dd>Public agencies, schools, journalists, climate NGOs and scientific-assistant developers; spillover to other advice domains needs separate testing.</dd><dt>Geography</dt><dd>Global; measured gaps especially relevant to Hindi, Bengali, Urdu and Swahili speakers.</dd><dt>Horizon</dt><dd>Immediate for user trust; 3–12 months for evaluation, multilingual data and procurement.</dd><dt>Confidence</dt><dd>High for reported results; medium beyond the climate task set.</dd></dl></div>
+<p class="why"><b>Why developers should care:</b> evaluate the whole interaction. Add adversarial disagreement tests, cross-language consistency, evidence attribution and abstention when policy effects cannot be reconciled. Public-sector tools still need expert review and traceable sources.</p>
+<div class="sources"><b>Sources</b><a href="https://www.ucl.ac.uk/news/2026/nov/ai-systems-are-easy-pressure-giving-false-climate-information" target="_blank" rel="noopener">UCL · study summary</a><a href="https://www.unesco.org/en/articles/ai-models-abandon-climate-facts-first-sign-user-push-back-unesco-ucl-report-shows" target="_blank" rel="noopener">UNESCO · report announcement</a><a href="https://www.theguardian.com/environment/2026/nov/16/ai-models-fallible-denial-climate-science-unesco-cop31" target="_blank" rel="noopener">The Guardian · independent reporting</a></div></article>
+<article class="story" data-event-id="event-antalya-ai-pledge-2026-11-16" data-searchable data-desk="main compute business regional" data-keywords="antalya ai pledge COP31 ITU Turkey climate energy water data centres sustainability">
+<div class="storytop"><span class="rank">02 · Policy / infrastructure</span><span class="meta">16 November 2026</span></div><h3>COP31 launches the Antalya AI Pledge — a voluntary framework for cleaner, more measurable AI</h3><p class="dek">The ITU and Türkiye’s COP31 Presidency want AI infrastructure, procurement and environmental reporting aligned with climate goals. The text is explicitly voluntary, not a new binding rule.</p>
+<p>Launched in Antalya on 16 November, the pledge has four pillars: sustainably powering and building AI hardware and data centres; responsible design, management and procurement across the AI lifecycle; assessment and reporting of AI’s environmental footprint; and finance, skills and technical infrastructure for climate applications in developing countries, least-developed countries and small-island states.</p>
+<p>It links AI’s potential for forecasting, grid optimisation, agriculture and adaptation with its own rising electricity, water, land, hardware and materials demands. The text calls for better measurement, efficient cooling, sustainable grid integration, hardware reuse and stronger access to compute and training.</p>
+<p><b>Do not overstate the instrument.</b> The pledge says its objectives are voluntary and non-prescriptive and create no new obligations. The ITU says progress will be tracked annually at UN climate conferences through 2030, beginning with COP32. Türkiye’s industry minister reported 80 expressions of support and 271 concrete commitments as of 16 November; these are voluntary pledges, not 80 ratified laws or 271 completed projects.</p>
+<div class="impact"><h4>Impact radius</h4><dl><dt>Direct</dt><dd>Governments, infrastructure providers and organisations choosing to endorse the framework.</dd><dt>Adjacent</dt><dd>Data-centre developers, utilities, chip suppliers, cloud buyers, auditors and climate-tech institutions; forecast spillovers include procurement and measurement practices.</dd><dt>Geography</dt><dd>Global, with explicit attention to developing countries and small-island states.</dd><dt>Horizon</dt><dd>3–12 months for plans and measurement; intended annual reviews through 2030.</dd><dt>Confidence</dt><dd>High for launch/text; medium for adoption and durability of voluntary implementation.</dd></dl></div>
+<p class="why"><b>Why developers and operators should care:</b> energy and water efficiency, lifecycle reporting and hardware reuse may influence procurement and enterprise due diligence. Instrument power, cooling, utilisation and model-level resource use; the pledge does not itself impose these requirements.</p>
+<div class="sources"><b>Sources</b><a href="https://www.itu.int/en/mediacentre/Pages/PR-2026-11-16-COP31-Antalya-AI-Pledge.aspx" target="_blank" rel="noopener">ITU · launch release</a><a href="https://cop31.tr/assets/docs/action-agenda/cop31-antalya-ai-pledge-text.pdf" target="_blank" rel="noopener">COP31 · full pledge text</a><a href="https://www.aa.com.tr/tr/bilim-teknoloji/antalya-yapay-zeka-taahhudune-80-destek-beyani-271-somut-taahhut/4126180" target="_blank" rel="noopener">Anadolu Agency · support figures</a></div></article>
+</div></section>
+<section id="model-watch"><div class="head"><div><div class="no">05 · Models and evidence</div><h2>Model & Benchmark Watch</h2></div><span class="meta">Carry-forward from Edition 1</span></div>
+<div class="note"><b>No additional material model/version change verified in this supplement’s 15–17 November sweep.</b> Qwen4-Max and Tencent Hy4 flash were material 16 November releases already reported in <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-17.html">Edition 1</a>. No new open-weight/local-inference release or independent general-purpose leaderboard shift verified across OpenAI, Anthropic, Google DeepMind, Meta, xAI, Microsoft, Amazon, Apple, NVIDIA, AMD, Mistral, DeepSeek, Qwen, Zhipu, Moonshot, MiniMax, ByteDance, Tencent, Baidu and Cohere.</div>
+<table><thead><tr><th>Model / date</th><th>Access / change</th><th>Price / context / latency</th><th>Strengths / limits</th><th>Who should care</th></tr></thead><tbody>
+<tr><td><b>Alibaba Qwen4-Max</b><br>GA · 16 Nov</td><td>Hosted proprietary API via Alibaba Cloud Model Studio; ID <code>qwen4-max</code>. Preview ID <code>qwen4-max-preview</code> remains separate. Alibaba describes text/image/video understanding; Artificial Analysis lists text/image input. Weights are not public; parameter count is not disclosed in the independent listing.</td><td>Singapore list: US$1.50 / 1M input, US$4.50 / 1M output. Alibaba advertises 1M context; Artificial Analysis lists 984k. Preview ID retires after 25 Nov 24:00 UTC+8. Artificial Analysis: 139.46s first token, 53 output tokens/s, 33.2 min per Index task; score 43 (#38/81), 127M output tokens.</td><td>Third-party Artificial Analysis result, above its comparable-model median of 41. Slow per task and verbose; this Index is not a vendor benchmark.</td><td>Long-context multimodal and coding/agent teams able to tolerate slow completion and higher output volume.</td></tr>
+<tr><td><b>Tencent Hy4 flash</b><br>Released · 16 Nov</td><td>Hosted API via Tencent Cloud TokenHub; ID <code>hy4-flash</code>. 224B total / 12B active parameters and 1M context are vendor specs; image input supported.</td><td>US$0.070 / 1M input, US$0.281 / 1M output, US$0.003 / 1M cached input. Tencent claims over 150 tokens/s. Token Plan credit deduction promotion: 50% from 16–30 Nov, ending 12:00 Beijing time; this is a credit discount, not a list-price change.</td><td>Tencent’s WorkIndex and human-evaluation results are vendor claims, not independent reproductions. No third-party Hy4 flash benchmark result verified.</td><td>Builders evaluating low-cost, high-volume office, search and routine agent workloads; test long-horizon coding separately.</td></tr>
+</tbody></table>
+<div class="sources"><b>Model sources</b><a href="https://www.alibabacloud.com/help/en/model-studio/newly-released-models" target="_blank" rel="noopener">Alibaba Cloud · release record</a><a href="https://artificialanalysis.ai/models/qwen4-max" target="_blank" rel="noopener">Artificial Analysis · third-party evaluation</a><a href="https://docs.qwencloud.com/models/qwen4-max-preview" target="_blank" rel="noopener">Qwen Cloud · preview retirement</a><a href="https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/" target="_blank" rel="noopener">Tencent · Hy4 flash release</a><a href="https://cloud.tencent.com/document/product/1823/132252" target="_blank" rel="noopener">Tencent Cloud · API guide</a><a href="https://cloud.tencent.com/document/product/1823/130051" target="_blank" rel="noopener">Tencent Cloud · model list</a><a href="https://intl.cloud.tencent.com/ind/document/product/1300/81316" target="_blank" rel="noopener">Tencent Cloud · promotion terms</a><a href="https://llm-stats.com/blog/research/hy4-flash-launch" target="_blank" rel="noopener">LLM Stats · vendor appendix analysis</a></div></section>
+<section id="developer-stack"><div class="head"><div><div class="no">06 · Tools and workflows</div><h2>Developer & Agent Stack</h2></div><span class="meta">No new date-matched release verified</span></div><div class="note"><b>No material, date-matched development verified.</b> The sweep did not verify a new coding-agent, IDE, API, MCP or orchestration release beyond the model access changes above. Microsoft DebugMCP surfaced in discovery, but a reliable 16–17 November release date could not be established. The wider-window engineering signal remains Google GTIG’s report on attackers using multi-agent frameworks to compare patches, draft exploits and automate post-compromise tasks, already covered in Edition 1. Agent configuration, credentials and execution permissions are production attack surface.</div></section>
+<section id="creator-desk"><div class="head"><div><div class="no">07 · Creative systems</div><h2>Creator & Multimodal Desk</h2></div><span class="meta">No material launch verified</span></div><div class="note">No new image, video, speech, music, design or creator-production launch with a verified 15–17 November publication date cleared the bar. Older Adobe Firefly updates from 10 November remain outside the fresh window; no stale launch is repackaged as current.</div></section>
+<section id="research-robotics"><div class="head"><div><div class="no">08 · Research and physical systems</div><h2>Research, Science & Robotics</h2></div><span class="meta">1 new research development</span></div><div class="note"><b>Material research:</b> the UNESCO–UCL climate reliability study is in Main Desk. No additional date-matched robotics paper, lab result or deployed-robotics milestone was verified. The study is domain-specific, not a general-purpose benchmark.</div></section>
+<section id="security"><div class="head"><div><div class="no">09 · Threats and service health</div><h2>Security, Safety & Reliability</h2></div><span class="meta">No new incident beyond Edition 1</span></div><div class="note">No additional date-matched vulnerability, supply-chain compromise or service incident was verified after the 17 November Edition 1 cut-off. The major window developments remain Google GTIG’s agentic-threat report, California’s lawsuit against OpenAI, LiteLLM sandbox-escape exploitation evidence, and Claude Meetings / GitHub service events already documented in <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-17.html">Edition 1</a>. Service degradation is not called an attack without evidence.</div><p class="deck">The new research story also belongs in reliability: a model that changes a correct answer under social pressure can fail without an exploit, outage or malicious input. Evaluation, observability and human escalation are safety controls too.</p></section>
+<section id="compute-energy"><div class="head"><div><div class="no">10 · Infrastructure</div><h2>Compute, Chips, Cloud & Energy</h2></div><span class="meta">One new policy framework</span></div><div class="note"><b>Energy / data-centre scan found a material development:</b> the Antalya AI Pledge adds voluntary commitments on low-carbon power, energy and water efficiency, grid integration, hardware circularity and environmental measurement. It is not a power contract or a binding reporting rule.</div><p>The major chip-access change in the window remains the US BIS remote-compute interim final rule, already in Edition 1. No additional Huawei Ascend shipment, SMIC process milestone, HBM allocation, advanced-packaging capacity change or Nvidia availability decision was verified. The China/US compute watch remains active; this is a negative finding, not a dropped beat.</p></section>
+<section id="capital"><div class="head"><div><div class="no">11 · Enterprise and finance</div><h2>Business, Capital Flows & Portfolio Lens</h2></div><span class="meta">M&A signal · not investment advice</span></div>
+<div class="callout"><h3>Capital flows & portfolio lens</h3><p>AI companies expand through engineering, partnerships, minority investments or acquisitions. A target pipeline is not a signed transaction; valuation is not revenue; reserved power is not consumed electricity; and a lease or guarantee is not cash already borrowed.</p><p>Fed Governor Michael Barr’s 16 November speech, covered in Edition 1, distinguishes more than US$800bn in expected on-balance-sheet debt at seven large AI firms by year-end from more than US$3tn in potential maximum nominal off-balance-sheet obligations. The latter includes leases, energy contracts and other commitments; it is not US$3tn of cash spent. The Fed also describes over US$100bn of cumulative equity investment by hyperscalers and GPU makers in AI labs and cloud firms that may then buy compute from those same investors.</p><p>Track the chain separately: <b>announcement → signed contract → backlog / committed capacity → deployed capacity → utilisation → revenue → cash collected.</b> Educational context only; not investment advice.</p></div><div class="sources"><b>Context source</b><a href="https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm" target="_blank" rel="noopener">Federal Reserve · Barr speech</a><a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-17.html">Edition 1 · capital and infrastructure reporting</a></div></section>
+<section id="regional"><div class="head"><div><div class="no">12 · Regional lens</div><h2>India & Asia / Global Regional Desk</h2></div><span class="meta">India enterprise AI consolidation</span></div><p>Fractal Analytics’ acquisition discussions are the new India-specific business signal. Qwen4-Max and Tencent Hy4 flash remain the most material China model releases in the window and are in Model Watch. The US remote-compute rule’s treatment of Singapore, Malaysia, Indonesia and Thailand remains in Edition 1.</p><div class="note">No additional date-matched Indian foundation-model launch, national AI policy decision or semiconductor manufacturing milestone was verified. No new Huawei Ascend, SMIC or HBM event cleared the evidence threshold.</div></section>
+<section id="community"><div class="head"><div><div class="no">13 · Early signals</div><h2>Community Intelligence</h2></div><span class="meta">No item promoted</span></div><div class="note"><b>Community Radar: none cleared verification.</b> Public X, Reddit, YouTube, GitHub, Hugging Face, arXiv and Product Hunt were discovery surfaces. A repository update and discussion-level signals surfaced, but no additional item had both a reliable date match and primary evidence strong enough to include. Community posts are not proof.</div></section>
+<section id="more-signals"><div class="head"><div><div class="no">14 · Lower-priority verified developments</div><h2>More Signals</h2></div><span class="meta">1 story · no arbitrary cap</span></div>
+<article class="story more" data-event-id="event-fractal-analytics-ai-acquisition-talks-2026-11-16" data-searchable data-desk="more business regional" data-keywords="Fractal Analytics India AI acquisition startups enterprise M&A"><div class="storytop"><span class="rank">India · Enterprise M&A</span><span class="meta">16 November 2026</span></div><h3>Fractal says it is in talks with 20–25 AI startups about possible acquisitions</h3><p class="dek">The Indian enterprise-AI company is exploring healthcare, agentic AI and AI-engineering targets to add specialist talent and access to frontier-model ecosystems.</p><p>CEO Srikanth Velamakanni told Reuters the company is talking with 20–25 startups and has reviewed roughly 800 potential targets over the past year. He said Fractal is open to acquisitions of up to ₹10bn, with a preferred spending range of US$50m–US$100m. Fractal’s Q2 FY27 financial handbook reports revenue of ₹9.565bn and net income of ₹792m for the quarter ended 30 September; these are operating results, not acquisition capital.</p><p>No target names, signed agreements or deal values were disclosed. The discussions are a pipeline signal, not announced M&A or committed cash.</p><p><b>Impact note:</b> if talks convert, Indian enterprise-AI buyers could consolidate specialist talent and vertical IP; until a definitive agreement, the impact is strategic intent rather than deployed capital.</p><div class="sources"><b>Sources</b><a href="https://www.reuters.com/world/india/indias-fractal-talks-with-up-to-25-ai-startups-acquisitions-ceo-says-2026-11-16/" target="_blank" rel="noopener">Reuters · CEO interview</a><a href="https://fractal.ai/docs/Investor-Relations/Financial-Statements-and-Annual-Reports/2027/Q2/Fractal-Financial-Handbook-Q2-27.pdf" target="_blank" rel="noopener">Fractal · Q2 FY27 financial handbook</a><a href="https://fractal.ai/docs/Investor-Relations/Financial-Statements-and-Annual-Reports/2027/Q2/Fractal-Press-release-Q2-27.pdf" target="_blank" rel="noopener">Fractal · results release</a></div></article></section>
+<section id="future-radar"><div class="head"><div><div class="no">15 · 3–12 month horizon</div><h2>Future Radar</h2></div><span class="meta">Confirmed dates vs scenarios</span></div><ul class="radar">
+<li><div class="date">Confirmed · through 2030</div><p><b>Antalya AI Pledge review cycle.</b> ITU intends annual progress tracking at UN climate conferences through 2030, starting with COP32. Whether voluntary commitments become comparable measurement and procurement practice remains uncertain.</p></li>
+<li><div class="date">Confirmed · 25 Nov</div><p><b>Qwen4-Max preview ID.</b> The preview SKU is scheduled to retire after 25 November, 24:00 UTC+8. Production integrations should use the GA model ID where supported.</p></li>
+<li><div class="date">Confirmed · 30 Nov</div><p><b>Tencent Hy4 flash promotion.</b> The listed 50% Token Plan credit-deduction promotion ends 12:00 Beijing time on 30 November. Confirm live console pricing before budgeting.</p></li>
+<li><div class="date">Scenario · 3–12 months</div><p><b>Model reliability response.</b> Expect pressure for evaluations of user disagreement, multilingual consistency and compound policy reasoning. No vendor commitment or release date is confirmed.</p></li>
+<li><div class="date">Scenario · 3–12 months</div><p><b>Fractal acquisition pipeline.</b> Watch for named targets, definitive agreements, consideration, closing conditions and integration. No transaction is assured.</p></li>
+<li><div class="date">Completion unverified</div><p><b>AI Climate Institute.</b> Official programme pages scheduled its COP31 launch on 16 November, but no post-event confirmation of completion or the final 2026–27 work plan was located. It is not counted as a verified story.</p></li>
+</ul></section>
+<section id="context"><div class="head"><div><div class="no">16 · The numbers behind the story</div><h2>AI in Context</h2></div><span class="meta">UNESCO–UCL climate test</span></div><div class="metrics"><div class="metric"><b>88–96%</b><span>Best-model accuracy · basic climate facts</span></div><div class="metric"><b>71–77%</b><span>Best-model accuracy · evidence judgement</span></div><div class="metric"><b>−31–35 pp</b><span>Drop after repeated disagreement</span></div><div class="metric"><b>33.8%</b><span>Combined policy effects</span></div></div><p class="meta">The combined-policy result is close to the study’s 33.3% random baseline. These are climate-specific tests, not a universal model scorecard.</p></section>
+<section id="glossary"><div class="head"><div><div class="no">17 · Plain-language guide</div><h2>Compact Glossary</h2></div></div><div class="glossary">
+<div class="term"><b>Sycophancy</b><span>A model changing a supported answer to agree with a user’s stated belief.</span></div><div class="term"><b>Multilingual parity</b><span>Comparable reliability across languages, not only high-resource languages.</span></div><div class="term"><b>Policy interaction</b><span>How two or more measures combine; joint effects may not equal the sum of each.</span></div><div class="term"><b>Lifecycle footprint</b><span>Environmental impact across hardware, training, use, cooling, reuse and disposal.</span></div><div class="term"><b>Voluntary pledge</b><span>A public framework that does not itself create enforceable legal duties.</span></div><div class="term"><b>M&A pipeline</b><span>Targets being evaluated or discussed, distinct from signed deals or cash paid.</span></div>
+</div></section>
+<section id="watch-next"><div class="head"><div><div class="no">18 · Next checks</div><h2>What to Watch Next</h2></div></div><ol class="list"><li>Whether model providers publish evaluations for sycophancy, cross-language consistency and compound climate-policy reasoning.</li><li>Whether Antalya Pledge endorsers publish measurable commitments on power mix, water, cooling, hardware circularity and compute access.</li><li>Whether Fractal moves from exploratory conversations to named targets, signed terms and disclosed consideration.</li><li>Whether the AI Climate Institute’s 2026–27 work plan and membership pathway are confirmed after the scheduled COP31 launch.</li></ol></section>
+<section id="audit"><div class="head"><div><div class="no">19 · Method and completeness</div><h2>Coverage Audit</h2></div><span class="meta">Human newsroom edit · no external linter claimed</span></div>
+<div class="auditgrid"><div class="auditcell"><b>3</b><span>Distinct verified stories</span></div><div class="auditcell"><b>2</b><span>Main Desk</span></div><div class="auditcell"><b>1</b><span>More Signals</span></div><div class="auditcell"><b>0</b><span>Community Radar</span></div><div class="auditcell"><b>14</b><span>Repeat / older candidates excluded</span></div><div class="auditcell"><b>0</b><span>Material follow-ups</span></div><div class="auditcell"><b>64</b><span>Core roster domains targeted</span></div><div class="auditcell"><b>32</b><span>Distinct domains opened</span></div><div class="auditcell"><b>29</b><span>Domains materially read</span></div><div class="auditcell"><b>40 / 40</b><span>Archive issue files checked</span></div><div class="auditcell"><b>3</b><span>Access-limited domains</span></div><div class="auditcell"><b>0</b><span>Archive pages not checked</span></div></div>
+<h3>Beat-by-beat result</h3><ul class="list">
+<li><b>Model / benchmark:</b> Qwen4-Max and Tencent Hy4 flash were material 16 November releases, carried from Edition 1. No additional model/version change, open-weight release or independent general-purpose benchmark shift verified.</li>
+<li><b>Security / reliability:</b> material 16 November findings and incidents were already covered in Edition 1. No additional date-matched security event verified.</li>
+<li><b>Compute / geopolitics:</b> the BIS remote-compute rule was already in Edition 1. No additional Huawei Ascend, SMIC, HBM, advanced-packaging or Nvidia-availability change verified.</li>
+<li><b>Energy / data centres:</b> the Antalya AI Pledge is new and verified. No new signed power contract or deployed-capacity milestone verified.</li>
+<li><b>India / Asia:</b> Fractal’s M&A discussions are new. No additional Indian foundation-model launch or national policy decision verified.</li>
+<li><b>Developer / agent:</b> no new date-matched coding-agent, IDE, API or MCP release verified; DebugMCP’s update date was not established.</li>
+<li><b>Creator / multimodal:</b> no material date-matched image, video, audio or design launch verified.</li>
+<li><b>Research / robotics:</b> the UNESCO–UCL report is new; no additional date-matched robotics result verified.</li></ul>
+<h3>Repeat and stale candidates excluded</h3><p>The 12 unchanged stories from 17 November Edition 1 were not repeated: BIS remote-compute rule; Google GTIG agentic-threat tracker; California AG lawsuit against OpenAI; Qwen4-Max GA; Fed Barr speech; Tencent Hy4 flash; OpenAI CSAM classifier; LiteLLM CVE exploitation; Claude Meetings incident; GitHub PR / Actions incident; Bharat Semi funding; and Uniper’s 700MW grid-capacity opportunity. Two older items were excluded as outside the fresh window: ChatGPT Wallet (13 Nov) and Malaysia’s proposed data-centre disclosure law (12 Nov). Older Adobe Firefly updates and the undated DebugMCP update were not promoted.</p>
+<h3>Source classes and access gaps</h3><p>The 64-domain core sweep covered model labs, cloud and developer platforms, research, security, compute, infrastructure, finance and regional reporting. Thirty-two distinct registrable domains were opened; 29 were materially read. Classes included official company/API documentation, government and intergovernmental releases, academic research summaries, independent wire and regional reporting, specialist technology coverage, security advisories, status pages and third-party model evaluation.</p>
+<ul class="list"><li><b>UNESCO:</b> direct page requests were rejected; UCL’s research summary, UNESCO’s indexed release and Guardian reporting were accessible.</li><li><b>Financial Times:</b> the Uniper article was paywalled; company presentation evidence was available. Uniper remains in Edition 1 and is not repeated.</li><li><b>Data Center Dynamics:</b> page returned 403; official BIS, Reuters, AP and legal analysis were accessible.</li><li><b>AI Climate Institute:</b> official programme pages list the 16 November launch, but no post-event completion or final work plan was found; not counted as a story.</li><li><b>Community platforms:</b> X, Reddit, YouTube, GitHub, Hugging Face, arXiv and Product Hunt were discovery surfaces; no community-only signal cleared verification.</li></ul>
+<p><b>Archive integrity:</b> root <code>index.html</code>, <code>archive/index.html</code>, <code>archive/story-index.json</code> and all 40 dated HTML paths listed in the archive were inspected before this supplement. The registry already contained historical records; no backfill or deletion was required. Repeat exclusions, new event records and the edition audit are appended.</p>
+<p><b>Editorial QA:</b> clean structural rebuild; all required headings and anchors present; both Main Desk stories have individual Impact Radius panels; story counts match the audit; search, desk filter, read-aloud, pause, stop, speed, print, download and share controls implemented. Human editorial review performed. No external linter is claimed.</p></section>
 </main>
-
-<footer class="footer">
-  <span><strong>SIGNAL.</strong> — AI Daily · 17 November 2026 · Asia/Kolkata</span>
-  <span>Evidence-led reporting · Vendor claims labelled · No paid scripts or trackers</span>
-  <span><a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/index.html" target="_blank" rel="noopener">Archive</a> · <a href="https://github.com/Jagadeeswarh/signal-ai-news" target="_blank" rel="noopener">Repository</a></span>
-</footer>
+<footer class="footer"><div><div class="brand">SIGNAL<span class="dot">.</span></div><div>Independent AI intelligence · 17 November 2026 · Edition 2</div></div><div>Published issue: <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-17-edition-2.html">GitHub archive / Edition 2</a><br>Companion: <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-17.html">17 November Edition 1</a></div></footer>
 </div>
-
 <script>
 (function(){
-  const filename = "SIGNAL_AI_Daily_2026-11-17.html";
-  const search = document.getElementById("storySearch");
-  const filter = document.getElementById("deskFilter");
-  const status = document.getElementById("toolbarStatus");
-  const stories = Array.from(document.querySelectorAll(".story[data-story-id]"));
-  const empty = document.createElement("div");
-  empty.className = "no-results";
-  empty.id = "noResults";
-  empty.textContent = "No stories match this search and desk filter.";
-  document.getElementById("main-desk").appendChild(empty);
-
-  function applyFilters(){
-    const q = (search.value || "").trim().toLowerCase();
-    const d = filter.value;
-    let shown = 0;
-    stories.forEach(function(item){
-      const tags = (item.getAttribute("data-tags") || "").split(/\s+/);
-      const deskOk = d === "all" || tags.indexOf(d) !== -1;
-      const textOk = !q || item.textContent.toLowerCase().indexOf(q) !== -1;
-      const visible = deskOk && textOk;
-      item.hidden = !visible;
-      if(visible) shown += 1;
-    });
-    empty.classList.toggle("show", shown === 0);
-    status.textContent = shown + " of 12 stories visible · filters are local to this page";
-  }
-  search.addEventListener("input", applyFilters);
-  filter.addEventListener("change", applyFilters);
-
-  const synth = window.speechSynthesis;
-  let currentUtterance = null;
-  function speak(){
-    if(!synth || typeof SpeechSynthesisUtterance === "undefined"){
-      status.textContent = "Read-aloud is not supported in this browser.";
-      return;
-    }
-    if(synth.paused){ synth.resume(); status.textContent = "Read-aloud resumed."; return; }
-    if(synth.speaking) synth.cancel();
-    currentUtterance = new SpeechSynthesisUtterance(document.getElementById("edition").innerText);
-    currentUtterance.rate = Number(document.getElementById("speechRate").value || 1);
-    currentUtterance.onend = function(){ status.textContent = "Read-aloud finished."; };
-    currentUtterance.onerror = function(){ status.textContent = "Read-aloud stopped by the browser."; };
-    synth.speak(currentUtterance);
-    status.textContent = "Reading this edition aloud.";
-  }
-  document.getElementById("playBtn").addEventListener("click", speak);
-  document.getElementById("pauseBtn").addEventListener("click", function(){
-    if(synth && synth.speaking){ synth.pause(); status.textContent = "Read-aloud paused."; }
-  });
-  document.getElementById("stopBtn").addEventListener("click", function(){
-    if(synth){ synth.cancel(); status.textContent = "Read-aloud stopped."; }
-  });
-  document.getElementById("speechRate").addEventListener("change", function(){
-    if(synth && synth.speaking){
-      synth.cancel();
-      status.textContent = "Speed changed. Press Play to restart from the beginning.";
-    }
-  });
-
-  function currentHtml(){
-    return "<!doctype html>" + document.documentElement.outerHTML;
-  }
-  document.getElementById("downloadBtn").addEventListener("click", function(){
-    const blob = new Blob([currentHtml()], {type:"text/html;charset=utf-8"});
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url; a.download = filename; document.body.appendChild(a); a.click(); a.remove();
-    window.setTimeout(function(){ URL.revokeObjectURL(url); }, 1500);
-    status.textContent = "HTML download prepared.";
-  });
-  document.getElementById("printBtn").addEventListener("click", function(){ window.print(); });
-
-  document.getElementById("shareBtn").addEventListener("click", async function(){
-    const fallback = document.getElementById("shareFallback");
-    const textArea = document.getElementById("shareText");
-    const editionText = document.getElementById("edition").innerText;
-    try{
-      if(navigator.share && navigator.canShare && typeof File !== "undefined"){
-        const file = new File([currentHtml()], filename, {type:"text/html"});
-        if(navigator.canShare({files:[file]})){
-          await navigator.share({files:[file], title:"SIGNAL. — AI Daily", text:"Full-spectrum AI intelligence · 17 November 2026"});
-          status.textContent = "Share sheet opened with the HTML attachment.";
-          return;
-        }
-      }
-    }catch(err){
-      if(err && err.name === "AbortError"){ status.textContent = "Share cancelled."; return; }
-    }
-    fallback.hidden = false;
-    textArea.value = editionText;
-    textArea.focus();
-    textArea.select();
-    status.textContent = "File attachment is not supported here. Copy the text and attach the downloaded HTML manually.";
-  });
-  document.getElementById("copyShareText").addEventListener("click", async function(){
-    const textArea = document.getElementById("shareText");
-    try{
-      await navigator.clipboard.writeText(textArea.value);
-      status.textContent = "Edition text copied. Attach the downloaded HTML manually.";
-    }catch(err){
-      textArea.focus(); textArea.select();
-      status.textContent = "Select the text above and copy it; attach the downloaded HTML manually.";
-    }
-  });
-  applyFilters();
+const el=id=>document.getElementById(id),status=el('status'),cards=[...document.querySelectorAll('.story[data-searchable]')];
+function filter(){const q=el('search').value.trim().toLowerCase(),d=el('desk').value;let n=0;cards.forEach(c=>{const t=(c.innerText+' '+(c.dataset.keywords||'')).toLowerCase(),ds=(c.dataset.desk||'').split(/\s+/),ok=(!q||t.includes(q))&&(d==='all'||ds.includes(d));c.classList.toggle('hidden',!ok);if(ok)n++});status.textContent='Showing '+n+' of '+cards.length+' story cards. Section notes remain visible.'}
+el('search').addEventListener('input',filter);el('desk').addEventListener('change',filter);
+function synth(){return window.speechSynthesis||null}
+el('read').addEventListener('click',()=>{const s=synth();if(!s){status.textContent='Read-aloud unavailable in this browser.';return}if(s.paused){s.resume();status.textContent='Read-aloud resumed.';return}if(s.speaking)s.cancel();const u=new SpeechSynthesisUtterance(el('content').innerText);u.rate=parseFloat(el('speed').value);u.onend=()=>status.textContent='Read-aloud finished.';u.onerror=()=>status.textContent='Read-aloud stopped or unavailable.';s.speak(u);status.textContent='Reading the edition aloud.'});
+el('pause').addEventListener('click',()=>{const s=synth();if(s&&s.speaking){s.pause();status.textContent='Read-aloud paused.'}else status.textContent='Nothing is being read aloud.'});
+el('stop').addEventListener('click',()=>{const s=synth();if(s)s.cancel();status.textContent='Read-aloud stopped.'});
+el('speed').addEventListener('change',()=>{if(synth()&&synth().speaking)status.textContent='Speed applies to the next read-aloud start.'});
+el('print').addEventListener('click',()=>window.print());
+function html(){return '<!doctype html>\n'+document.documentElement.outerHTML}
+el('download').addEventListener('click',()=>{const b=new Blob([html()],{type:'text/html;charset=utf-8'}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download='SIGNAL_AI_Daily_2026-11-17.html';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(u);status.textContent='HTML download prepared.'});
+el('share').addEventListener('click',async()=>{const h=html();try{const f=new File([h],'SIGNAL_AI_Daily_2026-11-17.html',{type:'text/html'});if(navigator.share&&navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({title:'SIGNAL. — AI Daily · 17 November 2026',text:'Full-spectrum AI intelligence update.',files:[f]});status.textContent='Share sheet opened with HTML attachment.';return}}catch(e){if(e&&e.name==='AbortError'){status.textContent='Share cancelled.';return}}el('fallback').hidden=false;const t=el('content').innerText;el('sharetext').value=t;try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(t);status.textContent='File sharing unavailable. Edition text copied; attach the downloaded HTML manually.'}else status.textContent='Copy the text below and attach the downloaded HTML manually.'}catch(e){status.textContent='Copy the text below and attach the downloaded HTML manually.'}});
+el('copy').addEventListener('click',async()=>{const t=el('sharetext');t.focus();t.select();try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(t.value);status.textContent='Edition text copied. Attach the downloaded HTML manually.'}else status.textContent='Text selected. Use your browser copy command, then attach the HTML manually.'}catch(e){status.textContent='Text selected. Use your browser copy command, then attach the HTML manually.'}});
+filter();
 })();
-</script>
-</body>
-</html>
+</script></body></html>
