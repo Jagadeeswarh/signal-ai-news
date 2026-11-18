@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-18T10:05:00+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed.",
+  "last_updated_at": "2026-11-18T10:20:00+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -4648,6 +4648,247 @@
       "human_editorial_pass": true,
       "external_linter_run": false,
       "coverage_gap_note": "60-domain target roster; 10 domains directly opened/read and 10 yielded date-matched evidence. GitHub changelog inaccessible; social platforms used only for discovery. No major beat omitted; explicit negative findings included in the page."
+    },
+    {
+      "edition_id": "signal-2026-11-18-edition-3",
+      "date": "2026-11-18",
+      "path": "archive/2026-11-18-edition-3.html",
+      "title": "SIGNAL. — AI Daily | Wednesday, 18 November 2026 · Full-spectrum edition 3",
+      "edition_type": "full-spectrum",
+      "published_at": "2026-11-18T10:20:00+05:30",
+      "research_window_start": "2026-11-16T10:05:00+05:30",
+      "research_window_end": "2026-11-18T10:20:00+05:30",
+      "story_count": 6,
+      "new_story_count": 6,
+      "unique_new_verified_story_count": 6,
+      "main_desk_count": 3,
+      "more_signals_count": 3,
+      "community_radar_count": 0,
+      "follow_up_count": 0,
+      "story_ids": [
+        "event-openai-gpt-6-2-astra-sol-2026-11-18",
+        "event-nvidia-q3-fy2027-results-vera-rubin-2026-11-17",
+        "event-ifm-k2-horizon-open-model-family-2026-11-16",
+        "event-microsoft-mai-ignite-model-suite-2026-11-17",
+        "event-kuaishou-kling-image-4-2026-11-18",
+        "event-india-space-ai-edge-standards-call-2026-11-18"
+      ],
+      "main_desk_story_ids": [
+        "event-openai-gpt-6-2-astra-sol-2026-11-18",
+        "event-nvidia-q3-fy2027-results-vera-rubin-2026-11-17",
+        "event-ifm-k2-horizon-open-model-family-2026-11-16"
+      ],
+      "more_signals_story_ids": [
+        "event-microsoft-mai-ignite-model-suite-2026-11-17",
+        "event-kuaishou-kling-image-4-2026-11-18",
+        "event-india-space-ai-edge-standards-call-2026-11-18"
+      ],
+      "community_story_ids": [],
+      "material_followups": [],
+      "repeat_candidates_screened": 9,
+      "repeat_candidates_excluded": 9,
+      "repeat_candidates_excluded_ids": [],
+      "repeat_candidates_excluded_labels": [
+        "Anthropic preliminary IPO share range and US$26bn strategic placement — already covered in 11 November edition; 17 November filing did not establish a new price or closing.",
+        "Google GTIG agentic threat report, California AG filing, LiteLLM CVE, Claude Meetings incident and GitHub PR/Actions incident — already covered in 17 November edition; no material change verified.",
+        "Qwen4-Max and Tencent Hy4 Flash releases — already covered in 17 November edition.",
+        "NVIDIA/Hugging Face acquisition — previously covered; no new deal status verified.",
+        "Prior Gemini, DeepSeek API and other model announcements — no material change verified."
+      ],
+      "archive_issue_files_checked": 44,
+      "archive_pages_not_checked": [],
+      "source_domains_targeted": 60,
+      "source_domains_opened_and_inspected": 12,
+      "source_domains_materially_read": 12,
+      "source_domains_partial_or_limited": 0,
+      "source_domains_blocked": 1,
+      "source_domains_with_date_matched_results": 12,
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "deepmind.google",
+        "blog.google",
+        "ai.meta.com",
+        "x.ai",
+        "microsoft.com",
+        "news.microsoft.com",
+        "nvidia.com",
+        "amd.com",
+        "mistral.ai",
+        "deepseek.com",
+        "alibabacloud.com",
+        "qwen.ai",
+        "tencent.com",
+        "z.ai",
+        "moonshot.ai",
+        "minimax.io",
+        "baidu.com",
+        "bytedance.com",
+        "kuaishou.com",
+        "kling.ai",
+        "github.blog",
+        "github.com",
+        "huggingface.co",
+        "cursor.com",
+        "langchain.com",
+        "producthunt.com",
+        "reddit.com",
+        "x.com",
+        "youtube.com",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "research.google",
+        "openreview.net",
+        "ifm.ai",
+        "cisa.gov",
+        "cert-in.org.in",
+        "nvd.nist.gov",
+        "cloud.google.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "cloudflare.com",
+        "therecord.media",
+        "bleepingcomputer.com",
+        "darkreading.com",
+        "reuters.com",
+        "bloomberg.com",
+        "ft.com",
+        "wsj.com",
+        "techcrunch.com",
+        "technode.global",
+        "business-standard.com",
+        "livemint.com",
+        "economictimes.indiatimes.com",
+        "nikkei.com",
+        "scmp.com",
+        "datacenterdynamics.com"
+      ],
+      "opened_domains": [
+        "openai.com",
+        "nvidia.com",
+        "globenewswire.com",
+        "reuters.com",
+        "koreatimes.co.kr",
+        "kling.ai",
+        "technode.global",
+        "business-standard.com",
+        "ipo.anthropic.com",
+        "tmgm.com",
+        "arxiv.org",
+        "ifm.ai"
+      ],
+      "materially_read_domains": [
+        "openai.com",
+        "nvidia.com",
+        "globenewswire.com",
+        "reuters.com",
+        "koreatimes.co.kr",
+        "kling.ai",
+        "technode.global",
+        "business-standard.com",
+        "ipo.anthropic.com",
+        "tmgm.com",
+        "arxiv.org",
+        "ifm.ai"
+      ],
+      "partial_or_limited_domains": [],
+      "blocked_domains": [
+        "github.blog — GitHub Copilot changelog URL surfaced but could not be opened in this session."
+      ],
+      "date_matched_domains": [
+        "openai.com",
+        "nvidia.com",
+        "globenewswire.com",
+        "reuters.com",
+        "koreatimes.co.kr",
+        "kling.ai",
+        "technode.global",
+        "business-standard.com",
+        "ipo.anthropic.com",
+        "tmgm.com",
+        "arxiv.org",
+        "ifm.ai"
+      ],
+      "source_classes_inspected": [
+        "primary AI lab product release and API pricing",
+        "primary investor-relations earnings release",
+        "primary research institute product page and arXiv technical paper",
+        "independent wire reporting and executive interview",
+        "regional technology reporting",
+        "regional business and industry reporting",
+        "product documentation",
+        "public X/Reddit/YouTube/GitHub/Hugging Face/Product Hunt discovery surfaces"
+      ],
+      "beat_audit": {
+        "model_benchmark": {
+          "material_found_in_window": true,
+          "details": "GPT-6.2 Astra/Sol and K2-Horizon verified as releases. OpenAI and IFM benchmark/speed claims are vendor/author-reported; no independent reproduction found. Kling Image 4.0 has no independent image benchmark."
+        },
+        "security_reliability": {
+          "material_found_in_window": false,
+          "details": "No new AI-specific attack, vulnerability or major outage verified. OpenAI disclosed elevated cyber capability classifications and tighter safeguards for GPT-6.2."
+        },
+        "compute_geopolitics": {
+          "material_found_in_window": true,
+          "details": "NVIDIA Q3 results and Vera Rubin NVL72 shipment milestone verified. No new Huawei Ascend, SMIC, HBM allocation or export-control decision verified."
+        },
+        "energy_datacentres": {
+          "material_found_in_window": false,
+          "details": "No new signed AI power contract, grid connection or commissioning milestone verified; system-level power and cooling implications are forecasts."
+        },
+        "india_asia": {
+          "material_found_in_window": true,
+          "details": "Kling Image 4.0 launch and Indian space-sector founders' calls for AI/edge standards verified. No new Indian foundation-model release or government AI policy decision verified."
+        },
+        "developer_agent": {
+          "material_found_in_window": true,
+          "details": "K2-Horizon publishes training code, checkpoints and serving recipes; Microsoft MAI Code 2 announcement verified through Reuters interview reporting, while official GitHub changelog could not be opened."
+        },
+        "creator_multimodal": {
+          "material_found_in_window": true,
+          "details": "Kling Image 4.0 and Microsoft's image-generation/transcription model announcements reported. No independent creator-model benchmark verified."
+        },
+        "research_robotics": {
+          "material_found_in_window": true,
+          "details": "K2-Horizon arXiv technical report documents model architecture and training methodology; no separate date-matched robotics release verified."
+        }
+      },
+      "community_signal_audit": {
+        "platforms": [
+          "X",
+          "Reddit",
+          "YouTube",
+          "GitHub",
+          "Hugging Face",
+          "Product Hunt",
+          "arXiv"
+        ],
+        "verified_promoted": 0,
+        "reason": "K2-Horizon was surfaced through research/community discovery and independently verified against the arXiv paper and IFM release page; it is classified as a verified release, not a community-only rumour. No community-only signal qualified."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_checked": true,
+        "archive_issue_files_checked": 44,
+        "archive_pages_not_checked": [],
+        "historical_registry_complete_before_append": true,
+        "backfill_required": false,
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true
+      },
+      "registry_story_count_before": 343,
+      "registry_story_count_after": 344,
+      "registry_edition_count_before": 44,
+      "registry_edition_count_after": 45,
+      "append_only": true,
+      "netlify_deployment_claimed": false,
+      "human_editorial_pass": true,
+      "external_linter_run": false,
+      "coverage_gap_note": "60-domain target roster; 12 domains directly opened/read and 12 date-matched. GitHub changelog inaccessible; social platforms used only for discovery. All major beats are represented with explicit negative findings where no new development qualified."
     }
   ],
   "stories": [
@@ -14203,6 +14444,58 @@
       "verification_status": "verified",
       "repeat_status": "new",
       "material_change_note": null
+    },
+    {
+      "story_id": "event-ifm-k2-horizon-open-model-family-2026-11-16",
+      "normalized_subject": "Institute of Foundation Models K2-Horizon six-model open language model family",
+      "entities": [
+        "Institute of Foundation Models",
+        "MBZUAI",
+        "K2-Horizon",
+        "K2 Team",
+        "MoVA",
+        "Uno",
+        "xLLM",
+        "RL360"
+      ],
+      "event_summary": "The Institute of Foundation Models at MBZUAI released K2-Horizon, six open language models from 0.9B to 375B-A23B, with model weights, training code, intermediate checkpoints, training logs and data-construction materials. The 16 November 2026 arXiv paper describes Mixture-of-Value Attention (MoVA), Uno lossless diffusion adapters with an author-claimed up-to-2.2x decoding speed-up, a 22T-token shared corpus for four models and about 10T synthetic pre-training tokens. Benchmark and speed claims are author-reported and await independent reproduction.",
+      "normalized_headline": "IFM releases K2-Horizon: six open models from 0.9B to 375B-A23B",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.21003",
+        "https://ifm.ai/k2/"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-18",
+      "first_edition_path": "archive/2026-11-18-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-18-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Institute of Foundation Models at MBZUAI",
+          "source_class": "primary product and research release page",
+          "role": "model family, weights, training code, deployment tooling and product claims",
+          "published_date": "2026-11-18",
+          "url": "https://ifm.ai/k2/"
+        },
+        {
+          "publisher": "K2 Team / arXiv",
+          "source_class": "primary technical report",
+          "role": "model architecture, training details, corpus and author-reported evaluation claims",
+          "published_date": "2026-11-16",
+          "url": "https://arxiv.org/abs/2611.21003"
+        }
+      ],
+      "source_domains": [
+        "ifm.ai",
+        "arxiv.org"
+      ],
+      "desk": "main_desk",
+      "evidence_confidence": "High for model family and artifact release; medium for claimed benchmark competitiveness and 2.2x decoding speed pending independent reproduction",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "material_change_note": null
     }
   ],
   "archive_backfill_audit": [
@@ -14217,5 +14510,5 @@
       "prior_records_removed": 0
     }
   ],
-  "last_updated_edition": "signal-2026-11-18-edition-2"
+  "last_updated_edition": "signal-2026-11-18-edition-3"
 }
