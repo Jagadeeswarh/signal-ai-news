@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-19T08:16:56+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.",
+  "last_updated_at": "2026-11-19T08:44:55+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.\n2026-11-19 edition 3: inspected root homepage, archive index and 359-story/47-edition registry. Enumerated 45 indexed dated archive paths and found one additional accessible but unindexed same-day file, archive/2026-11-19-edition-2.html; backfilled its edition mapping and archive link without creating duplicate story records or changing the file. Published edition 3 with 17 story cards (7 Main Desk, 10 More Signals), 14 unique new developments and three material follow-ups. Added three new story records: ANYmal simulator audit, PAIR smart-home benchmark and GitHub Copilot MAI Code 2 Flash outage. One cross-beat sweep targeted 89 distinct valid domains; 37 URLs opened across 24 domains, 16 direct date-matched sources across 13 domains. Thirty-eight indexed archive pages were not reopened individually. Append-only; no old records removed. Root homepage update follows issue, archive index and registry verification.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -5404,6 +5404,740 @@
       "human_editorial_pass": true,
       "external_linter_run": false,
       "coverage_gap_note": "One consolidated cross-beat discovery sweep targeted 60 domains/platforms; 38 unique pages were opened across 25 domains, with 23 date-matched source pages across 19 domains. Forty archive issue pages were not reopened individually; the registry and prior audit records were used for semantic deduplication. Direct CISA access returned 403 but the official GovDelivery bulletin was readable; the Federal Register prepublication PDF was accessible while canonical HTML was not. Arizona and Nvidia developments rely on Reuters reporting; no primary public filing/press release was located for those claims."
+    },
+    {
+      "edition_id": "signal-2026-11-19-edition-2-backfill",
+      "date": "2026-11-19",
+      "path": "archive/2026-11-19-edition-2.html",
+      "title": "SIGNAL. — AI Daily | Thursday, 19 November 2026 · Preserved edition 2 snapshot",
+      "edition_type": "historical-backfill",
+      "published_at": null,
+      "research_window_start": "2026-11-17T08:16:00+05:30",
+      "research_window_end": "2026-11-19T08:16:00+05:30",
+      "story_count": 15,
+      "new_story_count": 0,
+      "unique_new_verified_story_count": 0,
+      "main_desk_count": 8,
+      "more_signals_count": 7,
+      "community_radar_count": 0,
+      "follow_up_count": 3,
+      "story_ids": [
+        "event-google-gemini-4-neon-ga-2026-11-18",
+        "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+        "event-anthropic-ipo-priced-83-2026-11-18",
+        "event-bis-remote-access-rule-scheduled-2026-11-19",
+        "event-java4shell-cve-2026-114938-2026-11-17",
+        "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+        "event-tencent-q3-ai-capex-cloud-2026-11-18",
+        "event-arizona-rogue-ai-agent-investigation-2026-11-19",
+        "event-microsoft-ai-transparency-initiative-2026-11-17",
+        "event-suno-visuals-2026-11-17",
+        "event-gauntletscore-llm-aggrefact-preprint-2026-11-17",
+        "event-us-disclosure-chinese-ai-model-use-2026-11-18",
+        "event-claude-google-docs-connector-incident-2026-11-18",
+        "event-claude-apple-signin-incident-2026-11-17",
+        "event-claude-meetings-team-join-recovery-2026-11-18"
+      ],
+      "main_desk_story_ids": [
+        "event-google-gemini-4-neon-ga-2026-11-18",
+        "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+        "event-anthropic-ipo-priced-83-2026-11-18",
+        "event-bis-remote-access-rule-scheduled-2026-11-19",
+        "event-java4shell-cve-2026-114938-2026-11-17",
+        "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+        "event-tencent-q3-ai-capex-cloud-2026-11-18",
+        "event-arizona-rogue-ai-agent-investigation-2026-11-19"
+      ],
+      "more_signals_story_ids": [
+        "event-microsoft-ai-transparency-initiative-2026-11-17",
+        "event-suno-visuals-2026-11-17",
+        "event-gauntletscore-llm-aggrefact-preprint-2026-11-17",
+        "event-us-disclosure-chinese-ai-model-use-2026-11-18",
+        "event-claude-google-docs-connector-incident-2026-11-18",
+        "event-claude-apple-signin-incident-2026-11-17",
+        "event-claude-meetings-team-join-recovery-2026-11-18"
+      ],
+      "community_story_ids": [],
+      "material_followups": [
+        {
+          "story_id": "event-anthropic-ipo-priced-83-2026-11-18",
+          "follow_up_of": "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+          "prior_issue_path": "archive/2026-11-13.html",
+          "material_change": "Final US$83 price and 980m-share mix; Nasdaq trading scheduled 19 Nov US time and closing expected 20 Nov."
+        },
+        {
+          "story_id": "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+          "follow_up_of": "event-nvidia-q3-fy2027-results-vera-rubin-2026-11-17",
+          "prior_issue_path": "archive/2026-11-18-edition-3.html",
+          "material_change": "Nvidia's current outlook excludes further licensed Hopper shipments to China; permanence unknown."
+        },
+        {
+          "story_id": "event-claude-meetings-team-join-recovery-2026-11-18",
+          "follow_up_of": "event-claude-meetings-beta-incident-2026-11-16",
+          "prior_issue_path": "archive/2026-11-17.html",
+          "material_change": "Team manual joins restored; auto-join is returning gradually."
+        }
+      ],
+      "repeat_candidates_screened": 0,
+      "repeat_candidates_excluded": 0,
+      "repeat_candidates_excluded_ids": [],
+      "repeat_candidates_excluded_labels": [],
+      "archive_issue_files_enumerated": 46,
+      "archive_issue_files_checked": 1,
+      "archive_pages_reopened_this_run": [
+        "archive/2026-11-19-edition-2.html"
+      ],
+      "archive_pages_not_checked": [
+        "archive/2026-11-18.html",
+        "archive/2026-11-15-edition-2.html",
+        "archive/2026-11-15.html",
+        "archive/2026-11-14.html",
+        "archive/2026-11-13-edition-4.html",
+        "archive/2026-11-13-edition-3.html",
+        "archive/2026-11-13-edition-2.html",
+        "archive/2026-11-13.html",
+        "archive/2026-11-12-edition-2.html",
+        "archive/2026-11-12.html",
+        "archive/2026-11-11.html",
+        "archive/2026-11-10-edition-3.html",
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10.html",
+        "archive/2026-11-09-edition-2.html",
+        "archive/2026-11-09.html",
+        "archive/2026-11-08.html",
+        "archive/2026-11-07-edition-2.html",
+        "archive/2026-11-07.html",
+        "archive/2026-11-06.html",
+        "archive/2026-11-05-edition-2.html",
+        "archive/2026-11-05.html",
+        "archive/2026-11-04-edition-5.html",
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04.html",
+        "archive/2026-11-03-edition-2.html",
+        "archive/2026-11-03.html",
+        "archive/2026-10-31-edition-4.html",
+        "archive/2026-10-31-edition-3.html",
+        "archive/2026-10-31-edition-2.html",
+        "archive/2026-10-31.html",
+        "archive/2026-10-30.html",
+        "archive/2026-10-29.html",
+        "archive/2026-10-28-current-v2.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28.html"
+      ],
+      "source_domains_targeted": 0,
+      "source_domains_opened_and_inspected": 0,
+      "source_domains_materially_read": 0,
+      "source_domains_partial_or_limited": 0,
+      "source_domains_blocked": 0,
+      "source_domains_with_date_matched_results": 0,
+      "targeted_domains": [],
+      "opened_domains": [],
+      "materially_read_domains": [],
+      "partial_or_limited_domains": [],
+      "blocked_domains": [],
+      "date_matched_domains": [],
+      "source_pages_opened": 0,
+      "date_matched_source_pages": 0,
+      "pages_returned_content": 0,
+      "page_url_errors": 0,
+      "no_readable_text_pages": 0,
+      "source_classes_inspected": [],
+      "beat_audit": {},
+      "community_signal_audit": {
+        "platforms": [],
+        "verified_promoted": 0,
+        "reason": "Historical backfill only; no new discovery or story selection was performed for this preserved snapshot."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_enumerated": true,
+        "all_archive_index_paths_reopened": false,
+        "archive_issue_files_enumerated": 46,
+        "archive_issue_files_reopened_this_run": 1,
+        "archive_issue_files_checked": 1,
+        "archive_pages_not_checked": [
+          "archive/2026-11-18.html",
+          "archive/2026-11-15-edition-2.html",
+          "archive/2026-11-15.html",
+          "archive/2026-11-14.html",
+          "archive/2026-11-13-edition-4.html",
+          "archive/2026-11-13-edition-3.html",
+          "archive/2026-11-13-edition-2.html",
+          "archive/2026-11-13.html",
+          "archive/2026-11-12-edition-2.html",
+          "archive/2026-11-12.html",
+          "archive/2026-11-11.html",
+          "archive/2026-11-10-edition-3.html",
+          "archive/2026-11-10-edition-2.html",
+          "archive/2026-11-10.html",
+          "archive/2026-11-09-edition-2.html",
+          "archive/2026-11-09.html",
+          "archive/2026-11-08.html",
+          "archive/2026-11-07-edition-2.html",
+          "archive/2026-11-07.html",
+          "archive/2026-11-06.html",
+          "archive/2026-11-05-edition-2.html",
+          "archive/2026-11-05.html",
+          "archive/2026-11-04-edition-5.html",
+          "archive/2026-11-04-edition-4.html",
+          "archive/2026-11-04-edition-3.html",
+          "archive/2026-11-04-edition-2.html",
+          "archive/2026-11-04.html",
+          "archive/2026-11-03-edition-2.html",
+          "archive/2026-11-03.html",
+          "archive/2026-10-31-edition-4.html",
+          "archive/2026-10-31-edition-3.html",
+          "archive/2026-10-31-edition-2.html",
+          "archive/2026-10-31.html",
+          "archive/2026-10-30.html",
+          "archive/2026-10-29.html",
+          "archive/2026-10-28-current-v2.html",
+          "archive/2026-10-28-current.html",
+          "archive/2026-10-28.html"
+        ],
+        "historical_registry_complete_before_append": false,
+        "backfill_required": true,
+        "backfilled_issue_path": "archive/2026-11-19-edition-2.html",
+        "backfill_story_records_added": 0,
+        "backfill_edition_records_added": 1,
+        "archive_index_link_added": true,
+        "archive_index_dated_entries_before": 45,
+        "archive_index_dated_entries_after": 47,
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true
+      },
+      "registry_story_count_before": 359,
+      "registry_story_count_after": 359,
+      "registry_edition_count_before": 47,
+      "registry_edition_count_after": 48,
+      "append_only": true,
+      "netlify_deployment_claimed": false,
+      "human_editorial_pass": false,
+      "external_linter_run": false,
+      "coverage_gap_note": "An accessible same-day edition-2 file was found in GitHub but was absent from archive/index.html and the editions registry. It contains the same 15 story IDs as the canonical 19 November base issue with alternate wording in model/developer sections. Added its archive link and edition mapping only; file preserved unchanged; no duplicate story records created."
+    },
+    {
+      "edition_id": "signal-2026-11-19-edition-3",
+      "date": "2026-11-19",
+      "path": "archive/2026-11-19-edition-3.html",
+      "title": "SIGNAL. — AI Daily | Thursday, 19 November 2026 · Edition 3",
+      "edition_type": "same-day-update",
+      "published_at": "2026-11-19T08:44:55+05:30",
+      "research_window_start": "2026-11-17T08:44:55+05:30",
+      "research_window_end": "2026-11-19T08:44:55+05:30",
+      "story_count": 17,
+      "new_story_count": 17,
+      "unique_new_verified_story_count": 14,
+      "main_desk_count": 7,
+      "more_signals_count": 10,
+      "community_radar_count": 0,
+      "follow_up_count": 3,
+      "story_ids": [
+        "event-google-gemini-4-neon-ga-2026-11-18",
+        "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+        "event-anthropic-ipo-priced-83-2026-11-18",
+        "event-java4shell-cve-2026-114938-2026-11-17",
+        "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+        "event-tencent-q3-ai-capex-cloud-2026-11-18",
+        "event-arizona-rogue-ai-agent-investigation-2026-11-19",
+        "event-microsoft-ai-transparency-initiative-2026-11-17",
+        "event-suno-visuals-2026-11-17",
+        "event-gauntletscore-llm-aggrefact-preprint-2026-11-17",
+        "event-us-disclosure-chinese-ai-model-use-2026-11-18",
+        "event-claude-google-docs-connector-incident-2026-11-18",
+        "event-claude-apple-signin-incident-2026-11-17",
+        "event-claude-meetings-team-join-recovery-2026-11-18",
+        "event-anymal-rwm-simulator-audit-2026-11-17",
+        "event-pair-household-robot-smart-home-benchmark-2026-11-17",
+        "event-github-copilot-mai-code2-flash-provider-outage-2026-11-18"
+      ],
+      "main_desk_story_ids": [
+        "event-google-gemini-4-neon-ga-2026-11-18",
+        "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+        "event-anthropic-ipo-priced-83-2026-11-18",
+        "event-java4shell-cve-2026-114938-2026-11-17",
+        "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+        "event-tencent-q3-ai-capex-cloud-2026-11-18",
+        "event-arizona-rogue-ai-agent-investigation-2026-11-19"
+      ],
+      "more_signals_story_ids": [
+        "event-microsoft-ai-transparency-initiative-2026-11-17",
+        "event-suno-visuals-2026-11-17",
+        "event-gauntletscore-llm-aggrefact-preprint-2026-11-17",
+        "event-us-disclosure-chinese-ai-model-use-2026-11-18",
+        "event-claude-google-docs-connector-incident-2026-11-18",
+        "event-claude-apple-signin-incident-2026-11-17",
+        "event-claude-meetings-team-join-recovery-2026-11-18",
+        "event-anymal-rwm-simulator-audit-2026-11-17",
+        "event-pair-household-robot-smart-home-benchmark-2026-11-17",
+        "event-github-copilot-mai-code2-flash-provider-outage-2026-11-18"
+      ],
+      "community_story_ids": [],
+      "material_followups": [
+        {
+          "story_id": "event-anthropic-ipo-priced-83-2026-11-18",
+          "follow_up_of": "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+          "prior_issue_path": "archive/2026-11-13.html",
+          "material_change": "Final US$83 price and 980m-share mix; Nasdaq trading scheduled 19 Nov US time and closing expected 20 Nov."
+        },
+        {
+          "story_id": "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+          "follow_up_of": "event-nvidia-q3-fy2027-results-vera-rubin-2026-11-17",
+          "prior_issue_path": "archive/2026-11-18-edition-3.html",
+          "material_change": "Nvidia's current outlook excludes further licensed Hopper shipments to China; permanence unknown."
+        },
+        {
+          "story_id": "event-claude-meetings-team-join-recovery-2026-11-18",
+          "follow_up_of": "event-claude-meetings-beta-incident-2026-11-16",
+          "prior_issue_path": "archive/2026-11-17.html",
+          "material_change": "Manual Team joins were restored at 23:39 UTC on 17 Nov; at 02:15 UTC on 19 Nov the status page marked the incident resolved, with auto-join available to all Enterprise and some Team customers and remaining Team rollout staged."
+        }
+      ],
+      "repeat_candidates_screened": 9,
+      "repeat_candidates_excluded": 9,
+      "repeat_candidates_excluded_ids": [],
+      "repeat_candidates_excluded_labels": [
+        "GPT-6.2 Astra/Sol — covered in the 18 November edition; no new change.",
+        "NVIDIA Q3/Vera Rubin results — covered in the 18 November edition; only the China Hopper shipment guidance is retained as a follow-up.",
+        "Microsoft MAI specialist-model suite — covered in the 18 November edition; the separate AI Transparency Initiative is new.",
+        "Kling Image 4.0 — covered in the 18 November edition; no material change.",
+        "India space-startup AI/edge standards request — covered in the 18 November edition; no new decision.",
+        "Qwen4-Max — covered in the 17 November edition; no material change.",
+        "Tencent Hy4 Flash — covered in the 17 November edition; no material change.",
+        "K2-Horizon open-weight release — covered in the 18 November edition; no material change.",
+        "Claude Meetings initial Team/auto-join incident — covered in the 17 November edition; only the restoration update is retained as a follow-up."
+      ],
+      "archive_issue_files_enumerated": 46,
+      "archive_issue_files_checked": 9,
+      "archive_pages_reopened_this_run": [
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html",
+        "archive/2026-11-18-edition-3.html",
+        "archive/2026-11-18-edition-2.html",
+        "archive/2026-11-17-edition-2.html",
+        "archive/2026-11-17.html",
+        "archive/2026-11-16-edition-2.html",
+        "archive/2026-11-16.html"
+      ],
+      "archive_pages_not_checked": [
+        "archive/2026-11-18.html",
+        "archive/2026-11-15-edition-2.html",
+        "archive/2026-11-15.html",
+        "archive/2026-11-14.html",
+        "archive/2026-11-13-edition-4.html",
+        "archive/2026-11-13-edition-3.html",
+        "archive/2026-11-13-edition-2.html",
+        "archive/2026-11-13.html",
+        "archive/2026-11-12-edition-2.html",
+        "archive/2026-11-12.html",
+        "archive/2026-11-11.html",
+        "archive/2026-11-10-edition-3.html",
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10.html",
+        "archive/2026-11-09-edition-2.html",
+        "archive/2026-11-09.html",
+        "archive/2026-11-08.html",
+        "archive/2026-11-07-edition-2.html",
+        "archive/2026-11-07.html",
+        "archive/2026-11-06.html",
+        "archive/2026-11-05-edition-2.html",
+        "archive/2026-11-05.html",
+        "archive/2026-11-04-edition-5.html",
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04.html",
+        "archive/2026-11-03-edition-2.html",
+        "archive/2026-11-03.html",
+        "archive/2026-10-31-edition-4.html",
+        "archive/2026-10-31-edition-3.html",
+        "archive/2026-10-31-edition-2.html",
+        "archive/2026-10-31.html",
+        "archive/2026-10-30.html",
+        "archive/2026-10-29.html",
+        "archive/2026-10-28-current-v2.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28.html"
+      ],
+      "source_domains_targeted": 89,
+      "source_domains_opened_and_inspected": 24,
+      "source_domains_materially_read": 19,
+      "source_domains_partial_or_limited": 3,
+      "source_domains_blocked": 3,
+      "source_domains_with_date_matched_results": 13,
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "deepmind.google",
+        "blog.google",
+        "ai.meta.com",
+        "x.ai",
+        "mistral.ai",
+        "deepseek.com",
+        "alibabacloud.com",
+        "qwen.ai",
+        "tencent.com",
+        "z.ai",
+        "moonshot.ai",
+        "minimax.io",
+        "baidu.com",
+        "microsoft.com",
+        "github.blog",
+        "github.com",
+        "huggingface.co",
+        "cursor.com",
+        "langchain.com",
+        "aws.amazon.com",
+        "apple.com",
+        "adobe.com",
+        "runwayml.com",
+        "stability.ai",
+        "blackforestlabs.ai",
+        "elevenlabs.io",
+        "producthunt.com",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "openreview.net",
+        "research.google",
+        "spectrum.ieee.org",
+        "ieeexplore.ieee.org",
+        "roboticsandautomationnews.com",
+        "cisa.gov",
+        "cert-in.org.in",
+        "nvd.nist.gov",
+        "oracle.com",
+        "cloudflare.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "therecord.media",
+        "bleepingcomputer.com",
+        "darkreading.com",
+        "securityweek.com",
+        "krebsonsecurity.com",
+        "nvidia.com",
+        "amd.com",
+        "tsmc.com",
+        "smic.com",
+        "huawei.com",
+        "news.skhynix.com",
+        "samsung.com",
+        "micron.com",
+        "datacenterdynamics.com",
+        "datacentermap.com",
+        "cloud.google.com",
+        "azure.microsoft.com",
+        "reuters.com",
+        "bloomberg.com",
+        "ft.com",
+        "wsj.com",
+        "techcrunch.com",
+        "sec.gov",
+        "investor.nvidia.com",
+        "investor.tsmc.com",
+        "investor.microsoft.com",
+        "investor.fb.com",
+        "investor.tencent.com",
+        "investor.anthropic.com",
+        "pitchbook.com",
+        "crunchbase.com",
+        "meity.gov.in",
+        "pib.gov.in",
+        "trai.gov.in",
+        "business-standard.com",
+        "livemint.com",
+        "economictimes.indiatimes.com",
+        "moneycontrol.com",
+        "restofworld.org",
+        "scmp.com",
+        "nikkei.com",
+        "technode.global",
+        "straitstimes.com",
+        "gov.cn"
+      ],
+      "opened_domains": [
+        "blog.google",
+        "deepmind.google",
+        "reuters.com",
+        "anthropic.com",
+        "apnews.com",
+        "bis.gov",
+        "public-inspection.federalregister.gov",
+        "content.govdelivery.com",
+        "oracle.com",
+        "cert-in.org.in",
+        "cyber.gc.ca",
+        "ncsc.gov.ie",
+        "tencent.com",
+        "news.microsoft.com",
+        "suno.com",
+        "theverge.com",
+        "arxiv.org",
+        "huggingface.co",
+        "status.claude.com",
+        "github.com",
+        "status.openai.com",
+        "www.githubstatus.com",
+        "health.aws.amazon.com",
+        "status.cloud.google.com"
+      ],
+      "materially_read_domains": [
+        "blog.google",
+        "deepmind.google",
+        "reuters.com",
+        "anthropic.com",
+        "bis.gov",
+        "public-inspection.federalregister.gov",
+        "content.govdelivery.com",
+        "oracle.com",
+        "cert-in.org.in",
+        "cyber.gc.ca",
+        "ncsc.gov.ie",
+        "news.microsoft.com",
+        "suno.com",
+        "arxiv.org",
+        "github.com",
+        "status.openai.com",
+        "www.githubstatus.com",
+        "status.claude.com",
+        "status.cloud.google.com"
+      ],
+      "partial_or_limited_domains": [
+        "cert-in.org.in — advisory page rendered partially; date and advisory identifier visible, technical details cross-checked with Oracle, Canada and Ireland.",
+        "tencent.com — official Q3 PDF returned no readable lines; metrics cross-checked against prior verified issue records and Reuters context.",
+        "health.aws.amazon.com — status page returned no readable lines."
+      ],
+      "blocked_domains": [
+        "apnews.com — article fetch error",
+        "theverge.com — article fetch error",
+        "huggingface.co — dataset page fetch error"
+      ],
+      "date_matched_domains": [
+        "blog.google",
+        "anthropic.com",
+        "content.govdelivery.com",
+        "oracle.com",
+        "cert-in.org.in",
+        "cyber.gc.ca",
+        "ncsc.gov.ie",
+        "reuters.com",
+        "news.microsoft.com",
+        "suno.com",
+        "arxiv.org",
+        "www.githubstatus.com",
+        "status.claude.com"
+      ],
+      "source_pages_opened": 37,
+      "date_matched_source_pages": 16,
+      "date_matched_source_domains": 13,
+      "pages_returned_content": 32,
+      "page_url_errors": 5,
+      "no_readable_text_pages": 2,
+      "failed_page_urls": [
+        "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/",
+        "https://apnews.com/article/70b660ddf900d90bbf484ecdf1fb441c",
+        "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19/",
+        "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+        "https://huggingface.co/datasets/Gauntletscore/llm-aggrefact-predictions"
+      ],
+      "no_readable_text_urls": [
+        "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+        "https://health.aws.amazon.com/health/status"
+      ],
+      "partial_page_urls": [
+        "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0061&pageid=PUBVLNOTES02"
+      ],
+      "source_classes_inspected": [
+        "official frontier-model launch announcements, API pricing and model cards",
+        "official export-control release and Federal Register prepublication rule",
+        "Oracle, CISA, CERT-In, Canada Cyber Centre and Ireland NCSC advisories",
+        "OpenAI, GitHub, Claude, Google Cloud and AWS status pages",
+        "company investor-relations earnings releases and offering notices",
+        "Reuters, Associated Press and The Verge independent reporting",
+        "arXiv preprints and an author-linked GitHub research repository",
+        "Microsoft enterprise initiative and Suno creator product announcements",
+        "third-party benchmark aggregation",
+        "X, Reddit, YouTube, GitHub, Hugging Face and Product Hunt discovery surfaces; social posts not used as confirmation"
+      ],
+      "beat_audit": {
+        "model_benchmark": {
+          "material_found_in_window": true,
+          "details": "Gemini 4 Neon GA on 18 Nov with paid API pricing and 1M context. Google benchmark and cost-per-task claims are vendor-reported; no independent Neon reproduction. No material, date-matched development verified for a new open-weight or local-inference release."
+        },
+        "developer_agent": {
+          "material_found_in_window": true,
+          "details": "Microsoft AI Transparency Initiative and GitHub Copilot MAI Code 2 Flash upstream-provider outage. No material, date-matched development verified for a new IDE or MCP protocol release."
+        },
+        "creator_multimodal": {
+          "material_found_in_window": true,
+          "details": "Suno Visuals launched on 17 Nov. No independent creator-model quality benchmark or new frontier image/video model release verified."
+        },
+        "research_robotics": {
+          "material_found_in_window": true,
+          "details": "GauntletScore, ANYmal simulator audit and PAIR smart-home benchmark preprints. No material, date-matched development verified for a new robotics hardware deployment or science-lab result beyond these preprints."
+        },
+        "security_reliability": {
+          "material_found_in_window": true,
+          "details": "Meta Muse permission risk, Java4Shell advisories, Arizona investigation and resolved Claude/GitHub service incidents. No AI-provider breach or active agent compromise confirmed; no active Java4Shell exploitation was reported in checked notices."
+        },
+        "compute_geopolitics": {
+          "material_found_in_window": true,
+          "details": "BIS remote-compute rule scheduled for publication, Nvidia China shipment outlook and Tencent training/capex commentary. No material, date-matched development verified for new Huawei Ascend, SMIC process, HBM, advanced-packaging or networking releases."
+        },
+        "energy_datacentres": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched development verified for a new power purchase, grid connection or data-centre commissioning."
+        },
+        "business_capital": {
+          "material_found_in_window": true,
+          "details": "Anthropic IPO pricing and Tencent Q3. Primary/secondary proceeds, private placement, long-term commitments, capex payments, accounting capex and free cash flow are separated."
+        },
+        "india_asia": {
+          "material_found_in_window": true,
+          "details": "CERT-In Java4Shell advisory and Tencent China compute outlook. No material, date-matched development verified for a new Indian foundation-model launch or national AI policy decision."
+        },
+        "policy_law_copyright_society": {
+          "material_found_in_window": true,
+          "details": "BIS rule, Arizona inquiry, exploratory US discussion of Chinese-model disclosure and Suno filters. No new copyright court ruling verified."
+        },
+        "open_weights_local_inference": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched development verified for a new open-weight release or local-inference runtime change."
+        },
+        "hbm_packaging_networking": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched development verified for HBM allocation, advanced packaging or networking product/supply announcements."
+        },
+        "india_policy_models": {
+          "material_found_in_window": false,
+          "details": "CERT-In advisory is material; no material, date-matched development verified for a new India foundation-model launch or AI policy decision."
+        }
+      },
+      "community_signal_audit": {
+        "platforms": [
+          "X",
+          "Reddit",
+          "YouTube",
+          "GitHub",
+          "Hugging Face",
+          "Product Hunt",
+          "arXiv"
+        ],
+        "verified_promoted": 0,
+        "reason": "No community-only signal qualified. New research and outage items were promoted only after checking the arXiv papers, author repository or official status history."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_enumerated": true,
+        "all_archive_index_paths_reopened": false,
+        "archive_issue_files_enumerated": 46,
+        "archive_issue_files_reopened_this_run": 9,
+        "archive_issue_files_checked": 9,
+        "archive_pages_reopened_this_run": [
+          "archive/2026-11-19.html",
+          "archive/2026-11-19-edition-2.html",
+          "archive/2026-11-19-edition-3.html",
+          "archive/2026-11-18-edition-3.html",
+          "archive/2026-11-18-edition-2.html",
+          "archive/2026-11-17-edition-2.html",
+          "archive/2026-11-17.html",
+          "archive/2026-11-16-edition-2.html",
+          "archive/2026-11-16.html"
+        ],
+        "archive_pages_not_checked": [
+          "archive/2026-11-18.html",
+          "archive/2026-11-15-edition-2.html",
+          "archive/2026-11-15.html",
+          "archive/2026-11-14.html",
+          "archive/2026-11-13-edition-4.html",
+          "archive/2026-11-13-edition-3.html",
+          "archive/2026-11-13-edition-2.html",
+          "archive/2026-11-13.html",
+          "archive/2026-11-12-edition-2.html",
+          "archive/2026-11-12.html",
+          "archive/2026-11-11.html",
+          "archive/2026-11-10-edition-3.html",
+          "archive/2026-11-10-edition-2.html",
+          "archive/2026-11-10.html",
+          "archive/2026-11-09-edition-2.html",
+          "archive/2026-11-09.html",
+          "archive/2026-11-08.html",
+          "archive/2026-11-07-edition-2.html",
+          "archive/2026-11-07.html",
+          "archive/2026-11-06.html",
+          "archive/2026-11-05-edition-2.html",
+          "archive/2026-11-05.html",
+          "archive/2026-11-04-edition-5.html",
+          "archive/2026-11-04-edition-4.html",
+          "archive/2026-11-04-edition-3.html",
+          "archive/2026-11-04-edition-2.html",
+          "archive/2026-11-04.html",
+          "archive/2026-11-03-edition-2.html",
+          "archive/2026-11-03.html",
+          "archive/2026-10-31-edition-4.html",
+          "archive/2026-10-31-edition-3.html",
+          "archive/2026-10-31-edition-2.html",
+          "archive/2026-10-31.html",
+          "archive/2026-10-30.html",
+          "archive/2026-10-29.html",
+          "archive/2026-10-28-current-v2.html",
+          "archive/2026-10-28-current.html",
+          "archive/2026-10-28.html"
+        ],
+        "historical_registry_complete_before_append": false,
+        "backfill_required": true,
+        "backfilled_issue_path": "archive/2026-11-19-edition-2.html",
+        "backfill_story_records_added": 0,
+        "backfill_edition_records_added": 1,
+        "archive_index_links_added": [
+          "archive/2026-11-19-edition-3.html",
+          "archive/2026-11-19-edition-2.html"
+        ],
+        "archive_index_dated_entries_before": 45,
+        "archive_index_dated_entries_after": 47,
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true
+      },
+      "issue_blob_sha": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
+      "archive_index_blob_sha_after": "b4f7cf06c81562c2d974114bc194de7752f9e63e",
+      "root_index_blob_sha_before": "f7e0f2711a99764621bf70af7dce3e5646de2086",
+      "root_index_update_pending": true,
+      "homepage_match_verified": false,
+      "local_file_created": false,
+      "local_file_note": "A local copy was not created: the container could not resolve external hosts and the exact GitHub content could not be transferred into the local runtime. No sandbox path is claimed.",
+      "manual_html_validation": {
+        "doctype": true,
+        "required_section_ids": true,
+        "main_desk_story_count": 7,
+        "main_impact_panels": 7,
+        "more_signals_count": 10,
+        "total_story_cards": 17,
+        "external_source_links": 61,
+        "search_filter": true,
+        "desk_filter": true,
+        "native_speech_controls": true,
+        "share_file_attachment_with_manual_fallback": true,
+        "print_pdf_styles": true,
+        "third_party_scripts": false
+      },
+      "registry_story_count_before": 359,
+      "registry_story_count_after": 362,
+      "registry_edition_count_before": 47,
+      "registry_edition_count_after": 49,
+      "append_only": true,
+      "netlify_deployment_claimed": false,
+      "human_editorial_pass": true,
+      "external_linter_run": false,
+      "coverage_gap_note": "One cross-beat discovery sweep targeted 89 distinct valid domains, above the requested 50–60 range because the grouped domain filters were broader than intended. 37 page URLs were opened across 24 domains; 32 returned page content, five returned tool-level errors, and two returned no readable text. Sixteen direct date-matched source pages were verified across 13 domains. Reuters Muse and Arizona URLs, AP, The Verge and the Hugging Face dataset page failed to load; Reuters Nvidia and Tencent pages were readable. Tencent’s Q3 PDF and AWS Health had no readable lines; CERT-In rendered partially. Thirty-eight indexed archive pages were not reopened individually. No external linter ran, no local file could be materialized, and no Netlify deployment is claimed."
     }
   ],
   "stories": [
@@ -15066,7 +15800,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15125,7 +15861,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15168,7 +15906,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15230,7 +15970,8 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15293,7 +16034,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15366,7 +16109,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15411,7 +16156,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15466,7 +16213,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15509,7 +16258,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15549,7 +16300,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15598,7 +16351,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15648,7 +16403,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15689,7 +16446,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15728,7 +16487,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15759,7 +16520,7 @@
         "Claude Team",
         "Claude Enterprise"
       ],
-      "event_summary": "Anthropic's status update at 23:39 UTC on 17 November said Team users could again add Claude manually to new calls, while automatic joining was being restored gradually. Enterprise access remained enabled.",
+      "event_summary": "Anthropic's 23:39 UTC update on 17 November restored manual Team joins. At 02:15 UTC on 19 November, the status page marked the incident resolved: auto-join was available to all Enterprise customers and some Team customers, with the remaining Team rollout staged over the following days.",
       "normalized_headline": "FOLLOW-UP: Claude Meetings restores manual Team joins while auto-join returns gradually",
       "canonical_urls": [
         "https://status.claude.com/history"
@@ -15768,7 +16529,9 @@
       "first_edition_date": "2026-11-19",
       "first_edition_path": "archive/2026-11-19.html",
       "edition_paths": [
-        "archive/2026-11-19.html"
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
       ],
       "follow_up_editions": [],
       "source_metadata": [
@@ -15778,6 +16541,13 @@
           "role": "Team manual-join restoration and auto-join recovery update",
           "published_date": "2026-11-18",
           "url": "https://status.claude.com/history"
+        },
+        {
+          "publisher": "Anthropic Status",
+          "source_class": "primary service-status history",
+          "role": "19 Nov 02:15 UTC resolution and staged Team auto-join rollout",
+          "published_date": "2026-11-19",
+          "url": "https://status.claude.com/"
         }
       ],
       "source_domains": [
@@ -15791,7 +16561,146 @@
       "delivery_note": "",
       "follow_up_of": "event-claude-meetings-beta-incident-2026-11-16",
       "prior_issue_path": "archive/2026-11-17.html",
-      "material_change": "Team users can manually add Claude to new calls again; automatic joining is being restored gradually. Enterprise access remains enabled."
+      "material_change": "Manual Team joins restored; as of 19 November 02:15 UTC, auto-join is available to all Enterprise and some Team customers, with remaining Team rollout staged.",
+      "latest_status_update": {
+        "published_date": "2026-11-19",
+        "timestamp_utc": "02:15",
+        "summary": "Incident marked resolved; auto-join available for all Enterprise customers and some Team customers; additional Team rollout continues in the coming days.",
+        "source_url": "https://status.claude.com/"
+      }
+    },
+    {
+      "story_id": "event-anymal-rwm-simulator-audit-2026-11-17",
+      "normalized_subject": "anymal d robotic world model learned simulator audit policy success and uncertainty calibration",
+      "entities": [
+        "ANYmal D",
+        "Robotic World Model",
+        "arXiv",
+        "robotics simulation"
+      ],
+      "event_summary": "A 17 November arXiv preprint reports a CPU-only audit of a learned simulator for the ANYmal D quadruped. The author says the implementation matched released outputs, losses and gradients, then evaluates 101 trained simulators, 200 compressed copies and 38 other-architecture simulators. One-step prediction improvements did not reliably predict policy success: 13 of 18 fine-tuned copies produced failing policies despite better one- and eight-step predictions. The paper reports uncertainty miscalibration. Scope is one robot, one gait, simulation only and no hardware; author-provided code/data were linked, but SIGNAL did not independently rerun them.",
+      "normalized_headline": "ANYmal simulator audit finds one-step prediction scores can mislead robot-policy evaluation",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.23118",
+        "https://github.com/joyjeet-singh/rwm"
+      ],
+      "original_publication_date": "2026-11-17",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-19-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "arXiv",
+          "source_class": "research preprint",
+          "role": "Method, policy-level findings, uncertainty calibration and scope limitations",
+          "published_date": "2026-11-17",
+          "url": "https://arxiv.org/abs/2611.23118"
+        },
+        {
+          "publisher": "GitHub author repository",
+          "source_class": "author-provided research artifact",
+          "role": "Code and data for CPU-only audit; not independently rerun by SIGNAL",
+          "published_date": "2026-11-17",
+          "url": "https://github.com/joyjeet-singh/rwm"
+        }
+      ],
+      "source_domains": [
+        "https://arxiv.org/abs/2611.23118",
+        "https://github.com/joyjeet-singh/rwm"
+      ],
+      "desk": "research",
+      "evidence_confidence": "Medium: arXiv preprint with author-provided code/data; one robot and gait, simulation only, no hardware test or independent third-party rerun.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "",
+      "material_change_note": "Preprint reports that one-step prediction improvements did not reliably predict robot-policy success; 13 of 18 fine-tuned simulator copies produced failing policies despite better prediction metrics."
+    },
+    {
+      "story_id": "event-pair-household-robot-smart-home-benchmark-2026-11-17",
+      "normalized_subject": "pair household robot smart home simulation benchmark physical execution and device api task success",
+      "entities": [
+        "PAIR",
+        "vision-language-action models",
+        "household robotics",
+        "smart-home simulation",
+        "arXiv"
+      ],
+      "event_summary": "A 17 November arXiv preprint introduces a household-robot smart-home benchmark with 84 functional smart-device assets, 40 tasks and 340 human demonstrations. Two fine-tuned vision-language-action policies completed none of 120 evaluation episodes. More than 90% of failed rollouts stalled at navigation, grasping or door operation; even an oracle planner with API access completed only 57.3% of its plan. The benchmark is simulated, and the authors say code and data will be released upon publication.",
+      "normalized_headline": "PAIR benchmark shows household robots fail before smart-home APIs become the bottleneck",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.23070"
+      ],
+      "original_publication_date": "2026-11-17",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-19-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "arXiv",
+          "source_class": "research preprint",
+          "role": "Benchmark design, task/asset/demo counts, evaluation outcomes and stated release plan",
+          "published_date": "2026-11-17",
+          "url": "https://arxiv.org/abs/2611.23070"
+        }
+      ],
+      "source_domains": [
+        "https://arxiv.org/abs/2611.23070"
+      ],
+      "desk": "research",
+      "evidence_confidence": "Medium-low: single simulation preprint; code/data not yet released and no independent replication was located.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "",
+      "material_change_note": "Benchmark reports 84 device assets, 40 tasks and 340 demonstrations; two VLA policies achieved 0/120 successful episodes, with failures concentrated in physical navigation and manipulation."
+    },
+    {
+      "story_id": "event-github-copilot-mai-code2-flash-provider-outage-2026-11-18",
+      "normalized_subject": "github copilot mai code 2 flash degraded availability upstream model provider incident",
+      "entities": [
+        "GitHub",
+        "GitHub Copilot",
+        "MAI Code 2 Flash",
+        "GitHub Status"
+      ],
+      "event_summary": "GitHub Status records degraded availability for MAI Code 2 Flash in Copilot products and IDE surfaces on 18 November 2026. Investigation began at 09:00 UTC, mitigation was reported at 09:13 UTC and resolution at 09:34 UTC. GitHub attributed the issue to an upstream model provider and recommended switching models or using Copilot Fusion during recovery. No security attack was reported; a detailed root-cause analysis was still pending.",
+      "normalized_headline": "GitHub Copilot's MAI Code 2 Flash model degraded for 34 minutes after an upstream provider issue",
+      "canonical_urls": [
+        "https://www.githubstatus.com/"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19-edition-3.html",
+      "edition_paths": [
+        "archive/2026-11-19-edition-3.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "GitHub Status",
+          "source_class": "primary service-status history",
+          "role": "Incident timeline, affected model and surfaces, upstream-provider attribution, mitigation and resolution",
+          "published_date": "2026-11-18",
+          "url": "https://www.githubstatus.com/"
+        }
+      ],
+      "source_domains": [
+        "https://www.githubstatus.com/"
+      ],
+      "desk": "developer",
+      "evidence_confidence": "High for timing, affected model and upstream-provider attribution from GitHub Status; detailed root-cause analysis was pending.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "",
+      "material_change_note": "New date-matched 34-minute Copilot model-provider availability incident; mitigated at 09:13 UTC and resolved at 09:34 UTC."
     }
   ],
   "archive_backfill_audit": [
@@ -15820,7 +16729,22 @@
         "archive/2026-11-18-edition-3.html"
       ],
       "note": "The accessible base issue was missing from archive/index.html and the editions registry. Its six distinct story records already existed; this append adds the edition mapping and archive link only."
+    },
+    {
+      "date": "2026-11-19",
+      "path": "archive/2026-11-19-edition-2.html",
+      "missing_record_backfilled": true,
+      "dated_archive_files_checked": 1,
+      "story_records_linked": 15,
+      "new_events": 0,
+      "material_followups": 0,
+      "prior_records_removed": 0,
+      "archive_index_link_added": true,
+      "superseded_by": [
+        "archive/2026-11-19-edition-3.html"
+      ],
+      "note": "An accessible 19 November edition-2 snapshot was absent from archive/index.html and the editions registry. Its 15 story IDs already existed in the registry. Added the archive link and edition mapping, linked the existing story records to the preserved snapshot, and left the HTML unchanged."
     }
   ],
-  "last_updated_edition": "archive/2026-11-19.html"
+  "last_updated_edition": "archive/2026-11-19-edition-3.html"
 }
