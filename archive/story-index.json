@@ -6105,13 +6105,16 @@
         "archive_index_dated_entries_before": 45,
         "archive_index_dated_entries_after": 47,
         "prior_records_removed": 0,
-        "earlier_same_day_editions_preserved": true
+        "earlier_same_day_editions_preserved": true,
+        "root_index_updated": true,
+        "homepage_exact_match_verified": true,
+        "root_index_blob_sha_after": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1"
       },
       "issue_blob_sha": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
       "archive_index_blob_sha_after": "b4f7cf06c81562c2d974114bc194de7752f9e63e",
       "root_index_blob_sha_before": "f7e0f2711a99764621bf70af7dce3e5646de2086",
-      "root_index_update_pending": true,
-      "homepage_match_verified": false,
+      "root_index_update_pending": false,
+      "homepage_match_verified": true,
       "local_file_created": false,
       "local_file_note": "A local copy was not created: the container could not resolve external hosts and the exact GitHub content could not be transferred into the local runtime. No sandbox path is claimed.",
       "manual_html_validation": {
@@ -6137,7 +6140,23 @@
       "netlify_deployment_claimed": false,
       "human_editorial_pass": true,
       "external_linter_run": false,
-      "coverage_gap_note": "One cross-beat discovery sweep targeted 89 distinct valid domains, above the requested 50–60 range because the grouped domain filters were broader than intended. 37 page URLs were opened across 24 domains; 32 returned page content, five returned tool-level errors, and two returned no readable text. Sixteen direct date-matched source pages were verified across 13 domains. Reuters Muse and Arizona URLs, AP, The Verge and the Hugging Face dataset page failed to load; Reuters Nvidia and Tencent pages were readable. Tencent’s Q3 PDF and AWS Health had no readable lines; CERT-In rendered partially. Thirty-eight indexed archive pages were not reopened individually. No external linter ran, no local file could be materialized, and no Netlify deployment is claimed."
+      "coverage_gap_note": "One cross-beat discovery sweep targeted 89 distinct valid domains, above the requested 50–60 range because the grouped domain filters were broader than intended. 37 page URLs were opened across 24 domains; 32 returned page content, five returned tool-level errors, and two returned no readable text. Sixteen direct date-matched source pages were verified across 13 domains. Reuters Muse and Arizona URLs, AP, The Verge and the Hugging Face dataset page failed to load; Reuters Nvidia and Tencent pages were readable. Tencent’s Q3 PDF and AWS Health had no readable lines; CERT-In rendered partially. Thirty-eight indexed archive pages were not reopened individually. No external linter ran, no local file could be materialized, and no Netlify deployment is claimed.",
+      "root_index_blob_sha_after": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
+      "homepage_exact_match_verified_at": "2026-11-19T08:44:55+05:30",
+      "publication_verification": {
+        "verified_at": "2026-11-19T08:44:55+05:30",
+        "branch": "main",
+        "issue_path": "archive/2026-11-19-edition-3.html",
+        "issue_blob_sha": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
+        "archive_index_path": "archive/index.html",
+        "archive_index_blob_sha": "b4f7cf06c81562c2d974114bc194de7752f9e63e",
+        "registry_path": "archive/story-index.json",
+        "registry_blob_sha_before_verification": "a835d4ba1d2838ddfa6589c0e4f6e568e540f57a",
+        "root_index_path": "index.html",
+        "root_index_blob_sha": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
+        "root_exact_match": true,
+        "netlify_deployment_claimed": false
+      }
     }
   ],
   "stories": [
