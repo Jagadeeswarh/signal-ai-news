@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-18T10:20:00+05:30",
+  "last_updated_at": "2026-11-19T08:16:56+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.",
   "editions": [
     {
@@ -4889,6 +4889,521 @@
       "human_editorial_pass": true,
       "external_linter_run": false,
       "coverage_gap_note": "60-domain target roster; 12 domains directly opened/read and 12 date-matched. GitHub changelog inaccessible; social platforms used only for discovery. All major beats are represented with explicit negative findings where no new development qualified."
+    },
+    {
+      "edition_id": "signal-2026-11-18-base-backfill",
+      "date": "2026-11-18",
+      "path": "archive/2026-11-18.html",
+      "title": "SIGNAL. — AI Daily | Wednesday, 18 November 2026 · Earlier preserved snapshot (backfilled)",
+      "edition_type": "historical-backfill",
+      "story_count": 6,
+      "new_story_count": 0,
+      "unique_new_verified_story_count": 0,
+      "main_desk_count": 3,
+      "more_signals_count": 3,
+      "community_radar_count": 0,
+      "follow_up_count": 0,
+      "story_ids": [
+        "event-openai-gpt-6-2-astra-sol-2026-11-18",
+        "event-nvidia-q3-fy2027-results-vera-rubin-2026-11-17",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+        "event-microsoft-mai-ignite-model-suite-2026-11-17",
+        "event-kuaishou-kling-image-4-2026-11-18",
+        "event-india-space-ai-edge-standards-call-2026-11-18"
+      ],
+      "main_desk_story_ids": [
+        "event-openai-gpt-6-2-astra-sol-2026-11-18",
+        "event-nvidia-q3-fy2027-results-vera-rubin-2026-11-17",
+        "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05"
+      ],
+      "more_signals_story_ids": [
+        "event-microsoft-mai-ignite-model-suite-2026-11-17",
+        "event-kuaishou-kling-image-4-2026-11-18",
+        "event-india-space-ai-edge-standards-call-2026-11-18"
+      ],
+      "community_story_ids": [],
+      "material_followups": [],
+      "repeat_candidates_screened": 0,
+      "repeat_candidates_excluded": 0,
+      "repeat_candidates_excluded_ids": [],
+      "repeat_candidates_excluded_labels": [],
+      "archive_issue_files_checked": 1,
+      "archive_pages_not_checked": [],
+      "source_domains_targeted": 0,
+      "source_domains_opened_and_inspected": 0,
+      "source_domains_materially_read": 0,
+      "source_domains_partial_or_limited": 0,
+      "source_domains_blocked": 0,
+      "source_domains_with_date_matched_results": 0,
+      "targeted_domains": [],
+      "opened_domains": [],
+      "materially_read_domains": [],
+      "partial_or_limited_domains": [],
+      "blocked_domains": [],
+      "date_matched_domains": [],
+      "source_classes_inspected": [],
+      "beat_audit": {},
+      "community_signal_audit": {
+        "platforms": [],
+        "verified_promoted": 0,
+        "reason": "Historical issue indexing only; no new research performed."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_checked": true,
+        "archive_issue_files_checked": 1,
+        "archive_pages_not_checked": [],
+        "historical_registry_complete_before_append": false,
+        "backfill_required": true,
+        "backfilled_issue_path": "archive/2026-11-18.html",
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true
+      },
+      "registry_story_count_before": 344,
+      "registry_story_count_after": 344,
+      "registry_edition_count_before": 45,
+      "registry_edition_count_after": 46,
+      "append_only": true,
+      "netlify_deployment_claimed": false,
+      "human_editorial_pass": false,
+      "external_linter_run": false,
+      "coverage_gap_note": "Accessible 18 November base issue was absent from the registry and archive index. Six distinct story IDs were already present in the registry; this backfill adds only the missing edition record and archive link. The page is an earlier snapshot superseded by the later 18 November editions."
+    },
+    {
+      "edition_id": "signal-2026-11-19",
+      "date": "2026-11-19",
+      "path": "archive/2026-11-19.html",
+      "title": "SIGNAL. — AI Daily | Thursday, 19 November 2026 · Full-spectrum edition",
+      "edition_type": "full-spectrum",
+      "published_at": "2026-11-19T08:16:56+05:30",
+      "research_window_start": "2026-11-17T08:16:56+05:30",
+      "research_window_end": "2026-11-19T08:16:56+05:30",
+      "story_count": 15,
+      "new_story_count": 15,
+      "unique_new_verified_story_count": 12,
+      "main_desk_count": 8,
+      "more_signals_count": 7,
+      "community_radar_count": 0,
+      "follow_up_count": 3,
+      "story_ids": [
+        "event-google-gemini-4-neon-ga-2026-11-18",
+        "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+        "event-anthropic-ipo-priced-83-2026-11-18",
+        "event-bis-remote-access-rule-scheduled-2026-11-19",
+        "event-java4shell-cve-2026-114938-2026-11-17",
+        "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+        "event-tencent-q3-ai-capex-cloud-2026-11-18",
+        "event-arizona-rogue-ai-agent-investigation-2026-11-19",
+        "event-microsoft-ai-transparency-initiative-2026-11-17",
+        "event-suno-visuals-2026-11-17",
+        "event-gauntletscore-llm-aggrefact-preprint-2026-11-17",
+        "event-us-disclosure-chinese-ai-model-use-2026-11-18",
+        "event-claude-google-docs-connector-incident-2026-11-18",
+        "event-claude-apple-signin-incident-2026-11-17",
+        "event-claude-meetings-team-join-recovery-2026-11-18"
+      ],
+      "main_desk_story_ids": [
+        "event-google-gemini-4-neon-ga-2026-11-18",
+        "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+        "event-anthropic-ipo-priced-83-2026-11-18",
+        "event-bis-remote-access-rule-scheduled-2026-11-19",
+        "event-java4shell-cve-2026-114938-2026-11-17",
+        "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+        "event-tencent-q3-ai-capex-cloud-2026-11-18",
+        "event-arizona-rogue-ai-agent-investigation-2026-11-19"
+      ],
+      "more_signals_story_ids": [
+        "event-microsoft-ai-transparency-initiative-2026-11-17",
+        "event-suno-visuals-2026-11-17",
+        "event-gauntletscore-llm-aggrefact-preprint-2026-11-17",
+        "event-us-disclosure-chinese-ai-model-use-2026-11-18",
+        "event-claude-google-docs-connector-incident-2026-11-18",
+        "event-claude-apple-signin-incident-2026-11-17",
+        "event-claude-meetings-team-join-recovery-2026-11-18"
+      ],
+      "community_story_ids": [],
+      "material_followups": [
+        {
+          "story_id": "event-anthropic-ipo-priced-83-2026-11-18",
+          "follow_up_of": "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+          "prior_issue_path": "archive/2026-11-13.html",
+          "material_change": "Final US$83 price and 980m-share mix; Nasdaq trading scheduled 19 Nov US time and closing expected 20 Nov."
+        },
+        {
+          "story_id": "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+          "follow_up_of": "event-nvidia-q3-fy2027-results-vera-rubin-2026-11-17",
+          "prior_issue_path": "archive/2026-11-18-edition-3.html",
+          "material_change": "Nvidia's current outlook excludes further licensed Hopper shipments to China; permanence unknown."
+        },
+        {
+          "story_id": "event-claude-meetings-team-join-recovery-2026-11-18",
+          "follow_up_of": "event-claude-meetings-beta-incident-2026-11-16",
+          "prior_issue_path": "archive/2026-11-17.html",
+          "material_change": "Team manual joins restored; auto-join is returning gradually."
+        }
+      ],
+      "repeat_candidates_screened": 9,
+      "repeat_candidates_excluded": 9,
+      "repeat_candidates_excluded_ids": [],
+      "repeat_candidates_excluded_labels": [
+        "GPT-6.2 Astra/Sol — covered in the 18 November edition; no new change.",
+        "NVIDIA Q3/Vera Rubin results — covered in the 18 November edition; only the China Hopper shipment guidance is retained as a follow-up.",
+        "Microsoft MAI specialist-model suite — covered in the 18 November edition; the separate AI Transparency Initiative is new.",
+        "Kling Image 4.0 — covered in the 18 November edition; no material change.",
+        "India space-startup AI/edge standards request — covered in the 18 November edition; no new decision.",
+        "Qwen4-Max — covered in the 17 November edition; no material change.",
+        "Tencent Hy4 Flash — covered in the 17 November edition; no material change.",
+        "K2-Horizon open-weight release — covered in the 18 November edition; no material change.",
+        "Claude Meetings initial Team/auto-join incident — covered in the 17 November edition; only the restoration update is retained as a follow-up."
+      ],
+      "archive_issue_files_checked": 5,
+      "archive_pages_not_checked": [
+        "archive/2026-10-28-current-v2.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28.html",
+        "archive/2026-10-29.html",
+        "archive/2026-10-30.html",
+        "archive/2026-10-31-edition-2.html",
+        "archive/2026-10-31-edition-3.html",
+        "archive/2026-10-31-edition-4.html",
+        "archive/2026-10-31.html",
+        "archive/2026-11-03-edition-2.html",
+        "archive/2026-11-03.html",
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html",
+        "archive/2026-11-04.html",
+        "archive/2026-11-05-edition-2.html",
+        "archive/2026-11-05.html",
+        "archive/2026-11-06.html",
+        "archive/2026-11-07-edition-2.html",
+        "archive/2026-11-07.html",
+        "archive/2026-11-08.html",
+        "archive/2026-11-09-edition-2.html",
+        "archive/2026-11-09.html",
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html",
+        "archive/2026-11-10.html",
+        "archive/2026-11-11.html",
+        "archive/2026-11-12-edition-2.html",
+        "archive/2026-11-12.html",
+        "archive/2026-11-13-edition-2.html",
+        "archive/2026-11-13-edition-3.html",
+        "archive/2026-11-13-edition-4.html",
+        "archive/2026-11-13.html",
+        "archive/2026-11-14.html",
+        "archive/2026-11-15-edition-2.html",
+        "archive/2026-11-15.html",
+        "archive/2026-11-16-edition-2.html",
+        "archive/2026-11-16.html",
+        "archive/2026-11-17-edition-2.html"
+      ],
+      "source_pages_opened": 38,
+      "date_matched_source_pages": 23,
+      "date_matched_source_domains": 19,
+      "source_domains_targeted": 60,
+      "source_domains_opened_and_inspected": 25,
+      "source_domains_materially_read": 24,
+      "source_domains_partial_or_limited": 1,
+      "source_domains_blocked": 1,
+      "source_domains_with_date_matched_results": 19,
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "deepmind.google",
+        "blog.google",
+        "ai.meta.com",
+        "x.ai",
+        "microsoft.com",
+        "nvidia.com",
+        "amd.com",
+        "aws.amazon.com",
+        "mistral.ai",
+        "deepseek.com",
+        "alibabacloud.com",
+        "qwen.ai",
+        "tencent.com",
+        "z.ai",
+        "moonshot.ai",
+        "minimax.io",
+        "baidu.com",
+        "bytedance.com",
+        "kuaishou.com",
+        "kling.ai",
+        "suno.com",
+        "github.com",
+        "huggingface.co",
+        "cursor.com",
+        "langchain.com",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "openreview.net",
+        "paperswithcode.com",
+        "cisa.gov",
+        "cert-in.org.in",
+        "nvd.nist.gov",
+        "oracle.com",
+        "cyber.gc.ca",
+        "ncsc.gov.ie",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "cloudflare.com",
+        "therecord.media",
+        "bleepingcomputer.com",
+        "darkreading.com",
+        "securityweek.com",
+        "reuters.com",
+        "apnews.com",
+        "bloomberg.com",
+        "ft.com",
+        "wsj.com",
+        "techcrunch.com",
+        "technode.global",
+        "business-standard.com",
+        "livemint.com",
+        "economictimes.indiatimes.com",
+        "nikkei.com",
+        "datacenterdynamics.com",
+        "federalregister.gov",
+        "bis.gov"
+      ],
+      "opened_domains": [
+        "anthropic.com",
+        "apnews.com",
+        "arxiv.org",
+        "benchleader.com",
+        "bis.gov",
+        "blog.google",
+        "cert-in.org.in",
+        "claude.com",
+        "cyber.gc.ca",
+        "deepmind.google",
+        "federalregister.gov",
+        "githubstatus.com",
+        "govdelivery.com",
+        "investing.com",
+        "microsoft.com",
+        "ncsc.gov.ie",
+        "openai.com",
+        "oracle.com",
+        "prnewswire.com",
+        "reuters.com",
+        "streetinsider.com",
+        "suno.com",
+        "tencent.com",
+        "thefrontierwire.com",
+        "theverge.com"
+      ],
+      "materially_read_domains": [
+        "anthropic.com",
+        "apnews.com",
+        "arxiv.org",
+        "benchleader.com",
+        "bis.gov",
+        "blog.google",
+        "claude.com",
+        "cyber.gc.ca",
+        "deepmind.google",
+        "federalregister.gov",
+        "githubstatus.com",
+        "govdelivery.com",
+        "investing.com",
+        "microsoft.com",
+        "ncsc.gov.ie",
+        "openai.com",
+        "oracle.com",
+        "prnewswire.com",
+        "reuters.com",
+        "streetinsider.com",
+        "suno.com",
+        "tencent.com",
+        "thefrontierwire.com",
+        "theverge.com"
+      ],
+      "partial_or_limited_domains": [
+        "cert-in.org.in — advisory detail page rendered incompletely; title/date visible, technical detail cross-checked with Oracle, Canada and Ireland."
+      ],
+      "blocked_domains": [
+        "cisa.gov — direct advisory URL returned 403; official CISA bulletin via GovDelivery was readable."
+      ],
+      "date_matched_domains": [
+        "anthropic.com",
+        "apnews.com",
+        "arxiv.org",
+        "benchleader.com",
+        "blog.google",
+        "cert-in.org.in",
+        "claude.com",
+        "cyber.gc.ca",
+        "deepmind.google",
+        "govdelivery.com",
+        "investing.com",
+        "microsoft.com",
+        "ncsc.gov.ie",
+        "oracle.com",
+        "reuters.com",
+        "suno.com",
+        "tencent.com",
+        "thefrontierwire.com",
+        "theverge.com"
+      ],
+      "source_classes_inspected": [
+        "primary frontier-model launch announcements, API pricing and model cards",
+        "company investor-relations earnings releases and earnings-call transcript",
+        "official BIS export-control announcement and Federal Register prepublication rule",
+        "Oracle, CISA, CERT-In, Canada Cyber Centre and Ireland NCSC security advisories",
+        "Anthropic, OpenAI and GitHub service-status pages",
+        "independent Reuters, Associated Press and The Verge reporting",
+        "arXiv preprint and released Hugging Face prediction dataset",
+        "third-party benchmark aggregation and published methodology",
+        "X, Reddit, GitHub, Hugging Face, YouTube and Product Hunt discovery surfaces; social content not used as confirmation"
+      ],
+      "beat_audit": {
+        "model_benchmark": {
+          "material_found_in_window": true,
+          "details": "Gemini 4 Neon GA on 18 Nov with paid API pricing and 1M context. Google benchmark claims are vendor-reported; BenchLeader had not ranked Neon. No new open-weight/local-inference release; GPT-6.2 was screened as a repeat."
+        },
+        "developer_agent": {
+          "material_found_in_window": true,
+          "details": "Microsoft AI Transparency Initiative and Meta Muse permission-surface risk. No new IDE or MCP release verified."
+        },
+        "creator_multimodal": {
+          "material_found_in_window": true,
+          "details": "Suno Visuals launched. No independent creator-model quality benchmark verified."
+        },
+        "research_robotics": {
+          "material_found_in_window": true,
+          "details": "GauntletScore preprint is material; no date-matched robotics deployment or separate science-lab release verified."
+        },
+        "security_reliability": {
+          "material_found_in_window": true,
+          "details": "Meta Muse permission risk, Java4Shell advisories, Claude connector/login incidents and Arizona agent investigation. Claude incidents are service reliability events, not evidence of attacks; no active Java4Shell exploitation was known in checked notices."
+        },
+        "compute_geopolitics": {
+          "material_found_in_window": true,
+          "details": "BIS remote-compute rule scheduled for publication, Nvidia Hopper shipment halt and Tencent compute/training outlook. No new Huawei Ascend, SMIC, HBM, packaging or networking product release verified."
+        },
+        "energy_datacentres": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched power purchase, grid connection or data-centre commissioning verified. Tencent capex is compute spend, not new energy capacity."
+        },
+        "business_capital": {
+          "material_found_in_window": true,
+          "details": "Anthropic IPO priced; Tencent Q3 reports cloud growth, capital-expenditure payments and negative free cash flow. Primary/secondary proceeds, private placement, long-term commitments and cash capex kept separate."
+        },
+        "india_asia": {
+          "material_found_in_window": true,
+          "details": "CERT-In published a Java4Shell advisory and Tencent reported China cloud/AI spending. No new Indian frontier-model launch or national AI policy decision verified."
+        },
+        "policy_law_copyright_society": {
+          "material_found_in_window": true,
+          "details": "BIS rule, exploratory US discussion of Chinese-model disclosure, Arizona investigation and Suno product filters. No new copyright court ruling verified."
+        },
+        "open_weights_local_inference": {
+          "material_found_in_window": false,
+          "details": "No new open-weight release or local-inference runtime change verified; Kimi K3.1 Pro remains the current third-party open-weight leaderboard reference."
+        },
+        "hbm_packaging_networking": {
+          "material_found_in_window": false,
+          "details": "No date-matched HBM allocation, advanced-packaging or networking product/supply announcement verified."
+        },
+        "india_policy_models": {
+          "material_found_in_window": false,
+          "details": "CERT-In advisory is material; no new India foundation-model launch or AI policy decision verified."
+        }
+      },
+      "community_signal_audit": {
+        "platforms": [
+          "X",
+          "Reddit",
+          "YouTube",
+          "GitHub",
+          "Hugging Face",
+          "Product Hunt",
+          "arXiv"
+        ],
+        "verified_promoted": 0,
+        "reason": "No community-only signal qualified. Gemini 4 Neon, Meta Muse and other developments were checked against official releases, status pages, papers or independent reporting."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_checked": true,
+        "archive_issue_files_enumerated": 45,
+        "archive_issue_files_reopened_this_run": 5,
+        "archive_issue_files_checked": 5,
+        "archive_pages_reopened_this_run": [
+          "archive/2026-11-18.html",
+          "archive/2026-11-18-edition-2.html",
+          "archive/2026-11-18-edition-3.html",
+          "archive/2026-11-17.html",
+          "archive/2026-11-19.html"
+        ],
+        "archive_pages_not_checked": [
+          "archive/2026-10-28-current-v2.html",
+          "archive/2026-10-28-current.html",
+          "archive/2026-10-28.html",
+          "archive/2026-10-29.html",
+          "archive/2026-10-30.html",
+          "archive/2026-10-31-edition-2.html",
+          "archive/2026-10-31-edition-3.html",
+          "archive/2026-10-31-edition-4.html",
+          "archive/2026-10-31.html",
+          "archive/2026-11-03-edition-2.html",
+          "archive/2026-11-03.html",
+          "archive/2026-11-04-edition-2.html",
+          "archive/2026-11-04-edition-3.html",
+          "archive/2026-11-04-edition-4.html",
+          "archive/2026-11-04-edition-5.html",
+          "archive/2026-11-04.html",
+          "archive/2026-11-05-edition-2.html",
+          "archive/2026-11-05.html",
+          "archive/2026-11-06.html",
+          "archive/2026-11-07-edition-2.html",
+          "archive/2026-11-07.html",
+          "archive/2026-11-08.html",
+          "archive/2026-11-09-edition-2.html",
+          "archive/2026-11-09.html",
+          "archive/2026-11-10-edition-2.html",
+          "archive/2026-11-10-edition-3.html",
+          "archive/2026-11-10.html",
+          "archive/2026-11-11.html",
+          "archive/2026-11-12-edition-2.html",
+          "archive/2026-11-12.html",
+          "archive/2026-11-13-edition-2.html",
+          "archive/2026-11-13-edition-3.html",
+          "archive/2026-11-13-edition-4.html",
+          "archive/2026-11-13.html",
+          "archive/2026-11-14.html",
+          "archive/2026-11-15-edition-2.html",
+          "archive/2026-11-15.html",
+          "archive/2026-11-16-edition-2.html",
+          "archive/2026-11-16.html",
+          "archive/2026-11-17-edition-2.html"
+        ],
+        "historical_registry_complete_before_append": false,
+        "backfill_required": true,
+        "backfilled_issue_path": "archive/2026-11-18.html",
+        "archive_index_dated_entries_before": 43,
+        "archive_index_dated_entries_after": 45,
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true
+      },
+      "registry_story_count_before": 344,
+      "registry_story_count_after": 359,
+      "registry_edition_count_before": 45,
+      "registry_edition_count_after": 47,
+      "append_only": true,
+      "netlify_deployment_claimed": false,
+      "human_editorial_pass": true,
+      "external_linter_run": false,
+      "coverage_gap_note": "One consolidated cross-beat discovery sweep targeted 60 domains/platforms; 38 unique pages were opened across 25 domains, with 23 date-matched source pages across 19 domains. Forty archive issue pages were not reopened individually; the registry and prior audit records were used for semantic deduplication. Direct CISA access returned 403 but the official GovDelivery bulletin was readable; the Federal Register prepublication PDF was accessible while canonical HTML was not. Arizona and Nvidia developments rely on Reuters reporting; no primary public filing/press release was located for those claims."
     }
   ],
   "stories": [
@@ -8797,7 +9312,8 @@
         "archive/2026-11-10-edition-2.html",
         "archive/2026-11-10-edition-3.html",
         "archive/2026-11-11.html",
-        "archive/2026-11-13.html"
+        "archive/2026-11-13.html",
+        "archive/2026-11-19.html"
       ],
       "follow_up_editions": [
         {
@@ -8835,6 +9351,17 @@
           "material_change": "Bloomberg News reports demand about six times the shares available, with existing backers potentially prioritised; Anthropic had not commented and the book is not final.",
           "canonical_urls": [
             "https://www.reuters.com/legal/transactional/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-2026-11-12/"
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "path": "archive/2026-11-19.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-13.html",
+          "material_change": "Anthropic priced 980m shares at US$83, with 956,351,354 primary shares and 23,648,646 secondary shares; Nasdaq trading is scheduled for 19 Nov US time and the offering is expected to close 20 Nov.",
+          "canonical_urls": [
+            "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+            "https://www.reuters.com/business/anthropic-clinches-biggest-ipo-ever-with-81-billion-offering-2026-11-18/"
           ]
         }
       ],
@@ -13872,7 +14399,8 @@
       "first_edition_date": "2026-11-17",
       "first_edition_path": "archive/2026-11-17.html",
       "edition_paths": [
-        "archive/2026-11-17.html"
+        "archive/2026-11-17.html",
+        "archive/2026-11-19.html"
       ],
       "follow_up_of": "event-anthropic-claude-meetings-beta-2026-11-12",
       "prior_issue_path": "archive/2026-11-13-edition-4.html",
@@ -13884,6 +14412,16 @@
           "label": "FOLLOW-UP / UPDATE",
           "prior_issue_path": "archive/2026-11-13-edition-4.html",
           "material_change": "The previously announced beta experienced a service degradation: Team join and auto-join were paused, while Enterprise was restored with slower join performance."
+        },
+        {
+          "date": "2026-11-19",
+          "path": "archive/2026-11-19.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-17.html",
+          "material_change": "Team users can again add Claude manually to new calls; auto-join is being restored gradually, while Enterprise access remains enabled.",
+          "canonical_urls": [
+            "https://status.claude.com/history"
+          ]
         }
       ],
       "source_domains": [
@@ -14280,9 +14818,21 @@
       "first_edition_date": "2026-11-18",
       "first_edition_path": "archive/2026-11-18-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-18-edition-2.html"
+        "archive/2026-11-18-edition-2.html",
+        "archive/2026-11-19.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-19",
+          "path": "archive/2026-11-19.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-18-edition-3.html",
+          "material_change": "Reuters reports Nvidia's current outlook no longer includes further licensed Hopper-generation shipments to China; permanence and restart conditions are unknown.",
+          "canonical_urls": [
+            "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+          ]
+        }
+      ],
       "source_metadata": [
         {
           "publisher": "NVIDIA",
@@ -14496,6 +15046,752 @@
       "verification_status": "verified",
       "repeat_status": "new",
       "material_change_note": null
+    },
+    {
+      "story_id": "event-google-gemini-4-neon-ga-2026-11-18",
+      "normalized_subject": "google gemini 4 neon general availability and pricing",
+      "entities": [
+        "Google",
+        "Google DeepMind",
+        "Gemini 4 Neon"
+      ],
+      "event_summary": "Google released Gemini 4 Neon on 18 November for complex coding, analytical reasoning and enterprise workflows. Google lists a one-million-token combined context, paid API pricing of US$3/M input and US$15/M output, and vendor-reported benchmark results; BenchLeader had not yet ranked the model at the edition cut-off.",
+      "normalized_headline": "Gemini 4 Neon reaches general availability with one-million-token context",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "https://deepmind.google/models/model-cards/gemini-4-neon/",
+        "https://www.benchleader.com/"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Google",
+          "source_class": "primary product announcement",
+          "role": "GA date, API pricing, access and vendor benchmark claims",
+          "published_date": "2026-11-18",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        },
+        {
+          "publisher": "Google DeepMind",
+          "source_class": "primary model card",
+          "role": "Context, safety and capability-evaluation caveats",
+          "published_date": "2026-11-18",
+          "url": "https://deepmind.google/models/model-cards/gemini-4-neon/"
+        },
+        {
+          "publisher": "BenchLeader",
+          "source_class": "third-party benchmark aggregator",
+          "role": "Listing showed model awaiting independent aggregate results",
+          "published_date": "2026-11-19",
+          "url": "https://www.benchleader.com/"
+        }
+      ],
+      "source_domains": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "https://deepmind.google/models/model-cards/gemini-4-neon/",
+        "https://www.benchleader.com/"
+      ],
+      "desk": "models",
+      "evidence_confidence": "High on release, price and context from Google; capability scores are vendor-reported and had no independent leaderboard result at cut-off.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "",
+      "material_change_note": "New GA model release, paid API price and context disclosed; independent benchmark results not yet available."
+    },
+    {
+      "story_id": "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+      "normalized_subject": "meta muse agent privacy and operating system permission access",
+      "entities": [
+        "Meta",
+        "Muse",
+        "Signal",
+        "AI Now Institute",
+        "Apple",
+        "Google"
+      ],
+      "event_summary": "Reuters reviewed internal reports and reproduced, with Signal staff and the AI Now Institute, a path for Meta's Muse agent to read Signal message text through Android notification access and macOS accessibility/screenshot permissions. This is not evidence that Signal encryption was broken; Reuters could not verify whether some reported account data were real or hallucinated.",
+      "normalized_headline": "Reuters and Signal/AI Now reproduce Meta Muse access to on-device message content",
+      "canonical_urls": [
+        "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent investigation",
+          "role": "Internal reports, reproduced tests and Meta response",
+          "published_date": "2026-11-18",
+          "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+      ],
+      "desk": "security",
+      "evidence_confidence": "Medium-high on the reproduced OS-permission path; low on claims that reported bank balances or account details were real.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "Do not describe as a Signal cryptographic compromise or confirmed cross-account breach."
+    },
+    {
+      "story_id": "event-anthropic-ipo-priced-83-2026-11-18",
+      "normalized_subject": "anthropic initial public offering priced at 83 dollars and final share mix",
+      "entities": [
+        "Anthropic",
+        "Nasdaq",
+        "ANT",
+        "Reuters",
+        "Associated Press"
+      ],
+      "event_summary": "Anthropic priced 980 million shares at US$83, including 956,351,354 primary shares and 23,648,646 secondary shares. The official share mix calculates to about US$79.38bn gross primary proceeds and US$1.96bn gross secondary proceeds; Reuters/AP report an approximately US$81.3bn offering and a fully diluted valuation near US$1.5tn. Trading is scheduled for 19 November US time and closing for 20 November.",
+      "normalized_headline": "FOLLOW-UP: Anthropic prices an approximately US$81.3bn IPO at US$83",
+      "canonical_urls": [
+        "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "https://www.reuters.com/business/anthropic-clinches-biggest-ipo-ever-with-81-billion-offering-2026-11-18/",
+        "https://apnews.com/article/70b660ddf900d90bbf484ecdf1fb441c"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Anthropic",
+          "source_class": "primary offering announcement",
+          "role": "Final offer price, share count, primary/secondary split and timetable",
+          "published_date": "2026-11-18",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Offering size, valuation and market context",
+          "published_date": "2026-11-18",
+          "url": "https://www.reuters.com/business/anthropic-clinches-biggest-ipo-ever-with-81-billion-offering-2026-11-18/"
+        },
+        {
+          "publisher": "Associated Press",
+          "source_class": "independent reporting",
+          "role": "Valuation and long-dated compute commitments",
+          "published_date": "2026-11-18",
+          "url": "https://apnews.com/article/70b660ddf900d90bbf484ecdf1fb441c"
+        }
+      ],
+      "source_domains": [
+        "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "https://www.reuters.com/business/anthropic-clinches-biggest-ipo-ever-with-81-billion-offering-2026-11-18/",
+        "https://apnews.com/article/70b660ddf900d90bbf484ecdf1fb441c"
+      ],
+      "desk": "business",
+      "evidence_confidence": "High on price and share mix from Anthropic; valuation and record-size context independently reported by Reuters and AP.",
+      "verification_status": "verified",
+      "repeat_status": "material_follow_up",
+      "status": "verified",
+      "delivery_note": "",
+      "follow_up_of": "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+      "prior_issue_path": "archive/2026-11-13.html",
+      "material_change": "Final US$83 offer price, 980m-share mix, Nasdaq ticker ANT and 19/20 November trading/closing timetable; primary proceeds are distinguished from secondary sales and the earlier separate private placement."
+    },
+    {
+      "story_id": "event-bis-remote-access-rule-scheduled-2026-11-19",
+      "normalized_subject": "bis interim final rule on remote access to advanced semiconductor compute",
+      "entities": [
+        "BIS",
+        "Federal Register",
+        "US Commerce Department",
+        "Macau",
+        "Country Group D:5"
+      ],
+      "event_summary": "BIS released an interim final rule on 16 November with Federal Register publication scheduled for 19 November. The prepublication text creates end-use controls for advanced chips and servers providing more than 12 million aggregate TPP across a site or linked data centres to Macau/D:5-headquartered entities, adds licensing for five destinations and rescinds the never-enforced AI Diffusion Rule. At the 08:16 IST cut-off the publication/effective date was still pending.",
+      "normalized_headline": "BIS schedules remote-compute export-control rule for 19 November publication",
+      "canonical_urls": [
+        "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "https://public-inspection.federalregister.gov/2026-23529.pdf",
+        "https://thefrontierwire.com/articles/commerce-remote-access-rule-ai-chips/"
+      ],
+      "original_publication_date": "2026-11-16",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "BIS",
+          "source_class": "primary government announcement",
+          "role": "Rule scope, purpose and publication schedule",
+          "published_date": "2026-11-16",
+          "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+        },
+        {
+          "publisher": "Federal Register",
+          "source_class": "primary prepublication rule",
+          "role": "Regulatory text, 12m TPP threshold, 90-day transition and 60-day comments",
+          "published_date": "2026-11-16",
+          "url": "https://public-inspection.federalregister.gov/2026-23529.pdf"
+        },
+        {
+          "publisher": "The Frontier Wire",
+          "source_class": "independent legal/industry analysis",
+          "role": "Interpretation of remote-compute scope and destination licensing",
+          "published_date": "2026-11-18",
+          "url": "https://thefrontierwire.com/articles/commerce-remote-access-rule-ai-chips/"
+        }
+      ],
+      "source_domains": [
+        "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "https://public-inspection.federalregister.gov/2026-23529.pdf",
+        "https://thefrontierwire.com/articles/commerce-remote-access-rule-ai-chips/"
+      ],
+      "desk": "compute",
+      "evidence_confidence": "High on the prepublication rule text; publication and effective date were not yet confirmed at the edition cut-off.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "Scheduled for publication on 19 November US time; do not describe as already effective at 08:16 IST."
+    },
+    {
+      "story_id": "event-java4shell-cve-2026-114938-2026-11-17",
+      "normalized_subject": "java4shell oracle java remote code execution cve 2026 114938",
+      "entities": [
+        "Oracle",
+        "CISA",
+        "CERT-In",
+        "Canadian Centre for Cyber Security",
+        "Ireland NCSC",
+        "Java SE",
+        "GraalVM"
+      ],
+      "event_summary": "Oracle's November security alert addresses a CVSS 8.1 Java memory-safety vulnerability that can allow unauthenticated remote code execution on affected x86-64 systems with AVX-512 VBMI when attacker-controlled input reaches the vulnerable Base64 path. CISA, CERT-In, Canada's Cyber Centre and Ireland's NCSC published advisories; checked notices reported no active exploitation known.",
+      "normalized_headline": "Java4Shell CVE-2026-114938 prompts CISA, CERT-In and allied advisories",
+      "canonical_urls": [
+        "https://www.oracle.com/security-alerts/cspunov2026.html",
+        "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/4332a87",
+        "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0061&pageid=PUBVLNOTES02",
+        "https://www.cyber.gc.ca/en/alerts-advisories/al26-029-critical-vulnerability-impacting-oracle-java-cve-2026-114938",
+        "https://www.ncsc.gov.ie/pdfs/2611180322_CVE-2026-114938.pdf"
+      ],
+      "original_publication_date": "2026-11-17",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Oracle",
+          "source_class": "primary security advisory",
+          "role": "Affected product and vendor patch guidance",
+          "published_date": "2026-11-17",
+          "url": "https://www.oracle.com/security-alerts/cspunov2026.html"
+        },
+        {
+          "publisher": "CISA",
+          "source_class": "government vulnerability alert",
+          "role": "Urgent patching guidance",
+          "published_date": "2026-11-17",
+          "url": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/4332a87"
+        },
+        {
+          "publisher": "CERT-In",
+          "source_class": "national cyber advisory",
+          "role": "India advisory listing and technical notice",
+          "published_date": "2026-11-18",
+          "url": "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0061&pageid=PUBVLNOTES02"
+        },
+        {
+          "publisher": "Canadian Centre for Cyber Security",
+          "source_class": "government advisory",
+          "role": "Vulnerability conditions and exploitation status",
+          "published_date": "2026-11-17",
+          "url": "https://www.cyber.gc.ca/en/alerts-advisories/al26-029-critical-vulnerability-impacting-oracle-java-cve-2026-114938"
+        },
+        {
+          "publisher": "Ireland NCSC",
+          "source_class": "government advisory",
+          "role": "Affected-product and exploitation-status cross-check",
+          "published_date": "2026-11-18",
+          "url": "https://www.ncsc.gov.ie/pdfs/2611180322_CVE-2026-114938.pdf"
+        }
+      ],
+      "source_domains": [
+        "https://www.oracle.com/security-alerts/cspunov2026.html",
+        "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/4332a87",
+        "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0061&pageid=PUBVLNOTES02",
+        "https://www.cyber.gc.ca/en/alerts-advisories/al26-029-critical-vulnerability-impacting-oracle-java-cve-2026-114938",
+        "https://www.ncsc.gov.ie/pdfs/2611180322_CVE-2026-114938.pdf"
+      ],
+      "desk": "security",
+      "evidence_confidence": "High on the vulnerability and vendor advisories; no active exploitation was known in the checked notices.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "General Java vulnerability, not an AI-specific flaw. CERT-In page rendered only partially; details cross-checked with Oracle, Canada and Ireland."
+    },
+    {
+      "story_id": "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
+      "normalized_subject": "nvidia stops licensed hopper generation shipments to china in current outlook",
+      "entities": [
+        "NVIDIA",
+        "Colette Kress",
+        "Hopper",
+        "H200",
+        "China"
+      ],
+      "event_summary": "Reuters reports Nvidia CFO Colette Kress said the company had stopped shipping US-approved Hopper-generation data-centre products to China and had no further such shipments in its current outlook. The company reported about US$2.4bn in licensed Hopper sales in the quarter ended 25 October. This is current guidance, not proof of a permanent halt.",
+      "normalized_headline": "FOLLOW-UP: Nvidia removes further licensed Hopper shipments to China from current outlook",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "CFO remarks on licensed Hopper shipments and current outlook",
+          "published_date": "2026-11-18",
+          "url": "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+      ],
+      "desk": "compute",
+      "evidence_confidence": "High that Reuters attributes the statement to Nvidia's CFO; low on duration, reason and restart conditions.",
+      "verification_status": "verified",
+      "repeat_status": "material_follow_up",
+      "status": "verified",
+      "delivery_note": "",
+      "follow_up_of": "event-nvidia-q3-fy2027-results-vera-rubin-2026-11-17",
+      "prior_issue_path": "archive/2026-11-18-edition-3.html",
+      "material_change": "Current guidance excludes further licensed Hopper shipments to China; the duration and restart conditions remain unknown."
+    },
+    {
+      "story_id": "event-tencent-q3-ai-capex-cloud-2026-11-18",
+      "normalized_subject": "tencent third quarter 2026 results ai capex cloud and free cash flow",
+      "entities": [
+        "Tencent",
+        "Hunyuan",
+        "WorkBuddy",
+        "Tencent Cloud"
+      ],
+      "event_summary": "Tencent reported RMB207.3bn third-quarter revenue, up 8% year on year, 35% cloud-services revenue growth, RMB65.1bn capital-expenditure payments and negative RMB69.1bn free cash flow. Reuters separately reports RMB81.4bn accounting capex; the measures differ and should not be conflated. Tencent said US remote-compute restrictions may slow model training while leaving inference-led cloud revenue largely unaffected.",
+      "normalized_headline": "Tencent Q3 shows cloud growth beside rising compute payments and negative free cash flow",
+      "canonical_urls": [
+        "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+        "https://www.reuters.com/technology/tencent-q3-revenue-growth-slows-8-misses-estimates-2026-11-18/",
+        "https://in.investing.com/news/stock-market-news/earnings-call-transcript-tencent-q3-2026-profit-slips-as-ai-spending-surges-93CH-5712707"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Tencent",
+          "source_class": "primary investor-relations results release",
+          "role": "Revenue, cloud growth, capital-expenditure payments and free cash flow",
+          "published_date": "2026-11-18",
+          "url": "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf"
+        },
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Consensus miss, accounting capex figure and management export-control comments",
+          "published_date": "2026-11-18",
+          "url": "https://www.reuters.com/technology/tencent-q3-revenue-growth-slows-8-misses-estimates-2026-11-18/"
+        },
+        {
+          "publisher": "Investing.com",
+          "source_class": "earnings-call transcript",
+          "role": "Management discussion of training and cloud exposure",
+          "published_date": "2026-11-18",
+          "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-tencent-q3-2026-profit-slips-as-ai-spending-surges-93CH-5712707"
+        }
+      ],
+      "source_domains": [
+        "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+        "https://www.reuters.com/technology/tencent-q3-revenue-growth-slows-8-misses-estimates-2026-11-18/",
+        "https://in.investing.com/news/stock-market-news/earnings-call-transcript-tencent-q3-2026-profit-slips-as-ai-spending-surges-93CH-5712707"
+      ],
+      "desk": "business",
+      "evidence_confidence": "High on reported results from Tencent; medium on the interpretation of training and cloud effects.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "RMB65.1bn is the company's capital-expenditure payments line; Reuters' RMB81.4bn capex figure is a different reported measure."
+    },
+    {
+      "story_id": "event-arizona-rogue-ai-agent-investigation-2026-11-19",
+      "normalized_subject": "arizona attorney general criminal investigation rogue ai agents bank infiltration",
+      "entities": [
+        "Arizona Attorney General",
+        "OpenAI",
+        "US banks"
+      ],
+      "event_summary": "Reuters reports Arizona Attorney General Kris Mayes said the state is investigating OpenAI and other unnamed AI companies over possible infiltration of banks by rogue AI agents. No companies or banks were named, no charges were announced and no public charging document was located in this scan.",
+      "normalized_headline": "Arizona investigates OpenAI and unnamed firms over possible rogue AI-agent activity",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19/"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent legal reporting",
+          "role": "Attorney general remarks and scope of investigation",
+          "published_date": "2026-11-19",
+          "url": "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19/"
+      ],
+      "desk": "policy",
+      "evidence_confidence": "Medium; Reuters reports the attorney general's remarks, but no public filing or named bank was located.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "developing",
+      "delivery_note": "A criminal investigation is not a charge or finding of liability; Reuters was the only source located."
+    },
+    {
+      "story_id": "event-microsoft-ai-transparency-initiative-2026-11-17",
+      "normalized_subject": "microsoft ai transparency initiative open standards for model and agent trust",
+      "entities": [
+        "Microsoft",
+        "NIST",
+        "Accenture",
+        "Adobe",
+        "KPMG",
+        "Mastercard",
+        "Volvo Cars"
+      ],
+      "event_summary": "Microsoft says more than 40 organizations will develop open standards for model and agent transparency, security and governance, building on NIST agent standards work and integrating the resulting evidence into Microsoft AI, Foundry and Copilot. No conformance test or delivery date was verified.",
+      "normalized_headline": "Microsoft launches AI Transparency Initiative with more than 40 organizations",
+      "canonical_urls": [
+        "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+      ],
+      "original_publication_date": "2026-11-17",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Microsoft",
+          "source_class": "primary company announcement",
+          "role": "Initiative scope, partner count and planned product integration",
+          "published_date": "2026-11-17",
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+        }
+      ],
+      "source_domains": [
+        "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+      ],
+      "desk": "developer",
+      "evidence_confidence": "High that Microsoft announced the initiative and partner count; medium on future standards impact until specifications are published.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "Announcement only; no independently tested implementation or conformance suite yet."
+    },
+    {
+      "story_id": "event-suno-visuals-2026-11-17",
+      "normalized_subject": "suno visuals song to video generation feature launch",
+      "entities": [
+        "Suno",
+        "MiniMax",
+        "H3 Move"
+      ],
+      "event_summary": "Suno launched Visuals on 17 November, generating lyric- and beat-aware clips up to 15 seconds with extension and editing. Visual credits are separate from song credits; Suno says new filters target specific artists, public figures and copyrighted works. The Verge reports MiniMax H3 Move is the underlying video engine.",
+      "normalized_headline": "Suno Visuals launches song-synchronised clips up to 15 seconds",
+      "canonical_urls": [
+        "https://suno.com/blog/introducing-visuals",
+        "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature"
+      ],
+      "original_publication_date": "2026-11-17",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Suno",
+          "source_class": "primary product announcement",
+          "role": "Visuals feature, clip length, credits and filters",
+          "published_date": "2026-11-17",
+          "url": "https://suno.com/blog/introducing-visuals"
+        },
+        {
+          "publisher": "The Verge",
+          "source_class": "independent product reporting",
+          "role": "Model attribution and product availability context",
+          "published_date": "2026-11-19",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature"
+        }
+      ],
+      "source_domains": [
+        "https://suno.com/blog/introducing-visuals",
+        "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature"
+      ],
+      "desk": "creator",
+      "evidence_confidence": "High on product launch and workflow from Suno; medium on model attribution because H3 Move was reported by The Verge.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "No independent quality, latency or per-clip cost benchmark was located."
+    },
+    {
+      "story_id": "event-gauntletscore-llm-aggrefact-preprint-2026-11-17",
+      "normalized_subject": "gauntletscore llm aggre fact multi reader fact checking preprint",
+      "entities": [
+        "GauntletScore",
+        "LLM-AggreFact",
+        "arXiv",
+        "Hugging Face"
+      ],
+      "event_summary": "The authors report 79.51 balanced accuracy across 29,320 claims and 11 datasets, statistically indistinguishable from the previous 79.45 best. They release per-claim predictions and a scoring script but keep core engine code, prompts, rules, thresholds and reader identities closed. The benchmark mode disables retrieval and causal checking.",
+      "normalized_headline": "GauntletScore preprint reports 79.51 balanced accuracy on LLM-AggreFact",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.22027",
+        "https://huggingface.co/datasets/Gauntletscore/llm-aggrefact-predictions"
+      ],
+      "original_publication_date": "2026-11-17",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "arXiv",
+          "source_class": "research preprint",
+          "role": "Method, benchmark results and reproducibility limitations",
+          "published_date": "2026-11-17",
+          "url": "https://arxiv.org/abs/2611.22027"
+        },
+        {
+          "publisher": "Hugging Face",
+          "source_class": "released research artifact",
+          "role": "Per-claim prediction data",
+          "published_date": "2026-11-17",
+          "url": "https://huggingface.co/datasets/Gauntletscore/llm-aggrefact-predictions"
+        }
+      ],
+      "source_domains": [
+        "https://arxiv.org/abs/2611.22027",
+        "https://huggingface.co/datasets/Gauntletscore/llm-aggrefact-predictions"
+      ],
+      "desk": "research",
+      "evidence_confidence": "Medium-low pending peer review and independent rerun; the paper is a preprint and core engine code is closed.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "Do not present the result as an independently reproduced benchmark or a peer-reviewed result."
+    },
+    {
+      "story_id": "event-us-disclosure-chinese-ai-model-use-2026-11-18",
+      "normalized_subject": "us officials consider disclosure requirement for chinese ai model use",
+      "entities": [
+        "US Treasury",
+        "White House",
+        "Chinese AI models",
+        "Qwen",
+        "DeepSeek",
+        "Kimi"
+      ],
+      "event_summary": "Reuters reports Treasury and White House officials have discussed requiring US companies to disclose their use of Chinese AI models. The discussion is exploratory; no formal rule, draft text or public comment process was located. The reported idea is disclosure, not a ban.",
+      "normalized_headline": "US officials weigh requiring companies to disclose Chinese AI model use",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent policy reporting",
+          "role": "Exploratory disclosure discussions and potential scope",
+          "published_date": "2026-11-18",
+          "url": "https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/"
+      ],
+      "desk": "policy",
+      "evidence_confidence": "Medium; Reuters exclusive reporting only, with no formal government text.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "developing",
+      "delivery_note": "No formal proposal or enacted requirement was located."
+    },
+    {
+      "story_id": "event-claude-google-docs-connector-incident-2026-11-18",
+      "normalized_subject": "anthropic claude google docs connector editing incident",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Google Docs connector",
+        "Claude Code",
+        "Claude Cowork"
+      ],
+      "event_summary": "Anthropic's status history records a 00:19–01:33 UTC interruption on 18 November affecting editing through the Google Docs connector on claude.ai, Claude Code and Claude Cowork. The incident was resolved; the status note distinguished editing from reading.",
+      "normalized_headline": "Claude Google Docs connector editing interruption resolved after 74 minutes",
+      "canonical_urls": [
+        "https://status.claude.com/history"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Anthropic Status",
+          "source_class": "primary service-status history",
+          "role": "Incident timeline, affected surfaces and resolution",
+          "published_date": "2026-11-18",
+          "url": "https://status.claude.com/history"
+        }
+      ],
+      "source_domains": [
+        "https://status.claude.com/history"
+      ],
+      "desk": "reliability",
+      "evidence_confidence": "High for the vendor-reported incident window and affected components; no evidence of an attack.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "Service degradation, not evidence of a security incident or model API compromise."
+    },
+    {
+      "story_id": "event-claude-apple-signin-incident-2026-11-17",
+      "normalized_subject": "anthropic claude sign in with apple authentication incident",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Sign in with Apple"
+      ],
+      "event_summary": "Anthropic's status history records an interruption affecting Sign in with Apple on claude.ai and the Claude iOS app from 16:40 to 20:20 UTC on 17 November. The issue was marked resolved.",
+      "normalized_headline": "Claude Sign in with Apple interruption resolved",
+      "canonical_urls": [
+        "https://status.claude.com/history"
+      ],
+      "original_publication_date": "2026-11-17",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Anthropic Status",
+          "source_class": "primary service-status history",
+          "role": "Incident timeline and resolution",
+          "published_date": "2026-11-17",
+          "url": "https://status.claude.com/history"
+        }
+      ],
+      "source_domains": [
+        "https://status.claude.com/history"
+      ],
+      "desk": "reliability",
+      "evidence_confidence": "High for the vendor-reported incident window and affected sign-in surfaces; no evidence of an attack.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "delivery_note": "Authentication-path interruption, not a model or API outage."
+    },
+    {
+      "story_id": "event-claude-meetings-team-join-recovery-2026-11-18",
+      "normalized_subject": "claude meetings beta team manual join and auto join recovery",
+      "entities": [
+        "Anthropic",
+        "Claude Meetings",
+        "Claude Team",
+        "Claude Enterprise"
+      ],
+      "event_summary": "Anthropic's status update at 23:39 UTC on 17 November said Team users could again add Claude manually to new calls, while automatic joining was being restored gradually. Enterprise access remained enabled.",
+      "normalized_headline": "FOLLOW-UP: Claude Meetings restores manual Team joins while auto-join returns gradually",
+      "canonical_urls": [
+        "https://status.claude.com/history"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-19",
+      "first_edition_path": "archive/2026-11-19.html",
+      "edition_paths": [
+        "archive/2026-11-19.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Anthropic Status",
+          "source_class": "primary service-status history",
+          "role": "Team manual-join restoration and auto-join recovery update",
+          "published_date": "2026-11-18",
+          "url": "https://status.claude.com/history"
+        }
+      ],
+      "source_domains": [
+        "https://status.claude.com/history"
+      ],
+      "desk": "reliability",
+      "evidence_confidence": "High for the vendor-reported status update; automatic joining remained a staged recovery.",
+      "verification_status": "verified",
+      "repeat_status": "material_follow_up",
+      "status": "verified",
+      "delivery_note": "",
+      "follow_up_of": "event-claude-meetings-beta-incident-2026-11-16",
+      "prior_issue_path": "archive/2026-11-17.html",
+      "material_change": "Team users can manually add Claude to new calls again; automatic joining is being restored gradually. Enterprise access remains enabled."
     }
   ],
   "archive_backfill_audit": [
@@ -14508,7 +15804,23 @@
       "new_events": 11,
       "material_followups": 3,
       "prior_records_removed": 0
+    },
+    {
+      "date": "2026-11-18",
+      "path": "archive/2026-11-18.html",
+      "missing_record_backfilled": true,
+      "dated_archive_files_checked": 1,
+      "story_records_linked": 6,
+      "new_events": 0,
+      "material_followups": 0,
+      "prior_records_removed": 0,
+      "archive_index_link_added": true,
+      "superseded_by": [
+        "archive/2026-11-18-edition-2.html",
+        "archive/2026-11-18-edition-3.html"
+      ],
+      "note": "The accessible base issue was missing from archive/index.html and the editions registry. Its six distinct story records already existed; this append adds the edition mapping and archive link only."
     }
   ],
-  "last_updated_edition": "signal-2026-11-18-edition-3"
+  "last_updated_edition": "archive/2026-11-19.html"
 }
