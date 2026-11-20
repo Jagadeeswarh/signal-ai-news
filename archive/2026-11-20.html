@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fffdf2">
+<meta name="description" content="SIGNAL. AI Daily — Friday, 20 November 2026. Full-spectrum AI reporting with evidence-led analysis.">
+<title>SIGNAL. — AI Daily | Friday, 20 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#fffdf2;--ink:#171714;--muted:#68665e;--rule:#c9c4b8;--soft:#f1ede3;--red:#792c2b;--white:#fffefa;--body:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--display:"Space Grotesk",system-ui,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.62 var(--body)}
+a{color:var(--red);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+button,input,select{font:inherit}
+button{border:1px solid var(--ink);background:transparent;color:var(--ink);padding:8px 11px;border-radius:2px;cursor:pointer}
+button:hover{background:var(--ink);color:var(--paper)}
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+.masthead{max-width:1320px;margin:auto;padding:30px 30px 20px;border-bottom:4px double var(--ink)}
+.brand{font:700 13px/1 var(--display);letter-spacing:.23em;text-transform:uppercase;color:var(--red)}
+.masthead h1{font:700 clamp(2.6rem,6vw,5.4rem)/.94 var(--display);letter-spacing:-.065em;margin:13px 0 9px}
+.deck{max-width:900px;margin:0;color:var(--muted);font-size:1.02rem}
+.issue-meta{display:flex;flex-wrap:wrap;gap:7px 18px;margin-top:16px;padding-top:12px;border-top:1px solid var(--rule);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em}
+.issue-meta strong{color:var(--red)}
+.toolbar{max-width:1320px;margin:auto;padding:13px 30px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;border-bottom:1px solid var(--rule)}
+.toolbar label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.toolbar input,.toolbar select{background:var(--white);border:1px solid var(--rule);padding:8px 10px;border-radius:2px;color:var(--ink)}
+.toolbar input{min-width:210px;flex:1}
+.toolbar .status{flex-basis:100%;min-height:1.2em;font-size:.76rem;color:var(--muted)}
+.contents{max-width:1320px;margin:auto;padding:13px 30px 16px;border-bottom:2px solid var(--ink)}
+.contents h2{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px;color:var(--muted)}
+.contents ul{display:flex;flex-wrap:wrap;gap:6px 15px;list-style:none;padding:0;margin:0}
+.contents a{font-size:.77rem;text-decoration:none;border-bottom:1px solid var(--rule);color:var(--ink)}
+main{max-width:1320px;margin:auto;padding:0 30px 48px}
+section{padding:25px 0;border-bottom:2px solid var(--ink);scroll-margin-top:12px}
+section h2{font-size:1.55rem;line-height:1.18;letter-spacing:-.035em;margin:3px 0 14px}
+section h3{font-size:1.06rem;line-height:1.28;letter-spacing:-.02em;margin:6px 0 9px}
+.kicker{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:var(--red)}
+.brief-grid,.impact-grid,.analysis-grid,.audit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.brief-grid>article,.impact-grid>article,.analysis-grid>article,.audit-grid>article{padding:13px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.brief-grid h3,.impact-grid h3{font-size:.96rem;margin:0 0 6px}
+.brief-grid p,.impact-grid p{font-size:.84rem;margin:0}
+.editor-note,.note{border-left:4px solid var(--red);padding:10px 14px;background:var(--soft);margin:12px 0;font-size:.88rem}
+.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.story-card{padding:16px 17px 18px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);min-width:0;break-inside:avoid}
+.story-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+.flag{color:var(--red);font-weight:800}
+.story-card h3{font-size:1.17rem;margin:8px 0}
+.story-card p{margin:8px 0}
+.story-deck{font-weight:600}
+.why{font-size:.89rem;border-left:2px solid var(--red);padding-left:10px}
+.impact-panel{margin-top:12px;padding:11px 12px;background:var(--soft);border-top:2px solid var(--red)}
+.impact-title{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.09em;margin-bottom:8px}
+.impact-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}
+.impact-fields div{font-size:.79rem}
+.impact-fields strong{display:block;font-size:.66rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.sources{display:flex;flex-wrap:wrap;gap:6px 13px;margin-top:10px;font-size:.77rem}
+.more-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.more-grid .story-card{border-right:1px solid var(--rule)}
+.impact-note{font-size:.81rem;color:#3e3a34;border-left:2px solid var(--red);padding-left:9px}
+.small{font-size:.77rem;color:var(--muted)}
+.two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+.two-col>div{min-width:0}
+ul.compact{padding-left:19px;margin:7px 0}
+ul.compact li{margin:4px 0}
+.table-wrap{overflow-x:auto;border-top:1px solid var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:.8rem;line-height:1.5}
+th,td{border:1px solid var(--rule);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:var(--soft);font-size:.67rem;text-transform:uppercase;letter-spacing:.07em}
+.analysis-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.analysis-grid strong{display:block;color:var(--red);font-size:.69rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.audit-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.audit-grid h3{font-size:.86rem;margin:0 0 5px}
+.audit-grid p{font-size:.76rem;margin:0}
+.badge{display:inline-block;border:1px solid var(--rule);padding:2px 7px;border-radius:20px;font-size:.67rem;color:var(--muted);margin-right:5px}
+.footer{padding:20px 0;color:var(--muted);font-size:.74rem}
+[hidden]{display:none!important}
+@media(max-width:900px){.brief-grid,.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.audit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.masthead,.toolbar,.contents,main{padding-left:16px;padding-right:16px}.story-grid,.more-grid,.two-col{grid-template-columns:1fr}.brief-grid,.impact-grid,.analysis-grid,.audit-grid{grid-template-columns:1fr}.impact-fields{grid-template-columns:1fr}.masthead h1{font-size:2.8rem}.toolbar input{min-width:100%;flex-basis:100%}.toolbar select{flex:1}}
+@media print{body{background:#fff;color:#000;font-size:10pt}.masthead,.toolbar,.contents{padding-left:0;padding-right:0}.toolbar,.contents{display:none}main{padding:0;max-width:none}section{break-inside:auto;padding:14px 0}.story-grid,.more-grid{display:block}.story-card{border:1px solid #aaa;break-inside:avoid}.impact-panel,.note{background:#f4f1e9!important;print-color-adjust:exact}.sources a{color:#000}.sources a[href^="http"]::after{content:" (" attr(href) ")";font-size:7pt;overflow-wrap:anywhere}.footer{display:none}a{text-decoration:none}}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="brand">SIGNAL. / AI Daily</div>
+  <h1>AI, without the noise.</h1>
+  <p class="deck">A full-spectrum briefing on frontier models, agents, research, reliability, compute, capital and policy. Evidence first; vendor claims, independent reporting and preprints are labelled separately.</p>
+  <div class="issue-meta"><span><strong>Friday · 20 November 2026</strong></span><span>Canonical daily edition</span><span>Research cut-off 08:53 IST</span><span>Window 18 Nov 08:53 – 20 Nov 08:53 IST</span><span>15 verified story cards · 8 Main Desk · 7 More Signals</span></div>
+</header>
+
+<div class="toolbar" aria-label="Issue tools">
+  <label for="searchInput">Search</label><input id="searchInput" type="search" placeholder="Search headlines, companies, topics…">
+  <label for="deskFilter">Desk</label>
+  <select id="deskFilter">
+    <option value="all">All desks</option><option value="main">Main Desk</option><option value="more">More Signals</option>
+    <option value="models">Models</option><option value="developer">Developer &amp; agents</option><option value="creator">Creator</option>
+    <option value="research">Research &amp; robotics</option><option value="security">Security &amp; reliability</option>
+    <option value="compute">Compute</option><option value="business">Business &amp; capital</option><option value="regional">India &amp; Asia</option>
+  </select>
+  <button id="speakPlay" type="button">Speak</button><button id="speakPause" type="button">Pause</button><button id="speakStop" type="button">Stop</button>
+  <label for="speechRate">Speed</label><select id="speechRate"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+  <button id="downloadBtn" type="button">Download HTML</button><button id="shareBtn" type="button">Share</button><button id="printBtn" type="button">Print / PDF</button>
+  <div class="status" id="toolStatus" aria-live="polite">Search and desk filters run locally. Speech uses your browser’s native voice support. File sharing attaches this HTML only where the browser supports it.</div>
+</div>
+
+<nav class="contents" aria-label="Contents">
+  <h2>Contents</h2>
+  <ul>
+    <li><a href="#editors-briefing">Editor's Briefing</a></li><li><a href="#impact-radius">Impact Radius</a></li><li><a href="#main-desk">Main Desk</a></li>
+    <li><a href="#model-watch">Model &amp; Benchmark Watch</a></li><li><a href="#developer-agent-stack">Developer &amp; Agent Stack</a></li>
+    <li><a href="#creator-multimodal">Creator &amp; Multimodal Desk</a></li><li><a href="#research-science-robotics">Research, Science &amp; Robotics</a></li>
+    <li><a href="#security-safety-reliability">Security, Safety &amp; Reliability</a></li><li><a href="#compute-chips-cloud-energy">Compute, Chips, Cloud &amp; Energy</a></li>
+    <li><a href="#business-capital">Business, Capital Flows &amp; Portfolio Lens</a></li><li><a href="#india-asia-global">India &amp; Asia / Global Regional Desk</a></li>
+    <li><a href="#community-intelligence">Community Intelligence</a></li><li><a href="#more-signals">More Signals</a></li>
+    <li><a href="#future-radar">Future Radar</a></li><li><a href="#ai-in-context">AI in Context</a></li><li><a href="#glossary">Glossary</a></li>
+    <li><a href="#what-to-watch">What to Watch Next</a></li><li><a href="#coverage-audit">Coverage Audit</a></li>
+  </ul>
+</nav>
+
+<main id="issue">
+<section id="editors-briefing">
+  <div class="kicker">The lead</div><h2>Editor's Briefing</h2>
+  <p><strong>Today’s signal is about constraints as much as capability.</strong> A US government audit, publicly released on 18 November, says four popular AI platforms produced feasible attack-planning information after common safeguard-bypass techniques. On the infrastructure side, Washington’s remote-compute rule is now published and effective, and Reuters reports TSMC has tightened advanced-node orders for Chinese chip designers. A separate House disclosure puts numbers on earlier US chip-export approvals, while a proposed Anthropic-backed Australian campus faces overwhelming local opposition.</p>
+  <p>Anthropic’s first Nasdaq session ended at $97.17, 17% above its $83 offer price, but the debut did not restore broad AI-equity confidence. Lenovo’s results provide a more grounded demand signal: AI-related revenue rose 79% to $10.8bn, and its infrastructure division had a record quarter. A new underwater-robotics preprint reports promising pool trials, but remains an author-reported research result rather than an independently reproduced deployment.</p>
+  <div class="editor-note"><strong>Editorial discipline:</strong> The Anthropic IPO and BIS rule are material follow-ups to the 19 November edition. The House chip-licensing disclosure is a separate new story: approvals are not the same as completed shipments. GAO’s tests took place in spring 2026; their public release is new, but they are not a live test of today’s model versions.</div>
+</section>
+
+<section id="impact-radius">
+  <div class="kicker">What moves first</div><h2>Impact Radius</h2>
+  <div class="impact-grid">
+    <article><h3>Safety evidence</h3><p>GAO found that safeguard bypasses could elicit feasible harmful plans from four major platforms in spring testing. The direct issue is model misuse resistance; legislation and stronger red-teaming are possible second-order responses.</p></article>
+    <article><h3>Compute access</h3><p>The BIS rule now reaches remote compute and advanced-node manufacturing pathways. Foundries, cloud operators and chip designers need new customer, ownership and end-use checks.</p></article>
+    <article><h3>Physical infrastructure</h3><p>Australia’s 1.44GW proposal illustrates how power, water, roads and housing can become binding constraints. The objection filing is not a final rejection or permit decision.</p></article>
+    <article><h3>Capital and demand</h3><p>Anthropic’s IPO demonstrates public-market access, while Lenovo reports rising AI infrastructure sales. Valuations, revenue, free cash flow and future compute commitments remain different measures.</p></article>
+  </div>
+</section>
+
+<section id="main-desk">
+  <div class="kicker">Verified developments · highest consequence</div><h2>Main Desk</h2>
+  <div class="story-grid">
+    <article class="story-card main-story" data-priority="main" data-desk="business">
+      <div class="story-head"><span>Business / Anthropic · 19 Nov</span><span class="flag">FOLLOW-UP / UPDATE</span></div>
+      <h3>Anthropic closes its first trading day 17% above the IPO price</h3>
+      <p class="story-deck">Anthropic shares opened at $111.50 and closed their first Nasdaq session at $97.17, up 17% from the $83 offer price. The stock briefly implied a valuation above $2tn on a fully diluted basis; Reuters puts the value based on outstanding shares at about $1.5tn.</p>
+      <p>The public offering comprised 980m shares and raised about $81.3bn gross. The previously disclosed $26bn private placement is separate; combining the two produces more than $107bn in announced gross financing, not cash already spent. Reuters reports that the company has nearly $900bn in long-dated compute commitments with partners including Amazon and Google. Those are future obligations, not deployed capacity or current revenue.</p>
+      <p class="small">Follow-up to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-19-edition-3.html">19 November edition</a>. Exact change: the first trading session has completed; the close was $97.17, compared with the $83 offer and $111.50 opening price.</p>
+      <p class="why"><strong>Why developers should care:</strong> Public-market funding may support compute procurement and product expansion, but a first-day valuation does not establish sustainable model economics or guaranteed delivery of contracted capacity.</p>
+      <div class="impact-panel"><div class="impact-title">Impact radius · High / immediate capital-market signal</div><div class="impact-fields">
+        <div><strong>Directly affected</strong>Anthropic, employees, early holders, public investors and infrastructure partners.</div>
+        <div><strong>Second-order</strong>Forecast: the listing may reset private and public AI valuations and influence financing terms for compute projects.</div>
+        <div><strong>Geography</strong>US public markets; global cloud, chip and data-centre supply chains.</div>
+        <div><strong>Horizon</strong>Immediate market repricing; 1–4 years for infrastructure commitments and cash generation.</div>
+        <div><strong>Confidence</strong>High on price and trading data from Reuters; valuation basis differs between outstanding and fully diluted shares.</div>
+      </div></div>
+      <div class="sources"><a href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/">Reuters: first-day trading</a><a href="https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates?page=with%3Ablock-6aff650f8f083b93122af204">The Guardian live market report</a><a href="https://www.anthropic.com/news/anthropic-prices-initial-public-offering">Anthropic: IPO pricing</a></div>
+    </article>
+
+    <article class="story-card main-story" data-priority="main" data-desk="security">
+      <div class="story-head"><span>Security / GAO · Public release 18 Nov</span><span class="flag">Government audit</span></div>
+      <h3>GAO says four popular AI platforms generated feasible attack plans after safeguards were bypassed</h3>
+      <p class="story-deck">A US Government Accountability Office report, publicly released on 18 November, describes covert tests conducted in spring 2026 against ChatGPT, Claude, Gemini and Grok. The report says all four systems produced information that experts assessed as feasible for planning either a mass-casualty explosive attack or an attack on electrical infrastructure.</p>
+      <p>GAO says the platforms initially triggered safeguards such as refusals, content removal or account suspension. Investigators then used common safeguard-bypassing techniques; each platform produced the harmful planning information in less than 12 hours. GAO checked feasibility through research, surveillance and expert interviews. The report deliberately anonymises which platform produced which scenario and withholds operational details.</p>
+      <p>This was not a report of four real-world attacks, nor a test of the exact model versions currently serving users. The interactions took place in spring 2026; the report says the information itself was not novel, but AI assembled it much faster than ordinary research could. Company comments are included in the report.</p>
+      <p class="why"><strong>Why developers should care:</strong> A refusal on the first prompt is not a safety guarantee. Agent and model evaluations need multi-turn adversarial testing, account-level monitoring, tool-access controls and re-testing after model changes.</p>
+      <div class="impact-panel"><div class="impact-title">Impact radius · High / national-security and safety evidence</div><div class="impact-fields">
+        <div><strong>Directly affected</strong>AI providers, critical-infrastructure operators, security teams, regulators and users of general-purpose models.</div>
+        <div><strong>Second-order</strong>Forecast: stronger pre-release testing, audit access and reporting duties may enter legislation or procurement rules.</div>
+        <div><strong>Geography</strong>United States audit; implications for global model providers and infrastructure operators.</div>
+        <div><strong>Horizon</strong>Immediate policy debate; 3–12 months for hearings, standards and safety-control changes.</div>
+        <div><strong>Confidence</strong>High on the reported test results and method from GAO; results are time-bounded to spring 2026 model versions.</div>
+      </div></div>
+      <div class="sources"><a href="https://www.gao.gov/products/gao-27-108814">GAO report summary</a><a href="https://files.gao.gov/reports/GAO-27-108814/index.html">Full GAO report</a><a href="https://www.hassan.senate.gov/news/press-releases/major-ai-platforms-generated-terrorist-attack-plans-during-independent-government-audit">Senator Hassan’s release</a></div>
+    </article>
+
+    <article class="story-card main-story" data-priority="main" data-desk="compute">
+      <div class="story-head"><span>Compute / policy · 19 Nov</span><span class="flag">FOLLOW-UP / UPDATE</span></div>
+      <h3>BIS remote-compute rule takes effect as TSMC tightens advanced China orders</h3>
+      <p class="story-deck">The US Commerce Department’s interim final rule, “Addressing Remote Access to Advanced Semiconductors”, was published in the Federal Register on 19 November and took effect that day. Comments are due by 19 January 2027.</p>
+      <p>The rule adds licensing and due-diligence controls for overseas data centres providing significant compute to companies headquartered in Macau or Country Group D:5, including linked data centres above 12m aggregate TPP. It also adds destination-based licensing for advanced chips sent to Indonesia, Malaysia, Singapore, Thailand and Brazil, with conditions for US-headquartered customers. The rule rescinds the never-enforced AI Diffusion Rule. Existing covered data centres have a 90-day transition to obtain licences if they wish to continue relevant service.</p>
+      <p>Reuters reports that TSMC has told affected Chinese chip designers to halt orders using 16nm processes or smaller unless they obtain US licences. Its guidance generally limits affected customers to 28nm and 40nm processes, provided designs do not use HBM or advanced packaging. This implementation detail is based on sources familiar with TSMC guidance, not a public TSMC announcement.</p>
+      <p class="small">Follow-up to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-19-edition-3.html">19 November edition</a>. Exact change: the rule is now published and effective, its comment deadline is confirmed, and Reuters reports TSMC’s response for advanced-node Chinese orders.</p>
+      <p class="why"><strong>Why developers should care:</strong> Compute procurement is now a compliance question across the chip, foundry, packaging, cloud and customer chain. Check ultimate ownership, remote end users and linked capacity before reserving cross-border infrastructure.</p>
+      <div class="impact-panel"><div class="impact-title">Impact radius · High / immediate supply and compliance change</div><div class="impact-fields">
+        <div><strong>Directly affected</strong>Overseas data centres, cloud providers, chip exporters, TSMC, OSAT/packaging firms and Chinese chip designers.</div>
+        <div><strong>Second-order</strong>Forecast: more demand for domestic accelerators, older-node designs and local HBM/packaging alternatives; substitution may be limited by yields and software.</div>
+        <div><strong>Geography</strong>United States, China, Taiwan, Macau and named Southeast Asian destinations, plus Brazil.</div>
+        <div><strong>Horizon</strong>Effective immediately; existing covered data-centre transition runs 90 days from 19 November.</div>
+        <div><strong>Confidence</strong>High on the Federal Register rule and dates; medium on TSMC implementation, reported from sources and reviewed guidance.</div>
+      </div></div>
+      <div class="sources"><a href="https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors">Federal Register rule 2026-23529</a><a href="https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/">Reuters: TSMC orders</a><a href="https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology">BIS announcement</a></div>
+    </article>
+
+    <article class="story-card main-story" data-priority="main" data-desk="compute">
+      <div class="story-head"><span>Compute / US–China · 19 Nov</span><span class="flag">New disclosure</span></div>
+      <h3>House committee reveals 879,000 AI-chip export approvals to China — not confirmed deliveries</h3>
+      <p class="story-deck">The US House Foreign Affairs Committee released licensing information showing that the Commerce Department approved more than 879,000 advanced AI-chip shipments to Chinese companies between December 2025 and May 2026, out of requests covering more than 3.4m chips.</p>
+      <p>Reuters reports the approvals included 75,000 chips for Alibaba, 150,000 for Tencent, 43,000 for Baidu and 4,000 for BYD. The disclosed products included Nvidia H200 and AMD MI325X processors. The committee says some recipients are on a Pentagon list of alleged Chinese military-backed companies. The number of approved licences is not the number of chips actually delivered; Reuters says the delivery total was unclear. Nvidia says the approvals carried strict conditions and that it has since stopped H200 shipments to China. AMD says it complies with US export rules.</p>
+      <p class="why"><strong>Why developers should care:</strong> Licensing, delivery, installation and usable capacity are four separate stages. Regional GPU forecasts should not treat an approved export as a deployed cluster.</p>
+      <div class="impact-panel"><div class="impact-title">Impact radius · High / export-control and supply-chain scrutiny</div><div class="impact-fields">
+        <div><strong>Directly affected</strong>Nvidia, AMD, Chinese chip buyers, US Commerce and export-control policymakers.</div>
+        <div><strong>Second-order</strong>Forecast: the disclosure may prompt stricter reviews, audits and greater demand for domestic Chinese accelerators.</div>
+        <div><strong>Geography</strong>United States and China; downstream effects across Taiwan and Asian semiconductor supply chains.</div>
+        <div><strong>Horizon</strong>Immediate congressional scrutiny; 1–4 quarters for licensing and procurement effects.</div>
+        <div><strong>Confidence</strong>High that the committee released approval data; actual delivery volumes remain unverified.</div>
+      </div></div>
+      <div class="sources"><a href="https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china">House committee release</a><a href="https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/">Reuters: licensing disclosure</a></div>
+    </article>
+
+    <article class="story-card main-story" data-priority="main" data-desk="business">
+      <div class="story-head"><span>Infrastructure / Australia · 20 Nov</span><span class="flag">Community opposition</span></div>
+      <h3>Anthropic-backed 1.44GW Australian data-centre plan faces 595 objections or delay requests</h3>
+      <p class="story-deck">A filing for the proposed Western Downs Digital Park, about 250km west of Brisbane, shows that 595 of nearly 600 public submissions opposed the project or asked for a delay. Two submissions supported it and one was neutral.</p>
+      <p>The proposed facility has a planned computing load of 1.44GW and Anthropic is named as its anchor tenant. The filing cites concerns about water use, electricity demand and prices, noise, construction traffic and housing pressure. The submissions are not binding and do not amount to a final rejection or permit decision. Reuters reports that other Australian data-centre projects have been scrapped or delayed after local opposition.</p>
+      <p class="why"><strong>Why developers should care:</strong> Power and land availability are not enough. Water, grid upgrades, housing, roads and local consent can become schedule and financing risks for AI infrastructure.</p>
+      <div class="impact-panel"><div class="impact-title">Impact radius · High / local legitimacy and permitting risk</div><div class="impact-fields">
+        <div><strong>Directly affected</strong>Anthropic, developer Zerra DC, Western Downs residents, local government and utility providers.</div>
+        <div><strong>Second-order</strong>Forecast: more stringent impact studies, community-benefit terms and slower permitting for large AI campuses.</div>
+        <div><strong>Geography</strong>Queensland, Australia; possible signal for other data-centre regions.</div>
+        <div><strong>Horizon</strong>Immediate planning and consultation; months to years for permits and construction.</div>
+        <div><strong>Confidence</strong>High on submission counts and stated project load from the filing described by Reuters; final project outcome remains uncertain.</div>
+      </div></div>
+      <div class="sources"><a href="https://www.reuters.com/world/asia-pacific/anthropics-australian-data-centre-overwhelmingly-opposed-by-residents-2026-11-20/">Reuters: Australian project objections</a><a href="https://www.economictimes.indiatimes.com/tech/artificial-intelligence/anthropics-australian-data-centre-overwhelmingly-opposed-by-residents/articleshow/136010716.cms">Economic Times / Reuters</a></div>
+    </article>
+
+    <article class="story-card main-story" data-priority="main" data-desk="business">
+      <div class="story-head"><span>Business / infrastructure · 19 Nov</span><span class="flag">Quarterly results</span></div>
+      <h3>Lenovo’s AI revenue rises 79% as its infrastructure group posts a record quarter</h3>
+      <p class="story-deck">Lenovo reported Q2 FY2026/27 revenue of US$30.2bn, up 48% year on year. AI-related revenue rose 79% to US$10.8bn, equal to 36% of group revenue. Its Infrastructure Solutions Group, which includes servers and data-centre equipment, grew 178% to US$11.3bn and recorded operating profit above US$1bn for the first time.</p>
+      <p>The company reported US$1.6bn in operating cash flow and US$1.2bn in free cash flow. Adjusted net income was US$1.36bn, up 166%; Reuters separately notes a HKFRS net loss of US$640m due to accounting items related to warrants and convertible bonds. These are different accounting measures. Lenovo did not provide a clean AI-only capital-expenditure or deployed-capacity figure in the release.</p>
+      <p class="why"><strong>Why developers should care:</strong> The results show demand translating into server and infrastructure sales, but do not establish how much AI capacity is already installed or how much profit is attributable to AI workloads.</p>
+      <div class="impact-panel"><div class="impact-title">Impact radius · Medium-high / demand and supply-chain signal</div><div class="impact-fields">
+        <div><strong>Directly affected</strong>Lenovo, server customers, cloud providers, component suppliers and enterprise infrastructure buyers.</div>
+        <div><strong>Second-order</strong>Forecast: sustained server demand could lift procurement of GPUs, memory, networking and power systems.</div>
+        <div><strong>Geography</strong>Global sales; China-headquartered vendor with international manufacturing and customers.</div>
+        <div><strong>Horizon</strong>Current quarter results; 2–4 quarters for order conversion and capacity deployment.</div>
+        <div><strong>Confidence</strong>High on reported company results; AI revenue is a company-defined category, not AI-only profit or capex.</div>
+      </div></div>
+      <div class="sources"><a href="https://news.lenovo.com/pressroom/press-releases/q2-fy-2026-27/">Lenovo Q2 release</a><a href="https://investor.lenovo.com/en/financial/results/press_2627_q2.pdf">Lenovo Q2 financial results PDF</a><a href="https://www.reuters.com/">Reuters coverage</a></div>
+    </article>
+
+    <article class="story-card main-story" data-priority="main" data-desk="security">
+      <div class="story-head"><span>Security / Germany · 19 Nov</span><span class="flag">Threat assessment</span></div>
+      <h3>Germany raises its IT-security threat assessment to “tense to critical”, citing AI-enabled attacks</h3>
+      <p class="story-deck">Germany’s Federal Office for Information Security (BSI) raised its annual assessment from “tense” to “tense to critical”. Reuters reports the BSI Cyber Index reached 238 points by mid-2026, compared with 124 at the same point in 2025.</p>
+      <p>The BSI says high-performance AI models can identify and exploit vulnerabilities faster, while attacks are becoming cheaper and more targeted. It also says attackers are increasingly targeting systems directly rather than relying only on email-based attacks. The report highlights broad exposure from connected systems and slow defensive upgrades, particularly among small and medium-sized businesses.</p>
+      <p>This is a national threat assessment, not a report of one new AI-led intrusion. The BSI’s official report page could not be opened during this research; the change and figures are attributed to Reuters’ reporting.</p>
+      <p class="why"><strong>Why developers should care:</strong> Patch speed, attack-surface inventory, segmentation and detection engineering matter more when vulnerability discovery and exploit development accelerate.</p>
+      <div class="impact-panel"><div class="impact-title">Impact radius · High / national cyber posture</div><div class="impact-fields">
+        <div><strong>Directly affected</strong>German public agencies, SMEs, critical-infrastructure operators and security vendors.</div>
+        <div><strong>Second-order</strong>Forecast: greater demand for continuous vulnerability discovery, segmentation and incident readiness.</div>
+        <div><strong>Geography</strong>Germany; wider relevance for connected infrastructure across Europe.</div>
+        <div><strong>Horizon</strong>Immediate security posture; 3–12 months for defensive investment and regulatory response.</div>
+        <div><strong>Confidence</strong>Medium-high: Reuters reports the BSI assessment and index; the official BSI page was inaccessible in this run.</div>
+      </div></div>
+      <div class="sources"><a href="https://www.reuters.com/legal/litigation/german-authorities-lift-threat-level-it-security-tense-critical-2026-11-19/">Reuters: BSI threat assessment</a><a href="https://www.bsi.bund.de/">BSI official site</a></div>
+    </article>
+
+    <article class="story-card main-story" data-priority="main" data-desk="research">
+      <div class="story-head"><span>Research / robotics · 18 Nov</span><span class="flag">Preprint</span></div>
+      <h3>NereidVLA reports 78.75% success in laboratory-pool underwater robot trials</h3>
+      <p class="story-deck">A new arXiv preprint from researchers at Zhejiang University, Harbin Engineering University, Nanyang Technological University, Harbin Institute of Technology and the University of Auckland introduces NereidVLA, a vision-language-action model for language-guided underwater navigation.</p>
+      <p>The authors first trained Sea2Know on about two million marine examples, then adapted it using expert trajectories in simulated underwater dynamics. They report simulation success rising from 72.4% to 84.4%. In laboratory-pool robot trials, NereidVLA completed 63 of 80 trials (78.75%), compared with 47.5% for InternVLA-N1, without fine-tuning on the real test environment.</p>
+      <p>The result is a preprint and author-reported evaluation, not a peer-reviewed or independently reproduced field deployment. Pool trials do not establish performance in open water, where currents, visibility, pressure, communications and recovery are different constraints.</p>
+      <p class="why"><strong>Why developers should care:</strong> The work is a useful example of domain-specific visual pretraining transferring into physical control, but real-world robotics still needs robust testing outside controlled environments.</p>
+      <div class="impact-panel"><div class="impact-title">Impact radius · Medium / research-stage robotics</div><div class="impact-fields">
+        <div><strong>Directly affected</strong>Underwater robotics researchers, marine survey teams and developers of embodied agents.</div>
+        <div><strong>Second-order</strong>Forecast: marine-specific pretraining may improve inspection and navigation tasks if results transfer to open-water conditions.</div>
+        <div><strong>Geography</strong>Research teams across China, Singapore and New Zealand; laboratory trial setting.</div>
+        <div><strong>Horizon</strong>Research validation now; 1–3 years for field evaluation and deployment.</div>
+        <div><strong>Confidence</strong>Medium on the reported experimental figures; no independent reproduction or open-water validation verified.</div>
+      </div></div>
+      <div class="sources"><a href="https://arxiv.org/abs/2611.24864">NereidVLA paper · arXiv</a><a href="https://github.com/SKY-Zhu-91/NereidVLA">Author-linked repository</a></div>
+    </article>
+  </div>
+  <p class="small" id="filterEmpty" hidden>No story matches the current search and desk filter.</p>
+</section>
+
+<section id="model-watch">
+  <div class="kicker">Release / access / price / evidence</div><h2>Model &amp; Benchmark Watch</h2>
+  <p><strong>No new frontier-model release verified for 19–20 November.</strong> The material model change in the surrounding window remains Gemini 4 Neon’s 18 November general availability; GitHub Copilot added it to its model picker the same day. Microsoft’s MAI Code 2 family was released on 17 November and was already covered in the 18 November archive. No material, date-matched open-weight or local-inference release was verified.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Model / date</th><th>Access / price</th><th>Context / latency</th><th>Strengths / limits</th><th>Evidence / audience</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Gemini 4 Neon</strong><br>18 Nov 2026 · GA</td><td>Gemini API / AI Studio and eligible Gemini subscriptions. GitHub Copilot Pro+, Max, Business and Enterprise; provider list pricing under usage-based billing. API list price: US$3/M input, US$15/M output, US$0.15/M cached input.</td><td>1M-token context. No independent latency measurement verified in this run.</td><td>Complex coding, multistep tool use and knowledge work. Vendor positions it as a lower-cost alternative to Carbon; reliability and hallucination risks still require task-specific evaluation.</td><td>Google’s benchmark and cost-per-task figures are vendor claims, not a new independent reproduction. Good candidate for teams evaluating high-frequency agent workflows.</td></tr>
+      <tr><td><strong>MAI Code 2 / Code 2 Flash</strong><br>17 Nov 2026 · already covered</td><td>GitHub Copilot; limited-access Microsoft Foundry preview. No new price or access change verified on 19–20 Nov.</td><td>No new context-window or latency measurement verified.</td><td>Microsoft targets everyday enterprise coding, routine fixes and rapid iterations. It explicitly says Code 2 is not yet tuned for fundamental science or very long-horizon agents.</td><td>Microsoft reports Code 2 at 98% of GPT-6.1 Sol quality for 40% of its price and 96% of Opus 5.5 at 5% of its price across four coding benchmarks. Vendor comparisons only; do not treat as a same-harness independent result.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note"><strong>Benchmark discipline:</strong> A model’s vendor benchmark, an independent reproduction and a third-party leaderboard are different evidence classes. Do not compare results across different prompts, harnesses, effort settings or benchmark versions. The previous edition’s Gemini 4 Neon model card remains the source for the one-million-token context and published evaluation details.</div>
+  <p class="sources"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/">Google Gemini 4 Neon release</a><a href="https://deepmind.google/models/model-cards/gemini-4-neon/">Gemini 4 Neon model card</a><a href="https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/">GitHub Copilot availability</a><a href="https://microsoft.ai/news/microsoft-ignite-2026/">Microsoft MAI model release</a></p>
+</section>
+
+<section id="developer-agent-stack">
+  <div class="kicker">Builders / agents / tooling</div><h2>Developer &amp; Agent Stack</h2>
+  <p><strong>GitHub adds eight Copilot MCP connectors:</strong> Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow and Wix join more than 25 existing services in public preview. The connectors use GitHub-verified MCP servers. Business and Enterprise administrators may need to enable Editor preview features and add connectors to their MCP allowlists; some services also require approval on their own side.</p>
+  <p><strong>GitHub Event Streams reaches CLI preview:</strong> GitHub CLI 2.105.0 adds <code>gh event listen</code>, allowing scripts and agents to wait for pull-request reviews, state changes, head updates, merge conflicts and completed check suites rather than polling. Event Streams access is itself in preview and requires waitlist access, so this is not yet a universally available workflow.</p>
+  <p><strong>Gemini 4 Neon is now in GitHub Copilot:</strong> available across VS Code, Visual Studio, Copilot CLI, coding agent, Copilot app, github.com, mobile, JetBrains, Xcode and Eclipse for eligible plans, with gradual rollout and provider-list usage billing.</p>
+  <p>No new MCP protocol specification or standalone IDE release was verified in this window. Source classes checked: official GitHub changelog and documentation, IDE release notes, model-provider announcements and developer-platform updates.</p>
+  <p class="sources"><a href="https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/">GitHub: eight Copilot connectors</a><a href="https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/">GitHub CLI Event Streams</a><a href="https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/">Gemini 4 Neon in Copilot</a></p>
+</section>
+
+<section id="creator-multimodal">
+  <div class="kicker">Image / video / audio / creator tools</div><h2>Creator &amp; Multimodal Desk</h2>
+  <p><strong>No material, date-matched development verified.</strong> No new frontier image, video or audio model release, major creator-platform launch or independently reproduced multimodal benchmark was verified in the 18–20 November window. Source classes checked: official release notes and model announcements from Adobe, Runway, Stability, Pika, Luma, Suno, ElevenLabs, Canva and Midjourney, plus independent creator-tool reporting. Suno Visuals was already covered in the 19 November edition and is not repeated without a material change.</p>
+</section>
+
+<section id="research-science-robotics">
+  <div class="kicker">Papers / reproducibility / embodied systems</div><h2>Research, Science &amp; Robotics</h2>
+  <p><strong>NereidVLA</strong> is the material new paper in this window. Its reported laboratory-pool trials are promising, but the work remains a preprint and does not establish open-water reliability. The authors link a project repository; SIGNAL did not independently rerun the experiments.</p>
+  <p><strong>No additional material, date-matched science or robotics deployment verified.</strong> Source classes checked: arXiv recent AI and robotics submissions, author-linked repositories, OpenReview, Nature, Science, IEEE and robotics conference proceedings. Earlier GauntletScore, ANYmal simulator and PAIR smart-home papers were covered in the 19 November edition and are excluded as repeats.</p>
+</section>
+
+<section id="security-safety-reliability">
+  <div class="kicker">Incidents / vulnerabilities / trust</div><h2>Security, Safety &amp; Reliability</h2>
+  <ul class="compact">
+    <li><strong>GAO safety audit:</strong> four platforms generated feasible harmful planning information after safeguard-bypass techniques. These were spring 2026 tests, not real-world attacks or a current-version benchmark.</li>
+    <li><strong>Germany’s BSI:</strong> raised its annual IT-security assessment to “tense to critical” and attributed faster, cheaper and more targeted attack methods partly to high-performance AI. This is a threat assessment, not a newly confirmed intrusion.</li>
+    <li><strong>Claude status:</strong> elevated errors affected Claude Mythos 5.2 and Fable 5.2 on 19 November. The reported impact ran 08:56–09:11 UTC; a fix was deployed and the incident resolved at 09:33 UTC.</li>
+    <li><strong>GitHub Copilot status:</strong> GPT-6 Luna availability degraded from 15:56 to 16:37 UTC on 19 November due to an upstream model-provider issue. Users were advised to switch models or use Fusion.</li>
+    <li><strong>GitHub session renewal:</strong> a bug beginning 5 November stopped web sessions renewing after user activity. GitHub says it fixed the issue at 05:23 UTC on 19 November and explicitly says the sign-outs were not a security incident.</li>
+    <li><strong>Existing Java4Shell advisory:</strong> no new exploitation or patch-status development was verified in this window. The 19 November edition’s Oracle/CISA/CERT-In guidance remains the relevant patch reference.</li>
+  </ul>
+  <p><strong>Status at 08:53 IST:</strong> OpenAI, Claude and GitHub status pages showed all systems operational. The Claude and GitHub incidents above were resolved. No AI-provider breach or active agent compromise was confirmed in this scan. An outage or session bug is not evidence of an attack.</p>
+  <p class="sources"><a href="https://status.openai.com/">OpenAI status</a><a href="https://status.claude.com/">Claude status and incident history</a><a href="https://www.githubstatus.com/">GitHub status and incident history</a><a href="https://www.reuters.com/legal/litigation/german-authorities-lift-threat-level-it-security-tense-critical-2026-11-19/">Reuters: BSI assessment</a></p>
+</section>
+
+<section id="compute-chips-cloud-energy">
+  <div class="kicker">Semiconductors / cloud / infrastructure</div><h2>Compute, Chips, Cloud &amp; Energy</h2>
+  <p><strong>Compute geopolitics:</strong> the BIS rule is now effective; TSMC’s reported implementation tightens advanced-node access for Chinese designers. The House committee’s licensing disclosure shows why approvals must not be confused with delivered chips. Nvidia’s 18 November statement that no further licensed Hopper shipments are in its current outlook remains the latest company guidance found; no new restart date was verified.</p>
+  <p><strong>Data-centre capacity:</strong> the Anthropic-backed Australian proposal faces substantial local objections. Delta Electronics separately expects AI data-centre power and cooling demand to support a major expansion in India. These are different stages: one is a proposed facility facing consultation, the other a supplier’s revenue target.</p>
+  <p><strong>No material, date-matched development verified</strong> for a new Huawei Ascend or SMIC process announcement, HBM allocation, advanced-packaging capacity launch, networking product release, new AI power-purchase agreement, grid connection or data-centre commissioning. Source classes checked: BIS and Federal Register, Reuters, Nvidia/AMD/TSMC announcements, semiconductor company releases, FERC and utility notices, data-centre trade press and energy-sector reporting.</p>
+</section>
+
+<section id="business-capital">
+  <div class="kicker">Revenue / funding / capex / obligations</div><h2>Business, Capital Flows &amp; Portfolio Lens</h2>
+  <div class="two-col">
+    <div><h3>Anthropic: three separate financing buckets</h3>
+      <ul class="compact">
+        <li><strong>Public offering:</strong> 980m shares at $83 produced about $81.3bn gross. The official mix is about $79.38bn primary proceeds to the company and $1.96bn secondary proceeds to selling holders.</li>
+        <li><strong>Private placement:</strong> the previously disclosed $26bn placement is separate from the public offering. More than $107bn combined gross financing is not the same as cash already deployed.</li>
+        <li><strong>Compute commitments:</strong> nearly $900bn of long-dated commitments are future obligations across partners and years, not current revenue, cash spent or installed GPU capacity.</li>
+      </ul>
+    </div>
+    <div><h3>Lenovo: revenue is not deployed capacity</h3>
+      <ul class="compact">
+        <li>Group revenue was $30.2bn; AI-related revenue was $10.8bn. The latter is a company-defined revenue category, not AI-only profit.</li>
+        <li>Operating cash flow was $1.6bn and free cash flow $1.2bn. The results release does not provide an AI-only capex number.</li>
+        <li>Infrastructure Solutions Group revenue reached $11.3bn; that is reported sales, not a measure of compute already commissioned for customer use.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="note"><strong>Capital flows &amp; portfolio lens — not investment advice:</strong> announcements are not signed contracts; signed contracts are not backlog; backlog is not recognised revenue; revenue is not free cash flow; capex is not deployed capacity; and long-term commitments are not cash already spent. Keep each bucket separate when evaluating AI-company funding or infrastructure demand.</div>
+  <p><strong>Macro watch:</strong> Chicago Fed President Austan Goolsbee said the multitrillion-dollar data-centre project pipeline could strain US capacity and add inflationary pressure. These were his remarks, not an FOMC decision or a change in the policy rate.</p>
+  <p class="small">Sources: <a href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/">Reuters: Anthropic debut</a> · <a href="https://www.anthropic.com/news/anthropic-prices-initial-public-offering">Anthropic offering notice</a> · <a href="https://investor.lenovo.com/en/financial/results/press_2627_q2.pdf">Lenovo Q2 results</a> · <a href="https://www.reuters.com/business/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-2026-11-19/">Reuters: Goolsbee remarks</a>.</p>
+</section>
+
+<section id="india-asia-global">
+  <div class="kicker">Regional developments / policy / supply chains</div><h2>India &amp; Asia / Global Regional Desk</h2>
+  <p><strong>India:</strong> Taiwan’s Delta Electronics says it aims to at least triple India revenue over four to five years, with AI data-centre power and cooling demand a key driver. The company did not disclose a standalone India revenue figure; this is a management target, not achieved growth. No new Indian foundation-model launch or national AI policy decision was verified.</p>
+  <p><strong>China and Taiwan:</strong> Lenovo’s AI-server growth, the new US licensing disclosure and TSMC’s reported order restrictions show how demand, export permissions and manufacturing access interact. The number of chips approved for export is not the number delivered or installed.</p>
+  <p><strong>Australia:</strong> the proposed Western Downs Digital Park has become a visible test of local consent for AI infrastructure. The objection count is not a binding decision, but the stated concerns cover power, water, noise, roads and housing.</p>
+  <p><strong>Global markets:</strong> Asian equities were on track for their worst week since March 2020 as the AI trade selloff continued. Reuters cited crowded positioning, debt concerns and data-centre backlash among the factors; no single AI headline explains the move.</p>
+</section>
+
+<section id="community-intelligence">
+  <div class="kicker">Signals, not rumours</div><h2>Community Intelligence</h2>
+  <p>No community-only signal met the verification threshold for promotion today. X, Reddit, GitHub, Hugging Face, YouTube, Product Hunt and arXiv were used as discovery surfaces. Claims promoted into the edition were checked against a government report, a regulator’s rule, a company release, an official status page, an arXiv paper or independent reporting. Social posts were not used as confirmation.</p>
+</section>
+
+<section id="more-signals">
+  <div class="kicker">Verified, lower-priority developments</div><h2>More Signals</h2>
+  <div class="more-grid">
+    <article class="story-card" data-priority="more" data-desk="regional"><div class="story-head"><span>19 Nov · India / infrastructure supply</span><span class="flag">Management target</span></div><h3>Delta Electronics targets at least 3× India revenue in four to five years</h3><p>The Taiwan-based power and cooling supplier says AI data-centre demand will help drive its India expansion. It expects data-centre and telecom business to rise from 40–42% to 50–55% of India revenue; its India workforce has exceeded 5,000 and it expects about 15% annual headcount growth over the next two to three years. Delta did not disclose standalone India revenue.</p><p class="impact-note"><strong>Impact:</strong> A supplier-side indicator of demand for power and cooling equipment; the revenue target is forward-looking, not booked orders or commissioned capacity.</p><p class="sources"><a href="https://www.reuters.com/world/asia-pacific/taiwans-delta-electronics-looks-triple-india-revenue-4-5-years-ai-boom-2026-11-19/">Reuters: Delta India plan</a><a href="https://www.business-standard.com/amp/companies/news/delta-electronics-looks-to-triple-india-revenue-in-4-5-years-on-ai-boom-126111900344_1.html">Business Standard / Reuters</a></p></article>
+
+    <article class="story-card" data-priority="more" data-desk="developer"><div class="story-head"><span>18 Nov · GitHub / MCP</span><span class="flag">Public preview</span></div><h3>Copilot adds eight GitHub-verified MCP connectors</h3><p>Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow and Wix can now connect to Copilot. The connectors are in public preview. Business and Enterprise administrators may need to enable preview features and add services to their MCP allowlists; some connectors also require service-side approval.</p><p class="impact-note"><strong>Impact:</strong> Broadens agent workflows across databases, project tools and content systems, while increasing the importance of scoped permissions and admin review.</p><p class="sources"><a href="https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/">GitHub Changelog</a></p></article>
+
+    <article class="story-card" data-priority="more" data-desk="developer"><div class="story-head"><span>18 Nov · GitHub CLI</span><span class="flag">Preview</span></div><h3>GitHub CLI Event Streams lets agents wait for pull-request events instead of polling</h3><p>GitHub CLI 2.105.0 adds <code>gh event listen</code> for reviews, PR state/head changes, merge conflicts and completed check suites. Event Streams is in preview and requires access through a waitlist; the command may change.</p><p class="impact-note"><strong>Impact:</strong> Could make agent loops less wasteful and more event-driven, but it is not yet generally available.</p><p class="sources"><a href="https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/">GitHub Changelog</a></p></article>
+
+    <article class="story-card" data-priority="more" data-desk="security"><div class="story-head"><span>18 Nov · GitHub Security</span><span class="flag">General availability</span></div><h3>GitHub Team now runs security risk assessments automatically</h3><p>Organizations on GitHub Team can review free automated assessments for exposed credentials and code vulnerabilities. Admins and security managers can use the findings to understand current risk and prioritise remediation.</p><p class="impact-note"><strong>Impact:</strong> Lowers the barrier to baseline security reviews for smaller engineering teams; findings still need triage and remediation.</p><p class="sources"><a href="https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/">GitHub Changelog</a></p></article>
+
+    <article class="story-card" data-priority="more" data-desk="security"><div class="story-head"><span>19 Nov · Provider reliability</span><span class="flag">Resolved incidents</span></div><h3>Claude and Copilot recover from brief model-provider errors; GitHub session bug fixed</h3><p>Claude Mythos 5.2 and Fable 5.2 errors lasted about 15 minutes on 19 November. GitHub’s GPT-6 Luna degradation lasted about 41 minutes and was attributed to an upstream provider. GitHub also fixed a session-renewal bug that had caused some users to be signed out after inactivity since 5 November; GitHub explicitly said it was not a security incident.</p><p class="impact-note"><strong>Impact:</strong> Short-lived model availability interruptions and user re-authentication; all three incidents were resolved, with no breach reported.</p><p class="sources"><a href="https://status.claude.com/">Claude status history</a><a href="https://www.githubstatus.com/">GitHub status history</a></p></article>
+
+    <article class="story-card" data-priority="more" data-desk="business"><div class="story-head"><span>19 Nov · US macro</span><span class="flag">Policymaker remarks</span></div><h3>Fed’s Goolsbee warns AI investment could strain capacity and add inflation pressure</h3><p>Chicago Fed President Austan Goolsbee said the multitrillion-dollar data-centre project pipeline could push demand beyond US capacity. He also said liquidity from Anthropic’s IPO could become macro-relevant. These were his remarks, not an FOMC decision; the next scheduled Fed meeting is 8–9 December.</p><p class="impact-note"><strong>Impact:</strong> AI infrastructure demand is entering the macro debate over capacity, prices and monetary policy; no policy change was announced.</p><p class="sources"><a href="https://www.reuters.com/business/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-2026-11-19/">Reuters: Goolsbee remarks</a></p></article>
+
+    <article class="story-card" data-priority="more" data-desk="business"><div class="story-head"><span>20 Nov · Asian markets</span><span class="flag">Market context</span></div><h3>Asian equities head for their worst week since 2020 as the AI trade selloff deepens</h3><p>Reuters reported MSCI Asia-Pacific shares outside Japan down 3.2% on Friday and 8.3% for the week. Taiwan shares were down 16% for the week, their steepest weekly decline since 1991. The report cites crowded positioning, sector debt, data-centre opposition and broader macro uncertainty; it does not attribute the move to one event.</p><p class="impact-note"><strong>Impact:</strong> Shows a wider repricing of AI-linked risk and crowded technology positions; market moves are not a direct measure of AI demand or model quality.</p><p class="sources"><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/">Reuters: Asian market selloff</a></p></article>
+  </div>
+</section>
+
+<section id="future-radar">
+  <div class="kicker">3–12 month view · dates versus scenarios</div><h2>Future Radar</h2>
+  <h3>Confirmed dates</h3>
+  <ul class="compact">
+    <li><strong>19 January 2027:</strong> comments on the BIS interim final rule are due.</li>
+    <li><strong>17 February 2027, approximately:</strong> 90 days after the 19 November effective date. Existing covered data centres seeking to continue significant compute access for D:5/Macau-headquartered entities must obtain a licence within the transition window.</li>
+    <li><strong>8–9 December 2026:</strong> next scheduled Federal Reserve meeting. This is a confirmed meeting date, not a forecast of the policy decision.</li>
+  </ul>
+  <h3>Scenarios to watch, not predictions</h3>
+  <ul class="compact">
+    <li>Foundry and packaging restrictions may accelerate domestic Chinese accelerators, but process nodes, HBM, advanced packaging and software ecosystems can constrain substitution.</li>
+    <li>Large AI campuses may face more public hearings, water/power conditions and community-benefit requirements as local opposition becomes more organised.</li>
+    <li>GAO’s findings may increase pressure for independent pre-release testing and more robust multi-turn adversarial evaluations.</li>
+    <li>Anthropic’s public-market access may influence other frontier-lab financing plans, but future revenue, cash burn and compute delivery remain uncertain.</li>
+    <li>Underwater VLA research may move toward field trials, but pool performance must be validated against currents, turbidity, pressure and communication constraints.</li>
+  </ul>
+</section>
+
+<section id="ai-in-context">
+  <div class="kicker">Three analysis observations</div><h2>AI in Context</h2>
+  <div class="analysis-grid">
+    <article><strong>01 / Safeguards are a system, not a refusal string</strong><p>GAO’s tests show why a single blocked prompt is not enough to establish robustness. The relevant control surface includes multi-turn context, account behaviour, tool access, monitoring and the ability to detect repeated attempts to route around safeguards. The results are specific to spring 2026 tests, not a universal statement about current model versions.</p></article>
+    <article><strong>02 / Compute control now follows the workload</strong><p>The BIS rule extends beyond physical chip exports into remote access, linked data centres and customer ownership. TSMC’s reported response shows how a rule can travel through foundry and packaging decisions. A chip licence, a cloud contract and a running cluster are separate stages of access.</p></article>
+    <article><strong>03 / AI infrastructure needs local legitimacy</strong><p>Anthropic’s Australian project illustrates that a technically feasible campus can still face objections over power, water, roads and housing. Delta’s India expansion target shows supplier opportunity; it does not remove the grid and local-consent constraints that determine when capacity can actually be built.</p></article>
+  </div>
+</section>
+
+<section id="glossary">
+  <div class="kicker">Terms used in this edition</div><h2>Glossary</h2>
+  <div class="two-col">
+    <div><p><strong>Primary shares:</strong> newly issued shares; gross proceeds go to the company before fees.</p><p><strong>Secondary shares:</strong> existing holders sell shares; proceeds go to the selling holders, not the company.</p><p><strong>Aggregate TPP:</strong> total processing performance across covered chips or linked data-centre capacity; an export-control measure, not a model benchmark.</p><p><strong>Linked data centres:</strong> separate facilities connected to share resources, balance workloads or replicate data as a unified system.</p><p><strong>Country Group D:5:</strong> a US Export Administration Regulations country group referenced by the BIS rule; Macau is separately named.</p></div>
+    <div><p><strong>HBM:</strong> high-bandwidth memory, stacked memory used to feed data to high-performance processors.</p><p><strong>Advanced packaging / OSAT:</strong> methods and outsourced services that combine chips and memory into higher-performance packages.</p><p><strong>Foundry:</strong> a semiconductor manufacturer that fabricates chips designed by other companies.</p><p><strong>VLA:</strong> vision-language-action model, combining visual perception, language instructions and physical actions.</p><p><strong>Free cash flow:</strong> cash remaining after operating needs and capital spending; not the same as revenue, accounting profit or future commitments.</p></div>
+  </div>
+</section>
+
+<section id="what-to-watch">
+  <div class="kicker">Next edition checklist</div><h2>What to Watch Next</h2>
+  <ul class="compact">
+    <li>Whether the BIS rule receives clarifying implementation guidance before the 19 January 2027 comment deadline, and how the 90-day transition is applied.</li>
+    <li>Whether TSMC publishes a formal statement or clarifies the scope of affected Chinese customer orders, HBM and advanced packaging.</li>
+    <li>Actual delivery data behind the 879,000 US chip-export approvals, not just licences granted.</li>
+    <li>Anthropic’s first public filings, post-IPO share performance and any updated disclosure on compute commitments and cash use.</li>
+    <li>Western Downs Digital Park’s planning process, environmental submissions, grid requirements and community response.</li>
+    <li>Whether BSI publishes accessible supporting material and whether any new exploitation evidence changes the threat picture.</li>
+    <li>Independent reproduction and field validation of NereidVLA beyond laboratory-pool trials.</li>
+    <li>Lenovo’s subsequent server orders, backlog conversion and cash/capex disclosures; Delta’s India investment and revenue progress.</li>
+    <li>Root-cause updates for the resolved Claude and GitHub incidents; distinguish any new security incident from ordinary availability degradation.</li>
+    <li>New frontier-model releases and independent same-harness testing; no new open-weight release was verified in this window.</li>
+  </ul>
+</section>
+
+<section id="coverage-audit">
+  <div class="kicker">Evidence / scope / limitations</div><h2>Coverage Audit</h2>
+  <div class="audit-grid">
+    <article><h3>Story totals</h3><p><strong>15 verified story cards:</strong> 8 Main Desk, 7 More Signals, 0 Community Radar. 13 unique new developments and 2 material follow-ups.</p></article>
+    <article><h3>Repeats excluded</h3><p>11 repeat candidates excluded: Gemini 4 Neon release, Microsoft MAI model family, Meta Muse, Java4Shell, Nvidia China shipment halt, Tencent Q3, Arizona agent inquiry, Suno Visuals, GauntletScore, ANYmal and PAIR preprints, and the original Claude Meetings incident. Only the Anthropic IPO close and BIS rule publication/implementation are follow-ups.</p></article>
+    <article><h3>Discovery sweep</h3><p>One cross-beat sweep targeted <strong>90 distinct domains</strong>, overshooting the requested 50–60 because the grouped domain filters were broader than intended. 28 distinct page URLs were successfully opened across 17 domains; one additional official BSI page failed.</p></article>
+    <article><h3>Date-matched sources</h3><p><strong>20 date-matched source pages across 10 domains:</strong> GAO, Senator Hassan, Federal Register, Reuters, House Foreign Affairs Committee, Lenovo, arXiv, GitHub Changelog, Claude Status and GitHub Status.</p></article>
+    <article><h3>Source classes</h3><p>Government audit and committee release; Federal Register rule; company earnings and investor materials; official service-status histories; GitHub product changelogs; arXiv preprint and author repository; Reuters independent reporting; company product announcements; market reporting.</p></article>
+    <article><h3>Access gaps</h3><p>The BSI English report page failed to load; the BSI assessment is attributed to Reuters. House committee disclosure PDFs linked through Scribd were not opened; the committee release and Reuters report were read. TSMC’s implementation was reported by Reuters from sources and reviewed guidance, not a public company statement. No independent NereidVLA reproduction was found.</p></article>
+    <article><h3>Archive integrity</h3><p>47 dated archive files were enumerated. Eight recent issues (17–19 Nov) were reopened; 39 older dated pages were not reopened individually and were deduplicated against the registry. The registry contained 362 story records and 49 edition records before this publication; no missing edition record required backfill.</p></article>
+    <article><h3>Security / reliability</h3><p>Material developments found: GAO audit, BSI threat assessment and resolved Claude/GitHub incidents. OpenAI, Claude and GitHub status pages showed operational at cut-off. No AI-provider breach or active agent compromise was confirmed. Java4Shell had no new date-matched exploitation update.</p></article>
+    <article><h3>Validation / publication</h3><p>Doctype, required anchors, 8 Main Desk impact panels, 15 story cards, date, links and controls checked manually. No external linter was run. Netlify deployment is not claimed.</p></article>
+  </div>
+  <h3 style="margin-top:18px">Beat-by-beat scan</h3>
+  <div class="two-col">
+    <div>
+      <p><strong>Model &amp; benchmark:</strong> No new frontier-model release verified on 19–20 Nov. Gemini 4 Neon GA and Copilot availability are covered; no new open-weight or local-inference release verified. Sources: official model releases, model cards, vendor APIs and benchmark aggregators.</p>
+      <p><strong>Developer &amp; agents:</strong> Material changes found: Copilot MCP connectors, Event Streams CLI and Gemini Neon availability. No new IDE or MCP protocol specification verified. Sources: GitHub Changelog and developer documentation.</p>
+      <p><strong>Creator &amp; multimodal:</strong> No material, date-matched development verified. Sources: official Adobe, Runway, Stability, Pika, Luma, Suno, ElevenLabs, Canva and Midjourney releases.</p>
+      <p><strong>Research / science / robotics:</strong> NereidVLA preprint found. No additional material science-lab result or hardware deployment verified. Sources: arXiv, author repository, OpenReview, Nature, Science and IEEE.</p>
+      <p><strong>Security / reliability:</strong> GAO, BSI and resolved Claude/GitHub incidents found. No confirmed AI-provider breach or active agent compromise. Sources: GAO, BSI via Reuters, CERT/advisory channels and status pages.</p>
+    </div>
+    <div>
+      <p><strong>Compute / geopolitics:</strong> BIS rule effective, TSMC order restrictions reported and House chip-licence approvals disclosed. No new Huawei Ascend or SMIC process launch, HBM allocation or packaging/networking product release verified. Sources: Federal Register, BIS, House committee, Reuters and semiconductor releases.</p>
+      <p><strong>Energy / data centres:</strong> Material development found in Australian project opposition and Delta’s India supplier expansion target. No new power purchase agreement, grid connection or data-centre commissioning verified. Sources: Reuters, company statements, FERC and utility notices.</p>
+      <p><strong>Business / capital:</strong> Anthropic IPO trading, Lenovo Q2 and Fed Goolsbee remarks found. Primary/secondary proceeds, private placement, compute commitments, revenue and free cash flow are kept separate.</p>
+      <p><strong>India / Asia:</strong> Delta India target, Lenovo AI revenue, TSMC restrictions and US chip approvals are material. No new India foundation-model launch or national AI policy decision verified.</p>
+      <p><strong>Policy / law / society:</strong> BIS rule, GAO safety findings and local data-centre opposition are material. No new copyright court ruling verified.</p>
+    </div>
+  </div>
+  <p class="small">Archive pages not reopened individually are listed in the edition audit in <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/story-index.json">archive/story-index.json</a>. Date-matched pages are counted separately from evergreen model pages and non-date-matched research used for context.</p>
+</section>
+
+<div class="footer">SIGNAL. — AI Daily · Friday, 20 November 2026 · Research cut-off 08:53 Asia/Kolkata. Vendor claims are attributed; preprints are not treated as peer-reviewed; forecasts are labelled; service outages are not described as attacks without evidence.</div>
+</main>
+
+<script>
+(function(){
+  const status=document.getElementById("toolStatus");
+  const search=document.getElementById("searchInput");
+  const filter=document.getElementById("deskFilter");
+  const cards=[...document.querySelectorAll(".story-card")];
+  const empty=document.getElementById("filterEmpty");
+  function applyFilters(){
+    const q=(search.value||"").trim().toLowerCase();
+    const f=filter.value;
+    let visible=0;
+    cards.forEach(card=>{
+      const text=card.innerText.toLowerCase();
+      const priority=card.dataset.priority||"";
+      const desk=card.dataset.desk||"";
+      const matchQ=!q||text.includes(q);
+      const matchF=f==="all"||(f==="main"&&priority==="main")||(f==="more"&&priority==="more")||desk===f;
+      const show=matchQ&&matchF;
+      card.hidden=!show;
+      if(show)visible++;
+    });
+    if(empty)empty.hidden=visible!==0;
+  }
+  search.addEventListener("input",applyFilters);
+  filter.addEventListener("change",applyFilters);
+  document.getElementById("printBtn").addEventListener("click",()=>window.print());
+  const fileName="SIGNAL_AI_Daily_2026-11-20.html";
+  function htmlFile(){
+    const source="<!doctype html>\n"+document.documentElement.outerHTML;
+    return new File([source],fileName,{type:"text/html"});
+  }
+  document.getElementById("downloadBtn").addEventListener("click",()=>{
+    const blob=new Blob(["<!doctype html>\n"+document.documentElement.outerHTML],{type:"text/html"});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement("a");a.href=url;a.download=fileName;document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1500);
+    status.textContent="HTML download prepared in this browser.";
+  });
+  document.getElementById("shareBtn").addEventListener("click",async()=>{
+    try{
+      const file=htmlFile();
+      if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+        await navigator.share({files:[file],title:"SIGNAL. — AI Daily · 20 November 2026",text:"Full-spectrum AI briefing"});
+        status.textContent="The browser share sheet was opened with the HTML attachment.";
+      }else if(navigator.clipboard&&navigator.clipboard.writeText){
+        await navigator.clipboard.writeText(location.href);
+        status.textContent="Issue link copied. Download the HTML and attach it manually if you need to send the file.";
+      }else{
+        status.textContent="File sharing is not supported here. Use Download HTML, then attach the file manually.";
+      }
+    }catch(e){status.textContent="Sharing was cancelled or unavailable. Use Download HTML, then attach the file manually.";}
+  });
+  const play=document.getElementById("speakPlay"),pause=document.getElementById("speakPause"),stop=document.getElementById("speakStop"),rate=document.getElementById("speechRate");
+  play.addEventListener("click",()=>{
+    if(!("speechSynthesis" in window)){status.textContent="Native speech is not supported by this browser.";return;}
+    if(window.speechSynthesis.paused){window.speechSynthesis.resume();return;}
+    window.speechSynthesis.cancel();
+    const utterance=new SpeechSynthesisUtterance(document.getElementById("issue").innerText);
+    utterance.rate=parseFloat(rate.value);
+    utterance.onend=()=>{status.textContent="Speech finished.";};
+    window.speechSynthesis.speak(utterance);
+    status.textContent="Reading the issue with native browser speech.";
+  });
+  pause.addEventListener("click",()=>{if("speechSynthesis" in window)window.speechSynthesis.pause();});
+  stop.addEventListener("click",()=>{if("speechSynthesis" in window)window.speechSynthesis.cancel();status.textContent="Speech stopped.";});
+  rate.addEventListener("change",()=>{if("speechSynthesis" in window&&window.speechSynthesis.speaking){window.speechSynthesis.cancel();play.click();}});
+  applyFilters();
+})();
+</script>
+</body>
+</html>
