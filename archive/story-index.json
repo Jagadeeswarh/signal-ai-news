@@ -6306,7 +6306,7 @@
       "source_domains_materially_read": 16,
       "source_domains_partial_or_limited": 1,
       "source_domains_blocked": 1,
-      "source_domains_with_date_matched_results": 10,
+      "source_domains_with_date_matched_results": 11,
       "targeted_domains": [
         "openai.com",
         "anthropic.com",
