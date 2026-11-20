@@ -3,8 +3,8 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-19T08:44:55+05:30",
-  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.\n2026-11-19 edition 3: inspected root homepage, archive index and 359-story/47-edition registry. Enumerated 45 indexed dated archive paths and found one additional accessible but unindexed same-day file, archive/2026-11-19-edition-2.html; backfilled its edition mapping and archive link without creating duplicate story records or changing the file. Published edition 3 with 17 story cards (7 Main Desk, 10 More Signals), 14 unique new developments and three material follow-ups. Added three new story records: ANYmal simulator audit, PAIR smart-home benchmark and GitHub Copilot MAI Code 2 Flash outage. One cross-beat sweep targeted 89 distinct valid domains; 37 URLs opened across 24 domains, 16 direct date-matched sources across 13 domains. Thirty-eight indexed archive pages were not reopened individually. Append-only; no old records removed. Root homepage update follows issue, archive index and registry verification.",
+  "last_updated_at": "2026-11-20T08:53:32+05:30",
+  "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.\n2026-11-19 edition 3: inspected root homepage, archive index and 359-story/47-edition registry. Enumerated 45 indexed dated archive paths and found one additional accessible but unindexed same-day file, archive/2026-11-19-edition-2.html; backfilled its edition mapping and archive link without creating duplicate story records or changing the file. Published edition 3 with 17 story cards (7 Main Desk, 10 More Signals), 14 unique new developments and three material follow-ups. Added three new story records: ANYmal simulator audit, PAIR smart-home benchmark and GitHub Copilot MAI Code 2 Flash outage. One cross-beat sweep targeted 89 distinct valid domains; 37 URLs opened across 24 domains, 16 direct date-matched sources across 13 domains. Thirty-eight indexed archive pages were not reopened individually. Append-only; no old records removed. Root homepage update follows issue, archive index and registry verification.\n2026-11-20 canonical daily edition: inspected root homepage, archive index, 362-story/49-edition registry and enumerated 47 dated archive files. Reopened eight recent 17–19 November issues; 39 older dated pages not reopened individually and deduplicated via registry. One cross-beat sweep targeted 90 domains (above requested 50–60), with 28 distinct URLs opened across 17 domains and 20 date-matched source pages across 11 domains. Published 16 story entries (8 Main Desk, 8 More Signals): 13 unique new records and three material follow-ups (Anthropic IPO first-day trading, BIS rule effective/TSMC implementation, Gemini 4 Neon Copilot access). Eleven repeat candidates excluded. No archive backfill required; canonical 20 November file created once. Registry append-only; no prior records removed. Root homepage update follows registry verification.",
   "editions": [
     {
       "date": "2026-10-28",
@@ -6155,6 +6155,515 @@
         "root_index_path": "index.html",
         "root_index_blob_sha": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
         "root_exact_match": true,
+        "netlify_deployment_claimed": false
+      }
+    },
+    {
+      "edition_id": "signal-2026-11-20",
+      "date": "2026-11-20",
+      "path": "archive/2026-11-20.html",
+      "title": "SIGNAL. — AI Daily | Friday, 20 November 2026",
+      "edition_type": "canonical-daily",
+      "published_at": "2026-11-20T08:53:32+05:30",
+      "research_window_start": "2026-11-18T08:53:32+05:30",
+      "research_window_end": "2026-11-20T08:53:32+05:30",
+      "story_count": 16,
+      "new_story_count": 16,
+      "unique_new_verified_story_count": 13,
+      "main_desk_count": 8,
+      "more_signals_count": 8,
+      "community_radar_count": 0,
+      "follow_up_count": 3,
+      "story_ids": [
+        "event-anthropic-ipo-priced-83-2026-11-18",
+        "event-gao-covert-ai-attack-plan-audit-2026-11-18",
+        "event-bis-remote-access-ai-compute-rule-2026-11-16",
+        "event-us-house-ai-chip-license-approvals-china-2026-11-19",
+        "event-anthropic-western-downs-data-centre-opposition-2026-11-20",
+        "event-lenovo-q2-ai-revenue-infrastructure-2026-11-19",
+        "event-bsi-germany-threat-assessment-ai-2026-11-19",
+        "event-nereidvla-underwater-vla-pool-trials-2026-11-18",
+        "event-delta-electronics-india-ai-data-centre-target-2026-11-19",
+        "event-github-copilot-mcp-connectors-eight-2026-11-18",
+        "event-github-cli-event-streams-preview-2026-11-18",
+        "event-github-team-security-risk-assessments-2026-11-18",
+        "event-claude-github-service-reliability-incidents-2026-11-19",
+        "event-fed-goolsbee-ai-capacity-inflation-2026-11-19",
+        "event-ai-linked-asian-market-selloff-2026-11-20",
+        "event-google-gemini-4-neon-ga-2026-11-18"
+      ],
+      "main_desk_story_ids": [
+        "event-anthropic-ipo-priced-83-2026-11-18",
+        "event-gao-covert-ai-attack-plan-audit-2026-11-18",
+        "event-bis-remote-access-ai-compute-rule-2026-11-16",
+        "event-us-house-ai-chip-license-approvals-china-2026-11-19",
+        "event-anthropic-western-downs-data-centre-opposition-2026-11-20",
+        "event-lenovo-q2-ai-revenue-infrastructure-2026-11-19",
+        "event-bsi-germany-threat-assessment-ai-2026-11-19",
+        "event-nereidvla-underwater-vla-pool-trials-2026-11-18"
+      ],
+      "more_signals_story_ids": [
+        "event-delta-electronics-india-ai-data-centre-target-2026-11-19",
+        "event-github-copilot-mcp-connectors-eight-2026-11-18",
+        "event-github-cli-event-streams-preview-2026-11-18",
+        "event-github-team-security-risk-assessments-2026-11-18",
+        "event-claude-github-service-reliability-incidents-2026-11-19",
+        "event-fed-goolsbee-ai-capacity-inflation-2026-11-19",
+        "event-ai-linked-asian-market-selloff-2026-11-20",
+        "event-google-gemini-4-neon-ga-2026-11-18"
+      ],
+      "community_story_ids": [],
+      "material_followups": [
+        {
+          "story_id": "event-anthropic-ipo-priced-83-2026-11-18",
+          "follow_up_of": "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
+          "prior_issue_path": "archive/2026-11-19-edition-3.html",
+          "material_change": "First Nasdaq session completed; shares closed at US$97.17, 17% above the US$83 offer price, after opening at US$111.50."
+        },
+        {
+          "story_id": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+          "follow_up_of": "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
+          "prior_issue_path": "archive/2026-11-19-edition-3.html",
+          "material_change": "Federal Register publication and 19 November effective date confirmed; 19 January 2027 comment deadline; Reuters reports TSMC’s affected Chinese customer-order restrictions."
+        },
+        {
+          "story_id": "event-google-gemini-4-neon-ga-2026-11-18",
+          "prior_issue_path": "archive/2026-11-19-edition-3.html",
+          "material_change": "GitHub added Gemini 4 Neon to Copilot across eligible plans and clients; model version and API price unchanged."
+        }
+      ],
+      "repeat_candidates_screened": 14,
+      "repeat_candidates_excluded": 11,
+      "repeat_candidates_excluded_ids": [],
+      "repeat_candidates_excluded_labels": [
+        "Gemini 4 Neon GA release — covered 19 Nov; only Copilot availability expansion retained as a follow-up.",
+        "Microsoft MAI model family — covered in the 18 Nov archive; no new model release in this window.",
+        "Meta Muse permission-path privacy issue — covered 19 Nov; no new material technical finding verified.",
+        "Java4Shell CVE-2026-114938 — covered 19 Nov; no new advisory or exploitation evidence verified.",
+        "Nvidia China Hopper shipment halt — covered 19 Nov; House licence disclosure is a separate historical approval dataset.",
+        "Tencent Q3 cloud and capex results — covered 19 Nov; no new material results update.",
+        "Arizona rogue-agent investigation — covered 19 Nov; no public charging or named-bank update verified.",
+        "Suno Visuals — covered 19 Nov; no new creator-tool change verified.",
+        "GauntletScore preprint — covered 19 Nov; no new reproduction or update.",
+        "ANYmal simulator audit and PAIR smart-home benchmark — covered 19 Nov; no new data or reproduction.",
+        "Claude Meetings initial incident and recovery — covered 19 Nov; no new material update in this window."
+      ],
+      "archive_issue_files_enumerated": 47,
+      "archive_issue_files_checked": 8,
+      "archive_pages_reopened_this_run": [
+        "archive/2026-11-17.html",
+        "archive/2026-11-17-edition-2.html",
+        "archive/2026-11-18.html",
+        "archive/2026-11-18-edition-2.html",
+        "archive/2026-11-18-edition-3.html",
+        "archive/2026-11-19.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
+      ],
+      "archive_pages_not_checked": [
+        "archive/2026-11-16.html",
+        "archive/2026-11-16-edition-2.html",
+        "archive/2026-11-15.html",
+        "archive/2026-11-15-edition-2.html",
+        "archive/2026-11-14.html",
+        "archive/2026-11-13.html",
+        "archive/2026-11-13-edition-4.html",
+        "archive/2026-11-13-edition-3.html",
+        "archive/2026-11-13-edition-2.html",
+        "archive/2026-11-12.html",
+        "archive/2026-11-12-edition-2.html",
+        "archive/2026-11-11.html",
+        "archive/2026-11-10.html",
+        "archive/2026-11-10-edition-3.html",
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-09.html",
+        "archive/2026-11-09-edition-2.html",
+        "archive/2026-11-08.html",
+        "archive/2026-11-07.html",
+        "archive/2026-11-07-edition-2.html",
+        "archive/2026-11-06.html",
+        "archive/2026-11-05.html",
+        "archive/2026-11-05-edition-2.html",
+        "archive/2026-11-04.html",
+        "archive/2026-11-04-edition-5.html",
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-03.html",
+        "archive/2026-11-03-edition-2.html",
+        "archive/2026-10-31.html",
+        "archive/2026-10-31-edition-4.html",
+        "archive/2026-10-31-edition-3.html",
+        "archive/2026-10-31-edition-2.html",
+        "archive/2026-10-30.html",
+        "archive/2026-10-29.html",
+        "archive/2026-10-28.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28-current-v2.html"
+      ],
+      "source_domains_targeted": 90,
+      "source_domains_opened_and_inspected": 17,
+      "source_domains_materially_read": 16,
+      "source_domains_partial_or_limited": 1,
+      "source_domains_blocked": 1,
+      "source_domains_with_date_matched_results": 10,
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "deepmind.google",
+        "blog.google",
+        "ai.meta.com",
+        "x.ai",
+        "mistral.ai",
+        "deepseek.com",
+        "qwen.ai",
+        "z.ai",
+        "moonshot.ai",
+        "minimax.io",
+        "tencent.com",
+        "baidu.com",
+        "cohere.com",
+        "aws.amazon.com",
+        "apple.com",
+        "github.blog",
+        "github.com",
+        "cursor.com",
+        "codeium.com",
+        "langchain.com",
+        "modelcontextprotocol.io",
+        "huggingface.co",
+        "sourcegraph.com",
+        "jetbrains.com",
+        "replit.com",
+        "vercel.com",
+        "supabase.com",
+        "runwayml.com",
+        "adobe.com",
+        "blackmagicdesign.com",
+        "stability.ai",
+        "pika.art",
+        "luma.ai",
+        "suno.com",
+        "elevenlabs.io",
+        "canva.com",
+        "midjourney.com",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "openreview.net",
+        "aclanthology.org",
+        "paperswithcode.com",
+        "roboticsproceedings.org",
+        "ieee.org",
+        "acm.org",
+        "cisa.gov",
+        "cert-in.org.in",
+        "nvd.nist.gov",
+        "cloud.google.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "unit42.paloaltonetworks.com",
+        "cloudflare.com",
+        "nvidia.com",
+        "amd.com",
+        "intel.com",
+        "broadcom.com",
+        "skhynix.com",
+        "samsung.com",
+        "tsmc.com",
+        "asml.com",
+        "datacenterdynamics.com",
+        "theregister.com",
+        "reuters.com",
+        "bloomberg.com",
+        "ft.com",
+        "wsj.com",
+        "cnbc.com",
+        "sec.gov",
+        "bis.gov",
+        "federalregister.gov",
+        "ec.europa.eu",
+        "europa.eu",
+        "meity.gov.in",
+        "pib.gov.in",
+        "gov.cn",
+        "miit.gov.cn",
+        "nikkei.com",
+        "scmp.com",
+        "restofworld.org",
+        "utilitydive.com",
+        "datacenterknowledge.com",
+        "iea.org",
+        "eia.gov",
+        "energy.gov",
+        "powermag.com"
+      ],
+      "opened_domains": [
+        "gao.gov",
+        "hassan.senate.gov",
+        "reuters.com",
+        "microsoft.ai",
+        "sarvam.ai",
+        "arxiv.org",
+        "github.blog",
+        "foreignaffairs.house.gov",
+        "news.lenovo.com",
+        "files.gao.gov",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "federalregister.gov",
+        "investing.com",
+        "economictimes.indiatimes.com",
+        "investor.lenovo.com"
+      ],
+      "materially_read_domains": [
+        "gao.gov",
+        "hassan.senate.gov",
+        "reuters.com",
+        "microsoft.ai",
+        "arxiv.org",
+        "github.blog",
+        "foreignaffairs.house.gov",
+        "news.lenovo.com",
+        "files.gao.gov",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "federalregister.gov",
+        "investing.com",
+        "economictimes.indiatimes.com",
+        "investor.lenovo.com"
+      ],
+      "partial_or_limited_domains": [
+        "bsi.bund.de — official English report page failed to load; BSI assessment details are attributed to Reuters."
+      ],
+      "blocked_domains": [
+        "bsi.bund.de — official report page returned an access error."
+      ],
+      "date_matched_domains": [
+        "gao.gov",
+        "hassan.senate.gov",
+        "federalregister.gov",
+        "reuters.com",
+        "foreignaffairs.house.gov",
+        "news.lenovo.com",
+        "investor.lenovo.com",
+        "arxiv.org",
+        "github.blog",
+        "status.claude.com",
+        "githubstatus.com"
+      ],
+      "source_pages_opened": 28,
+      "date_matched_source_pages": 20,
+      "date_matched_source_domains": 11,
+      "pages_returned_content": 28,
+      "page_url_errors": 1,
+      "no_readable_text_pages": 0,
+      "failed_page_urls": [
+        "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Lageberichte/cyber-sicherheitslageberichte_node.html"
+      ],
+      "no_readable_text_urls": [],
+      "partial_page_urls": [],
+      "source_classes_inspected": [
+        "full GAO government audit and Senator Hassan release",
+        "Federal Register interim final rule and US House committee export-licence disclosure",
+        "Reuters independent reporting on IPO, chips, BSI, Australia, India, Fed remarks and Asian markets",
+        "Lenovo primary earnings release and investor-relations financial results",
+        "official GitHub product changelogs and Claude/GitHub/OpenAI service-status histories",
+        "arXiv preprint and author-linked research repository",
+        "company model and product announcements for context",
+        "semiconductor and data-centre trade press, policy and utility source classes",
+        "X, Reddit, YouTube, GitHub, Hugging Face and Product Hunt used only as discovery surfaces"
+      ],
+      "beat_audit": {
+        "model_benchmark": {
+          "material_found_in_window": true,
+          "details": "No new frontier-model release verified on 19–20 Nov. Gemini 4 Neon was added to GitHub Copilot; model version, benchmark results and Google API pricing were unchanged. MAI Code 2 remains as covered 18 Nov. No new open-weight or local-inference release verified."
+        },
+        "developer_agent": {
+          "material_found_in_window": true,
+          "details": "GitHub added eight Copilot MCP connectors, Event Streams CLI preview and Gemini 4 Neon access. No new MCP protocol specification or standalone IDE release verified."
+        },
+        "creator_multimodal": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched development verified. Official creator-tool releases and independent reporting from Adobe, Runway, Stability, Pika, Luma, Suno, ElevenLabs, Canva and Midjourney checked."
+        },
+        "research_robotics": {
+          "material_found_in_window": true,
+          "details": "NereidVLA underwater VLA preprint with author-reported pool trials. No independent reproduction, open-water validation or additional material hardware deployment verified."
+        },
+        "security_reliability": {
+          "material_found_in_window": true,
+          "details": "GAO audit, BSI threat assessment, Claude Mythos/Fable errors, GitHub GPT-6 Luna degradation and session-renewal fix. No AI-provider breach or active agent compromise confirmed; all checked provider status pages operational at cut-off."
+        },
+        "compute_geopolitics": {
+          "material_found_in_window": true,
+          "details": "BIS rule published/effective, TSMC reported advanced-order restrictions for Chinese designers and House committee disclosed 879,000 export approvals. No new Huawei Ascend or SMIC process launch verified."
+        },
+        "energy_datacentres": {
+          "material_found_in_window": true,
+          "details": "Anthropic-backed 1.44GW Australian project faces 595 objections/delay requests; Delta Electronics targets 3x India revenue on data-centre power/cooling demand. No new power purchase, grid connection or facility commissioning verified."
+        },
+        "business_capital": {
+          "material_found_in_window": true,
+          "details": "Anthropic first-day IPO trading, Lenovo Q2 AI revenue and Goolsbee macro remarks. Primary/secondary proceeds, private placement, compute commitments, revenue and free cash flow are separated."
+        },
+        "india_asia": {
+          "material_found_in_window": true,
+          "details": "Delta India growth target, Lenovo AI infrastructure results, TSMC restrictions, US chip approvals and Asian equity repricing. No new India foundation-model launch or national AI policy decision verified."
+        },
+        "policy_law_copyright_society": {
+          "material_found_in_window": true,
+          "details": "BIS rule effective, GAO safety audit, US chip licence disclosure and Australian data-centre public objections. No new copyright court ruling verified."
+        },
+        "open_weights_local_inference": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched open-weight release or local-inference runtime change verified."
+        },
+        "hbm_packaging_networking": {
+          "material_found_in_window": true,
+          "details": "BIS/TSMC restrictions explicitly affect HBM and advanced packaging in the reported guidance; no new HBM allocation or packaging/networking product release verified."
+        },
+        "india_policy_models": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched India foundation-model launch or AI policy decision verified; Delta Electronics India supplier target is covered."
+        }
+      },
+      "community_signal_audit": {
+        "platforms": [
+          "X",
+          "Reddit",
+          "YouTube",
+          "GitHub",
+          "Hugging Face",
+          "Product Hunt",
+          "arXiv"
+        ],
+        "verified_promoted": 0,
+        "reason": "No community-only signal qualified. Promoted claims were checked against primary government, company, status, research or independent-reporting sources."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_enumerated": true,
+        "all_archive_index_paths_reopened": false,
+        "archive_issue_files_enumerated": 47,
+        "archive_issue_files_reopened_this_run": 8,
+        "archive_issue_files_checked": 8,
+        "archive_pages_reopened_this_run": [
+          "archive/2026-11-17.html",
+          "archive/2026-11-17-edition-2.html",
+          "archive/2026-11-18.html",
+          "archive/2026-11-18-edition-2.html",
+          "archive/2026-11-18-edition-3.html",
+          "archive/2026-11-19.html",
+          "archive/2026-11-19-edition-2.html",
+          "archive/2026-11-19-edition-3.html"
+        ],
+        "archive_pages_not_checked": [
+          "archive/2026-11-16.html",
+          "archive/2026-11-16-edition-2.html",
+          "archive/2026-11-15.html",
+          "archive/2026-11-15-edition-2.html",
+          "archive/2026-11-14.html",
+          "archive/2026-11-13.html",
+          "archive/2026-11-13-edition-4.html",
+          "archive/2026-11-13-edition-3.html",
+          "archive/2026-11-13-edition-2.html",
+          "archive/2026-11-12.html",
+          "archive/2026-11-12-edition-2.html",
+          "archive/2026-11-11.html",
+          "archive/2026-11-10.html",
+          "archive/2026-11-10-edition-3.html",
+          "archive/2026-11-10-edition-2.html",
+          "archive/2026-11-09.html",
+          "archive/2026-11-09-edition-2.html",
+          "archive/2026-11-08.html",
+          "archive/2026-11-07.html",
+          "archive/2026-11-07-edition-2.html",
+          "archive/2026-11-06.html",
+          "archive/2026-11-05.html",
+          "archive/2026-11-05-edition-2.html",
+          "archive/2026-11-04.html",
+          "archive/2026-11-04-edition-5.html",
+          "archive/2026-11-04-edition-4.html",
+          "archive/2026-11-04-edition-3.html",
+          "archive/2026-11-04-edition-2.html",
+          "archive/2026-11-03.html",
+          "archive/2026-11-03-edition-2.html",
+          "archive/2026-10-31.html",
+          "archive/2026-10-31-edition-4.html",
+          "archive/2026-10-31-edition-3.html",
+          "archive/2026-10-31-edition-2.html",
+          "archive/2026-10-30.html",
+          "archive/2026-10-29.html",
+          "archive/2026-10-28.html",
+          "archive/2026-10-28-current.html",
+          "archive/2026-10-28-current-v2.html"
+        ],
+        "historical_registry_complete_before_append": true,
+        "backfill_required": false,
+        "backfill_story_records_added": 0,
+        "backfill_edition_records_added": 0,
+        "archive_index_links_added": [
+          "archive/2026-11-20.html"
+        ],
+        "archive_index_dated_entries_before": 47,
+        "archive_index_dated_entries_after": 48,
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true,
+        "root_index_updated": false,
+        "homepage_exact_match_verified": false
+      },
+      "issue_blob_sha": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
+      "archive_index_blob_sha_after": "009320d185667e6dcd61b783f919d3f6b87dd8f0",
+      "root_index_blob_sha_before": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
+      "root_index_update_pending": true,
+      "homepage_match_verified": false,
+      "local_file_created": false,
+      "local_file_note": "Local copy not yet verified; no sandbox link claimed.",
+      "manual_html_validation": {
+        "doctype": true,
+        "required_section_ids": true,
+        "main_desk_story_count": 8,
+        "main_impact_panels": 8,
+        "more_signals_count": 8,
+        "total_story_cards": 16,
+        "external_source_links": 49,
+        "search_filter": true,
+        "desk_filter": true,
+        "native_speech_controls": true,
+        "share_file_attachment_with_manual_fallback": true,
+        "print_pdf_styles": true,
+        "third_party_scripts": false
+      },
+      "registry_story_count_before": 362,
+      "registry_story_count_after": 375,
+      "registry_edition_count_before": 49,
+      "registry_edition_count_after": 50,
+      "append_only": true,
+      "netlify_deployment_claimed": false,
+      "human_editorial_pass": true,
+      "external_linter_run": false,
+      "coverage_gap_note": "One cross-beat sweep targeted 90 distinct domains, overshooting the requested 50–60 because the grouped domain filters were broader than intended. 28 distinct URLs opened across 17 domains; 20 date-matched pages across 11 domains. The BSI official English page failed; its assessment is attributed to Reuters. House committee PDFs linked via Scribd were not opened. TSMC implementation is reported by Reuters from sources and reviewed guidance, not a public TSMC announcement. NereidVLA remains a preprint with no independent reproduction. Thirty-nine dated archive pages were not reopened individually; the registry was used for semantic deduplication.",
+      "root_index_blob_sha_after": null,
+      "homepage_exact_match_verified_at": null,
+      "publication_verification": {
+        "verified_at": "2026-11-20T08:53:32+05:30",
+        "branch": "main",
+        "issue_path": "archive/2026-11-20.html",
+        "issue_blob_sha": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
+        "archive_index_path": "archive/index.html",
+        "archive_index_blob_sha_before_update": "b4f7cf06c81562c2d974114bc194de7752f9e63e",
+        "archive_index_blob_sha_after": "009320d185667e6dcd61b783f919d3f6b87dd8f0",
+        "registry_path": "archive/story-index.json",
+        "registry_blob_sha_before_update": "af237a87a1cc094c56f58ab48b272f8e03fa1120",
+        "root_index_path": "index.html",
+        "root_index_blob_sha_before_update": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
+        "root_index_update_pending": true,
         "netlify_deployment_claimed": false
       }
     }
@@ -14706,7 +15215,7 @@
         "advanced AI chips",
         "overseas data centres"
       ],
-      "event_summary": "BIS issued an interim final rule adding licensing and diligence requirements for covered advanced-chip transfers and overseas data-centre arrangements that provide significant compute to restricted-country firms. The rule specifies a 12M TPP threshold, five destination countries and a 90-day transition after the actual effective date; the posted text still contains Federal Register date placeholders.",
+      "event_summary": "The BIS interim final rule was published in the Federal Register on 19 November 2026 and took effect that day. Comments are due 19 January 2027. It establishes licensing and due-diligence requirements for covered remote compute to Macau/D:5 entities and specified destination-based chip transfers; Reuters reports TSMC has halted affected Chinese customer orders at 16nm and below without US licences.",
       "canonical_urls": [
         "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
         "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/",
@@ -14717,7 +15226,8 @@
       "first_edition_date": "2026-11-17",
       "first_edition_path": "archive/2026-11-17.html",
       "edition_paths": [
-        "archive/2026-11-17.html"
+        "archive/2026-11-17.html",
+        "archive/2026-11-20.html"
       ],
       "follow_up_of": "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
       "prior_issue_path": "archive/2026-11-12.html",
@@ -14729,6 +15239,17 @@
           "label": "FOLLOW-UP / UPDATE",
           "prior_issue_path": "archive/2026-11-12.html",
           "material_change": "BIS moved from delay / policy review to an issued interim final rule specifying remote-access licensing, a 12M TPP threshold, five destination countries and a 90-day transition after effectiveness."
+        },
+        {
+          "date": "2026-11-20",
+          "path": "archive/2026-11-20.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-19-edition-3.html",
+          "material_change": "The Federal Register published the rule and confirmed its 19 November effective date and 19 January 2027 comment deadline. Reuters reports TSMC’s implementation: affected Chinese customer orders at 16nm and below are halted absent US licences, with 28/40nm generally allowed only without HBM or advanced packaging.",
+          "canonical_urls": [
+            "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+            "https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/"
+          ]
         }
       ],
       "source_domains": [
@@ -14762,7 +15283,12 @@
       "desk": "policy_compute",
       "verification_level": "Primary BIS release and rule text; cross-checked with Reuters, TechCrunch and legal analysis.",
       "repeat_status": "material_follow_up",
-      "status": "verified"
+      "status": "verified",
+      "latest_status_update": {
+        "published_date": "2026-11-19",
+        "summary": "Rule published and effective; comments due 19 January 2027. Reuters reports TSMC’s new customer-order guidance for affected Chinese chip designers.",
+        "source_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
+      }
     },
     {
       "story_id": "event-google-gtig-agentic-threat-tracker-2026-11-16",
@@ -15821,9 +16347,21 @@
       "edition_paths": [
         "archive/2026-11-19.html",
         "archive/2026-11-19-edition-2.html",
-        "archive/2026-11-19-edition-3.html"
+        "archive/2026-11-19-edition-3.html",
+        "archive/2026-11-20.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-20",
+          "path": "archive/2026-11-20.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-19-edition-3.html",
+          "material_change": "GitHub added Gemini 4 Neon to Copilot across eligible plans and clients. This changes developer access and distribution, not the model version, benchmarks or Google API list price.",
+          "canonical_urls": [
+            "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/"
+          ]
+        }
+      ],
       "source_metadata": [
         {
           "publisher": "Google",
@@ -15858,7 +16396,12 @@
       "repeat_status": "new",
       "status": "verified",
       "delivery_note": "",
-      "material_change_note": "New GA model release, paid API price and context disclosed; independent benchmark results not yet available."
+      "material_change_note": "New GA model release, paid API price and context disclosed; independent benchmark results not yet available.",
+      "latest_status_update": {
+        "published_date": "2026-11-18",
+        "summary": "Gemini 4 Neon added to GitHub Copilot for eligible Pro+, Max, Business and Enterprise plans across multiple clients, with gradual rollout and provider-list usage billing.",
+        "source_url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/"
+      }
     },
     {
       "story_id": "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
@@ -15927,9 +16470,21 @@
       "edition_paths": [
         "archive/2026-11-19.html",
         "archive/2026-11-19-edition-2.html",
-        "archive/2026-11-19-edition-3.html"
+        "archive/2026-11-19-edition-3.html",
+        "archive/2026-11-20.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-20",
+          "path": "archive/2026-11-20.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-19-edition-3.html",
+          "material_change": "Anthropic completed its first Nasdaq session; shares closed at US$97.17, 17% above the US$83 offer price, after opening at US$111.50. This adds first-day trading data; the earlier IPO price and share mix are unchanged.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+          ]
+        }
+      ],
       "source_metadata": [
         {
           "publisher": "Anthropic",
@@ -15966,7 +16521,12 @@
       "delivery_note": "",
       "follow_up_of": "event-anthropic-ipo-investor-valuation-pushback-roadshow-risk-2026-11-05",
       "prior_issue_path": "archive/2026-11-13.html",
-      "material_change": "Final US$83 offer price, 980m-share mix, Nasdaq ticker ANT and 19/20 November trading/closing timetable; primary proceeds are distinguished from secondary sales and the earlier separate private placement."
+      "material_change": "Final US$83 offer price, 980m-share mix, Nasdaq ticker ANT and 19/20 November trading/closing timetable; primary proceeds are distinguished from secondary sales and the earlier separate private placement.",
+      "latest_status_update": {
+        "published_date": "2026-11-19",
+        "summary": "First Nasdaq session completed; shares closed at US$97.17, 17% above the US$83 offer price, after opening at US$111.50.",
+        "source_url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+      }
     },
     {
       "story_id": "event-bis-remote-access-rule-scheduled-2026-11-19",
@@ -16720,6 +17280,651 @@
       "status": "verified",
       "delivery_note": "",
       "material_change_note": "New date-matched 34-minute Copilot model-provider availability incident; mitigated at 09:13 UTC and resolved at 09:34 UTC."
+    },
+    {
+      "story_id": "event-gao-covert-ai-attack-plan-audit-2026-11-18",
+      "normalized_subject": "gao covert testing common ai platforms feasible attack plans",
+      "normalized_headline": "GAO says four popular AI platforms generated feasible attack-planning information after safeguard bypasses",
+      "entities": [
+        "US Government Accountability Office",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "xAI",
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Grok"
+      ],
+      "event_summary": "GAO-27-108814 was publicly released 18 November. It describes spring 2026 covert tests of ChatGPT, Claude, Gemini and Grok; after common safeguard-bypass techniques, all four produced feasible harmful planning information within 12 hours. The report anonymises which platform produced which scenario and does not describe real-world attacks or current-version testing.",
+      "canonical_urls": [
+        "https://www.gao.gov/products/gao-27-108814",
+        "https://files.gao.gov/reports/GAO-27-108814/index.html",
+        "https://www.hassan.senate.gov/news/press-releases/major-ai-platforms-generated-terrorist-attack-plans-during-independent-government-audit"
+      ],
+      "original_publication_date": "2026-10-16",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "US Government Accountability Office",
+          "source_class": "primary government audit",
+          "role": "Test scope, findings, timing and limitations",
+          "published_date": "2026-11-18",
+          "url": "https://www.gao.gov/products/gao-27-108814"
+        },
+        {
+          "publisher": "US Government Accountability Office",
+          "source_class": "full audit report",
+          "role": "Methodology, company comments and technical context",
+          "published_date": "2026-11-18",
+          "url": "https://files.gao.gov/reports/GAO-27-108814/index.html"
+        },
+        {
+          "publisher": "Senator Maggie Hassan",
+          "source_class": "government press release",
+          "role": "Public-release context and legislative response",
+          "published_date": "2026-11-18",
+          "url": "https://www.hassan.senate.gov/news/press-releases/major-ai-platforms-generated-terrorist-attack-plans-during-independent-government-audit"
+        }
+      ],
+      "source_domains": [
+        "gao.gov",
+        "files.gao.gov",
+        "hassan.senate.gov"
+      ],
+      "desk": "security",
+      "evidence_confidence": "High on test method and findings from the full GAO report; tests date to spring 2026 and do not benchmark current production versions.",
+      "verification_level": "Full GAO report read; Senate press release cross-check. GAO withholds platform-to-scenario mapping and operational details.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-us-house-ai-chip-license-approvals-china-2026-11-19",
+      "normalized_subject": "us house committee discloses advanced ai chip export licence approvals to china",
+      "normalized_headline": "US House committee discloses 879,000 AI-chip export approvals to China",
+      "entities": [
+        "US House Foreign Affairs Committee",
+        "US Bureau of Industry and Security",
+        "NVIDIA",
+        "AMD",
+        "Alibaba",
+        "Tencent",
+        "Baidu",
+        "BYD"
+      ],
+      "event_summary": "The House Foreign Affairs Committee disclosed that BIS approved more than 879,000 AI-chip export shipments to Chinese companies between December 2025 and May 2026, from requests covering more than 3.4 million chips. Reuters reports approvals for Alibaba, Tencent, Baidu and BYD. The number actually delivered is unclear; approvals are not confirmed shipments.",
+      "canonical_urls": [
+        "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+        "https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "US House Foreign Affairs Committee",
+          "source_class": "primary committee disclosure",
+          "role": "Release date and headline approval/request totals",
+          "published_date": "2026-11-19",
+          "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china"
+        },
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Recipient breakdown, delivery uncertainty and company responses",
+          "published_date": "2026-11-19",
+          "url": "https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/"
+        }
+      ],
+      "source_domains": [
+        "foreignaffairs.house.gov",
+        "reuters.com"
+      ],
+      "desk": "compute",
+      "evidence_confidence": "High that the committee released approval figures and Reuters cross-checked recipients; actual delivery volume remains unknown.",
+      "verification_level": "Committee press release and Reuters report read; underlying licensing PDFs linked via Scribd were not opened.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-anthropic-western-downs-data-centre-opposition-2026-11-20",
+      "normalized_subject": "anthropic western downs digital park 1.44gw project resident objections",
+      "normalized_headline": "Anthropic-backed 1.44GW Australian data-centre proposal faces 595 objections or delay requests",
+      "entities": [
+        "Anthropic",
+        "Zerra DC",
+        "Western Downs Digital Park",
+        "Queensland"
+      ],
+      "event_summary": "A project filing reported by Reuters shows 595 of nearly 600 public submissions opposed the proposed Western Downs Digital Park or requested delay pending environmental work; two supported it and one was neutral. Anthropic is named as anchor tenant and planned compute load is 1.44GW. Submissions are not binding and the project has not been rejected.",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/anthropics-australian-data-centre-overwhelmingly-opposed-by-residents-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting based on project filing",
+          "role": "Submission counts, project load and stated community concerns",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/world/asia-pacific/anthropics-australian-data-centre-overwhelmingly-opposed-by-residents-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "reuters.com"
+      ],
+      "desk": "business",
+      "evidence_confidence": "High on the reported filing counts and project load; final planning and permit outcome remains unknown.",
+      "verification_level": "Reuters report read; original project filing was not independently retrieved.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-lenovo-q2-ai-revenue-infrastructure-2026-11-19",
+      "normalized_subject": "lenovo q2 fy2026 27 ai related revenue and infrastructure group growth",
+      "normalized_headline": "Lenovo reports 79% AI-revenue growth and record infrastructure quarter",
+      "entities": [
+        "Lenovo",
+        "Infrastructure Solutions Group",
+        "AI servers",
+        "data-centre infrastructure"
+      ],
+      "event_summary": "Lenovo reported Q2 FY2026/27 group revenue of US$30.2bn, AI-related revenue of US$10.8bn, Infrastructure Solutions Group revenue of US$11.3bn and US$1.2bn free cash flow. Reuters reports a separate HKFRS net loss of US$640m versus adjusted net income of US$1.36bn; accounting measures differ.",
+      "canonical_urls": [
+        "https://news.lenovo.com/pressroom/press-releases/q2-fy-2026-27/",
+        "https://investor.lenovo.com/en/financial/results/press_2627_q2.pdf",
+        "https://www.investing.com/news/stock-market-news/lenovo-posts-48-revenue-jump-on-airelated-sales-beating-estimates-5037797"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Lenovo",
+          "source_class": "primary earnings release",
+          "role": "Revenue, AI-related revenue and segment performance",
+          "published_date": "2026-11-19",
+          "url": "https://news.lenovo.com/pressroom/press-releases/q2-fy-2026-27/"
+        },
+        {
+          "publisher": "Lenovo Investor Relations",
+          "source_class": "primary financial results",
+          "role": "Cash flow and financial statement detail",
+          "published_date": "2026-11-19",
+          "url": "https://investor.lenovo.com/en/financial/results/press_2627_q2.pdf"
+        },
+        {
+          "publisher": "Reuters",
+          "source_class": "independent earnings reporting",
+          "role": "HKFRS loss versus adjusted profit distinction",
+          "published_date": "2026-11-19",
+          "url": "https://www.investing.com/news/stock-market-news/lenovo-posts-48-revenue-jump-on-airelated-sales-beating-estimates-5037797"
+        }
+      ],
+      "source_domains": [
+        "news.lenovo.com",
+        "investor.lenovo.com",
+        "reuters.com"
+      ],
+      "desk": "business",
+      "evidence_confidence": "High on official company results and cash-flow figures; AI-related revenue is company-defined and not AI-only profit or capex.",
+      "verification_level": "Lenovo press release and results PDF read; Reuters earnings report cross-checks accounting distinctions.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-bsi-germany-threat-assessment-ai-2026-11-19",
+      "normalized_subject": "germany bsi threat assessment tense to critical ai cyber risk",
+      "normalized_headline": "Germany’s BSI raises IT-security assessment to tense-to-critical, citing AI-enabled attacks",
+      "entities": [
+        "Germany BSI",
+        "Germany",
+        "critical infrastructure",
+        "AI cybersecurity"
+      ],
+      "event_summary": "Reuters reports Germany’s BSI raised its annual threat assessment from tense to tense-to-critical. The BSI Cyber Index reached 238 by mid-2026, versus 124 at the same point in 2025; the agency warns AI can make vulnerability discovery and attacks faster, cheaper and more targeted.",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/litigation/german-authorities-lift-threat-level-it-security-tense-critical-2026-11-19/",
+        "https://www.bsi.bund.de/"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Threat assessment, index and AI-related warning",
+          "published_date": "2026-11-19",
+          "url": "https://www.reuters.com/legal/litigation/german-authorities-lift-threat-level-it-security-tense-critical-2026-11-19/"
+        },
+        {
+          "publisher": "Germany BSI",
+          "source_class": "primary government source attempted",
+          "role": "Official annual report and supporting methodology",
+          "published_date": "2026-11-19",
+          "url": "https://www.bsi.bund.de/"
+        }
+      ],
+      "source_domains": [
+        "reuters.com",
+        "bsi.bund.de"
+      ],
+      "desk": "security",
+      "evidence_confidence": "Medium-high: Reuters report read; the official BSI English report page failed to load in this run.",
+      "verification_level": "Reuters read; BSI official report page inaccessible, so the report details are attributed to Reuters.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-nereidvla-underwater-vla-pool-trials-2026-11-18",
+      "normalized_subject": "nereidvla underwater vision language action model pool trials",
+      "normalized_headline": "NereidVLA preprint reports 78.75% success in laboratory-pool underwater robot trials",
+      "entities": [
+        "NereidVLA",
+        "Sea2Know",
+        "Zhejiang University",
+        "Harbin Engineering University",
+        "Nanyang Technological University",
+        "University of Auckland"
+      ],
+      "event_summary": "The 18 November arXiv preprint introduces an underwater vision-language-action model trained with marine-domain data and expert trajectories. Authors report simulation success rising from 72.4% to 84.4% and 78.75% success in laboratory-pool robot trials versus 47.5% for InternVLA-N1. No independent reproduction or open-water validation was verified.",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.24864",
+        "https://github.com/SKY-Zhu-91/NereidVLA"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "arXiv",
+          "source_class": "research preprint",
+          "role": "Method, date, simulation and pool-trial results",
+          "published_date": "2026-11-18",
+          "url": "https://arxiv.org/abs/2611.24864"
+        },
+        {
+          "publisher": "Research authors",
+          "source_class": "author-linked project repository",
+          "role": "Code and supplementary project material",
+          "published_date": "2026-11-18",
+          "url": "https://github.com/SKY-Zhu-91/NereidVLA"
+        }
+      ],
+      "source_domains": [
+        "arxiv.org",
+        "github.com"
+      ],
+      "desk": "research",
+      "evidence_confidence": "Medium on the author-reported results; preprint only, no independent reproduction or open-water testing.",
+      "verification_level": "Preprint and linked repository checked; no independent reproduction.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-delta-electronics-india-ai-data-centre-target-2026-11-19",
+      "normalized_subject": "delta electronics india revenue target ai data center power cooling",
+      "normalized_headline": "Delta Electronics targets at least threefold India revenue growth on AI infrastructure demand",
+      "entities": [
+        "Delta Electronics",
+        "India",
+        "AI data centres",
+        "power systems",
+        "cooling"
+      ],
+      "event_summary": "Delta Electronics told Reuters it aims to at least triple India revenue over four to five years, with data-centre power and cooling equipment a major driver. It expects data-centre and telecom business to rise from 40–42% to 50–55% of India revenue; this is a management target and no standalone India revenue figure was disclosed.",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/taiwans-delta-electronics-looks-triple-india-revenue-4-5-years-ai-boom-2026-11-19/",
+        "https://www.business-standard.com/amp/companies/news/delta-electronics-looks-to-triple-india-revenue-in-4-5-years-on-ai-boom-126111900344_1.html"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent company interview/reporting",
+          "role": "India growth target, segment mix and hiring plans",
+          "published_date": "2026-11-19",
+          "url": "https://www.reuters.com/world/asia-pacific/taiwans-delta-electronics-looks-triple-india-revenue-4-5-years-ai-boom-2026-11-19/"
+        },
+        {
+          "publisher": "Business Standard",
+          "source_class": "syndicated reporting",
+          "role": "Cross-check of reported target",
+          "published_date": "2026-11-19",
+          "url": "https://www.business-standard.com/amp/companies/news/delta-electronics-looks-to-triple-india-revenue-in-4-5-years-on-ai-boom-126111900344_1.html"
+        }
+      ],
+      "source_domains": [
+        "reuters.com",
+        "business-standard.com"
+      ],
+      "desk": "regional",
+      "evidence_confidence": "Medium-high on the management target as reported by Reuters; standalone revenue and signed project pipeline were not disclosed.",
+      "verification_level": "Reuters report read; target is forward-looking and not a confirmed revenue result.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-github-copilot-mcp-connectors-eight-2026-11-18",
+      "normalized_subject": "github copilot adds eight mcp connectors",
+      "normalized_headline": "GitHub adds eight verified MCP connectors to Copilot public preview",
+      "entities": [
+        "GitHub",
+        "GitHub Copilot",
+        "MCP",
+        "Box",
+        "Buildkite",
+        "Calendly",
+        "ClickUp",
+        "Mixpanel",
+        "Supabase",
+        "Webflow",
+        "Wix"
+      ],
+      "event_summary": "GitHub added Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow and Wix to Copilot MCP connectors. The connectors are in public preview and may require administrator enablement, allowlisting and service-side approval.",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "GitHub",
+          "source_class": "primary product changelog",
+          "role": "Connector list, preview status and admin requirements",
+          "published_date": "2026-11-18",
+          "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/"
+        }
+      ],
+      "source_domains": [
+        "github.blog"
+      ],
+      "desk": "developer",
+      "evidence_confidence": "High on availability and admin prerequisites from GitHub Changelog; public preview may change.",
+      "verification_level": "GitHub Changelog read.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-github-cli-event-streams-preview-2026-11-18",
+      "normalized_subject": "github cli event streams gh event listen preview",
+      "normalized_headline": "GitHub CLI adds event-driven pull-request waits through Event Streams preview",
+      "entities": [
+        "GitHub",
+        "GitHub CLI",
+        "Event Streams",
+        "pull requests",
+        "coding agents"
+      ],
+      "event_summary": "GitHub CLI 2.105.0 adds gh event listen so scripts and agents can wait for pull-request review, state, head, merge-conflict and check-suite events rather than poll. Event Streams is in preview and requires waitlist access.",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "GitHub",
+          "source_class": "primary product changelog",
+          "role": "CLI command, event types and preview prerequisites",
+          "published_date": "2026-11-18",
+          "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/"
+        }
+      ],
+      "source_domains": [
+        "github.blog"
+      ],
+      "desk": "developer",
+      "evidence_confidence": "High on feature and preview status from GitHub Changelog; Event Streams access is not universal.",
+      "verification_level": "GitHub Changelog read.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-github-team-security-risk-assessments-2026-11-18",
+      "normalized_subject": "github team automatic security risk assessments",
+      "normalized_headline": "GitHub Team makes security risk assessments automatic",
+      "entities": [
+        "GitHub",
+        "GitHub Team",
+        "GitHub Security"
+      ],
+      "event_summary": "GitHub announced general availability of automatic security risk assessments for GitHub Team organizations, covering exposed credentials and code vulnerabilities. Admins and security managers can review findings and prioritise remediation.",
+      "canonical_urls": [
+        "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/"
+      ],
+      "original_publication_date": "2026-11-18",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "GitHub",
+          "source_class": "primary product changelog",
+          "role": "Feature scope and general-availability status",
+          "published_date": "2026-11-18",
+          "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/"
+        }
+      ],
+      "source_domains": [
+        "github.blog"
+      ],
+      "desk": "security",
+      "evidence_confidence": "High on feature availability from GitHub Changelog; automated findings still require triage and remediation.",
+      "verification_level": "GitHub Changelog read.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-claude-github-service-reliability-incidents-2026-11-19",
+      "normalized_subject": "claude and github copilot model provider availability incidents 19 november",
+      "normalized_headline": "Claude and GitHub Copilot recover from brief model-provider errors; GitHub session-renewal bug fixed",
+      "entities": [
+        "Anthropic",
+        "Claude Mythos 5.2",
+        "Claude Fable 5.2",
+        "GitHub",
+        "GitHub Copilot",
+        "GPT-6 Luna"
+      ],
+      "event_summary": "Claude Mythos 5.2 and Fable 5.2 had elevated errors for about 15 minutes on 19 November. GitHub Copilot GPT-6 Luna availability degraded for about 41 minutes due to an upstream provider. GitHub also fixed a session-renewal bug dating from 5 November and explicitly said the sign-outs were not a security incident. Status pages showed all systems operational at the 20 November cut-off.",
+      "canonical_urls": [
+        "https://status.claude.com/",
+        "https://www.githubstatus.com/",
+        "https://status.openai.com/"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Anthropic Status",
+          "source_class": "primary service-status history",
+          "role": "Mythos 5.2 and Fable 5.2 incident timeline and recovery",
+          "published_date": "2026-11-19",
+          "url": "https://status.claude.com/"
+        },
+        {
+          "publisher": "GitHub Status",
+          "source_class": "primary service-status history",
+          "role": "GPT-6 Luna incident, session-renewal bug and no-security-incident statement",
+          "published_date": "2026-11-19",
+          "url": "https://www.githubstatus.com/"
+        },
+        {
+          "publisher": "OpenAI Status",
+          "source_class": "primary service-status snapshot",
+          "role": "Current operational status cross-check",
+          "published_date": "2026-11-20",
+          "url": "https://status.openai.com/"
+        }
+      ],
+      "source_domains": [
+        "status.claude.com",
+        "githubstatus.com",
+        "status.openai.com"
+      ],
+      "desk": "reliability",
+      "evidence_confidence": "High on timelines and recovery from primary status pages; root-cause detail for upstream model-provider issues remains limited.",
+      "verification_level": "Official status histories read; no attack or breach reported.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-fed-goolsbee-ai-capacity-inflation-2026-11-19",
+      "normalized_subject": "fed goolsbee ai investment capacity inflation risk",
+      "normalized_headline": "Fed’s Goolsbee says AI investment boom could strain capacity and raise inflation pressure",
+      "entities": [
+        "Austan Goolsbee",
+        "Federal Reserve Bank of Chicago",
+        "AI data centres",
+        "Anthropic"
+      ],
+      "event_summary": "Chicago Fed President Austan Goolsbee said the multitrillion-dollar data-centre project pipeline could push US demand beyond capacity and add inflation pressure. He also said Anthropic’s IPO liquidity could become macro-relevant. These are his remarks, not an FOMC decision or a policy-rate change.",
+      "canonical_urls": [
+        "https://www.reuters.com/business/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-2026-11-19/"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent economic reporting",
+          "role": "Goolsbee remarks on AI capex, capacity and inflation",
+          "published_date": "2026-11-19",
+          "url": "https://www.reuters.com/business/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-2026-11-19/"
+        }
+      ],
+      "source_domains": [
+        "reuters.com"
+      ],
+      "desk": "business",
+      "evidence_confidence": "High that Reuters accurately reports the remarks; they are one policymaker’s comments, not committee policy.",
+      "verification_level": "Reuters report read; no policy action was announced.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
+    },
+    {
+      "story_id": "event-ai-linked-asian-market-selloff-2026-11-20",
+      "normalized_subject": "ai trade selloff asian equities worst week since 2020",
+      "normalized_headline": "Asian equities head for worst week since 2020 as AI trade selloff deepens",
+      "entities": [
+        "Asian equity markets",
+        "MSCI Asia Pacific",
+        "Taiwan",
+        "AI infrastructure stocks",
+        "Anthropic"
+      ],
+      "event_summary": "Reuters reports MSCI Asia-Pacific shares outside Japan fell 3.2% on Friday and 8.3% for the week; Taiwan shares were down 16% for the week. Reuters cites crowded positioning, debt concerns, data-centre opposition and broader macro uncertainty; no single AI event explains the move.",
+      "canonical_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-20",
+      "first_edition_path": "archive/2026-11-20.html",
+      "edition_paths": [
+        "archive/2026-11-20.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent market reporting",
+          "role": "Asian index moves and reported drivers of AI-linked risk repricing",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "reuters.com"
+      ],
+      "desk": "business",
+      "evidence_confidence": "High on reported market moves; causal attribution is mixed and Reuters does not attribute the selloff to one AI headline.",
+      "verification_level": "Reuters market report read; this is market context, not a measure of AI demand or model quality.",
+      "verification_status": "verified",
+      "repeat_status": "new",
+      "status": "verified",
+      "material_change_note": ""
     }
   ],
   "archive_backfill_audit": [
@@ -16765,5 +17970,5 @@
       "note": "An accessible 19 November edition-2 snapshot was absent from archive/index.html and the editions registry. Its 15 story IDs already existed in the registry. Added the archive link and edition mapping, linked the existing story records to the preserved snapshot, and left the HTML unchanged."
     }
   ],
-  "last_updated_edition": "archive/2026-11-19-edition-3.html"
+  "last_updated_edition": "archive/2026-11-20.html"
 }
