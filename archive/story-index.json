@@ -6615,16 +6615,17 @@
         "archive_index_dated_entries_after": 48,
         "prior_records_removed": 0,
         "earlier_same_day_editions_preserved": true,
-        "root_index_updated": false,
-        "homepage_exact_match_verified": false
+        "root_index_updated": true,
+        "homepage_exact_match_verified": true,
+        "root_index_blob_sha_after": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a"
       },
       "issue_blob_sha": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
       "archive_index_blob_sha_after": "009320d185667e6dcd61b783f919d3f6b87dd8f0",
       "root_index_blob_sha_before": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
-      "root_index_update_pending": true,
-      "homepage_match_verified": false,
+      "root_index_update_pending": false,
+      "homepage_match_verified": true,
       "local_file_created": false,
-      "local_file_note": "Local copy not yet verified; no sandbox link claimed.",
+      "local_file_note": "Local file not yet verified; no sandbox link claimed.",
       "manual_html_validation": {
         "doctype": true,
         "required_section_ids": true,
@@ -6632,13 +6633,13 @@
         "main_impact_panels": 8,
         "more_signals_count": 8,
         "total_story_cards": 16,
-        "external_source_links": 49,
+        "external_source_links": 50,
         "search_filter": true,
         "desk_filter": true,
         "native_speech_controls": true,
         "share_file_attachment_with_manual_fallback": true,
         "print_pdf_styles": true,
-        "third_party_scripts": false
+        "third_party_scripts": true
       },
       "registry_story_count_before": 362,
       "registry_story_count_after": 375,
@@ -6649,8 +6650,8 @@
       "human_editorial_pass": true,
       "external_linter_run": false,
       "coverage_gap_note": "One cross-beat sweep targeted 90 distinct domains, overshooting the requested 50–60 because the grouped domain filters were broader than intended. 28 distinct URLs opened across 17 domains; 20 date-matched pages across 11 domains. The BSI official English page failed; its assessment is attributed to Reuters. House committee PDFs linked via Scribd were not opened. TSMC implementation is reported by Reuters from sources and reviewed guidance, not a public TSMC announcement. NereidVLA remains a preprint with no independent reproduction. Thirty-nine dated archive pages were not reopened individually; the registry was used for semantic deduplication.",
-      "root_index_blob_sha_after": null,
-      "homepage_exact_match_verified_at": null,
+      "root_index_blob_sha_after": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
+      "homepage_exact_match_verified_at": "2026-11-20T08:53:32+05:30",
       "publication_verification": {
         "verified_at": "2026-11-20T08:53:32+05:30",
         "branch": "main",
@@ -6663,8 +6664,11 @@
         "registry_blob_sha_before_update": "af237a87a1cc094c56f58ab48b272f8e03fa1120",
         "root_index_path": "index.html",
         "root_index_blob_sha_before_update": "2ee2c4bb1da2c71db283fdcb6c0a15dae60721c1",
-        "root_index_update_pending": true,
-        "netlify_deployment_claimed": false
+        "root_index_update_pending": false,
+        "netlify_deployment_claimed": false,
+        "root_index_blob_sha_after": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
+        "root_exact_match": true,
+        "registry_blob_sha_before_final_audit": "760d38e64a830f9be7e7112470f18d5a0e071ce2"
       }
     }
   ],
