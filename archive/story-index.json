@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-20T08:53:32+05:30",
+  "last_updated_at": "2026-11-21T08:34:53.716+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.\n2026-11-19 edition 3: inspected root homepage, archive index and 359-story/47-edition registry. Enumerated 45 indexed dated archive paths and found one additional accessible but unindexed same-day file, archive/2026-11-19-edition-2.html; backfilled its edition mapping and archive link without creating duplicate story records or changing the file. Published edition 3 with 17 story cards (7 Main Desk, 10 More Signals), 14 unique new developments and three material follow-ups. Added three new story records: ANYmal simulator audit, PAIR smart-home benchmark and GitHub Copilot MAI Code 2 Flash outage. One cross-beat sweep targeted 89 distinct valid domains; 37 URLs opened across 24 domains, 16 direct date-matched sources across 13 domains. Thirty-eight indexed archive pages were not reopened individually. Append-only; no old records removed. Root homepage update follows issue, archive index and registry verification.\n2026-11-20 canonical daily edition: inspected root homepage, archive index, 362-story/49-edition registry and enumerated 47 dated archive files. Reopened eight recent 17–19 November issues; 39 older dated pages not reopened individually and deduplicated via registry. One cross-beat sweep targeted 90 domains (above requested 50–60), with 28 distinct URLs opened across 17 domains and 20 date-matched source pages across 11 domains. Published 16 story entries (8 Main Desk, 8 More Signals): 13 unique new records and three material follow-ups (Anthropic IPO first-day trading, BIS rule effective/TSMC implementation, Gemini 4 Neon Copilot access). Eleven repeat candidates excluded. No archive backfill required; canonical 20 November file created once. Registry append-only; no prior records removed. Root homepage update follows registry verification.",
   "editions": [
     {
@@ -6670,6 +6670,569 @@
         "root_exact_match": true,
         "registry_blob_sha_before_final_audit": "760d38e64a830f9be7e7112470f18d5a0e071ce2"
       }
+    },
+    {
+      "edition_id": "signal-2026-11-21",
+      "date": "2026-11-21",
+      "path": "archive/2026-11-21.html",
+      "title": "SIGNAL. — AI Daily | Saturday, 21 November 2026",
+      "edition_type": "canonical-daily",
+      "published_at": "2026-11-21T08:34:53.716+05:30",
+      "research_window_start": "2026-11-19T08:11:19+05:30",
+      "research_window_end": "2026-11-21T08:11:19+05:30",
+      "story_count": 24,
+      "new_story_count": 24,
+      "unique_new_verified_story_count": 17,
+      "main_desk_count": 11,
+      "more_signals_count": 13,
+      "community_radar_count": 0,
+      "follow_up_count": 7,
+      "story_ids": [
+        "event-nvidia-sec-accounting-probe-2026-11-20",
+        "event-oracle-openai-infrastructure-fully-funded-2026-11-20",
+        "event-anthropic-ipo-greenshoe-exercised-2026-11-20",
+        "event-signal-screen-security-blocks-ai-assistants-2026-11-20",
+        "event-alibaba-tencent-cloud-impact-us-chip-curbs-2026-11-20",
+        "event-ctrls-patna-150mw-data-centre-pact-2026-11-20",
+        "event-microsoft-aion-instruct-open-weights-edge-2026-11-19",
+        "event-google-gemini-api-tool-retrieval-2026-11-19",
+        "event-google-genie-4-api-availability-2026-11-19",
+        "event-cert-in-oracle-multi-product-advisory-civn-2026-0568-2026-11-20",
+        "event-openai-performance-factory-codex-regression-investigation-2026-11-19",
+        "event-google-gemini-mac-computer-use-2026-11-19",
+        "event-mindlab-macaron-v1-1-venti-pro-singapore-2026-11-20",
+        "event-ai-drug-discovery-preclinical-timelines-pharma-2026-11-20",
+        "event-databricks-225bn-fundraising-talks-2026-11-20",
+        "event-abb-robotics-listing-china-carveout-2026-11-20",
+        "event-cursor-considers-phaseout-chinese-ai-models-2026-11-20",
+        "event-un-lethal-autonomous-weapons-talks-deadline-no-deal-2026-11-20",
+        "event-agentrobocritic-action-level-robot-evaluation-2026-11-19",
+        "event-pgx-humanoid-long-horizon-control-2026-11-19",
+        "event-depth-pro-2-temporal-metric-depth-2026-11-19",
+        "event-scaleworld-causal-video-world-model-2026-11-19",
+        "event-openai-gpt6-luna-api-errors-2026-11-19",
+        "event-us-house-democrats-nvidia-megaspeed-inquiry-2026-11-20"
+      ],
+      "main_desk_story_ids": [
+        "event-nvidia-sec-accounting-probe-2026-11-20",
+        "event-oracle-openai-infrastructure-fully-funded-2026-11-20",
+        "event-anthropic-ipo-greenshoe-exercised-2026-11-20",
+        "event-signal-screen-security-blocks-ai-assistants-2026-11-20",
+        "event-alibaba-tencent-cloud-impact-us-chip-curbs-2026-11-20",
+        "event-ctrls-patna-150mw-data-centre-pact-2026-11-20",
+        "event-microsoft-aion-instruct-open-weights-edge-2026-11-19",
+        "event-google-gemini-api-tool-retrieval-2026-11-19",
+        "event-google-genie-4-api-availability-2026-11-19",
+        "event-cert-in-oracle-multi-product-advisory-civn-2026-0568-2026-11-20",
+        "event-openai-performance-factory-codex-regression-investigation-2026-11-19"
+      ],
+      "more_signals_story_ids": [
+        "event-google-gemini-mac-computer-use-2026-11-19",
+        "event-mindlab-macaron-v1-1-venti-pro-singapore-2026-11-20",
+        "event-ai-drug-discovery-preclinical-timelines-pharma-2026-11-20",
+        "event-databricks-225bn-fundraising-talks-2026-11-20",
+        "event-abb-robotics-listing-china-carveout-2026-11-20",
+        "event-cursor-considers-phaseout-chinese-ai-models-2026-11-20",
+        "event-un-lethal-autonomous-weapons-talks-deadline-no-deal-2026-11-20",
+        "event-agentrobocritic-action-level-robot-evaluation-2026-11-19",
+        "event-pgx-humanoid-long-horizon-control-2026-11-19",
+        "event-depth-pro-2-temporal-metric-depth-2026-11-19",
+        "event-scaleworld-causal-video-world-model-2026-11-19",
+        "event-openai-gpt6-luna-api-errors-2026-11-19",
+        "event-us-house-democrats-nvidia-megaspeed-inquiry-2026-11-20"
+      ],
+      "community_story_ids": [],
+      "material_followups": [
+        {
+          "story_id": "event-oracle-openai-infrastructure-fully-funded-2026-11-20",
+          "follow_up_of": "event-nvidia-and-oracle-plan-a-multi-gigawatt-vera-rubin-expansion",
+          "prior_issue_path": "archive/2026-10-28-current-v2.html",
+          "material_change": "Oracle now says financing is in place, Abilene is nearly complete and the next campus is fully permitted; 4.5 GW remains planned, not commissioned."
+        },
+        {
+          "story_id": "event-anthropic-ipo-greenshoe-exercised-2026-11-20",
+          "follow_up_of": "event-anthropic-ipo-priced-83-2026-11-18",
+          "prior_issue_path": "archive/2026-11-20.html",
+          "material_change": "Full 147m-share greenshoe exercised, lifting gross IPO proceeds from US$81.34bn to about US$93.5bn; day-two trading was lower."
+        },
+        {
+          "story_id": "event-signal-screen-security-blocks-ai-assistants-2026-11-20",
+          "follow_up_of": "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+          "prior_issue_path": "archive/2026-11-19.html",
+          "material_change": "Signal shipped app-level screenshot, recording, app-switcher and supported AI-screen protections with documented version requirements."
+        },
+        {
+          "story_id": "event-alibaba-tencent-cloud-impact-us-chip-curbs-2026-11-20",
+          "follow_up_of": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+          "prior_issue_path": "archive/2026-11-20.html",
+          "material_change": "Alibaba's 30%–45% cloud-growth outlook and Tencent's domestic-inference comments add operating-economics evidence to the remote-compute/export-control story."
+        },
+        {
+          "story_id": "event-google-genie-4-api-availability-2026-11-19",
+          "follow_up_of": "event-google-deepmind-wants-ai-to-build-worlds-you-can-step-inside",
+          "prior_issue_path": "archive/2026-10-28-current-v2.html",
+          "material_change": "The previously previewed world model is now exposed through Gemini API and AI Studio with documented interactive streaming, output format and serving regions."
+        },
+        {
+          "story_id": "event-cert-in-oracle-multi-product-advisory-civn-2026-0568-2026-11-20",
+          "follow_up_of": "event-java4shell-cve-2026-114938-2026-11-17",
+          "prior_issue_path": "archive/2026-11-19.html",
+          "material_change": "CERT-In issued a separate critical multi-product Oracle note beyond the single Java4Shell CVE, widening the enterprise product inventory requiring review."
+        },
+        {
+          "story_id": "event-abb-robotics-listing-china-carveout-2026-11-20",
+          "follow_up_of": "event-china-blocks-softbank-abb-robotics-acquisition-2026-11-05",
+          "prior_issue_path": "archive/2026-11-07.html",
+          "material_change": "Reuters now reports a possible China carve-out and ABB robotics listing/spin-off options after the blocked SoftBank acquisition."
+        }
+      ],
+      "repeat_candidates_screened": 21,
+      "repeat_candidates_excluded": 14,
+      "repeat_candidates_excluded_ids": [],
+      "repeat_candidates_excluded_labels": [
+        "GPT-6.2 Astra/Sol — no new version or independent benchmark in this window.",
+        "Gemini 4 Neon — model version and API price unchanged; prior Copilot availability update already covered.",
+        "Qwen4-Max — 16 November listing is outside the 48-hour window; no new update verified.",
+        "Claude Mythos/Fable — no new model version or benchmark verified.",
+        "Meta Muse permission issue — original finding already covered; Signal's shipped protection is the material follow-up.",
+        "BIS remote-compute rule and TSMC restrictions — rule/effective date already covered; only new Alibaba/Tencent operating impact retained.",
+        "Nvidia China Hopper shipment halt — no new shipment guidance verified.",
+        "Java4Shell CVE-2026-114938 — no new exploit evidence; the broader CERT-In Oracle note is retained as a follow-up.",
+        "Tencent Q3 results — no new earnings release or updated financial line verified.",
+        "Lenovo Q2 AI revenue — no new results update verified.",
+        "GAO covert AI attack-plan audit — no new audit or reproduction verified.",
+        "Suno Visuals — no new creator-tool change verified.",
+        "NereidVLA underwater robot trials — no new data or independent reproduction verified.",
+        "Earlier Asian-equity selloff — no new Asian index data; Friday US-market repricing is covered only as context in the Nvidia/Anthropic stories."
+      ],
+      "archive_issue_files_enumerated": 48,
+      "archive_issue_files_checked": 4,
+      "archive_pages_reopened_this_run": [
+        "archive/2026-11-18.html",
+        "archive/2026-11-18-edition-3.html",
+        "archive/2026-11-19.html",
+        "archive/2026-11-20.html"
+      ],
+      "archive_pages_not_checked": [
+        "archive/2026-10-28-current-v2.html",
+        "archive/2026-10-28-current.html",
+        "archive/2026-10-28.html",
+        "archive/2026-10-29.html",
+        "archive/2026-10-30.html",
+        "archive/2026-10-31-edition-2.html",
+        "archive/2026-10-31-edition-3.html",
+        "archive/2026-10-31-edition-4.html",
+        "archive/2026-10-31.html",
+        "archive/2026-11-03-edition-2.html",
+        "archive/2026-11-03.html",
+        "archive/2026-11-04-edition-2.html",
+        "archive/2026-11-04-edition-3.html",
+        "archive/2026-11-04-edition-4.html",
+        "archive/2026-11-04-edition-5.html",
+        "archive/2026-11-04.html",
+        "archive/2026-11-05-edition-2.html",
+        "archive/2026-11-05.html",
+        "archive/2026-11-06.html",
+        "archive/2026-11-07-edition-2.html",
+        "archive/2026-11-07.html",
+        "archive/2026-11-08.html",
+        "archive/2026-11-09-edition-2.html",
+        "archive/2026-11-09.html",
+        "archive/2026-11-10-edition-2.html",
+        "archive/2026-11-10-edition-3.html",
+        "archive/2026-11-10.html",
+        "archive/2026-11-11.html",
+        "archive/2026-11-12-edition-2.html",
+        "archive/2026-11-12.html",
+        "archive/2026-11-13-edition-2.html",
+        "archive/2026-11-13-edition-3.html",
+        "archive/2026-11-13-edition-4.html",
+        "archive/2026-11-13.html",
+        "archive/2026-11-14.html",
+        "archive/2026-11-15-edition-2.html",
+        "archive/2026-11-15.html",
+        "archive/2026-11-16-edition-2.html",
+        "archive/2026-11-16.html",
+        "archive/2026-11-17-edition-2.html",
+        "archive/2026-11-17.html",
+        "archive/2026-11-18-edition-2.html",
+        "archive/2026-11-19-edition-2.html",
+        "archive/2026-11-19-edition-3.html"
+      ],
+      "source_domains_targeted": 90,
+      "source_domains_opened_and_inspected": 18,
+      "source_domains_materially_read": 17,
+      "source_domains_partial_or_limited": 1,
+      "source_domains_blocked": 0,
+      "source_domains_with_date_matched_results": 11,
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "deepmind.google",
+        "blog.google",
+        "ai.meta.com",
+        "x.ai",
+        "mistral.ai",
+        "deepseek.com",
+        "qwen.ai",
+        "z.ai",
+        "moonshot.ai",
+        "minimax.io",
+        "tencent.com",
+        "baidu.com",
+        "cohere.com",
+        "aws.amazon.com",
+        "apple.com",
+        "github.blog",
+        "github.com",
+        "cursor.com",
+        "codeium.com",
+        "langchain.com",
+        "modelcontextprotocol.io",
+        "huggingface.co",
+        "sourcegraph.com",
+        "jetbrains.com",
+        "replit.com",
+        "vercel.com",
+        "supabase.com",
+        "runwayml.com",
+        "adobe.com",
+        "blackmagicdesign.com",
+        "stability.ai",
+        "pika.art",
+        "luma.ai",
+        "suno.com",
+        "elevenlabs.io",
+        "canva.com",
+        "midjourney.com",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "openreview.net",
+        "aclanthology.org",
+        "paperswithcode.com",
+        "roboticsproceedings.org",
+        "ieee.org",
+        "acm.org",
+        "cisa.gov",
+        "cert-in.org.in",
+        "nvd.nist.gov",
+        "cloud.google.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "unit42.paloaltonetworks.com",
+        "cloudflare.com",
+        "nvidia.com",
+        "amd.com",
+        "intel.com",
+        "broadcom.com",
+        "skhynix.com",
+        "samsung.com",
+        "tsmc.com",
+        "asml.com",
+        "datacenterdynamics.com",
+        "theregister.com",
+        "reuters.com",
+        "bloomberg.com",
+        "ft.com",
+        "wsj.com",
+        "cnbc.com",
+        "sec.gov",
+        "bis.gov",
+        "federalregister.gov",
+        "ec.europa.eu",
+        "europa.eu",
+        "meity.gov.in",
+        "pib.gov.in",
+        "gov.cn",
+        "miit.gov.cn",
+        "nikkei.com",
+        "scmp.com",
+        "restofworld.org",
+        "utilitydive.com",
+        "datacenterknowledge.com",
+        "iea.org",
+        "eia.gov",
+        "energy.gov",
+        "powermag.com"
+      ],
+      "opened_domains": [
+        "reuters.com",
+        "blog.google",
+        "openai.com",
+        "blogs.windows.com",
+        "learn.microsoft.com",
+        "signal.org",
+        "support.signal.org",
+        "alibabacloud.com",
+        "arxiv.org",
+        "huggingface.co",
+        "aistudio.google.com",
+        "cert-in.org.in",
+        "oracle.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "sec.gov",
+        "ditinglab.org"
+      ],
+      "materially_read_domains": [
+        "reuters.com",
+        "blog.google",
+        "openai.com",
+        "blogs.windows.com",
+        "learn.microsoft.com",
+        "support.signal.org",
+        "alibabacloud.com",
+        "arxiv.org",
+        "huggingface.co",
+        "aistudio.google.com",
+        "cert-in.org.in",
+        "oracle.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "sec.gov",
+        "ditinglab.org"
+      ],
+      "partial_or_limited_domains": [
+        "reuters.com — one House Democrats article URL failed on a repeat open; its reported details had been captured from the earlier Reuters result."
+      ],
+      "blocked_domains": [],
+      "date_matched_domains": [
+        "reuters.com",
+        "blog.google",
+        "blogs.windows.com",
+        "openai.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "alibabacloud.com",
+        "arxiv.org",
+        "cert-in.org.in",
+        "huggingface.co"
+      ],
+      "source_pages_opened": 40,
+      "date_matched_source_pages": 28,
+      "date_matched_source_domains": 11,
+      "pages_returned_content": 39,
+      "page_url_errors": 1,
+      "no_readable_text_pages": 0,
+      "failed_page_urls": [
+        "https://www.reuters.com/business/finance/democrats-open-probe-into-nvidia-influence-us-megaspeed-investigation-2026-11-20/"
+      ],
+      "no_readable_text_urls": [],
+      "partial_page_urls": [
+        "https://www.reuters.com/business/finance/democrats-open-probe-into-nvidia-influence-us-megaspeed-investigation-2026-11-20/"
+      ],
+      "source_classes_inspected": [
+        "Primary model/product announcements and developer API documentation from Microsoft, Google and Alibaba Cloud.",
+        "Hugging Face model card and open-weight licence/limitations.",
+        "SEC 424B4 prospectus and public-market reporting on Anthropic's greenshoe.",
+        "CERT-In vulnerability note and Oracle Critical Patch Update.",
+        "OpenAI, Claude and GitHub service-status histories.",
+        "Reuters independent reporting on Nvidia SEC scrutiny, Oracle/OpenAI financing, China cloud economics, CtrlS, pharma, Databricks, ABB, Cursor and UN negotiations.",
+        "arXiv preprints and author-linked research records for AgentRoboCritic, PGX, Depth Pro 2 and ScaleWorld.",
+        "Company and support documentation for Signal screen security.",
+        "X, Reddit, YouTube, GitHub, Hugging Face and Product Hunt used as discovery surfaces only."
+      ],
+      "beat_audit": {
+        "model_benchmark": {
+          "material_found_in_window": true,
+          "details": "Material model-class/API changes: Microsoft Aion Instruct open weights/Edge SLM, Alibaba Model Studio MindLab Macaron V1.1 Venti Pro and Genie 4 API availability. No new frontier LLM version from OpenAI, Anthropic, Meta, xAI, DeepSeek, Qwen, Mistral, Zhipu, Moonshot, MiniMax or Baidu; no compatible independent benchmark found."
+        },
+        "developer_agent": {
+          "material_found_in_window": true,
+          "details": "Gemini API Tool Retrieval, OpenAI Performance Factory and Gemini Mac computer use. No new MCP protocol specification or standalone IDE release verified; official vendor, GitHub, Cursor, JetBrains and framework changelog classes checked."
+        },
+        "creator_multimodal": {
+          "material_found_in_window": true,
+          "details": "Genie 4 interactive world-model API and ScaleWorld video-world-model preprint. No new commercial frontier image/video/audio-generation model release verified; official creator release notes and independent creator-tool reporting checked."
+        },
+        "research_robotics": {
+          "material_found_in_window": true,
+          "details": "Four 19 Nov preprints: AgentRoboCritic, PGX, Depth Pro 2 and ScaleWorld; Reuters also reports company-supplied preclinical pharma examples. No independent reproduction, peer review or new hardware deployment verified."
+        },
+        "security_reliability": {
+          "material_found_in_window": true,
+          "details": "Signal screen-security protections, CERT-In critical multi-product Oracle advisory and resolved OpenAI GPT-6 Luna API errors. Claude and GitHub status histories checked; no AI-provider breach or active agent compromise confirmed."
+        },
+        "compute_geopolitics": {
+          "material_found_in_window": true,
+          "details": "Alibaba/Tencent cloud economics under US chip restrictions, Oracle/OpenAI infrastructure financing and CtrlS Bihar proposal. No new Huawei Ascend or SMIC process/product launch, HBM allocation, advanced-packaging or networking release verified."
+        },
+        "energy_datacentres": {
+          "material_found_in_window": true,
+          "details": "Oracle's financing and planned 4.5 GW Texas expansion plus the reported CtrlS 150 MW Patna proposal. No new power-purchase agreement, grid connection, generation deal or data-centre commissioning verified."
+        },
+        "business_capital": {
+          "material_found_in_window": true,
+          "details": "Nvidia SEC inquiry (reported, no finding), Anthropic full greenshoe, Oracle financing statement and Databricks early funding talks. Primary/secondary IPO proceeds, private placement, financing, project capacity and cash spent are distinguished."
+        },
+        "india_asia": {
+          "material_found_in_window": true,
+          "details": "CtrlS Bihar data-centre proposal, CERT-In Oracle note and China cloud/chip-control effects. No new India foundation-model launch or national AI-policy decision verified."
+        },
+        "policy_law_copyright_society": {
+          "material_found_in_window": true,
+          "details": "House Democrats' Megaspeed oversight inquiry, UN lethal-autonomous-weapons talks and Cursor model-origin consideration. No new copyright court ruling verified."
+        },
+        "open_weights_local_inference": {
+          "material_found_in_window": true,
+          "details": "Aion Instruct 2.3B open weights under MIT and Edge on-device integration; no new local runtime release or independent quality reproduction."
+        },
+        "hbm_packaging_networking": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched HBM allocation or advanced-packaging/networking product announcement verified; semiconductor company releases and trade press checked."
+        },
+        "india_policy_models": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched India foundation-model launch or national AI-policy decision verified; MeitY/PIB, company and regional reporting checked."
+        }
+      },
+      "community_signal_audit": {
+        "platforms": [
+          "X",
+          "Reddit",
+          "YouTube",
+          "GitHub",
+          "Hugging Face",
+          "Product Hunt",
+          "arXiv"
+        ],
+        "verified_promoted": 0,
+        "reason": "No community-only signal met the verification threshold. Promoted claims were checked against primary company, regulator, status, research or independent-reporting sources."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_enumerated": true,
+        "all_archive_index_paths_reopened": false,
+        "archive_issue_files_enumerated": 48,
+        "archive_issue_files_reopened_this_run": 4,
+        "archive_issue_files_checked": 4,
+        "archive_pages_reopened_this_run": [
+          "archive/2026-11-18.html",
+          "archive/2026-11-18-edition-3.html",
+          "archive/2026-11-19.html",
+          "archive/2026-11-20.html"
+        ],
+        "archive_pages_not_checked": [
+          "archive/2026-10-28-current-v2.html",
+          "archive/2026-10-28-current.html",
+          "archive/2026-10-28.html",
+          "archive/2026-10-29.html",
+          "archive/2026-10-30.html",
+          "archive/2026-10-31-edition-2.html",
+          "archive/2026-10-31-edition-3.html",
+          "archive/2026-10-31-edition-4.html",
+          "archive/2026-10-31.html",
+          "archive/2026-11-03-edition-2.html",
+          "archive/2026-11-03.html",
+          "archive/2026-11-04-edition-2.html",
+          "archive/2026-11-04-edition-3.html",
+          "archive/2026-11-04-edition-4.html",
+          "archive/2026-11-04-edition-5.html",
+          "archive/2026-11-04.html",
+          "archive/2026-11-05-edition-2.html",
+          "archive/2026-11-05.html",
+          "archive/2026-11-06.html",
+          "archive/2026-11-07-edition-2.html",
+          "archive/2026-11-07.html",
+          "archive/2026-11-08.html",
+          "archive/2026-11-09-edition-2.html",
+          "archive/2026-11-09.html",
+          "archive/2026-11-10-edition-2.html",
+          "archive/2026-11-10-edition-3.html",
+          "archive/2026-11-10.html",
+          "archive/2026-11-11.html",
+          "archive/2026-11-12-edition-2.html",
+          "archive/2026-11-12.html",
+          "archive/2026-11-13-edition-2.html",
+          "archive/2026-11-13-edition-3.html",
+          "archive/2026-11-13-edition-4.html",
+          "archive/2026-11-13.html",
+          "archive/2026-11-14.html",
+          "archive/2026-11-15-edition-2.html",
+          "archive/2026-11-15.html",
+          "archive/2026-11-16-edition-2.html",
+          "archive/2026-11-16.html",
+          "archive/2026-11-17-edition-2.html",
+          "archive/2026-11-17.html",
+          "archive/2026-11-18-edition-2.html",
+          "archive/2026-11-19-edition-2.html",
+          "archive/2026-11-19-edition-3.html"
+        ],
+        "historical_registry_complete_before_append": true,
+        "backfill_required": false,
+        "backfill_story_records_added": 0,
+        "backfill_edition_records_added": 0,
+        "archive_index_links_added": [
+          "archive/2026-11-21.html"
+        ],
+        "archive_index_dated_entries_before": 48,
+        "archive_index_dated_entries_after": 49,
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true,
+        "root_index_updated": false,
+        "homepage_exact_match_verified": false
+      },
+      "issue_blob_sha": "d67518ff470ef754f69413227a0ca67aa0100645",
+      "archive_index_blob_sha_after": "32c45fb00b856611d21a12822983be2b7cedc7ee",
+      "root_index_blob_sha_before": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
+      "root_index_blob_sha_after": null,
+      "root_index_update_pending": true,
+      "homepage_match_verified": false,
+      "local_file_created": true,
+      "local_file_sha_expected": "5725a193c6601f3d0503f40a73b87e7edc795886",
+      "local_file_sha_matches_published": false,
+      "local_file_note": "A local draft exists and passed doctype/non-empty checks, but its Git blob SHA did not match the published issue SHA; no local download link is offered.",
+      "manual_html_validation": {
+        "doctype": true,
+        "required_section_ids": true,
+        "main_desk_story_count": 11,
+        "main_impact_panels": 11,
+        "more_signals_count": 13,
+        "total_story_cards": 24,
+        "external_source_links": 85,
+        "search_filter": true,
+        "desk_filter": true,
+        "native_speech_controls": true,
+        "share_file_attachment_with_manual_fallback": true,
+        "print_pdf_styles": true,
+        "third_party_scripts": false,
+        "external_linter_run": false
+      },
+      "registry_story_count_before": 375,
+      "registry_story_count_after": 399,
+      "registry_edition_count_before": 50,
+      "registry_edition_count_after": 51,
+      "append_only": true,
+      "netlify_deployment_claimed": false,
+      "human_editorial_pass": true,
+      "external_linter_run": false,
+      "coverage_gap_note": "One cross-beat sweep targeted 90 distinct domains (above the requested 50–60); about 40 page URLs were opened across 18 domains, with 28 date-matched pages across 11 domains. One repeated open of the Reuters House Democrats article failed; the story detail had been captured from an earlier Reuters result. The House committee letter/PDF itself was not opened. A same-day primary CtrlS Patna notice was not located; the public October CtrlS release covers a separate Bodh Gaya LOI. Four recent archive issues were reopened; 44 dated archive pages were not reopened individually and were deduplicated via the full registry. Four research papers are preprints without independent reproduction. No external linter ran. The local draft SHA did not match the published Git blob, so no local download is offered.",
+      "homepage_exact_match_verified_at": null,
+      "publication_verification": {
+        "verified_at": "2026-11-21T08:34:53.716+05:30",
+        "branch": "main",
+        "issue_path": "archive/2026-11-21.html",
+        "issue_blob_sha": "d67518ff470ef754f69413227a0ca67aa0100645",
+        "archive_index_path": "archive/index.html",
+        "archive_index_blob_sha_before_update": "009320d185667e6dcd61b783f919d3f6b87dd8f0",
+        "archive_index_blob_sha_after": "32c45fb00b856611d21a12822983be2b7cedc7ee",
+        "registry_path": "archive/story-index.json",
+        "registry_blob_sha_before_update": "34f252e5b811c9fdcd4946fe8adf065e3e965918",
+        "registry_blob_sha_after": null,
+        "root_index_path": "index.html",
+        "root_index_blob_sha_before_update": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
+        "root_index_blob_sha_after": null,
+        "root_index_update_pending": true,
+        "root_exact_match": false,
+        "netlify_deployment_claimed": false
+      }
     }
   ],
   "stories": [
@@ -6687,14 +7250,32 @@
       "edition_paths": [
         "index.html",
         "archive/2026-10-28-current.html",
-        "archive/2026-10-28-current-v2.html"
+        "archive/2026-10-28-current-v2.html",
+        "archive/2026-11-21.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-21",
+          "path": "archive/2026-11-21.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-10-28-current-v2.html",
+          "material_change": "The previously previewed world model is now exposed through Gemini API and AI Studio with documented interactive streaming, output format and serving regions.",
+          "canonical_urls": [
+            "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+            "https://aistudio.google.com/docs/genie"
+          ]
+        }
+      ],
       "source_metadata": [
         "Google DeepMind · Company announcement · 27 Oct",
         "02 · Google DeepMind · Research announcement · 27 Oct"
       ],
-      "delivery_note": null
+      "delivery_note": null,
+      "latest_status_update": {
+        "published_date": "2026-11-19",
+        "summary": "The previously previewed world model is now exposed through Gemini API and AI Studio with documented interactive streaming, output format and serving regions.",
+        "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+      }
     },
     {
       "story_id": "event-gpt-6-1-terra-targets-high-volume-computer-use-work",
@@ -7173,14 +7754,32 @@
       "first_edition_path": "archive/2026-10-28.html",
       "edition_paths": [
         "archive/2026-10-28.html",
-        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+        "archive/2026-11-21.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-21",
+          "path": "archive/2026-11-21.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-10-28-current-v2.html",
+          "material_change": "The previously previewed world model is now exposed through Gemini API and AI Studio with documented interactive streaming, output format and serving regions.",
+          "canonical_urls": [
+            "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+            "https://aistudio.google.com/docs/genie"
+          ]
+        }
+      ],
       "source_metadata": [
         "Google DeepMind · Company announcement · 27 Oct",
         "2026-10-28 delivered standalone issue"
       ],
-      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue.",
+      "latest_status_update": {
+        "published_date": "2026-11-19",
+        "summary": "The previously previewed world model is now exposed through Gemini API and AI Studio with documented interactive streaming, output format and serving regions.",
+        "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+      }
     },
     {
       "story_id": "event-apple-s-m6-launch-puts-on-device-ai-back-in-focus",
@@ -7256,13 +7855,31 @@
       "first_edition_date": "2026-10-28",
       "first_edition_path": "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
       "edition_paths": [
-        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html"
+        "delivered-attachment:SIGNAL_AI_Daily_2026-10-28.html",
+        "archive/2026-11-21.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-21",
+          "path": "archive/2026-11-21.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-10-28-current-v2.html",
+          "material_change": "Oracle now says financing is in place, Abilene is nearly complete and the next campus is fully permitted; 4.5 GW remains planned, not commissioned.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/",
+            "https://www.oracle.com/news/announcement/ai-world-nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-2026-10-27/"
+          ]
+        }
+      ],
       "source_metadata": [
         "2026-10-28 delivered standalone issue"
       ],
-      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue."
+      "delivery_note": "Delivered as a chat attachment; not confirmed as a repository-hosted archive issue.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "Oracle now says financing is in place, Abilene is nearly complete and the next campus is fully permitted; 4.5 GW remains planned, not commissioned.",
+        "source_url": "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/"
+      }
     },
     {
       "story_id": "event-anthropic-s-ipo-disclosures-put-model-testing-security-and-governance-under-scrutiny",
@@ -10797,10 +11414,27 @@
       "first_edition_path": "archive/2026-11-07.html",
       "edition_paths": [
         "archive/2026-11-07.html",
-        "archive/2026-11-07-edition-2.html"
+        "archive/2026-11-07-edition-2.html",
+        "archive/2026-11-21.html"
       ],
-      "follow_up_editions": [],
-      "delivery_note": null
+      "follow_up_editions": [
+        {
+          "date": "2026-11-21",
+          "path": "archive/2026-11-21.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-07.html",
+          "material_change": "Reuters now reports a possible China carve-out and ABB robotics listing/spin-off options after the blocked SoftBank acquisition.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/media-telecom/abb-considers-robotics-listing-if-sale-softbank-fails-sources-say-2026-11-20/"
+          ]
+        }
+      ],
+      "delivery_note": null,
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "Reuters now reports a possible China carve-out and ABB robotics listing/spin-off options after the blocked SoftBank acquisition.",
+        "source_url": "https://www.reuters.com/business/media-telecom/abb-considers-robotics-listing-if-sale-softbank-fails-sources-say-2026-11-20/"
+      }
     },
     {
       "story_id": "event-ing-500m-data-center-loan-portfolio-sale-2026-11-06",
@@ -15231,7 +15865,8 @@
       "first_edition_path": "archive/2026-11-17.html",
       "edition_paths": [
         "archive/2026-11-17.html",
-        "archive/2026-11-20.html"
+        "archive/2026-11-20.html",
+        "archive/2026-11-21.html"
       ],
       "follow_up_of": "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
       "prior_issue_path": "archive/2026-11-12.html",
@@ -15253,6 +15888,17 @@
           "canonical_urls": [
             "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
             "https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/"
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "path": "archive/2026-11-21.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-20.html",
+          "material_change": "Alibaba's 30%–45% cloud-growth outlook and Tencent's domestic-inference comments add operating-economics evidence to the remote-compute/export-control story.",
+          "canonical_urls": [
+            "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/",
+            "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
           ]
         }
       ],
@@ -15289,9 +15935,9 @@
       "repeat_status": "material_follow_up",
       "status": "verified",
       "latest_status_update": {
-        "published_date": "2026-11-19",
-        "summary": "Rule published and effective; comments due 19 January 2027. Reuters reports TSMC’s new customer-order guidance for affected Chinese chip designers.",
-        "source_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
+        "published_date": "2026-11-20",
+        "summary": "Alibaba's 30%–45% cloud-growth outlook and Tencent's domestic-inference comments add operating-economics evidence to the remote-compute/export-control story.",
+        "source_url": "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/"
       }
     },
     {
@@ -16429,9 +17075,22 @@
       "edition_paths": [
         "archive/2026-11-19.html",
         "archive/2026-11-19-edition-2.html",
-        "archive/2026-11-19-edition-3.html"
+        "archive/2026-11-19-edition-3.html",
+        "archive/2026-11-21.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-21",
+          "path": "archive/2026-11-21.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-19.html",
+          "material_change": "Signal shipped app-level screenshot, recording, app-switcher and supported AI-screen protections with documented version requirements.",
+          "canonical_urls": [
+            "https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI",
+            "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+          ]
+        }
+      ],
       "source_metadata": [
         {
           "publisher": "Reuters",
@@ -16449,7 +17108,12 @@
       "verification_status": "verified",
       "repeat_status": "new",
       "status": "verified",
-      "delivery_note": "Do not describe as a Signal cryptographic compromise or confirmed cross-account breach."
+      "delivery_note": "Do not describe as a Signal cryptographic compromise or confirmed cross-account breach.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "Signal shipped app-level screenshot, recording, app-switcher and supported AI-screen protections with documented version requirements.",
+        "source_url": "https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI"
+      }
     },
     {
       "story_id": "event-anthropic-ipo-priced-83-2026-11-18",
@@ -16475,7 +17139,8 @@
         "archive/2026-11-19.html",
         "archive/2026-11-19-edition-2.html",
         "archive/2026-11-19-edition-3.html",
-        "archive/2026-11-20.html"
+        "archive/2026-11-20.html",
+        "archive/2026-11-21.html"
       ],
       "follow_up_editions": [
         {
@@ -16486,6 +17151,17 @@
           "material_change": "Anthropic completed its first Nasdaq session; shares closed at US$97.17, 17% above the US$83 offer price, after opening at US$111.50. This adds first-day trading data; the earlier IPO price and share mix are unchanged.",
           "canonical_urls": [
             "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "path": "archive/2026-11-21.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-20.html",
+          "material_change": "Full 147m-share greenshoe exercised, lifting gross IPO proceeds from US$81.34bn to about US$93.5bn; day-two trading was lower.",
+          "canonical_urls": [
+            "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/",
+            "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
           ]
         }
       ],
@@ -16527,9 +17203,9 @@
       "prior_issue_path": "archive/2026-11-13.html",
       "material_change": "Final US$83 offer price, 980m-share mix, Nasdaq ticker ANT and 19/20 November trading/closing timetable; primary proceeds are distinguished from secondary sales and the earlier separate private placement.",
       "latest_status_update": {
-        "published_date": "2026-11-19",
-        "summary": "First Nasdaq session completed; shares closed at US$97.17, 17% above the US$83 offer price, after opening at US$111.50.",
-        "source_url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+        "published_date": "2026-11-20",
+        "summary": "Full 147m-share greenshoe exercised, lifting gross IPO proceeds from US$81.34bn to about US$93.5bn; day-two trading was lower.",
+        "source_url": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/"
       }
     },
     {
@@ -16619,9 +17295,22 @@
       "edition_paths": [
         "archive/2026-11-19.html",
         "archive/2026-11-19-edition-2.html",
-        "archive/2026-11-19-edition-3.html"
+        "archive/2026-11-19-edition-3.html",
+        "archive/2026-11-21.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-21",
+          "path": "archive/2026-11-21.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-19.html",
+          "material_change": "CERT-In issued a separate critical multi-product Oracle note beyond the single Java4Shell CVE, widening the enterprise product inventory requiring review.",
+          "canonical_urls": [
+            "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIVN-2026-0568&pageid=PUBVLNOTES01",
+            "https://www.oracle.com/security-alerts/cspunov2026.html"
+          ]
+        }
+      ],
       "source_metadata": [
         {
           "publisher": "Oracle",
@@ -16671,7 +17360,12 @@
       "verification_status": "verified",
       "repeat_status": "new",
       "status": "verified",
-      "delivery_note": "General Java vulnerability, not an AI-specific flaw. CERT-In page rendered only partially; details cross-checked with Oracle, Canada and Ireland."
+      "delivery_note": "General Java vulnerability, not an AI-specific flaw. CERT-In page rendered only partially; details cross-checked with Oracle, Canada and Ireland.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "CERT-In issued a separate critical multi-product Oracle note beyond the single Java4Shell CVE, widening the enterprise product inventory requiring review.",
+        "source_url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIVN-2026-0568&pageid=PUBVLNOTES01"
+      }
     },
     {
       "story_id": "event-nvidia-hopper-china-shipment-outlook-2026-11-18",
@@ -17929,6 +18623,1118 @@
       "repeat_status": "new",
       "status": "verified",
       "material_change_note": ""
+    },
+    {
+      "story_id": "event-nvidia-sec-accounting-probe-2026-11-20",
+      "normalized_subject": "reported sec enforcement inquiry into potential nvidia accounting issues and ai customer financing",
+      "entities": [
+        "Nvidia",
+        "US Securities and Exchange Commission",
+        "Singapore",
+        "Reuters"
+      ],
+      "event_summary": "Reuters reported that SEC enforcement staff are examining potential accounting issues at Nvidia, citing two people briefed; the SEC declined comment and Nvidia did not immediately respond. No finding or charge was reported.",
+      "normalized_headline": "SEC accounting probe adds pressure to Nvidia as AI financing comes under scrutiny",
+      "canonical_urls": [
+        "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+        "https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Reported SEC enforcement inquiry, source attribution and limits",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+        },
+        {
+          "publisher": "Reuters",
+          "source_class": "independent market reporting",
+          "role": "Friday market context; broader AI-stock selloff",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+        "https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/"
+      ],
+      "desk": "business",
+      "evidence_confidence": "Medium: Reuters cites two people briefed; SEC declined comment and Nvidia had not responded. No finding or charge reported.",
+      "verification_status": "reported",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-oracle-openai-infrastructure-fully-funded-2026-11-20",
+      "normalized_subject": "oracle financing statement and delivery status for openai data centre capacity expansion",
+      "entities": [
+        "Oracle",
+        "OpenAI",
+        "Nvidia",
+        "Stargate",
+        "Texas"
+      ],
+      "event_summary": "Oracle said financing for its OpenAI infrastructure contract is in place, Abilene is nearly complete and the next Texas campus is fully permitted. The additional 4.5 GW remains planned capacity, not commissioned or deployed capacity.",
+      "normalized_headline": "FOLLOW-UP: Oracle says OpenAI infrastructure contract is fully funded; 4.5 GW remains planned",
+      "canonical_urls": [
+        "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/",
+        "https://www.oracle.com/news/announcement/ai-world-nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-2026-10-27/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Oracle financing statement and project status",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/"
+        },
+        {
+          "publisher": "Oracle",
+          "source_class": "primary company announcement",
+          "role": "Scope of multi-gigawatt Vera Rubin expansion",
+          "published_date": "2026-10-27",
+          "url": "https://www.oracle.com/news/announcement/ai-world-nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-2026-10-27/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/",
+        "https://www.oracle.com/news/announcement/ai-world-nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-2026-10-27/"
+      ],
+      "desk": "compute",
+      "evidence_confidence": "Medium-high on Oracle's public statement as reported by Reuters; funding and deployment were not independently audited.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "material_follow_up",
+      "delivery_note": "",
+      "follow_up_of": "event-nvidia-and-oracle-plan-a-multi-gigawatt-vera-rubin-expansion",
+      "prior_issue_path": "archive/2026-10-28-current-v2.html",
+      "material_change": "Oracle now says financing is in place, Abilene is nearly complete and the next campus is fully permitted; 4.5 GW remains planned, not commissioned.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "Oracle now says financing is in place, Abilene is nearly complete and the next campus is fully permitted; 4.5 GW remains planned, not commissioned.",
+        "source_url": "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/"
+      }
+    },
+    {
+      "story_id": "event-anthropic-ipo-greenshoe-exercised-2026-11-20",
+      "normalized_subject": "anthropic ipo greenshoe option and second day trading update",
+      "entities": [
+        "Anthropic",
+        "Morgan Stanley",
+        "Nasdaq",
+        "SEC",
+        "Reuters"
+      ],
+      "event_summary": "Underwriters exercised the full 147 million-share greenshoe at US$83, taking aggregate gross IPO proceeds to about US$93.5bn. The separate US$26bn private placement is excluded; Reuters reported the shares at US$86 on day two after a US$97.17 first-day close.",
+      "normalized_headline": "FOLLOW-UP: Anthropic's IPO rises to about US$93.5bn after full greenshoe exercise",
+      "canonical_urls": [
+        "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Greenshoe exercise and day-two trading",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/"
+        },
+        {
+          "publisher": "US SEC",
+          "source_class": "primary securities filing",
+          "role": "Base offering, over-allotment option and share structure",
+          "published_date": "2026-11-18",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+      ],
+      "desk": "business",
+      "evidence_confidence": "High on the option exercise and offering structure from Anthropic/SEC disclosures and Reuters reporting; day-two price is market data.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "material_follow_up",
+      "delivery_note": "",
+      "follow_up_of": "event-anthropic-ipo-priced-83-2026-11-18",
+      "prior_issue_path": "archive/2026-11-20.html",
+      "material_change": "Full 147m-share greenshoe exercised, lifting gross IPO proceeds from US$81.34bn to about US$93.5bn; day-two trading was lower.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "Full 147m-share greenshoe exercised, lifting gross IPO proceeds from US$81.34bn to about US$93.5bn; day-two trading was lower.",
+        "source_url": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/"
+      }
+    },
+    {
+      "story_id": "event-signal-screen-security-blocks-ai-assistants-2026-11-20",
+      "normalized_subject": "signal app screen security protections for ai assistant access",
+      "entities": [
+        "Signal",
+        "Google Gemini",
+        "Siri",
+        "Android",
+        "iOS"
+      ],
+      "event_summary": "Signal documents screen security that blocks screenshots and recordings, hides app-switcher previews and blocks supported on-device AI screen reading. iOS Block Siri AI is default-on in supported versions; Android protection activates when an assistant first attempts to read Signal's screen.",
+      "normalized_headline": "FOLLOW-UP: Signal turns on screen security to block supported on-device AI assistants from reading chats",
+      "canonical_urls": [
+        "https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI",
+        "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Signal",
+          "source_class": "primary support documentation",
+          "role": "Screen security behavior and supported versions",
+          "published_date": "2026-11-20",
+          "url": "https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI"
+        },
+        {
+          "publisher": "Reuters",
+          "source_class": "independent investigation",
+          "role": "Original device-permission privacy context",
+          "published_date": "2026-11-18",
+          "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+        }
+      ],
+      "source_domains": [
+        "https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI",
+        "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+      ],
+      "desk": "security",
+      "evidence_confidence": "High on Signal's documented behavior and version requirements; not a universal control over every OS-level capture path.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "material_follow_up",
+      "delivery_note": "",
+      "follow_up_of": "event-meta-muse-agent-permission-privacy-risk-2026-11-18",
+      "prior_issue_path": "archive/2026-11-19.html",
+      "material_change": "Signal shipped app-level screenshot, recording, app-switcher and supported AI-screen protections with documented version requirements.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "Signal shipped app-level screenshot, recording, app-switcher and supported AI-screen protections with documented version requirements.",
+        "source_url": "https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI"
+      }
+    },
+    {
+      "story_id": "event-alibaba-tencent-cloud-impact-us-chip-curbs-2026-11-20",
+      "normalized_subject": "china cloud revenue outlook and domestic chip inference impact from us export controls",
+      "entities": [
+        "Alibaba",
+        "Tencent",
+        "Nvidia",
+        "BIS",
+        "China"
+      ],
+      "event_summary": "Reuters reports Alibaba expects cloud growth to slow to 30%–45% next year from 53%; Tencent says inference-heavy AI services can run on domestic chips. These are company outlooks and comments, not proof of domestic equivalence for frontier training.",
+      "normalized_headline": "FOLLOW-UP: US chip curbs reach China's cloud outlook as Alibaba sees slower growth and Tencent leans on domestic inference",
+      "canonical_urls": [
+        "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/",
+        "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Alibaba cloud outlook and Tencent domestic-chip comments",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/"
+        },
+        {
+          "publisher": "US BIS",
+          "source_class": "primary government policy",
+          "role": "Remote-compute rule context",
+          "published_date": "2026-11-16",
+          "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/",
+        "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+      ],
+      "desk": "compute",
+      "evidence_confidence": "Medium-high on reported management guidance; strategic impact remains uncertain and is not independently modelled.",
+      "verification_status": "reported",
+      "status": "verified",
+      "repeat_status": "material_follow_up",
+      "delivery_note": "",
+      "follow_up_of": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+      "prior_issue_path": "archive/2026-11-20.html",
+      "material_change": "Alibaba's 30%–45% cloud-growth outlook and Tencent's domestic-inference comments add operating-economics evidence to the remote-compute/export-control story.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "Alibaba's 30%–45% cloud-growth outlook and Tencent's domestic-inference comments add operating-economics evidence to the remote-compute/export-control story.",
+        "source_url": "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/"
+      }
+    },
+    {
+      "story_id": "event-ctrls-patna-150mw-data-centre-pact-2026-11-20",
+      "normalized_subject": "ctrls reported patna bihar data centre investment agreement",
+      "entities": [
+        "CtrlS Datacenters",
+        "Bihar",
+        "Patna",
+        "Bodh Gaya",
+        "India"
+      ],
+      "event_summary": "Reuters reports CtrlS and Bihar signed a pact for a 150 MW Patna facility targeting commercial operations in 2029–30 and 400 direct jobs. A same-day primary Patna notice was not located; CtrlS's public October release documents a separate Bodh Gaya LOI.",
+      "normalized_headline": "Reuters reports CtrlS signed a ₹10,000 crore pact for a 150 MW Patna data centre",
+      "canonical_urls": [
+        "https://www.reuters.com/world/india/indias-ctrls-invest-over-1-billion-build-data-centre-bihar-2026-11-20/",
+        "https://www.ctrls.com/press-release-ctrls-plan-to-invest-rs-10000-crore-bihar-patna-datacenter/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Reported Patna pact, investment and project target",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/world/india/indias-ctrls-invest-over-1-billion-build-data-centre-bihar-2026-11-20/"
+        },
+        {
+          "publisher": "CtrlS",
+          "source_class": "primary company release",
+          "role": "Separate earlier Bodh Gaya LOI and existing Patna facility context",
+          "published_date": null,
+          "url": "https://www.ctrls.com/press-release-ctrls-plan-to-invest-rs-10000-crore-bihar-patna-datacenter/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/world/india/indias-ctrls-invest-over-1-billion-build-data-centre-bihar-2026-11-20/",
+        "https://www.ctrls.com/press-release-ctrls-plan-to-invest-rs-10000-crore-bihar-patna-datacenter/"
+      ],
+      "desk": "compute",
+      "evidence_confidence": "Medium: Reuters reports the Patna pact; a same-day primary notice was not located. CtrlS's October release confirms a separate Bodh Gaya LOI.",
+      "verification_status": "reported",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-microsoft-aion-instruct-open-weights-edge-2026-11-19",
+      "normalized_subject": "microsoft aion instruct 2.3b open weights edge on device language model",
+      "entities": [
+        "Microsoft",
+        "Aion Instruct",
+        "Microsoft Edge",
+        "Hugging Face",
+        "Phi-4-mini"
+      ],
+      "event_summary": "Microsoft released a 2.3B Aion Instruct model under MIT and made it Edge's built-in SLM. The 32K-context model targets bounded on-device text tasks; comparative quality claims are vendor-reported and no independent same-harness benchmark was found.",
+      "normalized_headline": "Microsoft releases Aion Instruct open weights and adds it to Edge's built-in SLM slot",
+      "canonical_urls": [
+        "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
+        "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Microsoft Edge",
+          "source_class": "primary product announcement",
+          "role": "Aion release, Edge integration, Prompt and Decisions APIs",
+          "published_date": "2026-11-19",
+          "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/"
+        },
+        {
+          "publisher": "Hugging Face",
+          "source_class": "primary model card",
+          "role": "Model size, licence, context and limitations",
+          "published_date": "2026-11-19",
+          "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B"
+        }
+      ],
+      "source_domains": [
+        "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
+        "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B"
+      ],
+      "desk": "models",
+      "evidence_confidence": "High on release, weights, licence and context from Microsoft/model card; comparative quality claims are vendor-reported.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-google-gemini-api-tool-retrieval-2026-11-19",
+      "normalized_subject": "google gemini api deferred tool schema retrieval and remote mcp support",
+      "entities": [
+        "Google",
+        "Gemini API",
+        "MCP",
+        "Tool Retrieval"
+      ],
+      "event_summary": "Google's Interactions API preview loads tool schemas on demand through tool_search and defer_loading, supports Gemini 3.6+ and remote MCP servers, and has no separate feature fee. Net token and latency savings were not quantified.",
+      "normalized_headline": "Google adds Tool Retrieval to Gemini API for large agent tool libraries",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Google",
+          "source_class": "primary developer announcement",
+          "role": "Tool Retrieval API, deferred schemas, Gemini versions and billing",
+          "published_date": "2026-11-19",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+        }
+      ],
+      "source_domains": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+      ],
+      "desk": "developer",
+      "evidence_confidence": "High on feature and API syntax from Google; latency/token benefits are not independently quantified.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-google-genie-4-api-availability-2026-11-19",
+      "normalized_subject": "google deepmind genie 4 interactive world model api availability",
+      "entities": [
+        "Google DeepMind",
+        "Genie 4",
+        "Gemini API",
+        "AI Studio"
+      ],
+      "event_summary": "Google exposed Genie 4 through the Gemini Interactions API and AI Studio, with interactive 720p/24fps world streams, synchronized audio, keyboard control and live text prompts. No public price or independent benchmark was found.",
+      "normalized_headline": "FOLLOW-UP: Genie 4 becomes available through Gemini API and AI Studio",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+        "https://aistudio.google.com/docs/genie"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Google DeepMind",
+          "source_class": "primary research/product announcement",
+          "role": "Genie 4 world model and developer availability",
+          "published_date": "2026-11-19",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+        },
+        {
+          "publisher": "Google AI Studio",
+          "source_class": "primary API documentation",
+          "role": "Output format, regions and interaction timings",
+          "published_date": null,
+          "url": "https://aistudio.google.com/docs/genie"
+        }
+      ],
+      "source_domains": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+        "https://aistudio.google.com/docs/genie"
+      ],
+      "desk": "creator",
+      "evidence_confidence": "High on API access and documented output format; no independent benchmark or public price found.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "material_follow_up",
+      "delivery_note": "",
+      "follow_up_of": "event-google-deepmind-wants-ai-to-build-worlds-you-can-step-inside",
+      "prior_issue_path": "archive/2026-10-28-current-v2.html",
+      "material_change": "The previously previewed world model is now exposed through Gemini API and AI Studio with documented interactive streaming, output format and serving regions.",
+      "latest_status_update": {
+        "published_date": "2026-11-19",
+        "summary": "The previously previewed world model is now exposed through Gemini API and AI Studio with documented interactive streaming, output format and serving regions.",
+        "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+      }
+    },
+    {
+      "story_id": "event-cert-in-oracle-multi-product-advisory-civn-2026-0568-2026-11-20",
+      "normalized_subject": "cert in critical oracle multi product vulnerability advisory november 2026",
+      "entities": [
+        "CERT-In",
+        "Oracle",
+        "Java SE",
+        "MySQL",
+        "GraalVM",
+        "Oracle Database"
+      ],
+      "event_summary": "CERT-In note CIVN-2026-0568 rates vulnerabilities across Oracle Database, APEX, Java, E-Business Suite, MySQL, GraalVM and other products critical. Oracle's November update contains 655 new security patches; no specific exploit campaign tied to this advisory was found.",
+      "normalized_headline": "FOLLOW-UP: CERT-In issues critical multi-product Oracle advisory; November update contains 655 patches",
+      "canonical_urls": [
+        "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIVN-2026-0568&pageid=PUBVLNOTES01",
+        "https://www.oracle.com/security-alerts/cspunov2026.html"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "CERT-In",
+          "source_class": "primary national vulnerability note",
+          "role": "Critical affected-product list and impact categories",
+          "published_date": "2026-11-20",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIVN-2026-0568&pageid=PUBVLNOTES01"
+        },
+        {
+          "publisher": "Oracle",
+          "source_class": "primary security advisory",
+          "role": "November 2026 Critical Patch Update and patch count",
+          "published_date": null,
+          "url": "https://www.oracle.com/security-alerts/cspunov2026.html"
+        }
+      ],
+      "source_domains": [
+        "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIVN-2026-0568&pageid=PUBVLNOTES01",
+        "https://www.oracle.com/security-alerts/cspunov2026.html"
+      ],
+      "desk": "security",
+      "evidence_confidence": "High on CERT-In scope and Oracle's 655-patch count; no specific exploitation was reported in the note.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "material_follow_up",
+      "delivery_note": "",
+      "follow_up_of": "event-java4shell-cve-2026-114938-2026-11-17",
+      "prior_issue_path": "archive/2026-11-19.html",
+      "material_change": "CERT-In issued a separate critical multi-product Oracle note beyond the single Java4Shell CVE, widening the enterprise product inventory requiring review.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "CERT-In issued a separate critical multi-product Oracle note beyond the single Java4Shell CVE, widening the enterprise product inventory requiring review.",
+        "source_url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIVN-2026-0568&pageid=PUBVLNOTES01"
+      }
+    },
+    {
+      "story_id": "event-openai-performance-factory-codex-regression-investigation-2026-11-19",
+      "normalized_subject": "openai codex internal performance factory agent regression detection and root cause",
+      "entities": [
+        "OpenAI",
+        "Codex",
+        "ChatGPT",
+        "Performance Factory"
+      ],
+      "event_summary": "OpenAI says its internal Performance Factory tracked more than 1,700 performance investigations and root-caused over 600 in just over three months. Agents propose fixes and PRs, but engineers review and decide whether to merge and deploy.",
+      "normalized_headline": "OpenAI details Codex-powered Performance Factory for automated regression investigations",
+      "canonical_urls": [
+        "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "OpenAI",
+          "source_class": "primary engineering report",
+          "role": "Internal workflow, investigation and root-cause metrics",
+          "published_date": "2026-11-19",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/"
+        }
+      ],
+      "source_domains": [
+        "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/"
+      ],
+      "desk": "developer",
+      "evidence_confidence": "High that OpenAI published these internal metrics; results have not been independently audited.",
+      "verification_status": "company_reported",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-google-gemini-mac-computer-use-2026-11-19",
+      "normalized_subject": "google gemini mac app computer use local files desktop apps and web",
+      "entities": [
+        "Google",
+        "Gemini",
+        "macOS"
+      ],
+      "event_summary": "Google says Gemini can navigate local files, desktop apps and websites in an isolated background window. Users choose app permissions, see a live preview and approve actions.",
+      "normalized_headline": "Gemini computer use arrives in the Mac app",
+      "canonical_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Google",
+          "source_class": "primary product announcement",
+          "role": "Gemini Mac computer-use feature and permission controls",
+          "published_date": "2026-11-19",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+        }
+      ],
+      "source_domains": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+      ],
+      "desk": "developer",
+      "evidence_confidence": "High on launch and described controls from Google; no independent safety evaluation found.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-mindlab-macaron-v1-1-venti-pro-singapore-2026-11-20",
+      "normalized_subject": "mindlab macaron v1.1 venti pro one million context singapore model studio pricing",
+      "entities": [
+        "MindLab",
+        "Alibaba Cloud",
+        "Model Studio",
+        "Macaron V1.1 Venti Pro"
+      ],
+      "event_summary": "Alibaba Model Studio lists Macaron V1.1 Venti Pro for Singapore/international serving with 1M input context, 131K output, image/text input and function calling. Listed price is US$2/M input, US$10/M output and US$0.10/M cached input; no independent benchmark found.",
+      "normalized_headline": "MindLab Macaron V1.1 Venti Pro appears in Alibaba Cloud Model Studio Singapore",
+      "canonical_urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+        "https://www.alibabacloud.com/help/en/model-studio/macaron-v1-1-venti-pro-by-mindlab"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Alibaba Cloud",
+          "source_class": "primary model release log",
+          "role": "Singapore Model Studio release listing",
+          "published_date": "2026-11-20",
+          "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+        },
+        {
+          "publisher": "Alibaba Cloud",
+          "source_class": "primary model specification",
+          "role": "Context, output, capabilities, limits and pricing",
+          "published_date": null,
+          "url": "https://www.alibabacloud.com/help/en/model-studio/macaron-v1-1-venti-pro-by-mindlab"
+        }
+      ],
+      "source_domains": [
+        "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+        "https://www.alibabacloud.com/help/en/model-studio/macaron-v1-1-venti-pro-by-mindlab"
+      ],
+      "desk": "models",
+      "evidence_confidence": "High on listed access, limits and pricing from provider documentation; no independent quality or latency benchmark found.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-ai-drug-discovery-preclinical-timelines-pharma-2026-11-20",
+      "normalized_subject": "sanofi novartis bristol myers novo nordisk ai drug discovery preclinical timelines",
+      "entities": [
+        "Sanofi",
+        "Novartis",
+        "Bristol Myers Squibb",
+        "Novo Nordisk",
+        "Anthropic"
+      ],
+      "event_summary": "Sanofi, Novartis, Bristol Myers and Novo Nordisk described AI-related time savings or target-selection gains in early-stage discovery. Reuters notes most AI-enabled candidates remain preclinical; these company examples do not establish clinical efficacy or approval.",
+      "normalized_headline": "Pharma companies report faster preclinical work with AI",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/litigation/big-pharma-with-eye-anthropic-says-ai-is-shrinking-drug-discovery-timelines-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Company-reported AI drug-discovery examples and clinical-stage context",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/legal/litigation/big-pharma-with-eye-anthropic-says-ai-is-shrinking-drug-discovery-timelines-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/legal/litigation/big-pharma-with-eye-anthropic-says-ai-is-shrinking-drug-discovery-timelines-2026-11-20/"
+      ],
+      "desk": "research",
+      "evidence_confidence": "Medium: company-reported examples independently reported by Reuters; mostly preclinical and not independently audited.",
+      "verification_status": "company_reported",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-databricks-225bn-fundraising-talks-2026-11-20",
+      "normalized_subject": "databricks early fundraising talks 225 billion dollar valuation",
+      "entities": [
+        "Databricks",
+        "Wall Street Journal",
+        "Reuters"
+      ],
+      "event_summary": "Reuters, citing the Wall Street Journal, says Databricks is in early talks to raise several billion dollars at about US$225bn valuation. Terms could change; the company did not immediately comment. This is not a signed or completed round.",
+      "normalized_headline": "Databricks reportedly explores a funding round at about US$225bn valuation",
+      "canonical_urls": [
+        "https://www.reuters.com/legal/transactional/databricks-early-talks-raise-funds-225-billion-valuation-wsj-reports-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting citing WSJ",
+          "role": "Reported early fundraising discussions and valuation",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/legal/transactional/databricks-early-talks-raise-funds-225-billion-valuation-wsj-reports-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/legal/transactional/databricks-early-talks-raise-funds-225-billion-valuation-wsj-reports-2026-11-20/"
+      ],
+      "desk": "business",
+      "evidence_confidence": "Medium: Reuters cites WSJ reporting; Databricks did not immediately comment and talks are early.",
+      "verification_status": "reported",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-abb-robotics-listing-china-carveout-2026-11-20",
+      "normalized_subject": "abb robotics business listing spin off china carve out after blocked softbank deal",
+      "entities": [
+        "ABB",
+        "SoftBank",
+        "China"
+      ],
+      "event_summary": "Reuters says ABB and SoftBank are exploring a carve-out of the Chinese business or other restructuring after China blocked the US$5.4bn sale. ABB may spin off or sell the robotics business if the transaction fails; no formal decision is public.",
+      "normalized_headline": "FOLLOW-UP: ABB considers robotics listing or China carve-out if SoftBank sale cannot be rescued",
+      "canonical_urls": [
+        "https://www.reuters.com/business/media-telecom/abb-considers-robotics-listing-if-sale-softbank-fails-sources-say-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Possible China carve-out and ABB robotics listing alternatives",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/business/media-telecom/abb-considers-robotics-listing-if-sale-softbank-fails-sources-say-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/business/media-telecom/abb-considers-robotics-listing-if-sale-softbank-fails-sources-say-2026-11-20/"
+      ],
+      "desk": "business",
+      "evidence_confidence": "Medium: Reuters cites sources; companies declined to comment and no restructuring decision is public.",
+      "verification_status": "reported",
+      "status": "verified",
+      "repeat_status": "material_follow_up",
+      "delivery_note": "",
+      "follow_up_of": "event-china-blocks-softbank-abb-robotics-acquisition-2026-11-05",
+      "prior_issue_path": "archive/2026-11-07.html",
+      "material_change": "Reuters now reports a possible China carve-out and ABB robotics listing/spin-off options after the blocked SoftBank acquisition.",
+      "latest_status_update": {
+        "published_date": "2026-11-20",
+        "summary": "Reuters now reports a possible China carve-out and ABB robotics listing/spin-off options after the blocked SoftBank acquisition.",
+        "source_url": "https://www.reuters.com/business/media-telecom/abb-considers-robotics-listing-if-sale-softbank-fails-sources-say-2026-11-20/"
+      }
+    },
+    {
+      "story_id": "event-cursor-considers-phaseout-chinese-ai-models-2026-11-20",
+      "normalized_subject": "cursor reported consideration to phase out chinese ai models geopolitical risk",
+      "entities": [
+        "Cursor",
+        "SpaceX",
+        "CNBC",
+        "Reuters",
+        "US House committee"
+      ],
+      "event_summary": "Reuters, citing CNBC's account of a House committee report, says Cursor told investigators it was considering moving away from Chinese models over geopolitical risk. No final decision or company confirmation was located.",
+      "normalized_headline": "Cursor is reported to be weighing a phase-out of Chinese AI models",
+      "canonical_urls": [
+        "https://www.reuters.com/business/media-telecom/spacexs-cursor-weighs-phasing-out-chinese-ai-models-over-geopolitical-risk-cnbc-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting citing CNBC",
+          "role": "Reported model-origin consideration and response status",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/business/media-telecom/spacexs-cursor-weighs-phasing-out-chinese-ai-models-over-geopolitical-risk-cnbc-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/business/media-telecom/spacexs-cursor-weighs-phasing-out-chinese-ai-models-over-geopolitical-risk-cnbc-2026-11-20/"
+      ],
+      "desk": "policy",
+      "evidence_confidence": "Medium: Reuters cites CNBC/committee reporting; companies did not immediately respond and no final decision is confirmed.",
+      "verification_status": "reported",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-un-lethal-autonomous-weapons-talks-deadline-no-deal-2026-11-20",
+      "normalized_subject": "un geneva negotiations lethal autonomous weapons systems no agreement",
+      "entities": [
+        "United Nations",
+        "Geneva",
+        "Lethal autonomous weapons systems"
+      ],
+      "event_summary": "Reuters reported five days of Geneva talks ran past the deadline without agreement on a path to formal negotiations. The proposal under discussion was non-binding; no binding treaty was agreed by the research cut-off.",
+      "normalized_headline": "UN talks on lethal autonomous weapons pass their deadline without a deal",
+      "canonical_urls": [
+        "https://www.reuters.com/world/americas/thorny-un-talks-regulating-killer-robots-drag-past-deadline-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Geneva talks, deadline and negotiating positions",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/world/americas/thorny-un-talks-regulating-killer-robots-drag-past-deadline-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/world/americas/thorny-un-talks-regulating-killer-robots-drag-past-deadline-2026-11-20/"
+      ],
+      "desk": "policy",
+      "evidence_confidence": "Medium-high: Reuters reported the negotiations and positions; no final agreement was reported by cut-off.",
+      "verification_status": "reported",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-agentrobocritic-action-level-robot-evaluation-2026-11-19",
+      "normalized_subject": "agentrobocritic robot manipulation action level failure analysis benchmark",
+      "entities": [
+        "AgentRoboCritic",
+        "arXiv",
+        "Robotics",
+        "Vision-language-action models"
+      ],
+      "event_summary": "The preprint studies direct robot control across 12 manipulation benchmarks and releases 12,844 annotated actions plus a fine-tuned critic. Authors report failure-mode accuracy improving from 32.58% to 74.24%; no independent reproduction was performed.",
+      "normalized_headline": "AgentRoboCritic evaluates frontier agents at the action level",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.26613"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "arXiv authors",
+          "source_class": "research preprint",
+          "role": "Benchmark, dataset and author-reported critic results",
+          "published_date": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.26613"
+        }
+      ],
+      "source_domains": [
+        "https://arxiv.org/abs/2611.26613"
+      ],
+      "desk": "research",
+      "evidence_confidence": "High on preprint existence and released dataset; reported metrics are author claims and were not independently reproduced.",
+      "verification_status": "preprint",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-pgx-humanoid-long-horizon-control-2026-11-19",
+      "normalized_subject": "pgx humanoid robot long horizon task control predicate state machine vla",
+      "entities": [
+        "PGX",
+        "Unitree G1",
+        "Humanoid robotics",
+        "arXiv"
+      ],
+      "event_summary": "The preprint combines a predicate state machine, stage-specific VLA manipulation skills and world-coordinate locking. Authors report three simulated tasks and one real-world Unitree G1 task; independent replication is pending.",
+      "normalized_headline": "PGX separates humanoid navigation, manipulation and spatial precision",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.26596"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "arXiv authors",
+          "source_class": "research preprint",
+          "role": "PGX architecture and reported simulation/robot evaluation",
+          "published_date": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.26596"
+        }
+      ],
+      "source_domains": [
+        "https://arxiv.org/abs/2611.26596"
+      ],
+      "desk": "research",
+      "evidence_confidence": "High on paper existence; reported task results are author claims and not independently reproduced.",
+      "verification_status": "preprint",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-depth-pro-2-temporal-metric-depth-2026-11-19",
+      "normalized_subject": "depth pro 2 image video metric depth estimation open weights",
+      "entities": [
+        "Depth Pro 2",
+        "Computer vision",
+        "arXiv"
+      ],
+      "event_summary": "The preprint describes one network for native-resolution images and video and releases code and weights. Accuracy, sharpness and runtime comparisons are author-reported and were not independently reproduced.",
+      "normalized_headline": "Depth Pro 2 targets sharp, temporally consistent metric depth",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.26603"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "arXiv authors",
+          "source_class": "research preprint",
+          "role": "Model design and author-reported evaluation",
+          "published_date": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.26603"
+        }
+      ],
+      "source_domains": [
+        "https://arxiv.org/abs/2611.26603"
+      ],
+      "desk": "research",
+      "evidence_confidence": "High on preprint and repository claim; performance results are author-reported and not independently reproduced.",
+      "verification_status": "preprint",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-scaleworld-causal-video-world-model-2026-11-19",
+      "normalized_subject": "scaleworld causal video world model low resolution prediction high resolution refinement",
+      "entities": [
+        "ScaleWorld",
+        "World models",
+        "Video generation",
+        "arXiv"
+      ],
+      "event_summary": "The preprint proposes a causal video world model that predicts a low-resolution stream then refines chunks at high resolution using the same backbone. Compute and memory gains are author-reported and not independently reproduced.",
+      "normalized_headline": "ScaleWorld shares a backbone for low-resolution prediction and high-resolution refinement",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.26615"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "arXiv authors",
+          "source_class": "research preprint",
+          "role": "Architecture and author-reported efficiency evaluation",
+          "published_date": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.26615"
+        }
+      ],
+      "source_domains": [
+        "https://arxiv.org/abs/2611.26615"
+      ],
+      "desk": "creator",
+      "evidence_confidence": "High on preprint existence; efficiency claims are author-reported and not independently reproduced.",
+      "verification_status": "preprint",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-openai-gpt6-luna-api-errors-2026-11-19",
+      "normalized_subject": "openai gpt6 luna chat completions responses api availability incident",
+      "entities": [
+        "OpenAI",
+        "GPT-6 Luna",
+        "Chat Completions API",
+        "Responses API"
+      ],
+      "event_summary": "OpenAI status history records elevated errors for Chat Completions and Responses from 09:01 to 09:58 UTC on 19 November, with mitigation at 09:21 UTC. The status entry gives no root cause; this was an availability incident, not a reported attack.",
+      "normalized_headline": "GPT-6 Luna API requests saw elevated errors for 57 minutes",
+      "canonical_urls": [
+        "https://status.openai.com/incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ"
+      ],
+      "original_publication_date": "2026-11-19",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "OpenAI Status",
+          "source_class": "primary service incident history",
+          "role": "Affected APIs, timeline and mitigation",
+          "published_date": "2026-11-19",
+          "url": "https://status.openai.com/incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ"
+        }
+      ],
+      "source_domains": [
+        "https://status.openai.com/incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ"
+      ],
+      "desk": "security",
+      "evidence_confidence": "High on timeline and affected services from OpenAI status; root cause not disclosed.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
+    },
+    {
+      "story_id": "event-us-house-democrats-nvidia-megaspeed-inquiry-2026-11-20",
+      "normalized_subject": "house democrats oversight inquiry nvidia influence commerce megaspeed investigation",
+      "entities": [
+        "US House Democrats",
+        "Nvidia",
+        "Megaspeed",
+        "US Commerce Department",
+        "Reuters"
+      ],
+      "event_summary": "Reuters reviewed a 19 November letter asking Commerce whether Nvidia influenced its Megaspeed investigation; lawmakers requested answers and documents by 1 December. Commerce and Justice said the case had been under investigation for two years; no improper influence finding was announced.",
+      "normalized_headline": "House Democrats ask whether Nvidia influenced the Megaspeed chip-diversion investigation",
+      "canonical_urls": [
+        "https://www.reuters.com/business/finance/democrats-open-probe-into-nvidia-influence-us-megaspeed-investigation-2026-11-20/"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-21",
+      "first_edition_path": "archive/2026-11-21.html",
+      "edition_paths": [
+        "archive/2026-11-21.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent wire reporting",
+          "role": "Letter contents, requested deadline and agency response",
+          "published_date": "2026-11-20",
+          "url": "https://www.reuters.com/business/finance/democrats-open-probe-into-nvidia-influence-us-megaspeed-investigation-2026-11-20/"
+        }
+      ],
+      "source_domains": [
+        "https://www.reuters.com/business/finance/democrats-open-probe-into-nvidia-influence-us-megaspeed-investigation-2026-11-20/"
+      ],
+      "desk": "policy",
+      "evidence_confidence": "Medium-high: Reuters reviewed the letter; the committee PDF itself was not opened and no finding was announced.",
+      "verification_status": "reported",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": ""
     }
   ],
   "archive_backfill_audit": [
@@ -17972,7 +19778,8 @@
         "archive/2026-11-19-edition-3.html"
       ],
       "note": "An accessible 19 November edition-2 snapshot was absent from archive/index.html and the editions registry. Its 15 story IDs already existed in the registry. Added the archive link and edition mapping, linked the existing story records to the preserved snapshot, and left the HTML unchanged."
-    }
+    },
+    "2026-11-21 canonical daily edition: inspected root homepage, archive index, 375-story/50-edition registry and enumerated 48 prior dated archive HTML files. Four recent issues reopened; 44 dated pages not reopened individually and semantically deduplicated against the full registry. One bounded cross-beat sweep targeted 90 domains; about 40 page URLs opened across 18 domains, 28 date-matched pages across 11 domains. Added 24 story records (17 unique new developments, seven material follow-ups); 14 repeat candidates excluded. No backfill required. Issue and archive index verified; homepage update pending. Append-only; no old story or edition record removed."
   ],
-  "last_updated_edition": "archive/2026-11-20.html"
+  "last_updated_edition": "archive/2026-11-21.html"
 }
