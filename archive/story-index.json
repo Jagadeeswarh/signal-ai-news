@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-21T08:34:53.716+05:30",
+  "last_updated_at": "2026-11-21T08:35:27.142+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.\n2026-11-19 edition 3: inspected root homepage, archive index and 359-story/47-edition registry. Enumerated 45 indexed dated archive paths and found one additional accessible but unindexed same-day file, archive/2026-11-19-edition-2.html; backfilled its edition mapping and archive link without creating duplicate story records or changing the file. Published edition 3 with 17 story cards (7 Main Desk, 10 More Signals), 14 unique new developments and three material follow-ups. Added three new story records: ANYmal simulator audit, PAIR smart-home benchmark and GitHub Copilot MAI Code 2 Flash outage. One cross-beat sweep targeted 89 distinct valid domains; 37 URLs opened across 24 domains, 16 direct date-matched sources across 13 domains. Thirty-eight indexed archive pages were not reopened individually. Append-only; no old records removed. Root homepage update follows issue, archive index and registry verification.\n2026-11-20 canonical daily edition: inspected root homepage, archive index, 362-story/49-edition registry and enumerated 47 dated archive files. Reopened eight recent 17–19 November issues; 39 older dated pages not reopened individually and deduplicated via registry. One cross-beat sweep targeted 90 domains (above requested 50–60), with 28 distinct URLs opened across 17 domains and 20 date-matched source pages across 11 domains. Published 16 story entries (8 Main Desk, 8 More Signals): 13 unique new records and three material follow-ups (Anthropic IPO first-day trading, BIS rule effective/TSMC implementation, Gemini 4 Neon Copilot access). Eleven repeat candidates excluded. No archive backfill required; canonical 20 November file created once. Registry append-only; no prior records removed. Root homepage update follows registry verification.",
   "editions": [
     {
@@ -7176,15 +7176,15 @@
         "archive_index_dated_entries_after": 49,
         "prior_records_removed": 0,
         "earlier_same_day_editions_preserved": true,
-        "root_index_updated": false,
-        "homepage_exact_match_verified": false
+        "root_index_updated": true,
+        "homepage_exact_match_verified": true
       },
       "issue_blob_sha": "d67518ff470ef754f69413227a0ca67aa0100645",
       "archive_index_blob_sha_after": "32c45fb00b856611d21a12822983be2b7cedc7ee",
       "root_index_blob_sha_before": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
-      "root_index_blob_sha_after": null,
-      "root_index_update_pending": true,
-      "homepage_match_verified": false,
+      "root_index_blob_sha_after": "d67518ff470ef754f69413227a0ca67aa0100645",
+      "root_index_update_pending": false,
+      "homepage_match_verified": true,
       "local_file_created": true,
       "local_file_sha_expected": "5725a193c6601f3d0503f40a73b87e7edc795886",
       "local_file_sha_matches_published": false,
@@ -7213,10 +7213,10 @@
       "netlify_deployment_claimed": false,
       "human_editorial_pass": true,
       "external_linter_run": false,
-      "coverage_gap_note": "One cross-beat sweep targeted 90 distinct domains (above the requested 50–60); about 40 page URLs were opened across 18 domains, with 28 date-matched pages across 11 domains. One repeated open of the Reuters House Democrats article failed; the story detail had been captured from an earlier Reuters result. The House committee letter/PDF itself was not opened. A same-day primary CtrlS Patna notice was not located; the public October CtrlS release covers a separate Bodh Gaya LOI. Four recent archive issues were reopened; 44 dated archive pages were not reopened individually and were deduplicated via the full registry. Four research papers are preprints without independent reproduction. No external linter ran. The local draft SHA did not match the published Git blob, so no local download is offered.",
-      "homepage_exact_match_verified_at": null,
+      "coverage_gap_note": "One cross-beat sweep targeted 90 distinct domains (above the requested 50–60); about 40 page URLs were opened across 18 domains, with 28 date-matched pages across 11 domains. One repeated open of the Reuters House Democrats article failed; the story detail had been captured from an earlier Reuters result. The House committee letter/PDF itself was not opened. A same-day primary CtrlS Patna notice was not located; the public October CtrlS release covers a separate Bodh Gaya LOI. Four recent archive issues were reopened; 44 dated archive pages were not reopened individually and were deduplicated via the full registry. Four research papers are preprints without independent reproduction. No external linter ran. The local draft SHA did not match the published Git blob, so no local download is offered. Publication completion: issue, archive index, story registry and homepage were read back; homepage content and blob SHA exactly match the canonical issue. The registry then received this final audit-only completion marker. Netlify was not checked.",
+      "homepage_exact_match_verified_at": "2026-11-21T08:35:27.142+05:30",
       "publication_verification": {
-        "verified_at": "2026-11-21T08:34:53.716+05:30",
+        "verified_at": "2026-11-21T08:35:27.142+05:30",
         "branch": "main",
         "issue_path": "archive/2026-11-21.html",
         "issue_blob_sha": "d67518ff470ef754f69413227a0ca67aa0100645",
@@ -7228,10 +7228,12 @@
         "registry_blob_sha_after": null,
         "root_index_path": "index.html",
         "root_index_blob_sha_before_update": "519a70fd08f05a09bcd58ccb53858ff9cde24d8a",
-        "root_index_blob_sha_after": null,
-        "root_index_update_pending": true,
-        "root_exact_match": false,
-        "netlify_deployment_claimed": false
+        "root_index_blob_sha_after": "d67518ff470ef754f69413227a0ca67aa0100645",
+        "root_index_update_pending": false,
+        "root_exact_match": true,
+        "netlify_deployment_claimed": false,
+        "registry_blob_sha_after_primary_append": "86ce5f484c8585a69c7da50954e79094e3a170a3",
+        "registry_sha_note": "The SHA above is the registry immediately after the story/edition append; this final audit-only metadata update creates the final registry blob SHA reported in the run result."
       }
     }
   ],
@@ -19779,7 +19781,8 @@
       ],
       "note": "An accessible 19 November edition-2 snapshot was absent from archive/index.html and the editions registry. Its 15 story IDs already existed in the registry. Added the archive link and edition mapping, linked the existing story records to the preserved snapshot, and left the HTML unchanged."
     },
-    "2026-11-21 canonical daily edition: inspected root homepage, archive index, 375-story/50-edition registry and enumerated 48 prior dated archive HTML files. Four recent issues reopened; 44 dated pages not reopened individually and semantically deduplicated against the full registry. One bounded cross-beat sweep targeted 90 domains; about 40 page URLs opened across 18 domains, 28 date-matched pages across 11 domains. Added 24 story records (17 unique new developments, seven material follow-ups); 14 repeat candidates excluded. No backfill required. Issue and archive index verified; homepage update pending. Append-only; no old story or edition record removed."
+    "2026-11-21 canonical daily edition: inspected root homepage, archive index, 375-story/50-edition registry and enumerated 48 prior dated archive HTML files. Four recent issues reopened; 44 dated pages not reopened individually and semantically deduplicated against the full registry. One bounded cross-beat sweep targeted 90 domains; about 40 page URLs opened across 18 domains, 28 date-matched pages across 11 domains. Added 24 story records (17 unique new developments, seven material follow-ups); 14 repeat candidates excluded. No backfill required. Issue and archive index verified; homepage update pending. Append-only; no old story or edition record removed.",
+    "2026-11-21 publication completion: archive/2026-11-21.html, archive/index.html, archive/story-index.json and root index.html were read back on main; root homepage content/blob SHA exactly matches the canonical issue. No same-day sibling was created. Netlify deployment was not verified. Local draft SHA differed from published issue SHA, so no local download link is provided."
   ],
   "last_updated_edition": "archive/2026-11-21.html"
 }
