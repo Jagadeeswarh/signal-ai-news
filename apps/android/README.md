@@ -10,11 +10,11 @@ Native Android reader built with Kotlin and Jetpack Compose.
 - GitHub-hosted JSON edition feed
 - Cached latest edition for offline reopening
 - Device-local bookmarks
-- Manual refresh; WorkManager background sync is the next integration step
+- Startup refresh plus 12-hour network-constrained background sync with WorkManager
 
 ## Build
 
-Open the repository root in Android Studio (Giraffe or newer), let Gradle sync, then run the `apps.android` application configuration or select the `android` module.
+Open the repository root in Android Studio (Giraffe or newer), let Gradle sync, then run the `android` module.
 
 Requirements: JDK 17, Android SDK 35, minimum Android 8.0 (API 26).
 

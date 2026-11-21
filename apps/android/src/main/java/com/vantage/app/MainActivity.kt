@@ -28,6 +28,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
+import androidx.compose.runtime.LaunchedEffect
 
 private val Ink = Color(0xFF111014)
 private val Surface = Color(0xFF1B161B)
@@ -41,6 +42,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val repository = EditionRepository(this)
+        VantageSyncScheduler.schedule(this)
         setContent {
             VantageTheme {
                 VantageApp(repository)
@@ -73,6 +75,10 @@ private fun VantageApp(repository: EditionRepository) {
     var savedIds by remember { mutableStateOf(repository.savedIds()) }
     var isRefreshing by remember { mutableStateOf(false) }
     val scope = rememberCoroutineScope()
+
+    LaunchedEffect(Unit) {
+        repository.refresh()?.let { edition = it }
+    }
 
     fun refresh() {
         scope.launch {
