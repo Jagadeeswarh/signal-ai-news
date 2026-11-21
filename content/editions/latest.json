@@ -1,0 +1,39 @@
+{
+  "dateLabel": "APP PREVIEW",
+  "kicker": "Understand what matters",
+  "title": "A clearer view of what comes next.",
+  "description": "This is a product preview edition. Live editorial content will flow here from the VANTAGE publishing pipeline.",
+  "bigPicture": "Technology rarely moves in isolation. VANTAGE is being designed to connect the day's developments to the bigger forces shaping business, science and society. This context layer will help readers understand not only what happened, but why it matters.",
+  "stories": [
+    {
+      "id": "preview-ai-infrastructure",
+      "title": "The next chapter of AI infrastructure",
+      "section": "Artificial Intelligence",
+      "summary": "A preview of how compute, energy, chips and data-centre capacity fit together in the emerging AI economy.",
+      "context": "The AI story is larger than model releases. Hardware supply chains, power availability, networking and capital expenditure all influence which organisations can build and deploy systems at scale. VANTAGE will connect these signals across its daily coverage.",
+      "source": "VANTAGE Preview",
+      "url": "",
+      "readTime": "5 min read"
+    },
+    {
+      "id": "preview-agentic-software",
+      "title": "When software starts working alongside us",
+      "section": "Technology",
+      "summary": "A preview of the shift from software that responds to commands to systems that can plan and carry out multi-step work.",
+      "context": "Agentic systems bring new questions about reliability, permissions, evaluation and human oversight. The meaningful story is not simply that agents can perform tasks, but where they can do so safely and consistently in real workflows.",
+      "source": "VANTAGE Preview",
+      "url": "",
+      "readTime": "4 min read"
+    },
+    {
+      "id": "preview-business-shifts",
+      "title": "Reading the signals behind business change",
+      "section": "Business",
+      "summary": "A preview of the connections between technology investment, changing markets and the decisions organisations make.",
+      "context": "Business developments become more useful when read as part of a system: incentives, regulation, competition and technology adoption shape one another. The VANTAGE briefing will make those relationships explicit.",
+      "source": "VANTAGE Preview",
+      "url": "",
+      "readTime": "3 min read"
+    }
+  ]
+}
