@@ -91,7 +91,7 @@ private fun VantageApp(repository: EditionRepository) {
     Scaffold(
         containerColor = Ink,
         topBar = {
-            Column(Modifier.fillMaxWidth().background(Ink).padding(horizontal = 22.dp, vertical = 16.dp)) {
+            Column(Modifier.fillMaxWidth().background(Ink).windowInsetsPadding(WindowInsets.statusBars).padding(horizontal = 22.dp, vertical = 16.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f)) {
                         Text("VANTAGE", color = Paper, fontSize = 23.sp, fontWeight = FontWeight.Black, letterSpacing = 3.sp)
