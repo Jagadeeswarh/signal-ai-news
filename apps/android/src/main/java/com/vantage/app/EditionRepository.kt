@@ -24,7 +24,7 @@ data class Edition(
 class EditionRepository(context: Context) {
     private val prefs = context.getSharedPreferences("vantage_reader", Context.MODE_PRIVATE)
     private val cache = context.getSharedPreferences("vantage_cache", Context.MODE_PRIVATE)
-    private val endpoint = "https://raw.githubusercontent.com/Jagadeeswarh/signal-ai-news/main/content/editions/latest.json"
+    private val endpoint = "https://raw.githubusercontent.com/Jagadeeswarh/signal-ai-news/feature/vantage-android-foundation/content/editions/latest.json"
 
     fun savedIds(): Set<String> = prefs.getStringSet("saved_ids", emptySet())?.toSet() ?: emptySet()
 
