@@ -101,7 +101,7 @@ private fun VantageApp(repository: EditionRepository, readerPreferences: SharedP
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f)) {
                         Text("VANTAGE", color = Paper, fontSize = 23.sp, fontWeight = FontWeight.Black, letterSpacing = 3.sp)
-                        Text("UNDERSTAND THE WORLD YOU'RE BUILDING IN.", color = Muted, fontSize = 8.sp, letterSpacing = 1.3.sp)
+                        Text("UNDERSTAND THE WORLD YOU'RE BUILDING IN.", color = Muted, fontSize = 9.sp, letterSpacing = 1.2.sp)
                     }
                     IconButton(onClick = { showSettings = true }) {
                         Icon(Icons.Outlined.Tune, contentDescription = "Reader settings", tint = Rose)
@@ -319,9 +319,9 @@ private fun StoryDetail(story: Story, isSaved: Boolean, fontScale: Float, highCo
 @Composable
 private fun SectionHeading(title: String, subtitle: String) {
     Column {
-        Text(title, color = Rose, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
-        Spacer(Modifier.height(3.dp))
-        Text(subtitle, color = Muted, fontSize = 11.sp)
+        Text(title, color = Paper, fontSize = 12.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
+        Spacer(Modifier.height(5.dp))
+        Text(subtitle, color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
     }
 }
 
