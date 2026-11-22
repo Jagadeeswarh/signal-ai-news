@@ -1,6 +1,7 @@
 package com.vantage.app
 
 import android.os.Bundle
+import android.content.SharedPreferences
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -42,10 +43,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val repository = EditionRepository(this)
+        val readerPreferences = getSharedPreferences("vantage_reader_preferences", MODE_PRIVATE)
         VantageSyncScheduler.schedule(this)
         setContent {
             VantageTheme {
-                VantageApp(repository)
+                VantageApp(repository, readerPreferences)
             }
         }
     }
@@ -68,12 +70,16 @@ private enum class Destination(val label: String) {
 }
 
 @Composable
-private fun VantageApp(repository: EditionRepository) {
+private fun VantageApp(repository: EditionRepository, readerPreferences: SharedPreferences) {
     var destination by remember { mutableStateOf(Destination.EDITION) }
     var edition by remember { mutableStateOf(repository.loadCached()) }
     var selected by remember { mutableStateOf<Story?>(null) }
     var savedIds by remember { mutableStateOf(repository.savedIds()) }
     var isRefreshing by remember { mutableStateOf(false) }
+    var showSettings by remember { mutableStateOf(false) }
+    var readerFontScale by remember { mutableFloatStateOf(readerPreferences.getFloat("font_scale", 1f)) }
+    var highContrast by remember { mutableStateOf(readerPreferences.getBoolean("high_contrast", false)) }
+    var paragraphSpacing by remember { mutableFloatStateOf(readerPreferences.getFloat("paragraph_spacing", 1f)) }
     val scope = rememberCoroutineScope()
 
     LaunchedEffect(Unit) {
@@ -96,6 +102,9 @@ private fun VantageApp(repository: EditionRepository) {
                     Column(Modifier.weight(1f)) {
                         Text("VANTAGE", color = Paper, fontSize = 23.sp, fontWeight = FontWeight.Black, letterSpacing = 3.sp)
                         Text("UNDERSTAND THE WORLD YOU'RE BUILDING IN.", color = Muted, fontSize = 8.sp, letterSpacing = 1.3.sp)
+                    }
+                    IconButton(onClick = { showSettings = true }) {
+                        Icon(Icons.Outlined.Tune, contentDescription = "Reader settings", tint = Rose)
                     }
                     IconButton(onClick = { refresh() }, enabled = !isRefreshing) {
                         Icon(Icons.Outlined.Refresh, contentDescription = "Refresh edition", tint = Rose)
@@ -141,6 +150,9 @@ private fun VantageApp(repository: EditionRepository) {
             StoryDetail(
                 story = selected!!,
                 isSaved = savedIds.contains(selected!!.id),
+                fontScale = readerFontScale,
+                highContrast = highContrast,
+                paragraphSpacing = paragraphSpacing,
                 onBack = { selected = null },
                 onSave = {
                     repository.toggleSaved(selected!!.id)
@@ -161,6 +173,32 @@ private fun VantageApp(repository: EditionRepository) {
                 }, Modifier.padding(padding))
             }
         }
+    }
+
+    if (showSettings) {
+        AlertDialog(
+            onDismissRequest = { showSettings = false },
+            containerColor = Surface,
+            title = { Text("Reader preferences", color = Paper, fontWeight = FontWeight.Bold) },
+            text = {
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("TEXT SIZE", color = Rose, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.4.sp)
+                    Slider(value = readerFontScale, onValueChange = { readerFontScale = it; readerPreferences.edit().putFloat("font_scale", it).apply() }, valueRange = 0.9f..1.3f)
+                    HorizontalDivider(color = Burgundy)
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Column(Modifier.weight(1f)) {
+                            Text("Higher contrast", color = Paper)
+                            Text("Brighter article text", color = Muted, fontSize = 11.sp)
+                        }
+                        Switch(checked = highContrast, onCheckedChange = { highContrast = it; readerPreferences.edit().putBoolean("high_contrast", it).apply() })
+                    }
+                    HorizontalDivider(color = Burgundy)
+                    Text("PARAGRAPH SPACING", color = Rose, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.4.sp)
+                    Slider(value = paragraphSpacing, onValueChange = { paragraphSpacing = it; readerPreferences.edit().putFloat("paragraph_spacing", it).apply() }, valueRange = 0.8f..1.5f)
+                }
+            },
+            confirmButton = { TextButton(onClick = { showSettings = false }) { Text("Done", color = Rose) } }
+        )
     }
 }
 
@@ -252,7 +290,7 @@ private fun StoryCard(story: Story, isSaved: Boolean, open: () -> Unit, toggle: 
 }
 
 @Composable
-private fun StoryDetail(story: Story, isSaved: Boolean, onBack: () -> Unit, onSave: () -> Unit, modifier: Modifier = Modifier) {
+private fun StoryDetail(story: Story, isSaved: Boolean, fontScale: Float, highContrast: Boolean, paragraphSpacing: Float, onBack: () -> Unit, onSave: () -> Unit, modifier: Modifier = Modifier) {
     Column(modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(22.dp)) {
         TextButton(onClick = onBack) { Text("←  BACK TO VANTAGE", color = Rose, fontSize = 10.sp, letterSpacing = 1.sp) }
         Spacer(Modifier.height(22.dp))
@@ -262,12 +300,12 @@ private fun StoryDetail(story: Story, isSaved: Boolean, onBack: () -> Unit, onSa
         Spacer(Modifier.height(12.dp))
         Text("${story.readTime}  ·  ${story.source}", color = Muted, fontSize = 11.sp)
         Spacer(Modifier.height(24.dp))
-        Text(story.summary, color = Paper, fontSize = 16.sp, lineHeight = 26.sp)
-        Spacer(Modifier.height(24.dp))
+        Text(story.summary, color = Paper, fontSize = (16f * fontScale).sp, lineHeight = (26f * paragraphSpacing).sp)
+        Spacer(Modifier.height((24f * paragraphSpacing).dp))
         Text("THE BIGGER PICTURE", color = Rose, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
         Spacer(Modifier.height(8.dp))
-        Text(story.context, color = Muted, fontSize = 14.sp, lineHeight = 23.sp)
-        Spacer(Modifier.height(26.dp))
+        Text(story.context, color = if (highContrast) Paper else Muted, fontSize = (14f * fontScale).sp, lineHeight = (23f * paragraphSpacing).sp)
+        Spacer(Modifier.height((26f * paragraphSpacing).dp))
         OutlinedButton(onClick = onSave, colors = ButtonDefaults.outlinedButtonColors(contentColor = Rose)) {
             Icon(if (isSaved) Icons.Outlined.Bookmark else Icons.Outlined.BookmarkBorder, null)
             Spacer(Modifier.width(8.dp))
