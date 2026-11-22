@@ -30,3 +30,11 @@ jobs:
           gradle-version: "8.9"
       - name: Assemble debug APK
         run: gradle :apps:android:assembleDebug
+
+      - name: Upload debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: vantage-debug-apk
+          path: apps/android/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 14
