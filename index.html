@@ -4,400 +4,416 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#111014">
-<meta name="description" content="SIGNAL. — AI Daily for Saturday, 21 November 2026. Evidence-led coverage of models, agents, research, security, compute, capital and policy.">
-<title>SIGNAL. — AI Daily | Saturday, 21 November 2026</title>
+<meta name="description" content="SIGNAL. — AI Daily for Monday, 23 November 2026. Evidence-led reporting on models, agents, research, security, compute, capital and policy.">
+<title>SIGNAL. — AI Daily | Monday, 23 November 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{color-scheme:dark;--paper:#111014;--ink:#f4edf0;--muted:#b9aab0;--rule:#49343d;--soft:#241a20;--red:#d28ba0;--burgundy:#87364f;--burgundy-light:#e0a5b5;--white:#1b161b;--body:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--display:"Space Grotesk",system-ui,sans-serif}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.62 var(--body)}a{color:var(--red);text-decoration-thickness:1px;text-underline-offset:3px}a:hover{text-decoration-thickness:2px}button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--ink);background:transparent;color:var(--ink);padding:8px 11px;border-radius:2px}button:hover{background:var(--ink);color:var(--paper)}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
-.masthead,.toolbar,.contents,main{max-width:1320px;margin:0 auto}.masthead{padding:28px 30px 20px;border-bottom:4px double var(--ink)}.brand{font:700 13px/1 var(--display);letter-spacing:.23em;text-transform:uppercase;color:var(--red)}.masthead h1{font:700 clamp(2.7rem,6vw,5.6rem)/.93 var(--display);letter-spacing:-.065em;margin:13px 0 8px}.deck{max-width:920px;margin:0;color:var(--muted);font-size:1.02rem}.issue-meta{display:flex;flex-wrap:wrap;gap:7px 18px;margin-top:16px;padding-top:12px;border-top:1px solid var(--rule);font-size:.76rem;text-transform:uppercase;letter-spacing:.08em}.issue-meta strong{color:var(--red)}
-.toolbar{padding:14px 30px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;border-bottom:1px solid var(--rule)}.toolbar label{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.toolbar input,.toolbar select{background:var(--white);border:1px solid var(--rule);padding:8px 10px;border-radius:2px;color:var(--ink)}.toolbar input{min-width:210px;flex:1}.toolbar .status{flex-basis:100%;min-height:1.2em;font-size:.76rem;color:var(--muted)}
-.contents{padding:13px 30px 16px;border-bottom:2px solid var(--ink)}.contents h2{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px;color:var(--muted)}.contents ul{display:flex;flex-wrap:wrap;gap:6px 15px;list-style:none;padding:0;margin:0}.contents a{font-size:.77rem;text-decoration:none;border-bottom:1px solid var(--rule);color:var(--ink)}main{padding:0 30px 50px}section{padding:25px 0;border-bottom:2px solid var(--ink);scroll-margin-top:12px}section h2{font-size:1.55rem;line-height:1.18;letter-spacing:-.035em;margin:3px 0 14px}section h3{font-size:1.08rem;line-height:1.28;letter-spacing:-.02em;margin:6px 0 9px}.kicker{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:var(--red)}
-.brief-grid,.impact-grid,.analysis-grid,.audit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-left:1px solid var(--rule)}.brief-grid>article,.impact-grid>article,.analysis-grid>article,.audit-grid>article{padding:13px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule)}.brief-grid h3,.impact-grid h3{font-size:.98rem;margin:0 0 6px}.brief-grid p,.impact-grid p{font-size:.85rem;margin:0}.editor-note,.note{border-left:4px solid var(--burgundy);padding:10px 14px;background:var(--soft);margin:12px 0;font-size:.88rem}
-.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-left:1px solid var(--rule)}.story-card{padding:16px 17px 18px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);min-width:0;break-inside:avoid}.story-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}.flag{color:var(--red);font-weight:800}.story-card h3{font-size:1.17rem;margin:8px 0}.story-card p{margin:8px 0}.story-deck{font-weight:600}.why{font-size:.89rem;border-left:2px solid var(--red);padding-left:10px}.impact-panel{margin-top:12px;padding:11px 12px;background:var(--soft);border-top:2px solid var(--burgundy)}.impact-title{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.09em;margin-bottom:8px}.impact-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}.impact-fields div{font-size:.79rem}.impact-fields strong{display:block;font-size:.66rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}.sources{display:flex;flex-wrap:wrap;gap:6px 13px;margin-top:10px;font-size:.77rem}.small{font-size:.77rem;color:var(--muted)}
-.more-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--rule)}.more-card{padding:13px 15px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);break-inside:avoid}.more-card h3{font-size:1rem;margin:4px 0}.more-card p{font-size:.86rem;margin:5px 0}.impact-note{font-size:.8rem;color:var(--muted);border-left:2px solid var(--red);padding-left:9px}
-.two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}.two-col>div{min-width:0}ul.compact{padding-left:19px;margin:7px 0}ul.compact li{margin:4px 0}.table-wrap{overflow-x:auto;border-top:1px solid var(--ink)}table{border-collapse:collapse;width:100%;font-size:.8rem;line-height:1.5}th,td{border:1px solid var(--rule);padding:9px 10px;text-align:left;vertical-align:top}th{background:var(--soft);font-size:.67rem;text-transform:uppercase;letter-spacing:.07em}.analysis-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.analysis-grid strong{display:block;color:var(--red);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}.audit-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.audit-grid h3{font-size:.86rem;margin:0 0 5px}.audit-grid p{font-size:.76rem;margin:0}.pill{display:inline-block;border:1px solid var(--rule);padding:2px 7px;border-radius:20px;font-size:.66rem;color:var(--muted);margin-right:5px}.footer{padding:20px 0;color:var(--muted);font-size:.74rem}[hidden]{display:none!important}details{margin-top:12px;border-top:1px solid var(--rule);padding-top:9px}summary{cursor:pointer;font-weight:700;color:var(--red)}
-@media(max-width:900px){.brief-grid,.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.audit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:650px){.masthead,.toolbar,.contents,main{padding-left:16px;padding-right:16px}.story-grid,.more-grid,.two-col{grid-template-columns:1fr}.brief-grid,.impact-grid,.analysis-grid,.audit-grid{grid-template-columns:1fr}.impact-fields{grid-template-columns:1fr}.masthead h1{font-size:2.8rem}.toolbar input{min-width:100%;flex-basis:100%}.toolbar select{flex:1}}
-@media print{body{background:#fff;color:#000;font-size:10pt}.masthead,.toolbar,.contents{padding-left:0;padding-right:0}.toolbar,.contents{display:none}main{padding:0;max-width:none}section{break-inside:auto;padding:14px 0}.story-grid,.more-grid{display:block}.story-card,.more-card{border:1px solid #aaa;break-inside:avoid}.impact-panel,.note{background:#f4f1e9!important;print-color-adjust:exact}.sources a{color:#000}.sources a[href^="http"]::after{content:" (" attr(href) ")";font-size:7pt;overflow-wrap:anywhere}.footer{display:none}a{text-decoration:none}}
+:root{
+ color-scheme:dark;
+ --paper:#111014;--surface:#1B161B;--soft:#241A20;--ink:#F4EDF0;--muted:#B9AAB0;
+ --rule:#49343D;--burgundy:#87364F;--red:#D28BA0;--highlight:#E0A5B5;
+ --white:#1B161B;--body:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+ --display:"Space Grotesk",system-ui,sans-serif;
+ --print-paper:#FFFFFF;--print-ink:#000000;--print-muted:#333333;--print-rule:#888888;--print-soft:#F1EEF0;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.64 var(--body)}
+a{color:var(--red);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--highlight);text-decoration-thickness:2px}
+button,input,select{font:inherit}
+button{cursor:pointer;border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:8px 11px;border-radius:2px}
+button:hover{background:var(--burgundy);border-color:var(--red)}
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--highlight);outline-offset:3px}
+.masthead,.toolbar,.contents,main{max-width:1320px;margin:0 auto}
+.masthead{padding:28px 30px 20px;border-bottom:4px double var(--ink)}
+.brand{font:700 13px/1 var(--display);letter-spacing:.23em;text-transform:uppercase;color:var(--red)}
+.masthead h1{font:700 clamp(2.7rem,6vw,5.6rem)/.93 var(--display);letter-spacing:-.065em;margin:13px 0 8px}
+.deck{max-width:920px;margin:0;color:var(--muted);font-size:1.02rem}
+.issue-meta{display:flex;flex-wrap:wrap;gap:7px 18px;margin-top:16px;padding-top:12px;border-top:1px solid var(--rule);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em}
+.issue-meta strong{color:var(--highlight)}
+.toolbar{padding:14px 30px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;border-bottom:1px solid var(--rule)}
+.toolbar label{font-size:.69rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.toolbar input,.toolbar select{background:var(--surface);border:1px solid var(--rule);padding:8px 10px;border-radius:2px;color:var(--ink)}
+.toolbar input{min-width:210px;flex:1}
+.toolbar .status{flex-basis:100%;min-height:1.2em;font-size:.76rem;color:var(--muted)}
+.contents{padding:13px 30px 16px;border-bottom:2px solid var(--ink)}
+.contents h2{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px;color:var(--muted)}
+.contents ul{display:flex;flex-wrap:wrap;gap:6px 15px;list-style:none;padding:0;margin:0}
+.contents a{font-size:.77rem;text-decoration:none;border-bottom:1px solid var(--rule);color:var(--ink)}
+main{padding:0 30px 50px}
+section{padding:25px 0;border-bottom:2px solid var(--rule);scroll-margin-top:12px}
+section h2{font-size:1.55rem;line-height:1.18;letter-spacing:-.035em;margin:3px 0 14px}
+section h3{font-size:1.08rem;line-height:1.28;letter-spacing:-.02em;margin:6px 0 9px}
+.kicker{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:var(--red)}
+.editor-note,.note{border-left:4px solid var(--burgundy);padding:10px 14px;background:var(--soft);margin:12px 0;font-size:.88rem}
+.impact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.impact-grid article{padding:13px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--surface)}
+.impact-grid h3{font-size:.98rem;margin:0 0 6px}
+.impact-grid p{font-size:.85rem;margin:0;color:var(--muted)}
+.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.story-card{padding:16px 17px 18px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);min-width:0;break-inside:avoid;background:var(--surface)}
+.story-card h3{font-size:1.2rem;margin:8px 0}
+.story-card p{margin:8px 0}
+.story-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+.flag{color:var(--highlight);font-weight:800}
+.story-deck{font-weight:600;color:var(--ink)}
+.why{font-size:.89rem;border-left:2px solid var(--red);padding-left:10px}
+.impact-panel{margin-top:12px;padding:11px 12px;background:var(--soft);border-top:2px solid var(--burgundy)}
+.impact-title{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.09em;margin-bottom:8px;color:var(--highlight)}
+.impact-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}
+.impact-fields div{font-size:.79rem}
+.impact-fields strong{display:block;font-size:.66rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.sources{display:flex;flex-wrap:wrap;gap:6px 13px;margin-top:10px;font-size:.77rem}
+.small{font-size:.77rem;color:var(--muted)}
+.table-wrap{overflow-x:auto;border-top:1px solid var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:.8rem;line-height:1.5}
+th,td{border:1px solid var(--rule);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:var(--soft);font-size:.67rem;text-transform:uppercase;letter-spacing:.07em}
+.two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+.two-col>div{min-width:0}
+ul.compact{padding-left:19px;margin:7px 0}
+ul.compact li{margin:4px 0}
+.analysis-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.analysis-grid article{padding:13px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--surface)}
+.analysis-grid strong{display:block;color:var(--highlight);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.audit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.audit-grid article{padding:13px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--surface)}
+.audit-grid h3{font-size:.86rem;margin:0 0 5px}
+.audit-grid p{font-size:.76rem;margin:0;color:var(--muted)}
+.pill{display:inline-block;border:1px solid var(--rule);padding:2px 7px;border-radius:20px;font-size:.66rem;color:var(--muted);margin-right:5px}
+.footer{padding:20px 0;color:var(--muted);font-size:.74rem}
+[hidden]{display:none!important}
+@media(max-width:900px){.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.audit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.masthead,.toolbar,.contents,main{padding-left:16px;padding-right:16px}.story-grid,.two-col{grid-template-columns:1fr}.impact-grid,.analysis-grid,.audit-grid{grid-template-columns:1fr}.impact-fields{grid-template-columns:1fr}.masthead h1{font-size:2.8rem}.toolbar input{min-width:100%;flex-basis:100%}.toolbar select{flex:1}}
+@media print{
+ :root{color-scheme:light;--paper:var(--print-paper);--surface:var(--print-paper);--soft:var(--print-soft);--ink:var(--print-ink);--muted:var(--print-muted);--rule:var(--print-rule);--red:var(--print-ink);--burgundy:var(--print-ink);--highlight:var(--print-ink)}
+ body{background:var(--paper);color:var(--ink);font-size:10pt}
+ .masthead,.toolbar,.contents{padding-left:0;padding-right:0}
+ .toolbar,.contents{display:none}
+ main{padding:0;max-width:none}
+ section{break-inside:auto;padding:14px 0}
+ .story-grid{display:block}
+ .story-card{border:1px solid var(--rule);break-inside:avoid}
+ .impact-panel,.note,.editor-note{background:var(--soft);print-color-adjust:exact}
+ .sources a{color:var(--ink)}
+ .sources a[href^="http"]::after{content:" (" attr(href) ")";font-size:7pt;overflow-wrap:anywhere}
+ .footer{display:none}
+ a{text-decoration:none}
+}
 </style>
 </head>
 <body>
 <header class="masthead">
-<div class="brand">SIGNAL. / AI Daily</div>
-<h1>AI, without the noise.</h1>
-<p class="deck">A full-spectrum briefing on models, agents, research, reliability, compute, capital and policy. Vendor claims, independent reporting, regulatory documents and preprints are labelled distinctly.</p>
-<div class="issue-meta"><span><strong>Saturday · 21 November 2026</strong></span><span>Canonical daily edition</span><span>Research cut-off 08:11 IST</span><span>Window 19 Nov 08:11 – 21 Nov 08:11 IST</span><span>24 verified developments · 11 Main Desk · 13 More Signals</span></div>
+ <div class="brand">SIGNAL. / AI Daily</div>
+ <h1>AI, without the noise.</h1>
+ <p class="deck">A full-spectrum briefing on models, agents, research, reliability, compute, capital and policy. Primary disclosures, independent reporting and vendor-run benchmarks are labelled distinctly.</p>
+ <div class="issue-meta"><span><strong>Monday · 23 November 2026</strong></span><span>Canonical daily edition</span><span>Research cut-off 09:23 IST</span><span>Window 21 Nov 09:23 – 23 Nov 09:23 IST</span><span>3 verified developments · 3 Main Desk · 0 More Signals</span></div>
 </header>
 <div class="toolbar" aria-label="Issue tools">
-<label for="searchInput">Search</label><input id="searchInput" type="search" placeholder="Headlines, companies, models, topics…">
-<label for="deskFilter">Desk</label><select id="deskFilter"><option value="all">All desks</option><option value="main">Main Desk</option><option value="more">More Signals</option><option value="models">Models</option><option value="developer">Developer &amp; agents</option><option value="creator">Creator &amp; multimodal</option><option value="research">Research &amp; robotics</option><option value="security">Security &amp; reliability</option><option value="compute">Compute &amp; infrastructure</option><option value="business">Business &amp; capital</option><option value="policy">Policy &amp; society</option></select>
-<button id="speakPlay" type="button">Speak</button><button id="speakPause" type="button">Pause</button><button id="speakStop" type="button">Stop</button><label for="speechRate">Speed</label><select id="speechRate"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
-<button id="downloadBtn" type="button">Download HTML</button><button id="shareBtn" type="button">Share</button><button id="printBtn" type="button">Print / PDF</button>
-<div class="status" id="toolStatus" aria-live="polite">Search and desk filters run locally. Speech uses your browser's native voice. Share attaches the HTML file when supported; otherwise use the honest copy/manual-attachment fallback.</div>
+ <label for="searchInput">Search</label><input id="searchInput" type="search" placeholder="Headlines, companies, models, topics…">
+ <label for="deskFilter">Desk</label><select id="deskFilter"><option value="all">All desks</option><option value="main">Main Desk</option><option value="models">Models</option><option value="security">Security &amp; reliability</option><option value="regional">India &amp; Asia</option></select>
+ <button id="speakPlay" type="button">Speak</button><button id="speakPause" type="button">Pause</button><button id="speakStop" type="button">Stop</button>
+ <label for="speechRate">Speed</label><select id="speechRate"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+ <button id="downloadBtn" type="button">Download HTML</button><button id="shareBtn" type="button">Share</button><button id="printBtn" type="button">Print / PDF</button>
+ <div class="status" id="toolStatus" aria-live="polite">Search and desk filters run locally. Speech uses your browser's native voice. Share attaches the HTML file when supported; otherwise use the manual-attachment fallback.</div>
 </div>
 <nav class="contents" aria-label="Contents"><h2>Contents</h2><ul>
-<li><a href="#editors-briefing">Editor's Briefing</a></li><li><a href="#impact-radius">Impact Radius</a></li><li><a href="#main-desk">Main Desk</a></li><li><a href="#model-watch">Model &amp; Benchmark Watch</a></li><li><a href="#developer-agent-stack">Developer &amp; Agent Stack</a></li><li><a href="#creator-multimodal">Creator &amp; Multimodal Desk</a></li><li><a href="#research-science-robotics">Research, Science &amp; Robotics</a></li><li><a href="#security-safety-reliability">Security, Safety &amp; Reliability</a></li><li><a href="#compute-chips-cloud-energy">Compute, Chips, Cloud &amp; Energy</a></li><li><a href="#business-capital">Business, Capital Flows &amp; Portfolio Lens</a></li><li><a href="#india-asia-global">India &amp; Asia / Global Regional Desk</a></li><li><a href="#community-intelligence">Community Intelligence</a></li><li><a href="#more-signals">More Signals</a></li><li><a href="#future-radar">Future Radar</a></li><li><a href="#ai-in-context">AI in Context</a></li><li><a href="#glossary">glossary</a></li><li><a href="#what-to-watch">What to Watch Next</a></li><li><a href="#coverage-audit">Coverage Audit</a></li>
+ <li><a href="#editors-briefing">Editor's Briefing</a></li><li><a href="#impact-radius">Impact Radius</a></li><li><a href="#main-desk">Main Desk</a></li><li><a href="#model-watch">Model &amp; Benchmark Watch</a></li><li><a href="#developer-agent-stack">Developer &amp; Agent Stack</a></li><li><a href="#creator-multimodal">Creator &amp; Multimodal Desk</a></li><li><a href="#research-science-robotics">Research, Science &amp; Robotics</a></li><li><a href="#security-safety-reliability">Security, Safety &amp; Reliability</a></li><li><a href="#compute-chips-cloud-energy">Compute, Chips, Cloud &amp; Energy</a></li><li><a href="#business-capital">Business, Capital Flows &amp; Portfolio Lens</a></li><li><a href="#india-asia-global">India &amp; Asia / Global Regional Desk</a></li><li><a href="#community-intelligence">Community Intelligence</a></li><li><a href="#more-signals">More Signals</a></li><li><a href="#future-radar">Future Radar</a></li><li><a href="#ai-in-context">AI in Context</a></li><li><a href="#glossary">glossary</a></li><li><a href="#what-to-watch">What to Watch Next</a></li><li><a href="#coverage-audit">Coverage Audit</a></li>
 </ul></nav>
 <main id="issue">
 <section id="editors-briefing">
-<div class="kicker">The lead</div><h2>Editor's Briefing</h2>
-<p><strong>The AI story today is shifting from model launches to the systems around them.</strong> Microsoft has put a 2.3-billion-parameter model into Edge and released its weights; Google has opened a world model through its API and added on-demand tool discovery; OpenAI has described an internal agent factory for performance engineering. At the same time, Signal is hardening its screen boundary against on-device assistants, while CERT-In has issued a critical multi-product Oracle advisory.</p>
-<p>Capital is being tested as carefully as capability. Oracle says its OpenAI infrastructure contract is funded, but 4.5 GW of planned data-centre capacity is not 4.5 GW commissioned. Anthropic's IPO proceeds rose to roughly US$93.5 billion after the full greenshoe exercise, even as the shares fell on day two. Databricks' reported US$225 billion funding discussions remain early talks, not a signed round.</p>
-<div class="editor-note"><strong>Editorial discipline:</strong> seven material follow-ups are labelled and linked to earlier coverage. Four robotics/computer-vision papers are preprints, not peer-reviewed or independently reproduced. The new Patna CtrlS pact is Reuters-reported; the public CtrlS release we located documents a separate October Bodh Gaya LOI, so the Patna detail carries medium confidence.</div>
+ <div class="kicker">The lead</div><h2>Editor's Briefing</h2>
+ <p><strong>India's model race has a new open-weight contender, while the AI inference supply chain is facing its clearest privacy stress test yet.</strong> Sarvam released a post-trained 105B mixture-of-experts checkpoint focused on tool use and Indian-language conversations, with Apache-2.0 weights and a sharply lower vendor-quoted token price. Separately, a Dragos canary study and provider disclosures have exposed prompt access, credential misuse and routing-policy failures across parts of the inference marketplace. OpenRouter says it has off-boarded three providers and removed 125 endpoints from Zero Data Retention eligibility.</p>
+ <p>India's CERT-In has also warned that attackers are changing business records and approval chains so that legitimate payment workflows execute unauthorised transfers. The underlying critical advisory was issued on 20 November and surfaced in public reporting on 21–22 November; it is not a new incident report naming a specific victim.</p>
+ <div class="editor-note"><strong>Editorial note:</strong> Only three developments cleared the materiality and date-window test. The Dragos study was published on 19 November, just outside the 48-hour window; the story is included because provider disclosures and platform actions on 21–23 November materially changed the response. Sarvam benchmark and throughput claims remain vendor-run; no independent reproduction was found.</div>
 </section>
-<section id="impact-radius"><div class="kicker">What moves first</div><h2>Impact Radius</h2><div class="impact-grid">
-<article><h3>Agent permissions</h3><p>Signal's default screen protections turn OS-level AI access into an app-security control. The next pressure point is whether other apps and operating systems expose similarly granular consent.</p></article>
-<article><h3>On-device inference</h3><p>Aion Instruct and browser APIs make small models more practical for routine web tasks. The trade-off is clear: local privacy and low latency, but less reasoning depth than frontier cloud models.</p></article>
-<article><h3>Compute financing</h3><p>Oracle's financing statement, Anthropic's IPO and Databricks' reported talks show capital still flowing, but investors are distinguishing funded plans from installed capacity and recurring revenue.</p></article>
-<article><h3>China / US supply chain</h3><p>Alibaba's lower cloud-growth outlook and Tencent's domestic-chip comments show export controls reaching beyond shipments into cloud economics and model roadmaps.</p></article>
-</div></section>
-<section id="main-desk"><div class="kicker">Highest consequence · verified and materially updated</div><h2>Main Desk</h2><div class="story-grid">
-<article class="story-card" data-priority="main" data-desk="business">
-<div class="story-head"><span>Business / regulation · 20 Nov</span><span class="flag">Developing investigation</span></div>
-<h3>SEC accounting probe adds pressure to Nvidia as AI financing comes under scrutiny</h3>
-<p class="story-deck">Reuters reports that SEC enforcement staff are examining potential accounting issues at Nvidia, citing two people briefed on the matter. The SEC declined to comment; Nvidia did not immediately respond. Reuters could not establish when the inquiry began or its precise scope. An investigation is not evidence of wrongdoing.</p>
-<p>The report links renewed scrutiny to Nvidia's change in geographic revenue reporting—using customer headquarters rather than billing addresses, which removed Singapore from the breakdown—and investor concern about complex financing arrangements around AI customers and data centres. Reuters says Nvidia shares were down about 13% on Friday after the accounting focus was reported. That move occurred during a broader technology selloff; it should not be attributed to one cause.</p>
-<p class="why"><strong>Why developers and buyers should care:</strong> vendor-financing structures can affect how durable GPU demand really is. Procurement teams should distinguish customer orders, vendor-backed financing, cloud capacity commitments and actual workloads running on deployed systems.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · High / financial and governance uncertainty</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Nvidia, shareholders, cloud customers, chip buyers and counterparties in AI infrastructure financing.</div>
-<div><strong>Second-order</strong>Forecast: greater disclosure scrutiny of customer financing, regional revenue and AI data-centre exposure.</div>
-<div><strong>Geography</strong>United States and Singapore, with Southeast Asian chip-routing implications.</div>
-<div><strong>Horizon</strong>Weeks to months; SEC timing and scope remain unknown.</div>
-<div><strong>Confidence</strong>Medium: Reuters cites two people briefed; SEC declined comment and Nvidia had not responded. No finding or charge reported.</div>
-</div></div>
-<div class="sources"><a href="https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/">Reuters SEC-probe report · 20 Nov</a><a href="https://www.reuters.com/business/finance/democrats-open-probe-into-nvidia-influence-us-megaspeed-investigation-2026-11-20/">Separate House Democrats inquiry</a><a href="https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/">AI-trade market context</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="compute">
-<div class="story-head"><span>Compute / Oracle–OpenAI · 20 Nov</span><span class="flag">Follow-up / update</span></div>
-<h3>Oracle says OpenAI infrastructure contract is fully funded; 4.5 GW remains a build-out plan</h3>
-<p class="story-deck">Oracle said financing outlined at its Investor Day—including vendor financing—is in place for its infrastructure contract with OpenAI. The companies plan another 4.5 gigawatts of US data-centre capacity on top of the initial Stargate site in Abilene, Texas.</p>
-<p>Oracle says Abilene is nearly complete, its next gigawatt-scale campus in Shackelford County is fully permitted, and Nvidia Vera Rubin rack handover is on track for the coming weeks. Oracle announced a separate US$20 billion capital raise earlier this month, split roughly between stock and debt. These are financing and project-status statements: they do not establish that the additional 4.5 GW is commissioned, fully equipped or drawing power.</p>
-<p class="small">FOLLOW-UP to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-10-28-current-v2.html">28 October Oracle/Nvidia multi-gigawatt expansion coverage</a>. Exact change: Oracle now says financing is in place, Abilene is nearly complete and the next campus is fully permitted.</p>
-<p class="why"><strong>Why developers should care:</strong> funding certainty can improve the odds of capacity delivery, but cloud buyers still need commissioning dates, rack availability, power, network and service-level commitments.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · High / multi-year infrastructure delivery</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Oracle, OpenAI, Nvidia, infrastructure vendors, Texas data-centre operators and cloud customers.</div>
-<div><strong>Second-order</strong>Forecast: more demand for power, cooling, networking, land and specialist construction capacity.</div>
-<div><strong>Geography</strong>United States, especially Abilene and Shackelford County, Texas.</div>
-<div><strong>Horizon</strong>Vera Rubin handover in coming weeks; 4.5 GW build-out over multiple years.</div>
-<div><strong>Confidence</strong>Medium-high on Oracle's public statement as reported by Reuters; funding and deployment were not independently audited.</div>
-</div></div>
-<div class="sources"><a href="https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/">Reuters · 20 Nov</a><a href="https://www.oracle.com/news/announcement/ai-world-nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-2026-10-27/">Oracle expansion announcement</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="business">
-<div class="story-head"><span>Capital markets / Anthropic · 20 Nov</span><span class="flag">Follow-up / update</span></div>
-<h3>Anthropic's IPO rises to US$93.5bn after full greenshoe exercise</h3>
-<p class="story-deck">Anthropic said underwriters exercised the full 147 million-share greenshoe option at the US$83 offer price, taking aggregate gross IPO proceeds to roughly US$93.5 billion. The SEC prospectus disclosed the option and the base 980 million-share offer; the option shares are primary shares sold by Anthropic.</p>
-<p>The base offering comprised 956.35 million primary shares and 23.65 million secondary shares. The separate US$26 billion private placement is not part of the US$93.5 billion gross IPO figure. Morgan Stanley's exercise means it can no longer use open-market purchases to cover any remaining overallotment. Reuters reported Anthropic shares at US$86 on Friday, down 11.5% from Thursday's US$97.17 close, amid a wider AI-stock selloff.</p>
-<p class="small">FOLLOW-UP to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-20.html">20 November IPO debut coverage</a>. Exact change: the full 147m-share greenshoe was exercised, lifting gross IPO proceeds from US$81.34bn to about US$93.5bn; the stock then fell on day two.</p>
-<p class="why"><strong>Why developers should care:</strong> the larger offering strengthens Anthropic's funding base, but the share-price move shows that IPO proceeds and public-market confidence are separate measures.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · High / capital-market signal</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Anthropic, public investors, underwriters and existing shareholders.</div>
-<div><strong>Second-order</strong>Forecast: the deal may influence AI-company IPO timing and investor scrutiny of compute commitments.</div>
-<div><strong>Geography</strong>US public markets; global AI infrastructure and model ecosystem.</div>
-<div><strong>Horizon</strong>Immediate price discovery; future capital allocation over quarters and years.</div>
-<div><strong>Confidence</strong>High on option exercise and proceeds from Anthropic's statement reported by Reuters and the SEC filing.</div>
-</div></div>
-<div class="sources"><a href="https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/">Reuters · full greenshoe and day-two trading</a><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm">SEC 424B4 prospectus</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="security">
-<div class="story-head"><span>Security / agent permissions · 20 Nov</span><span class="flag">Follow-up / product change</span></div>
-<h3>Signal turns on screen security to block on-device AI assistants from reading chats</h3>
-<p class="story-deck">Signal's support documentation says screen security now blocks screenshots and recordings inside Signal, hides message content from the recent-apps/app-switcher view, and prevents on-device assistants such as Google Gemini and Siri AI from reading Signal's screen.</p>
-<p>On iPhone, Block Siri AI is on by default in Signal 8.37 or later on iOS 27 or later. On Android, Screen security activates automatically the first time an AI assistant tries to read the screen in Signal 8.35.1 or later; users can also enable it in Settings. Turning protection off requires confirmation. This is an app-level response to OS permission exposure, not a repair to Signal encryption and not a universal control over every operating system or app.</p>
-<p class="small">FOLLOW-UP to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-19.html">19 November Meta Muse investigation</a>. Exact change: Signal has shipped default/triggered screen protections and documents supported app versions.</p>
-<p class="why"><strong>Why developers should care:</strong> treat screenshots, accessibility, notifications and app-switcher previews as privileged data surfaces. Consent must be visible and revocable, not inferred from a user's general permission to run an assistant.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · High / immediate privacy control</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Signal users on supported Android and iOS versions; OS assistant and app developers.</div>
-<div><strong>Second-order</strong>Forecast: other messaging and finance apps may adopt app-level AI-screen restrictions or explicit per-assistant consent.</div>
-<div><strong>Geography</strong>Mobile platforms globally, subject to supported OS and app versions.</div>
-<div><strong>Horizon</strong>Immediate for supported installs; platform-level standards may take 1–4 quarters.</div>
-<div><strong>Confidence</strong>High on Signal's documented behavior and version requirements; no claim that this blocks every possible OS-level capture path.</div>
-</div></div>
-<div class="sources"><a href="https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI">Signal support: screen security</a><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters: original Muse permission investigation</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="compute">
-<div class="story-head"><span>Compute / China–US · 20 Nov</span><span class="flag">Follow-up / impact update</span></div>
-<h3>US chip curbs reach China's cloud outlook: Alibaba sees slower growth, Tencent leans on domestic inference</h3>
-<p class="story-deck">Reuters reports Alibaba expects cloud revenue growth to slow to 30%–45% next year from 53%, as US restrictions reach remote access to advanced chips and Nvidia has halted some approved shipments. Tencent says inference-heavy AI services can run on domestic chips.</p>
-<p>The shift matters because the contest is no longer limited to physical GPU exports: it now touches overseas data-centre access, cloud-service growth and the software stacks that run on domestic accelerators. The guidance is company commentary, not an independent forecast; it does not prove that domestic chips can replace leading-edge training capacity.</p>
-<p class="small">FOLLOW-UP to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-20.html">20 November BIS/TSMC rule coverage</a>. Exact change: Alibaba's 30%–45% cloud-growth outlook and Tencent's domestic-chip inference comments add operating-economics evidence to the export-control story.</p>
-<p class="why"><strong>Why developers should care:</strong> separate inference capacity from frontier-training access. A region may still offer affordable inference while the largest model-training jobs face longer lead times or different hardware constraints.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · High / regional compute economics</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Alibaba Cloud, Tencent Cloud, Chinese AI labs, domestic accelerator suppliers and enterprise customers.</div>
-<div><strong>Second-order</strong>Forecast: more investment in domestic accelerators and inference software; possible slower frontier-model cadence.</div>
-<div><strong>Geography</strong>China, US export-control jurisdiction and regional cloud supply chains.</div>
-<div><strong>Horizon</strong>2027 cloud growth outlook; training and procurement effects over 1–4 quarters.</div>
-<div><strong>Confidence</strong>Medium-high on reported management guidance; strategic impact remains uncertain and is not independently modelled.</div>
-</div></div>
-<div class="sources"><a href="https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/">Reuters · 20 Nov</a><a href="https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology">BIS remote-compute rule</a><a href="https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/">Reuters: Nvidia China outlook</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="compute">
-<div class="story-head"><span>India / infrastructure · 20 Nov</span><span class="flag">Regional investment</span></div>
-<h3>Reuters reports CtrlS signed a new ₹10,000 crore pact for a 150 MW Patna data centre</h3>
-<p class="story-deck">Reuters reports CtrlS Datacenters signed a pact with Bihar's state government for a ₹100 billion (about US$1.08 billion) 150 MW facility in Patna, targeting commercial operations in 2029–30 and 400 direct jobs.</p>
-<p><strong>Verification caveat:</strong> the public CtrlS release we located from October documents a separate ₹10,000 crore, 150 MW letter of intent for Bodh Gaya, alongside an existing Patna facility. We did not locate a same-day company release confirming the newly reported Patna pact. Treat the 20 November Patna agreement as Reuters-reported rather than independently confirmed by a primary document. A memorandum or pact is not cash spent, construction completed or power capacity commissioned.</p>
-<p class="why"><strong>Why developers should care:</strong> new regional capacity can improve latency and enterprise access, but the actual value depends on grid connection, power quality, cooling, network routes, customer commitments and delivery milestones.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · Medium / long-dated regional capacity</div><div class="impact-fields">
-<div><strong>Directly affected</strong>CtrlS, Bihar government, Patna suppliers, local workforce, grid and telecom operators.</div>
-<div><strong>Second-order</strong>Forecast: 150 MW of planned IT load and 400 direct jobs could support a regional AI/cloud ecosystem; power and water requirements need scrutiny.</div>
-<div><strong>Geography</strong>Patna, Bihar, India; separate earlier Bodh Gaya plan.</div>
-<div><strong>Horizon</strong>Targeted commercial operation in 2029–30, not near-term deployed capacity.</div>
-<div><strong>Confidence</strong>Medium: Reuters reports the new pact; a same-day primary Patna notice was not located. CtrlS's October release confirms a separate Bodh Gaya LOI.</div>
-</div></div>
-<div class="sources"><a href="https://www.reuters.com/world/india/indias-ctrls-invest-over-1-billion-build-data-centre-bihar-2026-11-20/">Reuters: Patna pact · 20 Nov</a><a href="https://www.ctrls.com/press-release-ctrls-plan-to-invest-rs-10000-crore-bihar-patna-datacenter/">CtrlS October release: separate Bodh Gaya LOI and existing Patna site</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="models">
-<div class="story-head"><span>Models / open weights · 19 Nov</span><span class="flag">General availability</span></div>
-<h3>Microsoft makes Aion Instruct open weights and brings it to Edge's built-in SLM slot</h3>
-<p class="story-deck">Microsoft released Aion Instruct as an open-weights 2.3B-parameter model on Hugging Face under the MIT licence and made it Edge's built-in small language model, replacing Phi-4-mini. The Edge Prompt API entered an origin trial; an experimental Decisions API is in developer preview for yes/no, multiple-choice and scoring outputs with probabilities and confidence.</p>
-<p>The model card lists a 32K-token context window and eight languages. It is intended for summarisation, rewriting, document comprehension, question answering and other on-device text tasks. Microsoft says it is smaller, faster and available on more devices than Phi-4-mini while delivering comparable quality on common web tasks; that is a vendor claim, not an independent benchmark. The card warns that a 2.3B model can miss details, struggle with complex multi-step reasoning and be vulnerable to adversarial prompts. The published weights are unquantized; quantized versions are to follow. Hugging Face does not list a hosted inference provider for this model, so developers need Edge's built-in integration or their own serving stack. Microsoft says a further optimised, moderation-coupled Windows OS SLM is expected by the end of January 2027.</p>
-<p class="why"><strong>Why developers should care:</strong> web apps can route suitable low-risk tasks to local inference and fall back to cloud models when device coverage or reasoning depth is insufficient. The Prompt API remains an origin trial, not a settled cross-browser standard.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · High / on-device developer architecture</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Edge web developers, Windows users, local-model builders and privacy-sensitive applications.</div>
-<div><strong>Second-order</strong>Forecast: routine summarisation and classification may shift from cloud calls to device-side inference, lowering data transfer and per-call costs.</div>
-<div><strong>Geography</strong>Global Hugging Face distribution and Edge rollout, subject to device capability.</div>
-<div><strong>Horizon</strong>Available now in Edge; Windows OS integration targeted by end January 2027.</div>
-<div><strong>Confidence</strong>High on release, weights, licence and context from Microsoft/model card; comparative quality claims are vendor-reported.</div>
-</div></div>
-<div class="sources"><a href="https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/">Microsoft Edge announcement · 19 Nov</a><a href="https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B">Aion 1.0 Instruct model card</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="developer">
-<div class="story-head"><span>Developer / agent tooling · 19 Nov</span><span class="flag">Preview</span></div>
-<h3>Google adds Tool Retrieval to the Gemini API for large agent tool libraries</h3>
-<p class="story-deck">Google launched Tool Retrieval in the Gemini API's Interactions API. Developers can register a <code>tool_search</code> tool and set <code>defer_loading</code> to true so the model retrieves parameter schemas only when a task needs them.</p>
-<p>The preview loads schemas on demand, supports Gemini 3.6+ and remote MCP servers, and has no separate feature fee; normal token billing applies. Google does not quantify net savings. Developers still need to evaluate retrieval misses, tool-selection errors and prompt-injection exposure in tool descriptions.</p>
-<p class="why"><strong>Why developers should care:</strong> tool catalogues can grow without paying the full schema cost on every turn. Measure end-to-end task success and recovery—not just token savings.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · Medium-high / agent operating cost</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Gemini API developers building agents with many tools or dynamic tool registries.</div>
-<div><strong>Second-order</strong>Forecast: dynamic tool discovery may become a common agent pattern, increasing the importance of schema hygiene and tool provenance.</div>
-<div><strong>Geography</strong>Gemini API service footprint; regional availability follows API rollout.</div>
-<div><strong>Horizon</strong>Preview available now; production adoption depends on evals and reliability.</div>
-<div><strong>Confidence</strong>High on feature and API syntax from Google; claimed latency/token benefits are not quantified independently.</div>
-</div></div>
-<div class="sources"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/">Google Tool Retrieval announcement</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="creator">
-<div class="story-head"><span>World models / Google DeepMind · 19 Nov</span><span class="flag">API availability / follow-up</span></div>
-<h3>Genie 4 becomes available through the Gemini API and AI Studio</h3>
-<p class="story-deck">Google made Genie 4 available to developers through the Gemini Interactions API and AI Studio, following its earlier world-generation announcement. A text prompt, reference image or both can seed a continuous 720p, 24-fps world stream with synchronized audio; keyboard input and live text prompts can alter the environment.</p>
-<p>The public API documentation specifies fixed 16:9 output and serving regions in the United States, Western Europe and Japan. It describes keyboard effects appearing in roughly 0.2–0.5 seconds and mid-session text changes taking about 1–2 seconds through world planning. These are documented interaction timings, not an independent latency benchmark. No public price was verified. Genie 4 is a world model, not a general-purpose text LLM.</p>
-<p class="small">FOLLOW-UP to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-10-28-current-v2.html">28 October Google DeepMind world-generation coverage</a>. Exact change: the model is now exposed through the Gemini API and AI Studio with a documented interactive streaming interface.</p>
-<p class="why"><strong>Why developers should care:</strong> interactive world generation can support game prototyping, spatial design and synthetic environments for simulation. Teams should test temporal consistency, controllability, rights and serving-region constraints before production use.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · Medium-high / interactive simulation workflows</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Game and spatial developers, creators, simulation researchers and robotics teams.</div>
-<div><strong>Second-order</strong>Forecast: synthetic environments may become a new input to agent and robotics training pipelines, subject to validation.</div>
-<div><strong>Geography</strong>Documented serving footprint: US, Western Europe and Japan.</div>
-<div><strong>Horizon</strong>API access now; 1–4 quarters for production workflows and evaluation.</div>
-<div><strong>Confidence</strong>High on API access and documented output format; no independent benchmark or public price found.</div>
-</div></div>
-<div class="sources"><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/">Google DeepMind Genie 4 announcement</a><a href="https://aistudio.google.com/docs/genie">Gemini API Genie documentation</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="security">
-<div class="story-head"><span>Security / India CERT · 20 Nov</span><span class="flag">Critical advisory / follow-up</span></div>
-<h3>CERT-In issues a critical multi-product Oracle advisory; November update contains 655 patches</h3>
-<p class="story-deck">CERT-In Vulnerability Note CIVN-2026-0568, dated 20 November, rates multiple Oracle-product vulnerabilities critical. The affected list includes Database Server, APEX, REST Data Services, E-Business Suite, Financial Services Applications, Fusion Middleware, Java SE/JavaFX, MySQL and GraalVM. CERT-In warns of possible remote code execution, privilege escalation, denial of service and unauthorised information access.</p>
-<p>Oracle's November Critical Security Patch Update says it contains 655 new security patches across product families. This is a broad enterprise patching notice, not a new AI-specific vulnerability and not a replacement for the Java4Shell CVE already covered. CERT-In's new note widens the India-facing product inventory teams should review. No confirmed exploit campaign tied to this advisory was found in the sources checked.</p>
-<p class="small">FOLLOW-UP to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-19.html">19 November Java4Shell coverage</a>. Exact change: CERT-In has issued a separate critical multi-product Oracle note, beyond the single Java CVE.</p>
-<p class="why"><strong>Why developers should care:</strong> Java and Oracle dependencies often sit inside packaged enterprise products and containers. Inventory indirect dependencies, map vendor-fixed versions and patch internet-facing services first.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · High / immediate enterprise patch exposure</div><div class="impact-fields">
-<div><strong>Directly affected</strong>Organisations running the listed Oracle database, Java, middleware, ERP, MySQL and GraalVM products.</div>
-<div><strong>Second-order</strong>Forecast: emergency maintenance windows, container rebuilds and downstream vendor patch notices.</div>
-<div><strong>Geography</strong>India CERT-In audience and global Oracle customers.</div>
-<div><strong>Horizon</strong>Immediate inventory and patch review; days to weeks for remediation.</div>
-<div><strong>Confidence</strong>High on CERT-In scope and Oracle's 655-patch count; no specific exploitation was reported in the note.</div>
-</div></div>
-<div class="sources"><a href="https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIVN-2026-0568&amp;pageid=PUBVLNOTES01">CERT-In CIVN-2026-0568 · 20 Nov</a><a href="https://www.oracle.com/security-alerts/cspunov2026.html">Oracle November 2026 patch update</a></div>
-</article>
-<article class="story-card" data-priority="main" data-desk="developer">
-<div class="story-head"><span>Developer operations / OpenAI · 19 Nov</span><span class="flag">Production workflow</span></div>
-<h3>OpenAI details a Codex-powered “Performance Factory” for automated regression investigations</h3>
-<p class="story-deck">OpenAI says its internal Performance Factory has tracked more than 1,700 performance investigations and root-caused more than 600 cases in just over three months—about 17 automated investigations per day.</p>
-<p>The system detects a regression, investigates metrics and traces, proposes a fix, opens a pull request and verifies recovery after deployment. An engineer reviews and decides whether to merge and deploy the proposed change. OpenAI says adversarial review checks whether a proposed fix addresses the root cause and catches regressions; the metrics are company-reported internal results, not an external benchmark.</p>
-<p class="why"><strong>Why developers should care:</strong> this is a concrete pattern for production agents: explicit workflow states, scoped tools, evidence summaries, adversarial review and a human approval gate. The hard part is proving the patch fixed the right problem without introducing another one.</p>
-<div class="impact-panel"><div class="impact-title">Impact radius · Medium-high / agentic software operations</div><div class="impact-fields">
-<div><strong>Directly affected</strong>OpenAI engineering teams and users of ChatGPT/API services whose regressions may be detected and fixed faster.</div>
-<div><strong>Second-order</strong>Forecast: service teams may adopt agent-run observability and repair workflows, but need independent evals and rollback controls.</div>
-<div><strong>Geography</strong>OpenAI's global cloud operations.</div>
-<div><strong>Horizon</strong>Already operating internally; broader pattern may spread over 1–3 quarters.</div>
-<div><strong>Confidence</strong>High that OpenAI published these internal metrics; the results have not been independently audited.</div>
-</div></div>
-<div class="sources"><a href="https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/">OpenAI Engineering · 19 Nov</a></div>
-</article>
-</div><p class="small" id="filterEmpty" hidden>No story matches the current search and desk filter.</p></section>
-<section id="model-watch"><div class="kicker">Release / access / price / evidence</div><h2>Model &amp; Benchmark Watch</h2>
-<p><strong>Material change verified:</strong> Microsoft Aion Instruct became open weights and Edge's built-in SLM; Alibaba Model Studio added MindLab Macaron V1.1 Venti Pro in Singapore; Google opened Genie 4 through its API. These are different model classes and must not be ranked on one leaderboard.</p>
-<div class="table-wrap"><table><thead><tr><th>Model / date</th><th>Access / price</th><th>Context / latency</th><th>Practical strengths / limits</th><th>Evidence / audience</th></tr></thead><tbody>
-<tr><td><strong>Microsoft Aion 1.0 Instruct · 2.3B</strong><br>19 Nov 2026 · GA</td><td>Open weights on Hugging Face, MIT licence; built into Edge. No model API price; hardware/serving cost applies. Prompt API origin trial; Decisions API developer preview.</td><td>32K context. No independently measured latency. Unquantized weights; Hugging Face does not list a hosted inference provider. Quantized versions are to follow.</td><td>On-device summarisation, rewriting, document comprehension, question answering and structured text decisions. Small-model trade-offs: weaker multi-step reasoning, missed details and adversarial susceptibility.</td><td>Microsoft says smaller/faster and comparable to Phi-4-mini on common web tasks; vendor claim. No independent same-harness reproduction. Best for browser/web developers and privacy-sensitive local tasks.</td></tr>
-<tr><td><strong>MindLab Macaron V1.1 Venti Pro</strong><br>20 Nov 2026 · Singapore listing</td><td>Hosted through Alibaba Cloud Model Studio, Singapore region / international scope. US$2/M input, US$10/M output; cache hit US$0.10/M. No open weights.</td><td>1M input context; 131K output. 600 RPM / 5M TPM documented for Singapore. No verified latency benchmark.</td><td>Text+image input, text output, function calling and structured outputs. No web search, batch inference or fine-tuning. UI4A workflows.</td><td>Alibaba/MindLab product documentation; no independent benchmark or leaderboard result found. Audience: agent, coding and UI automation teams testing hosted long-context models.</td></tr>
-<tr><td><strong>Google Genie 4</strong><br>API access · 19 Nov 2026</td><td>Gemini Interactions API and Google AI Studio. No public API price found in checked docs.</td><td>720p, 16:9, 24 fps with synchronized audio. Docs describe keyboard effects in ~0.2–0.5s and text edits in ~1–2s; these are product timings, not an independent benchmark.</td><td>Interactive world generation from text/image prompts; live keyboard and text changes. Not a general-purpose text LLM. Fixed output format and documented serving regions (US, Western Europe, Japan).</td><td>Google launch and API docs; no independent reproduction or third-party leaderboard found. Audience: game, spatial, simulation and robotics prototyping.</td></tr>
-</tbody></table></div>
-<div class="note"><strong>Benchmark discipline:</strong> no compatible independent benchmark was found for these releases. Microsoft and Google capability statements are vendor claims; Alibaba's page is a product specification, not an evaluation. Do not compare Aion's on-device text tasks, MindLab's hosted agent workflows and Genie 4's world streams as if they were one model class.</div>
-<p><strong>No material change verified</strong> for a new OpenAI, Anthropic, Meta, xAI, DeepSeek, Qwen, Mistral, Zhipu, Moonshot, MiniMax or Baidu frontier-LLM release in the 19–21 November window. Qwen4-Max's 16 November listing is outside this window; Gemini 4 Neon and GPT-6.2 remain as previously covered, with no new model version or independent benchmark reproduction verified.</p>
-<p class="sources"><a href="https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/">Aion / Edge announcement</a><a href="https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B">Aion model card</a><a href="https://www.alibabacloud.com/help/en/model-studio/newly-released-models">Alibaba model releases</a><a href="https://www.alibabacloud.com/help/en/model-studio/macaron-v1-1-venti-pro-by-mindlab">MindLab model specification and pricing</a><a href="https://aistudio.google.com/docs/genie">Genie 4 API docs</a></p>
+
+<section id="impact-radius">
+ <div class="kicker">What moves first</div><h2>Impact Radius</h2>
+ <div class="impact-grid">
+  <article><h3>India-first agent economics</h3><p>Sarvam's checkpoint gives Indian-language support and voice-agent teams a lower-cost open-weight option. The practical barrier shifts to workstation-grade GPU memory, hosting operations and production validation.</p></article>
+  <article><h3>Inference supply-chain trust</h3><p>Prompts can pass through routers, resellers and model hosts. Each hop can see plaintext; a zero-retention flag at one layer does not guarantee downstream handling.</p></article>
+  <article><h3>Payment workflow integrity</h3><p>CERT-In's warning moves attention from API gateways alone to beneficiary records, approval rules, vendor access and the reconciliation systems that decide whether a payment is legitimate.</p></article>
+ </div>
 </section>
-<section id="developer-agent-stack"><div class="kicker">Agents / APIs / workflow engineering</div><h2>Developer &amp; Agent Stack</h2>
-<div class="two-col"><div>
-<h3>Tool Retrieval: schema-on-demand for large Gemini tool libraries</h3><p>Google's preview loads tool parameter schemas only when needed through <code>tool_search</code> and <code>defer_loading</code>, supports Gemini 3.6+ and remote MCP servers, and has no separate feature fee; normal token billing applies. Google does not quantify net savings. Evaluate discovery misses, tool-selection quality and prompt injection in tool metadata.</p>
-<h3>Performance Factory: explicit state machines and human hand-offs</h3><p>OpenAI's internal system shows a production pattern: alert → investigation → root-cause proposal → adversarial review → engineer-approved PR/deploy → recovery verification. It reports 1,700 investigations and 600 root causes in just over three months. The metrics are vendor-reported; human review remains central.</p>
-</div><div>
-<h3>Gemini computer use arrives on Mac</h3><p>Google says the Gemini Mac app can navigate local files, desktop apps and websites in an isolated background window. Users choose app permissions, see a live preview and approve actions. This is a product launch, not evidence that unrestricted background control is safe. See <a href="https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/">Google's 19 November announcement</a>.</p>
-<h3>No material, date-matched development verified</h3><p>No new MCP protocol specification or standalone IDE release was verified in this window. Source classes checked: official GitHub/Cursor/JetBrains/Sourcegraph release notes, model-vendor developer blogs, framework changelogs and the MCP project surface. Tool Retrieval and Performance Factory are workflow changes, not a new protocol.</p>
-</div></div>
+
+<section id="main-desk">
+ <div class="kicker">Highest consequence · three verified developments</div><h2>Main Desk</h2>
+ <div class="story-grid">
+  <article class="story-card" data-priority="main" data-desk="models">
+   <div class="story-head"><span>Models / India · 22 Nov</span><span class="flag">Open-weight release</span></div>
+   <h3>Sarvam releases 105B checkpoint aimed at low-cost Indian-language agents</h3>
+   <p class="story-deck">Sarvam AI released Sarvam-105B-1711 on 22 November, a post-trained checkpoint of its 105-billion-parameter mixture-of-experts model. The base model has 10.3B active parameters; the new checkpoint targets instruction following, tool calls, agentic tasks and Indian languages.</p>
+   <p>The weights are available on Hugging Face under Apache-2.0 in BF16 and NVFP4 formats. Sarvam lists Token Factory rates of ₹10 per million input tokens and ₹25 per million output tokens; at a 3:1 input/output mix the company reports a blended price of about US$0.15 per million tokens. Its own eight-benchmark conversational-agent average rose from 42.6 for the February checkpoint to 73.9. The company also reports 79.1 on its Indic suite and 85.5 on τ²-Bench.</p>
+   <p>Those are vendor-run evaluations, not an independent reproduction. Sarvam says it evaluated models using its own harness, four samples and official graders; open-weight models ran through vLLM while closed APIs were called through OpenRouter at their providers' maximum context. The harness is described, but those serving conditions are not identical. The launch blog discusses 160K-token long-context training; the published vLLM recipe sets max-model-len to 131,072, so 128K is the concrete deployment setting to plan around.</p>
+   <p>The Hugging Face model card reports a B200 run at 128K context with 122 tokens/second/user at 64 concurrent users and 156 ms p50 time-to-first-token. On a single 96 GB RTX PRO 6000 Blackwell GPU, its 50K-context test reports 61.8 tokens/second for one user and 8.1 seconds p50 time-to-first-token. These are vendor measurements using a specific vLLM/DSpark setup, not independent latency guarantees. The NVFP4 pack is about 65 GB; this is workstation-class hardware, not a laptop deployment. The model card also requires trust_remote_code for its serving recipe, which production teams should review.</p>
+   <p>Practical fit: Indian-language customer support, voice agents, retrieval-grounded enterprise assistants and high-volume multi-turn tool workflows where a team can host or contract for the required GPU capacity. Limits: no independent quality reproduction, high memory requirements, and benchmark comparisons that should not be read as a universal leaderboard ranking.</p>
+   <p class="why"><strong>Why developers should care:</strong> evaluate cost per successfully completed tool workflow, not cost per token alone. Test code-mixed speech, tool arguments, retries, long conversations, concurrency and GPU memory on your own data before replacing a hosted frontier model.</p>
+   <div class="impact-panel"><div class="impact-title">Impact radius · High / near-term model-selection impact</div><div class="impact-fields">
+    <div><strong>Directly affected</strong>Indian enterprises, voice-agent builders, government and BFSI teams, Sarvam Token Factory users and self-hosting teams.</div>
+    <div><strong>Second-order</strong>Forecast: lower inference costs could widen local-language agent deployment and increase demand for Blackwell workstation/server capacity.</div>
+    <div><strong>Geography</strong>India-led release with globally downloadable weights.</div>
+    <div><strong>Horizon</strong>Immediate evaluation; 1–2 quarters for production adoption and independent testing.</div>
+    <div><strong>Confidence</strong>High on release, licence and model-card configuration; medium on performance and price comparisons, which are vendor-reported.</div>
+   </div></div>
+   <div class="sources"><a href="https://www.sarvam.ai/blogs/sarvam-105b-1711">Sarvam launch and benchmark details · 22 Nov</a><a href="https://huggingface.co/sarvamai/sarvam-105b-1711">Hugging Face NVFP4 model card</a><a href="https://huggingface.co/sarvamai/sarvam-105b-1711-bf16">BF16 weights</a><a href="https://www.moneycontrol.com/artificial-intelligence/sarvam-unveils-upgraded-105b-ai-model-plans-more-releases-amid-token-factory-criticism-article-14086730.html">Moneycontrol reporting · 23 Nov</a></div>
+  </article>
+
+  <article class="story-card" data-priority="main" data-desk="security">
+   <div class="story-head"><span>Security / AI infrastructure · 21–23 Nov</span><span class="flag">Developing disclosures</span></div>
+   <h3>AI inference supply chain faces prompt-leak disclosures; OpenRouter removes three providers</h3>
+   <p class="story-deck">A Dragos experiment using nearly two million unique canary prompts found evidence of data exposure at at least three AI hosting providers, prompt retention by some inference-marketplace resellers and apparent failures to honour privacy settings. The research was published on 19 November; the material update in this window is the sequence of provider disclosures and OpenRouter's 22 November response.</p>
+   <p>OpenRouter says its investigation found no breach or unauthorised access of OpenRouter itself. It says it off-boarded three providers, removed 125 endpoints from Zero Data Retention eligibility—including precautionary removals—and notified potentially affected customers. The company has not named the three off-boarded providers; its public list contains disclosures from Atlas Cloud, Novita, Phala and Together, which should not be assumed to be the same set.</p>
+   <p>Three separate provider disclosures illustrate different failure modes. Together AI said an AI coding agent committed a credential to a public repository during development; an unauthorised party used it to download stored prompt samples from June and July 2026 and tested credentials found in them. Five were Dragos canaries. Together says its review of prompt contents is ongoing and it has not identified evidence of additional prompt leakage beyond this incident so far.</p>
+   <p>Novita said a routing configuration issue caused some MiniMax requests to be forwarded to MiniMax's official API between 28 May and 11 November. It says request contents may have been accessed or retained by a third party, suspended the affected models and observed no use of the AWS canary-key markers. Atlas Cloud said a third party opened links embedded in prompts sent to MiniMax's official API through Atlas in Q3 and early Q4; it stopped sending traffic to that API and told users to treat secrets in those prompts as exposed. Atlas says it found no issue with its other models so far.</p>
+   <p>Phala's earlier November 10 report describes a separate server compromise: DeepSeek V4 Flash 0731 requests routed to Phala by OpenRouter between 21 October and 8 November should be treated as exposed. Phala says it contained the incident on 8 November, rotated its KMS root key on 6 November and restored the service with additional protections. This is background to the wider supply-chain picture, not a new November 23 incident.</p>
+   <p>Dragos does not name the compromised providers or disclose affected customer counts. Its canary evidence is a security-research finding, not a full independent audit of every provider or every prompt. The public disclosures cover distinct windows and causes; they do not prove that all traffic on OpenRouter, all MiniMax traffic or all ZDR-labelled requests were exposed.</p>
+   <p><strong>What customers should do:</strong> identify every router, reseller and upstream inference provider in the request path; review provider-specific retention and data-processing terms; avoid placing live credentials, passwords or private URLs in prompts; rotate any secrets that may have been included in affected requests; and use direct provider contracts or self-hosting for high-sensitivity workloads where feasible. A ZDR label is a policy promise, not proof that every downstream hop enforces it.</p>
+   <p class="why"><strong>Why developers should care:</strong> the model endpoint is only one part of the security boundary. Log the actual upstream route, constrain provider pools, redact secrets before inference, use short-lived scoped credentials, and make vendor incident response and data-deletion commitments testable.</p>
+   <div class="impact-panel"><div class="impact-title">Impact radius · High / active supply-chain and privacy exposure</div><div class="impact-fields">
+    <div><strong>Directly affected</strong>Customers of affected inference providers and resellers, especially teams that sent credentials, source code or confidential data in prompts.</div>
+    <div><strong>Second-order</strong>Forecast: more route transparency, endpoint-level ZDR evidence, vendor audits and demand for direct or self-hosted inference.</div>
+    <div><strong>Geography</strong>Global; disclosures span US, European, Chinese and multi-region inference routes.</div>
+    <div><strong>Horizon</strong>Immediate secret review and provider-path checks; 1–3 quarters for marketplace controls and independent assurance.</div>
+    <div><strong>Confidence</strong>High on each company's public disclosure; medium on the full cross-provider scope because identities and customer counts remain undisclosed and Dragos' experiment has not been independently reproduced.</div>
+   </div></div>
+   <div class="sources"><a href="https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens">Dragos canary research · 19 Nov</a><a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">OpenRouter response · 22 Nov</a><a href="https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026">Together AI disclosure · 21 Nov</a><a href="https://novita.ai/blog/minimax-requests-privacy-notice/">Novita MiniMax privacy notice · 22 Nov</a><a href="https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment">Atlas Cloud notice · 23 Nov</a><a href="https://phala.com/posts/phala-november-preliminary-incident-report">Phala preliminary report · 10 Nov</a></div>
+  </article>
+
+  <article class="story-card" data-priority="main" data-desk="security regional">
+   <div class="story-head"><span>Security / India · 20 Nov advisory, public coverage 21–22 Nov</span><span class="flag">Critical advisory</span></div>
+   <h3>CERT-In warns attackers are altering payment records and approval chains</h3>
+   <p class="story-deck">CERT-In advisory CIAD-2026-0062, issued on 20 November and rated critical, warns that attackers are changing business records or approval relationships so that otherwise legitimate payment workflows execute unauthorised transfers. Public reporting on 21–22 November says the warning extends beyond banks to technology service providers supporting government-linked payment processes and platforms handling vendor or partner payouts.</p>
+   <p>The advisory describes AI-driven agentic offensive frameworks used for reconnaissance, privilege discovery and parallel intrusion tasks. The important distinction is that the payment may pass normal application checks because the underlying beneficiary or approval data has been altered. Securing the payment API alone will not catch a transaction that is syntactically valid but based on a compromised business record.</p>
+   <p>CERT-In's reported recommendations include independent verification of payment instructions and beneficiary changes, separation of client environments, tighter administrative and control-plane privileges, and monitoring record changes together with privileged activity and subsequent transactions. The public reports do not name affected organisations or disclose loss amounts. The official advisory URL timed out during this research; the details below are corroborated by multiple outlets quoting the advisory, not by a directly readable primary page.</p>
+   <p class="why"><strong>Why developers should care:</strong> ERP, procurement, vendor-management and payout systems need controls around the data that drives approval—not only authentication at the API gateway. Use independent reconciliation, dual approval for beneficiary changes, short-lived credentials, immutable audit trails and alerting that correlates record edits with payment execution.</p>
+   <div class="impact-panel"><div class="impact-title">Impact radius · High / payment integrity across sectors</div><div class="impact-fields">
+    <div><strong>Directly affected</strong>Banks, NBFCs, fintechs, IT service providers, government payout platforms and organisations paying vendors or partners.</div>
+    <div><strong>Second-order</strong>Forecast: stricter third-party access reviews, independent reconciliation and transaction-level controls across procurement and finance systems.</div>
+    <div><strong>Geography</strong>India; CERT-In's warning covers government-linked and private-sector payment workflows.</div>
+    <div><strong>Horizon</strong>Immediate control review; weeks to months for vendor and workflow remediation.</div>
+    <div><strong>Confidence</strong>Medium: several reports quote the advisory and agree on its core warning; the official CERT-In page could not be fetched, and no victims or losses were named.</div>
+   </div></div>
+   <div class="sources"><a href="https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0062&amp;pageid=PUBVLNOTES02">CERT-In advisory CIAD-2026-0062 · direct link, timed out in this check</a><a href="https://bfsi.eletsonline.com/cert-in-payment-workflow-advisory/">Elets / BFSI Network · 21 Nov</a><a href="https://www.thehawk.in/news/economy-and-business/banking/cert-in-warns-of-ai-driven-cyberattacks-targeting-payment-systems-across-sectors">IANS / The Hawk · 21 Nov</a><a href="https://techgig.com/news/cybersecurity/cert-in-flags-expanding-ai-driven-cyberattacks-on-payment-systems/136065003">TechGig · 22 Nov</a></div>
+  </article>
+ </div>
+ <p class="small" id="filterEmpty" hidden>No story matches the current search and desk filter.</p>
 </section>
-<section id="creator-multimodal"><div class="kicker">Image / video / audio / world generation</div><h2>Creator &amp; Multimodal Desk</h2>
-<p><strong>Genie 4 is the material API change:</strong> continuous interactive 720p worlds at 24 fps with native audio, keyboard control and live text edits. It opens a world-model workflow, not a replacement for conventional image/video generation. <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/">Google DeepMind's release</a> and <a href="https://aistudio.google.com/docs/genie">API documentation</a> are the primary references.</p>
-<p><strong>ScaleWorld</strong>, a 19 November arXiv preprint, proposes a shared backbone that predicts a low-resolution causal world video and then refines it at high resolution. The authors claim improved compute and memory efficiency; the result is a preprint, not an independent replication. See <a href="https://arxiv.org/abs/2611.26615">arXiv:2611.26615</a>.</p>
-<p><strong>No material, date-matched development verified</strong> for a new commercial frontier image, video or audio-generation model release beyond Genie 4's world-model API. Source classes checked: official creator-model release notes, Adobe/Runway/Stability/Suno/ElevenLabs announcements, independent creator-tool reporting and arXiv video-model submissions.</p>
+
+<section id="model-watch">
+ <div class="kicker">Release / access / price / evidence</div><h2>Model &amp; Benchmark Watch</h2>
+ <p><strong>Material change verified:</strong> Sarvam-105B-1711, released 22 November. For other tracked frontier models—including OpenAI, Anthropic, Google DeepMind, Meta, xAI, Mistral, DeepSeek, Qwen, Zhipu, Moonshot, MiniMax, ByteDance, Tencent, Baidu and Cohere—<strong>No material change verified</strong> in the 21–23 November window.</p>
+ <div class="table-wrap"><table>
+  <thead><tr><th>Model / date</th><th>Access / price</th><th>Context / latency</th><th>Strengths / limits</th><th>Evidence / audience</th></tr></thead>
+  <tbody>
+   <tr><td><strong>Sarvam-105B-1711</strong><br>22 Nov 2026 · new checkpoint<br>105B MoE / 10.3B active</td><td>Apache-2.0 weights on Hugging Face: BF16 and NVFP4. Token Factory list: ₹10/M input, ₹25/M output; vendor blended estimate US$0.15/M at 3:1 input/output. No third-party inference-provider deployment shown on the HF card.</td><td>HF serving recipe: max-model-len 131,072. Vendor tests: B200 at 128K context; RTX PRO 6000 at 50K. B200, 64 concurrent users: 122 tok/s/user, p50 TTFT 156 ms. RTX PRO 6000, one user: 61.8 tok/s, p50 TTFT 8.1 s.</td><td>Tool calling, instruction following, multi-turn agent tasks and Indian languages. NVFP4 pack about 65 GB; workstation-grade GPU required. vLLM recipe uses trust_remote_code. Blog's 160K long-context training statement is not the same as a validated production serving limit.</td><td>Vendor-run benchmark average 73.9 vs 42.6 for the February checkpoint. Sarvam says same evaluation harness, four samples and official graders; serving paths and context windows differ for open and API models. No independent reproduction. Best for teams testing high-volume Indian-language support and self-hosted agents.</td></tr>
+   <tr><td><strong>Other tracked frontier models</strong><br>21–23 Nov 2026</td><td>No new model/version, API price change or access change verified in the checked release sources.</td><td>No new independent latency or context measurement verified.</td><td>Previously covered releases remain in the archive; no fresh change should be inferred from older launch pages or benchmark snapshots.</td><td>No material change verified. Source classes checked: official release notes, model cards, API documentation, company blogs and independent technology reporting.</td></tr>
+  </tbody>
+ </table></div>
+ <div class="note"><strong>Benchmark discipline:</strong> Sarvam's figures are vendor claims, not an independent leaderboard result. Its model card describes its harness and grader settings, but the open models were served through vLLM while closed models were called through OpenRouter at provider context limits. Compare with caution; do not treat the 73.9 average as a universal cross-provider rank.</div>
+ <p class="sources"><a href="https://www.sarvam.ai/blogs/sarvam-105b-1711">Sarvam release and benchmark methodology</a><a href="https://huggingface.co/sarvamai/sarvam-105b-1711">Model card, benchmarks and throughput</a><a href="https://huggingface.co/sarvamai/sarvam-105b-1711-bf16">BF16 checkpoint</a></p>
 </section>
-<section id="research-science-robotics"><div class="kicker">Papers / biology / embodied systems</div><h2>Research, Science &amp; Robotics</h2>
-<h3>AI in drug discovery: company-reported preclinical gains, not clinical proof</h3><p>Reuters reports that Sanofi says an AI-enabled approach saved at least a year in developing asthma treatment lunsekimig by helping skip a dose-selection study; Novartis says AI helped prioritise five kidney-disease targets; Bristol Myers says one sickle-cell candidate would not have been developed without its AI systems; and Novo Nordisk says design–make–test cycles fell from about eight to three, with each cycle shortened from eight to four weeks. These are company-reported examples. Reuters notes that only 129 AI-enabled drug candidates had been identified in clinical testing across 69 companies, up from about 117 eight months earlier; most remain early stage. No claim of approved AI-designed drugs follows from these metrics.</p>
-<h3>Four new 19 November preprints</h3>
-<ul class="compact">
-<li><strong>AgentRoboCritic (arXiv:2611.26613):</strong> action-level analysis across 12 manipulation benchmarks; releases 12,844 annotated actions and a critic model whose reported failure-mode accuracy rises from 32.58% to 74.24%. Authors identify grasping/alignment bottlenecks and uneven recovery. <a href="https://arxiv.org/abs/2611.26613">Paper</a>.</li>
-<li><strong>PGX (arXiv:2611.26596):</strong> separates long-horizon humanoid tasks into a predicate state machine, VLA manipulation skills and world-coordinate locking. Authors report tests on three simulated tasks and one real-world Unitree G1 task. <a href="https://arxiv.org/abs/2611.26596">Paper</a>.</li>
-<li><strong>Depth Pro 2 (arXiv:2611.26603):</strong> a single network for sharp, temporally consistent metric depth in images and video; authors release code and weights and claim a new accuracy/runtime trade-off. <a href="https://arxiv.org/abs/2611.26603">Paper</a>.</li>
-<li><strong>ScaleWorld (arXiv:2611.26615):</strong> shared low-resolution prediction and high-resolution refinement for causal video world models, with author-reported compute/memory efficiency gains. <a href="https://arxiv.org/abs/2611.26615">Paper</a>.</li>
-</ul>
-<p>All four are preprints. No independent reproduction, peer review or new hardware deployment was verified in this scan. Source classes checked: arXiv recent submissions, author-linked project pages, Nature/Science/OpenReview and robotics research outlets.</p>
-<p class="sources"><a href="https://www.reuters.com/legal/litigation/big-pharma-with-eye-anthropic-says-ai-is-shrinking-drug-discovery-timelines-2026-11-20/">Reuters: pharma results · 20 Nov</a><a href="https://arxiv.org/abs/2611.26613">AgentRoboCritic</a><a href="https://arxiv.org/abs/2611.26596">PGX</a><a href="https://arxiv.org/abs/2611.26603">Depth Pro 2</a><a href="https://arxiv.org/abs/2611.26615">ScaleWorld</a></p>
+
+<section id="developer-agent-stack">
+ <div class="kicker">Builders / agents / IDEs / MCP</div><h2>Developer &amp; Agent Stack</h2>
+ <p><strong>No material, date-matched development verified</strong> for a new coding-agent release, IDE version, MCP protocol revision or builder-platform feature in 21–23 November. Source classes checked: official GitHub changelog, Cursor and JetBrains release pages, LangChain and model-context-protocol documentation, vendor developer blogs and repository release notes.</p>
+ <p>The Together AI incident is covered in the Main Desk because it is a security disclosure, not a new coding-agent product release. Its reported sequence is a practical reminder that an agent working in a public repository can expose a credential that unlocks private prompt samples.</p>
 </section>
-<section id="security-safety-reliability"><div class="kicker">Advisories / service health / privacy</div><h2>Security, Safety &amp; Reliability</h2>
-<ul class="compact">
-<li><strong>Signal screen security:</strong> new app-level protections block screenshots, recordings, app-switcher previews and supported on-device AI screen reading. This is a privacy hardening measure, not a cryptographic compromise.</li>
-<li><strong>CERT-In Oracle advisory:</strong> CIVN-2026-0568 is critical and covers multiple Oracle product families. Oracle's November update contains 655 patches; patch inventory should include transitive and bundled runtimes.</li>
-<li><strong>OpenAI GPT-6 Luna API incident:</strong> OpenAI status history records elevated errors for Chat Completions and Responses from 09:01 to 09:58 UTC on 19 November, with mitigation at 09:21 UTC. The status entry gives no root cause. It was a resolved availability incident, not a reported attack.</li>
-<li><strong>Provider status check:</strong> Claude and GitHub status histories show no incidents on 20 or 21 November. Claude's 19 November model-error event was resolved. No AI-provider breach or active agent compromise was confirmed in the sources checked.</li>
-</ul>
-<p><strong>No material, date-matched AI-specific exploitation advisory verified.</strong> Source classes checked: CERT-In vulnerability notes, Oracle security bulletins, CISA/NVD discovery surfaces, OpenAI/Claude/GitHub status histories and independent security reporting. The Oracle notice is a broad enterprise patching alert, not an AI-specific exploit.</p>
-<p class="sources"><a href="https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIVN-2026-0568&amp;pageid=PUBVLNOTES01">CERT-In</a><a href="https://www.oracle.com/security-alerts/cspunov2026.html">Oracle CSPU</a><a href="https://status.openai.com/incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ">OpenAI status: GPT-6 Luna API</a><a href="https://status.claude.com/">Claude status</a><a href="https://www.githubstatus.com/">GitHub status</a><a href="https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI">Signal screen security</a></p>
+
+<section id="creator-multimodal">
+ <div class="kicker">Image / video / audio / creator tools</div><h2>Creator &amp; Multimodal Desk</h2>
+ <p><strong>No material, date-matched development verified</strong> for a new commercial frontier image, video, music or audio model release. Source classes checked: official release notes and product blogs from Suno, Runway, Adobe, Stability, Pika, Luma, Canva and Google. Suno's latest visible product entry was Visuals on 17 November, outside this edition's 48-hour window.</p>
 </section>
-<section id="compute-chips-cloud-energy"><div class="kicker">Semiconductors / cloud / infrastructure</div><h2>Compute, Chips, Cloud &amp; Energy</h2>
-<p><strong>China–US compute:</strong> the BIS remote-compute rule is already effective from 19 November and was covered in the 20 November edition. Today's new evidence is its operating impact: Alibaba's cloud-growth outlook slows to 30%–45% next year from 53%, while Tencent says inference-heavy services can run on domestic chips. No new Huawei Ascend or SMIC process/product launch, HBM allocation, advanced-packaging or networking release was verified.</p>
-<p><strong>Oracle–OpenAI:</strong> Oracle says financing is in place for the contract and the next Texas campus is permitted; 4.5 GW remains planned capacity, not commissioned capacity. No new power-purchase agreement or grid-connection announcement was verified.</p>
-<p><strong>India:</strong> Reuters reports a new 150 MW CtrlS Patna pact with a 2029–30 operational target. The public October company release documents a separate Bodh Gaya LOI, so the new Patna agreement remains medium-confidence pending a same-day primary notice.</p>
-<p><strong>No material, date-matched development verified</strong> for a new AI power contract, grid connection, nuclear/gas generation deal or data-centre commissioning. Source classes checked: BIS/Federal Register, Nvidia/AMD/TSMC/Huawei/SMIC/Micron/Samsung releases, Reuters, Alibaba/Tencent statements, data-centre trade press and utility/energy reporting.</p>
-<p class="sources"><a href="https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/">Reuters: China cloud outlook</a><a href="https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/">Reuters: Oracle financing</a><a href="https://www.reuters.com/world/india/indias-ctrls-invest-over-1-billion-build-data-centre-bihar-2026-11-20/">Reuters: CtrlS Patna</a></p>
+
+<section id="research-science-robotics">
+ <div class="kicker">Papers / reproducibility / science / robotics</div><h2>Research, Science &amp; Robotics</h2>
+ <p><strong>No material, date-matched development verified</strong> for a new AI/robotics preprint or hardware deployment on 22–23 November. The accessible arXiv cs.AI, cs.CV and general computer-science new-submission listings showed 20 November as their latest visible submission date at the time checked. The 19 November papers already covered in the 21 November issue were not repeated.</p>
+ <p>Source classes checked: arXiv cs.AI, cs.CV and cs.RO/recent listings, author-linked code repositories, Nature, Science, OpenReview and robotics conference proceedings. No new peer-reviewed result or independent reproduction cleared the date window.</p>
+ <p class="sources"><a href="https://arxiv.org/list/cs.AI/new">arXiv AI new submissions</a><a href="https://arxiv.org/list/cs.CV/new">arXiv computer vision new submissions</a><a href="https://arxiv.org/list/cs/recent">arXiv recent computer science</a></p>
 </section>
-<section id="business-capital"><div class="kicker">Revenue / financing / commitments / cash</div><h2>Business, Capital Flows &amp; Portfolio Lens</h2>
-<div class="two-col"><div>
-<h3>Nvidia: regulatory scrutiny and financing quality</h3><p>The SEC probe is reported, not confirmed by the SEC; there is no finding of wrongdoing. Separately, House Democrats opened a letter-based inquiry into possible Nvidia influence over the Commerce Department's Megaspeed chip-diversion investigation. These are distinct proceedings. Nvidia's interim CEO Colette Kress said the company would be more selective about AI-industry financing deals.</p>
-<h3>Anthropic: public equity versus private placement</h3><ul class="compact"><li>Base IPO gross: US$81.34bn for 980m shares at US$83.</li><li>Full greenshoe: 147m additional primary shares; Reuters reports aggregate gross IPO proceeds of about US$93.5bn.</li><li>Separate private placement: US$26bn; not part of the gross IPO total.</li><li>Secondary base shares: 23.65m; proceeds go to selling holders, not Anthropic.</li></ul>
-</div><div>
-<h3>Oracle and CtrlS: financing is not deployed capacity</h3><ul class="compact"><li>Oracle says financing for the OpenAI contract is in place; the planned 4.5 GW expansion is not yet all built, powered or serving workloads.</li><li>CtrlS's reported ₹100bn Patna pact is an agreement/MoU with a 2029–30 target, not cash already spent or 150 MW already online.</li><li>Oracle's earlier US$20bn raise is financing, not recognised AI revenue.</li></ul>
-<h3>Databricks: early fundraising talks</h3><p>Reuters, citing the Wall Street Journal, says Databricks is in early talks for several billion dollars at about US$225bn valuation. Terms could change; Databricks did not immediately comment. This is neither a signed round nor a completed financing.</p>
-</div></div>
-<div class="note"><strong>Capital flows &amp; portfolio lens — educational, not investment advice:</strong> separate announcements, signed contracts, financing in place, backlog, construction, commissioned capacity, deployed compute, recognised revenue and cash spent. For IPOs, separate primary shares, secondary sales, greenshoe proceeds and private placements. A large headline number can describe very different kinds of money.</div>
-<p class="small">Sources: <a href="https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/">Reuters: Nvidia SEC probe</a> · <a href="https://www.reuters.com/business/finance/democrats-open-probe-into-nvidia-influence-us-megaspeed-investigation-2026-11-20/">Reuters: House inquiry</a> · <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm">Anthropic SEC prospectus</a> · <a href="https://www.reuters.com/legal/transactional/databricks-early-talks-raise-funds-225-billion-valuation-wsj-reports-2026-11-20/">Reuters: Databricks talks</a>.</p>
+
+<section id="security-safety-reliability">
+ <div class="kicker">Incidents / vulnerabilities / trust</div><h2>Security, Safety &amp; Reliability</h2>
+ <ul class="compact">
+  <li><strong>Inference supply chain:</strong> the Dragos research and subsequent OpenRouter, Together, Novita and Atlas disclosures describe provider compromise, prompt-sample download, routing-policy failure and apparent privacy-setting violations. These are distinct causes and windows; no evidence supports saying every customer or every endpoint was exposed.</li>
+  <li><strong>India payment workflows:</strong> CERT-In CIAD-2026-0062 warns of manipulated business records and approval chains, with agentic offensive frameworks used for reconnaissance and parallel intrusion work. The official page timed out; multiple outlets reported its contents.</li>
+  <li><strong>Provider service status:</strong> Claude and GitHub status histories reported no incidents on 22 or 23 November; their current component status was operational. OpenAI's status page showed all systems operational at the time checked. These are availability snapshots, not proof that no isolated customer issue occurred.</li>
+  <li><strong>Incident distinction:</strong> the inference-provider disclosures concern data access and compromised provider environments, not a general outage. The OpenRouter post explicitly says it found no breach of OpenRouter itself.</li>
+ </ul>
+ <p><strong>Immediate operator checklist:</strong> identify upstream routes and subprocessors; check whether sensitive prompts contained credentials, tokens, private URLs or source code; rotate secrets in potentially affected traffic; verify ZDR at each hop; and reconcile payment-record changes against independent authoritative records.</p>
+ <p class="sources"><a href="https://status.openai.com/">OpenAI status</a><a href="https://status.claude.com/">Claude status and incident history</a><a href="https://www.githubstatus.com/">GitHub status and incident history</a><a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">OpenRouter disclosure</a></p>
 </section>
-<section id="india-asia-global"><div class="kicker">Regional developments / supply chains / governance</div><h2>India &amp; Asia / Global Regional Desk</h2>
-<p><strong>India:</strong> the reported CtrlS Patna pact is a material infrastructure proposal, but the same-day primary agreement was not located. CERT-In's Oracle advisory is a separate India cyber-response development. <strong>No material, date-matched development verified</strong> for a new Indian foundation-model launch or national AI-policy decision. Source classes checked: MeitY/PIB, CERT-In, CtrlS releases, Bihar government surfaces, Reuters, Business Standard, Mint and regional technology reporting.</p>
-<p><strong>China:</strong> Alibaba's cloud-growth outlook and Tencent's domestic-chip inference comments add operational detail to the export-control story. No new Huawei Ascend or SMIC product/process launch was verified. <strong>No material, date-matched development verified</strong> for a new HBM allocation or advanced-packaging/networking product announcement. Source classes checked: company releases, Reuters, Nikkei, SCMP and semiconductor trade press.</p>
-<p><strong>Global:</strong> UN negotiations on lethal autonomous weapons ran past their deadline with no binding deal reported by the cut-off. US House scrutiny of Nvidia's role in the Megaspeed investigation is a separate oversight track from the SEC accounting inquiry.</p>
+
+<section id="compute-chips-cloud-energy">
+ <div class="kicker">Semiconductors / cloud / infrastructure / power</div><h2>Compute, Chips, Cloud &amp; Energy</h2>
+ <p><strong>No material, date-matched development verified</strong> for a new Nvidia, AMD, Huawei Ascend, SMIC, HBM, advanced-packaging, networking or export-control announcement on 22–23 November. No new AI data-centre commissioning, grid connection, power purchase agreement, nuclear/gas generation deal or major cloud capacity launch was verified.</p>
+ <p>Source classes checked: Nvidia, AMD, Intel, TSMC, Samsung, SK hynix and ASML releases; BIS and Commerce policy pages; cloud-provider release notes; Reuters and financial reporting; DataCenterDynamics, The Register and data-centre trade coverage; energy and utility reporting. The Sarvam release's Blackwell performance claims are model-serving measurements, not a new semiconductor product or capacity announcement.</p>
 </section>
-<section id="community-intelligence"><div class="kicker">Signals, not rumours</div><h2>Community Intelligence</h2>
-<p>No community-only signal met the verification threshold for promotion today. GitHub, Hugging Face, X, Reddit, YouTube and Product Hunt were discovery surfaces only. New papers and product claims were promoted only after checking their arXiv, model-card, company, regulator, status or independent-reporting source. Unverified social claims about Nvidia leadership and chip diversion were not treated as facts.</p>
+
+<section id="business-capital">
+ <div class="kicker">Funding / contracts / revenue / capex</div><h2>Business, Capital Flows &amp; Portfolio Lens</h2>
+ <p><strong>No material, date-matched funding, IPO, signed infrastructure contract, backlog, revenue or cash-capex update verified</strong> in this 48-hour scan. Sarvam's per-token API price is a product price, not evidence of revenue, bookings or profitability.</p>
+ <div class="note"><strong>Capital flows &amp; portfolio lens — an educational distinction, not investment advice:</strong> a model announcement is not a customer contract; a contract is not recognised revenue; revenue is not free cash flow; a GPU reservation is not deployed capacity; and a power-capacity proposal is not a commissioned data centre. When evaluating AI businesses, keep announcements, signed contracts, backlog, recognised revenue, deployed compute, cash spent and future obligations in separate columns.</div>
+ <p class="small">No capital-market recommendation is made in this edition. The key business signal is the spread between Sarvam's claimed low token price and the real cost of high-memory GPU deployment, plus the security cost of multi-hop inference routing.</p>
 </section>
-<section id="more-signals"><div class="kicker">Verified lower-priority developments</div><h2>More Signals</h2><div class="more-grid">
-<article class="more-card story-card" data-priority="more" data-desk="developer"><div class="story-head"><span>19 Nov · Google / desktop agents</span><span class="flag">Product release</span></div><h3>Gemini computer use arrives in the Mac app</h3><p>Google says Gemini can navigate local files, desktop apps and websites in an isolated background window. Users choose app permissions, see a live preview and approve actions before they occur.</p><p class="impact-note"><strong>Impact:</strong> Adds a desktop agent workflow, but permission scoping and user approval remain central safety controls.</p><p class="sources"><a href="https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/">Google · 19 Nov</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="models"><div class="story-head"><span>20 Nov · Alibaba Model Studio / MindLab</span><span class="flag">Hosted model listing</span></div><h3>Macaron V1.1 Venti Pro lands in Singapore Model Studio</h3><p>The 1M-context model supports text/image input, function calling and structured output, with a 131K output limit. Singapore international pricing is US$2/M input and US$10/M output; cache-hit input is US$0.10/M. No web search, batch inference or fine-tuning is listed.</p><p class="impact-note"><strong>Impact:</strong> Gives international developers another long-context hosted agent/coding option, but no independent quality or latency benchmark was found.</p><p class="sources"><a href="https://www.alibabacloud.com/help/en/model-studio/newly-released-models">Alibaba model release log</a><a href="https://www.alibabacloud.com/help/en/model-studio/macaron-v1-1-venti-pro-by-mindlab">Model specification and price</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="research"><div class="story-head"><span>20 Nov · Pharma / research</span><span class="flag">Company-reported results</span></div><h3>Pharma companies report faster preclinical work with AI</h3><p>Sanofi, Novartis, Bristol Myers and Novo Nordisk describe time savings or target-selection gains in early-stage discovery. Reuters notes most AI-enabled candidates remain preclinical and the number in clinical testing has risen only incrementally.</p><p class="impact-note"><strong>Impact:</strong> May shorten design and target-selection cycles; it does not establish clinical efficacy, regulatory approval or higher success rates.</p><p class="sources"><a href="https://www.reuters.com/legal/litigation/big-pharma-with-eye-anthropic-says-ai-is-shrinking-drug-discovery-timelines-2026-11-20/">Reuters · 20 Nov</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="business"><div class="story-head"><span>20 Nov · Databricks / capital</span><span class="flag">Unconfirmed talks</span></div><h3>Databricks reportedly explores a round at about US$225bn</h3><p>Reuters, citing the Wall Street Journal, says Databricks is in early talks to raise several billion dollars. Terms could change; the company did not immediately comment. Its August US$5bn round at US$190bn is the last confirmed financing in the report.</p><p class="impact-note"><strong>Impact:</strong> Signals investor demand for AI data infrastructure, but early talks are not a signed contract, backlog or cash raised.</p><p class="sources"><a href="https://www.reuters.com/legal/transactional/databricks-early-talks-raise-funds-225-billion-valuation-wsj-reports-2026-11-20/">Reuters / WSJ report</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="business"><div class="story-head"><span>20 Nov · ABB / robotics</span><span class="flag">Follow-up / update</span></div><h3>ABB considers a robotics-unit listing if the SoftBank sale cannot be rescued</h3><p>Reuters says ABB and SoftBank are exploring a carve-out of the Chinese business—about 30% of the unit—or other restructuring after China blocked the US$5.4bn deal. If the sale fails, ABB may spin off or sell the robotics business. The companies declined to comment.</p><p class="small">FOLLOW-UP to the <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-07.html">7 November China-blocked deal coverage</a>. Exact change: a separate listing/spin-off option and possible China carve-out are now reported.</p><p class="impact-note"><strong>Impact:</strong> Could reshape ownership and China access for a major industrial-robotics portfolio; no formal restructuring decision is public.</p><p class="sources"><a href="https://www.reuters.com/business/media-telecom/abb-considers-robotics-listing-if-sale-softbank-fails-sources-say-2026-11-20/">Reuters · 20 Nov</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="policy"><div class="story-head"><span>20 Nov · Cursor / model provenance</span><span class="flag">Reported consideration</span></div><h3>Cursor is reported to be weighing a phase-out of Chinese AI models</h3><p>Reuters, citing CNBC's account of a House committee report, says Cursor informed investigators it was considering moving away from Chinese models over geopolitical risk. SpaceX, Cursor, Airbnb, DoorDash and the committees did not immediately respond to Reuters.</p><p class="impact-note"><strong>Impact:</strong> If adopted, model-origin policies could affect provider choice and cost in US coding tools; no final decision is confirmed.</p><p class="sources"><a href="https://www.reuters.com/business/media-telecom/spacexs-cursor-weighs-phasing-out-chinese-ai-models-over-geopolitical-risk-cnbc-2026-11-20/">Reuters / CNBC report</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="policy"><div class="story-head"><span>20 Nov · UN / autonomous weapons</span><span class="flag">Negotiations overrun</span></div><h3>UN talks on lethal autonomous weapons pass their deadline without a deal</h3><p>Five days of Geneva talks ran into early Saturday as states debated whether to begin formal negotiations. The proposal under discussion would be non-binding; the US, Russia and Israel oppose legally binding rules. No agreement was reported by the cut-off.</p><p class="impact-note"><strong>Impact:</strong> The gap between national guidelines and binding constraints remains a central governance question for autonomous targeting systems.</p><p class="sources"><a href="https://www.reuters.com/world/americas/thorny-un-talks-regulating-killer-robots-drag-past-deadline-2026-11-20/">Reuters · 20 Nov</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="research"><div class="story-head"><span>19 Nov · arXiv / robotics</span><span class="flag">Preprint</span></div><h3>AgentRoboCritic evaluates frontier agents at the action level</h3><p>The paper studies direct robot control across 12 manipulation benchmarks and releases 12,844 annotated actions plus a fine-tuned critic. Authors report failure-mode accuracy improving from 32.58% to 74.24%; grasping and alignment remain physical bottlenecks.</p><p class="impact-note"><strong>Impact:</strong> Gives robotics teams a more granular way to diagnose action failures than episode-level success alone; still a preprint.</p><p class="sources"><a href="https://arxiv.org/abs/2611.26613">arXiv:2611.26613</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="research"><div class="story-head"><span>19 Nov · arXiv / humanoid robotics</span><span class="flag">Preprint</span></div><h3>PGX separates humanoid navigation, manipulation and spatial precision</h3><p>The framework uses a predicate state machine, stage-specific VLA skills and world-coordinate locking. Authors report three simulated tasks and one real-world Unitree G1 task.</p><p class="impact-note"><strong>Impact:</strong> Suggests long-horizon robot tasks may benefit from combining learned skills with explicit state and geometric control; replication is pending.</p><p class="sources"><a href="https://arxiv.org/abs/2611.26596">arXiv:2611.26596</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="research"><div class="story-head"><span>19 Nov · arXiv / computer vision</span><span class="flag">Preprint / open weights</span></div><h3>Depth Pro 2 targets sharp, temporally consistent metric depth</h3><p>The authors describe one network for images and video at native resolution and release code and weights. Their reported accuracy, sharpness and runtime comparisons are not independently reproduced in this edition.</p><p class="impact-note"><strong>Impact:</strong> Could help AR, 3D reconstruction and robotics perception if temporal consistency holds in real-world deployments.</p><p class="sources"><a href="https://arxiv.org/abs/2611.26603">arXiv:2611.26603</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="creator"><div class="story-head"><span>19 Nov · arXiv / video world models</span><span class="flag">Preprint</span></div><h3>ScaleWorld shares a backbone for low-resolution prediction and high-resolution refinement</h3><p>The paper proposes a causal video world model that first predicts a low-resolution stream and then refines each chunk at high resolution using the same backbone. The authors report improved compute and memory efficiency.</p><p class="impact-note"><strong>Impact:</strong> Could lower the cost of streaming high-resolution world models; evidence remains preprint-only.</p><p class="sources"><a href="https://arxiv.org/abs/2611.26615">arXiv:2611.26615</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="security"><div class="story-head"><span>19 Nov · OpenAI status</span><span class="flag">Resolved outage</span></div><h3>GPT-6 Luna API requests saw elevated errors for 57 minutes</h3><p>OpenAI status history records an issue affecting Chat Completions and Responses from 09:01 to 09:58 UTC on 19 November, with mitigation at 09:21 UTC. The incident page does not state a root cause.</p><p class="impact-note"><strong>Impact:</strong> Temporary API reliability risk for Luna users; resolved and not reported as a security incident.</p><p class="sources"><a href="https://status.openai.com/incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ">OpenAI status incident</a></p></article>
-<article class="more-card story-card" data-priority="more" data-desk="policy"><div class="story-head"><span>20 Nov · US export enforcement</span><span class="flag">Separate inquiry</span></div><h3>House Democrats ask whether Nvidia influenced the Megaspeed chip-diversion investigation</h3><p>Reuters reviewed a 19 November letter asking Commerce Secretary Howard Lutnick whether Nvidia influenced the department's investigation of Singapore-based cloud provider Megaspeed. The lawmakers requested answers and documents by 1 December. Commerce and Justice say the case has been under investigation for two years; no finding of improper influence was announced.</p><p class="impact-note"><strong>Impact:</strong> Adds congressional oversight of export-control enforcement; it is separate from the SEC accounting inquiry and does not establish wrongdoing.</p><p class="sources"><a href="https://www.reuters.com/business/finance/democrats-open-probe-into-nvidia-influence-us-megaspeed-investigation-2026-11-20/">Reuters · 20 Nov</a></p></article>
-</div></section>
-<section id="future-radar"><div class="kicker">3–12 month view · confirmed dates versus scenarios</div><h2>Future Radar</h2>
-<h3>Confirmed dates / published targets</h3><ul class="compact">
-<li><strong>1 December 2026:</strong> deadline requested by House Democrats for Commerce to provide answers and documents about the Megaspeed investigation.</li>
-<li><strong>End of January 2027:</strong> Microsoft says a further optimised Aion Instruct, paired with its content-moderation model, is expected to become the Windows OS small language model.</li>
-<li><strong>2029–30 (longer-dated project target):</strong> Reuters reports CtrlS's proposed Patna 150 MW site is expected to become commercially operational. This is a target, not a commissioning guarantee.</li>
-<li><strong>Coming weeks (no fixed date):</strong> Oracle says Nvidia Vera Rubin rack handover for the next Texas campus is on track; no exact delivery date was given.</li>
-</ul>
-<h3>Scenarios to watch, not predictions</h3><ul class="compact">
-<li>OS vendors and messaging apps may add explicit controls for AI assistants' access to notifications, accessibility, screenshots and app-switcher content.</li>
-<li>On-device SLMs may take over routine summarisation and classification while cloud models handle deeper reasoning; browser API interoperability and model quality will determine adoption.</li>
-<li>US remote-compute rules may accelerate domestic Chinese inference stacks while leaving frontier training more constrained; HBM, packaging and software efficiency remain bottlenecks.</li>
-<li>AI infrastructure investors may increasingly ask for commissioned megawatts, contracted power, utilisation and recognised revenue rather than announced capacity or financing alone.</li>
-<li>Robotics evaluations may move toward action-level failure analysis, long-horizon task success and real-world replication rather than single-episode benchmark scores.</li>
-<li>Databricks' reported financing discussions and ABB's robotics restructuring options may resolve over the coming weeks or extend into 2027; neither is a completed transaction today.</li>
-</ul>
+
+<section id="india-asia-global">
+ <div class="kicker">Regional developments / policy / supply chains</div><h2>India &amp; Asia / Global Regional Desk</h2>
+ <p><strong>India — material developments found:</strong> Sarvam's open-weight 105B checkpoint is a meaningful domestic model release focused on Indian-language agent workloads. CERT-In's critical payment-workflow advisory extends AI-enabled intrusion concerns beyond BFSI APIs to government-linked service providers and vendor payout systems.</p>
+ <p><strong>China / US compute:</strong> no new 22–23 November chip export-control or domestic-accelerator product announcement verified. The inference-provider disclosures include a researcher-reported route in which prompts sent to some US resellers reached an unnamed Chinese AI lab; the lab was not named by Dragos and should not be inferred from the public provider notices.</p>
+ <p><strong>Other regions:</strong> no material, date-matched frontier-model launch, policy decision or infrastructure commissioning verified. Source classes checked: MeitY/PIB, CERT-In, Indian company releases and reporting, regional technology press, and official company announcements from China, Japan, Korea, Europe and the United States.</p>
 </section>
-<section id="ai-in-context"><div class="kicker">Three analysis observations</div><h2>AI in Context</h2><div class="analysis-grid">
-<article><strong>01 / The agent boundary is the operating system</strong><p>Muse exposed how an assistant can reach data through notification, accessibility and screen permissions. Signal's response makes app-level protection visible. Agent security now depends on the OS and app permission model as much as the prompt or connector policy.</p></article>
-<article><strong>02 / Hybrid inference is becoming a product architecture</strong><p>Aion handles bounded tasks locally; Tool Retrieval defers cloud tool schemas; Gemini Mac operates in a permissioned desktop window. These are not competing model launches. They show routing between local, API and computer-use surfaces, each with different failure modes.</p></article>
-<article><strong>03 / Capital claims need a delivery ledger</strong><p>Anthropic's gross IPO proceeds, Oracle's financing statement, CtrlS's MoU and Databricks' early talks describe four different states of capital. None by itself proves deployed compute, utilisation or cash flow. The AI market is beginning to price those distinctions.</p></article>
-</div></section>
-<section id="glossary"><div class="kicker">Terms used in this edition</div><h2>glossary</h2><div class="two-col">
-<div><p><strong>Greenshoe:</strong> an underwriter option to buy additional shares from the issuer, usually to cover over-allotments and support orderly trading after an IPO.</p><p><strong>Primary shares:</strong> new shares sold by the company; proceeds go to the issuer before expenses.</p><p><strong>Secondary shares:</strong> existing holders' shares sold in an offering; proceeds go to those holders.</p><p><strong>Small language model (SLM):</strong> a smaller model designed for constrained hardware or bounded tasks, often running locally.</p><p><strong>On-device inference:</strong> running model computation on the user's device rather than sending every request to a cloud service.</p></div>
-<div><p><strong>UI4A:</strong> MindLab's interface-related capability label; the public listing does not define it in detail.</p><p><strong>MoL:</strong> the architecture label used by MindLab for Macaron; the public listing does not provide an independent architecture evaluation.</p><p><strong>World model:</strong> a model that predicts or generates evolving environments, not simply a text response.</p><p><strong>Commissioned capacity:</strong> data-centre capacity that has been built, powered, tested and made available for workloads.</p><p><strong>LAWS:</strong> lethal autonomous weapons systems, which can select and engage targets with varying degrees of autonomy.</p></div>
-</div></section>
-<section id="what-to-watch"><div class="kicker">Next edition checklist</div><h2>What to Watch Next</h2><ul class="compact">
-<li>Whether the SEC confirms, expands or closes the reported Nvidia accounting inquiry; do not infer a finding from a probe.</li>
-<li>Commerce's response to House Democrats' 1 December document request on the Megaspeed investigation.</li>
-<li>Whether Anthropic's full greenshoe exercise changes analyst estimates of float, stabilisation and post-IPO trading.</li>
-<li>Oracle's actual Vera Rubin rack handover, commissioning milestones and any evidence that the 4.5 GW plan is becoming operational capacity.</li>
-<li>A primary Bihar/CtrlS notice confirming the newly reported Patna 150 MW pact and clarifying how it relates to the earlier Bodh Gaya LOI.</li>
-<li>Independent evaluations of Aion Instruct and MindLab Macaron V1.1 Venti Pro, including latency, device coverage, tool reliability and long-context quality.</li>
-<li>Google's Genie 4 API pricing, region expansion, streaming reliability and independent controllability tests.</li>
-<li>Signal adoption and OS-level changes for AI assistant access to screen content; check whether other apps expose comparable controls.</li>
-<li>Patch uptake for Oracle's November security update and any new CERT/CISA exploitation evidence.</li>
-<li>Independent reproduction of AgentRoboCritic, PGX, Depth Pro 2 and ScaleWorld, especially on real hardware and long-horizon tasks.</li>
-<li>Whether Databricks confirms a financing round, and whether ABB/SoftBank agree on a China carve-out or alternative robotics transaction.</li>
-</ul></section>
-<section id="coverage-audit"><div class="kicker">Evidence / scope / limitations</div><h2>Coverage Audit</h2>
-<h3>Verified story totals by editorial desk</h3><div class="table-wrap"><table><thead><tr><th>Desk</th><th>Stories</th></tr></thead><tbody><tr><td>Models &amp; benchmarks</td><td>2</td></tr><tr><td>Developer &amp; agents</td><td>3</td></tr><tr><td>Creator &amp; multimodal</td><td>2</td></tr><tr><td>Research, science &amp; robotics</td><td>4</td></tr><tr><td>Security, safety &amp; reliability</td><td>3</td></tr><tr><td>Compute, chips, cloud &amp; energy</td><td>3</td></tr><tr><td>Business &amp; capital</td><td>4</td></tr><tr><td>Policy &amp; society</td><td>3</td></tr><tr><th>Total</th><th>24</th></tr></tbody></table></div>
-<div class="audit-grid">
-<article><h3>Story totals</h3><p><strong>24 verified story cards:</strong> 11 Main Desk, 13 More Signals, 17 unique new developments, 7 material follow-ups, 14 repeat candidates excluded, 0 Community Radar.</p></article>
-<article><h3>Discovery sweep</h3><p><strong>90 distinct domains targeted</strong> in one grouped cross-beat sweep, exceeding the requested 50–60 range. About 40 page URLs were opened across 18 domains; 28 date-matched pages across 11 domains were counted separately.</p></article>
-<article><h3>Archive integrity</h3><p>48 dated archive files enumerated; all 48 have registry paths and archive-index links. Four recent issues were reopened (18–20 Nov); 44 dated issue pages were not reopened individually. No registry backfill was required. The root index blob matched the 20 November issue before this run.</p></article>
-<article><h3>Primary / independent sources</h3><p>Microsoft and Google product/model announcements; Hugging Face model card; Alibaba Model Studio specifications; SEC prospectus; Oracle security bulletin; CERT-In note; provider status histories; Reuters independent reporting; arXiv preprints and author project pages.</p></article>
-<article><h3>Access / evidence gaps</h3><p>CtrlS's same-day Patna agreement was not located as a primary notice; its public October release covers a separate Bodh Gaya LOI. Reuters reports the Nvidia SEC inquiry from two sources; SEC declined comment and Nvidia did not respond. Databricks, ABB and Cursor items remain reported talks/considerations, not confirmed transactions or decisions. The House committee report and letter were not opened directly.</p></article>
-<article><h3>Research quality</h3><p>Four arXiv papers are preprints and were not independently reproduced. Pharma performance metrics are company-reported and mostly preclinical. Aion/Google capability claims are vendor-reported; no compatible third-party leaderboard was found for the new releases. The House committee report/letter and a same-day CtrlS Patna primary notice were not opened.</p></article>
-<article><h3>Security / reliability</h3><p>Material developments: Signal screen protections, CERT-In Oracle note and resolved GPT-6 Luna API errors. Claude and GitHub histories show no incidents on 20–21 Nov. No AI-provider breach or active agent compromise was confirmed.</p></article>
-<article><h3>Compute / energy</h3><p>Material developments: China cloud-growth effects, Oracle/OpenAI financing and CtrlS Patna proposal. No new Huawei Ascend/SMIC process, HBM allocation, packaging/networking product, power-purchase agreement, grid connection or data-centre commissioning was verified.</p></article>
-<article><h3>India / Asia</h3><p>Material developments: CtrlS Bihar infrastructure proposal, CERT-In Oracle note and China chip-control effects. No new India foundation-model launch or national AI-policy decision was verified.</p></article>
-</div>
-<h3 style="margin-top:18px">Beat-by-beat scan</h3><div class="two-col"><div>
-<p><strong>Models / benchmarks:</strong> Material found — Aion, MindLab Macaron and Genie 4 API. No material change verified for new OpenAI, Anthropic, Meta, xAI, DeepSeek, Qwen, Mistral, Zhipu, Moonshot, MiniMax or Baidu frontier-LLM versions; no independent comparable benchmark found.</p>
-<p><strong>Developer / agents:</strong> Material found — Tool Retrieval, Performance Factory and Gemini Mac computer use. No material, date-matched new MCP protocol specification or standalone IDE release verified; source classes checked were official vendor, GitHub, Cursor, JetBrains and framework changelogs.</p>
-<p><strong>Creator / multimodal:</strong> Material found — Genie 4 world-model API and ScaleWorld preprint. No material, date-matched commercial image/video/audio model release verified; official creator release notes and independent creator-tool reporting checked.</p>
-<p><strong>Research / science / robotics:</strong> Material found — four preprints and company-reported pharma gains. No new hardware deployment or independent replication verified.</p>
-<p><strong>Security / reliability:</strong> Material found — Signal protections, Oracle/CERT-In advisory and OpenAI API incident. No AI-provider breach or confirmed agent compromise found in the checked status/advisory sources.</p>
-</div><div>
-<p><strong>Compute / geopolitics:</strong> Material found — China cloud outlook and Oracle/OpenAI infrastructure. No material, date-matched Huawei Ascend or SMIC process/product launch, HBM allocation, advanced packaging or networking product verified.</p>
-<p><strong>Energy / data centres:</strong> Material found — Oracle capacity financing and CtrlS proposal. No material, date-matched PPA, grid connection, new generation deal or facility commissioning verified; source classes checked included data-centre trade press, company releases, utilities and energy-sector reporting.</p>
-<p><strong>Business / capital:</strong> Material found — Nvidia SEC inquiry, Anthropic greenshoe, Oracle funding statement and Databricks talks. Primary/secondary proceeds, private placement, financing, project capacity and cash spent are separated.</p>
-<p><strong>India / Asia:</strong> Material found — CtrlS and China cloud/chip developments. No material, date-matched India foundation-model launch or national AI-policy decision verified; source classes checked included MeitY/PIB, CERT-In, company releases and regional reporting.</p>
-<p><strong>Policy / law:</strong> Material found — House Democrats' Megaspeed inquiry, UN autonomous-weapons negotiations and Cursor model-origin report. No new copyright court ruling verified; source classes checked included Reuters, government and UN reporting.</p>
-</div></div>
-<details><summary>Material follow-ups retained (7)</summary><ul class="compact small"><li>Oracle/OpenAI financing: funding now stated to be in place, Abilene nearly complete and the next campus fully permitted — <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-10-28-current-v2.html">28 Oct prior coverage</a>.</li><li>Anthropic IPO: full 147m-share greenshoe exercised, gross IPO proceeds rise to about US$93.5bn — <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-20.html">20 Nov prior coverage</a>.</li><li>Signal screen security: shipped app-level screenshot, recording, app-switcher and AI-screen protections — <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-19.html">19 Nov Muse coverage</a>.</li><li>China chip controls: Alibaba's 30%–45% cloud-growth outlook and Tencent's domestic-inference comments — <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-20.html">20 Nov BIS/TSMC coverage</a>.</li><li>Genie 4: API and AI Studio access with documented interactive streaming — <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-10-28-current-v2.html">28 Oct world-model preview</a>.</li><li>CERT-In Oracle note: a critical multi-product advisory beyond the previously covered Java4Shell CVE — <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-19.html">19 Nov Java4Shell coverage</a>.</li><li>ABB robotics: a potential listing/spin-off and China carve-out after the blocked SoftBank deal — <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/2026-11-07.html">7 Nov prior coverage</a>.</li></ul></details>
-<details><summary>Repeat candidates excluded (14)</summary><ul class="compact small"><li>GPT-6.2 Astra/Sol: no new version or independent benchmark in this window.</li><li>Gemini 4 Neon: model version and API price unchanged; prior Copilot availability update already covered.</li><li>Qwen4-Max: 16 November listing is outside the 48-hour window; no new update verified.</li><li>Claude Mythos/Fable: no new model version or benchmark verified.</li><li>Meta Muse permission issue: original finding already covered; Signal's shipped protection is the material follow-up.</li><li>BIS remote-compute rule and TSMC restrictions: rule/effective date already covered; only new Alibaba/Tencent operating impact retained.</li><li>Nvidia China Hopper shipment halt: no new shipment guidance verified.</li><li>Java4Shell CVE-2026-114938: no new exploit evidence; the broader CERT-In Oracle note is retained as a follow-up.</li><li>Tencent Q3 results: no new earnings release or updated financial line verified.</li><li>Lenovo Q2 AI revenue: no new results update verified.</li><li>GAO covert AI attack-plan audit: no new audit or reproduction verified.</li><li>Suno Visuals: no new creator-tool change verified.</li><li>NereidVLA underwater robot trials: no new data or independent reproduction verified.</li><li>Earlier Asian-equity selloff: no new Asian index data; Friday US-market repricing is covered only as context in the Nvidia/Anthropic stories.</li></ul></details>
-<p class="small">The 44 archive paths not reopened individually are enumerated in this edition's append-only audit record in <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/story-index.json">archive/story-index.json</a>.</p>
-<p class="small">Archive inspection: root index, archive index and story registry were read before research. The root index blob matched the 20 November canonical issue. The 21 November canonical path was absent at the start of the run. All 48 dated issue files were already represented in the registry and archive index; no backfill was required. No historical issue or registry record was changed during research.</p>
-<p class="small"><strong>Manual HTML validation:</strong> doctype, 18 required section IDs, 11 Main Desk impact panels, 24 story cards, 85 external links, search/desk filters, speech controls, share-file fallback, print styles and absence of third-party scripts were checked. No external linter was run.</p>
+
+<section id="community-intelligence">
+ <div class="kicker">Signals, not rumours</div><h2>Community Intelligence</h2>
+ <p>No community-only signal met the verification threshold for promotion. GitHub, Hugging Face, arXiv and product release surfaces were used to discover or validate artifacts. Social posts were not treated as evidence; no unverified community claim was promoted into the edition.</p>
 </section>
-<div class="footer">SIGNAL. — AI Daily · Saturday, 21 November 2026 · Research cut-off 08:11 Asia/Kolkata. Vendor claims are attributed, preprints are not treated as peer-reviewed, forecasts are labelled and investigations are not treated as findings.</div>
+
+<section id="more-signals">
+ <div class="kicker">Lower-priority verified developments</div><h2>More Signals</h2>
+ <p>No additional lower-priority development cleared both the date-match and verification thresholds after deduplication. The three material developments are all in Main Desk; no story quota was used.</p>
+</section>
+
+<section id="future-radar">
+ <div class="kicker">3–12 month view · dates versus scenarios</div><h2>Future Radar</h2>
+ <h3>Confirmed dates and announced windows</h3>
+ <ul class="compact">
+  <li><strong>Next two weeks — company-stated window, not a fixed launch date:</strong> Sarvam's co-founder told Moneycontrol that the company plans additional vision, speech and edge-AI model releases. No individual dates or model specifications were confirmed.</li>
+  <li><strong>OpenRouter response — ongoing:</strong> the company says it is adding recurring tests based on Dragos' canary approach, verifying network paths and requiring assurances before restoring ZDR eligibility. No completion date was published.</li>
+  <li><strong>Provider investigations — ongoing:</strong> Together says its prompt-content review continues; Phala says a full root-cause analysis will follow; Novita and Atlas Cloud say they are checking MiniMax processing paths and upstream handling.</li>
+ </ul>
+ <h3>Scenarios to watch, not predictions</h3>
+ <ul class="compact">
+  <li>Inference marketplaces may shift from provider-level privacy labels to route-level attestations, independent canary tests and endpoint-specific retention controls.</li>
+  <li>Indian enterprises may test open-weight models for voice and support workloads, but total cost will depend on GPU utilisation, concurrency, operations and evaluation quality—not API price alone.</li>
+  <li>Payment platforms may expand dual-control and out-of-band verification from payment APIs to beneficiary records, procurement data and vendor approval workflows.</li>
+  <li>Self-hosted inference may gain ground for sensitive workloads if multi-hop privacy assurances remain difficult to verify; workstation-grade hardware and staffing costs will limit adoption.</li>
+ </ul>
+</section>
+
+<section id="ai-in-context">
+ <div class="kicker">Three analysis observations</div><h2>AI in Context</h2>
+ <div class="analysis-grid">
+  <article><strong>01 / Cheap tokens are not cheap tasks</strong><p>Sarvam's vendor-reported price is attractive, but teams should benchmark the full workflow: task success, tool-call retries, latency under concurrency, GPU memory, language coverage and human escalation. Cost per completed customer request is the useful unit.</p></article>
+  <article><strong>02 / The route is part of the model</strong><p>An inference router can improve model choice and billing, but every hop that decrypts a prompt becomes a data processor. ZDR at the first hop cannot constrain a reseller, compromised host or downstream provider that never honours the flag.</p></article>
+  <article><strong>03 / Business records are an attack surface</strong><p>CERT-In's warning points beyond API authentication. If an attacker changes the beneficiary or approval record, the payment system may execute a valid-looking transaction. Independent verification and reconciliation matter as much as gateway security.</p></article>
+ </div>
+</section>
+
+<section id="glossary">
+ <div class="kicker">Terms used in this edition</div><h2>glossary</h2>
+ <div class="two-col">
+  <div><p><strong>Mixture of experts (MoE):</strong> a model architecture that routes each token through only a subset of its expert networks. Total parameters can be much larger than the active parameters used per token.</p><p><strong>Active parameters:</strong> the subset of model weights engaged for a given token or forward pass; not the total stored model size.</p><p><strong>NVFP4:</strong> Nvidia's four-bit floating-point format used to compress model weights and reduce memory requirements.</p><p><strong>Time to first token (TTFT):</strong> elapsed time between sending a request and receiving the first generated token.</p></div>
+  <div><p><strong>Zero Data Retention (ZDR):</strong> a provider policy that says prompts and responses are not stored. It must be verified across every processor and route, not assumed from one API flag.</p><p><strong>Inference router:</strong> a service that forwards a prompt to one or more model providers, often for unified billing, availability or model selection.</p><p><strong>Canary token:</strong> a unique decoy credential or URL that signals exposure when someone accesses or uses it.</p><p><strong>Agentic offensive framework:</strong> a toolchain that automates reconnaissance, privilege discovery and other intrusion tasks using one or more coordinated agents.</p></div>
+ </div>
+</section>
+
+<section id="what-to-watch">
+ <div class="kicker">Next edition checklist</div><h2>What to Watch Next</h2>
+ <ul class="compact">
+  <li>Independent evaluation of Sarvam-105B-1711 on Indian-language tool use, long-turn reliability and real concurrency; confirm whether its Token Factory price and serving figures persist outside the vendor harness.</li>
+  <li>Sarvam's promised vision, speech and edge releases; watch for exact model names, licences, weights and release dates.</li>
+  <li>OpenRouter's list of off-boarded providers and the conditions for restoring the 125 removed endpoints to ZDR eligibility.</li>
+  <li>Novita's and Atlas Cloud's follow-up on MiniMax official-API request handling, affected date windows and customer notification.</li>
+  <li>Together AI's final assessment of prompt contents and the number of customers requiring notification after the credential exposure.</li>
+  <li>Phala's full root-cause analysis for the October–November DeepSeek V4 Flash 0731 exposure window.</li>
+  <li>Whether CERT-In publishes a directly accessible CIAD-2026-0062 page or additional incident indicators, affected sectors and remediation detail.</li>
+  <li>OpenAI, Claude and GitHub service-status changes; distinguish model-provider degradation from security compromise.</li>
+ </ul>
+</section>
+
+<section id="coverage-audit">
+ <div class="kicker">Evidence / scope / limitations</div><h2>Coverage Audit</h2>
+ <div class="audit-grid">
+  <article><h3>Story totals</h3><p><strong>3 verified developments:</strong> 3 Main Desk, 0 More Signals, 0 Community Radar. Three unique new stories; zero material follow-ups to prior SIGNAL stories.</p></article>
+  <article><h3>Repeats excluded</h3><p>11 older or unchanged candidates excluded: GPT-6.2 Astra/Sol; Gemini 4 Neon; Claude Fable/Mythos; Aion Instruct; Gemini Tool Retrieval/Genie 4; Suno Visuals; Nvidia/BIS shipment and export-control coverage; Oracle/OpenAI capacity plan; Tencent/Alibaba cloud outlook; Java4Shell; and prior Claude/GitHub status incidents.</p></article>
+  <article><h3>Discovery sweep</h3><p>One bounded cross-beat sweep targeted <strong>55 distinct domains</strong>. Follow-up searches were limited to verifying the strongest candidates and primary disclosures.</p></article>
+  <article><h3>Pages and domains opened</h3><p><strong>22 page URLs attempted across 18 domains.</strong> 20 returned readable content across 17 domains; two CERT-In URLs timed out. No unreadable-text pages were counted as successful reads.</p></article>
+  <article><h3>Date-matched sources</h3><p><strong>9 date-matched source pages across 9 domains:</strong> Sarvam, Moneycontrol, OpenRouter, Together AI, Novita, Atlas Cloud, Elets/BFSI, The Hawk and TechGig. Older Dragos and Phala disclosures are labelled as background, not new 22–23 Nov events.</p></article>
+  <article><h3>Source classes</h3><p>Official model launch and model card; independent financial/technology reporting; security research; inference-platform and provider incident disclosures; secondary reporting quoting CERT-In; provider status histories; arXiv recent-submission listings; official release-note and policy pages.</p></article>
+  <article><h3>Access gaps</h3><p>CERT-In's homepage and direct CIAD-2026-0062 URL timed out. The payment advisory is supported by multiple reports quoting CERT-In, but the primary page could not be read. Dragos' findings and Sarvam's benchmarks have not been independently reproduced. Affected provider names and customer counts remain undisclosed.</p></article>
+  <article><h3>Archive integrity</h3><p>49 dated archive HTML files enumerated; the 20 and 21 November issues reopened. The other 47 files were not reopened individually and were semantically deduplicated through the 399-story / 51-edition registry. No backfill was required.</p></article>
+  <article><h3>Validation / publication</h3><p>Doctype, 18 required section IDs, 3 Main Desk impact panels, dates, story counts, direct links and search, filter, speech, share and print controls were checked manually. No external linter was run. GitHub and Netlify publication are reported separately.</p></article>
+ </div>
+ <h3 style="margin-top:18px">Beat-by-beat scan</h3>
+ <div class="two-col">
+  <div>
+   <p><strong>Models / benchmarks:</strong> Material change found — Sarvam-105B-1711. No other frontier model version or independent benchmark change verified. Open weights/local inference: Sarvam weights released; no new runtime release verified.</p>
+   <p><strong>Developer / agents:</strong> No material, date-matched product or protocol development verified. Official GitHub, Cursor, JetBrains, LangChain, MCP and vendor developer-release classes checked. The Together AI coding-agent credential exposure is in Security.</p>
+   <p><strong>Creator / multimodal:</strong> No material, date-matched development verified. Official Suno, Runway, Adobe, Stability, Pika, Luma, Canva and Google release-note classes checked.</p>
+   <p><strong>Research / science / robotics:</strong> No material, date-matched development verified. Accessible arXiv AI/CV/CS listings showed 20 November as the latest visible submission date; no new 22–23 November paper or hardware deployment verified.</p>
+   <p><strong>Security / reliability:</strong> Material developments found — AI inference supply-chain disclosures and CERT-In CIAD-2026-0062. OpenAI, Claude and GitHub status pages checked; no 22–23 November provider incident was listed by Claude or GitHub, and OpenAI was operational at the check.</p>
+  </div>
+  <div>
+   <p><strong>Compute / geopolitics:</strong> No material, date-matched new chip, HBM, packaging, networking or export-control development verified. Nvidia, AMD, Intel, TSMC, Samsung, SK hynix, ASML, BIS, Commerce and semiconductor trade coverage checked.</p>
+   <p><strong>Energy / data centres:</strong> No material, date-matched power contract, grid connection, generation deal or facility commissioning verified. Data-centre and energy trade sources, utilities and cloud-provider releases checked.</p>
+   <p><strong>Business / capital:</strong> No material new funding, signed contract, backlog, revenue or cash-capex update verified. Sarvam's product pricing is not treated as revenue. Capital flows are separated from product price and deployed capacity.</p>
+   <p><strong>India / Asia:</strong> Material developments found — Sarvam's open-weight release and CERT-In's payment-workflow advisory. No new India foundation-model policy or national AI policy decision verified.</p>
+   <p><strong>Policy / law / copyright / society:</strong> No new date-matched law, copyright ruling or export-control decision verified. CERT-In's critical advisory is covered under Security and India.</p>
+  </div>
+ </div>
+ <p class="small">Archive pages not reopened individually are listed in the edition audit record in <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/story-index.json">archive/story-index.json</a>. Domain targets, opened domains, date-matched sources and access failures are recorded separately; discovery results are not counted as opened pages.</p>
+</section>
+
+<div class="footer">SIGNAL. — AI Daily · Monday, 23 November 2026 · Evidence cut-off 09:23 Asia/Kolkata. Vendor claims are attributed; security research is not treated as a complete forensic audit; preprints are not treated as peer-reviewed; forecasts are labelled.</div>
 </main>
 <script>
 (function(){
-const status=document.getElementById("toolStatus");const search=document.getElementById("searchInput");const filter=document.getElementById("deskFilter");const cards=[...document.querySelectorAll(".story-card")];const empty=document.getElementById("filterEmpty");
-function applyFilters(){const q=(search.value||"").trim().toLowerCase();const f=filter.value;let visible=0;cards.forEach(card=>{const text=card.innerText.toLowerCase();const priority=card.dataset.priority||"";const desk=card.dataset.desk||"";const matchQ=!q||text.includes(q);const matchF=f==="all"||(f==="main"&&priority==="main")||(f==="more"&&priority==="more")||desk===f;const show=matchQ&&matchF;card.hidden=!show;if(show)visible++;});if(empty)empty.hidden=visible!==0;}
-search.addEventListener("input",applyFilters);filter.addEventListener("change",applyFilters);document.getElementById("printBtn").addEventListener("click",()=>window.print());
-const fileName="SIGNAL_AI_Daily_2026-11-21.html";function cleanHtml(){const clone=document.documentElement.cloneNode(true);clone.querySelectorAll("[hidden]").forEach(el=>el.removeAttribute("hidden"));const s=clone.querySelector("#searchInput");if(s)s.value="";const f=clone.querySelector("#deskFilter");if(f)f.value="all";return "<!doctype html>\n"+clone.outerHTML;}function makeFile(){return new File([cleanHtml()],fileName,{type:"text/html"});}
-document.getElementById("downloadBtn").addEventListener("click",()=>{const blob=new Blob([cleanHtml()],{type:"text/html"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=fileName;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);status.textContent="HTML download prepared in this browser.";});
-document.getElementById("shareBtn").addEventListener("click",async()=>{try{const file=makeFile();if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){await navigator.share({files:[file],title:"SIGNAL. — AI Daily · 21 November 2026",text:"Full-spectrum AI briefing"});status.textContent="The browser share sheet was opened with the HTML attachment.";}else if(navigator.clipboard&&navigator.clipboard.writeText&&/^https?:$/.test(location.protocol)){await navigator.clipboard.writeText(location.href);status.textContent="Issue URL copied. If you need the file itself, use Download HTML and attach it manually.";}else{status.textContent="File attachment sharing is not supported here. Use Download HTML, then attach the file manually.";} }catch(e){status.textContent="Sharing was cancelled or unavailable. Use Download HTML, then attach the file manually."; }});
-const play=document.getElementById("speakPlay"),pause=document.getElementById("speakPause"),stop=document.getElementById("speakStop"),rate=document.getElementById("speechRate");
-play.addEventListener("click",()=>{if(!("speechSynthesis" in window)){status.textContent="Native speech is not supported by this browser.";return;}if(window.speechSynthesis.paused){window.speechSynthesis.resume();return;}window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(document.getElementById("issue").innerText);u.rate=parseFloat(rate.value);u.onend=()=>{status.textContent="Speech finished.";};window.speechSynthesis.speak(u);status.textContent="Reading the issue with native browser speech.";});
-pause.addEventListener("click",()=>{if("speechSynthesis" in window)window.speechSynthesis.pause();});stop.addEventListener("click",()=>{if("speechSynthesis" in window)window.speechSynthesis.cancel();status.textContent="Speech stopped.";});rate.addEventListener("change",()=>{if("speechSynthesis" in window&&window.speechSynthesis.speaking){window.speechSynthesis.cancel();play.click();}});applyFilters();
+ const status=document.getElementById("toolStatus");
+ const search=document.getElementById("searchInput");
+ const filter=document.getElementById("deskFilter");
+ const cards=[...document.querySelectorAll(".story-card")];
+ const empty=document.getElementById("filterEmpty");
+ function applyFilters(){
+  const q=(search.value||"").trim().toLowerCase(),f=filter.value;
+  let visible=0;
+  cards.forEach(card=>{
+   const t=card.innerText.toLowerCase(),p=card.dataset.priority||"",d=(card.dataset.desk||"").split(/\s+/);
+   const mq=!q||t.includes(q),mf=f==="all"||(f==="main"&&p==="main")||d.includes(f);
+   card.hidden=!(mq&&mf);if(!card.hidden)visible++;
+  });
+  if(empty)empty.hidden=visible!==0;
+ }
+ search.addEventListener("input",applyFilters);
+ filter.addEventListener("change",applyFilters);
+ document.getElementById("printBtn").addEventListener("click",()=>window.print());
+ const fileName="SIGNAL_AI_Daily_2026-11-23.html";
+ function sourceHtml(){return "<!doctype html>\n"+document.documentElement.outerHTML;}
+ document.getElementById("downloadBtn").addEventListener("click",()=>{
+  const blob=new Blob([sourceHtml()],{type:"text/html"}),url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download=fileName;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
+  status.textContent="HTML download prepared in this browser.";
+ });
+ document.getElementById("shareBtn").addEventListener("click",async()=>{
+  try{
+   const file=new File([sourceHtml()],fileName,{type:"text/html"});
+   if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+    await navigator.share({files:[file],title:"SIGNAL. — AI Daily · 23 November 2026",text:"Full-spectrum AI briefing"});
+    status.textContent="The browser share sheet was opened with the HTML attachment.";
+   }else if(location.protocol!=="file:"&&navigator.clipboard&&navigator.clipboard.writeText){
+    await navigator.clipboard.writeText(location.href);
+    status.textContent="Issue link copied. To share the file itself, use Download HTML and attach it manually.";
+   }else{
+    status.textContent="File sharing is not supported here. Use Download HTML, then attach the file manually.";
+   }
+  }catch(e){status.textContent="Sharing was cancelled or unavailable. Use Download HTML, then attach the file manually.";}
+ });
+ const play=document.getElementById("speakPlay"),pause=document.getElementById("speakPause"),stop=document.getElementById("speakStop"),rate=document.getElementById("speechRate");
+ play.addEventListener("click",()=>{
+  if(!("speechSynthesis" in window)){status.textContent="Native speech is not supported by this browser.";return;}
+  if(window.speechSynthesis.paused){window.speechSynthesis.resume();return;}
+  window.speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(document.getElementById("issue").innerText);u.rate=parseFloat(rate.value);
+  u.onend=()=>{status.textContent="Speech finished.";};window.speechSynthesis.speak(u);
+  status.textContent="Reading the issue with native browser speech.";
+ });
+ pause.addEventListener("click",()=>{if("speechSynthesis" in window)window.speechSynthesis.pause();});
+ stop.addEventListener("click",()=>{if("speechSynthesis" in window)window.speechSynthesis.cancel();status.textContent="Speech stopped.";});
+ rate.addEventListener("change",()=>{if("speechSynthesis" in window&&window.speechSynthesis.speaking){window.speechSynthesis.cancel();play.click();}});
+ applyFilters();
 })();
 </script>
 </body>
