@@ -7358,8 +7358,8 @@
       "archive_index_blob_sha_after": "fcf88d3899c9f925e8b8f4823d6a196bb1637275",
       "root_index_blob_sha_before": "26528ed15d9b7b8ef7e7dd816eb1778189ec9272",
       "root_index_blob_sha_after": "ca55107dbfda5fd6e651a9b8084be37710c25561",
-      "root_index_update_pending": true,
-      "homepage_match_verified": false,
+      "root_index_update_pending": false,
+      "homepage_match_verified": true,
       "local_file_created": false,
       "local_file_sha_expected": null,
       "local_file_sha_matches_published": false,
@@ -7631,8 +7631,8 @@
         "archive_index_dated_entries_after": 50,
         "prior_records_removed": 0,
         "earlier_same_day_editions_preserved": true,
-        "root_index_updated": false,
-        "homepage_exact_match_verified": false
+        "root_index_updated": true,
+        "homepage_exact_match_verified": true
       },
       "manual_html_validation": {
         "doctype": true,
@@ -7660,12 +7660,12 @@
         "archive_index_blob_sha_after": "fcf88d3899c9f925e8b8f4823d6a196bb1637275",
         "registry_path": "archive/story-index.json",
         "registry_blob_sha_before_update": "4f3ceaf0a59d1b060c9b072af76180ee5f5a4acb",
-        "registry_blob_sha_after_primary_append": "4f3ceaf0a59d1b060c9b072af76180ee5f5a4acb",
+        "registry_blob_sha_after_primary_append": "2da4cc0a3709ea84dad97f287df1cfe083b43722",
         "root_index_path": "index.html",
         "root_index_blob_sha_before_update": "26528ed15d9b7b8ef7e7dd816eb1778189ec9272",
         "root_index_blob_sha_after": "ca55107dbfda5fd6e651a9b8084be37710c25561",
-        "root_index_update_pending": true,
-        "root_exact_match": false,
+        "root_index_update_pending": false,
+        "root_exact_match": true,
         "netlify_deployment_claimed": false
       },
       "homepage_exact_match_verified_at": "2026-11-23T09:23:44+05:30"
@@ -20440,7 +20440,8 @@
     "2026-11-21 publication completion: archive/2026-11-21.html, archive/index.html, archive/story-index.json and root index.html were read back on main; root homepage content/blob SHA exactly matches the canonical issue. No same-day sibling was created. Netlify deployment was not verified. Local draft SHA differed from published issue SHA, so no local download link is provided.",
     "2026-11-23 canonical daily edition: inspected root homepage, archive index and 399-story/51-edition registry; enumerated 49 prior dated archive HTML files. Reopened 20 and 21 Nov issues; 47 other dated pages were not reopened individually and were deduplicated through the full registry. One bounded cross-beat sweep targeted 55 distinct domains; 22 page URLs opened across 18 domains, 20 returned content and two CERT-In URLs timed out. Nine date-matched pages across nine domains supported three verified developments (Sarvam-105B-1711; AI inference supply-chain disclosures/OpenRouter response; CERT-In CIAD-2026-0062 public coverage). Added three new story records and one edition record; 11 older or unchanged candidates excluded; no follow-ups or backfill required. Issue and archive index verified; homepage update pending. Append-only; no old story or edition record removed.",
     "2026-11-23 publication completion: canonical issue archive/2026-11-23.html, archive index, story registry and root homepage read back on main. Homepage content and blob SHA exactly match the issue. Registry contains 402 stories and 52 editions; archive index has 50 dated entries with one canonical 23 Nov link. No prior records removed; no same-day sibling created. Netlify not checked. Local file was not created because the published blob could not be materialized in the local runtime.",
-    "2026-11-23 editorial correction: removed an unverified Sarvam input-token price. The issue now states only the ₹25/M output rate and company-reported ₹13.75/M blended price; input price is marked unverified. The canonical issue path is unchanged. Homepage resynchronisation pending."
+    "2026-11-23 editorial correction: removed an unverified Sarvam input-token price. The issue now states only the ₹25/M output rate and company-reported ₹13.75/M blended price; input price is marked unverified. The canonical issue path is unchanged. Homepage resynchronisation pending.",
+    "2026-11-23 correction completion: corrected canonical issue archive/2026-11-23.html, root homepage, and Sarvam story metadata were read back on main. Homepage content and blob SHA exactly match the corrected canonical issue. Archive index still contains exactly one 23 Nov link. Registry remains append-only; no duplicate story or edition records. No same-day sibling created. Netlify not checked."
   ],
   "last_updated_edition": "signal-2026-11-23"
 }
