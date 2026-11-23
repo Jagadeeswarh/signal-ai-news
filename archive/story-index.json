@@ -7354,12 +7354,12 @@
       ],
       "no_readable_text_urls": [],
       "partial_page_urls": [],
-      "issue_blob_sha": "26528ed15d9b7b8ef7e7dd816eb1778189ec9272",
+      "issue_blob_sha": "ca55107dbfda5fd6e651a9b8084be37710c25561",
       "archive_index_blob_sha_after": "fcf88d3899c9f925e8b8f4823d6a196bb1637275",
-      "root_index_blob_sha_before": "ee476d4ca23c8fe2e7c097c5cace5855197162a7",
-      "root_index_blob_sha_after": "26528ed15d9b7b8ef7e7dd816eb1778189ec9272",
-      "root_index_update_pending": false,
-      "homepage_match_verified": true,
+      "root_index_blob_sha_before": "26528ed15d9b7b8ef7e7dd816eb1778189ec9272",
+      "root_index_blob_sha_after": "ca55107dbfda5fd6e651a9b8084be37710c25561",
+      "root_index_update_pending": true,
+      "homepage_match_verified": false,
       "local_file_created": false,
       "local_file_sha_expected": null,
       "local_file_sha_matches_published": false,
@@ -7631,8 +7631,8 @@
         "archive_index_dated_entries_after": 50,
         "prior_records_removed": 0,
         "earlier_same_day_editions_preserved": true,
-        "root_index_updated": true,
-        "homepage_exact_match_verified": true
+        "root_index_updated": false,
+        "homepage_exact_match_verified": false
       },
       "manual_html_validation": {
         "doctype": true,
@@ -7654,18 +7654,18 @@
         "verified_at": "2026-11-23T09:23:44+05:30",
         "branch": "main",
         "issue_path": "archive/2026-11-23.html",
-        "issue_blob_sha": "26528ed15d9b7b8ef7e7dd816eb1778189ec9272",
+        "issue_blob_sha": "ca55107dbfda5fd6e651a9b8084be37710c25561",
         "archive_index_path": "archive/index.html",
         "archive_index_blob_sha_before_update": "32c45fb00b856611d21a12822983be2b7cedc7ee",
         "archive_index_blob_sha_after": "fcf88d3899c9f925e8b8f4823d6a196bb1637275",
         "registry_path": "archive/story-index.json",
-        "registry_blob_sha_before_update": "8129f5842f2ab58a9671a3bb67a662a9e7a455d4",
-        "registry_blob_sha_after_primary_append": "bbbd342151a397ed98b25c7ff39af75024cdbf57",
+        "registry_blob_sha_before_update": "4f3ceaf0a59d1b060c9b072af76180ee5f5a4acb",
+        "registry_blob_sha_after_primary_append": "4f3ceaf0a59d1b060c9b072af76180ee5f5a4acb",
         "root_index_path": "index.html",
-        "root_index_blob_sha_before_update": "ee476d4ca23c8fe2e7c097c5cace5855197162a7",
-        "root_index_blob_sha_after": "26528ed15d9b7b8ef7e7dd816eb1778189ec9272",
-        "root_index_update_pending": false,
-        "root_exact_match": true,
+        "root_index_blob_sha_before_update": "26528ed15d9b7b8ef7e7dd816eb1778189ec9272",
+        "root_index_blob_sha_after": "ca55107dbfda5fd6e651a9b8084be37710c25561",
+        "root_index_update_pending": true,
+        "root_exact_match": false,
         "netlify_deployment_claimed": false
       },
       "homepage_exact_match_verified_at": "2026-11-23T09:23:44+05:30"
@@ -20183,7 +20183,7 @@
         "NVIDIA B200",
         "RTX PRO 6000 Blackwell"
       ],
-      "event_summary": "Sarvam released Sarvam-105B-1711 on 22 November 2026, a post-trained checkpoint of its 105B-parameter mixture-of-experts model with 10.3B active parameters. Apache-2.0 BF16 and NVFP4 weights are on Hugging Face. Token Factory list pricing is ₹10/M input and ₹25/M output, with a vendor-reported $0.15/M blended price at a 3:1 input/output mix. Sarvam reports a rise from 42.6 to 73.9 across eight conversational-agent benchmarks, but these are vendor-run evaluations with no independent reproduction. Its model card publishes B200 and RTX PRO 6000 throughput/TTFT measurements and a 131,072-token vLLM serving recipe; the launch blog's 160K training context is not a validated production serving limit.",
+      "event_summary": "Sarvam released Sarvam-105B-1711 on 22 November 2026, a post-trained checkpoint of its 105B-parameter mixture-of-experts model with 10.3B active parameters. Apache-2.0 BF16 and NVFP4 weights are on Hugging Face. Moneycontrol reports ₹25/M output and a company-reported blended inference price of ₹13.75/M (US$0.15/M); an input-token rate was not separately verified. Sarvam reports a rise from 42.6 to 73.9 across eight conversational-agent benchmarks, but these are vendor-run evaluations with no independent reproduction. Its model card publishes B200 and RTX PRO 6000 throughput/TTFT measurements and a 131,072-token vLLM serving recipe; the launch blog's 160K training context is not a validated production serving limit.",
       "normalized_headline": "Sarvam releases 105B checkpoint aimed at low-cost Indian-language agents",
       "canonical_urls": [
         "https://www.sarvam.ai/blogs/sarvam-105b-1711",
@@ -20231,7 +20231,7 @@
       "verification_status": "verified",
       "status": "verified",
       "repeat_status": "new",
-      "delivery_note": "The 160K training-context statement is distinguished from the 131,072-token vLLM serving recipe."
+      "delivery_note": "Price correction: output rate ₹25/M and blended ₹13.75/M are reported; input rate was not independently verified. The 160K training-context statement is distinguished from the 131,072-token vLLM serving recipe."
     },
     {
       "story_id": "event-ai-inference-supply-chain-prompt-leaks-openrouter-2026-11-22",
@@ -20439,7 +20439,8 @@
     "2026-11-21 canonical daily edition: inspected root homepage, archive index, 375-story/50-edition registry and enumerated 48 prior dated archive HTML files. Four recent issues reopened; 44 dated pages not reopened individually and semantically deduplicated against the full registry. One bounded cross-beat sweep targeted 90 domains; about 40 page URLs opened across 18 domains, 28 date-matched pages across 11 domains. Added 24 story records (17 unique new developments, seven material follow-ups); 14 repeat candidates excluded. No backfill required. Issue and archive index verified; homepage update pending. Append-only; no old story or edition record removed.",
     "2026-11-21 publication completion: archive/2026-11-21.html, archive/index.html, archive/story-index.json and root index.html were read back on main; root homepage content/blob SHA exactly matches the canonical issue. No same-day sibling was created. Netlify deployment was not verified. Local draft SHA differed from published issue SHA, so no local download link is provided.",
     "2026-11-23 canonical daily edition: inspected root homepage, archive index and 399-story/51-edition registry; enumerated 49 prior dated archive HTML files. Reopened 20 and 21 Nov issues; 47 other dated pages were not reopened individually and were deduplicated through the full registry. One bounded cross-beat sweep targeted 55 distinct domains; 22 page URLs opened across 18 domains, 20 returned content and two CERT-In URLs timed out. Nine date-matched pages across nine domains supported three verified developments (Sarvam-105B-1711; AI inference supply-chain disclosures/OpenRouter response; CERT-In CIAD-2026-0062 public coverage). Added three new story records and one edition record; 11 older or unchanged candidates excluded; no follow-ups or backfill required. Issue and archive index verified; homepage update pending. Append-only; no old story or edition record removed.",
-    "2026-11-23 publication completion: canonical issue archive/2026-11-23.html, archive index, story registry and root homepage read back on main. Homepage content and blob SHA exactly match the issue. Registry contains 402 stories and 52 editions; archive index has 50 dated entries with one canonical 23 Nov link. No prior records removed; no same-day sibling created. Netlify not checked. Local file was not created because the published blob could not be materialized in the local runtime."
+    "2026-11-23 publication completion: canonical issue archive/2026-11-23.html, archive index, story registry and root homepage read back on main. Homepage content and blob SHA exactly match the issue. Registry contains 402 stories and 52 editions; archive index has 50 dated entries with one canonical 23 Nov link. No prior records removed; no same-day sibling created. Netlify not checked. Local file was not created because the published blob could not be materialized in the local runtime.",
+    "2026-11-23 editorial correction: removed an unverified Sarvam input-token price. The issue now states only the ₹25/M output rate and company-reported ₹13.75/M blended price; input price is marked unverified. The canonical issue path is unchanged. Homepage resynchronisation pending."
   ],
   "last_updated_edition": "signal-2026-11-23"
 }
