@@ -19737,6 +19737,227 @@
       "status": "verified",
       "repeat_status": "new",
       "delivery_note": ""
+    },
+    {
+      "story_id": "event-sarvam-105b-1711-open-weight-checkpoint-2026-11-22",
+      "normalized_subject": "sarvam 105b 1711 open weight checkpoint low cost indian language agent model",
+      "entities": [
+        "Sarvam AI",
+        "Sarvam-105B-1711",
+        "Token Factory",
+        "Hugging Face",
+        "NVIDIA B200",
+        "RTX PRO 6000 Blackwell"
+      ],
+      "event_summary": "Sarvam released Sarvam-105B-1711 on 22 November 2026, a post-trained checkpoint of its 105B-parameter mixture-of-experts model with 10.3B active parameters. Apache-2.0 BF16 and NVFP4 weights are on Hugging Face. Token Factory list pricing is ₹10/M input and ₹25/M output, with a vendor-reported $0.15/M blended price at a 3:1 input/output mix. Sarvam reports a rise from 42.6 to 73.9 across eight conversational-agent benchmarks, but these are vendor-run evaluations with no independent reproduction. Its model card publishes B200 and RTX PRO 6000 throughput/TTFT measurements and a 131,072-token vLLM serving recipe; the launch blog's 160K training context is not a validated production serving limit.",
+      "normalized_headline": "Sarvam releases 105B checkpoint aimed at low-cost Indian-language agents",
+      "canonical_urls": [
+        "https://www.sarvam.ai/blogs/sarvam-105b-1711",
+        "https://huggingface.co/sarvamai/sarvam-105b-1711",
+        "https://huggingface.co/sarvamai/sarvam-105b-1711-bf16",
+        "https://www.moneycontrol.com/artificial-intelligence/sarvam-unveils-upgraded-105b-ai-model-plans-more-releases-amid-token-factory-criticism-article-14086730.html"
+      ],
+      "original_publication_date": "2026-11-22",
+      "first_edition_date": "2026-11-23",
+      "first_edition_path": "archive/2026-11-23.html",
+      "edition_paths": [
+        "archive/2026-11-23.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Sarvam AI",
+          "source_class": "primary model release",
+          "role": "Checkpoint release, pricing, vendor benchmarks and throughput claims",
+          "published_date": "2026-11-22",
+          "url": "https://www.sarvam.ai/blogs/sarvam-105b-1711"
+        },
+        {
+          "publisher": "Hugging Face / Sarvam AI",
+          "source_class": "primary model card",
+          "role": "Apache-2.0 licence, MoE parameters, deployment recipe, benchmarks and GPU measurements",
+          "published_date": "2026-11-22",
+          "url": "https://huggingface.co/sarvamai/sarvam-105b-1711"
+        },
+        {
+          "publisher": "Moneycontrol",
+          "source_class": "independent reporting",
+          "role": "Publication date and co-founder comments on release and upcoming model window",
+          "published_date": "2026-11-23",
+          "url": "https://www.moneycontrol.com/artificial-intelligence/sarvam-unveils-upgraded-105b-ai-model-plans-more-releases-amid-token-factory-criticism-article-14086730.html"
+        }
+      ],
+      "source_domains": [
+        "https://www.sarvam.ai/blogs/sarvam-105b-1711",
+        "https://huggingface.co/sarvamai/sarvam-105b-1711",
+        "https://www.moneycontrol.com/artificial-intelligence/sarvam-unveils-upgraded-105b-ai-model-plans-more-releases-amid-token-factory-criticism-article-14086730.html"
+      ],
+      "desk": "models",
+      "evidence_confidence": "High on release, licence and model-card specifications; medium on price/performance comparisons because benchmarks and serving measurements are vendor-reported and have not been independently reproduced.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": "The 160K training-context statement is distinguished from the 131,072-token vLLM serving recipe."
+    },
+    {
+      "story_id": "event-ai-inference-supply-chain-prompt-leaks-openrouter-2026-11-22",
+      "normalized_subject": "AI inference supply chain prompt leaks provider compromise OpenRouter ZDR removals",
+      "entities": [
+        "Dragos",
+        "OpenRouter",
+        "Together AI",
+        "Novita",
+        "Atlas Cloud",
+        "Phala",
+        "MiniMax",
+        "DeepSeek V4 Flash 0731",
+        "Zero Data Retention"
+      ],
+      "event_summary": "A Dragos canary study published 19 November described evidence of data exposure at at least three AI hosting providers, reseller prompt logging and apparent privacy-policy failures. In the 21–23 November update window, Together AI disclosed that a credential committed by an AI coding agent enabled an unauthorised party to download stored June/July prompt samples; Novita disclosed that a routing configuration sent some MiniMax requests to the official API between 28 May and 11 November, where request contents may have been accessed or retained; Atlas Cloud disclosed third-party access to links in prompts sent to MiniMax's official API; and OpenRouter said it off-boarded three providers, removed 125 endpoints from ZDR eligibility and notified potentially affected customers. OpenRouter said it found no breach of OpenRouter itself. Phala's separate October–November DeepSeek V4 Flash 0731 exposure is included as background. Provider identities and customer counts remain undisclosed; the findings do not establish that all traffic or all ZDR-labelled requests were exposed.",
+      "normalized_headline": "AI inference supply-chain disclosures trigger OpenRouter provider removals and ZDR review",
+      "canonical_urls": [
+        "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+        "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+        "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+        "https://novita.ai/blog/minimax-requests-privacy-notice/",
+        "https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment",
+        "https://phala.com/posts/phala-november-preliminary-incident-report"
+      ],
+      "original_publication_date": "2026-11-22",
+      "first_edition_date": "2026-11-23",
+      "first_edition_path": "archive/2026-11-23.html",
+      "edition_paths": [
+        "archive/2026-11-23.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Dragos",
+          "source_class": "primary security research",
+          "role": "Canary experiment, prompt exposure evidence and inference route findings",
+          "published_date": "2026-11-19",
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+        },
+        {
+          "publisher": "OpenRouter",
+          "source_class": "primary platform disclosure",
+          "role": "Three provider offboarding, 125 ZDR endpoint removals and customer notification",
+          "published_date": "2026-11-22",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+        },
+        {
+          "publisher": "Together AI",
+          "source_class": "primary provider incident disclosure",
+          "role": "Prompt sample download after credential exposure in public repository",
+          "published_date": "2026-11-21",
+          "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+        },
+        {
+          "publisher": "Novita",
+          "source_class": "primary provider privacy notice",
+          "role": "MiniMax official-API routing window and precautionary suspension",
+          "published_date": "2026-11-22",
+          "url": "https://novita.ai/blog/minimax-requests-privacy-notice/"
+        },
+        {
+          "publisher": "Atlas Cloud",
+          "source_class": "primary provider privacy notice",
+          "role": "MiniMax official-API prompt URL access and upstream suspension",
+          "published_date": "2026-11-23",
+          "url": "https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment"
+        },
+        {
+          "publisher": "Phala",
+          "source_class": "primary incident report",
+          "role": "Separate DeepSeek V4 Flash 0731 request exposure window and containment",
+          "published_date": "2026-11-10",
+          "url": "https://phala.com/posts/phala-november-preliminary-incident-report"
+        }
+      ],
+      "source_domains": [
+        "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+        "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+        "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+        "https://novita.ai/blog/minimax-requests-privacy-notice/",
+        "https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment",
+        "https://phala.com/posts/phala-november-preliminary-incident-report"
+      ],
+      "desk": "security",
+      "evidence_confidence": "High on each company's own disclosure; medium on the aggregate scope because Dragos does not name affected providers, affected customer counts are not public, and the canary research has not been independently reproduced.",
+      "verification_status": "verified",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": "Dragos research was published 19 Nov, outside the strict 48-hour window; provider and platform disclosures/actions on 21–23 Nov are the date-matched developments. The providers listed by OpenRouter are not assumed to be the same three it off-boarded."
+    },
+    {
+      "story_id": "event-cert-in-payment-workflow-fraud-ciad-2026-11-20",
+      "normalized_subject": "CERT-In critical payment workflow fraud advisory CIAD-2026-0062 agentic offensive frameworks",
+      "entities": [
+        "CERT-In",
+        "CIAD-2026-0062",
+        "BFSI",
+        "Technology service providers",
+        "Government-linked payment systems",
+        "Vendor payout platforms",
+        "Agentic offensive frameworks"
+      ],
+      "event_summary": "CERT-In issued critical advisory CIAD-2026-0062 on 20 November 2026 warning that attackers are altering business records or approval relationships so legitimate payment workflows execute unauthorised transfers. Public reporting on 21–22 November says the warning extends beyond banks to technology service providers supporting government-linked payments and vendor/partner payouts. CERT-In also described AI-driven agentic offensive frameworks used for reconnaissance, privilege discovery and parallel intrusion tasks. No affected organisations or loss amounts were named. The official advisory URL timed out during this run; multiple outlets quoted the advisory.",
+      "normalized_headline": "CERT-In warns attackers are altering payment records and approval chains",
+      "canonical_urls": [
+        "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0062&pageid=PUBVLNOTES02",
+        "https://bfsi.eletsonline.com/cert-in-payment-workflow-advisory/",
+        "https://www.thehawk.in/news/economy-and-business/banking/cert-in-warns-of-ai-driven-cyberattacks-targeting-payment-systems-across-sectors",
+        "https://techgig.com/news/cybersecurity/cert-in-flags-expanding-ai-driven-cyberattacks-on-payment-systems/136065003"
+      ],
+      "original_publication_date": "2026-11-20",
+      "first_edition_date": "2026-11-23",
+      "first_edition_path": "archive/2026-11-23.html",
+      "edition_paths": [
+        "archive/2026-11-23.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "CERT-In",
+          "source_class": "primary critical advisory",
+          "role": "CIAD-2026-0062; direct URL attempted but timed out",
+          "published_date": "2026-11-20",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0062&pageid=PUBVLNOTES02"
+        },
+        {
+          "publisher": "Elets / BFSI Network",
+          "source_class": "secondary reporting quoting regulator",
+          "role": "Advisory scope, payment-record manipulation and recommended controls",
+          "published_date": "2026-11-21",
+          "url": "https://bfsi.eletsonline.com/cert-in-payment-workflow-advisory/"
+        },
+        {
+          "publisher": "IANS / The Hawk",
+          "source_class": "independent newswire reporting",
+          "role": "Cross-sector payment workflow and agentic offensive framework details",
+          "published_date": "2026-11-21",
+          "url": "https://www.thehawk.in/news/economy-and-business/banking/cert-in-warns-of-ai-driven-cyberattacks-targeting-payment-systems-across-sectors"
+        },
+        {
+          "publisher": "TechGig",
+          "source_class": "secondary reporting quoting CERT-In",
+          "role": "Public coverage and recommendations",
+          "published_date": "2026-11-22",
+          "url": "https://techgig.com/news/cybersecurity/cert-in-flags-expanding-ai-driven-cyberattacks-on-payment-systems/136065003"
+        }
+      ],
+      "source_domains": [
+        "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0062&pageid=PUBVLNOTES02",
+        "https://bfsi.eletsonline.com/cert-in-payment-workflow-advisory/",
+        "https://www.thehawk.in/news/economy-and-business/banking/cert-in-warns-of-ai-driven-cyberattacks-targeting-payment-systems-across-sectors",
+        "https://techgig.com/news/cybersecurity/cert-in-flags-expanding-ai-driven-cyberattacks-on-payment-systems/136065003"
+      ],
+      "desk": "security",
+      "evidence_confidence": "Medium: several outlets independently report the same critical advisory and quote CERT-In; the primary advisory page was not readable in this run and no victim or loss data was disclosed.",
+      "verification_status": "verified_with_primary_access_gap",
+      "status": "verified",
+      "repeat_status": "new",
+      "delivery_note": "Advisory date is 20 Nov; public coverage within the research window appeared on 21–22 Nov. Official CERT-In URL timed out."
     }
   ],
   "archive_backfill_audit": [
