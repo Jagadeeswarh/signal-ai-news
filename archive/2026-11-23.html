@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111014">
+<meta name="description" content="SIGNAL. — AI Daily for Monday, 23 November 2026. Evidence-led reporting on models, agents, research, security, compute, capital and policy.">
+<title>SIGNAL. — AI Daily | Monday, 23 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+ color-scheme:dark;
+ --paper:#111014;--surface:#1B161B;--soft:#241A20;--ink:#F4EDF0;--muted:#B9AAB0;
+ --rule:#49343D;--burgundy:#87364F;--red:#D28BA0;--highlight:#E0A5B5;
+ --white:#1B161B;--body:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+ --display:"Space Grotesk",system-ui,sans-serif;
+ --print-paper:#FFFFFF;--print-ink:#000000;--print-muted:#333333;--print-rule:#888888;--print-soft:#F1EEF0;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.64 var(--body)}
+a{color:var(--red);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--highlight);text-decoration-thickness:2px}
+button,input,select{font:inherit}
+button{cursor:pointer;border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:8px 11px;border-radius:2px}
+button:hover{background:var(--burgundy);border-color:var(--red)}
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--highlight);outline-offset:3px}
+.masthead,.toolbar,.contents,main{max-width:1320px;margin:0 auto}
+.masthead{padding:28px 30px 20px;border-bottom:4px double var(--ink)}
+.brand{font:700 13px/1 var(--display);letter-spacing:.23em;text-transform:uppercase;color:var(--red)}
+.masthead h1{font:700 clamp(2.7rem,6vw,5.6rem)/.93 var(--display);letter-spacing:-.065em;margin:13px 0 8px}
+.deck{max-width:920px;margin:0;color:var(--muted);font-size:1.02rem}
+.issue-meta{display:flex;flex-wrap:wrap;gap:7px 18px;margin-top:16px;padding-top:12px;border-top:1px solid var(--rule);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em}
+.issue-meta strong{color:var(--highlight)}
+.toolbar{padding:14px 30px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;border-bottom:1px solid var(--rule)}
+.toolbar label{font-size:.69rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.toolbar input,.toolbar select{background:var(--surface);border:1px solid var(--rule);padding:8px 10px;border-radius:2px;color:var(--ink)}
+.toolbar input{min-width:210px;flex:1}
+.toolbar .status{flex-basis:100%;min-height:1.2em;font-size:.76rem;color:var(--muted)}
+.contents{padding:13px 30px 16px;border-bottom:2px solid var(--ink)}
+.contents h2{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px;color:var(--muted)}
+.contents ul{display:flex;flex-wrap:wrap;gap:6px 15px;list-style:none;padding:0;margin:0}
+.contents a{font-size:.77rem;text-decoration:none;border-bottom:1px solid var(--rule);color:var(--ink)}
+main{padding:0 30px 50px}
+section{padding:25px 0;border-bottom:2px solid var(--rule);scroll-margin-top:12px}
+section h2{font-size:1.55rem;line-height:1.18;letter-spacing:-.035em;margin:3px 0 14px}
+section h3{font-size:1.08rem;line-height:1.28;letter-spacing:-.02em;margin:6px 0 9px}
+.kicker{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:var(--red)}
+.editor-note,.note{border-left:4px solid var(--burgundy);padding:10px 14px;background:var(--soft);margin:12px 0;font-size:.88rem}
+.impact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.impact-grid article{padding:13px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--surface)}
+.impact-grid h3{font-size:.98rem;margin:0 0 6px}
+.impact-grid p{font-size:.85rem;margin:0;color:var(--muted)}
+.story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.story-card{padding:16px 17px 18px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);min-width:0;break-inside:avoid;background:var(--surface)}
+.story-card h3{font-size:1.2rem;margin:8px 0}
+.story-card p{margin:8px 0}
+.story-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+.flag{color:var(--highlight);font-weight:800}
+.story-deck{font-weight:600;color:var(--ink)}
+.why{font-size:.89rem;border-left:2px solid var(--red);padding-left:10px}
+.impact-panel{margin-top:12px;padding:11px 12px;background:var(--soft);border-top:2px solid var(--burgundy)}
+.impact-title{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.09em;margin-bottom:8px;color:var(--highlight)}
+.impact-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}
+.impact-fields div{font-size:.79rem}
+.impact-fields strong{display:block;font-size:.66rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.sources{display:flex;flex-wrap:wrap;gap:6px 13px;margin-top:10px;font-size:.77rem}
+.small{font-size:.77rem;color:var(--muted)}
+.table-wrap{overflow-x:auto;border-top:1px solid var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:.8rem;line-height:1.5}
+th,td{border:1px solid var(--rule);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:var(--soft);font-size:.67rem;text-transform:uppercase;letter-spacing:.07em}
+.two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+.two-col>div{min-width:0}
+ul.compact{padding-left:19px;margin:7px 0}
+ul.compact li{margin:4px 0}
+.analysis-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.analysis-grid article{padding:13px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--surface)}
+.analysis-grid strong{display:block;color:var(--highlight);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.audit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--rule)}
+.audit-grid article{padding:13px 14px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--surface)}
+.audit-grid h3{font-size:.86rem;margin:0 0 5px}
+.audit-grid p{font-size:.76rem;margin:0;color:var(--muted)}
+.pill{display:inline-block;border:1px solid var(--rule);padding:2px 7px;border-radius:20px;font-size:.66rem;color:var(--muted);margin-right:5px}
+.footer{padding:20px 0;color:var(--muted);font-size:.74rem}
+[hidden]{display:none!important}
+@media(max-width:900px){.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.audit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.masthead,.toolbar,.contents,main{padding-left:16px;padding-right:16px}.story-grid,.two-col{grid-template-columns:1fr}.impact-grid,.analysis-grid,.audit-grid{grid-template-columns:1fr}.impact-fields{grid-template-columns:1fr}.masthead h1{font-size:2.8rem}.toolbar input{min-width:100%;flex-basis:100%}.toolbar select{flex:1}}
+@media print{
+ :root{color-scheme:light;--paper:var(--print-paper);--surface:var(--print-paper);--soft:var(--print-soft);--ink:var(--print-ink);--muted:var(--print-muted);--rule:var(--print-rule);--red:var(--print-ink);--burgundy:var(--print-ink);--highlight:var(--print-ink)}
+ body{background:var(--paper);color:var(--ink);font-size:10pt}
+ .masthead,.toolbar,.contents{padding-left:0;padding-right:0}
+ .toolbar,.contents{display:none}
+ main{padding:0;max-width:none}
+ section{break-inside:auto;padding:14px 0}
+ .story-grid{display:block}
+ .story-card{border:1px solid var(--rule);break-inside:avoid}
+ .impact-panel,.note,.editor-note{background:var(--soft);print-color-adjust:exact}
+ .sources a{color:var(--ink)}
+ .sources a[href^="http"]::after{content:" (" attr(href) ")";font-size:7pt;overflow-wrap:anywhere}
+ .footer{display:none}
+ a{text-decoration:none}
+}
+</style>
+</head>
+<body>
+<header class="masthead">
+ <div class="brand">SIGNAL. / AI Daily</div>
+ <h1>AI, without the noise.</h1>
+ <p class="deck">A full-spectrum briefing on models, agents, research, reliability, compute, capital and policy. Primary disclosures, independent reporting and vendor-run benchmarks are labelled distinctly.</p>
+ <div class="issue-meta"><span><strong>Monday · 23 November 2026</strong></span><span>Canonical daily edition</span><span>Research cut-off 09:23 IST</span><span>Window 21 Nov 09:23 – 23 Nov 09:23 IST</span><span>3 verified developments · 3 Main Desk · 0 More Signals</span></div>
+</header>
+<div class="toolbar" aria-label="Issue tools">
+ <label for="searchInput">Search</label><input id="searchInput" type="search" placeholder="Headlines, companies, models, topics…">
+ <label for="deskFilter">Desk</label><select id="deskFilter"><option value="all">All desks</option><option value="main">Main Desk</option><option value="models">Models</option><option value="security">Security &amp; reliability</option><option value="regional">India &amp; Asia</option></select>
+ <button id="speakPlay" type="button">Speak</button><button id="speakPause" type="button">Pause</button><button id="speakStop" type="button">Stop</button>
+ <label for="speechRate">Speed</label><select id="speechRate"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+ <button id="downloadBtn" type="button">Download HTML</button><button id="shareBtn" type="button">Share</button><button id="printBtn" type="button">Print / PDF</button>
+ <div class="status" id="toolStatus" aria-live="polite">Search and desk filters run locally. Speech uses your browser's native voice. Share attaches the HTML file when supported; otherwise use the manual-attachment fallback.</div>
+</div>
+<nav class="contents" aria-label="Contents"><h2>Contents</h2><ul>
+ <li><a href="#editors-briefing">Editor's Briefing</a></li><li><a href="#impact-radius">Impact Radius</a></li><li><a href="#main-desk">Main Desk</a></li><li><a href="#model-watch">Model &amp; Benchmark Watch</a></li><li><a href="#developer-agent-stack">Developer &amp; Agent Stack</a></li><li><a href="#creator-multimodal">Creator &amp; Multimodal Desk</a></li><li><a href="#research-science-robotics">Research, Science &amp; Robotics</a></li><li><a href="#security-safety-reliability">Security, Safety &amp; Reliability</a></li><li><a href="#compute-chips-cloud-energy">Compute, Chips, Cloud &amp; Energy</a></li><li><a href="#business-capital">Business, Capital Flows &amp; Portfolio Lens</a></li><li><a href="#india-asia-global">India &amp; Asia / Global Regional Desk</a></li><li><a href="#community-intelligence">Community Intelligence</a></li><li><a href="#more-signals">More Signals</a></li><li><a href="#future-radar">Future Radar</a></li><li><a href="#ai-in-context">AI in Context</a></li><li><a href="#glossary">glossary</a></li><li><a href="#what-to-watch">What to Watch Next</a></li><li><a href="#coverage-audit">Coverage Audit</a></li>
+</ul></nav>
+<main id="issue">
+<section id="editors-briefing">
+ <div class="kicker">The lead</div><h2>Editor's Briefing</h2>
+ <p><strong>India's model race has a new open-weight contender, while the AI inference supply chain is facing its clearest privacy stress test yet.</strong> Sarvam released a post-trained 105B mixture-of-experts checkpoint focused on tool use and Indian-language conversations, with Apache-2.0 weights and a sharply lower vendor-quoted token price. Separately, a Dragos canary study and provider disclosures have exposed prompt access, credential misuse and routing-policy failures across parts of the inference marketplace. OpenRouter says it has off-boarded three providers and removed 125 endpoints from Zero Data Retention eligibility.</p>
+ <p>India's CERT-In has also warned that attackers are changing business records and approval chains so that legitimate payment workflows execute unauthorised transfers. The underlying critical advisory was issued on 20 November and surfaced in public reporting on 21–22 November; it is not a new incident report naming a specific victim.</p>
+ <div class="editor-note"><strong>Editorial note:</strong> Only three developments cleared the materiality and date-window test. The Dragos study was published on 19 November, just outside the 48-hour window; the story is included because provider disclosures and platform actions on 21–23 November materially changed the response. Sarvam benchmark and throughput claims remain vendor-run; no independent reproduction was found.</div>
+</section>
+
+<section id="impact-radius">
+ <div class="kicker">What moves first</div><h2>Impact Radius</h2>
+ <div class="impact-grid">
+  <article><h3>India-first agent economics</h3><p>Sarvam's checkpoint gives Indian-language support and voice-agent teams a lower-cost open-weight option. The practical barrier shifts to workstation-grade GPU memory, hosting operations and production validation.</p></article>
+  <article><h3>Inference supply-chain trust</h3><p>Prompts can pass through routers, resellers and model hosts. Each hop can see plaintext; a zero-retention flag at one layer does not guarantee downstream handling.</p></article>
+  <article><h3>Payment workflow integrity</h3><p>CERT-In's warning moves attention from API gateways alone to beneficiary records, approval rules, vendor access and the reconciliation systems that decide whether a payment is legitimate.</p></article>
+ </div>
+</section>
+
+<section id="main-desk">
+ <div class="kicker">Highest consequence · three verified developments</div><h2>Main Desk</h2>
+ <div class="story-grid">
+  <article class="story-card" data-priority="main" data-desk="models">
+   <div class="story-head"><span>Models / India · 22 Nov</span><span class="flag">Open-weight release</span></div>
+   <h3>Sarvam releases 105B checkpoint aimed at low-cost Indian-language agents</h3>
+   <p class="story-deck">Sarvam AI released Sarvam-105B-1711 on 22 November, a post-trained checkpoint of its 105-billion-parameter mixture-of-experts model. The base model has 10.3B active parameters; the new checkpoint targets instruction following, tool calls, agentic tasks and Indian languages.</p>
+   <p>The weights are available on Hugging Face under Apache-2.0 in BF16 and NVFP4 formats. Sarvam lists Token Factory rates of ₹10 per million input tokens and ₹25 per million output tokens; at a 3:1 input/output mix the company reports a blended price of about US$0.15 per million tokens. Its own eight-benchmark conversational-agent average rose from 42.6 for the February checkpoint to 73.9. The company also reports 79.1 on its Indic suite and 85.5 on τ²-Bench.</p>
+   <p>Those are vendor-run evaluations, not an independent reproduction. Sarvam says it evaluated models using its own harness, four samples and official graders; open-weight models ran through vLLM while closed APIs were called through OpenRouter at their providers' maximum context. The harness is described, but those serving conditions are not identical. The launch blog discusses 160K-token long-context training; the published vLLM recipe sets max-model-len to 131,072, so 128K is the concrete deployment setting to plan around.</p>
+   <p>The Hugging Face model card reports a B200 run at 128K context with 122 tokens/second/user at 64 concurrent users and 156 ms p50 time-to-first-token. On a single 96 GB RTX PRO 6000 Blackwell GPU, its 50K-context test reports 61.8 tokens/second for one user and 8.1 seconds p50 time-to-first-token. These are vendor measurements using a specific vLLM/DSpark setup, not independent latency guarantees. The NVFP4 pack is about 65 GB; this is workstation-class hardware, not a laptop deployment. The model card also requires trust_remote_code for its serving recipe, which production teams should review.</p>
+   <p>Practical fit: Indian-language customer support, voice agents, retrieval-grounded enterprise assistants and high-volume multi-turn tool workflows where a team can host or contract for the required GPU capacity. Limits: no independent quality reproduction, high memory requirements, and benchmark comparisons that should not be read as a universal leaderboard ranking.</p>
+   <p class="why"><strong>Why developers should care:</strong> evaluate cost per successfully completed tool workflow, not cost per token alone. Test code-mixed speech, tool arguments, retries, long conversations, concurrency and GPU memory on your own data before replacing a hosted frontier model.</p>
+   <div class="impact-panel"><div class="impact-title">Impact radius · High / near-term model-selection impact</div><div class="impact-fields">
+    <div><strong>Directly affected</strong>Indian enterprises, voice-agent builders, government and BFSI teams, Sarvam Token Factory users and self-hosting teams.</div>
+    <div><strong>Second-order</strong>Forecast: lower inference costs could widen local-language agent deployment and increase demand for Blackwell workstation/server capacity.</div>
+    <div><strong>Geography</strong>India-led release with globally downloadable weights.</div>
+    <div><strong>Horizon</strong>Immediate evaluation; 1–2 quarters for production adoption and independent testing.</div>
+    <div><strong>Confidence</strong>High on release, licence and model-card configuration; medium on performance and price comparisons, which are vendor-reported.</div>
+   </div></div>
+   <div class="sources"><a href="https://www.sarvam.ai/blogs/sarvam-105b-1711">Sarvam launch and benchmark details · 22 Nov</a><a href="https://huggingface.co/sarvamai/sarvam-105b-1711">Hugging Face NVFP4 model card</a><a href="https://huggingface.co/sarvamai/sarvam-105b-1711-bf16">BF16 weights</a><a href="https://www.moneycontrol.com/artificial-intelligence/sarvam-unveils-upgraded-105b-ai-model-plans-more-releases-amid-token-factory-criticism-article-14086730.html">Moneycontrol reporting · 23 Nov</a></div>
+  </article>
+
+  <article class="story-card" data-priority="main" data-desk="security">
+   <div class="story-head"><span>Security / AI infrastructure · 21–23 Nov</span><span class="flag">Developing disclosures</span></div>
+   <h3>AI inference supply chain faces prompt-leak disclosures; OpenRouter removes three providers</h3>
+   <p class="story-deck">A Dragos experiment using nearly two million unique canary prompts found evidence of data exposure at at least three AI hosting providers, prompt retention by some inference-marketplace resellers and apparent failures to honour privacy settings. The research was published on 19 November; the material update in this window is the sequence of provider disclosures and OpenRouter's 22 November response.</p>
+   <p>OpenRouter says its investigation found no breach or unauthorised access of OpenRouter itself. It says it off-boarded three providers, removed 125 endpoints from Zero Data Retention eligibility—including precautionary removals—and notified potentially affected customers. The company has not named the three off-boarded providers; its public list contains disclosures from Atlas Cloud, Novita, Phala and Together, which should not be assumed to be the same set.</p>
+   <p>Three separate provider disclosures illustrate different failure modes. Together AI said an AI coding agent committed a credential to a public repository during development; an unauthorised party used it to download stored prompt samples from June and July 2026 and tested credentials found in them. Five were Dragos canaries. Together says its review of prompt contents is ongoing and it has not identified evidence of additional prompt leakage beyond this incident so far.</p>
+   <p>Novita said a routing configuration issue caused some MiniMax requests to be forwarded to MiniMax's official API between 28 May and 11 November. It says request contents may have been accessed or retained by a third party, suspended the affected models and observed no use of the AWS canary-key markers. Atlas Cloud said a third party opened links embedded in prompts sent to MiniMax's official API through Atlas in Q3 and early Q4; it stopped sending traffic to that API and told users to treat secrets in those prompts as exposed. Atlas says it found no issue with its other models so far.</p>
+   <p>Phala's earlier November 10 report describes a separate server compromise: DeepSeek V4 Flash 0731 requests routed to Phala by OpenRouter between 21 October and 8 November should be treated as exposed. Phala says it contained the incident on 8 November, rotated its KMS root key on 6 November and restored the service with additional protections. This is background to the wider supply-chain picture, not a new November 23 incident.</p>
+   <p>Dragos does not name the compromised providers or disclose affected customer counts. Its canary evidence is a security-research finding, not a full independent audit of every provider or every prompt. The public disclosures cover distinct windows and causes; they do not prove that all traffic on OpenRouter, all MiniMax traffic or all ZDR-labelled requests were exposed.</p>
+   <p><strong>What customers should do:</strong> identify every router, reseller and upstream inference provider in the request path; review provider-specific retention and data-processing terms; avoid placing live credentials, passwords or private URLs in prompts; rotate any secrets that may have been included in affected requests; and use direct provider contracts or self-hosting for high-sensitivity workloads where feasible. A ZDR label is a policy promise, not proof that every downstream hop enforces it.</p>
+   <p class="why"><strong>Why developers should care:</strong> the model endpoint is only one part of the security boundary. Log the actual upstream route, constrain provider pools, redact secrets before inference, use short-lived scoped credentials, and make vendor incident response and data-deletion commitments testable.</p>
+   <div class="impact-panel"><div class="impact-title">Impact radius · High / active supply-chain and privacy exposure</div><div class="impact-fields">
+    <div><strong>Directly affected</strong>Customers of affected inference providers and resellers, especially teams that sent credentials, source code or confidential data in prompts.</div>
+    <div><strong>Second-order</strong>Forecast: more route transparency, endpoint-level ZDR evidence, vendor audits and demand for direct or self-hosted inference.</div>
+    <div><strong>Geography</strong>Global; disclosures span US, European, Chinese and multi-region inference routes.</div>
+    <div><strong>Horizon</strong>Immediate secret review and provider-path checks; 1–3 quarters for marketplace controls and independent assurance.</div>
+    <div><strong>Confidence</strong>High on each company's public disclosure; medium on the full cross-provider scope because identities and customer counts remain undisclosed and Dragos' experiment has not been independently reproduced.</div>
+   </div></div>
+   <div class="sources"><a href="https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens">Dragos canary research · 19 Nov</a><a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">OpenRouter response · 22 Nov</a><a href="https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026">Together AI disclosure · 21 Nov</a><a href="https://novita.ai/blog/minimax-requests-privacy-notice/">Novita MiniMax privacy notice · 22 Nov</a><a href="https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment">Atlas Cloud notice · 23 Nov</a><a href="https://phala.com/posts/phala-november-preliminary-incident-report">Phala preliminary report · 10 Nov</a></div>
+  </article>
+
+  <article class="story-card" data-priority="main" data-desk="security regional">
+   <div class="story-head"><span>Security / India · 20 Nov advisory, public coverage 21–22 Nov</span><span class="flag">Critical advisory</span></div>
+   <h3>CERT-In warns attackers are altering payment records and approval chains</h3>
+   <p class="story-deck">CERT-In advisory CIAD-2026-0062, issued on 20 November and rated critical, warns that attackers are changing business records or approval relationships so that otherwise legitimate payment workflows execute unauthorised transfers. Public reporting on 21–22 November says the warning extends beyond banks to technology service providers supporting government-linked payment processes and platforms handling vendor or partner payouts.</p>
+   <p>The advisory describes AI-driven agentic offensive frameworks used for reconnaissance, privilege discovery and parallel intrusion tasks. The important distinction is that the payment may pass normal application checks because the underlying beneficiary or approval data has been altered. Securing the payment API alone will not catch a transaction that is syntactically valid but based on a compromised business record.</p>
+   <p>CERT-In's reported recommendations include independent verification of payment instructions and beneficiary changes, separation of client environments, tighter administrative and control-plane privileges, and monitoring record changes together with privileged activity and subsequent transactions. The public reports do not name affected organisations or disclose loss amounts. The official advisory URL timed out during this research; the details below are corroborated by multiple outlets quoting the advisory, not by a directly readable primary page.</p>
+   <p class="why"><strong>Why developers should care:</strong> ERP, procurement, vendor-management and payout systems need controls around the data that drives approval—not only authentication at the API gateway. Use independent reconciliation, dual approval for beneficiary changes, short-lived credentials, immutable audit trails and alerting that correlates record edits with payment execution.</p>
+   <div class="impact-panel"><div class="impact-title">Impact radius · High / payment integrity across sectors</div><div class="impact-fields">
+    <div><strong>Directly affected</strong>Banks, NBFCs, fintechs, IT service providers, government payout platforms and organisations paying vendors or partners.</div>
+    <div><strong>Second-order</strong>Forecast: stricter third-party access reviews, independent reconciliation and transaction-level controls across procurement and finance systems.</div>
+    <div><strong>Geography</strong>India; CERT-In's warning covers government-linked and private-sector payment workflows.</div>
+    <div><strong>Horizon</strong>Immediate control review; weeks to months for vendor and workflow remediation.</div>
+    <div><strong>Confidence</strong>Medium: several reports quote the advisory and agree on its core warning; the official CERT-In page could not be fetched, and no victims or losses were named.</div>
+   </div></div>
+   <div class="sources"><a href="https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0062&amp;pageid=PUBVLNOTES02">CERT-In advisory CIAD-2026-0062 · direct link, timed out in this check</a><a href="https://bfsi.eletsonline.com/cert-in-payment-workflow-advisory/">Elets / BFSI Network · 21 Nov</a><a href="https://www.thehawk.in/news/economy-and-business/banking/cert-in-warns-of-ai-driven-cyberattacks-targeting-payment-systems-across-sectors">IANS / The Hawk · 21 Nov</a><a href="https://techgig.com/news/cybersecurity/cert-in-flags-expanding-ai-driven-cyberattacks-on-payment-systems/136065003">TechGig · 22 Nov</a></div>
+  </article>
+ </div>
+ <p class="small" id="filterEmpty" hidden>No story matches the current search and desk filter.</p>
+</section>
+
+<section id="model-watch">
+ <div class="kicker">Release / access / price / evidence</div><h2>Model &amp; Benchmark Watch</h2>
+ <p><strong>Material change verified:</strong> Sarvam-105B-1711, released 22 November. For other tracked frontier models—including OpenAI, Anthropic, Google DeepMind, Meta, xAI, Mistral, DeepSeek, Qwen, Zhipu, Moonshot, MiniMax, ByteDance, Tencent, Baidu and Cohere—<strong>No material change verified</strong> in the 21–23 November window.</p>
+ <div class="table-wrap"><table>
+  <thead><tr><th>Model / date</th><th>Access / price</th><th>Context / latency</th><th>Strengths / limits</th><th>Evidence / audience</th></tr></thead>
+  <tbody>
+   <tr><td><strong>Sarvam-105B-1711</strong><br>22 Nov 2026 · new checkpoint<br>105B MoE / 10.3B active</td><td>Apache-2.0 weights on Hugging Face: BF16 and NVFP4. Token Factory list: ₹10/M input, ₹25/M output; vendor blended estimate US$0.15/M at 3:1 input/output. No third-party inference-provider deployment shown on the HF card.</td><td>HF serving recipe: max-model-len 131,072. Vendor tests: B200 at 128K context; RTX PRO 6000 at 50K. B200, 64 concurrent users: 122 tok/s/user, p50 TTFT 156 ms. RTX PRO 6000, one user: 61.8 tok/s, p50 TTFT 8.1 s.</td><td>Tool calling, instruction following, multi-turn agent tasks and Indian languages. NVFP4 pack about 65 GB; workstation-grade GPU required. vLLM recipe uses trust_remote_code. Blog's 160K long-context training statement is not the same as a validated production serving limit.</td><td>Vendor-run benchmark average 73.9 vs 42.6 for the February checkpoint. Sarvam says same evaluation harness, four samples and official graders; serving paths and context windows differ for open and API models. No independent reproduction. Best for teams testing high-volume Indian-language support and self-hosted agents.</td></tr>
+   <tr><td><strong>Other tracked frontier models</strong><br>21–23 Nov 2026</td><td>No new model/version, API price change or access change verified in the checked release sources.</td><td>No new independent latency or context measurement verified.</td><td>Previously covered releases remain in the archive; no fresh change should be inferred from older launch pages or benchmark snapshots.</td><td>No material change verified. Source classes checked: official release notes, model cards, API documentation, company blogs and independent technology reporting.</td></tr>
+  </tbody>
+ </table></div>
+ <div class="note"><strong>Benchmark discipline:</strong> Sarvam's figures are vendor claims, not an independent leaderboard result. Its model card describes its harness and grader settings, but the open models were served through vLLM while closed models were called through OpenRouter at provider context limits. Compare with caution; do not treat the 73.9 average as a universal cross-provider rank.</div>
+ <p class="sources"><a href="https://www.sarvam.ai/blogs/sarvam-105b-1711">Sarvam release and benchmark methodology</a><a href="https://huggingface.co/sarvamai/sarvam-105b-1711">Model card, benchmarks and throughput</a><a href="https://huggingface.co/sarvamai/sarvam-105b-1711-bf16">BF16 checkpoint</a></p>
+</section>
+
+<section id="developer-agent-stack">
+ <div class="kicker">Builders / agents / IDEs / MCP</div><h2>Developer &amp; Agent Stack</h2>
+ <p><strong>No material, date-matched development verified</strong> for a new coding-agent release, IDE version, MCP protocol revision or builder-platform feature in 21–23 November. Source classes checked: official GitHub changelog, Cursor and JetBrains release pages, LangChain and model-context-protocol documentation, vendor developer blogs and repository release notes.</p>
+ <p>The Together AI incident is covered in the Main Desk because it is a security disclosure, not a new coding-agent product release. Its reported sequence is a practical reminder that an agent working in a public repository can expose a credential that unlocks private prompt samples.</p>
+</section>
+
+<section id="creator-multimodal">
+ <div class="kicker">Image / video / audio / creator tools</div><h2>Creator &amp; Multimodal Desk</h2>
+ <p><strong>No material, date-matched development verified</strong> for a new commercial frontier image, video, music or audio model release. Source classes checked: official release notes and product blogs from Suno, Runway, Adobe, Stability, Pika, Luma, Canva and Google. Suno's latest visible product entry was Visuals on 17 November, outside this edition's 48-hour window.</p>
+</section>
+
+<section id="research-science-robotics">
+ <div class="kicker">Papers / reproducibility / science / robotics</div><h2>Research, Science &amp; Robotics</h2>
+ <p><strong>No material, date-matched development verified</strong> for a new AI/robotics preprint or hardware deployment on 22–23 November. The accessible arXiv cs.AI, cs.CV and general computer-science new-submission listings showed 20 November as their latest visible submission date at the time checked. The 19 November papers already covered in the 21 November issue were not repeated.</p>
+ <p>Source classes checked: arXiv cs.AI, cs.CV and cs.RO/recent listings, author-linked code repositories, Nature, Science, OpenReview and robotics conference proceedings. No new peer-reviewed result or independent reproduction cleared the date window.</p>
+ <p class="sources"><a href="https://arxiv.org/list/cs.AI/new">arXiv AI new submissions</a><a href="https://arxiv.org/list/cs.CV/new">arXiv computer vision new submissions</a><a href="https://arxiv.org/list/cs/recent">arXiv recent computer science</a></p>
+</section>
+
+<section id="security-safety-reliability">
+ <div class="kicker">Incidents / vulnerabilities / trust</div><h2>Security, Safety &amp; Reliability</h2>
+ <ul class="compact">
+  <li><strong>Inference supply chain:</strong> the Dragos research and subsequent OpenRouter, Together, Novita and Atlas disclosures describe provider compromise, prompt-sample download, routing-policy failure and apparent privacy-setting violations. These are distinct causes and windows; no evidence supports saying every customer or every endpoint was exposed.</li>
+  <li><strong>India payment workflows:</strong> CERT-In CIAD-2026-0062 warns of manipulated business records and approval chains, with agentic offensive frameworks used for reconnaissance and parallel intrusion work. The official page timed out; multiple outlets reported its contents.</li>
+  <li><strong>Provider service status:</strong> Claude and GitHub status histories reported no incidents on 22 or 23 November; their current component status was operational. OpenAI's status page showed all systems operational at the time checked. These are availability snapshots, not proof that no isolated customer issue occurred.</li>
+  <li><strong>Incident distinction:</strong> the inference-provider disclosures concern data access and compromised provider environments, not a general outage. The OpenRouter post explicitly says it found no breach of OpenRouter itself.</li>
+ </ul>
+ <p><strong>Immediate operator checklist:</strong> identify upstream routes and subprocessors; check whether sensitive prompts contained credentials, tokens, private URLs or source code; rotate secrets in potentially affected traffic; verify ZDR at each hop; and reconcile payment-record changes against independent authoritative records.</p>
+ <p class="sources"><a href="https://status.openai.com/">OpenAI status</a><a href="https://status.claude.com/">Claude status and incident history</a><a href="https://www.githubstatus.com/">GitHub status and incident history</a><a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">OpenRouter disclosure</a></p>
+</section>
+
+<section id="compute-chips-cloud-energy">
+ <div class="kicker">Semiconductors / cloud / infrastructure / power</div><h2>Compute, Chips, Cloud &amp; Energy</h2>
+ <p><strong>No material, date-matched development verified</strong> for a new Nvidia, AMD, Huawei Ascend, SMIC, HBM, advanced-packaging, networking or export-control announcement on 22–23 November. No new AI data-centre commissioning, grid connection, power purchase agreement, nuclear/gas generation deal or major cloud capacity launch was verified.</p>
+ <p>Source classes checked: Nvidia, AMD, Intel, TSMC, Samsung, SK hynix and ASML releases; BIS and Commerce policy pages; cloud-provider release notes; Reuters and financial reporting; DataCenterDynamics, The Register and data-centre trade coverage; energy and utility reporting. The Sarvam release's Blackwell performance claims are model-serving measurements, not a new semiconductor product or capacity announcement.</p>
+</section>
+
+<section id="business-capital">
+ <div class="kicker">Funding / contracts / revenue / capex</div><h2>Business, Capital Flows &amp; Portfolio Lens</h2>
+ <p><strong>No material, date-matched funding, IPO, signed infrastructure contract, backlog, revenue or cash-capex update verified</strong> in this 48-hour scan. Sarvam's per-token API price is a product price, not evidence of revenue, bookings or profitability.</p>
+ <div class="note"><strong>Capital flows &amp; portfolio lens — an educational distinction, not investment advice:</strong> a model announcement is not a customer contract; a contract is not recognised revenue; revenue is not free cash flow; a GPU reservation is not deployed capacity; and a power-capacity proposal is not a commissioned data centre. When evaluating AI businesses, keep announcements, signed contracts, backlog, recognised revenue, deployed compute, cash spent and future obligations in separate columns.</div>
+ <p class="small">No capital-market recommendation is made in this edition. The key business signal is the spread between Sarvam's claimed low token price and the real cost of high-memory GPU deployment, plus the security cost of multi-hop inference routing.</p>
+</section>
+
+<section id="india-asia-global">
+ <div class="kicker">Regional developments / policy / supply chains</div><h2>India &amp; Asia / Global Regional Desk</h2>
+ <p><strong>India — material developments found:</strong> Sarvam's open-weight 105B checkpoint is a meaningful domestic model release focused on Indian-language agent workloads. CERT-In's critical payment-workflow advisory extends AI-enabled intrusion concerns beyond BFSI APIs to government-linked service providers and vendor payout systems.</p>
+ <p><strong>China / US compute:</strong> no new 22–23 November chip export-control or domestic-accelerator product announcement verified. The inference-provider disclosures include a researcher-reported route in which prompts sent to some US resellers reached an unnamed Chinese AI lab; the lab was not named by Dragos and should not be inferred from the public provider notices.</p>
+ <p><strong>Other regions:</strong> no material, date-matched frontier-model launch, policy decision or infrastructure commissioning verified. Source classes checked: MeitY/PIB, CERT-In, Indian company releases and reporting, regional technology press, and official company announcements from China, Japan, Korea, Europe and the United States.</p>
+</section>
+
+<section id="community-intelligence">
+ <div class="kicker">Signals, not rumours</div><h2>Community Intelligence</h2>
+ <p>No community-only signal met the verification threshold for promotion. GitHub, Hugging Face, arXiv and product release surfaces were used to discover or validate artifacts. Social posts were not treated as evidence; no unverified community claim was promoted into the edition.</p>
+</section>
+
+<section id="more-signals">
+ <div class="kicker">Lower-priority verified developments</div><h2>More Signals</h2>
+ <p>No additional lower-priority development cleared both the date-match and verification thresholds after deduplication. The three material developments are all in Main Desk; no story quota was used.</p>
+</section>
+
+<section id="future-radar">
+ <div class="kicker">3–12 month view · dates versus scenarios</div><h2>Future Radar</h2>
+ <h3>Confirmed dates and announced windows</h3>
+ <ul class="compact">
+  <li><strong>Next two weeks — company-stated window, not a fixed launch date:</strong> Sarvam's co-founder told Moneycontrol that the company plans additional vision, speech and edge-AI model releases. No individual dates or model specifications were confirmed.</li>
+  <li><strong>OpenRouter response — ongoing:</strong> the company says it is adding recurring tests based on Dragos' canary approach, verifying network paths and requiring assurances before restoring ZDR eligibility. No completion date was published.</li>
+  <li><strong>Provider investigations — ongoing:</strong> Together says its prompt-content review continues; Phala says a full root-cause analysis will follow; Novita and Atlas Cloud say they are checking MiniMax processing paths and upstream handling.</li>
+ </ul>
+ <h3>Scenarios to watch, not predictions</h3>
+ <ul class="compact">
+  <li>Inference marketplaces may shift from provider-level privacy labels to route-level attestations, independent canary tests and endpoint-specific retention controls.</li>
+  <li>Indian enterprises may test open-weight models for voice and support workloads, but total cost will depend on GPU utilisation, concurrency, operations and evaluation quality—not API price alone.</li>
+  <li>Payment platforms may expand dual-control and out-of-band verification from payment APIs to beneficiary records, procurement data and vendor approval workflows.</li>
+  <li>Self-hosted inference may gain ground for sensitive workloads if multi-hop privacy assurances remain difficult to verify; workstation-grade hardware and staffing costs will limit adoption.</li>
+ </ul>
+</section>
+
+<section id="ai-in-context">
+ <div class="kicker">Three analysis observations</div><h2>AI in Context</h2>
+ <div class="analysis-grid">
+  <article><strong>01 / Cheap tokens are not cheap tasks</strong><p>Sarvam's vendor-reported price is attractive, but teams should benchmark the full workflow: task success, tool-call retries, latency under concurrency, GPU memory, language coverage and human escalation. Cost per completed customer request is the useful unit.</p></article>
+  <article><strong>02 / The route is part of the model</strong><p>An inference router can improve model choice and billing, but every hop that decrypts a prompt becomes a data processor. ZDR at the first hop cannot constrain a reseller, compromised host or downstream provider that never honours the flag.</p></article>
+  <article><strong>03 / Business records are an attack surface</strong><p>CERT-In's warning points beyond API authentication. If an attacker changes the beneficiary or approval record, the payment system may execute a valid-looking transaction. Independent verification and reconciliation matter as much as gateway security.</p></article>
+ </div>
+</section>
+
+<section id="glossary">
+ <div class="kicker">Terms used in this edition</div><h2>glossary</h2>
+ <div class="two-col">
+  <div><p><strong>Mixture of experts (MoE):</strong> a model architecture that routes each token through only a subset of its expert networks. Total parameters can be much larger than the active parameters used per token.</p><p><strong>Active parameters:</strong> the subset of model weights engaged for a given token or forward pass; not the total stored model size.</p><p><strong>NVFP4:</strong> Nvidia's four-bit floating-point format used to compress model weights and reduce memory requirements.</p><p><strong>Time to first token (TTFT):</strong> elapsed time between sending a request and receiving the first generated token.</p></div>
+  <div><p><strong>Zero Data Retention (ZDR):</strong> a provider policy that says prompts and responses are not stored. It must be verified across every processor and route, not assumed from one API flag.</p><p><strong>Inference router:</strong> a service that forwards a prompt to one or more model providers, often for unified billing, availability or model selection.</p><p><strong>Canary token:</strong> a unique decoy credential or URL that signals exposure when someone accesses or uses it.</p><p><strong>Agentic offensive framework:</strong> a toolchain that automates reconnaissance, privilege discovery and other intrusion tasks using one or more coordinated agents.</p></div>
+ </div>
+</section>
+
+<section id="what-to-watch">
+ <div class="kicker">Next edition checklist</div><h2>What to Watch Next</h2>
+ <ul class="compact">
+  <li>Independent evaluation of Sarvam-105B-1711 on Indian-language tool use, long-turn reliability and real concurrency; confirm whether its Token Factory price and serving figures persist outside the vendor harness.</li>
+  <li>Sarvam's promised vision, speech and edge releases; watch for exact model names, licences, weights and release dates.</li>
+  <li>OpenRouter's list of off-boarded providers and the conditions for restoring the 125 removed endpoints to ZDR eligibility.</li>
+  <li>Novita's and Atlas Cloud's follow-up on MiniMax official-API request handling, affected date windows and customer notification.</li>
+  <li>Together AI's final assessment of prompt contents and the number of customers requiring notification after the credential exposure.</li>
+  <li>Phala's full root-cause analysis for the October–November DeepSeek V4 Flash 0731 exposure window.</li>
+  <li>Whether CERT-In publishes a directly accessible CIAD-2026-0062 page or additional incident indicators, affected sectors and remediation detail.</li>
+  <li>OpenAI, Claude and GitHub service-status changes; distinguish model-provider degradation from security compromise.</li>
+ </ul>
+</section>
+
+<section id="coverage-audit">
+ <div class="kicker">Evidence / scope / limitations</div><h2>Coverage Audit</h2>
+ <div class="audit-grid">
+  <article><h3>Story totals</h3><p><strong>3 verified developments:</strong> 3 Main Desk, 0 More Signals, 0 Community Radar. Three unique new stories; zero material follow-ups to prior SIGNAL stories.</p></article>
+  <article><h3>Repeats excluded</h3><p>11 older or unchanged candidates excluded: GPT-6.2 Astra/Sol; Gemini 4 Neon; Claude Fable/Mythos; Aion Instruct; Gemini Tool Retrieval/Genie 4; Suno Visuals; Nvidia/BIS shipment and export-control coverage; Oracle/OpenAI capacity plan; Tencent/Alibaba cloud outlook; Java4Shell; and prior Claude/GitHub status incidents.</p></article>
+  <article><h3>Discovery sweep</h3><p>One bounded cross-beat sweep targeted <strong>55 distinct domains</strong>. Follow-up searches were limited to verifying the strongest candidates and primary disclosures.</p></article>
+  <article><h3>Pages and domains opened</h3><p><strong>22 page URLs attempted across 18 domains.</strong> 20 returned readable content across 17 domains; two CERT-In URLs timed out. No unreadable-text pages were counted as successful reads.</p></article>
+  <article><h3>Date-matched sources</h3><p><strong>9 date-matched source pages across 9 domains:</strong> Sarvam, Moneycontrol, OpenRouter, Together AI, Novita, Atlas Cloud, Elets/BFSI, The Hawk and TechGig. Older Dragos and Phala disclosures are labelled as background, not new 22–23 Nov events.</p></article>
+  <article><h3>Source classes</h3><p>Official model launch and model card; independent financial/technology reporting; security research; inference-platform and provider incident disclosures; secondary reporting quoting CERT-In; provider status histories; arXiv recent-submission listings; official release-note and policy pages.</p></article>
+  <article><h3>Access gaps</h3><p>CERT-In's homepage and direct CIAD-2026-0062 URL timed out. The payment advisory is supported by multiple reports quoting CERT-In, but the primary page could not be read. Dragos' findings and Sarvam's benchmarks have not been independently reproduced. Affected provider names and customer counts remain undisclosed.</p></article>
+  <article><h3>Archive integrity</h3><p>49 dated archive HTML files enumerated; the 20 and 21 November issues reopened. The other 47 files were not reopened individually and were semantically deduplicated through the 399-story / 51-edition registry. No backfill was required.</p></article>
+  <article><h3>Validation / publication</h3><p>Doctype, 18 required section IDs, 3 Main Desk impact panels, dates, story counts, direct links and search, filter, speech, share and print controls were checked manually. No external linter was run. GitHub and Netlify publication are reported separately.</p></article>
+ </div>
+ <h3 style="margin-top:18px">Beat-by-beat scan</h3>
+ <div class="two-col">
+  <div>
+   <p><strong>Models / benchmarks:</strong> Material change found — Sarvam-105B-1711. No other frontier model version or independent benchmark change verified. Open weights/local inference: Sarvam weights released; no new runtime release verified.</p>
+   <p><strong>Developer / agents:</strong> No material, date-matched product or protocol development verified. Official GitHub, Cursor, JetBrains, LangChain, MCP and vendor developer-release classes checked. The Together AI coding-agent credential exposure is in Security.</p>
+   <p><strong>Creator / multimodal:</strong> No material, date-matched development verified. Official Suno, Runway, Adobe, Stability, Pika, Luma, Canva and Google release-note classes checked.</p>
+   <p><strong>Research / science / robotics:</strong> No material, date-matched development verified. Accessible arXiv AI/CV/CS listings showed 20 November as the latest visible submission date; no new 22–23 November paper or hardware deployment verified.</p>
+   <p><strong>Security / reliability:</strong> Material developments found — AI inference supply-chain disclosures and CERT-In CIAD-2026-0062. OpenAI, Claude and GitHub status pages checked; no 22–23 November provider incident was listed by Claude or GitHub, and OpenAI was operational at the check.</p>
+  </div>
+  <div>
+   <p><strong>Compute / geopolitics:</strong> No material, date-matched new chip, HBM, packaging, networking or export-control development verified. Nvidia, AMD, Intel, TSMC, Samsung, SK hynix, ASML, BIS, Commerce and semiconductor trade coverage checked.</p>
+   <p><strong>Energy / data centres:</strong> No material, date-matched power contract, grid connection, generation deal or facility commissioning verified. Data-centre and energy trade sources, utilities and cloud-provider releases checked.</p>
+   <p><strong>Business / capital:</strong> No material new funding, signed contract, backlog, revenue or cash-capex update verified. Sarvam's product pricing is not treated as revenue. Capital flows are separated from product price and deployed capacity.</p>
+   <p><strong>India / Asia:</strong> Material developments found — Sarvam's open-weight release and CERT-In's payment-workflow advisory. No new India foundation-model policy or national AI policy decision verified.</p>
+   <p><strong>Policy / law / copyright / society:</strong> No new date-matched law, copyright ruling or export-control decision verified. CERT-In's critical advisory is covered under Security and India.</p>
+  </div>
+ </div>
+ <p class="small">Archive pages not reopened individually are listed in the edition audit record in <a href="https://github.com/Jagadeeswarh/signal-ai-news/blob/main/archive/story-index.json">archive/story-index.json</a>. Domain targets, opened domains, date-matched sources and access failures are recorded separately; discovery results are not counted as opened pages.</p>
+</section>
+
+<div class="footer">SIGNAL. — AI Daily · Monday, 23 November 2026 · Evidence cut-off 09:23 Asia/Kolkata. Vendor claims are attributed; security research is not treated as a complete forensic audit; preprints are not treated as peer-reviewed; forecasts are labelled.</div>
+</main>
+<script>
+(function(){
+ const status=document.getElementById("toolStatus");
+ const search=document.getElementById("searchInput");
+ const filter=document.getElementById("deskFilter");
+ const cards=[...document.querySelectorAll(".story-card")];
+ const empty=document.getElementById("filterEmpty");
+ function applyFilters(){
+  const q=(search.value||"").trim().toLowerCase(),f=filter.value;
+  let visible=0;
+  cards.forEach(card=>{
+   const t=card.innerText.toLowerCase(),p=card.dataset.priority||"",d=(card.dataset.desk||"").split(/\s+/);
+   const mq=!q||t.includes(q),mf=f==="all"||(f==="main"&&p==="main")||d.includes(f);
+   card.hidden=!(mq&&mf);if(!card.hidden)visible++;
+  });
+  if(empty)empty.hidden=visible!==0;
+ }
+ search.addEventListener("input",applyFilters);
+ filter.addEventListener("change",applyFilters);
+ document.getElementById("printBtn").addEventListener("click",()=>window.print());
+ const fileName="SIGNAL_AI_Daily_2026-11-23.html";
+ function sourceHtml(){return "<!doctype html>\n"+document.documentElement.outerHTML;}
+ document.getElementById("downloadBtn").addEventListener("click",()=>{
+  const blob=new Blob([sourceHtml()],{type:"text/html"}),url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download=fileName;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
+  status.textContent="HTML download prepared in this browser.";
+ });
+ document.getElementById("shareBtn").addEventListener("click",async()=>{
+  try{
+   const file=new File([sourceHtml()],fileName,{type:"text/html"});
+   if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+    await navigator.share({files:[file],title:"SIGNAL. — AI Daily · 23 November 2026",text:"Full-spectrum AI briefing"});
+    status.textContent="The browser share sheet was opened with the HTML attachment.";
+   }else if(location.protocol!=="file:"&&navigator.clipboard&&navigator.clipboard.writeText){
+    await navigator.clipboard.writeText(location.href);
+    status.textContent="Issue link copied. To share the file itself, use Download HTML and attach it manually.";
+   }else{
+    status.textContent="File sharing is not supported here. Use Download HTML, then attach the file manually.";
+   }
+  }catch(e){status.textContent="Sharing was cancelled or unavailable. Use Download HTML, then attach the file manually.";}
+ });
+ const play=document.getElementById("speakPlay"),pause=document.getElementById("speakPause"),stop=document.getElementById("speakStop"),rate=document.getElementById("speechRate");
+ play.addEventListener("click",()=>{
+  if(!("speechSynthesis" in window)){status.textContent="Native speech is not supported by this browser.";return;}
+  if(window.speechSynthesis.paused){window.speechSynthesis.resume();return;}
+  window.speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(document.getElementById("issue").innerText);u.rate=parseFloat(rate.value);
+  u.onend=()=>{status.textContent="Speech finished.";};window.speechSynthesis.speak(u);
+  status.textContent="Reading the issue with native browser speech.";
+ });
+ pause.addEventListener("click",()=>{if("speechSynthesis" in window)window.speechSynthesis.pause();});
+ stop.addEventListener("click",()=>{if("speechSynthesis" in window)window.speechSynthesis.cancel();status.textContent="Speech stopped.";});
+ rate.addEventListener("change",()=>{if("speechSynthesis" in window&&window.speechSynthesis.speaking){window.speechSynthesis.cancel();play.click();}});
+ applyFilters();
+})();
+</script>
+</body>
+</html>
