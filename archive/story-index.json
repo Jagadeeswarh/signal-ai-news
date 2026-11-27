@@ -3,7 +3,7 @@
   "repository": "Jagadeeswarh/signal-ai-news",
   "branch": "main",
   "created_at": "2026-10-29T08:33:00+05:30",
-  "last_updated_at": "2026-11-23T09:23:44+05:30",
+  "last_updated_at": "2026-11-27T08:09:44+05:30",
   "bootstrap_status": "Historical bootstrap preserved. For 2026-10-30, the current homepage, archive index, all four dated archive HTML files listed in the index, and the prior persistent registry were inspected before selection. Thirteen new event records were appended after the dated issue was written and verified. Semantic duplicate checking is best-effort and does not cover unlisted or inaccessible files.; 2026-10-31 run: inspected homepage, archive index, all five accessible dated archive HTML files and registry; appended nine new event records after issue and archive-index verification.; 2026-10-31 expanded same-day edition: appended three additional source-checked event records after immutable edition-2 and archive-index verification; first same-day issue remains preserved.; 2026-10-31 expanded edition 3: appended two further OpenAI events after issue and archive-index verification; earlier same-day immutable issues retained. 2026-10-31 expanded edition 4: inspected root homepage, archive index, all eight accessible dated HTML files and existing registry before selection; excluded seven repeat candidates; appended seven new event records and one material follow-up after immutable issue and archive-index verification; earlier same-day editions retained.; 2026-11-03 edition: inspected root homepage, archive index, all nine dated archive HTML files and the 95-record registry before selection; targeted 50 distinct domains in discovery; excluded five historical repeats; appended eight new event records and two material follow-ups after immutable issue and archive-index verification; no archive page inaccessible.; corrected same-day edition 2 created at archive/2026-11-03-edition-2.html without overwriting the original dated issue; registry edition paths updated and root homepage will point to edition 2. 2026-11-06 issue: inspected root homepage, archive index and registry before publication; 18 accessible historical issue pages were previously inventoried and checked; 7 repeat candidates excluded; 15 new story records and 6 material follow-ups appended after immutable issue and archive-index verification. Root homepage update follows registry verification.\n2026-11-07: Historical audit completed against 19 dated archive issue files, root homepage, archive index and registry. Added 16 new event records and four material follow-up entries for the 7 November edition; 11 repeat candidates excluded. No archive issue was unavailable.\n2026-11-07 correction: edition 2 published as archive/2026-11-07-edition-2.html. Original archive/2026-11-07.html remains unchanged. Registry records the corrected edition and correction notes; no story records were added or removed.; 2026-11-12: fetched all 28 prior dated issue files linked from the archive index, including two additional 2026-10-28 variants; none unavailable. Published 20 developments (18 new events, 2 material follow-ups), excluded eight historical repeats and one stale unchanged STT GDC India sale-process candidate. The first 12 Nov HTML is preserved; corrected edition 2 changes only the archive-audit count from 26 to 28. Story records appended once; both edition paths retained.\n2026-11-13 expanded edition 2: inspected the root homepage, archive index, registry and all 31 linked dated archive HTML files; one initial fetch of the 31 October original was retried successfully. Compared new candidates against the persistent registry and older issue headings. Four repeat candidates and three out-of-window candidates were excluded. Added five new event records and one AMD material follow-up record; the AMD parent record now links to archive/2026-11-13-edition-2.html. The original 13 November issue remains unchanged. 68 distinct domains targeted (62 core plus six supplemental), 14 directly opened.; 2026-11-16: inspected root homepage, archive index, registry and all 37 dated archive HTML files. Backfilled the missing 2026-11-10 original edition record and linked its 11 new events plus three material follow-ups to the preserved original path; no prior story record was removed. Current edition: six new verified developments, three Main Desk reports, three More Signals, zero separate Community Radar items; four historical repeats excluded. Sixty distinct domains/platforms targeted; 19 opened, 16 materially read.; 2026-11-16 edition 2: created an immutable correction sibling after checking the FT report's Monday dateline and same-day CNA/Economic Times coverage. Pax Silica date corrected from 15 to 16 November; edition 1 preserved, edition 2 appended, no story added or removed. 2026-11-18 edition 2: inspected current root homepage, archive index and 338-story/43-edition registry; 41 dated archive HTML files accessible, with 40 prior files recorded checked and latest 17 November supplements inspected in this run. Screened nine repeat candidates; excluded all unchanged items including Anthropic IPO terms already covered 11 November. Added five unique developments, three Main Desk and two More Signals; no material follow-ups or community radar items. 60-domain target roster; 10 domains opened/read, 10 date-matched. Append-only; no old records removed. 2026-11-18 edition 3: expanded edition after verification of K2-Horizon's arXiv paper and IFM release page; six unique stories, three Main Desk and three More Signals. Anthropic IPO terms retained as repeat because already covered 11 Nov; no material follow-up. 60-domain target roster, 12 domains opened/read and date-matched. 44 accessible archive HTML files checked; no pages omitted. Append-only.\n2026-11-19 edition 3: inspected root homepage, archive index and 359-story/47-edition registry. Enumerated 45 indexed dated archive paths and found one additional accessible but unindexed same-day file, archive/2026-11-19-edition-2.html; backfilled its edition mapping and archive link without creating duplicate story records or changing the file. Published edition 3 with 17 story cards (7 Main Desk, 10 More Signals), 14 unique new developments and three material follow-ups. Added three new story records: ANYmal simulator audit, PAIR smart-home benchmark and GitHub Copilot MAI Code 2 Flash outage. One cross-beat sweep targeted 89 distinct valid domains; 37 URLs opened across 24 domains, 16 direct date-matched sources across 13 domains. Thirty-eight indexed archive pages were not reopened individually. Append-only; no old records removed. Root homepage update follows issue, archive index and registry verification.\n2026-11-20 canonical daily edition: inspected root homepage, archive index, 362-story/49-edition registry and enumerated 47 dated archive files. Reopened eight recent 17–19 November issues; 39 older dated pages not reopened individually and deduplicated via registry. One cross-beat sweep targeted 90 domains (above requested 50–60), with 28 distinct URLs opened across 17 domains and 20 date-matched source pages across 11 domains. Published 16 story entries (8 Main Desk, 8 More Signals): 13 unique new records and three material follow-ups (Anthropic IPO first-day trading, BIS rule effective/TSMC implementation, Gemini 4 Neon Copilot access). Eleven repeat candidates excluded. No archive backfill required; canonical 20 November file created once. Registry append-only; no prior records removed. Root homepage update follows registry verification.",
   "editions": [
     {
@@ -7669,6 +7669,431 @@
         "netlify_deployment_claimed": false
       },
       "homepage_exact_match_verified_at": "2026-11-23T09:23:44+05:30"
+    },
+    {
+      "edition_id": "signal-2026-11-27",
+      "date": "2026-11-27",
+      "path": "archive/2026-11-27.html",
+      "title": "SIGNAL. — AI Daily | Friday, 27 November 2026",
+      "edition_type": "canonical-daily",
+      "published_at": "2026-11-27T08:09:44+05:30",
+      "research_window_start": "2026-11-25T08:09:44+05:30",
+      "research_window_end": "2026-11-27T08:09:44+05:30",
+      "story_count": 16,
+      "new_story_count": 16,
+      "unique_new_verified_story_count": 12,
+      "main_desk_count": 6,
+      "more_signals_count": 10,
+      "community_radar_count": 0,
+      "follow_up_count": 4,
+      "story_ids": [
+        "event-nvidia-southeast-asia-server-shipment-pause-2026-11-27",
+        "event-zai-moonshot-model-development-delays-2026-11-27",
+        "event-anthropic-messages-api-rust-migration-2026-11-27",
+        "event-openai-gpt62-usage-accounting-correction-2026-11-27",
+        "event-microsoft-artex-threat-actor-expansion-2026-11-27",
+        "event-chariot-1-foundation-model-launch-2026-11-27",
+        "event-perplexity-time-machine-api-2026-11-27",
+        "event-pine-labs-guide-marketer-agent-2026-11-27",
+        "event-deepmind-agent-experiment-workflow-2026-11-27",
+        "event-jera-hyperscaler-data-centre-talks-2026-11-27",
+        "event-caltech-brainbots-nanorobotics-2026-11-27",
+        "event-debia-mastercard-agentic-commerce-mou-2026-11-27",
+        "event-openai-chatgpt-work-codex-outage-2026-11-27",
+        "event-claude-m365-addin-mac-issue-2026-11-27",
+        "event-github-multi-service-degradation-2026-11-27",
+        "event-meity-ai-regulation-papers-final-stage-2026-11-27"
+      ],
+      "main_desk_story_ids": [
+        "event-nvidia-southeast-asia-server-shipment-pause-2026-11-27",
+        "event-zai-moonshot-model-development-delays-2026-11-27",
+        "event-anthropic-messages-api-rust-migration-2026-11-27",
+        "event-openai-gpt62-usage-accounting-correction-2026-11-27",
+        "event-microsoft-artex-threat-actor-expansion-2026-11-27",
+        "event-chariot-1-foundation-model-launch-2026-11-27"
+      ],
+      "more_signals_story_ids": [
+        "event-perplexity-time-machine-api-2026-11-27",
+        "event-pine-labs-guide-marketer-agent-2026-11-27",
+        "event-deepmind-agent-experiment-workflow-2026-11-27",
+        "event-jera-hyperscaler-data-centre-talks-2026-11-27",
+        "event-caltech-brainbots-nanorobotics-2026-11-27",
+        "event-debia-mastercard-agentic-commerce-mou-2026-11-27",
+        "event-openai-chatgpt-work-codex-outage-2026-11-27",
+        "event-claude-m365-addin-mac-issue-2026-11-27",
+        "event-github-multi-service-degradation-2026-11-27",
+        "event-meity-ai-regulation-papers-final-stage-2026-11-27"
+      ],
+      "community_story_ids": [],
+      "material_followups": [
+        {
+          "story_id": "event-nvidia-southeast-asia-server-shipment-pause-2026-11-27",
+          "follow_up_of": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+          "prior_issue_path": "archive/2026-11-21.html",
+          "material_change": "New attributed report of a server-shipment pause to Malaysia, Singapore, Thailand and Indonesia, plus Fitch's assessment that chip access and customer eligibility could slow investment and tighten financing.",
+          "canonical_urls": [
+            "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
+            "https://www.reuters.com/world/asia-pacific/us-chip-curbs-will-slow-asia-data-center-investment-fitch-says-2026-11-26/"
+          ]
+        },
+        {
+          "story_id": "event-zai-moonshot-model-development-delays-2026-11-27",
+          "follow_up_of": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+          "prior_issue_path": "archive/2026-11-21.html",
+          "material_change": "New anonymous-source reporting on potential GLM-5.5 and Kimi K4 delays and longer Chinese model-training cycles as compute access and distillation safeguards tighten.",
+          "canonical_urls": [
+            "https://www.livemint.com/technology/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-11795677620277.html"
+          ]
+        },
+        {
+          "story_id": "event-openai-gpt62-usage-accounting-correction-2026-11-27",
+          "follow_up_of": "event-openai-gpt-6-2-astra-sol-2026-11-18",
+          "prior_issue_path": "archive/2026-11-18-edition-2.html",
+          "material_change": "OpenAI corrected earlier undercounting of GPT-6.2 usage, disclosed faster limit consumption for Astra and Sol, and offered one banked reset without retroactive charges or price changes.",
+          "canonical_urls": [
+            "https://community.openai.com/t/codex-used-less-of-your-allowance-than-intended/1420514",
+            "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/"
+          ]
+        },
+        {
+          "story_id": "event-microsoft-artex-threat-actor-expansion-2026-11-27",
+          "follow_up_of": "event-microsoft-artEx-storm-0940-connectwise-supply-chain-2026-10-21",
+          "prior_issue_path": "archive/2026-11-15.html",
+          "material_change": "Microsoft's new threat-intelligence post expands observed adoption to six named actor clusters and adds detailed behavioural detection and mitigation guidance; it reiterates that ARTEX accelerates existing techniques rather than inventing new ones.",
+          "canonical_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
+          ]
+        }
+      ],
+      "repeat_candidates_screened": 5,
+      "repeat_candidates_excluded": 5,
+      "repeat_candidates_excluded_ids": [],
+      "repeat_candidates_excluded_labels": [
+        "Google TPU / Meta infrastructure reporting — October development, no new 25–27 November change verified.",
+        "GPU rounding-error inference side-channel study — underlying research dated 19 November; 26 November coverage did not establish a new result or fix.",
+        "Zoomlion AI excavation robot — unveiled 24 November; 26 November press coverage was outside the strict 48-hour event window.",
+        "CERT-In CIAD-2026-0062 — 20 November advisory already covered in the 23 November edition; no new advisory update found.",
+        "Chariot multilingual TTS — separate 12 November release; counted only the new 25 November Chariot-1 foundation-model suite."
+      ],
+      "archive_issue_files_enumerated": 50,
+      "archive_issue_files_checked": 50,
+      "archive_pages_not_checked": [],
+      "source_domains_targeted": 84,
+      "source_domains_opened_and_inspected": 30,
+      "source_domains_materially_read": 23,
+      "source_domains_partial_or_limited": 5,
+      "source_domains_blocked": 3,
+      "source_domains_with_date_matched_results": 18,
+      "source_pages_opened": 36,
+      "date_matched_source_pages": 20,
+      "date_matched_source_domains": 18,
+      "pages_returned_content": 23,
+      "page_url_errors": 4,
+      "no_readable_text_pages": 4,
+      "partial_page_urls": [
+        "https://www.ft.com/",
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2341725&reg=3&lang=1",
+        "https://health.aws.amazon.com/health/status",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-107290",
+        "https://www.cert-in.org.in/"
+      ],
+      "blocked_page_urls": [
+        "https://www.science.org/doi/10.1126/scirobotics.aef1928",
+        "https://x.com/thsottiaux/status/2125784147889393806",
+        "https://www.youtube.com/embed/FORdPIWOH5k?feature=oembed"
+      ],
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "blog.google",
+        "deepmind.google",
+        "ai.meta.com",
+        "x.ai",
+        "microsoft.com",
+        "aws.amazon.com",
+        "apple.com",
+        "nvidia.com",
+        "amd.com",
+        "mistral.ai",
+        "deepseek.com",
+        "qwen.ai",
+        "alibabacloud.com",
+        "zhipuai.cn",
+        "moonshot.ai",
+        "minimax.io",
+        "bytedance.com",
+        "tencent.com",
+        "baidu.com",
+        "cohere.com",
+        "sarvam.ai",
+        "github.blog",
+        "github.com",
+        "cursor.com",
+        "jetbrains.com",
+        "langchain.com",
+        "modelcontextprotocol.io",
+        "developers.googleblog.com",
+        "learn.microsoft.com",
+        "runwayml.com",
+        "adobe.com",
+        "stability.ai",
+        "suno.com",
+        "pika.art",
+        "lumalabs.ai",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "ieee.org",
+        "roboticsproceedings.org",
+        "huggingface.co",
+        "cert-in.org.in",
+        "cisa.gov",
+        "nist.gov",
+        "cloudflare.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "health.aws.amazon.com",
+        "status.cloud.google.com",
+        "status.azure.com",
+        "cisco.com",
+        "tsmc.com",
+        "samsung.com",
+        "skhynix.com",
+        "micron.com",
+        "asml.com",
+        "smic.com",
+        "huawei.com",
+        "bis.gov",
+        "commerce.gov",
+        "reuters.com",
+        "ft.com",
+        "bloomberg.com",
+        "datacenterdynamics.com",
+        "datacenterfrontier.com",
+        "uptimeinstitute.com",
+        "eia.gov",
+        "iea.org",
+        "ember-energy.org",
+        "google.com",
+        "oracle.com",
+        "cnbc.com",
+        "economictimes.indiatimes.com",
+        "business-standard.com",
+        "restofworld.org",
+        "pib.gov.in",
+        "meity.gov.in",
+        "rbi.org.in",
+        "sebi.gov.in",
+        "digital-strategy.ec.europa.eu",
+        "whitehouse.gov"
+      ],
+      "opened_domains": [
+        "anthropic.com",
+        "tomshardware.com",
+        "ft.com",
+        "perplexity.ai",
+        "caltech.edu",
+        "prnewswire.com",
+        "pinelabs.com",
+        "pib.gov.in",
+        "livemint.com",
+        "ondevice-tools.com",
+        "reddit.com",
+        "lesswrong.com",
+        "microsoft.com",
+        "reuters.com",
+        "community.openai.com",
+        "status.claude.com",
+        "status.openai.com",
+        "the-decoder.com",
+        "githubstatus.com",
+        "status.cloud.google.com",
+        "health.aws.amazon.com",
+        "nvd.nist.gov",
+        "cert-in.org.in",
+        "bleepingcomputer.com",
+        "civique.io",
+        "chariot.in",
+        "tribuneindia.com",
+        "science.org",
+        "x.com",
+        "youtube.com"
+      ],
+      "materially_read_domains": [
+        "anthropic.com",
+        "tomshardware.com",
+        "perplexity.ai",
+        "caltech.edu",
+        "prnewswire.com",
+        "pinelabs.com",
+        "livemint.com",
+        "ondevice-tools.com",
+        "reddit.com",
+        "lesswrong.com",
+        "microsoft.com",
+        "reuters.com",
+        "community.openai.com",
+        "status.claude.com",
+        "status.openai.com",
+        "the-decoder.com",
+        "githubstatus.com",
+        "status.cloud.google.com",
+        "cert-in.org.in",
+        "bleepingcomputer.com",
+        "civique.io",
+        "chariot.in",
+        "tribuneindia.com"
+      ],
+      "partial_or_limited_domains": [
+        "ft.com — article page paywall-limited; Reuters relay used for details.",
+        "pib.gov.in — release URL returned shell without readable body; secondary source audit used.",
+        "health.aws.amazon.com — no readable body returned.",
+        "nvd.nist.gov — detail page returned no readable body.",
+        "cert-in.org.in — homepage did not render text; the specific 20 Nov advisory page was readable."
+      ],
+      "blocked_domains": [
+        "science.org — 403 on paper page.",
+        "x.com — 403 on primary post.",
+        "youtube.com — podcast embed throttled."
+      ],
+      "date_matched_domains": [
+        "anthropic.com",
+        "microsoft.com",
+        "reuters.com",
+        "livemint.com",
+        "bleepingcomputer.com",
+        "pinelabs.com",
+        "caltech.edu",
+        "prnewswire.com",
+        "tribuneindia.com",
+        "civique.io",
+        "chariot.in",
+        "community.openai.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "status.cloud.google.com",
+        "the-decoder.com",
+        "ft.com"
+      ],
+      "source_classes_inspected": [
+        "Primary company engineering and product posts: Anthropic, Perplexity, Pine Labs and Chariot.",
+        "Primary security and incident disclosures: Microsoft Threat Intelligence; OpenAI, Claude, GitHub and Google Cloud status histories.",
+        "Government and regulatory material: PIB/MeitY, BIS, CERT-In, CISA KEV and NVD.",
+        "Independent reporting: Reuters, Financial Times (paywall-limited), BleepingComputer, The Decoder, Mint/Reuters and Tribune/ANI.",
+        "Institutional and academic research: Caltech release and Science Robotics paper link (403).",
+        "Community/social sources: OpenAI Developer Community, Reddit and X used for discovery/context only, not as independent verification."
+      ],
+      "beat_audit": {
+        "model_benchmark": {
+          "material_found_in_window": true,
+          "details": "Chariot-1 foundation-model suite launched 25 Nov and PIB release dated 26 Nov; no other tracked frontier model/version or independent benchmark change verified. GPT-6.2 update is usage accounting, not a model release."
+        },
+        "open_weights_local_inference": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched public weight release or local-runtime update verified. Chariot-1 weights and licence were not found; IndicShift is called open-source but no public repository was located."
+        },
+        "developer_agent": {
+          "material_found_in_window": true,
+          "details": "Anthropic Messages API Rust migration; Perplexity historical Search/Context API feature (page undated); Pine Labs merchant agents; DeepMind experiment agents; Debia/Mastercard pilot. No new IDE or MCP protocol release verified."
+        },
+        "creator_multimodal": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched image/video/audio creator-tool release verified. Official Runway, Adobe, Stability, Suno, Pika, Luma and Google release classes checked."
+        },
+        "research_robotics": {
+          "material_found_in_window": true,
+          "details": "Caltech BrainBots is adjacent nanorobotics, not AI; DeepMind agent experiment workflow is secondary reporting. No new material AI preprint or robotics deployment verified."
+        },
+        "security_reliability": {
+          "material_found_in_window": true,
+          "details": "Microsoft ARTEX actor expansion and OpenAI, Claude and GitHub service incidents. No new date-matched AI/agent CVE or CISA KEV addition identified; CERT-In's latest surfaced advisory was 20 Nov and already covered."
+        },
+        "compute_geopolitics": {
+          "material_found_in_window": true,
+          "details": "Reported Nvidia server pause to four Southeast Asian markets and anonymous-source reports of Z.AI/Moonshot model delays under US compute restrictions."
+        },
+        "hbm_packaging_networking": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched HBM allocation, advanced-packaging, networking or Huawei Ascend/SMIC product development verified."
+        },
+        "energy_datacentres": {
+          "material_found_in_window": true,
+          "details": "JERA hyperscaler talks reported; no signed hyperscaler contract, new power purchase, grid connection or commissioning verified."
+        },
+        "business_capital": {
+          "material_found_in_window": true,
+          "details": "JERA talks, Pine Labs agent rollout and Debia/Mastercard MoU are early-stage signals. No new funding, recognised revenue, backlog or cash-capex disclosure verified."
+        },
+        "india_asia": {
+          "material_found_in_window": true,
+          "details": "Chariot-1, Pine Labs, Debia/Mastercard, MeitY policy-paper timing, Southeast Asian server restrictions and Chinese model-roadmap risks."
+        },
+        "policy_law_copyright_society": {
+          "material_found_in_window": false,
+          "details": "No new binding AI law, copyright ruling or export-control decision verified. MeitY says regulation papers are in final stages but no text or date was published; the BIS rule itself predates this window."
+        }
+      },
+      "community_signal_audit": {
+        "platforms": [
+          "OpenAI Developer Community",
+          "Reddit",
+          "X",
+          "GitHub status",
+          "Hugging Face",
+          "arXiv"
+        ],
+        "verified_promoted": 0,
+        "reason": "No community-only signal met the verification threshold. Usage-meter questions are context within the OpenAI follow-up; social posts were not treated as independent proof."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_enumerated": true,
+        "all_archive_index_paths_reopened": true,
+        "archive_issue_files_enumerated": 50,
+        "archive_issue_files_reopened_this_run": 50,
+        "archive_issue_files_checked": 50,
+        "archive_pages_not_checked": [],
+        "historical_registry_complete_before_append": true,
+        "backfill_required": false,
+        "backfill_story_records_added": 0,
+        "backfill_edition_records_added": 0,
+        "archive_index_dated_entries_before": 50,
+        "archive_index_dated_entries_after": 51,
+        "archive_index_links_added": [
+          "archive/2026-11-27.html"
+        ],
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true
+      },
+      "registry_legacy_anomalies_preserved": {
+        "duplicate_story_ids": [
+          "event-google-deepmind-wants-ai-to-build-worlds-you-can-step-inside"
+        ],
+        "legacy_edition_records_without_edition_id": 41,
+        "action": "Preserved all pre-existing records unchanged except append-only follow-up metadata on three parent stories; no historical records deleted or renamed."
+      },
+      "manual_html_validation": {
+        "doctype": true,
+        "required_section_ids": true,
+        "main_desk_story_count": 6,
+        "main_impact_panels": 6,
+        "more_signals_count": 10,
+        "total_story_cards": 16,
+        "external_source_links": 43,
+        "search_filter": true,
+        "desk_filter": true,
+        "native_speech_controls": true,
+        "share_file_attachment_with_manual_fallback": true,
+        "download_html": true,
+        "print_pdf_styles": true,
+        "third_party_scripts": false,
+        "external_linter_run": false,
+        "human_editorial_pass": true
+      }
     }
   ],
   "stories": [
@@ -14539,7 +14964,8 @@
       "edition_paths": [
         "archive/2026-11-13-edition-3.html",
         "archive/2026-11-15.html",
-        "archive/2026-11-15-edition-2.html"
+        "archive/2026-11-15-edition-2.html",
+        "archive/2026-11-27.html"
       ],
       "follow_up_editions": [
         {
@@ -14550,6 +14976,16 @@
           "canonical_urls": [
             "https://www.ic3.gov/CSA/2026/261113.pdf",
             "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/"
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "path": "archive/2026-11-27.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-15.html",
+          "material_change": "Microsoft's new threat-intelligence post expands observed adoption to six named actor clusters and adds detailed behavioural detection and mitigation guidance; it reiterates that ARTEX accelerates existing techniques rather than inventing new ones.",
+          "canonical_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
           ]
         }
       ],
@@ -16302,7 +16738,8 @@
       "edition_paths": [
         "archive/2026-11-17.html",
         "archive/2026-11-20.html",
-        "archive/2026-11-21.html"
+        "archive/2026-11-21.html",
+        "archive/2026-11-27.html"
       ],
       "follow_up_of": "event-us-commerce-nvidia-chip-diversion-crackdown-delay-2026-11-11",
       "prior_issue_path": "archive/2026-11-12.html",
@@ -16335,6 +16772,27 @@
           "canonical_urls": [
             "https://www.reuters.com/business/retail-consumer/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push-2026-11-20/",
             "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "path": "archive/2026-11-27.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-21.html",
+          "material_change": "New attributed report of a server-shipment pause to Malaysia, Singapore, Thailand and Indonesia, plus Fitch's assessment that chip access and customer eligibility could slow investment and tighten financing.",
+          "canonical_urls": [
+            "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
+            "https://www.reuters.com/world/asia-pacific/us-chip-curbs-will-slow-asia-data-center-investment-fitch-says-2026-11-26/"
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "path": "archive/2026-11-27.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-21.html",
+          "material_change": "New anonymous-source reporting on potential GLM-5.5 and Kimi K4 delays and longer Chinese model-training cycles as compute access and distillation safeguards tighten.",
+          "canonical_urls": [
+            "https://www.livemint.com/technology/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-11795677620277.html"
           ]
         }
       ],
@@ -17139,9 +17597,22 @@
       "first_edition_date": "2026-11-18",
       "first_edition_path": "archive/2026-11-18-edition-2.html",
       "edition_paths": [
-        "archive/2026-11-18-edition-2.html"
+        "archive/2026-11-18-edition-2.html",
+        "archive/2026-11-27.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        {
+          "date": "2026-11-27",
+          "path": "archive/2026-11-27.html",
+          "label": "FOLLOW-UP / UPDATE",
+          "prior_issue_path": "archive/2026-11-18-edition-2.html",
+          "material_change": "OpenAI corrected earlier undercounting of GPT-6.2 usage, disclosed faster limit consumption for Astra and Sol, and offered one banked reset without retroactive charges or price changes.",
+          "canonical_urls": [
+            "https://community.openai.com/t/codex-used-less-of-your-allowance-than-intended/1420514",
+            "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/"
+          ]
+        }
+      ],
       "source_metadata": [
         {
           "publisher": "OpenAI",
@@ -20392,6 +20863,718 @@
       "status": "verified",
       "repeat_status": "new",
       "delivery_note": "Advisory date is 20 Nov; public coverage within the research window appeared on 21–22 Nov. Official CERT-In URL timed out."
+    },
+    {
+      "story_id": "event-nvidia-southeast-asia-server-shipment-pause-2026-11-27",
+      "normalized_subject": "nvidia reportedly pauses server shipments to four southeast asian markets under new us chip controls",
+      "normalized_headline": "Nvidia reportedly pauses server shipments to four Southeast Asian markets",
+      "entities": [
+        "NVIDIA",
+        "Dell",
+        "Supermicro",
+        "Malaysia",
+        "Singapore",
+        "Thailand",
+        "Indonesia",
+        "US BIS"
+      ],
+      "event_summary": "Reuters relayed FT reporting that Nvidia told manufacturing partners to pause servers containing its chips for four Southeast Asian markets while assessing compliance with US controls; duration and company confirmation remain unknown.",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
+        "https://www.reuters.com/world/asia-pacific/us-chip-curbs-will-slow-asia-data-center-investment-fitch-says-2026-11-26/"
+      ],
+      "original_publication_date": "2026-11-26",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters / Financial Times",
+          "source_class": "independent_reporting_relaying_FT_report",
+          "published_date": "2026-11-26",
+          "url": "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
+          "role": "Shipment-pause report; companies had not commented"
+        },
+        {
+          "publisher": "Reuters / Fitch Ratings",
+          "source_class": "independent_reporting",
+          "published_date": "2026-11-26",
+          "url": "https://www.reuters.com/world/asia-pacific/us-chip-curbs-will-slow-asia-data-center-investment-fitch-says-2026-11-26/",
+          "role": "Credit and investment impact assessment"
+        }
+      ],
+      "source_domains": [
+        "reuters.com",
+        "ft.com"
+      ],
+      "desk": "compute_geopolitics",
+      "evidence_confidence": "Medium; Reuters relays FT reporting and notes Nvidia, Dell and Supermicro had not responded; duration remains unclear.",
+      "verification_status": "reported_not_company_confirmed",
+      "repeat_status": "material_follow_up",
+      "status": "verified",
+      "follow_up_of": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+      "prior_issue_path": "archive/2026-11-21.html",
+      "material_change": "New attributed report of a server-shipment pause to Malaysia, Singapore, Thailand and Indonesia, plus Fitch's assessment that chip access and customer eligibility could slow investment and tighten financing."
+    },
+    {
+      "story_id": "event-zai-moonshot-model-development-delays-2026-11-27",
+      "normalized_subject": "us compute restrictions and distillation safeguards may delay zai glm-5-5 and moonshot kimi k4",
+      "normalized_headline": "US compute restrictions and distillation safeguards may stretch Chinese model roadmaps",
+      "entities": [
+        "Z.AI",
+        "Zhipu AI",
+        "Moonshot AI",
+        "GLM-5.5",
+        "Kimi K4",
+        "US BIS"
+      ],
+      "event_summary": "Reuters sources say Z.AI's GLM-5.5 could slip to Q1 2027 or later and Moonshot's Kimi K4 to around mid-2027 if overseas compute access is curtailed; company schedules are not confirmed.",
+      "canonical_urls": [
+        "https://www.livemint.com/technology/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-11795677620277.html"
+      ],
+      "original_publication_date": "2026-11-26",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters via Mint",
+          "source_class": "independent_reporting",
+          "published_date": "2026-11-26",
+          "url": "https://www.livemint.com/technology/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-11795677620277.html",
+          "role": "Reported model-development timelines; companies did not confirm"
+        }
+      ],
+      "source_domains": [
+        "reuters.com",
+        "livemint.com"
+      ],
+      "desk": "compute_geopolitics",
+      "evidence_confidence": "Medium-low; unnamed sources describe internal plans, Z.AI and Moonshot did not respond, and Moonshot has previously disputed distillation allegations.",
+      "verification_status": "reported_anonymous_sources_not_company_confirmed",
+      "repeat_status": "material_follow_up",
+      "status": "verified",
+      "follow_up_of": "event-bis-remote-access-ai-compute-rule-2026-11-16",
+      "prior_issue_path": "archive/2026-11-21.html",
+      "material_change": "New anonymous-source reporting on potential GLM-5.5 and Kimi K4 delays and longer Chinese model-training cycles as compute access and distillation safeguards tighten."
+    },
+    {
+      "story_id": "event-anthropic-messages-api-rust-migration-2026-11-27",
+      "normalized_subject": "anthropic migrates messages api from python to rust with agent-assisted production verification",
+      "normalized_headline": "Anthropic migrates Messages API to Rust using production as the verifier",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Claude Code",
+        "Cowork",
+        "Rust",
+        "Python"
+      ],
+      "event_summary": "Anthropic's 25 November engineering post describes a September production cutover of its Messages API from Python to Rust, with vendor-reported reductions in CPU, memory and median time to first token.",
+      "canonical_urls": [
+        "https://www.anthropic.com/research/migrating-api-to-rust"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Anthropic Engineering",
+          "source_class": "primary_engineering_post",
+          "published_date": "2026-11-25",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "role": "Migration method, performance measurements and agent verification workflow"
+        }
+      ],
+      "source_domains": [
+        "anthropic.com"
+      ],
+      "desk": "developer_agent",
+      "evidence_confidence": "High for the published migration account; performance figures are vendor-reported and not independently reproduced.",
+      "verification_status": "primary_source_verified",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-openai-gpt62-usage-accounting-correction-2026-11-27",
+      "normalized_subject": "openai corrects gpt-6-2 astra and sol usage accounting and adds a banked reset",
+      "normalized_headline": "OpenAI corrects GPT-6.2 usage accounting; Astra limits arrive faster",
+      "entities": [
+        "OpenAI",
+        "GPT-6.2 Astra",
+        "GPT-6.2 Sol",
+        "ChatGPT",
+        "Codex",
+        "ChatGPT Work"
+      ],
+      "event_summary": "OpenAI told subscribers corrected usage calculations mean Astra limits are reached about 40% faster and Sol about 25% faster; it announced one banked reset and no retroactive charges.",
+      "canonical_urls": [
+        "https://community.openai.com/t/codex-used-less-of-your-allowance-than-intended/1420514",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/"
+      ],
+      "original_publication_date": "2026-11-26",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "OpenAI Developer Community",
+          "source_class": "primary_customer_communication",
+          "published_date": "2026-11-26",
+          "url": "https://community.openai.com/t/codex-used-less-of-your-allowance-than-intended/1420514",
+          "role": "Customer update and reset notice"
+        },
+        {
+          "publisher": "BleepingComputer",
+          "source_class": "independent_reporting",
+          "published_date": "2026-11-26",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+          "role": "Independent confirmation of reset visibility"
+        }
+      ],
+      "source_domains": [
+        "community.openai.com",
+        "bleepingcomputer.com"
+      ],
+      "desk": "models_access_economics",
+      "evidence_confidence": "High for the announced percentages and reset; practical task impact is less certain because the usage denominator is not fully specified.",
+      "verification_status": "primary_customer_notice_and_independent_reporting",
+      "repeat_status": "material_follow_up",
+      "status": "verified",
+      "follow_up_of": "event-openai-gpt-6-2-astra-sol-2026-11-18",
+      "prior_issue_path": "archive/2026-11-18-edition-2.html",
+      "material_change": "OpenAI corrected earlier undercounting of GPT-6.2 usage, disclosed faster limit consumption for Astra and Sol, and offered one banked reset without retroactive charges or price changes."
+    },
+    {
+      "story_id": "event-microsoft-artex-threat-actor-expansion-2026-11-27",
+      "normalized_subject": "microsoft reports six threat actor clusters using artex agentic offensive security framework",
+      "normalized_headline": "Microsoft says six threat-actor clusters now use ARTEX",
+      "entities": [
+        "Microsoft Threat Intelligence",
+        "ARTEX",
+        "Storm-0940",
+        "Storm-3358",
+        "Onyx Sleet",
+        "Pearl Sleet",
+        "Crystal Typhoon",
+        "Salt Typhoon"
+      ],
+      "event_summary": "Microsoft's 25 November update names six actor clusters observed using ARTEX and details its machine-speed reconnaissance, credential attacks, exploitation and behavioural detection guidance.",
+      "canonical_urls": [
+        "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Microsoft Threat Intelligence",
+          "source_class": "primary_security_research",
+          "published_date": "2026-11-25",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+          "role": "Actor observations, behaviour patterns and mitigations"
+        }
+      ],
+      "source_domains": [
+        "microsoft.com"
+      ],
+      "desk": "security_safety",
+      "evidence_confidence": "High for Microsoft's own telemetry and guidance; public victim counts and an independent campaign census are not provided.",
+      "verification_status": "primary_security_source_verified",
+      "repeat_status": "material_follow_up",
+      "status": "verified",
+      "follow_up_of": "event-microsoft-artEx-storm-0940-connectwise-supply-chain-2026-10-21",
+      "prior_issue_path": "archive/2026-11-15.html",
+      "material_change": "Microsoft's new threat-intelligence post expands observed adoption to six named actor clusters and adds detailed behavioural detection and mitigation guidance; it reiterates that ARTEX accelerates existing techniques rather than inventing new ones."
+    },
+    {
+      "story_id": "event-chariot-1-foundation-model-launch-2026-11-27",
+      "normalized_subject": "indiaai mission launches chariot-1 foundation model suite",
+      "normalized_headline": "IndiaAI Mission launches Chariot-1 foundation-model suite",
+      "entities": [
+        "Chariot AI",
+        "IndiaAI Mission",
+        "MeitY",
+        "Chariot-1",
+        "IndicShift",
+        "Nested Training",
+        "Mixture of Vocabularies"
+      ],
+      "event_summary": "Chariot-1 launched on 25 November with an 11B MoE LLM, 4B active parameters and multilingual TTS; performance and efficiency claims remain self-reported and public weights/model card were not found.",
+      "canonical_urls": [
+        "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2341725&reg=3&lang=1",
+        "https://www.tribuneindia.com/news/business/ai-regulation-papers-in-final-stages-to-be-released-shortly-meity-secretary-at-chariot-1-launch/amp",
+        "https://www.civique.io/pib/briefs/chariot-1-indiaai-mission-gan-ai-renamed-self-reported-benchmarks-no-public-weights"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "PIB / MeitY",
+          "source_class": "primary_government_release",
+          "published_date": "2026-11-26",
+          "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2341725&reg=3&lang=1",
+          "role": "Launch and government claims; page body was not fully readable"
+        },
+        {
+          "publisher": "The Tribune / ANI",
+          "source_class": "syndicated_reporting",
+          "published_date": "2026-11-25",
+          "url": "https://www.tribuneindia.com/news/business/ai-regulation-papers-in-final-stages-to-be-released-shortly-meity-secretary-at-chariot-1-launch/amp",
+          "role": "Launch statements and reported model capabilities"
+        },
+        {
+          "publisher": "Civique",
+          "source_class": "independent_source_audit",
+          "published_date": "2026-11-26",
+          "url": "https://www.civique.io/pib/briefs/chariot-1-indiaai-mission-gan-ai-renamed-self-reported-benchmarks-no-public-weights",
+          "role": "Public weights, model-card and benchmark transparency check"
+        }
+      ],
+      "source_domains": [
+        "pib.gov.in",
+        "tribuneindia.com",
+        "civique.io",
+        "chariot.in"
+      ],
+      "desk": "models_india",
+      "evidence_confidence": "High that the launch occurred; low-to-medium for technical claims because public weights, model card and independent reproduction were not found; TTS accuracy figures conflict across releases.",
+      "verification_status": "launch_verified_claims_not_independently_reproduced",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-perplexity-time-machine-api-2026-11-27",
+      "normalized_subject": "perplexity adds time machine historical snapshots to search and context apis",
+      "normalized_headline": "Perplexity adds historical snapshots to Search and Context APIs",
+      "entities": [
+        "Perplexity",
+        "Search API",
+        "Context API",
+        "Time Machine",
+        "snapshot_as_of"
+      ],
+      "event_summary": "Perplexity's current launch post describes historical page snapshots up to 365 days back for Search and Context API requests, with no surcharge; the page does not display a publication timestamp.",
+      "canonical_urls": [
+        "https://www.perplexity.ai/gl/hub/blog/freeze-the-web-with-perplexity-time-machine"
+      ],
+      "original_publication_date": null,
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Perplexity",
+          "source_class": "primary_product_post",
+          "published_date": "undated_current_launch_post",
+          "url": "https://www.perplexity.ai/gl/hub/blog/freeze-the-web-with-perplexity-time-machine",
+          "role": "Feature description, API workflow and pricing"
+        }
+      ],
+      "source_domains": [
+        "perplexity.ai"
+      ],
+      "desk": "developer_agent",
+      "evidence_confidence": "High for the documented feature and API prices; medium for exact publication date because no timestamp is visible on the page.",
+      "verification_status": "product_documentation_verified_date_not_explicit",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-pine-labs-guide-marketer-agent-2026-11-27",
+      "normalized_subject": "pine labs launches guide and marketer agents for indian merchants",
+      "normalized_headline": "Pine Labs adds Guide and Marketer Agent to its Agentic Org platform",
+      "entities": [
+        "Pine Labs",
+        "Guide",
+        "Marketer Agent",
+        "Agentic Org",
+        "Google Gemini",
+        "India"
+      ],
+      "event_summary": "Pine Labs announced merchant-data and campaign agents with human approval before advertising spend and a planned India Agent App Store by 15 December.",
+      "canonical_urls": [
+        "https://www.pinelabs.com/media-analyst/pine-labs-extends-agentic-org-platform-with-guide-and-marketer-agent-for-indias-smbs"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Pine Labs",
+          "source_class": "primary_company_press_release",
+          "published_date": "2026-11-25",
+          "url": "https://www.pinelabs.com/media-analyst/pine-labs-extends-agentic-org-platform-with-guide-and-marketer-agent-for-indias-smbs",
+          "role": "Agent features, governance and stated rollout plan"
+        }
+      ],
+      "source_domains": [
+        "pinelabs.com"
+      ],
+      "desk": "developer_agent_india",
+      "evidence_confidence": "High for the announcement and stated plan; adoption and revenue metrics were not published.",
+      "verification_status": "primary_company_announcement",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-deepmind-agent-experiment-workflow-2026-11-27",
+      "normalized_subject": "deepmind agents control part of compute for gemini research experiments",
+      "normalized_headline": "DeepMind agents reportedly run part of the Gemini experiment loop",
+      "entities": [
+        "Google DeepMind",
+        "Gemini",
+        "Koray Kavukcuoglu",
+        "AI research agents"
+      ],
+      "event_summary": "The Decoder reports that DeepMind's VP of Research described agents controlling part of compute to run experiments for the next Gemini model; the report does not describe recursive self-improvement.",
+      "canonical_urls": [
+        "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "The Decoder",
+          "source_class": "independent_reporting_based_on_research_lead_interview",
+          "published_date": "2026-11-25",
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+          "role": "Research workflow and limits of autonomy"
+        }
+      ],
+      "source_domains": [
+        "the-decoder.com"
+      ],
+      "desk": "research_developer",
+      "evidence_confidence": "Medium; secondary reporting based on an interview/podcast; primary podcast embed was throttled during this check.",
+      "verification_status": "secondary_source_reported",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-jera-hyperscaler-data-centre-talks-2026-11-27",
+      "normalized_subject": "jera discusses hyperscaler data centres near tokyo area power plants",
+      "normalized_headline": "JERA reportedly enters talks with hyperscalers about data centres near power plants",
+      "entities": [
+        "JERA",
+        "Anthropic",
+        "Meta",
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "RHAELM",
+        "Dell",
+        "Japan"
+      ],
+      "event_summary": "Reuters citing Nikkei reports JERA is discussing Tokyo-area data-centre sites with multiple hyperscalers; the $15B Chiba project is an October MOU with Dell and RHAELM, not a new signed hyperscaler contract.",
+      "canonical_urls": [
+        "https://www.reuters.com/world/asia-pacific/japans-jera-enters-talks-with-anthropic-meta-build-data-centres-nikkei-reports-2026-11-26/"
+      ],
+      "original_publication_date": "2026-11-26",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters citing Nikkei",
+          "source_class": "independent_reporting",
+          "published_date": "2026-11-26",
+          "url": "https://www.reuters.com/world/asia-pacific/japans-jera-enters-talks-with-anthropic-meta-build-data-centres-nikkei-reports-2026-11-26/",
+          "role": "Reported discussions and distinction from October MOU"
+        }
+      ],
+      "source_domains": [
+        "reuters.com"
+      ],
+      "desk": "business_compute_energy",
+      "evidence_confidence": "Medium; Reuters attributes the talks to Nikkei and a JERA spokesperson; hyperscalers had not responded.",
+      "verification_status": "reported_talks_not_contract",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-caltech-brainbots-nanorobotics-2026-11-27",
+      "normalized_subject": "caltech light activated biodegradable brainbots improve drug delivery across blood brain barrier in mice",
+      "normalized_headline": "Caltech's BrainBots deliver more drug across the blood–brain barrier in mice",
+      "entities": [
+        "Caltech",
+        "BrainBots",
+        "Wei Gao",
+        "Science Robotics",
+        "blood-brain barrier"
+      ],
+      "event_summary": "Caltech reports light-activated biodegradable nanorobots about 250nm across delivered roughly five times more medication to the brain than non-activated counterparts in mouse studies; this is not AI and not a human trial.",
+      "canonical_urls": [
+        "https://www.caltech.edu/about/news/tiny-robots-deliver-treatments-to-the-brain",
+        "https://www.science.org/doi/10.1126/scirobotics.aef1928"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Caltech",
+          "source_class": "primary_institutional_research_release",
+          "published_date": "2026-11-25",
+          "url": "https://www.caltech.edu/about/news/tiny-robots-deliver-treatments-to-the-brain",
+          "role": "Preclinical mouse-study summary"
+        },
+        {
+          "publisher": "Science Robotics",
+          "source_class": "peer_reviewed_paper_link",
+          "published_date": "2026-11-25",
+          "url": "https://www.science.org/doi/10.1126/scirobotics.aef1928",
+          "role": "Paper link; returned 403 during this check"
+        }
+      ],
+      "source_domains": [
+        "caltech.edu",
+        "science.org"
+      ],
+      "desk": "research_science_robotics",
+      "evidence_confidence": "High for the institutional summary; full paper could not be opened and all results are preclinical.",
+      "verification_status": "institutional_release_verified_paper_access_limited",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-debia-mastercard-agentic-commerce-mou-2026-11-27",
+      "normalized_subject": "debia and mastercard sign mou to explore agentic commerce pilots in southeast asia",
+      "normalized_headline": "Debia and Mastercard sign an MoU to explore agentic commerce pilots",
+      "entities": [
+        "Debia",
+        "Mastercard",
+        "Mastercard Agent Pay",
+        "Luban AI Agent",
+        "Singapore",
+        "Southeast Asia"
+      ],
+      "event_summary": "Debia and Mastercard announced an MoU to explore joint pilots linking AI-powered merchant discovery, ordering, payments and fulfilment; a Singapore FinTech Festival demonstration was described.",
+      "canonical_urls": [
+        "https://www.prnewswire.com/apac/news-releases/debia-and-mastercard-sign-mou-to-advance-agentic-commerce-302950485.html"
+      ],
+      "original_publication_date": "2026-11-26",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Debia via PR Newswire",
+          "source_class": "company_press_release",
+          "published_date": "2026-11-26",
+          "url": "https://www.prnewswire.com/apac/news-releases/debia-and-mastercard-sign-mou-to-advance-agentic-commerce-302950485.html",
+          "role": "MoU and proposed pilot scope"
+        }
+      ],
+      "source_domains": [
+        "prnewswire.com"
+      ],
+      "desk": "business_agentic_commerce",
+      "evidence_confidence": "High for the MoU announcement; no production transactions or commercial results were disclosed.",
+      "verification_status": "company_press_release_verified",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-openai-chatgpt-work-codex-outage-2026-11-27",
+      "normalized_subject": "openai chatgpt work and codex cloud experience elevated errors nov 25 26",
+      "normalized_headline": "OpenAI reports elevated ChatGPT, Work and Codex Cloud errors",
+      "entities": [
+        "OpenAI",
+        "ChatGPT",
+        "ChatGPT Work",
+        "Codex Cloud"
+      ],
+      "event_summary": "OpenAI status recorded elevated conversation errors from 25 November 20:48 UTC to 26 November 01:12 UTC; mitigations preceded resolution and root-cause investigation remained ongoing.",
+      "canonical_urls": [
+        "https://status.openai.com/incidents/01M898HVZGXFV2XC4775CG9GF8"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "OpenAI Status",
+          "source_class": "primary_service_status",
+          "published_date": "2026-11-25",
+          "url": "https://status.openai.com/incidents/01M898HVZGXFV2XC4775CG9GF8",
+          "role": "Incident start, mitigation and resolution timeline"
+        }
+      ],
+      "source_domains": [
+        "status.openai.com"
+      ],
+      "desk": "reliability",
+      "evidence_confidence": "High for timeline and affected components; root cause was still under investigation.",
+      "verification_status": "primary_status_page_verified",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-claude-m365-addin-mac-issue-2026-11-27",
+      "normalized_subject": "claude microsoft 365 addin disappears for some mac users with personal microsoft accounts",
+      "normalized_headline": "Claude's Microsoft 365 add-in issue affects some Mac personal-account users",
+      "entities": [
+        "Anthropic",
+        "Claude for Microsoft 365",
+        "Microsoft Office",
+        "Mac"
+      ],
+      "event_summary": "Anthropic status reports an upstream-provider issue causing the Claude add-in to disappear from Excel, Word and PowerPoint on Mac for some personal Microsoft account users; Office web was suggested as a workaround.",
+      "canonical_urls": [
+        "https://status.claude.com/"
+      ],
+      "original_publication_date": "2026-11-24",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Anthropic Status",
+          "source_class": "primary_service_status",
+          "published_date": "2026-11-25",
+          "url": "https://status.claude.com/",
+          "role": "Issue scope and workaround update"
+        }
+      ],
+      "source_domains": [
+        "status.claude.com"
+      ],
+      "desk": "reliability",
+      "evidence_confidence": "High for the status-page scope and workaround; resolution status was not confirmed in the page checked.",
+      "verification_status": "primary_status_page_verified",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-github-multi-service-degradation-2026-11-27",
+      "normalized_subject": "github reports platform database load lfs automated unauthenticated traffic and copilot mai code 2 provider incidents",
+      "normalized_headline": "GitHub reports platform, Git LFS and Copilot model-provider disruptions",
+      "entities": [
+        "GitHub",
+        "Git LFS",
+        "GitHub Actions",
+        "GitHub Copilot",
+        "MAI Code 2"
+      ],
+      "event_summary": "GitHub status recorded a multi-service database-load degradation, a separate Git LFS incident caused by high-volume automated unauthenticated traffic, and a brief MAI Code 2 upstream model-provider issue; recovery was reported.",
+      "canonical_urls": [
+        "https://www.githubstatus.com/"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "GitHub Status",
+          "source_class": "primary_service_status",
+          "published_date": "2026-11-25",
+          "url": "https://www.githubstatus.com/",
+          "role": "Incident timelines, scope, mitigation and current status"
+        }
+      ],
+      "source_domains": [
+        "githubstatus.com"
+      ],
+      "desk": "reliability_developer_platform",
+      "evidence_confidence": "High for the status history; GitHub did not describe the automated traffic as a malicious attack.",
+      "verification_status": "primary_status_page_verified",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-meity-ai-regulation-papers-final-stage-2026-11-27",
+      "normalized_subject": "meity says india ai regulation papers are in final stages and will be released shortly",
+      "normalized_headline": "MeitY says AI regulation papers are in the final stages",
+      "entities": [
+        "MeitY",
+        "S. Krishnan",
+        "India",
+        "AI regulation papers"
+      ],
+      "event_summary": "MeitY Secretary S. Krishnan said on 25 November that upcoming AI regulation papers were in the final stages and would be released shortly; no draft or publication date was supplied.",
+      "canonical_urls": [
+        "https://www.tribuneindia.com/news/business/ai-regulation-papers-in-final-stages-to-be-released-shortly-meity-secretary-at-chariot-1-launch/amp"
+      ],
+      "original_publication_date": "2026-11-25",
+      "first_edition_date": "2026-11-27",
+      "first_edition_path": "archive/2026-11-27.html",
+      "edition_paths": [
+        "archive/2026-11-27.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "ANI via The Tribune",
+          "source_class": "syndicated_reporting",
+          "published_date": "2026-11-25",
+          "url": "https://www.tribuneindia.com/news/business/ai-regulation-papers-in-final-stages-to-be-released-shortly-meity-secretary-at-chariot-1-launch/amp",
+          "role": "Attributed statement from MeitY Secretary"
+        }
+      ],
+      "source_domains": [
+        "tribuneindia.com"
+      ],
+      "desk": "policy_india",
+      "evidence_confidence": "Medium-high for the attributed statement; no policy text, formal consultation or date was published.",
+      "verification_status": "syndicated_reported_statement",
+      "repeat_status": "new",
+      "status": "verified"
     }
   ],
   "archive_backfill_audit": [
