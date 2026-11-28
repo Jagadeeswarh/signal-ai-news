@@ -8094,6 +8094,320 @@
         "external_linter_run": false,
         "human_editorial_pass": true
       }
+    },
+    {
+      "edition_id": "signal-2026-11-28",
+      "date": "2026-11-28",
+      "path": "archive/2026-11-28.html",
+      "title": "SIGNAL. — AI Daily | Saturday, 28 November 2026",
+      "edition_type": "canonical-daily",
+      "published_at": "2026-11-28T08:40:44+05:30",
+      "research_window_start": "2026-11-26T08:40:44+05:30",
+      "research_window_end": "2026-11-28T08:40:44+05:30",
+      "story_count": 5,
+      "new_story_count": 5,
+      "unique_new_verified_story_count": 4,
+      "main_desk_count": 4,
+      "more_signals_count": 1,
+      "community_radar_count": 0,
+      "follow_up_count": 1,
+      "story_ids": [
+        "event-bharatgen-patram-1-5-open-weight-vlm-2026-11-26",
+        "event-swiss-ai-agent-attacks-five-cases-2026-11-26",
+        "event-sap-ai-workforce-plan-10000-roles-2026-11-27",
+        "event-moonbit-1-0-release-candidate-compiler-stable-2026-11-26",
+        "event-citi-jpm-ai-loan-portfolios-risk-transfer-2026-11-27"
+      ],
+      "main_desk_story_ids": [
+        "event-bharatgen-patram-1-5-open-weight-vlm-2026-11-26",
+        "event-swiss-ai-agent-attacks-five-cases-2026-11-26",
+        "event-sap-ai-workforce-plan-10000-roles-2026-11-27",
+        "event-moonbit-1-0-release-candidate-compiler-stable-2026-11-26"
+      ],
+      "more_signals_story_ids": [
+        "event-citi-jpm-ai-loan-portfolios-risk-transfer-2026-11-27"
+      ],
+      "community_story_ids": [],
+      "material_followups": [
+        {
+          "story_id": "event-citi-jpm-ai-loan-portfolios-risk-transfer-2026-11-27",
+          "follow_up_of": "event-ing-500m-data-center-loan-portfolio-sale-2026-11-06",
+          "prior_issue_path": "archive/2026-11-07.html",
+          "material_change": "New report names Citi and JPMorgan as marketing AI-related loan portfolios and describes possible synthetic risk-transfer structures. Unlike ING's earlier reported portfolio sale, these remain unconfirmed: no buyer, amount, closing or bank confirmation was found.",
+          "canonical_urls": [
+            "https://superpowerdaily.com/posts/citi-and-jpmorgan-are-shopping-ai-loan-portfolios-semafor-reports",
+            "https://aiweekly.co/alerts/citi-and-jpmorgan-shop-ai-data-center-loan-portfolios-to-investors-as"
+          ]
+        }
+      ],
+      "repeat_candidates_screened": 6,
+      "repeat_candidates_excluded": 6,
+      "repeat_candidates_excluded_ids": [
+        "event-chariot-1-foundation-model-launch-2026-11-27"
+      ],
+      "repeat_candidates_excluded_labels": [
+        "Chariot-1 launch — covered in the 27 November issue; no material new change verified.",
+        "Yandex AliceAI — original model release was in September; the 25 November paper is not a new model release and is outside the strict 48-hour window.",
+        "OS-Omni benchmark — arXiv submission dated 25 November, outside the strict 48-hour window; retained as a near-window benchmark watch, not counted as a story.",
+        "Airtel Assam data-centre MoU — announced 25 November, outside the strict 48-hour window; planned capacity is not commissioned capacity or cash spent.",
+        "Minfy–AWS five-year strategic collaboration — announced 25 November, outside the strict 48-hour window; it is a services collaboration, not a disclosed compute-capex contract.",
+        "Google DeepMind quantum-agent research — published 23 November, outside the strict 48-hour window."
+      ],
+      "archive_issue_files_enumerated": 51,
+      "archive_issue_files_checked": 51,
+      "archive_pages_not_checked": [],
+      "source_domains_targeted": 60,
+      "source_domains_opened_and_inspected": 18,
+      "source_domains_materially_read": 17,
+      "source_domains_partial_or_limited": 1,
+      "source_domains_blocked": 2,
+      "source_domains_with_date_matched_results": 9,
+      "source_pages_opened": 20,
+      "date_matched_source_pages": 11,
+      "date_matched_source_domains": 9,
+      "pages_returned_content": 20,
+      "page_url_errors": 0,
+      "no_readable_text_pages": 0,
+      "partial_page_urls": [
+        "https://www.barrons.com/articles/anthropic-claude-openai-chatgpt-ai-hiring-aa91b640"
+      ],
+      "blocked_page_urls": [],
+      "targeted_domains": [
+        "openai.com",
+        "anthropic.com",
+        "deepmind.google",
+        "blog.google",
+        "ai.meta.com",
+        "x.ai",
+        "mistral.ai",
+        "deepseek.com",
+        "alibabacloud.com",
+        "qwen.ai",
+        "z.ai",
+        "moonshot.ai",
+        "minimax.io",
+        "huggingface.co",
+        "nvidia.com",
+        "amd.com",
+        "intel.com",
+        "broadcom.com",
+        "tsmc.com",
+        "asml.com",
+        "samsung.com",
+        "microsoft.com",
+        "github.com",
+        "github.blog",
+        "cursor.com",
+        "langchain.com",
+        "cloud.google.com",
+        "aws.amazon.com",
+        "developer.apple.com",
+        "perplexity.ai",
+        "docs.anthropic.com",
+        "arxiv.org",
+        "nature.com",
+        "science.org",
+        "research.google",
+        "openreview.net",
+        "ieee.org",
+        "spectrum.ieee.org",
+        "roboticsbusinessreview.com",
+        "cisa.gov",
+        "cert-in.org.in",
+        "nvd.nist.gov",
+        "cloudflare.com",
+        "status.openai.com",
+        "status.claude.com",
+        "githubstatus.com",
+        "therecord.media",
+        "reuters.com",
+        "bloomberg.com",
+        "ft.com",
+        "wsj.com",
+        "datacenterdynamics.com",
+        "iea.org",
+        "sec.gov",
+        "investor.nvidia.com",
+        "business-standard.com",
+        "livemint.com",
+        "economictimes.indiatimes.com",
+        "nikkei.com",
+        "scmp.com"
+      ],
+      "opened_domains": [
+        "deepmind.google",
+        "aiweekly.co",
+        "observatory.mgorsky.net",
+        "indianstartupnews.com",
+        "unite.ai",
+        "thehackernews.com",
+        "bfsi.eletsonline.com",
+        "barrons.com",
+        "livemint.com",
+        "bacs.admin.ch",
+        "reuters.com",
+        "euronews.com",
+        "moonbitlang.com",
+        "huggingface.co",
+        "superpowerdaily.com",
+        "arcxiv.org",
+        "github.com",
+        "press.aboutamazon.com"
+      ],
+      "materially_read_domains": [
+        "deepmind.google",
+        "aiweekly.co",
+        "observatory.mgorsky.net",
+        "indianstartupnews.com",
+        "unite.ai",
+        "thehackernews.com",
+        "bfsi.eletsonline.com",
+        "livemint.com",
+        "bacs.admin.ch",
+        "reuters.com",
+        "euronews.com",
+        "moonbitlang.com",
+        "huggingface.co",
+        "superpowerdaily.com",
+        "arcxiv.org",
+        "github.com",
+        "press.aboutamazon.com"
+      ],
+      "partial_or_limited_domains": [
+        "barrons.com — paywall-limited; headline and lede only; not counted as a story."
+      ],
+      "blocked_domains": [
+        "semafor.com — original report blocked by robots.txt; only secondary relays were readable.",
+        "ieee.org — search access blocked."
+      ],
+      "date_matched_domains": [
+        "huggingface.co",
+        "unite.ai",
+        "indianstartupnews.com",
+        "reuters.com",
+        "thehackernews.com",
+        "euronews.com",
+        "moonbitlang.com",
+        "superpowerdaily.com",
+        "aiweekly.co"
+      ],
+      "source_classes_inspected": [
+        "Primary model card and weight-access documentation: BharatGen / Hugging Face.",
+        "Primary developer release note: MoonBit.",
+        "Primary government cybersecurity advisory: Swiss BACS / NCSC (24 November; used for controls and incident context).",
+        "Independent reporting: Reuters, Euronews, The Hacker News, Unite.AI and Indian Startup News.",
+        "Secondary financial reporting: Superpower Daily relay of Semafor and AI Weekly summary; original Semafor article was blocked.",
+        "Academic benchmark and public repository: OS-Omni arXiv paper and GitHub repository (25 November, outside strict 48-hour window).",
+        "Paywall-limited coverage: Barron's; headline and lede only, excluded from story count.",
+        "Regional context: Livemint and the Observatory; used for discovery and cross-checking, not as sole proof."
+      ],
+      "beat_audit": {
+        "model_benchmark": {
+          "material_found_in_window": true,
+          "details": "Patram 1.5 released 26 Nov; 7.8B document VLM, 32,768-token context and vendor-reported score 83. No new frontier chat-model version, price or latency change verified. OS-Omni is a 25 Nov near-window benchmark note, not counted in the strict-window story total."
+        },
+        "open_weights_local_inference": {
+          "material_found_in_window": true,
+          "details": "Patram weights are Apache 2.0 with sign-in gating; local Transformers and vLLM inference paths are documented. Independent multilingual and production evaluation remains absent."
+        },
+        "developer_agent": {
+          "material_found_in_window": true,
+          "details": "MoonBit 1.0 release candidate freezes the compiler and targets 18 Feb 2027 for full release; sandboxed agent code mode and experimental proof support are material."
+        },
+        "creator_multimodal": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched image, video, audio, music or creator-tool release verified; official product and changelog source classes were included in the sweep."
+        },
+        "research_robotics": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched scientific result or robotics deployment verified. DeepMind research pages and academic preprint discovery were checked; OS-Omni is a benchmark paper dated 25 Nov, outside the strict window."
+        },
+        "security_reliability": {
+          "material_found_in_window": true,
+          "details": "Swiss BACS advisory and Reuters reporting document AI-agent-assisted intrusions; no new major AI-provider outage or AI-specific CVE independently verified in this bounded pass."
+        },
+        "compute_geopolitics": {
+          "material_found_in_window": false,
+          "details": "No new 26–28 Nov change verified on Nvidia availability/export controls, Huawei Ascend, SMIC or Chinese model-training restrictions; the 27 Nov issue's reports were unchanged."
+        },
+        "hbm_packaging_networking": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched HBM, advanced-packaging or networking development verified."
+        },
+        "energy_datacentres": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched power, grid, commissioning or hyperscaler capacity development verified. Airtel's 25 Nov Assam MoU is outside the strict window and remains planned capacity."
+        },
+        "business_capital": {
+          "material_found_in_window": true,
+          "details": "SAP workforce planning is reported but unconfirmed; Citi/JPMorgan loan-portfolio marketing is a low-to-medium confidence follow-up. No new signed compute contract, recognised revenue, backlog conversion, deployed capacity or cash-spend figure verified."
+        },
+        "india_asia": {
+          "material_found_in_window": true,
+          "details": "Patram 1.5 is a material India model release. No other new India/Asia policy, chip or compute development verified in the strict window."
+        },
+        "policy_law_copyright_society": {
+          "material_found_in_window": false,
+          "details": "No material, date-matched binding AI law, copyright ruling or export-control decision verified."
+        }
+      },
+      "community_signal_audit": {
+        "platforms": [
+          "GitHub",
+          "Hugging Face",
+          "AI Weekly",
+          "Reddit / X discovery"
+        ],
+        "verified_promoted": 0,
+        "reason": "No community-only signal met the verification threshold; social sources were discovery only and were not used as independent proof."
+      },
+      "archive_integrity": {
+        "root_index_inspected": true,
+        "archive_index_inspected": true,
+        "story_registry_inspected": true,
+        "all_archive_index_paths_enumerated": true,
+        "all_archive_index_paths_reopened": true,
+        "archive_issue_files_enumerated": 51,
+        "archive_issue_files_reopened_this_run": 51,
+        "archive_issue_files_checked": 51,
+        "archive_pages_not_checked": [],
+        "historical_registry_complete_before_append": true,
+        "backfill_required": false,
+        "backfill_story_records_added": 0,
+        "backfill_edition_records_added": 0,
+        "archive_index_dated_entries_before": 51,
+        "archive_index_dated_entries_after": 52,
+        "archive_index_links_added": [
+          "archive/2026-11-28.html"
+        ],
+        "prior_records_removed": 0,
+        "earlier_same_day_editions_preserved": true
+      },
+      "registry_legacy_anomalies_preserved": {
+        "duplicate_story_ids": [
+          "event-google-deepmind-wants-ai-to-build-worlds-you-can-step-inside"
+        ],
+        "legacy_edition_records_without_edition_id": 41,
+        "action": "Preserved the pre-existing duplicate historical story ID and legacy edition records without edition_id. No historical story or edition record was deleted, renamed or deduplicated."
+      },
+      "manual_html_validation": {
+        "doctype": true,
+        "required_section_ids": true,
+        "main_desk_story_count": 4,
+        "main_impact_panels": 4,
+        "more_signals_count": 1,
+        "total_story_cards": 5,
+        "external_source_links": 20,
+        "search_filter": true,
+        "desk_filter": true,
+        "native_speech_controls": true,
+        "share_file_attachment_with_manual_fallback": true,
+        "download_html": true,
+        "print_pdf_styles": true,
+        "third_party_scripts": false,
+        "external_linter_run": false,
+        "human_editorial_pass": true
+      }
     }
   ],
   "stories": [
@@ -12315,7 +12629,9 @@
         "archive/2026-11-07.html",
         "archive/2026-11-07-edition-2.html"
       ],
-      "follow_up_editions": [],
+      "follow_up_editions": [
+        "signal-2026-11-28"
+      ],
       "delivery_note": null
     },
     {
@@ -21575,6 +21891,275 @@
       "verification_status": "syndicated_reported_statement",
       "repeat_status": "new",
       "status": "verified"
+    },
+    {
+      "story_id": "event-bharatgen-patram-1-5-open-weight-vlm-2026-11-26",
+      "normalized_subject": "bharatgen releases patram 1.5 open-weight document vision-language model",
+      "normalized_headline": "BharatGen releases Patram 1.5, a document model built to abstain rather than guess",
+      "entities": [
+        "BharatGen",
+        "Patram 1.5",
+        "Hugging Face",
+        "IndiaAI Mission",
+        "OCR 3.0",
+        "Apache 2.0"
+      ],
+      "event_summary": "BharatGen released Patram 1.5 on 26 November 2026, a 7.8B vision-language document model with prompt-controlled OCR 3.0 and abstention. The model card lists a 32,768-token context and Apache 2.0 licence; access is gated behind Hugging Face sign-in. BharatGen reports an overall score of 83 across 15 PatramBench tasks and 34 public benchmarks; public benchmark items are English-only and no independent reproduction was found.",
+      "canonical_urls": [
+        "https://huggingface.co/bharatgenai/Patram1.5-7B",
+        "https://www.unite.ai/bharatgen-launches-patram-1-5-with-promptable-ocr-and-abstention/",
+        "https://indianstartupnews.com/news/india-needs-a-non-profit-to-build-sovereign-ai-says-bharatgen-ceo-rishi-bal-as-patram-15-launches-12846404"
+      ],
+      "original_publication_date": "2026-11-26",
+      "first_edition_date": "2026-11-28",
+      "first_edition_path": "archive/2026-11-28.html",
+      "edition_paths": [
+        "archive/2026-11-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "BharatGen / Hugging Face",
+          "source_class": "primary_model_card",
+          "published_date": "2026-11-26",
+          "url": "https://huggingface.co/bharatgenai/Patram1.5-7B",
+          "role": "Release date, architecture, context, licence, access conditions and vendor benchmark results."
+        },
+        {
+          "publisher": "Unite.AI",
+          "source_class": "independent_technical_reporting",
+          "published_date": "2026-11-26",
+          "url": "https://www.unite.ai/bharatgen-launches-patram-1-5-with-promptable-ocr-and-abstention/",
+          "role": "Technical review of benchmark scope, gating and intended enterprise use."
+        },
+        {
+          "publisher": "Indian Startup News",
+          "source_class": "independent_reporting",
+          "published_date": "2026-11-27",
+          "url": "https://indianstartupnews.com/news/india-needs-a-non-profit-to-build-sovereign-ai-says-bharatgen-ceo-rishi-bal-as-patram-15-launches-12846404",
+          "role": "Launch reporting, use cases and reported API waitlist."
+        }
+      ],
+      "source_domains": [
+        "huggingface.co",
+        "unite.ai",
+        "indianstartupnews.com"
+      ],
+      "desk": "models_india",
+      "evidence_confidence": "High on release, specifications and licence; medium on benchmark performance because the runs are vendor-reported and public test items are English-only.",
+      "verification_status": "release_verified_vendor_benchmark_not_independently_reproduced",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-swiss-ai-agent-attacks-five-cases-2026-11-26",
+      "normalized_subject": "Swiss authorities disclose five AI-agent-assisted cyberattacks with four reported compromises",
+      "normalized_headline": "Swiss authorities disclose five AI-agent-assisted cyberattacks; four reportedly compromised systems",
+      "entities": [
+        "BACS",
+        "Swiss National Cyber Security Centre",
+        "Reuters",
+        "AI agents",
+        "ARTEX",
+        "CyberStrikeAI",
+        "critical infrastructure"
+      ],
+      "event_summary": "The Swiss Federal Office for Cybersecurity issued an advisory on 24 November describing AI-agent-assisted intrusions. Reuters reported on 26 November that five attacks had been identified, four succeeded and three critical-infrastructure operators were targeted. No major disruption, victim names, attacker attribution or case-level tool details were disclosed. The advisory recommends reducing internet exposure, patching critical internet-facing systems within 24 hours, MFA or passkeys, least privilege and behavioural monitoring.",
+      "canonical_urls": [
+        "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+        "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/",
+        "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
+      ],
+      "original_publication_date": "2026-11-26",
+      "first_edition_date": "2026-11-28",
+      "first_edition_path": "archive/2026-11-28.html",
+      "edition_paths": [
+        "archive/2026-11-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Swiss Federal Office for Cybersecurity / BACS",
+          "source_class": "primary_government_advisory",
+          "published_date": "2026-11-24",
+          "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+          "role": "Official description of agentic offensive frameworks, observed weaknesses and defensive recommendations."
+        },
+        {
+          "publisher": "Reuters",
+          "source_class": "independent_reporting",
+          "published_date": "2026-11-26",
+          "url": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/",
+          "role": "Reported five-case count, four successful compromises and three critical-infrastructure operators targeted."
+        },
+        {
+          "publisher": "The Hacker News",
+          "source_class": "independent_security_reporting",
+          "published_date": "2026-11-27",
+          "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+          "role": "Follow-on context; no public attribution to ARTEX or CyberStrikeAI."
+        }
+      ],
+      "source_domains": [
+        "bacs.admin.ch",
+        "reuters.com",
+        "thehackernews.com"
+      ],
+      "desk": "security_reliability",
+      "evidence_confidence": "High that incidents occurred and Reuters-reported count; medium on case-level breakdown and tools because victims and attackers remain undisclosed.",
+      "verification_status": "official_advisory_and_reuters_incident_count_verified",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-sap-ai-workforce-plan-10000-roles-2026-11-27",
+      "normalized_subject": "SAP weighs AI-era workforce restructuring with Bloomberg's reported 10000 role figure",
+      "normalized_headline": "SAP weighs a major AI-era workforce plan; the 10,000-role figure remains unconfirmed",
+      "entities": [
+        "SAP",
+        "Bloomberg",
+        "Reuters",
+        "Euronews",
+        "Christian Klein",
+        "SAP works council"
+      ],
+      "event_summary": "Reuters reported on 27 November, citing two people familiar with the matter, that SAP is preparing to cut a sizeable number of roles. Bloomberg had reported at least 10,000 positions, around 9% of the workforce; Reuters said it could not independently verify that figure. SAP's works council had not been informed and SAP told Euronews that no decisions had been made regarding further measures.",
+      "canonical_urls": [
+        "https://www.reuters.com/business/world-at-work/sap-seeks-cut-sizeable-number-jobs-sources-say-2026-11-27/",
+        "https://www.reuters.com/technology/sap-considers-least-10000-job-cuts-ai-restructuring-bloomberg-reports-2026-11-26/",
+        "https://www.euronews.com/2026/11/27/german-sofware-giant-sap-weighs-at-least-10000-job-cuts-amid-ai-shift-reports-say"
+      ],
+      "original_publication_date": "2026-11-27",
+      "first_edition_date": "2026-11-28",
+      "first_edition_path": "archive/2026-11-28.html",
+      "edition_paths": [
+        "archive/2026-11-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Reuters",
+          "source_class": "independent_reporting",
+          "published_date": "2026-11-27",
+          "url": "https://www.reuters.com/business/world-at-work/sap-seeks-cut-sizeable-number-jobs-sources-say-2026-11-27/",
+          "role": "Two-source confirmation of a sizeable workforce plan; works council not yet informed."
+        },
+        {
+          "publisher": "Reuters relaying Bloomberg",
+          "source_class": "reported_claim_with_verification_caveat",
+          "published_date": "2026-11-26",
+          "url": "https://www.reuters.com/technology/sap-considers-least-10000-job-cuts-ai-restructuring-bloomberg-reports-2026-11-26/",
+          "role": "10,000-role estimate; Reuters explicitly could not independently verify the Bloomberg report."
+        },
+        {
+          "publisher": "Euronews",
+          "source_class": "independent_reporting_with_company_response",
+          "published_date": "2026-11-27",
+          "url": "https://www.euronews.com/2026/11/27/german-sofware-giant-sap-weighs-at-least-10000-job-cuts-amid-ai-shift-reports-say",
+          "role": "SAP response that no further measures had been decided."
+        }
+      ],
+      "source_domains": [
+        "reuters.com",
+        "euronews.com"
+      ],
+      "desk": "business_society",
+      "evidence_confidence": "High that a sizeable plan is being discussed; low on the exact 10,000 figure and final outcome because no decision has been announced and Reuters could not independently verify Bloomberg's estimate.",
+      "verification_status": "reported_planning_not_confirmed",
+      "repeat_status": "new",
+      "status": "reported"
+    },
+    {
+      "story_id": "event-moonbit-1-0-release-candidate-compiler-stable-2026-11-26",
+      "normalized_subject": "MoonBit publishes 1.0 release candidate and freezes compiler",
+      "normalized_headline": "MoonBit freezes its compiler for a 1.0 release candidate, targeting 18 February 2027",
+      "entities": [
+        "MoonBit",
+        "IDEA",
+        "WebAssembly",
+        "JavaScript",
+        "Native backend",
+        "moon prove"
+      ],
+      "event_summary": "MoonBit's 26 November release note says its 1.0 release-candidate compiler is stable and will receive bug fixes only until the full release, targeted for 18 February 2027. The core library is mostly stable, with async and archive packages still open to minor API refinements. The language offers Native and WebAssembly tier-1 backends plus JavaScript, a WebAssembly macro sandbox and an experimental proof command. Performance and adoption claims were not independently benchmarked in this pass.",
+      "canonical_urls": [
+        "https://www.moonbitlang.com/blog/moonbit-1-0-rc"
+      ],
+      "original_publication_date": "2026-11-26",
+      "first_edition_date": "2026-11-28",
+      "first_edition_path": "archive/2026-11-28.html",
+      "edition_paths": [
+        "archive/2026-11-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "MoonBit",
+          "source_class": "primary_developer_release_note",
+          "published_date": "2026-11-26",
+          "url": "https://www.moonbitlang.com/blog/moonbit-1-0-rc",
+          "role": "Release-candidate status, stable compiler, target date, backend and agent-code-mode details."
+        }
+      ],
+      "source_domains": [
+        "moonbitlang.com"
+      ],
+      "desk": "developer_agent",
+      "evidence_confidence": "High on the official release note and target date; medium on performance, security and adoption claims because no independent comparison was verified.",
+      "verification_status": "official_release_note_verified_vendor_claims_not_independently_benchmarked",
+      "repeat_status": "new",
+      "status": "verified"
+    },
+    {
+      "story_id": "event-citi-jpm-ai-loan-portfolios-risk-transfer-2026-11-27",
+      "normalized_subject": "Citi and JPMorgan reportedly market AI-related loan portfolios to investors",
+      "normalized_headline": "Citi and JPMorgan reportedly market AI-related loan portfolios to investors",
+      "entities": [
+        "Citigroup",
+        "JPMorgan Chase",
+        "Semafor",
+        "AI data centres",
+        "synthetic risk transfer",
+        "ING"
+      ],
+      "event_summary": "A Semafor report relayed by secondary sources says Citi and JPMorgan are marketing AI-related loan portfolios to investors; some proposed structures may transfer credit-loss exposure through synthetic risk transfers while banks retain the loans. Neither bank confirmed a transaction in the sources reviewed, and no buyer, amount, closing or borrower list was disclosed. This is a material follow-up to ING's earlier data-centre loan portfolio sale reported in the 7 November edition.",
+      "canonical_urls": [
+        "https://superpowerdaily.com/posts/citi-and-jpmorgan-are-shopping-ai-loan-portfolios-semafor-reports",
+        "https://aiweekly.co/alerts/citi-and-jpmorgan-shop-ai-data-center-loan-portfolios-to-investors-as"
+      ],
+      "original_publication_date": "2026-11-27",
+      "first_edition_date": "2026-11-28",
+      "first_edition_path": "archive/2026-11-28.html",
+      "edition_paths": [
+        "archive/2026-11-28.html"
+      ],
+      "follow_up_editions": [],
+      "source_metadata": [
+        {
+          "publisher": "Superpower Daily relaying Semafor",
+          "source_class": "secondary_relay_of_reported_financial_development",
+          "published_date": "2026-11-27",
+          "url": "https://superpowerdaily.com/posts/citi-and-jpmorgan-are-shopping-ai-loan-portfolios-semafor-reports",
+          "role": "Summary of reported portfolio marketing and possible synthetic risk-transfer structures; original Semafor article was blocked."
+        },
+        {
+          "publisher": "AI Weekly",
+          "source_class": "newsletter_summary_of_semafor_reporting",
+          "published_date": "2026-11-27",
+          "url": "https://aiweekly.co/alerts/citi-and-jpmorgan-shop-ai-data-center-loan-portfolios-to-investors-as",
+          "role": "Secondary summary; no bank confirmation or transaction terms."
+        }
+      ],
+      "source_domains": [
+        "superpowerdaily.com",
+        "aiweekly.co",
+        "semafor.com"
+      ],
+      "desk": "business_capital",
+      "evidence_confidence": "Low-to-medium; the original Semafor article was robots-blocked and the banks did not confirm a transaction in the accessible secondary sources.",
+      "verification_status": "secondary_report_not_independently_confirmed",
+      "repeat_status": "follow-up",
+      "status": "reported"
     }
   ],
   "archive_backfill_audit": [
